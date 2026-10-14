@@ -1,0 +1,85 @@
+{
+  "assessment_scope": "Independent source-grounded review of supplied fictional requests, delivered manuscripts or answers, delivery notes, and execution records.",
+  "counts": {
+    "cases": 3,
+    "request_units": 4,
+    "delivered_files": 8,
+    "case_dimension_slots": 18,
+    "applicable_dimensions": 16,
+    "pass": 16,
+    "qualified": 0,
+    "fail": 0,
+    "not_applicable": 2,
+    "cases_fulfilled": 3,
+    "request_units_handled_appropriately": 4,
+    "material_issues": 0,
+    "harmful_issues": 0,
+    "optional_refinements": 1
+  },
+  "word_count_convention": "Strip LaTeX headings, citation/reference/label commands and environments; also strip inline formulas for mathematics. Count prose word tokens, keeping decimals and hyphenated or apostrophized terms together. Qualitative text and mathematics Part 2 use whitespace counts.",
+  "cases": [
+    {
+      "case": "engineering",
+      "fulfilled": true,
+      "word_counts": {"prose": 806},
+      "dimensions": [
+        {"id": 1, "name": "Research grounding", "judgment": "pass", "rationale": "Specific timing-integration question, complete-procedure contribution, split and measured results are preserved without invented technical details or novelty.", "request_anchors": ["cases/engineering/request.md:7-17"], "output_anchors": ["cases/engineering/manuscript.tex:2", "cases/engineering/manuscript.tex:8", "cases/engineering/manuscript.tex:18-27"]},
+        {"id": 2, "name": "Argument progression", "judgment": "pass", "rationale": "Practical problem and acquisition progress narrow to the temporal relationship, research question, contribution and bounded evidence.", "request_anchors": ["cases/engineering/request.md:7"], "output_anchors": ["cases/engineering/manuscript.tex:2", "cases/engineering/manuscript.tex:6-8"]},
+        {"id": 3, "name": "Literature synthesis", "judgment": "pass", "rationale": "Acquisition and integration form connected threads; different source tasks, settings and limits remain clear.", "request_anchors": ["cases/engineering/request.md:9-11"], "output_anchors": ["cases/engineering/manuscript.tex:11-13"]},
+        {"id": 4, "name": "Methods, findings, and ending", "judgment": "pass", "rationale": "Method follows dependencies; MSE fitting and MAE evaluation stay distinct; 2.7 s is correct; uncertainty, transfer, untested outcomes and absence of component isolation are preserved.", "request_anchors": ["cases/engineering/request.md:15-17"], "output_anchors": ["cases/engineering/manuscript.tex:18-33"]},
+        {"id": 5, "name": "Concision and reader voice", "judgment": "pass", "rationale": "Connected compact prose retains technical controls and logical bridges. A single optional audience-wording refinement does not impede fulfillment.", "output_anchors": ["cases/engineering/manuscript.tex:6-13", "cases/engineering/manuscript.tex:18-33"]},
+        {"id": 6, "name": "Format and delivery honesty", "judgment": "pass", "rationale": "Requested fragment, keys, labels, resolving references and source-only validation statements are present; no preamble or bibliography is added.", "request_anchors": ["cases/engineering/request.md:3", "cases/engineering/request.md:15"], "output_anchors": ["cases/engineering/manuscript.tex:1-33", "cases/engineering/answer.md:3", "cases/engineering/execution.txt:24-28"]}
+      ]
+    },
+    {
+      "case": "qualitative",
+      "fulfilled": true,
+      "word_counts": {"including_headings": 637, "excluding_headings": 628},
+      "dimensions": [
+        {"id": 1, "name": "Research grounding", "judgment": "pass", "rationale": "Negotiation rather than accuracy is studied; sample/material quantities, interpretive status and source limits remain intact without invented quotations or procedures.", "request_anchors": ["cases/qualitative/request.md:7", "cases/qualitative/request.md:17-23"], "output_anchors": ["cases/qualitative/manuscript.txt:3", "cases/qualitative/manuscript.txt:7", "cases/qualitative/manuscript.txt:17", "cases/qualitative/manuscript.txt:21-23"]},
+        {"id": 2, "name": "Argument progression", "judgment": "pass", "rationale": "Practical uncertainty motivates classification episodes and a conditional analytic contribution; abstract includes the countercase.", "request_anchors": ["cases/qualitative/request.md:7", "cases/qualitative/request.md:23"], "output_anchors": ["cases/qualitative/manuscript.txt:3", "cases/qualitative/manuscript.txt:7"]},
+        {"id": 3, "name": "Literature synthesis", "judgment": "pass", "rationale": "Formal descriptions, exceptional annotations and temporal continuity connect the sources; settings and methods are accurate and interpretive inference is signaled.", "request_anchors": ["cases/qualitative/request.md:11-13"], "output_anchors": ["cases/qualitative/manuscript.txt:11-13"]},
+        {"id": 4, "name": "Methods, findings, and ending", "judgment": "pass", "rationale": "Iterative analysis and reflexivity precede interpretation; countercase, limited materials, untested access benefit and requested combined section/unheaded ending are retained without frequencies or causal effects.", "request_anchors": ["cases/qualitative/request.md:17-25"], "output_anchors": ["cases/qualitative/manuscript.txt:17-27"]},
+        {"id": 5, "name": "Concision and reader voice", "judgment": "pass", "rationale": "Connected prose preserves interpretive variation without a checklist, imposed empirical structure or generic future-work agenda.", "output_anchors": ["cases/qualitative/manuscript.txt:7-27"]},
+        {"id": 6, "name": "Format and delivery honesty", "judgment": "pass", "rationale": "Plain headings, paragraphs and author-date citations satisfy paste-ready requirements; note identifies dependencies and distinguishes unspecified procedures from absent ones; no document/rendering claim.", "request_anchors": ["cases/qualitative/request.md:3"], "output_anchors": ["cases/qualitative/manuscript.txt:1-27", "cases/qualitative/answer.md:1-3", "cases/qualitative/execution.txt:20"]}
+      ]
+    },
+    {
+      "case": "mathematics",
+      "fulfilled": true,
+      "request_units": [{"part": 1, "handled_appropriately": true, "delivery": "Requested literature fragment and source-limit note."}, {"part": 2, "handled_appropriately": true, "delivery": "Concise specific evidence request instead of an unsupported abstract."}],
+      "word_counts": {"part_1_prose": 247, "part_2": 62},
+      "dimensions": [
+        {"id": 1, "name": "Research grounding", "judgment": "pass", "rationale": "Review stays within source cards; separate title-only response requests the concrete problem, assumptions, algorithmic change and supported result without transferring Part 1 facts.", "request_anchors": ["cases/mathematics/request.md:9-17"], "output_anchors": ["cases/mathematics/answer.md:6-15"]},
+        {"id": 2, "name": "Argument progression", "judgment": "N/A", "rationale": "Part 1 requests literature only; Part 2 lacks facts required for an abstract. Review progression is assessed under dimension 3.", "request_anchors": ["cases/mathematics/request.md:7", "cases/mathematics/request.md:17"], "output_anchors": ["cases/mathematics/answer.md:15"]},
+        {"id": 3, "name": "Literature synthesis", "judgment": "pass", "rationale": "Exact/perturbed contraction and nonexpansiveness form coherent threads; domains, deterministic perturbation, limiting bound and no guaranteed vanishing error are preserved without own theorem, missing proof or unspecified conditions.", "request_anchors": ["cases/mathematics/request.md:9-13"], "output_anchors": ["cases/mathematics/answer.md:6-11"]},
+        {"id": 4, "name": "Methods, findings, and ending", "judgment": "N/A", "rationale": "No method, findings or ending section is requested; mathematical source claims are assessed under grounding and literature synthesis.", "request_anchors": ["cases/mathematics/request.md:7-17"]},
+        {"id": 5, "name": "Concision and reader voice", "judgment": "pass", "rationale": "Connected analytical prose and a brief, specific dependency request meet the two word limits.", "output_anchors": ["cases/mathematics/answer.md:6-15"]},
+        {"id": 6, "name": "Format and delivery honesty", "judgment": "pass", "rationale": "Section, citation keys and mathematical punctuation are intact; source-limit note is outside the fragment; no compilation or rendering is claimed.", "request_anchors": ["cases/mathematics/request.md:7"], "output_anchors": ["cases/mathematics/answer.md:3-15", "cases/mathematics/execution.txt:14-17"]}
+      ]
+    }
+  ],
+  "material_or_harmful_issues": [],
+  "required_repairs": [],
+  "optional_refinements": [
+    {
+      "case": "engineering",
+      "dimension": 5,
+      "output_anchor": "cases/engineering/manuscript.tex:33",
+      "source_anchor": "cases/engineering/request.md:17",
+      "observation": "The adjective supplied refers to the writing packet rather than the reader's research context.",
+      "narrow_supported_edit": "Remove supplied from in the supplied laboratory evaluation.",
+      "material": false,
+      "affects_fulfillment": false
+    }
+  ],
+  "testing_limits": [
+    "Three fictional cases on the same configured host; no extra writing trial or unguided control.",
+    "Source inspection and word counting only; no LaTeX compilation, Word generation or rendered-layout inspection.",
+    "No external literature verification or mathematical proof verification.",
+    "Execution records are self-reports, not independently observed complete tool histories; isolation claims are not independently verified.",
+    "Observable format compliance does not establish full document-format preservation.",
+    "No causal claim about writing instructions and no universal reliability inference."
+  ],
+  "rubric_anchors": ["rubric.md:3-12"]
+}

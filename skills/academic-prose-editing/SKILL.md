@@ -20,6 +20,12 @@ Recover each paragraph's claim, support, and role in the surrounding argument. F
 
 When a conclusion exceeds its support, correct the proposition using the supplied facts or identify the missing link. Do not conceal the issue by substituting “may” for “demonstrates.” Preserve motivation that explains why the next step is needed. Distinguish a study limitation from an analysis or document that was merely not supplied to the editor.
 
+## Replace generic framing with the actual scientific point
+
+Before adding content, identify the passage's role in the research question and section. A topic label is not enough to supply a motivation or contribution. Where the study's purpose or evidence is missing, flag the exact dependency rather than drafting a generic claim about importance, rapid progress, or urgent need. Keep the scope local for a local edit.
+
+Use the introduction's narrowing argument to judge whether a sentence advances context, established work, gap, motivation, or contribution. In a literature review, connect source-supported research threads and explain prior work; do not add contrasts with the present paper by default. In Methods, remove repeated explanations while preserving operation order. In Results and the ending, preserve the study design's way of supporting its answer. These are reader functions, not mandatory paragraph labels. Prefer connected prose over contribution lists, metric lists, or one-sentence paper summaries unless that structure is requested or required.
+
 ## Check words and sentences for professional usage
 
 Resolve the intended concept before choosing its name. Use the supplied definition, operation, measurement, or argument to determine what the expression denotes, its scope, and any property or mechanism the name implies. A fluent, familiar word can still identify the wrong object, quantity, relation, or inferential status. A rare expression can be exactly right.

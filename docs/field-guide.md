@@ -36,14 +36,14 @@ paragraph explicitly if omitting it could look like deletion.
 
 **Pattern:** A paragraph contrasts “historical-data methods” with “interactive methods,” although one cited method uses historical records and later expert annotations. Another paper already weights examples, so “we first introduce weighting” is unsupported.
 
-**Repair:** Compare on meaningful, potentially overlapping axes. An excerpt's silence about a feature means unknown, not absent. State the present design's operational difference without inventing exhaustive priority. Keep the detailed procedure in Methods.
+**Repair:** Follow connected research threads derived from the introduction. Explain what prior studies did and how they relate, without imposing separate camps or default comparisons with the present paper. An excerpt's silence about a feature means unknown, not absent. Bound explicit novelty claims to the available source coverage.
 
 **Use [related-work-synthesis](../skills/related-work-synthesis/SKILL.md):**
 
 ```text
-Synthesize these source excerpts around information, supervision, and
-decision rules. Allow overlapping categories. Bound novelty to the source
-coverage and identify claims that still need source verification.
+Read the introduction, then synthesize these sources through two or three
+connected research threads. Explain prior work and its relationships.
+Avoid default self-comparison and identify material source uncertainties.
 ```
 
 ## 4. The observed gain turns into an untested explanation

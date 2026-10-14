@@ -1,0 +1,24 @@
+Execution record
+
+Read inputs
+- /private/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-structure-ave2uadk/regression/cases/mathematics/request.md
+- /var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-structure-ave2uadk/regression/skills/related-work-synthesis/SKILL.md
+- /var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-structure-ave2uadk/regression/skills/scientific-story-audit/SKILL.md
+
+Applied related-work-synthesis to Part 1 and scientific-story-audit to Part 2. No other case, rubric, previous findings, memory, other run directory, or network source was read. No input was modified. Created only answer.md and execution.txt in this case folder.
+
+Checks performed
+- Part 1 contains 243 words when section and citation commands are excluded and each inline math expression counts as one word. It is within the requested 220–300 words.
+- Part 1 uses the required LaTeX section command and only citation keys c1, c2, and c3. It adds no bibliography entries.
+- Part 2 contains 70 words with its Markdown link counted by visible label. It is within the 100-word limit.
+- The two requests were handled independently. Part 2 does not import any mathematics source-card facts.
+
+Actual limits
+- The sources are fictional cards. Full papers, the c2 proof, and c3's additional conditions were unavailable and were not reconstructed.
+- The supplied cards do not establish novelty for the present paper's bounded-perturbation result.
+- No LaTeX compiler or rendered-layout check was run. The deliverable is a source fragment, not a compiled document.
+- A publication-ready abstract for Part 2 cannot be supported from the title alone. The response requests the missing scientific facts and states the applicable skill instruction; it does not invent a method, contribution, or result.
+
+Outputs
+- /private/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-structure-ave2uadk/regression/cases/mathematics/answer.md
+- /private/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-structure-ave2uadk/regression/cases/mathematics/execution.txt

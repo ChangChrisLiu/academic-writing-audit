@@ -1,0 +1,3 @@
+Delivered `manuscript.tex`, an English LaTeX article fragment of approximately 776 prose words, with all requested sections, the three supplied citation keys, and the existing method/results labels. It develops the rationale for timing-aware integration and reports the observed 6.4 s versus 9.1 s comparison with limits on transfer and component attribution.
+
+The draft uses only the fictional packet and supplied skill references. A precise model specification, hyperparameter values, confidence intervals, and significance tests were not provided, so none were invented. Source structure and references were inspected; the fragment was not compiled or rendered. `execution.txt` records the work and checks.

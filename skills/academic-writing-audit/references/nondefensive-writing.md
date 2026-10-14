@@ -59,7 +59,7 @@ Necessary negation can be the clearest wording. “The proof does not establish 
 | --- | --- |
 | Abstract | Problem, contribution, principal evidence, bounded takeaway. |
 | Introduction | Why the problem remains and why this contribution addresses it. |
-| Related work | A map of relevant approaches organized by meaningful comparison axes. |
+| Related work | Connected prior-work threads derived from the introduction, explaining studies and their relationships. |
 | Methods or analysis | Objects, operations or reasoning, and assumptions needed to understand the contribution. |
 | Experimental setup | The question tested, actual comparators, endpoint, and design needed to read the results. |
 | Results | Main findings and supported interpretation. |

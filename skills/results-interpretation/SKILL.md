@@ -8,6 +8,14 @@ license: MIT
 
 Explain what the results answer, how strongly, and under which conditions. Keep supported positive and negative findings visible. A useful Results paragraph connects evidence to the research question without turning every observation into a mechanism or replacing interpretation with disclaimers.
 
+## Match the study's way of answering its question
+
+Read the research question, study design, discipline, and supplied reporting format before choosing the narrative. The same discipline can contain quantitative, qualitative, theoretical, or mixed-method work. A quantitative study may proceed from a principal estimate to uncertainty and informative secondary findings. An engineering evaluation may connect a benchmark to targeted diagnostics. A qualitative account develops an analytic claim through evidence, interpretation, and variation; it must not turn themes into population frequencies or invent quotations. A theoretical account follows assumptions, propositions, proof dependencies, and consequences without inventing empirical validation. Mixed-method writing explains convergence and disagreement between evidence streams.
+
+Apply the quantitative checks below where relevant, not as compulsory elements in every paper. Respect separate Results and Discussion or a supplied combined format. Keep broader explanation and literature comparison in their appropriate section. Never infer a reporting requirement from a field label alone.
+
+When limitations or a conclusion are requested, tie each material limitation to the inference or applicability it constrains. Return to the study question with the supported answer and bounded significance. Avoid stock caveat lists, section-by-section recaps, new results, and generic future-work promises. These functions may sit within Discussion rather than under separate headings.
+
 ## Establish the result's identity
 
 For each material result, recover the study, compared variants, evaluation population or tasks, endpoint, denominator, unit of analysis, and supplied uncertainty. Use only details that affect interpretation. Keep the definition of success intact: a compound endpoint must not become one convenient component or a broader guarantee.

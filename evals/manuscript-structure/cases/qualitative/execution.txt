@@ -1,0 +1,20 @@
+Inputs read
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-structure-ave2uadk/cases/qualitative/request.md
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-structure-ave2uadk/skills/research-manuscript-writing/SKILL.md
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-structure-ave2uadk/skills/research-manuscript-writing/references/section-reasoning.md
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-structure-ave2uadk/skills/research-manuscript-writing/references/findings-and-endings.md
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-structure-ave2uadk/skills/research-manuscript-writing/references/latex-and-word.md
+
+Outputs created
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-structure-ave2uadk/cases/qualitative/manuscript.txt
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-structure-ave2uadk/cases/qualitative/answer.md
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-structure-ave2uadk/cases/qualitative/execution.txt
+
+Execution
+Drafted paste-ready English prose from the fictional packet. Used plain headings and paragraphs, supplied author-date citations, a combined Findings and Discussion section containing the limitations, and a concluding paragraph without a separate heading. Read back the manuscript and checked heading order, paragraph boundaries, citation names and years, and the absence of Markdown markup and LaTeX commands. Reviewed the prose against the supplied observations and countercase.
+
+Word count
+637 whitespace-delimited words including headings; 628 excluding headings.
+
+Scope and limits
+Read only the specified request, supplied skill and relevant skill references, and generated outputs. No other cases, rubric, prior judgments, memories, or network sources were consulted. Inputs were not changed. The output is plain text for pasting into Word. No .docx or PDF was created, and no Word layout or rendered document was inspected. No exact quotations or additional study procedures were supplied or invented.

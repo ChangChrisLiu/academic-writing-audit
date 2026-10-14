@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "path_resolution": "File paths are relative to the repository. Initial skill files resolve at their recorded commit. Revised skill files resolve in this revision. Raw private inputs and outputs are excluded.",
+  "path_resolution": "File paths are relative to the repository. Skill versions resolve at their recorded git_commit when present, otherwise in the current revision. Raw private inputs and outputs are excluded.",
   "files": {
     "evals/real-manuscript-audit/README.md": "293d5786fc27f99bb9456f4b6064bf1fb825e81f6dbe1bece016c0389f0027a8",
     "evals/real-manuscript-audit/assessment-summary.json": "1da2d9139dabcfd7243c4f7859a104577abb8f3da7dcfa828b119786eb7ba2e5",
@@ -55,7 +55,8 @@
         "reviewer-response-writing/agents/openai.yaml": "bcf6b0e6180f0f2d6d60a8b19bc297762b3e8e05b31b280bf7b7683c369ec5d8",
         "reviewer-response-writing/references/manuscript-boundary.md": "31dbc5b83390634b258c4482f07c23c272b08335b2906d6e8c5ba11bce00bc89",
         "reviewer-response-writing/references/response-patterns.md": "373ea35fd7119630c4367d94f7ea923cedba517a57258aadfbfe3a17f867294f"
-      }
+      },
+      "git_commit": "73f0c317b7991be0f80222a8e566ca05a4867101"
     }
   }
 }

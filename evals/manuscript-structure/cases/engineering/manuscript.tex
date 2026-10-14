@@ -1,0 +1,33 @@
+\begin{abstract}
+Brief irrigation interruptions can reduce greenhouse water delivery before routine inspection detects them. Scheduled moisture measurements provide sparse observations near interruption onset, while event-triggered pressure readings add transition information at asynchronous times. The resulting estimation problem requires relating those observations in time. We introduce a delay-aware onset estimator that aligns records to the latest scheduled moisture reading and includes elapsed time in onset estimation. Using identical records and an episode-level split, the estimator achieved a mean absolute onset error of 6.4~s across 12 held-out episodes, compared with 9.1~s for a pooling comparator. These findings support timing-aware integration for onset estimation within the tested laboratory greenhouse.
+\end{abstract}
+
+\section{Introduction}
+Monitoring irrigation interruptions requires recognizing changes that can occur between routine inspections. Brief valve failures can reduce water delivery during these intervals, making interruption onset a useful quantity to estimate. Scheduled moisture monitoring has identified sustained irrigation deficits, although short interruptions were recognized later under the evaluated fixed schedule~\cite{routine2022}. Event-triggered pressure measurements offer denser observations around valve transitions~\cite{event2023}.
+
+Denser observations alone leave a temporal integration problem. Pressure readings arrive asynchronously relative to the moisture schedule, and simply pooling the records loses that relationship. Expressing a pressure reading's timing relative to the most recent scheduled reading supplies information about when the two measurements were obtained. We therefore ask whether incorporating this relationship improves interruption-onset estimation. The contribution is a delay-aware onset estimator and its evaluation against pooling with identical records and training episodes. The comparison tests the complete procedure in a controlled greenhouse setting.
+
+\section{Related Work}
+Work on measurement timing connects routine coverage with observations concentrated around transitions. Scheduled moisture monitoring identified sustained irrigation deficits using fixed sampling times, but reported delayed recognition of short interruptions under that schedule~\cite{routine2022}. Pressure-change triggers increased measurement density near valve transitions in a separate testbed~\cite{event2023}. Together, these studies describe how acquisition choices shape the information available around an interruption. Their reported outcomes, deficit recognition and acquisition timing, do not establish the accuracy of joint onset estimation from the two record types.
+
+The timing of acquisition also determines how heterogeneous records can be related. The pressure-trigger study evaluated when observations were obtained~\cite{event2023}, whereas relative-time alignment of asynchronous temperature and humidity records addressed their integration and reduced interpolation error in its environmental-monitoring experiment~\cite{alignment2024}. These findings connect informative sampling with a common temporal reference. The alignment result concerns interpolation of temperature and humidity, so its reported benefit does not establish irrigation-valve onset accuracy. That distinction makes the downstream estimation task consequential when assessing temporal integration.
+
+\section{Method}
+\label{sec:method}
+\subsection{Episodes and temporal representation}
+The data comprise 18 controlled interruption episodes for training and 12 further episodes held out for evaluation. Splitting by episode prevents any episode from appearing in both sets. Each estimator receives the same scheduled moisture measurements and event-triggered pressure readings from these episodes.
+
+The proposed procedure associates records with the most recent scheduled moisture reading. It computes elapsed time from that reading and uses this temporal quantity alongside moisture and pressure as an additional model input. This representation retains the relationship between the scheduled observations and the asynchronous event readings for onset estimation.
+
+\subsection{Estimation and comparison}
+The delay-aware onset estimator fits coefficients by minimizing mean squared onset-time error over the training episodes. Its output is an interruption-onset estimate. The pooling comparator uses the same model family and fitting objective, but pools the records without the elapsed-time input. Both estimators use the same training and held-out episodes. This design evaluates the change in the estimation procedure while holding the available measurement records fixed. Held-out performance is reported as mean absolute onset-time error in Section~\ref{sec:results}.
+
+\section{Results}
+\label{sec:results}
+Across the 12 held-out episodes in one laboratory greenhouse, the aligned estimator had a mean absolute onset error of 6.4~s, compared with 9.1~s for pooling. The observed difference was 2.7~s. Under the shared-record comparison in Section~\ref{sec:method}, the complete timing-aware procedure therefore produced more accurate onset estimates on average. This supports the proposed integration approach within the evaluated protocol. Confidence intervals and significance tests are unavailable, so the reported means do not quantify uncertainty in the difference or establish its statistical significance.
+
+\section{Limitations}
+The single controlled environment and narrow event types limit transfer to other greenhouse conditions or interruption patterns. The evaluation does not establish performance in open fields or with different sensor hardware. Alignment and the additional elapsed-time feature were evaluated together, without a separate ablation, so the observed difference cannot be assigned to either operation alone. Runtime, crop yield, and energy use were not evaluated; lower onset error therefore supplies no direct evidence of operational efficiency or crop benefit. These limits constrain applicability and interpretation of the full procedure's observed advantage.
+
+\section{Conclusion}
+Timing-aware integration improved interruption-onset estimation in the supplied laboratory evaluation. Aligning records to scheduled moisture readings and fitting a delay-aware onset model yielded lower held-out mean absolute error than pooling the same records. The result supports the complete estimation procedure under this protocol, with transfer and individual component effects unresolved.

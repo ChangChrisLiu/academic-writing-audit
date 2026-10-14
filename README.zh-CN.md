@@ -4,9 +4,9 @@
 
 # Academic Writing Audit：学术论证与写作审查
 
-**13 个可独立使用的 agent skills，把论文写作、逻辑审查和审稿回复中反复遇到的问题整理成可执行的判断方法。**
+**14 个可独立使用的 agent skills，把论文写作、逻辑审查和审稿回复中反复遇到的问题整理成可执行的判断方法。**
 
-[English](README.md) · [自然表达与逻辑审查](docs/prose-guide.md) · [问题与修复示例](docs/field-guide.md) · [审稿回复指南](docs/rebuttal-guide.md) · [完整审查入口](skills/academic-writing-audit/SKILL.md) · [专项试用记录](evals/library/README.md) · [宣传素材](assets/README.md)
+[English](README.md) · [论文结构与写作](docs/manuscript-guide.md) · [自然表达与逻辑审查](docs/prose-guide.md) · [问题与修复示例](docs/field-guide.md) · [审稿回复指南](docs/rebuttal-guide.md) · [完整审查入口](skills/academic-writing-audit/SKILL.md) · [专项试用记录](evals/library/README.md) · [宣传素材](assets/README.md)
 
 先理解研究主线，再检查证据与推理，最后决定哪里需要改。审查后判断“这段原样保留”，同样是有价值的结果。
 
@@ -32,11 +32,12 @@
 
 | 遇到的问题 | Skill | 核心判断 |
 | --- | --- | --- |
+| 先理解研究，再起草或重组整篇论文 | [research-manuscript-writing](skills/research-manuscript-writing/SKILL.md) | 摘要、倒三角引言、关联文献与学科适配的结果是否围绕同一个问题？ |
 | 需要完整的科学与写作审查 | [academic-writing-audit](skills/academic-writing-audit/SKILL.md) | 论证、证据、读者功能、修改范围是否一致？ |
 | 想去 AI 味，句式绕、衔接弱、同义重复多 | [academic-prose-editing](skills/academic-prose-editing/SKILL.md) | 具体表达、逻辑连接、句式负担和信息重复是否改善？ |
 | 动机与方法之间缺一座桥；贡献缩成实现细节 | [scientific-story-audit](skills/scientific-story-audit/SKILL.md) | 问题、困难、贡献和证据是否真正连接？ |
 | 正文像回复审稿人，反复保证“我们没有……” | [nondefensive-writing](skills/nondefensive-writing/SKILL.md) | 事实、措辞和位置分别是否有用？ |
-| Related Work 变成论文清单或人为划分阵营 | [related-work-synthesis](skills/related-work-synthesis/SKILL.md) | 比较轴是否成立？来源能否支持新颖性判断？ |
+| Related Work 变成论文清单或人为划分阵营 | [related-work-synthesis](skills/related-work-synthesis/SKILL.md) | 是否沿引言的问题链串联已有工作，而非分类罗列或反复对比本文？ |
 | 用系统结果解释单个机制；用现有代码证明旧实验 | [claim-evidence-audit](skills/claim-evidence-audit/SKILL.md) | 哪份证据支持哪条主张，允许推断到哪里？ |
 | 基线、消融、预算和数据范围说不清 | [experiment-comparison-audit](skills/experiment-comparison-audit/SKILL.md) | 实际改变了什么，而不是实验叫什么？ |
 | Results 只报数字，或把解释写成因果证明 | [results-interpretation](skills/results-interpretation/SKILL.md) | 观察回答了什么，哪些机制仍未隔离？ |
@@ -46,7 +47,13 @@
 | 回复信绕开问题、证据不足，或把拟修改写成已完成 | [reviewer-response-writing](skills/reviewer-response-writing/SKILL.md) | 是否直接回答问题，证据是否对应，修改是否真实完成？ |
 | 源码已改，PDF、线上预览和提交状态却不确定 | [manuscript-release-check](skills/manuscript-release-check/SKILL.md) | 每一个“完成”到底由什么观察证明？ |
 
-不需要每次加载全部 13 个。先选择与当前问题最接近的入口；只有发现跨章节的问题时，再扩大审查范围。
+不需要每次加载全部 14 个。先选择与当前问题最接近的入口；只有发现跨章节的问题时，再扩大审查范围。
+
+## 理解研究之后再写章节
+
+[research-manuscript-writing](skills/research-manuscript-writing/SKILL.md) 先识别具体问题、动机、贡献和证据，再开始起草。摘要沿问题到结果推进，引言从方向及已有进展收窄到 gap、motivation 和 contribution。文献综述从引言提取两到三个关联方向，把已有研究讲清楚，默认不分类罗列，也不反复对比本文。
+
+方法按依赖顺序解释，避免重复定义和防御性强调。结果、局限性与结论根据研究设计和学科要求组织，整体使用简洁连贯的段落。支持 LaTeX 的引用和章节语法，以及 Word 的原生样式与字段保留。完整说明见[论文结构与写作指南](docs/manuscript-guide.md)。
 
 ## 自然表达、简洁句式与逻辑审查
 
@@ -113,7 +120,7 @@ npx skills add ChangChrisLiu/academic-writing-audit --list
 # 安装一个，按提示选择目标客户端。
 npx skills add ChangChrisLiu/academic-writing-audit --skill nondefensive-writing
 
-# 在当前项目中为 Codex 安装全部 13 个。
+# 在当前项目中为 Codex 安装全部 14 个。
 npx skills add ChangChrisLiu/academic-writing-audit --skill '*' -a codex
 ```
 
@@ -178,6 +185,8 @@ npx skills add ChangChrisLiu/academic-writing-audit --skill '*' -a codex
 通用概念审查完成了[数学、化学、经济学和质性研究四个领域的独立上下文试用](evals/concept-language-transfer/README.md)。另一位评估 agent 判定 24 项检查均通过，未发现正常专业术语、定义清楚的新概念或准确段落被误改。这组同一运行环境下的虚构案例实际测试了两个 skill 入口，不代表普遍可靠性认证。
 
 另有一次[真实长文审查](evals/real-manuscript-audit/README.md)，使用已知项目的完整正文与历史回复检查术语和正文语气边界。初次独立评估发现两处局部分类或转述问题，促成了有针对性的规则修补。两次新上下文复测的 12 项判断均通过，并保留一处轻微表述判断意见。公开记录说明方法和有限结论，原稿与审稿材料保留在本地。
+
+[整篇写作与章节结构试写](evals/manuscript-structure/README.md)覆盖工程、质性研究、数学文献，以及只有题目但缺少研究事实的请求。独立评估的初测 16 项、复测 10 项适用判断均通过，并保留两处可选编辑意见。格式检查覆盖 LaTeX 源码和可粘贴的 Word 文字，不代表实际编译或原生 Word 版面通过。
 
 ## 素材与贡献
 

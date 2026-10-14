@@ -1,0 +1,3 @@
+The fictional study packet in request.md is the sole substantive evidence source. Literature claims rely on its excerpts for Mora (2021), Chen (2022), and Patel (2023). Verified full bibliographic details would be needed to prepare a reference list; the complete articles were not supplied or consulted.
+
+Expanded method reporting would require author records for interview recording or transcription, the number of analysts or coders, ethics review, and any saturation or formal agreement procedures. These details are unspecified, rather than established as absent. Exact quotations are unavailable, so the findings use paraphrase.

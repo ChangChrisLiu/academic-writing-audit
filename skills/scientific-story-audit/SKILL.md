@@ -27,6 +27,14 @@ At paragraph level, identify the claim each sentence advances and the fact suppo
 
 Do not manufacture a literature gap to complete this chain. Mark an unsupported gap as unresolved. Likewise, do not promote every implementation choice into a contribution or weaken a supported contribution merely because it has several parts.
 
+## Check the section logic
+
+Before drafting a repair, identify the concrete study question, research direction, audience, source-supported gap, contribution, and principal finding. A method name or generic topic is not sufficient. If a missing fact determines the story, ask only for that fact or leave the unsupported connection unresolved; do not manufacture an introduction to sound complete.
+
+For an abstract, follow task need, existing route's limitation, the particular unresolved difficulty, the proposed contribution, and principal evidence. Keep the motivation-to-result progression rather than a module checklist or fixed sentence count. For an introduction, narrow from a relevant larger direction through what that direction has achieved to the gap, motivation, and contribution. The motivation must explain why the proposed scientific move addresses the gap.
+
+Use concise connected paragraphs. Contributions should follow the reasoning in prose unless a list is requested or required. If a sentence could fit many unrelated papers unchanged, check whether it carries a necessary premise or merely generic importance language. Preserve useful context and an already coherent author narrative. A required structured abstract or a theoretical or interpretive article may realize these functions differently.
+
 ## Repair the smallest broken link
 
 Locate the exact point where the reader loses the argument. Prefer a bridge, a corrected topic sentence, or a reordered sentence over rewriting an entire section. Follow scientific objects across the transition: a collected record, corrected annotation, training example, fitted model, and reported outcome are not interchangeable.

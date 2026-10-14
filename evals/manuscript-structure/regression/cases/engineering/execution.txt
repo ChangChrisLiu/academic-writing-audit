@@ -1,0 +1,32 @@
+Inputs read
+- /private/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-structure-ave2uadk/regression/cases/engineering/request.md
+- /var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-structure-ave2uadk/regression/skills/research-manuscript-writing/SKILL.md
+- /var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-structure-ave2uadk/regression/skills/research-manuscript-writing/references/section-reasoning.md
+- /var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-structure-ave2uadk/regression/skills/research-manuscript-writing/references/findings-and-endings.md
+- /var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-structure-ave2uadk/regression/skills/research-manuscript-writing/references/latex-and-word.md
+
+Work performed
+- Listed files only in this case directory and the supplied skill folder.
+- Drafted manuscript.tex, inspected its full source, and made local wording edits.
+- Created answer.md and this execution.txt in the engineering case directory.
+- Did not modify request.md or skill files.
+- Did not read other cases, rubric, prior judgments, memories, or other run directories.
+- Did not access the network or publish anything.
+
+Source checks
+- Approximately 776 prose words after excluding section/subsection headings, citation/reference commands, labels, and abstract environment commands; counted by whitespace after replacing nonbreaking spaces.
+- Abstract environment present once, with matched begin/end.
+- Six section commands present in requested order after the abstract.
+- Citation keys found: alignment2024, event2023, routine2022.
+- Labels found: sec:method, sec:results. All local references resolve to those labels.
+- Brace balance checked from start to end.
+- No preamble, document environment, or bibliography added.
+- No sentence-interrupting en or em dashes present.
+- Reported values checked against packet: 18 training episodes, 12 held-out episodes, 6.4 s and 9.1 s mean absolute onset errors.
+- The 2.7 s observed difference is arithmetic from the two supplied means.
+
+Limits
+- Source-only inspection; no LaTeX compilation or PDF layout inspection.
+- Literature and measurements treated as fictional packet facts, without external verification.
+- No model equation, tuned hyperparameters, confidence interval, or significance test added.
+- No separate alignment-feature ablation or unreported outcome inferred.

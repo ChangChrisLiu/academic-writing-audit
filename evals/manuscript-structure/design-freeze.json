@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-14",
+  "baseline_commit": "73f0c317b7991be0f80222a8e566ca05a4867101",
+  "files": {
+    "cases/engineering/request.md": "b4bd5eaa65d556adddd6a26b6b60a230b06c7c2ddb6be8f73c3793252f4f2863",
+    "cases/mathematics/request.md": "cf4a2fe7a0b51a8b30685e6b422081c8b140a5a508987ba95fff98e1f2679cd6",
+    "cases/qualitative/request.md": "1fde975b0c67a84fb10546650c6a89e6e212c9247138e3da4a5e4986558341f1",
+    "rubric.md": "879db99dd10502246f6a1d01cc99b1e94844a19bee3c2d56b4b717e2ed6de030",
+    "skills/related-work-synthesis/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "skills/related-work-synthesis/SKILL.md": "01007396c706e01a09804d337ca3105e19c559d8cc93c570c8ce197e8bf235c1",
+    "skills/related-work-synthesis/agents/openai.yaml": "08900c0ac2b048df4d337e3613786eaf948ee66289c4b00323d4f2da398f499a",
+    "skills/research-manuscript-writing/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "skills/research-manuscript-writing/SKILL.md": "da80e52de5b01f6d5925322cdc0d6c67d281fba6829029a80a763017a71f8db6",
+    "skills/research-manuscript-writing/agents/openai.yaml": "62a7ff375091baa65f15d69d4bf5a519bb5b0add273e1d00a067412617fb8112",
+    "skills/research-manuscript-writing/references/findings-and-endings.md": "114bc958341fe429641df4e206c91ffaa56378f0a9c55955d15b63c0def7fcb9",
+    "skills/research-manuscript-writing/references/latex-and-word.md": "41bf1e30478072a57c3cd013561d58e5356dd13531726cc0ab4412f293127eb5",
+    "skills/research-manuscript-writing/references/section-reasoning.md": "962f9beb68cf65f4606a91b36296195df963be0a15140813871d780c88d7e933",
+    "skills/scientific-story-audit/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "skills/scientific-story-audit/SKILL.md": "08ac60e8ff397faee7223dacf2505d254d03ed8bd3b36dd6b8da600d046d4a10",
+    "skills/scientific-story-audit/agents/openai.yaml": "9f506d62cf550225ca13f470868fa9068388d827ed53f1f8b287f12d3d2aef84"
+  },
+  "purpose": "Frozen before guided executions; requests contain fictional inputs; no hidden expected prose.",
+  "path_resolution": "Paths refer to the isolated input packet. Public cases and rubric use the same relative paths; initial skills are preserved under evals/manuscript-structure/tested-skills/initial."
+}

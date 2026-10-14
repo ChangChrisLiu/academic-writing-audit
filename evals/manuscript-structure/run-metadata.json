@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-14",
+  "release": "v0.5.0",
+  "design": "fictional guided writing trials with fresh contexts and independent artifact assessments",
+  "initial_executions": 3,
+  "initial_request_units": 4,
+  "regression_executions": 2,
+  "independent_assessors": 2,
+  "initial_dimension_judgments": {
+    "pass": 16,
+    "qualified": 0,
+    "fail": 0,
+    "not_applicable": 2
+  },
+  "regression_dimension_judgments": {
+    "pass": 10,
+    "qualified": 0,
+    "fail": 0,
+    "not_applicable": 2
+  },
+  "material_or_harmful_issues": 0,
+  "optional_editorial_preferences_recorded": {
+    "initial": 1,
+    "regression": 1
+  },
+  "primary_editor_refinement": "Stricter author-preferred literature narrative; independent initial assessor did not classify the initial literature as a failure.",
+  "behavioral_entrypoints": [
+    "research-manuscript-writing",
+    "related-work-synthesis",
+    "scientific-story-audit"
+  ],
+  "structurally_validated_skills": 14,
+  "format_scope": [
+    "LaTeX source fragments",
+    "paste-ready Word prose"
+  ],
+  "not_tested": [
+    "compiled PDF layout",
+    "native docx creation",
+    "preservation of live citation-manager fields",
+    "external citation validity",
+    "full-length manuscript drafting",
+    "unguided control",
+    "cross-model behavior"
+  ],
+  "runtime": {
+    "fresh_contexts": true,
+    "explicit_model_override": false,
+    "exact_model_versions": "not recorded",
+    "configured_hosts": 1
+  },
+  "input_restrictions": "Task instructions; no claim of a complete sandbox or independently reconstructed tool trace.",
+  "original_outputs": "Preserved without rewriting; local transient paths remain in execution records.",
+  "limits": "Fictional same-host development cases. No causal effectiveness or universal reliability claim."
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-14",
+  "request_identity": "Same engineering and mathematics packets, without initial outputs or findings.",
+  "observed_repair": "Keep prior studies in their own settings instead of ending literature paragraphs with deficits relative to the current task; retain boundaries needed to interpret the prior result itself.",
+  "files": {
+    "cases/engineering/request.md": "b4bd5eaa65d556adddd6a26b6b60a230b06c7c2ddb6be8f73c3793252f4f2863",
+    "cases/mathematics/request.md": "cf4a2fe7a0b51a8b30685e6b422081c8b140a5a508987ba95fff98e1f2679cd6",
+    "skills/related-work-synthesis/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "skills/related-work-synthesis/SKILL.md": "e71bb1e7819d332afa686540a4475ae1c5129476d9a03be9480bcb54848851b8",
+    "skills/related-work-synthesis/agents/openai.yaml": "08900c0ac2b048df4d337e3613786eaf948ee66289c4b00323d4f2da398f499a",
+    "skills/research-manuscript-writing/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "skills/research-manuscript-writing/SKILL.md": "4bdc7dd8a32373348c81ad400f368b8d321c469920cf513ffce51b89ed4fb176",
+    "skills/research-manuscript-writing/agents/openai.yaml": "62a7ff375091baa65f15d69d4bf5a519bb5b0add273e1d00a067412617fb8112",
+    "skills/research-manuscript-writing/references/findings-and-endings.md": "114bc958341fe429641df4e206c91ffaa56378f0a9c55955d15b63c0def7fcb9",
+    "skills/research-manuscript-writing/references/latex-and-word.md": "41bf1e30478072a57c3cd013561d58e5356dd13531726cc0ab4412f293127eb5",
+    "skills/research-manuscript-writing/references/section-reasoning.md": "855997cbf72ae98d03835716a31d8fc6888f522f3ad0b682adf0686a29785e45",
+    "skills/scientific-story-audit/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "skills/scientific-story-audit/SKILL.md": "08ac60e8ff397faee7223dacf2505d254d03ed8bd3b36dd6b8da600d046d4a10",
+    "skills/scientific-story-audit/agents/openai.yaml": "9f506d62cf550225ca13f470868fa9068388d827ed53f1f8b287f12d3d2aef84"
+  },
+  "path_resolution": "Paths refer to the isolated regression packet. Public cases are under evals/manuscript-structure/regression/cases; revised skill hashes refer to this release skills directory."
+}

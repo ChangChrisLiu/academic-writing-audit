@@ -4,14 +4,14 @@
 
 <h1 align="center">Academic Writing Audit</h1>
 
-<p align="center"><strong>13 portable agent skills for scientific manuscripts and reviewer responses.</strong><br>
+<p align="center"><strong>14 portable agent skills for scientific manuscripts and reviewer responses.</strong><br>
 Reconstruct the argument, check the evidence, and change only what needs changing.</p>
 
 **中文简介｜学术论文写作与审稿回复 Skills**
 
-把科研写作中反复遇到的问题整理成 **13 个可独立使用的 AI agent skills**，涵盖学术逻辑检查、论证与证据核查、去防御性写作、实验比较、结果解释、图表审查，以及 **审稿意见回复、response letter 和 rebuttal 写作**。提供 **去 AI 味、专业用词与句子审查、句式简化和冗余重复检查**，用具体的语义审查改善表达，保留科学含义和作者声音。生成的学术段落默认不用解释性冒号或句中破折号，保留术语连字符及技术符号。回复信逐点回应审稿人，论文正文直接解释研究。通用 Markdown 指令可供支持 skills 的客户端及其他能阅读 Markdown 的 agent 使用。
+把科研写作中反复遇到的问题整理成 **14 个可独立使用的 AI agent skills**，涵盖学术逻辑检查、论证与证据核查、去防御性写作、实验比较、结果解释、图表审查，以及 **审稿意见回复、response letter 和 rebuttal 写作**。新增 **整篇论文结构与写作**，先理解研究问题，再组织摘要、倒三角引言、关联文献综述、方法与学科适配的结果和结尾，支持 **LaTeX 与 Word**。提供 **去 AI 味、专业用词与句子审查、句式简化和冗余重复检查**，用具体的语义审查改善表达，保留科学含义和作者声音。生成的学术段落默认不用解释性冒号或句中破折号，保留术语连字符及技术符号。回复信逐点回应审稿人，论文正文直接解释研究。通用 Markdown 指令可供支持 skills 的客户端及其他能阅读 Markdown 的 agent 使用。
 
-[中文使用说明](README.zh-CN.md) · [自然表达与逻辑审查](docs/prose-guide.md) · [审稿回复与正文写作指南](docs/rebuttal-guide.md) · [安装方法](#install)
+[中文使用说明](README.zh-CN.md) · [论文结构与写作](docs/manuscript-guide.md) · [自然表达与逻辑审查](docs/prose-guide.md) · [审稿回复与正文写作指南](docs/rebuttal-guide.md) · [安装方法](#install)
 
 <p align="center">
   <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-943D32"></a>
@@ -37,6 +37,7 @@ This library turns those recurring editorial decisions into small, reusable work
 
 | Your task | Start with | Ask for |
 | --- | --- | --- |
+| Draft or restructure a paper from study materials | [Research manuscript writing](skills/research-manuscript-writing/SKILL.md) | A concise argument grounded in the actual question, evidence, discipline, and document format. |
 | Understand what needs attention in a whole paper | [Academic writing audit](skills/academic-writing-audit/SKILL.md) | Prioritized findings, evidence, and passages to preserve. |
 | Repair a specific writing problem | [Choose a focused skill below](#choose-a-skill) | A bounded replacement or patch with a reason for each change. |
 | Write a rebuttal or revision response letter | [Reviewer response writing](skills/reviewer-response-writing/SKILL.md) | Evidence-grounded replies, accurate change status, and separately written manuscript edits. |
@@ -54,11 +55,12 @@ Each folder is independently installable. You do not need to load the whole coll
 
 | When you encounter… | Skill | What it helps you produce |
 | --- | --- | --- |
+| Generic prose or disconnected manuscript sections | [research-manuscript-writing](skills/research-manuscript-writing/SKILL.md) | A research-grounded draft with distinct section roles and LaTeX or Word delivery. |
 | A paper needing a complete editorial diagnosis | [academic-writing-audit](skills/academic-writing-audit/SKILL.md) | A structured scientific and editorial audit. |
 | Unclear terminology, awkward phrasing, tangled sentences, or repetition | [academic-prose-editing](skills/academic-prose-editing/SKILL.md) | Natural paragraphs with clear reasoning and preserved scientific meaning. |
 | A missing bridge between problem, contribution, and evidence | [scientific-story-audit](skills/scientific-story-audit/SKILL.md) | A connected argument that preserves the contribution's scope. |
 | Rebuttal-like prose, repeated assurances, or piles of caveats | [nondefensive-writing](skills/nondefensive-writing/SKILL.md) | Direct explanations with necessary boundaries intact. |
-| A paper list, false categories, or an unsupported “first” | [related-work-synthesis](skills/related-work-synthesis/SKILL.md) | Source-supported comparison axes and bounded novelty claims. |
+| A paper list, false categories, or an unsupported “first” | [related-work-synthesis](skills/related-work-synthesis/SKILL.md) | Connected literature threads that explain prior studies without default self-comparison. |
 | A conclusion stronger than its supporting observation | [claim-evidence-audit](skills/claim-evidence-audit/SKILL.md) | Claims matched to the study and inference that support them. |
 | Ambiguous baselines, ablations, budgets, or data eligibility | [experiment-comparison-audit](skills/experiment-comparison-audit/SKILL.md) | Operational definitions of what was actually compared. |
 | Results that merely repeat numbers or over-explain mechanisms | [results-interpretation](skills/results-interpretation/SKILL.md) | Useful interpretation with attribution and uncertainty in scope. |
@@ -83,6 +85,14 @@ For concrete failure patterns and sample requests, see the [field guide](docs/fi
 > Incomplete measurements received an abstention rather than a concentration estimate and remained in the evaluation denominator. The study did not evaluate field operation.
 
 The accusation and reassurance disappear. The operative rule, denominator, and study boundary remain. A clear preceding motivation paragraph stays as written.
+
+## Understand the study before drafting
+
+Use [research-manuscript-writing](skills/research-manuscript-writing/SKILL.md) when drafting or restructuring sections from research materials. It first establishes the concrete question, motivation, contribution, and evidence. Missing research facts remain dependencies instead of becoming generic background or invented results.
+
+The abstract follows a motivated problem-to-result progression. The introduction narrows from the relevant direction and its progress to the gap, motivation, and contribution. The literature review develops two or three connected threads from that argument and explains prior studies, without default taxonomies or repeated comparisons with the present paper. Methods follow operational or analytic dependencies, while findings and endings fit the study design and supplied disciplinary conventions.
+
+The default is concise connected prose, not contribution lists, module catalogues, or table narration. Required structured abstracts, formal algorithms, and author-selected formats remain supported. [The writing guide](docs/manuscript-guide.md) explains the section logic and LaTeX/Word boundaries.
 
 ## Natural prose and clear reasoning
 
@@ -199,10 +209,12 @@ The generalized concept checks have [four further independent-context trials](ev
 
 A [private real-manuscript audit](evals/real-manuscript-audit/README.md) also examines terminology and the manuscript/response boundary on a complete known project. Its initial assessment found two local classification or paraphrase problems, motivating narrow rule refinements. Two fresh regression audits received 12 passing dimension judgments, with one minor presentation caveat retained in the record. The public record reports the method and bounded findings; raw manuscript and review materials remain private.
 
+The [manuscript-structure trials](evals/manuscript-structure/README.md) cover engineering, qualitative research, mathematical literature, and a title-only request with missing research facts. Independent assessments passed 16 applicable initial judgments and 10 regression judgments, with two optional editorial preferences preserved. The format checks concern LaTeX source and paste-ready Word text, not compiled pages or native Word layout.
+
 The skills support reasoning and editing; the quality of a conclusion still depends on the sources and evidence available to the agent. Read [CONTRIBUTING.md](CONTRIBUTING.md) to propose an observed failure, a small repair, and a regression case.
 
 ```text
-skills/       13 standalone skills, optional examples, and client metadata
+skills/       14 standalone skills, optional examples, and client metadata
 docs/         Problem patterns and practical task prompts
 evals/        Synthetic cases, rubrics, observed responses, and manifests
 assets/       Generated promotional artwork, web copies, and exact prompts

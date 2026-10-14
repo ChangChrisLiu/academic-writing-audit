@@ -1,0 +1,273 @@
+{
+  "assessment": "Independent assessment of two complete fictional writing executions",
+  "scope": {
+    "rubric": "rubric.md:3-12",
+    "case_count": 2,
+    "generated_artifact_count": 5,
+    "dimensions_per_case": 6
+  },
+  "counts": {
+    "case_judgments": {
+      "pass": 2,
+      "qualified": 0,
+      "fail": 0
+    },
+    "dimension_judgments": {
+      "pass": 10,
+      "qualified": 0,
+      "fail": 0,
+      "N/A": 2
+    },
+    "artifact_judgments": {
+      "pass": 5,
+      "qualified": 0,
+      "fail": 0
+    },
+    "material_issues": 0,
+    "harmful_issues": 0,
+    "optional_preferences": 1
+  },
+  "cases": {
+    "engineering": {
+      "overall": "pass",
+      "dimensions": [
+        {
+          "dimension": 1,
+          "name": "Research grounding",
+          "judgment": "pass",
+          "anchors": [
+            "cases/engineering/request.md:7-17",
+            "cases/engineering/manuscript.tex:2-8",
+            "cases/engineering/manuscript.tex:20-35"
+          ],
+          "reason": "The onset-estimation question, elapsed-time feature, common records, episode split, supplied errors, and attribution limits are preserved. No invented equation, hardware, mechanism, novelty, significance, or external outcome."
+        },
+        {
+          "dimension": 2,
+          "name": "Argument progression",
+          "judgment": "pass",
+          "anchors": [
+            "cases/engineering/manuscript.tex:2",
+            "cases/engineering/manuscript.tex:6-8"
+          ],
+          "reason": "The abstract proceeds from transition observations to timing-aware estimation and held-out evidence. The introduction narrows from irrigation monitoring and acquisition progress to the integration problem, research question, and scoped contribution."
+        },
+        {
+          "dimension": 3,
+          "name": "Literature synthesis",
+          "judgment": "pass",
+          "anchors": [
+            "cases/engineering/request.md:9-11",
+            "cases/engineering/manuscript.tex:11-15"
+          ],
+          "reason": "Acquisition timing and temporal integration form connected threads. R and E are explained in their own testbeds, and A remains a temperature/humidity interpolation result. The reported delay under fixed sampling is an intrinsic finding of R, not a recurring deficit against the present paper. The review avoids repeated statements that predecessors did not solve joint irrigation-onset estimation. Citation placement is supported by the cards."
+        },
+        {
+          "dimension": 4,
+          "name": "Methods, findings, and ending",
+          "judgment": "pass",
+          "anchors": [
+            "cases/engineering/request.md:15-17",
+            "cases/engineering/manuscript.tex:20-35",
+            "cases/engineering/answer.md:3"
+          ],
+          "reason": "The method proceeds from episode split and shared observations to time representation, training objective, comparator, and held-out MAE. Values 18, 12, 6.4 s, and 9.1 s are correct; 2.7 s is valid arithmetic. The ending answers the tested question. Single-environment transfer, narrow events, untested outcomes, and inability to isolate alignment from the time feature remain explicit. No uncertainty estimates or significance are invented; their absence is stated in the delivery note."
+        },
+        {
+          "dimension": 5,
+          "name": "Concision and reader voice",
+          "judgment": "pass",
+          "anchors": [
+            "cases/engineering/manuscript.tex:6-15",
+            "cases/engineering/manuscript.tex:20-35"
+          ],
+          "reason": "The manuscript is connected, substantive prose with meaningful subsections and no contribution list, module checklist, or reviewer-facing instructions. Minor local repetition is optional to trim, not a material failure."
+        },
+        {
+          "dimension": 6,
+          "name": "Format and delivery honesty",
+          "judgment": "pass",
+          "anchors": [
+            "cases/engineering/request.md:3",
+            "cases/engineering/manuscript.tex:1-35",
+            "cases/engineering/answer.md:1-3",
+            "cases/engineering/execution.txt:17-32"
+          ],
+          "reason": "Independently recounted 776 prose words. Abstract plus all six requested sections, supplied citation keys, existing labels, and resolving local references are present; braces balance and no preamble or bibliography was added. Notes accurately distinguish source inspection from compilation or rendering."
+        }
+      ],
+      "verified_counts": {
+        "prose_words": 776,
+        "sections_after_abstract": 6,
+        "citation_keys": [
+          "alignment2024",
+          "event2023",
+          "routine2022"
+        ],
+        "labels": [
+          "sec:method",
+          "sec:results"
+        ],
+        "unresolved_local_references": 0,
+        "balanced_braces": true
+      }
+    },
+    "mathematics": {
+      "overall": "pass",
+      "dimensions": [
+        {
+          "dimension": 1,
+          "name": "Research grounding",
+          "judgment": "pass",
+          "anchors": [
+            "cases/mathematics/request.md:9-17",
+            "cases/mathematics/answer.md:6-19"
+          ],
+          "reason": "Part 1 preserves domains, strict contraction, bounded deterministic error, and the limiting upper bound without adding a theorem or proof. Part 2 requests missing problem, difficulty, method, finding, assumptions, and evidence; withholding a publication-ready abstract is correct with title-only input. It imports no Part 1 facts."
+        },
+        {
+          "dimension": 2,
+          "name": "Argument progression",
+          "judgment": "N/A",
+          "anchors": [
+            "cases/mathematics/request.md:7-9",
+            "cases/mathematics/request.md:17",
+            "cases/mathematics/answer.md:17-19"
+          ],
+          "reason": "Part 1 requests a literature fragment rather than a new abstract or introduction. Part 2 lacks the facts needed for an abstract and correctly supplies a dependency response. The literature progression is assessed under dimension 3."
+        },
+        {
+          "dimension": 3,
+          "name": "Literature synthesis",
+          "judgment": "pass",
+          "anchors": [
+            "cases/mathematics/request.md:11-13",
+            "cases/mathematics/answer.md:6-13"
+          ],
+          "reason": "The review connects exact contraction, deterministic perturbation, and the strict/nonexpansive boundary by the conclusions their assumptions permit. Sources are described in their own settings rather than repeatedly faulted against the present task. The distinction between an upper bound and convergence to that bound, and the insufficiency of a Lipschitz bound of one, are essential technical boundaries, not editorial deficits. Missing proof and omitted conditions are disclosed outside the fragment; no own theorem, artificial camp, or unsupported novelty is introduced. Part 2 has no literature task."
+        },
+        {
+          "dimension": 4,
+          "name": "Methods, findings, and ending",
+          "judgment": "N/A",
+          "anchors": [
+            "cases/mathematics/request.md:7-17",
+            "cases/mathematics/answer.md:6-19"
+          ],
+          "reason": "Neither part calls for a supported method/results/conclusion section. Mathematical assumptions and the source result are checked under grounding and literature; the title-only request correctly does not fabricate findings."
+        },
+        {
+          "dimension": 5,
+          "name": "Concision and reader voice",
+          "judgment": "pass",
+          "anchors": [
+            "cases/mathematics/answer.md:6-10",
+            "cases/mathematics/answer.md:13-19"
+          ],
+          "reason": "The literature is connected prose with specific mathematical bridges, not a catalogue or generic contribution list. Source limitations sit outside the fragment. Part 2 is a direct writing-agent response, where the request for missing facts and skill explanation are not manuscript voice defects."
+        },
+        {
+          "dimension": 6,
+          "name": "Format and delivery honesty",
+          "judgment": "pass",
+          "anchors": [
+            "cases/mathematics/request.md:3-7",
+            "cases/mathematics/answer.md:3-19",
+            "cases/mathematics/execution.txt:11-20"
+          ],
+          "reason": "Independently recounted 243 words for Part 1 and 70 for Part 2 under the recorded conventions. The required LaTeX section and only c1/c2/c3 keys are present; mathematical punctuation and braces are intact, with no fabricated bibliography. The source note is outside the fragment. Delivery claims source-only work, not a compiled document. The stated skill quotation cannot be authenticated within this assessment scope."
+        }
+      ],
+      "verified_counts": {
+        "part1_words": 243,
+        "part2_words": 70,
+        "citation_keys": [
+          "c1",
+          "c2",
+          "c3"
+        ],
+        "balanced_braces": true
+      },
+      "part2_status": "Correctly requests missing scientific dependencies instead of fabricating a publication-ready abstract."
+    }
+  },
+  "artifact_checks": [
+    {
+      "path": "cases/engineering/manuscript.tex",
+      "judgment": "pass",
+      "anchors": [
+        "cases/engineering/manuscript.tex:1-35"
+      ],
+      "checks": "All requested sections and core facts present; supported science and citations; reader-facing connected prose; source structure checked."
+    },
+    {
+      "path": "cases/engineering/answer.md",
+      "judgment": "pass",
+      "anchors": [
+        "cases/engineering/answer.md:1-3"
+      ],
+      "checks": "Delivery summary matches the draft; independently verified word count; absence of compilation/rendering stated."
+    },
+    {
+      "path": "cases/engineering/execution.txt",
+      "judgment": "pass",
+      "anchors": [
+        "cases/engineering/execution.txt:17-32"
+      ],
+      "checks": "Reported observable counts, keys, labels, values, arithmetic, and source-only limitations agree with the files. Historical actions are self-reported and not independently established."
+    },
+    {
+      "path": "cases/mathematics/answer.md",
+      "judgment": "pass",
+      "anchors": [
+        "cases/mathematics/answer.md:3-19"
+      ],
+      "checks": "Both requested parts present; lengths satisfy limits; no fabricated abstract, proof, assumptions, novelty, bibliography, or transfer between parts. Skill quotation authenticity is outside scope."
+    },
+    {
+      "path": "cases/mathematics/execution.txt",
+      "judgment": "pass",
+      "anchors": [
+        "cases/mathematics/execution.txt:11-20"
+      ],
+      "checks": "Reported word counts, citation keys, mathematical limits, independence of the two written responses, and source-only delivery agree with the artifacts. Historical actions are self-reported and not independently established."
+    }
+  ],
+  "material_issues": [],
+  "harmful_issues": [],
+  "optional_preferences": [
+    {
+      "case": "engineering",
+      "severity": "optional",
+      "anchors": [
+        "cases/engineering/manuscript.tex:20"
+      ],
+      "observation": "The final sentence repeats the immediately preceding statement that records and episode allocation were identical.",
+      "narrowly_supported_repair": "Optionally omit only that final sentence; this is a concision preference and changes no scientific content.",
+      "applied": false
+    }
+  ],
+  "repairs": {
+    "required": [],
+    "optional": [
+      {
+        "case": "engineering",
+        "severity": "optional",
+        "anchors": [
+          "cases/engineering/manuscript.tex:20"
+        ],
+        "observation": "The final sentence repeats the immediately preceding statement that records and episode allocation were identical.",
+        "narrowly_supported_repair": "Optionally omit only that final sentence; this is a concision preference and changes no scientific content.",
+        "applied": false
+      }
+    ],
+    "applied": false
+  },
+  "limits": [
+    "Assessment read only the prescribed rubric, case requests, five case outputs, and its own output files; no skills, initial trials, other assessments, memory, or network were consulted.",
+    "Execution records are not independent process traces. Historical reading, editing, and network-use claims and the quoted skill instruction were not authenticated.",
+    "Citation integrity means consistency with the supplied fictional cards and allowed keys; no full-text, proof, or bibliography-database verification was possible.",
+    "Format verification covers visible source structure and counts only. No compilation, rendering, Word document, or layout preservation was tested.",
+    "Two fictional executions and no unguided control support only these artifact-specific judgments. They do not establish causal effectiveness, universal reliability, or full document-format preservation."
+  ]
+}

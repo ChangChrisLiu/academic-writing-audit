@@ -1,0 +1,28 @@
+Task: Draft a compact English LaTeX article fragment from the supplied fictional engineering study.
+
+Inputs read in full:
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-structure-ave2uadk/cases/engineering/request.md
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-structure-ave2uadk/skills/research-manuscript-writing/SKILL.md
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-structure-ave2uadk/skills/research-manuscript-writing/references/section-reasoning.md
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-structure-ave2uadk/skills/research-manuscript-writing/references/findings-and-endings.md
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-structure-ave2uadk/skills/research-manuscript-writing/references/latex-and-word.md
+
+Files created:
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-structure-ave2uadk/cases/engineering/manuscript.tex
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-structure-ave2uadk/cases/engineering/answer.md
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-structure-ave2uadk/cases/engineering/execution.txt
+
+Drafting scope:
+Used only supplied fictional studies and measurements as evidence.
+Preserved citation keys routine2022, event2023, alignment2024.
+Preserved labels sec:method and sec:results.
+Included no preamble or bibliography.
+Added no model equation, hyperparameter values, external citations, or component-specific performance claims.
+The 2.7 s error difference is calculated as 9.1 s minus 6.4 s.
+
+Validation scope:
+Source-level checks only. No LaTeX compilation or rendered-layout inspection was requested or performed.
+Checked all requested section roles, supplied citation keys, labels, and references in source. Local references resolve to the two supplied labels. Opening and closing braces and abstract environment markers are balanced. No preamble or bibliography commands are present.
+No network, memory, other cases, tests, rubric, or prior judgments were consulted.
+No supplied input files were modified.
+Final prose word count: 806, excluding headings, citation keys, labels, and cross-reference commands. Counted words with a regular expression treating hyphenated words as one.

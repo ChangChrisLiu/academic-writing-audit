@@ -1,0 +1,27 @@
+Abstract
+
+Municipal archivists must describe access restrictions even when the context needed to classify a record is incomplete. This study asks how they negotiate such uncertainty in everyday cataloguing. Iterative analysis of interviews with 18 archivists and 36 anonymized catalogue entries from two municipal archives traced episodes of assigning, questioning, and revising classifications. Provisional annotations linked unresolved judgments to records needed for their resolution, and some later entries documented revisions. We interpret uncertainty as a traceable working state. A deadline-driven closure without a retained note shows that this revisability depended on workflow conditions.
+
+Introduction
+
+A catalogue must communicate restrictions while remaining usable, yet an access designation may require contextual information that is not immediately available. The practical question is how archivists continue describing records while that judgment remains unsettled. Research on negotiated labels, exceptional annotations, and provisional status provides ways to examine this problem. The municipal setting calls for attention to how judgments develop through encounters with specific records. We therefore follow classification episodes rather than assess accuracy. The study contributes an account of uncertainty maintained through traceable, revisable annotations, while examining circumstances in which that working state could not be sustained.
+
+Literature Review
+
+Classification involves both standardized descriptions and responses to particular items. Through observation of public-library meetings, Mora (2021) showed how discussion of atypical items prompted revisions to working labels. Chen's (2022) analysis of archival description policies likewise documented the coexistence of standardized fields and annotations explaining exceptional records. Together, these studies locate interpretive work within formal descriptive practices, although their settings and evidence differ.
+
+Annotations also have a temporal role. Patel (2023), following document-handling work in a registry, found that provisional status notes provided continuity across shifts while ambiguous cases were resolved. Read alongside Chen (2022), this suggests a distinction between recording an exception and carrying an unresolved judgment forward. Neither function necessarily entails a change to the classification itself.
+
+Analytical Method
+
+The materials comprised interviews with 18 voluntary participants in two municipal archives and 36 anonymized catalogue entries supplied by those institutions. The team read interview notes and entries iteratively, tracing episodes in which access classifications were assigned, questioned, and revised. Comparing episodes within and across sites connected accounts of unresolved judgments with examples of their documentation and subsequent revision. Analysis attended to both provisional annotations and the countercase in which a note was not retained. One researcher had previously worked in an archive and kept reflexive notes about assumptions during interpretation.
+
+Findings and Discussion
+
+Uncertainty could remain visible within the catalogue while archivists sought the context needed to resolve it. Interview accounts described leaving provisional annotations when that context was missing. Catalogue examples linked unresolved designations to records that would need to be consulted. Some later entries documented revisions after a colleague located the relevant decision. These materials support an interpretation of annotations as preserving a trace of an unsettled judgment and its basis for reconsideration. An unresolved designation was thus not necessarily a simple failure to apply a rule.
+
+This interpretation connects the revision of working labels described by Mora (2021) with the continuity afforded by provisional notes in Patel (2023). However, carrying uncertainty forward was not uniform. At one site, a fixed deadline prompted staff to close an ambiguous entry without retaining its provisional note. The countercase makes workflow conditions part of the account. An annotation could support revisability only while the process allowed it to remain available.
+
+The two sites and voluntarily supplied entries restrict the range of practices accessible to this interpretation. The materials cannot establish how widespread these practices are or whether users obtained documents faster.
+
+In these settings, archivists negotiated classifications by documenting missing context, identifying relevant records, and revising judgments when information became available. Uncertainty could be maintained as a traceable working state, but the deadline countercase shows that administrative closure could interrupt that process.

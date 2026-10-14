@@ -1,0 +1,3 @@
+Created `manuscript.tex`, a compact English LaTeX article fragment with all seven requested sections, the supplied citation keys, and the existing method and results labels. The draft links the acquisition and alignment literature to the onset-estimation question and reports the full procedure's observed held-out error reduction.
+
+Only the supplied fictional packet and writing-skill references were used. The packet provides no precise model equation or hyperparameter values, so those remain unspecified. Checks were limited to source inspection; no compilation, rendered layout validation, external literature verification, or publication was performed. `execution.txt` records the inputs and checks.

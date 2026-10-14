@@ -23,6 +23,12 @@ Read the relevant passage in context. Form an independent account of its questio
 5. **Prose:** Check concrete subjects, sentence-to-sentence reasoning, clause complexity, repeated propositions, and the prose preference below. Do not strengthen a claim to make it sound more direct. Read [prose checks](references/prose-checks.md) for a whole-passage clarity pass.
 6. **Verification:** Re-read the connected passage and check the diff against the evidence. Use [review and patching](references/review-and-patching.md) for file edits, reviewer-informed revision, and final checks. Use [worked examples](references/examples.md) for ambiguous keep/delete decisions.
 
+## Check the manuscript's progression
+
+Assess whether the author understands a specific question before announcing a method. Generic statements about a field's importance do not establish the study's need. An abstract should connect the concrete task, existing route's limitation, unresolved difficulty, contribution, and principal finding. An introduction should narrow from the relevant direction and its progress to the gap, motivation, and supported contribution. Preserve an already coherent argument and adapt to a required abstract format.
+
+Derive a small number of connected literature threads, usually two or three, from that introduction. The review explains prior studies and their relationships; it should not default to separate camps, a paper list, or repeated comparisons with the present paper. Put the current study's positioning in the introduction or discussion unless an explicit comparison task requires otherwise. Methods should follow dependency order without repeating definitions and assurances. Results, limitations, and conclusion must follow the discipline, design, and supplied section conventions. Check concise connected reasoning rather than requiring lists or a fixed paragraph count.
+
 ## Make the decision explicit
 
 | Decision | Apply when |

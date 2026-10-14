@@ -1,48 +1,42 @@
 ---
 name: related-work-synthesis
-description: Organize or revise Related Work around meaningful comparison axes, check citation support, and bound novelty claims. Use when a passage is a paper list, creates false camps, or repeats the method instead of locating the work.
+description: Draft or revise a literature review through connected research threads derived from the introduction, explaining prior studies with source-supported claims. Use for paper lists, artificial taxonomies, or repeated self-comparison; preserve citation and LaTeX or Word conventions.
 license: MIT
 ---
 
 # Related Work Synthesis
 
-Explain how relevant approaches relate to the research question. Preserve real distinctions without inventing mutually exclusive categories, missing capabilities, or priority claims.
+Explain the relevant literature through the problem the introduction has established. Synthesize what prior studies did and found, and how they connect, in concise paragraphs.
 
-## Establish source coverage
+## Establish the question and sources
 
-Identify the requested passage, the current work's supplied description, and the available sources. Distinguish full papers from abstracts, excerpts, notes, and earlier assistant summaries. Use the material the task permits. A bounded revision can proceed with incomplete coverage; report what remains unestablished rather than inventing missing facts or requiring an unrelated search.
+Read the introduction or supplied research question before organizing the review. Identify the direction, established progress, and specific unresolved issue. If the introduction is unavailable, build only a provisional organization from the supported question and state the missing context. Do not invent the paper's gap from a method name.
 
-Check each source-dependent proposition against the source actually available. An excerpt that does not discuss a property establishes **unknown**, not **absent**. Source notes can support a provisional synthesis but cannot silently become verified full-paper claims.
+Distinguish full papers, abstracts, excerpts, source cards, and earlier summaries. Check each claim against the source actually available. A source that does not mention a property establishes unknown, not absent. Do not fabricate references, author names, dates, missing capabilities, or exhaustive priority claims.
 
-## Choose the comparison axes
+## Follow connected research threads
 
-Select only axes that explain the present research question: for example, information available, source of supervision, interaction timing, learning objective, decision rule, assumptions, or evaluated endpoint. Similar task names and author chronology are usually insufficient organizing principles.
+Choose two or three threads that follow from the introduction's reasoning, adjusting only when the author, article type, source coverage, or required format calls for it. Do not invent a thread to reach a quota. Explain the connection between threads rather than dividing a field into mutually exclusive categories. A substantive heading can orient a long review without becoming a taxonomy.
 
-When several papers overlap, use a small working matrix of **approach × relevant property × source support**. This is optional reasoning support, not mandatory manuscript content. Mark unknown cells explicitly. Permit an approach to occupy multiple categories; “uses archived data” and “accepts later corrections” can both be true.
+Within a thread, explain the relevant question, scientific operation, and supported finding of prior work. Link studies through extension, application, or a meaningful difference. Synthesize several sources when they support the same point. Author chronology, one paragraph per paper, and generic categories such as traditional, modern, and hybrid are weak defaults.
 
-Distinguish an operational difference from evidence of superiority. A different information source, rule, or evaluation setting does not by itself demonstrate better performance or that another method fails.
+Differences among prior studies can illuminate their relationship. Comparisons with the present paper are not the default literature narrative. Do not end each paragraph with our method overcomes this limitation or replay the current method. Keep present-paper positioning in the introduction or discussion. If the author explicitly requests a current-paper comparison or novelty audit, provide it as that bounded task and distinguish difference from demonstrated superiority.
 
-## Build the synthesis
+Explain prior contributions in their own studied settings. Do not organize paragraph endings around what those studies did not establish for this paper's task; that is still a current-paper comparison even without the word our. Include a limitation when it is needed to interpret the prior finding itself, rather than to advertise the present study's gap. Put unresolved source-coverage notes outside the manuscript passage when they do not affect its scientific meaning.
 
-Group sources around supported commonalities, then state meaningful differences. Connect each paragraph to the question the paper addresses. Avoid a catalogue of one-sentence paper summaries when an axis explains the relationship more directly.
+A small working source-to-claim map may help the editor; it is not a table that must appear in the manuscript. An approach may span multiple threads. A small source set cannot establish first, only, or no prior work, and an unreported property must remain unresolved.
 
-Keep the present method's description to the detail needed for comparison; move its procedural walkthrough to Methods. Give a plain operational distinction before referring readers to formal details. Preserve substantive differences rather than flattening everything into “related approaches.”
+## Write and format the synthesis
 
-Place citations close to the propositions they support. Split a compound sentence if different sources support different clauses. A citation range does not support a universal statement when one cited source contradicts it. Never invent a reference or infer citation entailment from a title alone.
+Give each paragraph a scientific point, the sources supporting it, and a connection to the next point. Put citations beside the propositions they support. Split claims with different source support when needed. Preserve accurate author-approved prose instead of forcing every review into the same shape.
 
-## Bound novelty
-
-Separate “our design uses these inputs” from “no prior work uses these inputs.” A small source set can establish local contrasts, not exhaustive priority. Remove, narrow, or flag “first,” “all,” and “only” when their required coverage is missing. Do not replace an unsupported priority claim with an equally unsupported claim that a particular combination is unique.
+In LaTeX, preserve the existing section commands, citation commands and keys, labels, and bibliography system. In Word, use the supplied citation style and native heading and paragraph styles when editing a document; preserve reference-manager fields. Paste-ready Word prose should not contain Markdown heading marks, LaTeX commands, or invented bibliographic details. Claim compilation or rendered layout checks only when performed. Author or venue requirements govern headings and formatting.
 
 ## Worked example
 
-**Source cards:** Study A trains from historical observations and requests expert annotations for uncertain cases. Study B weights historical examples by annotator agreement. The present system combines historical and corrected records using source identity and consistency weights.
+A fictional introduction asks how to obtain informative crop observations and combine records of differing quality. Source A describes targeted follow-up sampling after anomalous readings. Source B aligns observations recorded at different times. Source C weights aligned measurements by sensor calibration quality. Their findings are supplied as excerpts, not full papers.
 
-**Faulty synthesis:** “Historical and interactive methods are separate camps; ours first introduces evidence weighting.”
-
-**Repair:** “Historical supervision can be extended through targeted expert annotation [A], while agreement-based weighting controls individual examples' training contributions [B]. The present system weights historical and corrected records using source identity and consistency.”
-
-This identifies supported relationships without asserting exclusivity or exhaustive novelty. Any unreported weighting details in A remain unknown.
+A coherent synthesis can connect targeted acquisition to the integration of heterogeneous records. It explains the operation and supported result of each line of work and why alignment and quality weighting address different properties of observations. It does not create historical and interactive camps or add a final sentence claiming that the present system uniquely combines the ideas. Unreported capabilities remain unknown.
 
 ## Prose when drafting or revising
 
@@ -52,4 +46,4 @@ This library defaults to no explanatory colons or sentence-interrupting dashes i
 
 ## Deliver and stop
 
-Return the requested synthesized passage or prioritized audit, followed by material citation or novelty uncertainties. Preserve correct comparisons and sound prose. Stop when the supplied sources support the revised distinctions; do not expand the task into new experiments, an unsolicited bibliography, or a complete method rewrite.
+Return the requested literature passage or located audit findings, with material source uncertainties outside the passage. Prefer concise connected prose to a paper catalogue or classification list. Preserve accurate prior-work explanations and stop when the permitted sources support the narrative. Do not expand into an unsolicited search, method rewrite, or new study.

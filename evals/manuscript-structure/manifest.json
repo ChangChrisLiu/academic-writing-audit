@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "path_resolution": "File paths are relative to the repository. Initial skill snapshots are preserved in the evaluation directory; revised skills resolve in this release. Raw generated outputs and independent assessments are included unchanged.",
+  "files": {
+    "evals/manuscript-structure/README.md": "a9e42b3f2af58b78fd9c951b266915a7616c1077cd955cd1ccada9fc18165f7c",
+    "evals/manuscript-structure/assessment.json": "93688d985e9e89f1aae3d1d1022fc52780ad1a680794b3327704df2aee31111d",
+    "evals/manuscript-structure/assessment.md": "0514dca019367be563ade811370b0e9c56d3dffbf6ec0402e089f3134c48a9b7",
+    "evals/manuscript-structure/cases/engineering/answer.md": "f285f3b67e4528ab2c1c9a770e667bcd1f4b0c8b9687712217a9dc950a2673b3",
+    "evals/manuscript-structure/cases/engineering/execution.txt": "0efa90b6483804cc2f62154be62911c07a7f9365681247dbe13d3bc89ae7d92a",
+    "evals/manuscript-structure/cases/engineering/manuscript.tex": "84c39bad83e659376d05710f6b7943082b61f0c9b40952996ea1c988dce9567e",
+    "evals/manuscript-structure/cases/engineering/request.md": "b4bd5eaa65d556adddd6a26b6b60a230b06c7c2ddb6be8f73c3793252f4f2863",
+    "evals/manuscript-structure/cases/mathematics/answer.md": "70ab278768f47b4d58e0ac273f7a3f0fa8279e60c378e6261f3877dcdcefbef3",
+    "evals/manuscript-structure/cases/mathematics/execution.txt": "7daaee00041b7976d3a9a30f601ba22813caf1f1263e83acc41b93750039556c",
+    "evals/manuscript-structure/cases/mathematics/request.md": "cf4a2fe7a0b51a8b30685e6b422081c8b140a5a508987ba95fff98e1f2679cd6",
+    "evals/manuscript-structure/cases/qualitative/answer.md": "1c3f44a8086e5ffa6d11c09aa97ae8bf77789fbcfc4ca72d32e7e4a3b22ada6a",
+    "evals/manuscript-structure/cases/qualitative/execution.txt": "3e415f011985630b0e07e05c87340bea375dd10dd05e57188375294c4a7ccdb8",
+    "evals/manuscript-structure/cases/qualitative/manuscript.txt": "aecb938e2626d6fc0353ab4b9c2e40ad02d171866f97721604dccc7a83feb360",
+    "evals/manuscript-structure/cases/qualitative/request.md": "1fde975b0c67a84fb10546650c6a89e6e212c9247138e3da4a5e4986558341f1",
+    "evals/manuscript-structure/design-freeze.json": "f7bee90d8c2e5ff877f4c7e5c704ef74814413031baa056dbb0c65b64d5836b0",
+    "evals/manuscript-structure/regression/assessment.json": "ef7532804b345b1c9b18d15a5503514b7bdf8ae71abcb4d340b0b99e5e7b257c",
+    "evals/manuscript-structure/regression/assessment.md": "0f5ac2b491accab225096bdcbafc1803cb83c7eccc52ceb9c7ffa1a783dfc080",
+    "evals/manuscript-structure/regression/cases/engineering/answer.md": "8efe7eb4067ca58bee8bbfaf86d72602ff39c798f438a0f0047c46bfd4c71c45",
+    "evals/manuscript-structure/regression/cases/engineering/execution.txt": "f06965e0b8cc578e1dde88cb5f24605b824effecfb88b5feae4e0988598dbb8e",
+    "evals/manuscript-structure/regression/cases/engineering/manuscript.tex": "5cbbea05f1547593bc2d59911473b3aa616efc34f132d72cd415e8be146cef6e",
+    "evals/manuscript-structure/regression/cases/engineering/request.md": "b4bd5eaa65d556adddd6a26b6b60a230b06c7c2ddb6be8f73c3793252f4f2863",
+    "evals/manuscript-structure/regression/cases/mathematics/answer.md": "1769bb21be93c6526e2070e8bf4e8e32386f169288b1b88e1ef5225f8d84cab4",
+    "evals/manuscript-structure/regression/cases/mathematics/execution.txt": "c1b743a8c637e915344c2c4e836c3a1d556393e49bcdc6922e59f87c6baad5d6",
+    "evals/manuscript-structure/regression/cases/mathematics/request.md": "cf4a2fe7a0b51a8b30685e6b422081c8b140a5a508987ba95fff98e1f2679cd6",
+    "evals/manuscript-structure/regression-design-freeze.json": "b9d9636df531848fe159cd5457bee4f834fb40bc31ded2bd3cb7e45cd70ebf94",
+    "evals/manuscript-structure/rubric.md": "879db99dd10502246f6a1d01cc99b1e94844a19bee3c2d56b4b717e2ed6de030",
+    "evals/manuscript-structure/run-metadata.json": "cbe6cf193863305175829c41df441069ab5807edabea36a84db83dd90e7dfd09",
+    "evals/manuscript-structure/tested-skills/initial/related-work-synthesis/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "evals/manuscript-structure/tested-skills/initial/related-work-synthesis/SKILL.md": "01007396c706e01a09804d337ca3105e19c559d8cc93c570c8ce197e8bf235c1",
+    "evals/manuscript-structure/tested-skills/initial/related-work-synthesis/agents/openai.yaml": "08900c0ac2b048df4d337e3613786eaf948ee66289c4b00323d4f2da398f499a",
+    "evals/manuscript-structure/tested-skills/initial/research-manuscript-writing/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "evals/manuscript-structure/tested-skills/initial/research-manuscript-writing/SKILL.md": "da80e52de5b01f6d5925322cdc0d6c67d281fba6829029a80a763017a71f8db6",
+    "evals/manuscript-structure/tested-skills/initial/research-manuscript-writing/agents/openai.yaml": "62a7ff375091baa65f15d69d4bf5a519bb5b0add273e1d00a067412617fb8112",
+    "evals/manuscript-structure/tested-skills/initial/research-manuscript-writing/references/findings-and-endings.md": "114bc958341fe429641df4e206c91ffaa56378f0a9c55955d15b63c0def7fcb9",
+    "evals/manuscript-structure/tested-skills/initial/research-manuscript-writing/references/latex-and-word.md": "41bf1e30478072a57c3cd013561d58e5356dd13531726cc0ab4412f293127eb5",
+    "evals/manuscript-structure/tested-skills/initial/research-manuscript-writing/references/section-reasoning.md": "962f9beb68cf65f4606a91b36296195df963be0a15140813871d780c88d7e933",
+    "evals/manuscript-structure/tested-skills/initial/scientific-story-audit/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "evals/manuscript-structure/tested-skills/initial/scientific-story-audit/SKILL.md": "08ac60e8ff397faee7223dacf2505d254d03ed8bd3b36dd6b8da600d046d4a10",
+    "evals/manuscript-structure/tested-skills/initial/scientific-story-audit/agents/openai.yaml": "9f506d62cf550225ca13f470868fa9068388d827ed53f1f8b287f12d3d2aef84"
+  },
+  "skill_versions": {
+    "initial": {
+      "directory": "evals/manuscript-structure/tested-skills/initial",
+      "files": {
+        "research-manuscript-writing/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+        "research-manuscript-writing/SKILL.md": "da80e52de5b01f6d5925322cdc0d6c67d281fba6829029a80a763017a71f8db6",
+        "research-manuscript-writing/agents/openai.yaml": "62a7ff375091baa65f15d69d4bf5a519bb5b0add273e1d00a067412617fb8112",
+        "research-manuscript-writing/references/findings-and-endings.md": "114bc958341fe429641df4e206c91ffaa56378f0a9c55955d15b63c0def7fcb9",
+        "research-manuscript-writing/references/latex-and-word.md": "41bf1e30478072a57c3cd013561d58e5356dd13531726cc0ab4412f293127eb5",
+        "research-manuscript-writing/references/section-reasoning.md": "962f9beb68cf65f4606a91b36296195df963be0a15140813871d780c88d7e933",
+        "related-work-synthesis/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+        "related-work-synthesis/SKILL.md": "01007396c706e01a09804d337ca3105e19c559d8cc93c570c8ce197e8bf235c1",
+        "related-work-synthesis/agents/openai.yaml": "08900c0ac2b048df4d337e3613786eaf948ee66289c4b00323d4f2da398f499a",
+        "scientific-story-audit/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+        "scientific-story-audit/SKILL.md": "08ac60e8ff397faee7223dacf2505d254d03ed8bd3b36dd6b8da600d046d4a10",
+        "scientific-story-audit/agents/openai.yaml": "9f506d62cf550225ca13f470868fa9068388d827ed53f1f8b287f12d3d2aef84"
+      }
+    },
+    "revised": {
+      "directory": "skills",
+      "files": {
+        "research-manuscript-writing/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+        "research-manuscript-writing/SKILL.md": "4bdc7dd8a32373348c81ad400f368b8d321c469920cf513ffce51b89ed4fb176",
+        "research-manuscript-writing/agents/openai.yaml": "62a7ff375091baa65f15d69d4bf5a519bb5b0add273e1d00a067412617fb8112",
+        "research-manuscript-writing/references/findings-and-endings.md": "114bc958341fe429641df4e206c91ffaa56378f0a9c55955d15b63c0def7fcb9",
+        "research-manuscript-writing/references/latex-and-word.md": "41bf1e30478072a57c3cd013561d58e5356dd13531726cc0ab4412f293127eb5",
+        "research-manuscript-writing/references/section-reasoning.md": "855997cbf72ae98d03835716a31d8fc6888f522f3ad0b682adf0686a29785e45",
+        "related-work-synthesis/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+        "related-work-synthesis/SKILL.md": "e71bb1e7819d332afa686540a4475ae1c5129476d9a03be9480bcb54848851b8",
+        "related-work-synthesis/agents/openai.yaml": "08900c0ac2b048df4d337e3613786eaf948ee66289c4b00323d4f2da398f499a",
+        "scientific-story-audit/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+        "scientific-story-audit/SKILL.md": "08ac60e8ff397faee7223dacf2505d254d03ed8bd3b36dd6b8da600d046d4a10",
+        "scientific-story-audit/agents/openai.yaml": "9f506d62cf550225ca13f470868fa9068388d827ed53f1f8b287f12d3d2aef84"
+      }
+    }
+  }
+}
