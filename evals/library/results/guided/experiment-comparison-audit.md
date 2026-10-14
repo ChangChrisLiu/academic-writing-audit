@@ -1,0 +1,10 @@
+The supplied experiment record shows four consequential errors:
+
+- **“Equivalent fixed baseline” conflates two rules.** Threshold assigns two constant weights; Fixed map uses the Selected nonlinear formula with preset parameters. Threshold is not that formula without selection.
+- **Training eligibility differs.** Selected, Fixed map, and Threshold use 28,000 clips; Uniform uses 30,000; No feedback uses 22,000.
+- **Budgets match per fit, not across procedures.** Selected fits six candidates; each other variant fits once. Runtime and effective weighted exposure are unrecorded, so their equality cannot be asserted.
+- **No feedback removes examples, not labels.** It drops all corrected clips, retains source tags, and reuses Selected coefficients without retuning. This assesses source removal at that setting; it does not isolate annotation effects or establish the best reduced configuration.
+
+**Corrected paragraph**
+
+“All variants use the same classifier architecture, optimizer, batch size, and 8,000 optimizer updates per fit, and are evaluated on the same held-out audio set. Selected normalizes a smooth nonlinear function of confidence and error-type features, then applies source multipliers; it fits six candidate coefficient settings and chooses one by validation accuracy. Fixed map uses the same nonlinear formula with preset coefficients and source multipliers in one fit. Threshold assigns one of two constant weights using a confidence threshold, then applies preset source multipliers in one fit. Selected, Fixed map, and Threshold exclude 2,000 routine clips failing the quality gate, leaving 28,000 eligible clips. Uniform assigns weight 1 to all 30,000 clips and fits once. No feedback removes all 6,000 operator-corrected clips, retains the 22,000 quality-passing routine clips and their source tags, and fits once using the chosen Selected coefficients without retuning. This is a source-removal comparison at the selected settings. Total measured runtime and effective weighted exposure were not recorded.”

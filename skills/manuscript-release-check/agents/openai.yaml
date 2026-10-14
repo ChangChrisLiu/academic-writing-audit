@@ -1,0 +1,4 @@
+interface:
+  display_name: "Manuscript Release Check"
+  short_description: "Verify source, render, transfer, and submission evidence"
+  default_prompt: "Use $manuscript-release-check to assess the manuscript's release evidence and prepare an exact, recoverable handoff for any remaining work."

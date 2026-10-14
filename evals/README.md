@@ -1,5 +1,7 @@
 # Evaluation record
 
+This page records the original `academic-writing-audit` development trials. The ten focused skills added in v0.2 have their own [trial record](library/README.md). Their results should not be pooled as one benchmark.
+
 Run date: 2026-10-14. These are small, manually inspected development trials, not a benchmark establishing general effectiveness.
 
 ## Materials and execution

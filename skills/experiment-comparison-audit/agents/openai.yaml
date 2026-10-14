@@ -1,0 +1,4 @@
+interface:
+  display_name: "Experiment Comparison Audit"
+  short_description: "Clarify baselines, ablations, and resource budgets"
+  default_prompt: "Use $experiment-comparison-audit to check what these baselines and ablations actually change and revise only unsupported comparison claims."

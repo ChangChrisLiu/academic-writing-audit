@@ -1,0 +1,42 @@
+---
+name: manuscript-release-check
+description: Use when checking manuscript finalization, source-to-PDF identity, editor synchronization, submission evidence, or preparing a recoverable handoff for another agent. Especially useful after late source edits, stale previews, missing build dependencies, or conflicting completion reports.
+license: MIT
+---
+
+# Manuscript Release Check
+
+Tie every completion claim to an identifiable artifact and observed evidence. Source correctness, successful compilation, visual inspection, transfer, and submission are distinct states.
+
+## Establish the target
+
+Identify the intended manuscript source, author-approved changes, destination, and requested operation. Resolve “final” or “latest” using actual file locations, revisions, or manifests. Preserve existing sources, assets, and recoverable prior versions. This skill grants no authorization to upload, submit, publish, delete, or replace material; perform external actions only within the user's existing instructions. A readiness review remains a review.
+
+Read current artifacts independently of earlier completion summaries. Separate observations from logs, human reports, assumptions, and your own newly performed checks. If only an evidence packet is available, assess that packet without claiming direct access to its underlying files or services.
+
+## Follow the artifact chain
+
+1. **Source:** Identify the entry file and needed bibliography, styles, figures, and other dependencies. Check that the intended edits are in the source being built. If a file changes after verification, earlier evidence remains attached to the earlier version.
+2. **Build:** Associate a successful compiler result with its exact input and output. A missing style file establishes a dependency blocker, not that the latest edit is wrong or that the remaining source is valid. Use the legitimate dependency or intended build environment when authorized; do not silently substitute a style or revert approved text to obtain a PDF. A Recompile click is only an action record.
+3. **Render:** Inspect the intended PDF and record pages or regions checked. A successful build does not establish unclipped figures, correct affiliations, usable cross-references, or final pagination. Partial inspection supports a partial verdict. A preview showing old text cannot verify the new version.
+4. **Transfer:** Distinguish a recorded paste or upload from independently verified persisted contents. Confirm the destination identity and intended source or artifact when accessible. A source transfer, successful remote build, and matching exported PDF require separate evidence; none follows merely from an editor action log.
+5. **Submission:** Inspect the actual state or receipt when this is within scope. An attachment listed in a draft confirms neither final submission nor public availability. Link any observed receipt to the intended artifact and action. Do not infer completion from a button click or present a future step as already performed.
+
+## Leave a recoverable handoff
+
+Use these fields when another agent must continue; omit only genuinely irrelevant fields:
+
+- **Current source:** location, entry file, revision or observed identifier, and approved changes to preserve.
+- **Prior recoverable state:** preserved source/artifact locations and the relationship to the current version.
+- **Build state:** input identity, environment/dependencies, command or build entry point when known, log/result, and output identity.
+- **Render coverage:** exact output inspected, pages/regions, material findings, and unchecked areas.
+- **Destination state:** project/file or portal identity, recorded transfer activity, verification evidence, attachment identity, and submission/receipt status.
+- **Resume actions:** smallest remaining checks, unresolved blockers, and action boundaries from the user's instructions.
+
+Use real identifiers already available or hashes actually calculated; do not invent hashes to make the handoff appear precise. A timestamp helps locate evidence but alone does not prove two artifacts match. Keep private paths and identifiers within the authorized handoff context.
+
+## Report and stop
+
+Lead with the supported readiness judgment, followed by confirmed, failed/blocked, and unverified steps. Name what changed and what still needs checking. A missing receipt means completion is unconfirmed, not proof that a remote action never occurred.
+
+Stop when the requested chain has been verified or every remaining gap has a specific recoverable next step. Preserve the author's valid changes while resolving environmental failures. Do not repeatedly rebuild unchanged inputs, erase prior artifacts, widen a bounded review into publication, or claim that source inspection proves deployment or submission.

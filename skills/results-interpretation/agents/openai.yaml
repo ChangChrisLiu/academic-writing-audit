@@ -1,0 +1,4 @@
+interface:
+  display_name: "Results Interpretation"
+  short_description: "Explain findings without overstating their meaning"
+  default_prompt: "Use $results-interpretation to write or audit these Results, preserving the measured endpoint, uncertainty, and distinct roles of each study."

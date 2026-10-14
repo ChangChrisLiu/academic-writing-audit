@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reviewer Comment Triage"
+  short_description: "Turn reviewer concerns into focused manuscript repairs"
+  default_prompt: "Use $reviewer-comment-triage to independently assess these comments against the current manuscript and propose focused reader-facing repairs."

@@ -1,45 +1,108 @@
-# Academic Writing Audit
+<p align="center">
+  <img src="assets/hero.jpg" alt="Academic Writing Audit — Clear arguments. Supported claims. Careful edits." width="100%">
+</p>
 
-An agent skill for reviewing academic arguments, removing unnecessary defensive writing, and making evidence-grounded revisions without losing the author's research story.
+<h1 align="center">Academic Writing Audit</h1>
 
-[中文说明](README.zh-CN.md) · [Skill](skills/academic-writing-audit/SKILL.md) · [Examples](skills/academic-writing-audit/references/examples.md) · [Evaluation](evals/README.md)
+<p align="center"><strong>11 portable agent skills for clearer scientific manuscripts.</strong><br>
+Reconstruct the argument, check the evidence, and change only what needs changing.</p>
 
-The guiding question is: **What does this sentence help the reader understand, and what evidence supports it?**
+<p align="center">
+  <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-943D32"></a>
+  <a href="https://agentskills.io/specification"><img alt="Format: Agent Skills" src="https://img.shields.io/badge/format-Agent_Skills-444444"></a>
+  <a href="README.zh-CN.md"><img alt="中文说明" src="https://img.shields.io/badge/docs-中文-786957"></a>
+</p>
 
-## What it helps with
+<p align="center">
+  <a href="#choose-a-skill">Choose a skill</a> ·
+  <a href="#install">Install</a> ·
+  <a href="docs/field-guide.md">Problem → repair</a> ·
+  <a href="evals/library/README.md">Trial records</a> ·
+  <a href="assets/README.md">Media kit</a>
+</p>
 
-- Scientific logic from motivation and contribution through method, evidence, and conclusion.
-- Claim strength, comparator definitions, ablation semantics, and distinct experimental protocols.
-- Defensive prose that anticipates objections instead of explaining the research.
-- Over-editing that removes a necessary definition, boundary, motivation, or transition.
-- Reviewer-informed revisions and final checks that preserve current source identity.
+---
 
-The skill distinguishes the importance of a fact from the quality of its wording and placement. It treats **keep as written** as a useful editorial decision. It supports empirical, theoretical, and qualitative work; the appropriate evidence depends on the discipline.
+A manuscript can become shorter and still lose its argument. A cautious sentence can be essential. A convincing result can support the full system without identifying which component caused the gain.
 
-## How it works
+This library turns those recurring editorial decisions into small, reusable workflows. Use the full audit for an unfamiliar manuscript, or load one focused skill when the problem is already clear. Every skill accepts **keep as written** as a useful outcome.
 
-The agent first identifies the requested scope and current source, then reconstructs the argument and checks consequential claims against their support. It evaluates questionable sentences by reader function and chooses among keep, clarify, merge, move, and delete. Changes must repair a specific problem. Verification is proportional to the requested output.
+## Start here
 
-For example, “We stress that no labels were changed to improve the result” may become the direct fact “Labels were fixed before aggregate outcomes were computed.” But “Downstream outcomes were not evaluated” must remain when it defines what the reported result means.
+| Your task | Start with | Ask for |
+| --- | --- | --- |
+| Understand what needs attention in a whole paper | [Academic writing audit](skills/academic-writing-audit/SKILL.md) | Prioritized findings, evidence, and passages to preserve. |
+| Repair a specific writing problem | [Choose a focused skill below](#choose-a-skill) | A bounded replacement or patch with a reason for each change. |
+| Check the final manuscript and handoff | [Manuscript release check](skills/manuscript-release-check/SKILL.md) | The verified source, build, render, and publication state. |
 
-The entrypoint is about 630 words. Detailed guidance is loaded only when needed:
+```text
+Use $academic-writing-audit to review this manuscript.
+First audit its argument, evidence boundaries, comparisons, and definitions.
+Do not rewrite the file. Identify sound passages that should stay unchanged.
+```
 
-| Resource | Use |
-| --- | --- |
-| [Argument and evidence](skills/academic-writing-audit/references/argument-and-evidence.md) | Source authority, object transitions, claims, comparisons, and generalization. |
-| [Nondefensive writing](skills/academic-writing-audit/references/nondefensive-writing.md) | Sentence function, tone, placement, and necessary limitations. |
-| [Review and patching](skills/academic-writing-audit/references/review-and-patching.md) | Audit outputs, bounded edits, independent perspectives, and verification. |
-| [Worked examples](skills/academic-writing-audit/references/examples.md) | Concrete decisions, including cases where no edit is needed. |
+## Choose a skill
 
-## Use with an agent
+Each folder is independently installable. You do not need to load the whole collection.
 
-The package follows the [Agent Skills format](https://agentskills.io/specification). The instructions use plain Markdown and relative references, with no mandatory model, API, command-line tool, browser, or agent delegation. Native discovery depends on the client; portability of instructions does not establish identical behavior across clients.
+| When you encounter… | Skill | What it helps you produce |
+| --- | --- | --- |
+| A paper needing a complete editorial diagnosis | [academic-writing-audit](skills/academic-writing-audit/SKILL.md) | A structured scientific and editorial audit. |
+| A missing bridge between problem, contribution, and evidence | [scientific-story-audit](skills/scientific-story-audit/SKILL.md) | A connected argument that preserves the contribution's scope. |
+| Rebuttal-like prose, repeated assurances, or piles of caveats | [nondefensive-writing](skills/nondefensive-writing/SKILL.md) | Direct explanations with necessary boundaries intact. |
+| A paper list, false categories, or an unsupported “first” | [related-work-synthesis](skills/related-work-synthesis/SKILL.md) | Source-supported comparison axes and bounded novelty claims. |
+| A conclusion stronger than its supporting observation | [claim-evidence-audit](skills/claim-evidence-audit/SKILL.md) | Claims matched to the study and inference that support them. |
+| Ambiguous baselines, ablations, budgets, or data eligibility | [experiment-comparison-audit](skills/experiment-comparison-audit/SKILL.md) | Operational definitions of what was actually compared. |
+| Results that merely repeat numbers or over-explain mechanisms | [results-interpretation](skills/results-interpretation/SKILL.md) | Useful interpretation with attribution and uncertainty in scope. |
+| A formula or appendix pointer that never explains the operation | [method-definition-audit](skills/method-definition-audit/SKILL.md) | Plain definitions consistent with the formal procedure. |
+| Arrows, captions, and endpoints that imply different things | [figure-caption-audit](skills/figure-caption-audit/SKILL.md) | Aligned visual semantics, labels, and captions. |
+| Reviewer comments becoming scattered or repetitive edits | [reviewer-comment-triage](skills/reviewer-comment-triage/SKILL.md) | Current-text diagnosis and a focused reader-facing repair. |
+| An old PDF, uncertain compilation, or unclear submission state | [manuscript-release-check](skills/manuscript-release-check/SKILL.md) | A precise verification record and usable handoff. |
 
-### A client that supports Agent Skills
+For concrete failure patterns and sample requests, see the [field guide](docs/field-guide.md).
 
-Copy the entire `skills/academic-writing-audit/` folder into the client's configured skills directory. Keep `references/` and `LICENSE` with it. The optional `agents/openai.yaml` supplies Codex UI metadata; the core instructions do not depend on it.
+## What a careful edit looks like
 
-For a local Codex installation, run these commands from this repository's root:
+**Draft**
+
+> We emphasize that incomplete measurements were not quietly discarded. No one should infer that our system guarantees reliable field operation.
+
+**Supplied evidence** — Incomplete measurements receive an abstention, remain in the denominator, and have no concentration estimate. Field operation was not evaluated.
+
+**Revision**
+
+> Incomplete measurements received an abstention rather than a concentration estimate and remained in the evaluation denominator. The study did not evaluate field operation.
+
+The accusation and reassurance disappear. The operative rule, denominator, and study boundary remain. A clear preceding motivation paragraph stays as written.
+
+## Install
+
+[Download a portable release bundle](https://github.com/ChangChrisLiu/academic-writing-audit/releases/latest), or install selected skills below.
+
+The library uses the [Agent Skills format](https://agentskills.io/specification): a Markdown entrypoint, optional local references, and a license in each skill folder. Core instructions require no specific model, API, tool, or delegation workflow. Client discovery and model behavior can differ.
+
+### With the Skills CLI
+
+The optional [Skills CLI](https://github.com/vercel-labs/skills) supports installation into multiple agent clients. From your project directory:
+
+```sh
+# Browse the available skills without installing.
+npx skills add ChangChrisLiu/academic-writing-audit --list
+
+# Install one focused skill; choose the target agent when prompted.
+npx skills add ChangChrisLiu/academic-writing-audit --skill nondefensive-writing
+
+# Install the collection for Codex in this project.
+npx skills add ChangChrisLiu/academic-writing-audit --skill '*' -a codex
+```
+
+Add `-g` for a user-wide installation. Review the selected destination before replacing an existing skill.
+
+### Manual installation
+
+Copy the desired folder from `skills/` into your client's configured skills directory. Keep its references and `LICENSE` together. `agents/openai.yaml` is optional Codex display metadata.
+
+For user-wide Codex installation, run from a local clone:
 
 ```sh
 skill_root="${CODEX_HOME:-$HOME/.codex}/skills"
@@ -48,56 +111,46 @@ test ! -e "$skill_root/academic-writing-audit" && \
   cp -R skills/academic-writing-audit "$skill_root/academic-writing-audit"
 ```
 
-The copy runs only when that skill directory does not already exist. Review an existing version before replacing it. If the new skill is not listed in the active session, open a new session and invoke it there.
+This copy preserves any existing installation. Substitute another folder name to install a focused skill. Open a new agent session if the installation is not discovered in the current one.
 
-Example request:
+### Any agent that can read Markdown
 
-```text
-Use $academic-writing-audit to review the attached manuscript.
-First give a scientific-logic audit; do not rewrite the source.
-Prioritize claim-evidence alignment, comparator definitions, defensive
-writing, and missing transitions. Identify passages that should stay.
-```
-
-For a revision:
+Supply the skill's `SKILL.md` and any referenced files, then ask:
 
 ```text
-Use $academic-writing-audit to revise the Results section in this file.
-Make only justified local changes. Preserve the reported values and
-the author's framing. Explain any evidence conflict before resolving it.
-Return the patch and a short account of the checks actually completed.
+Read the attached nondefensive-writing/SKILL.md and apply it to the passage.
+Revise only this passage. Preserve the study endpoint, denominator,
+algorithmic conditions, and any coherent motivation. Explain the changes.
 ```
 
-### Any agent that can read supplied Markdown
+## A small, deliberate workflow
 
-Provide `SKILL.md` and its `references/` files, then ask:
+<p align="center">
+  <img src="assets/workflow.jpg" alt="Understand the question and contribution; check claims and comparisons; revise only justified changes; verify the source and final render." width="540">
+</p>
+
+1. **Understand** the current source and the author's argument before consulting old judgments.
+2. **Check** consequential claims against the right evidence and experimental setting.
+3. **Revise** only within the requested scope, preserving definitions and valid reasoning.
+4. **Verify** what the task requires, distinguishing source inspection from compilation, render review, and external publication.
+
+An audit returns findings. An authorized revision proceeds with bounded edits. A grammar-only request stays narrow.
+
+## Evidence and maintenance
+
+The repository includes fictional cases, semantic rubrics, and complete control/guided responses. The [original full-audit trials](evals/README.md) observed better preservation of a coherent paragraph in this small development sample. The [focused-skill trials](evals/library/README.md) also record cases where the controls already handled the core issues correctly. Neither establishes broad or cross-model effectiveness.
+
+The skills support reasoning and editing; the quality of a conclusion still depends on the sources and evidence available to the agent. Read [CONTRIBUTING.md](CONTRIBUTING.md) to propose an observed failure, a small repair, and a regression case.
 
 ```text
-Read skills/academic-writing-audit/SKILL.md and follow its guidance
-for the manuscript task below. Read only the supporting references
-needed for this task. My requested scope and constraints are: ...
+skills/       11 standalone skills, optional examples, and client metadata
+docs/         Problem patterns and practical task prompts
+evals/        Synthetic cases, rubrics, observed responses, and manifests
+assets/       Generated promotional artwork, web copies, and exact prompts
 ```
 
-If the client cannot open relative files, attach the relevant reference documents as well. A skill cannot assess evidence or rendered pages that have not been supplied or inspected.
+## License and artwork
 
-## Scope and evaluation
+[MIT](LICENSE). Each skill includes its own license copy. Only generic guidance and fictional or authorized examples belong here.
 
-This is a writing and reasoning workflow, not a literature-verification service, statistical analysis package, or guarantee of scientific correctness. A narrow grammar request stays narrow. A writing task does not authorize new experiments, hardware execution, or external publication.
-
-The [evaluation materials](evals/README.md) contain fictional editorial and transfer scenarios, a semantic rubric, and observed trial outputs. They test common failure modes, including over-compression and deletion of necessary boundaries. The report separates controls from guided runs and does not claim validation across all agents or disciplines.
-
-## Repository contents
-
-```text
-skills/academic-writing-audit/  Installable skill and supporting references
-evals/                        Fictional scenarios, rubric, and trial records
-README.zh-CN.md                Chinese usage and methodology guide
-CONTRIBUTING.md                How to propose a bounded improvement
-LICENSE                       MIT license
-```
-
-Only generic guidance and fictional examples belong in this repository. Do not add private manuscripts, reviewer correspondence, raw experimental records, account details, or local project histories.
-
-## License
-
-[MIT](LICENSE). The skill's standalone folder includes a copy of the license for redistribution.
+The three promotional images were made with OpenAI's built-in GPT image-generation tool. They illustrate the editorial workflow; they are not research figures. Download the originals and web copies from the [media kit](assets/README.md), with the [generation prompts](assets/prompts.md).

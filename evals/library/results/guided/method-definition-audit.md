@@ -1,0 +1,9 @@
+P1: Archive labels preserve operator decisions, while sensor traces preserve the conditions in which those decisions were made. Using both lets us train a classifier from existing inspection records.
+
+P2: For eligible archive records E, which have a valid timestamp and a present recorded operator tag, we compute reliability weights from the recorded cost. For each candidate beta, we compute exp(-beta × recorded_cost), clip the score to [0.3, 2.4], and then divide by the mean clipped score over E. We reject a candidate beta if any source group's mean normalized weight is below 0.55; rejection leaves E unchanged. For each passing candidate, we fit the classifier using the mean over E of the reliability weight times the cross-entropy between the model prediction and the recorded operator tag, and compare passing candidates using a held-out validation criterion. The linear reference uses preset source multipliers times 1 - min(1, max(0, recorded_cost)), followed by normalization over E. The preset reference uses the exponential, clipping, and normalization pipeline with one predetermined beta; neither reference searches beta. Appendix D lists the source multipliers, candidate values, and validation criterion.
+
+- P1 is retained unchanged: its motivation agrees with the distinction between archived tags and sensor inputs.
+- The implementation weights records using saved costs; recorded tags are the training targets, while predictions are computed during fitting.
+- The supplied order is exponential → clipping → normalization. The clipping bounds apply before normalization, not necessarily to final weights.
+- The group audit rejects candidate beta settings, not records; the fitting objective and held-out comparison describe the subsequent stages.
+- Appendix D defines distinct reference constructions. Their shared absence of beta search does not make them identical. The older PASS memo does not resolve these current inconsistencies.

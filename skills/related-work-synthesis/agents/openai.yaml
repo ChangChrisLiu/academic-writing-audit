@@ -1,0 +1,4 @@
+interface:
+  display_name: "Related Work Synthesis"
+  short_description: "Compare literature without false gaps or priority"
+  default_prompt: "Use $related-work-synthesis to organize this Related Work passage by meaningful comparison axes and check what the supplied citations support."

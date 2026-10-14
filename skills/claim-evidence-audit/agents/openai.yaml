@@ -1,0 +1,4 @@
+interface:
+  display_name: "Claim Evidence Audit"
+  short_description: "Check claim support, provenance, and inference"
+  default_prompt: "Use $claim-evidence-audit to check this manuscript's claims against the supplied evidence, preserving supported conclusions and proposing minimal repairs."

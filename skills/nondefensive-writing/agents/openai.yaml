@@ -1,0 +1,4 @@
+interface:
+  display_name: "Nondefensive Writing"
+  short_description: "Remove defensive tone while keeping useful limits"
+  default_prompt: "Use $nondefensive-writing to revise this passage into direct scholarly prose while preserving its necessary definitions, limits, and interpretation."

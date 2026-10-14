@@ -1,0 +1,41 @@
+name: An editorial case
+description: Share a reproducible writing problem or a regression.
+title: "[Case] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use fictional or openly shareable material. A useful report includes the passage, its evidence, your request, and the agent's actual response. Please leave private manuscripts and review correspondence out of the issue.
+  - type: input
+    id: skill
+    attributes:
+      label: Skill and version
+      placeholder: e.g. nondefensive-writing, v0.2.0
+    validations:
+      required: true
+  - type: textarea
+    id: request
+    attributes:
+      label: Request, passage, and supporting evidence
+      description: Include enough context to judge what the sentence means and what should stay unchanged.
+    validations:
+      required: true
+  - type: textarea
+    id: response
+    attributes:
+      label: Actual agent response
+      description: Preserve the relevant output, including any unsupported claim or unnecessary edit.
+    validations:
+      required: true
+  - type: textarea
+    id: consequence
+    attributes:
+      label: Reader-facing or scientific consequence
+      description: What meaning was lost, overstated, confused, or left unresolved?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Optional execution context and proposed repair
+      description: Client, model if known, skill files loaded, and the smallest change you suggest.

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Method Definition Audit"
+  short_description: "Check method objects, operations, and comparison rules"
+  default_prompt: "Use $method-definition-audit to check the supplied method definitions against their evidence and propose only necessary repairs."

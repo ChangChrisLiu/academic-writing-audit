@@ -1,0 +1,4 @@
+interface:
+  display_name: "Figure and Caption Audit"
+  short_description: "Align figures and captions with scientific evidence"
+  default_prompt: "Use $figure-caption-audit to check this figure and caption against the supplied manuscript, preserving sound elements and reporting the evidence inspected."

@@ -1,97 +1,131 @@
+<p align="center">
+  <img src="assets/hero.jpg" alt="Academic Writing Audit：清晰论证，有据结论，克制修改" width="100%">
+</p>
+
 # Academic Writing Audit：学术论证与写作审查
 
-[English](README.md) · [核心 Skill](skills/academic-writing-audit/SKILL.md) · [判断示例](skills/academic-writing-audit/references/examples.md) · [验证记录](evals/README.md)
+**11 个可独立使用的 agent skills，把论文修改中反复遇到的问题整理成可执行的判断方法。**
 
-这个 skill 把多轮论文修改中反复出现的判断整理成可复用的方法：**先判断科学论证是否成立，再判断一句话的作用，最后决定是否修改。**
+[English](README.md) · [问题与修复示例](docs/field-guide.md) · [完整审查入口](skills/academic-writing-audit/SKILL.md) · [专项试用记录](evals/library/README.md) · [宣传素材](assets/README.md)
 
-它适合检查论文逻辑、防御性写作、证据边界、比较对象、冗余和修改幅度。英文核心指令方便不同 agent 使用，中文说明用于理解和调整工作方式。它不依赖某一篇论文、研究方向、模型或编辑工具。
+先理解研究主线，再检查证据与推理，最后决定哪里需要改。审查后判断“这段原样保留”，同样是有价值的结果。
 
-## 怎样理解“去防御性写作”
+英文核心指令便于不同 agent 使用；中文说明解释选择和调用方法。每个 skill 都是独立目录，不依赖某篇论文、特定模型或多 agent 工作流。
 
-不是删除所有否定句、限制条件或不确定性，而是把“预先回应质疑”还原成读者需要的研究信息。
+## 从哪里开始
 
-例如，“我们强调，绝没有为了改善结果而修改标签”通常可以改成直接的时序事实：“标签在汇总结果之前固定。”但“本次实验没有评估后续处理结果”如果限定了成功率的含义，就不能因为语气消极而删除。
-
-对一句有争议的话，分别判断三个问题：
-
-1. **事实有何作用？** 删除后，读者会误解什么，或者失去哪一条逻辑连接？
-2. **当前写法是否合适？** 同一个重要事实，能否用更直接的操作、定义或观察来表达？
-3. **当前位置是否合适？** 读者是否此时需要它？其他位置是否已经完成相同的解释任务？
-
-事实重要，并不能自动证明整句原样保留合理；出现 “not”“fixed”“limited” 等词，也不能自动证明它是防御性写作。
-
-## 学术逻辑检查覆盖什么
-
-| 层面 | 关键问题 |
-| --- | --- |
-| 研究主线 | 问题、缺口、贡献、方法、证据、结论之间是否真正连起来？ |
-| 对象与过程 | 数据、样本、预测、模型、评分等对象的切换是否解释清楚？ |
-| 证据边界 | 原文声称了什么，材料实际支持什么，哪些只是解释或假设？ |
-| 比较对象 | 基线实际用了什么规则、数据、标签、预算和选择过程？ |
-| 消融含义 | 移除的是数据源、信息、算法部件，还是选择步骤？不能只看名称。 |
-| 实验身份 | 主基准、分布变化、敏感性、内部选择和定性案例是否混在一起？ |
-| 结果解释 | 是否回答研究问题，又没有把整体收益归因于未隔离的机制？ |
-| 全文一致性 | 摘要、正文、图注、表格、局限和结论的指标与强度是否一致？ |
-
-理论论文侧重假设、推导和结论范围；定性研究侧重材料、解释和可推广范围。不会对所有学科机械套用“必须增加消融实验”的要求。
-
-## 如何控制修改幅度
-
-每项修改都要对应当前文本中的具体问题。可以选择：保留、澄清、合并、移位、删除。
-
-- 先独立阅读当前稿，再参考历史意见。“之前通过”是线索，不是当前正确性的证据。
-- 保留已经顺畅的研究动机与贡献叙述，不为了显示审查工作量而换一种说法。
-- 不把“更短”当作唯一目标。补一句对象关系或成功定义，可能比删一整段更有效。
-- 不把整个框架的贡献缩成某个实现细节，也不把未验证的能力写成已证明的贡献。
-- 正文承担科学故事与必要定义，附录承担详细规则与支持分析；内部修改过程留在审查记录。
-- 只在明确有问题时改动。审查后判断某节原样保留，是正常结果。
-
-## 三种使用方式
-
-### 先审查，不改稿
+| 你现在的任务 | 使用入口 | 期望输出 |
+| --- | --- | --- |
+| 第一次完整阅读一篇稿件 | [academic-writing-audit](skills/academic-writing-audit/SKILL.md) | 按重要性排列的问题、依据和保留项。 |
+| 已知具体写作问题 | 从下表选一个专项 skill | 有范围、有依据的替换或补丁。 |
+| 提交前检查版本和成品 | [manuscript-release-check](skills/manuscript-release-check/SKILL.md) | 已核实的源码、编译、渲染和发布状态。 |
 
 ```text
 使用 $academic-writing-audit 独立阅读这篇论文。
 先给结构化审查，不改文件。检查研究主线、证据边界、
 比较对象、定义承接、冗余和防御性写作。
-把必须修正、值得改善、可以保留分开，注明依据和位置。
+区分必须修正、值得改善和可以保留，注明位置与依据。
 ```
 
-### 有明确范围的修改
+## 按问题选择 skill
+
+| 遇到的问题 | Skill | 核心判断 |
+| --- | --- | --- |
+| 需要完整的科学与写作审查 | [academic-writing-audit](skills/academic-writing-audit/SKILL.md) | 论证、证据、读者功能、修改范围是否一致？ |
+| 动机与方法之间缺一座桥；贡献缩成实现细节 | [scientific-story-audit](skills/scientific-story-audit/SKILL.md) | 问题、困难、贡献和证据是否真正连接？ |
+| 正文像回复审稿人，反复保证“我们没有……” | [nondefensive-writing](skills/nondefensive-writing/SKILL.md) | 事实、措辞和位置分别是否有用？ |
+| Related Work 变成论文清单或人为划分阵营 | [related-work-synthesis](skills/related-work-synthesis/SKILL.md) | 比较轴是否成立？来源能否支持新颖性判断？ |
+| 用系统结果解释单个机制；用现有代码证明旧实验 | [claim-evidence-audit](skills/claim-evidence-audit/SKILL.md) | 哪份证据支持哪条主张，允许推断到哪里？ |
+| 基线、消融、预算和数据范围说不清 | [experiment-comparison-audit](skills/experiment-comparison-audit/SKILL.md) | 实际改变了什么，而不是实验叫什么？ |
+| Results 只报数字，或把解释写成因果证明 | [results-interpretation](skills/results-interpretation/SKILL.md) | 观察回答了什么，哪些机制仍未隔离？ |
+| 公式和附录都有，但读者不知道方法做了什么 | [method-definition-audit](skills/method-definition-audit/SKILL.md) | 能否先用一句操作定义讲清，再核对顺序与参数？ |
+| 图、箭头、图注和成功定义含义不一致 | [figure-caption-audit](skills/figure-caption-audit/SKILL.md) | 图的每个连接是否有真实语义支持？ |
+| 审稿意见导致全文不断加解释、重复修补 | [reviewer-comment-triage](skills/reviewer-comment-triage/SKILL.md) | 当前稿还缺什么，最小修复应该放在哪里？ |
+| 源码已改，PDF、线上预览和提交状态却不确定 | [manuscript-release-check](skills/manuscript-release-check/SKILL.md) | 每一个“完成”到底由什么观察证明？ |
+
+不需要每次加载全部 11 个。先选择与当前问题最接近的入口；只有发现跨章节的问题时，再扩大审查范围。
+
+## 怎样理解“去防御性写作”
+
+一句话包含否定、限制或不确定性，并不意味着应该删除。我们分别判断：
+
+1. **事实的作用**：删掉后，读者会误解什么或失去哪条逻辑连接？
+2. **表达的方式**：它是在说明操作和观察，还是在预先反驳、保证正确？
+3. **出现的位置**：读者此时是否需要它，附近是否已完成相同的解释任务？
+
+例如，虚构草稿写道：
+
+> 我们强调，不完整的测量绝没有被悄悄丢弃。读者不应认为本系统保证现场运行可靠。
+
+若已知事实是不完整测量触发弃权、保留在分母中、不输出浓度估计，且未开展现场评估，则可改成：
+
+> 不完整测量触发弃权，不输出浓度估计，并保留在评估分母中。本研究没有评估现场运行。
+
+语气更直接，但算法规则、分母和证据边界完整保留。前文若已清楚解释研究动机，就不再改写。
+
+## 安装
+
+可以先[下载便携发布包](https://github.com/ChangChrisLiu/academic-writing-audit/releases/latest)，也可以按下面的方法单独安装。
+
+目录遵循 [Agent Skills 格式](https://agentskills.io/specification)。支持原生 skills 的客户端可以发现入口；其他 agent 也可以直接阅读 Markdown。可移植不意味着已验证所有模型表现相同。
+
+可选用 [Skills CLI](https://github.com/vercel-labs/skills)：
+
+```sh
+# 列出可安装的 skill，不执行安装。
+npx skills add ChangChrisLiu/academic-writing-audit --list
+
+# 安装一个，按提示选择目标客户端。
+npx skills add ChangChrisLiu/academic-writing-audit --skill nondefensive-writing
+
+# 在当前项目中为 Codex 安装全部 11 个。
+npx skills add ChangChrisLiu/academic-writing-audit --skill '*' -a codex
+```
+
+需要用户级安装时加 `-g`。已有同名 skill 时，先比较版本和目标位置。
+
+也可以手动把 `skills/` 中选定的整个文件夹复制到客户端的 skills 目录，保留其中的参考文件和 `LICENSE`。[英文说明](README.md#manual-installation)包含 Codex 示例。`agents/openai.yaml` 只是可选的展示信息。当前会话没有发现新 skill 时，在新会话中使用。
+
+对于不能安装 skill 的 agent，提供 `SKILL.md` 及需要的参考文件，然后直接要求按文件中的方法完成任务。
+
+## 可以直接复制的请求
+
+**有明确范围的修改**
 
 ```text
-使用 $academic-writing-audit 修改这份文件的 Methods 和 Results。
-只修复有明确依据的问题，保留作者主线和已成立的表达。
-数值、公式、引用和实验定义不要因润色而改变。
-如果发现实质矛盾，先指出依据，再给最小修改。
-直接完成授权范围内的修改，并报告实际完成的检查。
+使用 $experiment-comparison-audit 修改这份稿件的实验设置段。
+按真实操作核对基线、数据范围、训练与选择预算、消融含义。
+直接完成有依据的局部修复，保留数值和已成立的作者表述。
+如果材料冲突，指出冲突；不要编造一个统一解释。
 ```
 
-### 去防御性表达
+**保留解释力度的结果段**
 
 ```text
-使用 $academic-writing-audit 检查这几段的防御性写作。
-逐项判断事实作用、措辞和位置；不要按否定词机械删句。
-保留必要的成功定义、比较差异、算法条件和真实局限。
-给出少量有理由的替换，并指出哪些内容应该原样保留。
+使用 $results-interpretation 检查这一节。
+区分观察、解释和因果归因，保留对研究问题有用的分析。
+不要把所有解释都删成报数，也不要把同一批运行中的阶段结果
+当作独立消融。给出需要改的句子和应该保留的句子。
 ```
 
-## 安装与兼容性
+**图注与图意核对**
 
-目录采用 [Agent Skills 标准格式](https://agentskills.io/specification)：`SKILL.md` 为入口，`references/` 按需读取。
+```text
+使用 $figure-caption-audit 对照这张图、图注和方法段。
+检查箭头、数据流、对照组范围和实际评估终点。
+说明哪些判断来自可见图像，哪些只能由提供的描述支持。
+```
 
-支持 skills 的客户端：把整个 `skills/academic-writing-audit/` 目录复制到该客户端的 skills 目录。Codex 的本地安装命令见 [英文说明](README.md#use-with-an-agent)。其他客户端使用各自配置的位置，不假设所有客户端共享同一路径。
+更完整的虚构案例与任务模板见 [field guide](docs/field-guide.md)。
 
-不支持原生 skills 的 agent：提供 `SKILL.md` 及需要的参考文件，并明确要求按这些指令执行。`agents/openai.yaml` 只是可选的 Codex 展示信息，核心方法可以独立阅读。
+## 验证记录
 
-“通用”指指令和方法可移植，不表示已验证所有模型都具有相同性能。无需固定使用某个高级模型，也无需多 agent。科学审查者、编辑和首次读者是三个阅读视角，可以由一个 agent 依次完成；已有明确分工时尊重用户安排。
+[最初的完整审查试用](evals/README.md)包含 5 次无 skill 对照、5 次带 skill 试用及 4 个迁移场景；在这个小样本中，带 skill 的回答更稳定地保留了一段已经连贯的研究动机。
 
-## 已包含的验证材料
+[10 个专项 skill 的试用记录](evals/library/README.md)公开场景、语义标准和完整回答。这组对照本身已解决核心问题，因此不能据此声称专项 skill 提高了准确率。测试用于检查具体行为、保留失败和支持后续回归检查，不代表跨模型或跨学科有效性认证。
 
-仓库包含合成的改稿场景、评分标准、无 skill 对照、使用 skill 的试用输出，以及理论研究、定性研究、只审不改和窄范围语法修正的迁移场景。具体执行状态见 [验证记录](evals/README.md)。
+## 素材与贡献
 
-这些材料没有复用私人论文原文、真实实验数值或内部评审通信。测试结果只支持对应场景中的行为观察，不是对所有学术任务的有效性证明。
+宣传图采用纸张、墨色和批注的学术编辑风格，由 OpenAI 内置 GPT 图像生成工具制作。三张原图、网页版本及实际生成提示词都在 [media kit](assets/README.md) 中。它们用于展示工作方式，不作为实验结果图。
 
-## 开源维护
-
-默认采用 [MIT 许可证](LICENSE)。欢迎补充可复现的失误案例和有依据的改进。提交时优先提供虚构或已获授权的材料，不上传私人论文、原始实验记录或账号信息。贡献原则见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+项目采用 [MIT 许可证](LICENSE)，每个独立 skill 都附带许可证。欢迎按 [贡献指南](CONTRIBUTING.md)提供可复现的问题、最小修改和测试案例。公开内容使用通用方法与虚构或已授权材料，不包含私人稿件和内部评审通信。
