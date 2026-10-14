@@ -1,0 +1,213 @@
+{
+  "summary": {
+    "assessed_criteria": 21,
+    "status_counts": {
+      "pass": 21,
+      "partial": 0,
+      "fail": 0,
+      "not_applicable": 0
+    },
+    "case_counts": {
+      "engineering": {
+        "pass": 7,
+        "partial": 0,
+        "fail": 0,
+        "not_applicable": 0
+      },
+      "mathematics": {
+        "pass": 7,
+        "partial": 0,
+        "fail": 0,
+        "not_applicable": 0
+      },
+      "qualitative": {
+        "pass": 7,
+        "partial": 0,
+        "fail": 0,
+        "not_applicable": 0
+      }
+    },
+    "material_disagreements": 0,
+    "unexpected_harmful_changes": 0,
+    "optional_issues": 2
+  },
+  "cases": {
+    "engineering": [
+      {
+        "criterion": 1,
+        "criterion_text": "Uses the actual deployment question and experimental design to distinguish scientific review from expression; states expected answer versus present gap rather than only claiming expertise.",
+        "status": "pass",
+        "evidence": "cases/engineering/answer.md:1-8: “The actual reviewer asks readers to understand the comparator and whether success includes a usable image”; the audit identifies the changed endpoint and trial set, and separately labels lost explanatory framing and manuscript voice.",
+        "reason": "The review makes the relevant robotics evaluation lens operational: inspection requires both arrival and a readable image, while the comparison depends on shared training conditions and different weighting rules. It contrasts those requirements with the current text rather than merely asserting expertise. Its distinction between the explicit reviewer question and the additional motivation gap is especially accurate."
+      },
+      {
+        "criterion": 2,
+        "criterion_text": "Detects composite endpoint and denominator corruption, restores the supplied 60-trial basis and meaningful image/timeout condition in any proposal without inventing results.",
+        "status": "pass",
+        "evidence": "cases/engineering/answer.md:5 and 20: “changes both the endpoint's meaning and the evaluated trial set”; proposed text restores “60 predeclared trials,” “obtaining a readable image within 20 seconds,” seven safety-aborted failures, and “42/60 ... 33/60.”",
+        "reason": "Both defects are detected and repaired together. The proposal retains six layouts and includes aborted trials as unsuccessful rather than silently dropping them. Counts, condition, and timeout agree with the authoritative packet; no new outcomes are invented."
+      },
+      {
+        "criterion": 3,
+        "criterion_text": "Detects missing motivation and complementary data roles without turning them into isolated causal contributions; rejects optimality and unsupported attribution.",
+        "status": "pass",
+        "evidence": "cases/engineering/answer.md:6, 8, 16, and 20: “does not isolate either data source's contribution or establish optimality”; the proposal distinguishes unobstructed demonstrations from occlusion recovery examples and limits interpretation to the complete workflow.",
+        "reason": "The lost reason for combining the sources is correctly recovered from the before passage and study packet. Recovery examples are described as a data role, not as a proven isolated cause of improvement. Both the manuscript's optimality language and the response's proof claim are rejected."
+      },
+      {
+        "criterion": 4,
+        "criterion_text": "Judges concern resolution against actual manuscript operations and evidence, recognizing what the same-data clarification and inspected appendix already supply.",
+        "status": "pass",
+        "evidence": "cases/engineering/answer.md:1, 5, and 7: the comparator is “partly answered in the main text and operationally answered in the inspected appendix”; weighting information was “relocated, not deleted”; the appendix supplies timeout but not the composite definition or abort policy.",
+        "reason": "The audit gives credit to existing same-data, architecture, training-step, and appendix clarifications. It does not misclassify inspected appendix content as lost. It explains precisely why those operations leave the success concern unresolved and proposes a brief main-text operational comparison without claiming the appendix lacks it."
+      },
+      {
+        "criterion": 5,
+        "criterion_text": "Keeps valid buffer coating terminology, accepts removal of reassurance and relocation of detailed calibration constants, and does not restore old text wholesale.",
+        "status": "pass",
+        "evidence": "cases/engineering/answer.md:10: “Do not restore ‘rigorous and carefully designed’”; keep “24 calibration constants and units in Appendix A”; keep buffer coating unchanged because it is “a genuine protective coating.”",
+        "reason": "All required keep decisions are explicit and correct. The output avoids the false replay-storage interpretation of buffer coating, retains the accurate calibration cross-reference, and selectively restores only scientific meaning and explanation. It also preserves the Table 2 navigation sentence."
+      },
+      {
+        "criterion": 6,
+        "criterion_text": "Separates manuscript prose from reviewer/status language and does not call proposed repairs completed.",
+        "status": "pass",
+        "evidence": "cases/engineering/answer.md:8, 12, and 22: remove “‘As requested by Reviewer 2’ from the manuscript”; replacements are “proposed”; the response should describe repairs “once adopted.”",
+        "reason": "The manuscript proposals contain study exposition, not reviewer acknowledgments. Completion and optimality claims in the response are criticized against the current saved revision. The output never represents its proposed replacements as applied edits."
+      },
+      {
+        "criterion": 7,
+        "criterion_text": "Provides a bounded audit and minimal repair grounded in both versions with no unrequested source modification or extra experiments.",
+        "status": "pass",
+        "evidence": "cases/engineering/answer.md:6 and 12-22 propose two explicitly delimited local replacements, preserve the remaining sentences, and state that no new experiment is required. cases/engineering/execution.txt:15-17 reports no input modification or extra agents and identifies unavailable evidence.",
+        "reason": "The two edited spans contain the substantive defects, so the proposed scope is proportionate even though restoring omitted information increases length. There is no full response letter or proposed extra experiment. Source modification is not claimed; the execution record reports none. The answer appropriately limits verification to supplied material."
+      }
+    ],
+    "mathematics": [
+      {
+        "criterion": 1,
+        "criterion_text": "Grounds the reviewer/editor lenses and expected logic in the formal claim, assumptions, and parameter dependence, without empirical reporting requirements.",
+        "status": "pass",
+        "evidence": "cases/mathematics/answer.md:3: the concern requires “domain, parameter range, and strength of the guarantee”; it then states fixed-θ existence on the specified finite-dimensional set and separates the residual bound with C(θ).",
+        "reason": "The substantive assessment follows the formal quantifiers, hypotheses, object of existence, and parameter dependence. The editorial assessment evaluates compression against those meanings. The answer imposes no empirical trial, sample-size, benchmark, or reporting requirement."
+      },
+      {
+        "criterion": 2,
+        "criterion_text": "Accepts the corrected theorem discussion as scientifically preserved and concisely improved, including the author-approved removal of uniqueness; does not mechanically restore all deleted sentences.",
+        "status": "pass",
+        "evidence": "cases/mathematics/answer.md:5: “acceptable repair and useful compression”; deletion of uniqueness is “supported by the corrected proof and the author’s approval. Do not restore it”; removal of the assurance of rigor “should also be kept.”",
+        "reason": "The audit checks the preserved assumptions and fixed-parameter residual bound, accepts the approved substantive correction, and retains removal of empty reassurance. It correctly locates the necessary repair in the abstract rather than treating every deletion from the discussion as a loss."
+      },
+      {
+        "criterion": 3,
+        "criterion_text": "Detects the revised abstract's false uniqueness, unrestricted domain, and uniformity; keeps existence distinct from iterative convergence and respects the supplied finite-dimensional scope.",
+        "status": "pass",
+        "evidence": "cases/mathematics/answer.md:7 and 9 identify “Unique solution,” “Arbitrary domains,” and “Uniform convergence for all parameter values” as unsupported, preserve finite dimensions and θ ∈ (0,1), and distinguish residual convergence from iterate convergence to a fixed point.",
+        "reason": "All three abstract regressions are analyzed with their specific logical consequences. The answer does not infer uniqueness, uniformity, an infinite-dimensional extension, or convergence from every initialization. Its additional clarification that the converging quantity should be specified is supported by the packet's residual-only result."
+      },
+      {
+        "criterion": 4,
+        "criterion_text": "Judges the response's accurate local change statement separately from unresolved manuscript-wide consistency and actual reviewer concern resolution.",
+        "status": "pass",
+        "evidence": "cases/mathematics/answer.md:1 and 13: the concern is resolved “in the revised theorem discussion, but not across the supplied manuscript passages”; the response is “locally accurate, insufficient to close the concern” because the abstract retains the challenged stronger claims.",
+        "reason": "The reply is not falsely accused of misreporting the local edit. The audit credits that edit while identifying the remaining contradiction in the available abstract. Its conclusion is bounded to the supplied passages and does not assert a completed whole-manuscript inspection."
+      },
+      {
+        "criterion": 5,
+        "criterion_text": "Preserves compact, convex, invariant, and parameter-dependent language as legitimate technical meaning, not awkward prose to flatten.",
+        "status": "pass",
+        "evidence": "cases/mathematics/answer.md:5 and 15 explicitly retain “compactness, convexity, invariance,” the self-map condition, and “parameter-dependent” C(θ); answer.md:7 also preserves “fixed point,” “invariant,” and “residual bound.”",
+        "reason": "The answer treats these terms as consequential assumptions or guarantees and explains their role rather than flattening them into generic prose. It accepts the compact statement of the hypotheses as a successful edit."
+      },
+      {
+        "criterion": 6,
+        "criterion_text": "Treats Supplement S2 as unverified relocation, not confirmed loss or confirmed preservation, and scopes the limitation without blocking the available audit.",
+        "status": "pass",
+        "evidence": "cases/mathematics/answer.md:11: “Worked example — relocation unverified”; absence does not “demonstrate a proof gap or require restoration to the main text”; earlier example, S2, and pointer should be inspected before calling relocation verified.",
+        "reason": "The answer draws the correct boundary from the missing source material. It neither accepts the relocation claim as verified nor invents a loss, and uses the supplied fact that the example is not a proof premise or step. It still completes the available theorem, abstract, and response audit."
+      },
+      {
+        "criterion": 7,
+        "criterion_text": "Returns audit only, no fabricated proof, venue rule, new result, or full rewrite; includes justified keep decisions.",
+        "status": "pass",
+        "evidence": "cases/mathematics/answer.md:9 says “No missing proof should be supplied or presumed”; answer.md:15 enumerates the justified keep decisions. cases/mathematics/execution.txt:7-8 reports no input modifications, invented proof, added assumptions, or extension.",
+        "reason": "The deliverable remains an audit with a bounded optional phrase suggestion, not a rewritten manuscript or proof. The abstract's necessary scope repair is described rather than fabricated. Requiring a false standalone abstract claim to be corrected is a content-integrity judgment, not an invented venue rule."
+      }
+    ],
+    "qualitative": [
+      {
+        "criterion": 1,
+        "criterion_text": "Selects the interpretive/reflexive lens by question and study design, making expected argument versus present answer concrete.",
+        "status": "pass",
+        "evidence": "cases/qualitative/answer.md:1: an “interpretive organizational-ethnography reviewer familiar with reflexive thematic analysis” expects the situated question, definition of boundary work, and explanation of how contrary accounts qualify the interpretation.",
+        "reason": "The selected lens matches the supplied question, purposive one-hospital design, and analytic commitments. The output makes its expectations concrete and traces them to the source account and Reviewer A's question. Subsequent findings compare those expectations with the actual revised claims."
+      },
+      {
+        "criterion": 2,
+        "criterion_text": "Detects lost contrary-case reasoning, situated scope, and incorrect unanimity/causal or population-wide implications, not merely a difference in word count.",
+        "status": "pass",
+        "evidence": "cases/qualitative/answer.md:3-4: “All nurses experienced compliance as a loss of autonomy” contradicts the four contrary accounts; the revised text removes the question, definition, evidence, sample, and setting and adds unsupported causal explanation and application across hospitals.",
+        "reason": "The output identifies changes to the argument and inferential reach, not simply reduced length. It recovers the countercases' function as a qualification of the central interpretation and rejects unanimity and unsupported causal or cross-hospital generalization."
+      },
+      {
+        "criterion": 3,
+        "criterion_text": "Evaluates reviewer B's request against the retained claim and analytic commitments; does not demand prevalence, coding reliability, saturation, or causal experiments as universal prerequisites.",
+        "status": "pass",
+        "evidence": "cases/qualitative/answer.md:5: the purposive single-hospital design does not warrant population prevalence; the count of four does not estimate it; inter-rater reliability operates under a different analytic premise and does not validate the retained situated claim.",
+        "reason": "The reasoning responds to the actual quantitative request in relation to this study's design and stated commitments. It neither fabricates quantitative validation nor substitutes saturation, reliability, causal experiments, or another unrelated universal checklist. The reply remains a justified methodological disagreement."
+      },
+      {
+        "criterion": 4,
+        "criterion_text": "Preserves boundary work and reflexive thematic analysis, accepts the two valid compressions, and does not restore defensive rhetoric wholesale.",
+        "status": "pass",
+        "evidence": "cases/qualitative/answer.md:4 and 7: retain “boundary work”; accept the single reflexive-methods sentence and “We recruited participants through purposive sampling”; remove the defensive “We must emphasize” wording while preserving the inference boundary neutrally.",
+        "reason": "Both explicitly supplied successful compressions are accepted, and the manuscript proposal retains the two specialist concepts. The output distinguishes useful substantive boundaries from their old defensive expression instead of restoring the before passage indiscriminately."
+      },
+      {
+        "criterion": 5,
+        "criterion_text": "Proposed manuscript repair restores the relevant research question, setting/sampling and interpretive boundary, and countercase function without unsupported claims or reviewer-facing voice.",
+        "status": "pass",
+        "evidence": "cases/qualitative/answer.md:11-13 restores night-shift nurses, the electronic escalation protocol, one hospital, fieldnotes, 18 purposively selected interviews, the definition of boundary work, and four accounts that “qualify the central interpretation”; it states that the study does not estimate population prevalence or causal effects.",
+        "reason": "The proposed text supplies the requested scientific framing and interpretive role of the contrary accounts using only packet facts. It contains no unsupported new result, reviewer acknowledgment, or completed-edit claim. Its explicit boundary is neutral manuscript prose."
+      },
+      {
+        "criterion": 6,
+        "criterion_text": "Proposed reply directly and respectfully explains the mismatch and honest proposed/completed status; does not claim an analysis was conducted or guaranteed reviewer satisfaction.",
+        "status": "pass",
+        "evidence": "cases/qualitative/answer.md:15-19 labels the reply as proposed; it explains the design and reflexive interpretation premise, says “We propose clarifying,” and disclaims representativeness and coding reliability. answer.md:6 explicitly notes that no analysis or source edits have been made.",
+        "reason": "The reply addresses both requested statistics directly without accusing or dismissing the reviewer. It accurately states what the existing study can support and what the authors propose to clarify. It does not claim new analysis, completed revisions, quantitative validation, or guaranteed acceptance."
+      },
+      {
+        "criterion": 7,
+        "criterion_text": "Audits both substantive resolution and information preservation, distinguishing scientific issues from stylistic improvements while keeping output bounded.",
+        "status": "pass",
+        "evidence": "cases/qualitative/answer.md:3-7 separates Reviewer A's unresolved question, scientific scope changes, Reviewer B's methodological mismatch, unsupported response status, and useful compression; answer.md:19 limits the judgment to supplied excerpts and the response draft.",
+        "reason": "The output covers both reviewer-resolution and before/after information integrity, with distinct manuscript and reply proposals of proportionate length. It identifies what to retain as well as what to repair. The execution record reports no original-file modification, new analysis, or external evidence use."
+      }
+    ]
+  },
+  "material_disagreements": [],
+  "unexpected_harmful_changes": [],
+  "optional_issues": [
+    {
+      "case": "mathematics",
+      "location": "cases/mathematics/answer.md:7",
+      "observation": "The suggested change from “the fixed point” to “a fixed point” is optional disambiguation; the saved audit itself correctly says the existing phrase need not assert uniqueness.",
+      "consequence": "This is not a surviving scientific error or a reason to downgrade the discussion-preservation criterion. Keeping or applying the suggestion is an editorial choice."
+    },
+    {
+      "case": "qualitative",
+      "location": "cases/qualitative/answer.md:17",
+      "observation": "The contrast with “coding results whose validity depends on agreement between raters” could be tightened to a statement that this study does not use inter-rater agreement as validation of situated themes.",
+      "consequence": "The narrower phrasing would avoid a potentially overbroad implication about other coding approaches. In context, the reply is scoped to the supplied study and its methodological disagreement is sound; this is an optional precision improvement, not a rubric failure."
+    }
+  ],
+  "limitations": [
+    "This assessment reads only rubric.md and request.md, answer.md, and execution.txt for the three assigned cases. It does not consult skills, other assessments, memory, repository materials, or network sources.",
+    "The fictional study packets are authoritative for this evaluation. Full studies, raw data, proof details, the contents of Supplement S2, manuscript renders, and submission states are outside the available evidence and are not independently verified.",
+    "The execution records are saved self-reports, not complete tool traces. Statements about their authors' file access and absence of modifications are credited only as reported; this assessment cannot independently prove those historical execution claims.",
+    "No assigned input or case output artifact was modified by this assessment. Only the requested assessment.md and assessment.json are written.",
+    "No material disagreement with the saved audits and no unexpected harmful proposed change were identified. The two optional issues are kept separate from scoring; no pass rate target was used."
+  ]
+}
+

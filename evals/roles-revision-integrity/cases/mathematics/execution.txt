@@ -1,0 +1,11 @@
+Input and reference paths actually read
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-roles-r0pbn_c9/cases/mathematics/request.md
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-roles-r0pbn_c9/skills/revision-integrity-audit/SKILL.md
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-roles-r0pbn_c9/skills/revision-integrity-audit/references/comparison-decisions.md
+
+Method and limitations
+Applied revision-integrity-audit with a mathematical validity pass followed by an editing and reviewer-resolution pass. Used only the supplied packet and the skill's directed comparison reference. Did not use network, memory, other case folders, evaluation files, or repository reads. Did not create other agents or modify input files.
+The full proof and residual bound were not supplied; conclusions rely on the authoritative proof statement and author decisions in request.md. Supplement S2 and the earlier two-dimensional example were unavailable, so relocation is unverified. No missing proof, additional mathematical assumptions, or infinite-dimensional extension was invented. No rendered manuscript or submission state was inspected.
+
+Deliverable
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-roles-r0pbn_c9/cases/mathematics/answer.md

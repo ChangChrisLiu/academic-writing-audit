@@ -58,6 +58,8 @@ Keep technical terms stable rather than cycling through synonyms to create varie
 
 Reread the connected passage for logical progression, accurate terms and word combinations, clear referents, manageable clause structure, and a distinct purpose for each sentence. Check punctuation in context rather than using global replacement. Verify the diff against the supplied quantities, citations, assumptions, uncertainty, scope, and negation. Necessary limitations are part of the argument.
 
+Compare the earlier and revised passage for two distinct outcomes, the intended problem being resolved and valid reasoning and information being retained. Follow propositions and logical dependencies rather than word count. Check moved content at its destination. Preserve supported factual corrections and useful compression, and restore only actual losses. If the earlier version or destination is unavailable, identify that limit instead of claiming a complete comparison. Use the study's disciplinary meaning, not a generic editor persona, to judge technical equivalence.
+
 For paired reviewer replies and manuscript edits, keep the response's explanation of changes separate from the paper's explanation of the research. Use honest proposed or completed status. Preserve a quotation of revised text exactly when it is presented as such.
 
 Return the requested text and brief reasons for material edits, or located findings for an audit. Distinguish logic corrections from the chosen style preference. Leave sound passages unchanged and stop once the named problems are resolved. Do not invent new claims or perform a whole-paper rewrite to demonstrate activity.

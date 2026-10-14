@@ -35,6 +35,12 @@ For an abstract, follow task need, existing route's limitation, the particular u
 
 Use concise connected paragraphs. Contributions should follow the reasoning in prose unless a list is requested or required. If a sentence could fit many unrelated papers unchanged, check whether it carries a necessary premise or merely generic importance language. Preserve useful context and an already coherent author narrative. A required structured abstract or a theoretical or interpretive article may realize these functions differently.
 
+## Compare the expected and current argument
+
+Match the reviewer lens to the subfield, study design, intended audience, and retained claim. State what each consequential passage needs to establish, the basis for that expectation, what it currently establishes, and what remains missing. Separate actual reviewer requests from your inferred reader needs. A coherent sequence can still fail to answer the research question; a demanded mechanism or experiment can also exceed that question. Check the specific inferential gap before proposing an edit.
+
+When reviewing a revision, compare the earlier and current argument. Verify both that the intended problem is addressed and that valid motivation, complementary roles, conditions, and interpretation remain accessible. Preserve justified corrections and concise improvements; do not treat the older draft as truth or restore entire paragraphs when one missing bridge suffices.
+
 ## Repair the smallest broken link
 
 Locate the exact point where the reader loses the argument. Prefer a bridge, a corrected topic sentence, or a reordered sentence over rewriting an entire section. Follow scientific objects across the transition: a collected record, corrected annotation, training example, fitted model, and reported outcome are not interchangeable.

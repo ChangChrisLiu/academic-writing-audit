@@ -14,6 +14,12 @@ Identify the current source, requested scope, and mode: **audit**, **targeted re
 
 Read the relevant passage in context. Form an independent account of its question, contribution, reasoning, and evidence before consulting earlier judgments. Prior reviews locate concerns; they do not establish that the current text is correct. Separate current source facts, author decisions, inspected evidence, and unresolved assertions. With an excerpt, limit the verdict to that excerpt.
 
+## Choose expertise and define the expected logic
+
+For a scientific or reviewer-informed audit, read [roles and expectations](references/roles-and-expectations.md). Match the reviewing lens to the discipline, subfield, study design, audience, and actual judgment required. Separate the scientific reviewer's validity question from the editor's expression question; additional specialists or agents are optional, not a prerequisite.
+
+For each consequential issue, identify the substantive question, what the argument or evidence needs to establish and why, what the current passage establishes, and the remaining difference. Label actual review requests separately from inferred reader needs. Do not demand a stronger result than the retained claim requires. A mention of the right topic or a confident response letter is not proof that the question is answered.
+
 ## Review in this order
 
 1. **Argument:** Reconstruct problem → gap → contribution → mechanism or reasoning → evidence → conclusion. Preserve complementary contributions. Identify missing transitions between objects or stages. Read [argument and evidence](references/argument-and-evidence.md) for a full scientific audit.

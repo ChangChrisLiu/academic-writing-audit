@@ -162,6 +162,22 @@ separate block that explains the science without reviewer-facing framing.
 
 Read the [中文回复写作指南](rebuttal-guide.md) for the two formats and paired examples.
 
+## 12. A reviewer role never defines what must be established
+
+**Symptom:** An agent announces specialist expertise and asks every paper for significance tests, ablations, or a causal mechanism.
+
+**Repair:** Bind the role to the actual subfield, study design, question, and accessible evidence. Explain the expected argument, its source, the current argument, and the specific gap. Separate a scientific concern from an editorial preference. A claim may already answer the intended question.
+
+**Skill:** [academic-writing-audit](../skills/academic-writing-audit/SKILL.md), with its local role guidance.
+
+## 13. Shortening removes the reason or conditions for a result
+
+**Symptom:** All method names and numbers remain, but the reason for combining data sources, the composite endpoint, or a theorem condition disappears.
+
+**Repair:** Compare scientific propositions and reader functions before and after. Check whether the original concern was resolved as well as whether meaning survived. Keep a corrected original error and useful deletions. Restore the missing meaning in the smallest passage; inspect destinations before accepting relocation.
+
+**Skill:** [revision-integrity-audit](../skills/revision-integrity-audit/SKILL.md).
+
 ## Combining skills
 
 For an unfamiliar manuscript, begin with [academic-writing-audit](../skills/academic-writing-audit/SKILL.md). If the audit reveals one concrete problem, use the focused skill for that repair. Re-read the affected context after editing and stop when the requested issue is resolved.

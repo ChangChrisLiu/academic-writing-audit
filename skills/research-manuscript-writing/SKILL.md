@@ -38,6 +38,10 @@ Write connected paragraphs with concrete subjects and manageable clauses. Preser
 
 Generated exposition defaults to no explanatory colons or sentence-interrupting dashes. Preserve compound hyphens, notation, minus signs, ranges, ratios, URLs, exact quotations, and required templates. Author and venue instructions take precedence. Concision means removing repeated meaning while retaining the logical bridge, not enforcing a sentence quota or converting prose into bullets. Lists remain appropriate for a requested checklist, formal algorithm, or required reporting format.
 
+## Check the revision against its purpose
+
+When revising, compare the supplied earlier and new passages. Check whether the intended scientific question is better answered and whether valid premises, conditions, definitions, evidence links, and interpretation survive. Match this judgment to the discipline and design, separating a reviewer's validity concern from an editor's expression choice. Do not restore corrected errors or useful deletions; repair only actual losses. If no earlier version is available, limit the claim to the current draft rather than asserting preservation.
+
 ## Deliver in the requested medium
 
 Read [LaTeX and Word delivery](references/latex-and-word.md) for a formatted draft or source edit. Maintain the existing template, citation system, and cross-references. Prose quality and successful document rendering are separate checks. Never claim a compiled PDF or validated Word layout from text inspection alone.

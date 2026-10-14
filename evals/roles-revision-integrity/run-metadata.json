@@ -1,0 +1,41 @@
+{
+  "recorded_at": "2026-10-14T23:08:57.686342+00:00",
+  "task": "Discipline-bound reviewer/editor roles, expected-versus-current reasoning, and before-and-after revision integrity",
+  "materials": "Fictional development cases. No private manuscript or actual reviewer text.",
+  "runs": [
+    {
+      "case": "engineering",
+      "agent": "integrity_engineering",
+      "skills": [
+        "academic-writing-audit",
+        "revision-integrity-audit"
+      ]
+    },
+    {
+      "case": "mathematics",
+      "agent": "integrity_mathematics",
+      "skills": [
+        "revision-integrity-audit"
+      ]
+    },
+    {
+      "case": "qualitative",
+      "agent": "integrity_qualitative",
+      "skills": [
+        "reviewer-response-writing",
+        "revision-integrity-audit"
+      ]
+    }
+  ],
+  "context": "Fresh-context subagents with fork_turns none and no model override. Task instructions excluded memory, network, other cases, rubric, and parent conclusions. This is not a filesystem sandbox assertion.",
+  "model_version": "Exact model identifier not independently recorded; same configured host.",
+  "assessor": "A separate fresh-context integrity_assessor sees cases, outputs, execution notes and frozen rubric, not the skills or parent judgments.",
+  "control": "No unguided control. No repeated sampling or cross-model comparison.",
+  "path_resolution": "design-freeze.json files under skills/ resolve from repository root. cases/ and rubric.md resolve from this evaluation directory. Original temporary runtime copies are byte-identical. Raw execution notes retain transient paths.",
+  "limitations": [
+    "Short fictional excerpts rather than a new full-manuscript PACER trial",
+    "Source-level comparison, not proof verification or independent research-data validation",
+    "No rendered LaTeX/PDF or native Word layout check",
+    "No claim of causal performance improvement or universal transfer"
+  ]
+}

@@ -55,6 +55,8 @@ Use this structure only when helpful. A sentence replacement or tracked change m
 
 **Prose and scientific meaning:** Re-read the paragraph and its neighbors. Check the research question, object identities, comparator operations, endpoint, quantities, and claim strength. Confirm that a shortened passage still explains why the next step exists. Check affected captions and summaries when their meaning depends on the edit.
 
+**Before and after:** Compare both versions against the intended repair and authoritative evidence. Judge concern resolution separately from preservation. Trace consequential propositions, conditions, component roles, motivation, endpoints, and interpretation through the change. Check additions for stronger implications and moves for an inspected, usable destination. Accept supported corrections to the old draft and useful compression. Restore only missing meaning; do not restore an unsupported original claim. Without the earlier version or destination, state the comparison limit.
+
 **Source:** Inspect the actual diff. Confirm intended edits and preserved equations, numbers, citations, and labels. If an intended correction changes one of these, verify its dependent uses rather than asserting blanket invariance.
 
 **Rendered artifact:** When the task includes a formatted final artifact, compile or render in an environment containing the required dependencies. Inspect diagnostics and the affected pages from that source revision. Missing styles or fonts can be environment blockers; an old preview or a click on “compile” is not fresh verification. If rendering is unavailable, retain the source and state the limit.

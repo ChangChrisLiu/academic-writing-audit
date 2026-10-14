@@ -14,6 +14,12 @@ Establish the requested scope and mode: triage, proposed repair, source edit, or
 
 Read each comment for its substantive question. Separate the reviewer's interpretation, the source's actual claim, the evidence available, and the action already taken. If the supplied packet is incomplete, limit the conclusion to it rather than inferring a missing experiment or inventing a revision history.
 
+## Establish the right expectation
+
+Choose the disciplinary and methodological lens required by the comment and the paper's study design. Separate the scientific reviewer's question from an editor's clarity or style preference. For each substantive concern, record what a satisfactory argument would establish, why that expectation applies, what the current source establishes, and the remaining difference. Distinguish the actual comment from an inferred reader need. Do not impose a broader scientific claim or another discipline's reporting convention.
+
+For a changed passage, compare the earlier and current versions when supplied. A definition being longer or a reply saying it was clarified does not establish resolution. Check the actual operation and retained claim, while preserving valid motivation, conditions, and interpretation. Accept a supported narrowing or correction, and do not restore incorrect old wording merely for completeness.
+
 ## Choose a proportionate repair
 
 For each consequential concern, identify its primary cause:

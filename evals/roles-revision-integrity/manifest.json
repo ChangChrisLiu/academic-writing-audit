@@ -1,0 +1,45 @@
+{
+  "hash_algorithm": "sha256",
+  "files": {
+    "evals/roles-revision-integrity/run-metadata.json": "b76d7a2ed13f178efd7f577f857f74ed89370e164172ff6c20909c9d87b4452d",
+    "evals/roles-revision-integrity/assessment.json": "0a9cdd36588343be9cd86afe18ceb8c3fa678e74359b3a87376eb1f3d07e0c8c",
+    "evals/roles-revision-integrity/README.md": "34002e27eea36675e5fa874d7afbe467c18e3b6c3ba69b0940452f81ef867870",
+    "evals/roles-revision-integrity/assessment.md": "f49bffe7b3bcf4cb322ec13bf6d4253648f2e4006fd6ede4c9b67c9ab5fd7d35",
+    "evals/roles-revision-integrity/rubric.md": "fbfc04edcc4ad5439879a52a3bb923b07cea93e0661c1fbe96cc283626c51951",
+    "evals/roles-revision-integrity/design-freeze.json": "b5633e221b05b038655bfa1514f5c93ab9c01673b1288dbf9c13ebe3066ac856",
+    "evals/roles-revision-integrity/cases/mathematics/execution.txt": "3a7e95f9696f6bd6f971b347278199b594d2c546a53f4fd0c4d327cbe55d1429",
+    "evals/roles-revision-integrity/cases/mathematics/answer.md": "90d6db16491ec5662a121609519b65edf8a77890a4b044d2999c2bcc23e3dcbd",
+    "evals/roles-revision-integrity/cases/mathematics/request.md": "63bc7be917684528b6d6d4f84fec2eaf039490e2fd2d037962742cb90d68f564",
+    "evals/roles-revision-integrity/cases/qualitative/execution.txt": "9aa772de62d285801e28c5ec9fbaa0991704066327885ac0456ed800414e405e",
+    "evals/roles-revision-integrity/cases/qualitative/answer.md": "cd04d0c32ae4a249c584526146d351c816b78c0b01f19a2b8abbc5b8d06722ed",
+    "evals/roles-revision-integrity/cases/qualitative/request.md": "a7dc27a856141eb5ea67c1aedd9a4af60e2f774b414ee9bf3c18d3b43be7decb",
+    "evals/roles-revision-integrity/cases/engineering/execution.txt": "ffd74456d20a40a71e1f58438ebc81bedc402746767cd62902a2b3e4f83d2224",
+    "evals/roles-revision-integrity/cases/engineering/answer.md": "a59d2f0a87d49606805b1bd1c2272118646334ddf9c2154ac754501f94e7eb06",
+    "evals/roles-revision-integrity/cases/engineering/request.md": "35e3b30ea368b62c0dd4104ca26a2d24e66ca84b7e5a6ab4118d19288a7f15f7"
+  },
+  "skill_versions": {
+    "tested": {
+      "directory": "skills",
+      "files": {
+        "academic-writing-audit/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+        "academic-writing-audit/SKILL.md": "e7154f501f62f495dac3ea7c723fa712922a7d80d354ddeae4f164e7d8319536",
+        "academic-writing-audit/references/examples.md": "32c7de0bb5f46024362ad1c8ede14704c3c792692fed81a40d1dd88e250705a4",
+        "academic-writing-audit/references/argument-and-evidence.md": "897fd5332075511b6123216cb2a2b0187f83d9c0b63f3d97ec735d7eb9a6091d",
+        "academic-writing-audit/references/nondefensive-writing.md": "2c26ffd8f2a2ff4659f82d6995b9f3cfb345fae7e89a4eb58f81317cff82e5ae",
+        "academic-writing-audit/references/review-and-patching.md": "aae5f38c4cd535c0c85710450032c8c517cc87979b36cf000ce21e1f7e163290",
+        "academic-writing-audit/references/prose-checks.md": "83aa9f3d2f71f406227dd3dc5916638ccb53fda5207063087674d35079134671",
+        "academic-writing-audit/references/roles-and-expectations.md": "dc5002ad639557bbe17c0f705cf86f111e46d49b6e3242b4a2f790bbe4fa36b4",
+        "academic-writing-audit/agents/openai.yaml": "e0f9d0070fcaad2d342eb1b0e0748049a291ecd5471ffe9e07cbc83784e160b8",
+        "revision-integrity-audit/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+        "revision-integrity-audit/SKILL.md": "84051a30278140a9f8efbea3a18cb2e7d224cfa81e3ca583bff6a5a4b7abd2c2",
+        "revision-integrity-audit/references/comparison-decisions.md": "3ca6d784d219845f40ef5eaef5530d394fe860b15fe948e244669b59b7642c4f",
+        "revision-integrity-audit/agents/openai.yaml": "518828cc44fe3c025cf1db0ff323ecada6c7e3c119ef2b5ebdbc5a5e7195a5f7",
+        "reviewer-response-writing/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+        "reviewer-response-writing/SKILL.md": "c41683b2f2b3bd4b5ecee8f3954039b1253cdddb1aa7c6993c08074ed2728b33",
+        "reviewer-response-writing/references/response-patterns.md": "373ea35fd7119630c4367d94f7ea923cedba517a57258aadfbfe3a17f867294f",
+        "reviewer-response-writing/references/manuscript-boundary.md": "31dbc5b83390634b258c4482f07c23c272b08335b2906d6e8c5ba11bce00bc89",
+        "reviewer-response-writing/agents/openai.yaml": "bcf6b0e6180f0f2d6d60a8b19bc297762b3e8e05b31b280bf7b7683c369ec5d8"
+      }
+    }
+  }
+}

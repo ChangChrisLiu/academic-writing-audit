@@ -1,0 +1,10 @@
+Input and reference paths actually read
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-roles-r0pbn_c9/cases/qualitative/request.md
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-roles-r0pbn_c9/skills/reviewer-response-writing/SKILL.md
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-roles-r0pbn_c9/skills/revision-integrity-audit/SKILL.md
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-roles-r0pbn_c9/skills/reviewer-response-writing/references/response-patterns.md
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-roles-r0pbn_c9/skills/reviewer-response-writing/references/manuscript-boundary.md
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-roles-r0pbn_c9/skills/revision-integrity-audit/references/comparison-decisions.md
+
+Limitations and execution scope
+Used only the supplied request and directed skill references. No network, memory, repository, evaluation files, or other case folders were read. No other agents were created. Input files were not modified. The two reviewer/editor perspectives were performed by one agent, not independent reviewers. The audit is limited to supplied excerpts, with no full-manuscript, underlying-data, render, venue-format, or submission verification. No new analysis was performed. Manuscript text and reply are proposals only. The output files are answer.md and execution.txt in the qualitative case folder.

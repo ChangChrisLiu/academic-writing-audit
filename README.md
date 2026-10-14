@@ -4,14 +4,16 @@
 
 <h1 align="center">Academic Writing Audit</h1>
 
-<p align="center"><strong>14 portable agent skills for scientific manuscripts and reviewer responses.</strong><br>
+<p align="center"><strong>15 portable agent skills for scientific manuscripts and reviewer responses.</strong><br>
 Reconstruct the argument, check the evidence, and change only what needs changing.</p>
 
 **中文简介｜学术论文写作与审稿回复 Skills**
 
-把科研写作中反复遇到的问题整理成 **14 个可独立使用的 AI agent skills**，涵盖学术逻辑检查、论证与证据核查、去防御性写作、实验比较、结果解释、图表审查，以及 **审稿意见回复、response letter 和 rebuttal 写作**。新增 **整篇论文结构与写作**，先理解研究问题，再组织摘要、倒三角引言、关联文献综述、方法与学科适配的结果和结尾，支持 **LaTeX 与 Word**。提供 **去 AI 味、专业用词与句子审查、句式简化和冗余重复检查**，用具体的语义审查改善表达，保留科学含义和作者声音。生成的学术段落默认不用解释性冒号或句中破折号，保留术语连字符及技术符号。回复信逐点回应审稿人，论文正文直接解释研究。通用 Markdown 指令可供支持 skills 的客户端及其他能阅读 Markdown 的 agent 使用。
+提供 **15 个可独立使用的 AI agent skills**，覆盖 **学术论文写作、逻辑与证据审查、专业术语和句子检查、去防御性写作，以及审稿意见回复、response letter 和 rebuttal**。先理解研究问题，再组织摘要、倒三角引言、关联文献综述、方法与学科适配的结果和结尾，支持 **LaTeX 与 Word**。
 
-[中文使用说明](README.zh-CN.md) · [论文结构与写作](docs/manuscript-guide.md) · [自然表达与逻辑审查](docs/prose-guide.md) · [审稿回复与正文写作指南](docs/rebuttal-guide.md) · [安装方法](#install)
+根据研究设计限定 **reviewer 与 editor 的专业角色**，检查预期论证和当前内容的差距。通过 **修改前后对照** 防止过度压缩丢失逻辑和信息，保留有效纠错与正常专业术语。“去 AI 味”落实为具体表达、句式简化和冗余检查，生成段落默认不用解释性冒号或句中破折号，保留术语连字符及技术符号。回复信回应审稿人，正文直接解释研究。通用 Markdown 指令可供不同 agent 使用。
+
+[中文使用说明](README.zh-CN.md) · [专业角色与前后对照](docs/revision-guide.md) · [论文结构与写作](docs/manuscript-guide.md) · [自然表达与逻辑审查](docs/prose-guide.md) · [审稿回复与正文写作指南](docs/rebuttal-guide.md) · [安装方法](#install)
 
 <p align="center">
   <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-943D32"></a>
@@ -41,6 +43,7 @@ This library turns those recurring editorial decisions into small, reusable work
 | Understand what needs attention in a whole paper | [Academic writing audit](skills/academic-writing-audit/SKILL.md) | Prioritized findings, evidence, and passages to preserve. |
 | Repair a specific writing problem | [Choose a focused skill below](#choose-a-skill) | A bounded replacement or patch with a reason for each change. |
 | Write a rebuttal or revision response letter | [Reviewer response writing](skills/reviewer-response-writing/SKILL.md) | Evidence-grounded replies, accurate change status, and separately written manuscript edits. |
+| Compare a shortened or revised draft with its source | [Revision integrity audit](skills/revision-integrity-audit/SKILL.md) | Concern resolution and preserved reasoning, with justified keep and repair decisions. |
 | Check the final manuscript and handoff | [Manuscript release check](skills/manuscript-release-check/SKILL.md) | The verified source, build, render, and publication state. |
 
 ```text
@@ -68,6 +71,7 @@ Each folder is independently installable. You do not need to load the whole coll
 | Arrows, captions, and endpoints that imply different things | [figure-caption-audit](skills/figure-caption-audit/SKILL.md) | Aligned visual semantics, labels, and captions. |
 | Reviewer comments becoming scattered or repetitive edits | [reviewer-comment-triage](skills/reviewer-comment-triage/SKILL.md) | Current-text diagnosis and a focused reader-facing repair. |
 | A rebuttal or response letter needing direct, supported answers | [reviewer-response-writing](skills/reviewer-response-writing/SKILL.md) | Concise or point-by-point replies, with evidence and verified revision locations. |
+| A shorter revision that may have lost scientific meaning | [revision-integrity-audit](skills/revision-integrity-audit/SKILL.md) | Before-and-after judgments on the intended repair, logical dependencies, and information preservation. |
 | An old PDF, uncertain compilation, or unclear submission state | [manuscript-release-check](skills/manuscript-release-check/SKILL.md) | A precise verification record and usable handoff. |
 
 For concrete failure patterns and sample requests, see the [field guide](docs/field-guide.md).
@@ -93,6 +97,19 @@ Use [research-manuscript-writing](skills/research-manuscript-writing/SKILL.md) w
 The abstract follows a motivated problem-to-result progression. The introduction narrows from the relevant direction and its progress to the gap, motivation, and contribution. The literature review develops two or three connected threads from that argument and explains prior studies, without default taxonomies or repeated comparisons with the present paper. Methods follow operational or analytic dependencies, while findings and endings fit the study design and supplied disciplinary conventions.
 
 The default is concise connected prose, not contribution lists, module catalogues, or table narration. Required structured abstracts, formal algorithms, and author-selected formats remain supported. [The writing guide](docs/manuscript-guide.md) explains the section logic and LaTeX/Word boundaries.
+
+## Match the review to the research, then compare revisions
+
+The full audit assigns reviewer and editor responsibilities by subfield, study design, audience, evidence access, and the decision required. It compares what the argument needs to establish with what the current text actually establishes, distinguishing actual reviewer requests from inferred reader needs. A proof, an experimental comparison, and an interpretive account require different judgments. Separate agents are optional; disagreements are resolved through source evidence rather than voting.
+
+Use [revision-integrity-audit](skills/revision-integrity-audit/SKILL.md) after shortening or restructuring. It checks both whether the intended concern was resolved and whether valid reasoning and information survived. Keep supported corrections, useful compression, and verified relocation. Restore missing meaning without restoring an entire old paragraph. See the [Chinese role and revision guide](docs/revision-guide.md).
+
+```text
+Use $revision-integrity-audit to compare these manuscript versions.
+Check the intended repair and any loss of motivation, definitions, conditions,
+evidence links, or interpretation. Preserve valid corrections and useful shortening.
+Audit only. Give consequential differences and the smallest justified action.
+```
 
 ## Natural prose and clear reasoning
 
@@ -211,10 +228,12 @@ A [private real-manuscript audit](evals/real-manuscript-audit/README.md) also ex
 
 The [manuscript-structure trials](evals/manuscript-structure/README.md) cover engineering, qualitative research, mathematical literature, and a title-only request with missing research facts. Independent assessments passed 16 applicable initial judgments and 10 regression judgments, with two optional editorial preferences preserved. The format checks concern LaTeX source and paste-ready Word text, not compiled pages or native Word layout.
 
+The [role and revision-integrity trials](evals/roles-revision-integrity/README.md) cover robotics inspection, numerical analysis, and organizational ethnography. A separate assessor passed all 21 criteria, with two optional wording issues retained. The outputs distinguish actual concern resolution from preservation, accept valid corrections and shortening, and retain legitimate specialist terminology. These fictional guided checks have no unguided control and do not establish universal transfer.
+
 The skills support reasoning and editing; the quality of a conclusion still depends on the sources and evidence available to the agent. Read [CONTRIBUTING.md](CONTRIBUTING.md) to propose an observed failure, a small repair, and a regression case.
 
 ```text
-skills/       14 standalone skills, optional examples, and client metadata
+skills/       15 standalone skills, optional examples, and client metadata
 docs/         Problem patterns and practical task prompts
 evals/        Synthetic cases, rubrics, observed responses, and manifests
 assets/       Generated promotional artwork, web copies, and exact prompts

@@ -28,6 +28,12 @@ Distinguish study facts from gaps in the materials you received. “No analysis 
 
 Group overlapping concerns under informative themes when the format allows, while retaining comment-level coverage. Reviewer-specific requests still need a disposition. A strong answer to the main concern does not excuse skipping a requested definition, numerical threshold, or wording correction.
 
+## Test the scientific answer before polishing
+
+Use the expertise relevant to the subfield and study design. Distinguish a scientific reviewer's evidence question from an editor's request for clearer expression. Identify what would answer the actual concern, why that standard applies to the retained claim, what the current evidence and manuscript establish, and the remaining gap. Mark inferred expectations separately from the reviewer's explicit request. Do not impose an unrelated experiment or reporting norm, and do not equate courtesy or added wording with resolution.
+
+When two manuscript versions are available, compare them for both concern resolution and preservation of valid reasoning and information. Keep justified corrections to the original and useful compression. Identify a new loss of motivation, definition, condition, endpoint, or interpretation even when the response accurately reports that text changed. A good reply and a sound revised paper require separate checks.
+
 ## Build the answer around evidence
 
 Lead with the direct answer or correction. Follow with the operation or result that supports it, the inference it permits, and the relevant change/location or unresolved limitation. A short acknowledgment is enough; avoid repeated thanks, reviewer blame, and assurances of rigor.

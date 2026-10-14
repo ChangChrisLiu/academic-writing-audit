@@ -1,0 +1,22 @@
+Input and reference paths actually read
+
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-roles-r0pbn_c9/cases/engineering/request.md
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-roles-r0pbn_c9/skills/academic-writing-audit/SKILL.md
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-roles-r0pbn_c9/skills/revision-integrity-audit/SKILL.md
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-roles-r0pbn_c9/skills/academic-writing-audit/references/roles-and-expectations.md
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-roles-r0pbn_c9/skills/academic-writing-audit/references/argument-and-evidence.md
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-roles-r0pbn_c9/skills/academic-writing-audit/references/nondefensive-writing.md
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-roles-r0pbn_c9/skills/academic-writing-audit/references/prose-checks.md
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-roles-r0pbn_c9/skills/academic-writing-audit/references/review-and-patching.md
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-roles-r0pbn_c9/skills/revision-integrity-audit/references/comparison-decisions.md
+
+Execution and limitations
+
+Used one agent for a robotics inspection evaluation pass followed by an editorial and revision-integrity pass. Used only the supplied packet and skill references. No network, memory, other case folders, evaluation files, or repository reads were performed. No input files were modified and no additional agents were created.
+
+The packet was treated as authoritative for study facts. Table 2, raw trial records, and rendered pages were not supplied, so they were not independently checked. The audit does not claim a whole-manuscript, rendering, or submission verification. It proposes two local manuscript replacements and does not write a full response letter.
+
+Outputs
+
+answer.md
+execution.txt

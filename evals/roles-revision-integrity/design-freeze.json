@@ -1,0 +1,29 @@
+{
+  "frozen_at": "2026-10-14T23:06:26.415856+00:00",
+  "base_git_commit": "b4c9031769f1a47039d535cd5ee85cd7c768a427",
+  "design": "Three independent-context guided trials followed by an independent assessor. No unguided control. Fictional inputs. Skills and rubric frozen before execution.",
+  "files": {
+    "rubric.md": "fbfc04edcc4ad5439879a52a3bb923b07cea93e0661c1fbe96cc283626c51951",
+    "cases/mathematics/request.md": "63bc7be917684528b6d6d4f84fec2eaf039490e2fd2d037962742cb90d68f564",
+    "cases/qualitative/request.md": "a7dc27a856141eb5ea67c1aedd9a4af60e2f774b414ee9bf3c18d3b43be7decb",
+    "cases/engineering/request.md": "35e3b30ea368b62c0dd4104ca26a2d24e66ca84b7e5a6ab4118d19288a7f15f7",
+    "skills/reviewer-response-writing/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "skills/reviewer-response-writing/SKILL.md": "c41683b2f2b3bd4b5ecee8f3954039b1253cdddb1aa7c6993c08074ed2728b33",
+    "skills/reviewer-response-writing/references/response-patterns.md": "373ea35fd7119630c4367d94f7ea923cedba517a57258aadfbfe3a17f867294f",
+    "skills/reviewer-response-writing/references/manuscript-boundary.md": "31dbc5b83390634b258c4482f07c23c272b08335b2906d6e8c5ba11bce00bc89",
+    "skills/reviewer-response-writing/agents/openai.yaml": "bcf6b0e6180f0f2d6d60a8b19bc297762b3e8e05b31b280bf7b7683c369ec5d8",
+    "skills/revision-integrity-audit/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "skills/revision-integrity-audit/SKILL.md": "84051a30278140a9f8efbea3a18cb2e7d224cfa81e3ca583bff6a5a4b7abd2c2",
+    "skills/revision-integrity-audit/references/comparison-decisions.md": "3ca6d784d219845f40ef5eaef5530d394fe860b15fe948e244669b59b7642c4f",
+    "skills/revision-integrity-audit/agents/openai.yaml": "518828cc44fe3c025cf1db0ff323ecada6c7e3c119ef2b5ebdbc5a5e7195a5f7",
+    "skills/academic-writing-audit/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "skills/academic-writing-audit/SKILL.md": "e7154f501f62f495dac3ea7c723fa712922a7d80d354ddeae4f164e7d8319536",
+    "skills/academic-writing-audit/references/examples.md": "32c7de0bb5f46024362ad1c8ede14704c3c792692fed81a40d1dd88e250705a4",
+    "skills/academic-writing-audit/references/argument-and-evidence.md": "897fd5332075511b6123216cb2a2b0187f83d9c0b63f3d97ec735d7eb9a6091d",
+    "skills/academic-writing-audit/references/nondefensive-writing.md": "2c26ffd8f2a2ff4659f82d6995b9f3cfb345fae7e89a4eb58f81317cff82e5ae",
+    "skills/academic-writing-audit/references/review-and-patching.md": "aae5f38c4cd535c0c85710450032c8c517cc87979b36cf000ce21e1f7e163290",
+    "skills/academic-writing-audit/references/prose-checks.md": "83aa9f3d2f71f406227dd3dc5916638ccb53fda5207063087674d35079134671",
+    "skills/academic-writing-audit/references/roles-and-expectations.md": "dc5002ad639557bbe17c0f705cf86f111e46d49b6e3242b4a2f790bbe4fa36b4",
+    "skills/academic-writing-audit/agents/openai.yaml": "e0f9d0070fcaad2d342eb1b0e0748049a291ecd5471ffe9e07cbc83784e160b8"
+  }
+}

@@ -4,9 +4,9 @@
 
 # Academic Writing Audit：学术论证与写作审查
 
-**14 个可独立使用的 agent skills，把论文写作、逻辑审查和审稿回复中反复遇到的问题整理成可执行的判断方法。**
+**15 个可独立使用的 agent skills，把论文写作、逻辑审查和审稿回复中反复遇到的问题整理成可执行的判断方法。**
 
-[English](README.md) · [论文结构与写作](docs/manuscript-guide.md) · [自然表达与逻辑审查](docs/prose-guide.md) · [问题与修复示例](docs/field-guide.md) · [审稿回复指南](docs/rebuttal-guide.md) · [完整审查入口](skills/academic-writing-audit/SKILL.md) · [专项试用记录](evals/library/README.md) · [宣传素材](assets/README.md)
+[English](README.md) · [专业角色与前后对照](docs/revision-guide.md) · [论文结构与写作](docs/manuscript-guide.md) · [自然表达与逻辑审查](docs/prose-guide.md) · [问题与修复示例](docs/field-guide.md) · [审稿回复指南](docs/rebuttal-guide.md) · [完整审查入口](skills/academic-writing-audit/SKILL.md) · [专项试用记录](evals/library/README.md) · [宣传素材](assets/README.md)
 
 先理解研究主线，再检查证据与推理，最后决定哪里需要改。审查后判断“这段原样保留”，同样是有价值的结果。
 
@@ -19,6 +19,7 @@
 | 第一次完整阅读一篇稿件 | [academic-writing-audit](skills/academic-writing-audit/SKILL.md) | 按重要性排列的问题、依据和保留项。 |
 | 已知具体写作问题 | 从下表选一个专项 skill | 有范围、有依据的替换或补丁。 |
 | 撰写 rebuttal 或逐点 response letter | [reviewer-response-writing](skills/reviewer-response-writing/SKILL.md) | 有依据的回应、准确的修改状态，以及单独撰写的正文修改。 |
+| 比较压缩或修订前后的两个版本 | [revision-integrity-audit](skills/revision-integrity-audit/SKILL.md) | 原问题是否解决，有效逻辑和信息是否保留？ |
 | 提交前检查版本和成品 | [manuscript-release-check](skills/manuscript-release-check/SKILL.md) | 已核实的源码、编译、渲染和发布状态。 |
 
 ```text
@@ -45,15 +46,22 @@
 | 图、箭头、图注和成功定义含义不一致 | [figure-caption-audit](skills/figure-caption-audit/SKILL.md) | 图的每个连接是否有真实语义支持？ |
 | 审稿意见导致全文不断加解释、重复修补 | [reviewer-comment-triage](skills/reviewer-comment-triage/SKILL.md) | 当前稿还缺什么，最小修复应该放在哪里？ |
 | 回复信绕开问题、证据不足，或把拟修改写成已完成 | [reviewer-response-writing](skills/reviewer-response-writing/SKILL.md) | 是否直接回答问题，证据是否对应，修改是否真实完成？ |
+| 修改后更短，但可能丢失逻辑、条件或解释 | [revision-integrity-audit](skills/revision-integrity-audit/SKILL.md) | 区分合理压缩、有据纠错、信息丢失与未核实的迁移。 |
 | 源码已改，PDF、线上预览和提交状态却不确定 | [manuscript-release-check](skills/manuscript-release-check/SKILL.md) | 每一个“完成”到底由什么观察证明？ |
 
-不需要每次加载全部 14 个。先选择与当前问题最接近的入口；只有发现跨章节的问题时，再扩大审查范围。
+不需要每次加载全部 15 个。先选择与当前问题最接近的入口；只有发现跨章节的问题时，再扩大审查范围。
 
 ## 理解研究之后再写章节
 
 [research-manuscript-writing](skills/research-manuscript-writing/SKILL.md) 先识别具体问题、动机、贡献和证据，再开始起草。摘要沿问题到结果推进，引言从方向及已有进展收窄到 gap、motivation 和 contribution。文献综述从引言提取两到三个关联方向，把已有研究讲清楚，默认不分类罗列，也不反复对比本文。
 
 方法按依赖顺序解释，避免重复定义和防御性强调。结果、局限性与结论根据研究设计和学科要求组织，整体使用简洁连贯的段落。支持 LaTeX 的引用和章节语法，以及 Word 的原生样式与字段保留。完整说明见[论文结构与写作指南](docs/manuscript-guide.md)。
+
+## 专业角色与修改前后对照
+
+完整审查根据子方向、研究设计、读者和具体判断选择 reviewer 与 editor 视角。先说明这部分应当建立什么、为什么，以及当前实际建立了什么，再判断缺口。真实审稿要求与 agent 推断的读者需要分开记录，不把某个学科的实验或统计标准套到所有研究。
+
+[revision-integrity-audit](skills/revision-integrity-audit/SKILL.md) 比较修改前后，分别检查原问题是否解决、有效论证和信息是否保留。保留有依据的纠错、合理压缩和已核实的内容迁移，修复实际丢失的含义，不机械恢复旧稿。详见[专业角色与前后对照指南](docs/revision-guide.md)。
 
 ## 自然表达、简洁句式与逻辑审查
 
@@ -120,7 +128,7 @@ npx skills add ChangChrisLiu/academic-writing-audit --list
 # 安装一个，按提示选择目标客户端。
 npx skills add ChangChrisLiu/academic-writing-audit --skill nondefensive-writing
 
-# 在当前项目中为 Codex 安装全部 14 个。
+# 在当前项目中为 Codex 安装全部 15 个。
 npx skills add ChangChrisLiu/academic-writing-audit --skill '*' -a codex
 ```
 
@@ -187,6 +195,8 @@ npx skills add ChangChrisLiu/academic-writing-audit --skill '*' -a codex
 另有一次[真实长文审查](evals/real-manuscript-audit/README.md)，使用已知项目的完整正文与历史回复检查术语和正文语气边界。初次独立评估发现两处局部分类或转述问题，促成了有针对性的规则修补。两次新上下文复测的 12 项判断均通过，并保留一处轻微表述判断意见。公开记录说明方法和有限结论，原稿与审稿材料保留在本地。
 
 [整篇写作与章节结构试写](evals/manuscript-structure/README.md)覆盖工程、质性研究、数学文献，以及只有题目但缺少研究事实的请求。独立评估的初测 16 项、复测 10 项适用判断均通过，并保留两处可选编辑意见。格式检查覆盖 LaTeX 源码和可粘贴的 Word 文字，不代表实际编译或原生 Word 版面通过。
+
+[专业角色与修改前后对照试用](evals/roles-revision-integrity/README.md)覆盖机器人检测、数值分析和组织民族志。独立评估的 21 项检查均通过，另保留两处可选措辞意见。输出分别检查原问题是否解决和信息是否保留，接受合理压缩及有据纠错，未发现正常专业术语误改。这组虚构带 skill 试用没有无 skill 对照，不代表普遍有效性证明。
 
 ## 素材与贡献
 

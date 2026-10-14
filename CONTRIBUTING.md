@@ -12,6 +12,8 @@ Keep the core skill portable. Avoid mandatory model brands, provider-specific to
 
 For behavior changes, include a no-guidance control when practical. Distinguish observed results from an expected outcome. A small number of synthetic trials is useful regression evidence, not proof of general effectiveness. A no-change decision can be a passing result.
 
+Role guidance must name the decision and evidence appropriate to the study design, not merely announce an expert persona. Revision tests should include both harmful losses and changes that ought to be accepted, such as concise equivalent wording or a correction to an unsupported old claim. Freeze inputs before execution, retain full outputs and disagreements, and pin historical skill versions before changing previously tested files.
+
 Keep descriptions and installation guidance consistent with the current format. Check frontmatter, relative links, and standalone packaging. Do not copy proprietary prompts, manuscripts, correspondence, logs, credentials, or personal filesystem paths into an issue or pull request. Use authorized, minimal source excerpts or fictional examples.
 
 Contributions are distributed under this repository's MIT license.
