@@ -90,6 +90,8 @@ Use [academic-prose-editing](skills/academic-prose-editing/SKILL.md) to check pr
 
 The concept and language pass first resolves what an expression denotes, its scope, and any property or mechanism its name implies. It distinguishes a conceptual error, awkward expression of a valid concept, unresolved meaning, and an already correct passage. Repairs preserve units, conditions, disciplinary distinctions, and evidential force. Valid specialist terms, disciplinary metaphors, and defined new concepts remain intact. An unfamiliar word is not automatically an error, and a fluent synonym is not automatically equivalent.
 
+Defined study labels are checked against their operations and context. An ambiguous shorthand may need a gloss without indicating a scientific error. The audit itself must also stay source-grounded and must not introduce an unreported mechanism or mathematical property while explaining a finding.
+
 Generated prose defaults to connected paragraphs without explanatory colons or sentence-interrupting dashes. Compound-word hyphens, scientific notation, ratios, ranges, URLs, exact quotations, and required templates remain intact. This is a configurable editorial preference. It is not an authorship test, and author or venue instructions take precedence. Each focused skill carries the core convention so it can work independently.
 
 ```text
@@ -194,6 +196,8 @@ The prose update has [three independent-context guided trials](evals/academic-pr
 The professional-language update has [three additional guided trials](evals/academic-language/README.md), including a targeted dataset/buffer naming check. The saved outputs retain legitimate specialist terms, correct misleading names and sentence roles, and preserve unresolved meanings as author questions. These small fictional cases do not establish general effectiveness.
 
 The generalized concept checks have [four further independent-context trials](evals/concept-language-transfer/README.md) in mathematics, chemistry, economics, and qualitative research. A separate assessor passed all 24 judgments and found no unjustified alteration of valid terms, defined concepts, or correct passages. These fictional same-host cases test two skill entrypoints and do not establish universal reliability.
+
+A [private real-manuscript audit](evals/real-manuscript-audit/README.md) also examines terminology and the manuscript/response boundary on a complete known project. Its initial assessment found two local classification or paraphrase problems, motivating narrow rule refinements. Two fresh regression audits received 12 passing dimension judgments, with one minor presentation caveat retained in the record. The public record reports the method and bounded findings; raw manuscript and review materials remain private.
 
 The skills support reasoning and editing; the quality of a conclusion still depends on the sources and evidence available to the agent. Read [CONTRIBUTING.md](CONTRIBUTING.md) to propose an observed failure, a small repair, and a regression case.
 

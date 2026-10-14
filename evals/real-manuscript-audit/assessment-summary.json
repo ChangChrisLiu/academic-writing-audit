@@ -1,0 +1,208 @@
+{
+  "initial": {
+    "counts": {
+      "pass": 14,
+      "qualified": 4,
+      "fail": 0
+    },
+    "judgments": [
+      {
+        "audit": "terminology",
+        "dimension": "source_task_fidelity",
+        "status": "pass"
+      },
+      {
+        "audit": "terminology",
+        "dimension": "concept_terminology",
+        "status": "qualified"
+      },
+      {
+        "audit": "terminology",
+        "dimension": "scientific_invariants",
+        "status": "pass"
+      },
+      {
+        "audit": "terminology",
+        "dimension": "manuscript_response_boundary",
+        "status": "pass"
+      },
+      {
+        "audit": "terminology",
+        "dimension": "evidence_work_status",
+        "status": "pass"
+      },
+      {
+        "audit": "terminology",
+        "dimension": "finding_quality",
+        "status": "qualified"
+      },
+      {
+        "audit": "manuscript_boundary",
+        "dimension": "source_task_fidelity",
+        "status": "pass"
+      },
+      {
+        "audit": "manuscript_boundary",
+        "dimension": "concept_terminology",
+        "status": "pass"
+      },
+      {
+        "audit": "manuscript_boundary",
+        "dimension": "scientific_invariants",
+        "status": "pass"
+      },
+      {
+        "audit": "manuscript_boundary",
+        "dimension": "manuscript_response_boundary",
+        "status": "pass"
+      },
+      {
+        "audit": "manuscript_boundary",
+        "dimension": "evidence_work_status",
+        "status": "pass"
+      },
+      {
+        "audit": "manuscript_boundary",
+        "dimension": "finding_quality",
+        "status": "pass"
+      },
+      {
+        "audit": "response_boundary",
+        "dimension": "source_task_fidelity",
+        "status": "pass"
+      },
+      {
+        "audit": "response_boundary",
+        "dimension": "concept_terminology",
+        "status": "qualified"
+      },
+      {
+        "audit": "response_boundary",
+        "dimension": "scientific_invariants",
+        "status": "pass"
+      },
+      {
+        "audit": "response_boundary",
+        "dimension": "manuscript_response_boundary",
+        "status": "pass"
+      },
+      {
+        "audit": "response_boundary",
+        "dimension": "evidence_work_status",
+        "status": "qualified"
+      },
+      {
+        "audit": "response_boundary",
+        "dimension": "finding_quality",
+        "status": "pass"
+      }
+    ],
+    "issues": [
+      {
+        "type": "overconfident_classification",
+        "severity": "minor",
+        "harmful_recommendation": false
+      },
+      {
+        "type": "unsupported_technical_modifier",
+        "severity": "minor",
+        "harmful_recommendation": false
+      }
+    ]
+  },
+  "regression": {
+    "counts": {
+      "pass": 12,
+      "qualified": 0,
+      "fail": 0
+    },
+    "judgments": [
+      {
+        "audit": "terminology",
+        "dimension": "source_task_fidelity",
+        "status": "pass"
+      },
+      {
+        "audit": "terminology",
+        "dimension": "concept_terminology",
+        "status": "pass"
+      },
+      {
+        "audit": "terminology",
+        "dimension": "scientific_invariants",
+        "status": "pass"
+      },
+      {
+        "audit": "terminology",
+        "dimension": "manuscript_response_boundary",
+        "status": "pass"
+      },
+      {
+        "audit": "terminology",
+        "dimension": "evidence_work_status",
+        "status": "pass"
+      },
+      {
+        "audit": "terminology",
+        "dimension": "finding_quality",
+        "status": "pass"
+      },
+      {
+        "audit": "response_boundary",
+        "dimension": "source_task_fidelity",
+        "status": "pass"
+      },
+      {
+        "audit": "response_boundary",
+        "dimension": "concept_terminology",
+        "status": "pass"
+      },
+      {
+        "audit": "response_boundary",
+        "dimension": "scientific_invariants",
+        "status": "pass"
+      },
+      {
+        "audit": "response_boundary",
+        "dimension": "manuscript_response_boundary",
+        "status": "pass"
+      },
+      {
+        "audit": "response_boundary",
+        "dimension": "evidence_work_status",
+        "status": "pass"
+      },
+      {
+        "audit": "response_boundary",
+        "dimension": "finding_quality",
+        "status": "pass"
+      }
+    ],
+    "prespecified_concerns": [
+      {
+        "id": "RC1",
+        "concern": "A defined condition with potentially ambiguous shorthand must be classified proportionately, not automatically as a scientifically wrong operation.",
+        "result": "satisfied_in_both_outputs"
+      },
+      {
+        "id": "RC2",
+        "concern": "The audit must not add an unreported technical property to an incompletely specified operation.",
+        "result": "satisfied_in_both_outputs"
+      }
+    ],
+    "recommendation_and_keep_checks": 43,
+    "confirmed_harmful_recommendations": 0,
+    "material_new_problems": 0,
+    "minor_caveats": [
+      {
+        "type": "optional_phrase_clarity_overemphasized",
+        "severity": "minor",
+        "harmful_recommendation": false,
+        "material_regression": false,
+        "summary": "A local clarity concern was somewhat overstated because the immediate context already distinguished the studies. Additional qualification is optional; the separate evidence gap remains substantive."
+      }
+    ],
+    "mandatory_additional_skill_repair_supported": false,
+    "rating_scope": "Observed audit outputs only. Source integrity is separately checked by the primary agent, and future rewriting is untested."
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-14",
+  "design": "private real-project audit-only development evaluation",
+  "project": "PACER",
+  "source_snapshot": "local manuscript archive retained 2026-10-13; historical rebuttal and formal reviews",
+  "initial_executions": 3,
+  "independent_initial_assessors": 1,
+  "initial_skills_commit": "e5efd2e9d815d80f6ad02b546ea682b1f90836b3",
+  "initial_dimensions": 6,
+  "initial_results": {
+    "pass": 14,
+    "qualified": 4,
+    "fail": 0,
+    "total": 18,
+    "issues": 2,
+    "confirmed_harmful_recommendations": 0
+  },
+  "behavioral_entrypoints": [
+    "academic-prose-editing",
+    "academic-writing-audit",
+    "reviewer-response-writing"
+  ],
+  "regression_entrypoints": [
+    "academic-prose-editing",
+    "reviewer-response-writing"
+  ],
+  "runtime": {
+    "fresh_contexts": true,
+    "explicit_model_override": false,
+    "exact_model_versions": "not recorded",
+    "configured_hosts": 1
+  },
+  "private_materials": [
+    "manuscript",
+    "rebuttal",
+    "reviews",
+    "full outputs",
+    "source provenance",
+    "full independent assessments"
+  ],
+  "public_materials": [
+    "method",
+    "rubric",
+    "aggregate assessment",
+    "generalized repair rationale",
+    "tested skill hashes"
+  ],
+  "limits": [
+    "One known development project; not a held-out external benchmark.",
+    "Audit recommendations were tested; no rewritten manuscript was produced.",
+    "No unguided control, repeated sampling, causal effectiveness estimate, or cross-model evaluation.",
+    "Public summary cannot be independently rescored without private artifacts."
+  ],
+  "regression_executions": 2,
+  "independent_regression_assessors": 1,
+  "regression_results": {
+    "pass": 12,
+    "qualified": 0,
+    "fail": 0,
+    "total": 12,
+    "prespecified_concerns_satisfied": 2,
+    "recommendation_and_keep_checks": 43,
+    "minor_caveats": 1,
+    "confirmed_harmful_recommendations": 0
+  },
+  "source_integrity": {
+    "checked_by": "primary agent",
+    "original_files_checked": 3,
+    "originals_and_isolated_copies_unchanged": true,
+    "method": "SHA-256 comparison with pre-execution manifest"
+  },
+  "structural_validation_skills": 13,
+  "regression_skill_hashes": "manifest.json",
+  "release": "v0.4.3"
+}

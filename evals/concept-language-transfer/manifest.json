@@ -23,5 +23,7 @@
     "evals/concept-language-transfer/results/qualitative-research/manuscript.md": "aaa9ccb5c5951c74f16d3b7905064e434c161d6883c6f96acc645094ce3bd261",
     "evals/concept-language-transfer/rubric.md": "d5a4ec648c3d00f6bf2ecd7337f7070906e6d6b0201288eb51e3885731be442d",
     "evals/concept-language-transfer/run-metadata.json": "51809f8ac7a4bff225628c1e50e5bbde4d30266dec08bd0eb1e37741d4b77483"
-  }
+  },
+  "source_git_commit": "e5efd2e9d815d80f6ad02b546ea682b1f90836b3",
+  "path_resolution": "Resolve recorded files in source_git_commit; original hashes are unchanged."
 }

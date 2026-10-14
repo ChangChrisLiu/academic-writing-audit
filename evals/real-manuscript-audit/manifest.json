@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "path_resolution": "File paths are relative to the repository. Initial skill files resolve at their recorded commit. Revised skill files resolve in this revision. Raw private inputs and outputs are excluded.",
+  "files": {
+    "evals/real-manuscript-audit/README.md": "293d5786fc27f99bb9456f4b6064bf1fb825e81f6dbe1bece016c0389f0027a8",
+    "evals/real-manuscript-audit/assessment-summary.json": "1da2d9139dabcfd7243c4f7859a104577abb8f3da7dcfa828b119786eb7ba2e5",
+    "evals/real-manuscript-audit/regression-rubric.md": "ea4e9a30fa41da32f0a24363d318dce468111340798db20078de91300022c93b",
+    "evals/real-manuscript-audit/rubric.md": "3ba431e497bb12f22c217ad84a9cc23a71877511f976d8129a76c2e99f5a2696",
+    "evals/real-manuscript-audit/run-metadata.json": "2057bad4ed77c8b5e9abc99fa81790d950d62c7284ba4f66e10fb99e35b16cf2"
+  },
+  "skill_versions": {
+    "initial": {
+      "directory": "skills",
+      "behaviorally_tested_entrypoints": [
+        "academic-prose-editing",
+        "academic-writing-audit",
+        "reviewer-response-writing"
+      ],
+      "files": {
+        "academic-prose-editing/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+        "academic-prose-editing/SKILL.md": "6148a640c81a3498914698802b25ea0e8387643cd20ce3fee2e7eb6ffdec370a",
+        "academic-prose-editing/agents/openai.yaml": "ff5844689e1334e798ce23f9c3eb7f1b0b7d0c35d095e7c69a83ae81fdcfce91",
+        "academic-prose-editing/references/examples.md": "05a3b2be749488a12519cb733d800ea8ba1081ea31e74f69e0a7c41c33c25d31",
+        "academic-prose-editing/references/word-choice.md": "2dc25b4112834450d7a5542de5fd6e3be448e8ed89631533d34e3e249997775a",
+        "academic-writing-audit/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+        "academic-writing-audit/SKILL.md": "283b6b759fd7b63f6a56e9844e917f8516c8bf024fc996a862635f2bb1cfc27d",
+        "academic-writing-audit/agents/openai.yaml": "e0f9d0070fcaad2d342eb1b0e0748049a291ecd5471ffe9e07cbc83784e160b8",
+        "academic-writing-audit/references/argument-and-evidence.md": "897fd5332075511b6123216cb2a2b0187f83d9c0b63f3d97ec735d7eb9a6091d",
+        "academic-writing-audit/references/examples.md": "32c7de0bb5f46024362ad1c8ede14704c3c792692fed81a40d1dd88e250705a4",
+        "academic-writing-audit/references/nondefensive-writing.md": "adf41a272ad855e7438417e5fc686130f4aea9289de89398efe35cc224cedfe3",
+        "academic-writing-audit/references/prose-checks.md": "9df630fe6f9e86a4343d7ae244303c9476b6a7f574b166a269bbf6b7b00e41e1",
+        "academic-writing-audit/references/review-and-patching.md": "1fb83c635a693ba6f14a2256791417dae1975c1d56d41e72b67a178b8b369910",
+        "reviewer-response-writing/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+        "reviewer-response-writing/SKILL.md": "d68e0d92ae29a3c39417354b7b2c3ac517283bb8d779fd11c02d1efc8f97fe3e",
+        "reviewer-response-writing/agents/openai.yaml": "bcf6b0e6180f0f2d6d60a8b19bc297762b3e8e05b31b280bf7b7683c369ec5d8",
+        "reviewer-response-writing/references/manuscript-boundary.md": "31dbc5b83390634b258c4482f07c23c272b08335b2906d6e8c5ba11bce00bc89",
+        "reviewer-response-writing/references/response-patterns.md": "373ea35fd7119630c4367d94f7ea923cedba517a57258aadfbfe3a17f867294f"
+      },
+      "git_commit": "e5efd2e9d815d80f6ad02b546ea682b1f90836b3"
+    },
+    "revised": {
+      "directory": "skills",
+      "behaviorally_tested_entrypoints": [
+        "academic-prose-editing",
+        "reviewer-response-writing"
+      ],
+      "files": {
+        "academic-prose-editing/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+        "academic-prose-editing/SKILL.md": "23ab17ca5964bdc04ca1ab63e0e67269894921ea6934fc179bdad674e976b32f",
+        "academic-prose-editing/agents/openai.yaml": "ff5844689e1334e798ce23f9c3eb7f1b0b7d0c35d095e7c69a83ae81fdcfce91",
+        "academic-prose-editing/references/examples.md": "05a3b2be749488a12519cb733d800ea8ba1081ea31e74f69e0a7c41c33c25d31",
+        "academic-prose-editing/references/word-choice.md": "d86855094e8fc9fb38f9e236865a5e9645b307fbdbba3af3d9737646f6cdaf7c",
+        "reviewer-response-writing/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+        "reviewer-response-writing/SKILL.md": "738b982d96f3c4f4e2d32e24dae92435a8e2ca2326e22692b1d445127a31e91a",
+        "reviewer-response-writing/agents/openai.yaml": "bcf6b0e6180f0f2d6d60a8b19bc297762b3e8e05b31b280bf7b7683c369ec5d8",
+        "reviewer-response-writing/references/manuscript-boundary.md": "31dbc5b83390634b258c4482f07c23c272b08335b2906d6e8c5ba11bce00bc89",
+        "reviewer-response-writing/references/response-patterns.md": "373ea35fd7119630c4367d94f7ea923cedba517a57258aadfbfe3a17f867294f"
+      }
+    }
+  }
+}

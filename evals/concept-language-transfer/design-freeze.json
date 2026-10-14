@@ -58,5 +58,7 @@
     "skills/scientific-story-audit/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
     "skills/scientific-story-audit/SKILL.md": "f3e489fb4f49d00c30e4cd35f53053d40ec6358b5c717d2da8e0ee1a16eccc56",
     "skills/scientific-story-audit/agents/openai.yaml": "9f506d62cf550225ca13f470868fa9068388d827ed53f1f8b287f12d3d2aef84"
-  }
+  },
+  "source_git_commit": "e5efd2e9d815d80f6ad02b546ea682b1f90836b3",
+  "path_resolution": "Resolve recorded files in source_git_commit; original hashes are unchanged."
 }

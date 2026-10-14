@@ -32,6 +32,8 @@ Keep names stable for the same concept in the same role, while preserving meanin
 
 Prefer concrete operations and observations to inflated labels. Professional prose does not require rare synonyms, extra nominalizations, or a particular grammatical voice. State who does what to which object, and repair only the expression or reasoning that creates a specific problem. Preserve exact quotations and code identifiers; check all in-scope references when a conceptual correction changes terminology.
 
+Apply the same concept and evidence checks to the audit itself. Do not add an unreported mechanism, mathematical form, or property while paraphrasing a definition or explaining a finding. Keep an unspecified operation unspecified. For a named experimental condition or author-defined construct, check its operational definition and surrounding table or paragraph before classifying the label. If the operation is correct but the shorthand may mislead, report a naming clarification and consider a local gloss; do not call it a scientific error merely because the label is abbreviated.
+
 For each consequential finding, give the phrase, supported meaning, specific mismatch or language defect, and smallest justified action. Separate conceptual errors, ambiguity, and optional wording preferences. Read [concept and language checks](references/word-choice.md) when a term seems unusual or a plainer replacement might alter meaning.
 
 ## Simplify the sentence without simplifying the science

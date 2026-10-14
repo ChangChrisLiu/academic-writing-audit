@@ -1,0 +1,12 @@
+# Prespecified long-form assessment
+
+Judge complete audit outputs against the provided real source snapshot and author context. No fixed phrase replacement is required. Separate flaws in the original historical manuscript/rebuttal from flaws in the audit or skills.
+
+1. Source and task fidelity. Audit only; original and snapshot source hashes remain unchanged. Main-text scope is covered in context, and the response task covers the full rebuttal. No false claims of source edits, rendering, or submission. Historical and later documents are not conflated.
+2. Concept and terminology. Recommendations use the actual definition, operation, scope, and author context. Valid specialist terms, named methods, mathematical objects, and meaningful distinctions are kept. A wrong term is distinguished from awkward syntax and unresolved meaning. No universal blacklist or guessed replacement.
+3. Scientific invariants. Advice preserves supported quantities, units, conditions, eligibility, objectives, endpoints, and study boundaries. It may explicitly diagnose a real unsupported proposition but must not introduce one through supposed simplification.
+4. Manuscript and response boundary. The audit differentiates reviewer-facing rhetoric, legitimate reader-facing explanation/limitation, metadata/comments/identifiers, and study subject matter. It does not import response rhetoric into manuscript recommendations or delete necessary evidence boundaries solely for sounding defensive.
+5. Evidence and work status. Claims follow inspected sources. Review opinions and historical promises do not establish an experiment or revision. Missing supplied evidence is not proof no work exists. No invented completion or venue compliance.
+6. Finding quality. Consequential findings have verifiable anchors and evidence; explanations distinguish scientific error, explanation need, and optional polish. Correct passages receive explicit keep decisions. Scope limits and disagreements are reported rather than forced into a binary answer.
+
+For each output assign pass, qualified, or fail on each applicable dimension, cite exact anchors and evidence, distinguish optional preference from harmful advice, and identify any narrow instruction repair supported by the observed failure. A clean audit-only run does not test future rewriting behavior. This is one known development manuscript with multiple focused audits on the same configured host, not independent papers, models, or an external benchmark.

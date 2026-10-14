@@ -22,6 +22,8 @@ When the intended meaning or disciplinary usage is uncertain, identify exactly w
 
 A defined new concept may need consistent naming and a concise first-use explanation. Its definition does not independently validate the measure or establish a claimed mechanism. Evaluate those scientific claims separately.
 
+A study may give a short name to a condition or an author-defined construct. Read its operational definition and any table grouping before interpreting the name literally. If the definition describes the operation correctly but the display name may mislead in isolation, classify the concern as naming clarity. A local gloss or expanded display label may suffice while preserving historical names and identifiers. A misleading label is not proof that the underlying operation or concept is wrong. This does not override an author's explicit clarification or excuse an actual contradiction between a name, its definition, and the study.
+
 ## Verify a replacement before applying it
 
 Compare the proposed wording with the source. It must preserve the intended referent, scope, units, assumptions, exceptions, negation, and evidential force. Read the whole sentence and its neighbors to ensure that the same subject performs the same operation. An apparent synonym can silently change a measured quantity or an inference.
@@ -57,6 +59,10 @@ A draft says “After filtering the records, the loss was minimized.” Check th
 “该框架以卓越的协同赋能实现了误差表现的优化性跃迁” obscures the measured outcome. If the supplied result is a reduction in mean absolute error from 0.48 to 0.35 under the evaluated protocol, report that result directly. Do not add a mechanism or significance claim.
 
 If readiness has no operational definition, identify the missing meaning. Do not silently convert it into confidence, task completion, or an observer rating. If the author instead defines a new index clearly, preserve its chosen name while checking any claim made about that index separately.
+
+## Keep the audit itself source-grounded
+
+Apply the same checks to the language of the diagnosis. Do not fill gaps in a method description with a familiar implementation. A score described as combining inputs is not necessarily a linear sum or a probability. A fixed rule is not necessarily a standard algorithm, and a named index is not necessarily a validated measurement. State the operation actually given, then identify the missing detail separately. An audit can introduce a scientific error even when it never edits the manuscript.
 
 ## Report the scientific and editorial consequences
 

@@ -16,6 +16,10 @@ Decide separately whether the concept is wrong, the sentence expresses a correct
 
 Respect the audience and disciplinary usage. Retain legitimate technical metaphors and specialist distinctions. Check an authoritative field source when an uncertain term matters and verification is permitted; otherwise state the uncertainty. An author's definition supports consistent naming but does not prove the named construct's validity or a claimed effect.
 
+For named conditions and author-defined constructs, check the operational definition and surrounding context before treating a display label literally. When the operation is sound and the label alone may mislead, report a naming clarification rather than a scientific error. Consider a local gloss or expanded display label without renaming historical identifiers.
+
+Check the audit's own paraphrases with the same care. A source that reports a score combining several inputs has not necessarily specified a linear formula, a probability, or a causal model. Use the operation actually given and identify what remains unspecified.
+
 Before accepting a replacement, compare the referent, scope, quantity, conditions, and evidential force with the source. Keep names consistent within the same role without forcing unrelated uses of the same word into one meaning. Preserve quotations and code identifiers. Avoid blanket substitutions, banned-word lists, or replacing every technical word with a familiar near-synonym.
 
 ## Sentence load
