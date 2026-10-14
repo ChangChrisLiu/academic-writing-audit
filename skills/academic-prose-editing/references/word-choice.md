@@ -1,43 +1,63 @@
-# Word choice and sentence usage
+# Concept and language checks
 
-The examples are fictional. Judge an expression against its intended concept, evidence, and readership. An unusual word can be a precise technical term. A familiar word can be misleading.
+Start from what the sentence means. Professional language names the actual object, relation, operation, or result at the precision needed by its readers. Familiarity, fluency, and word length do not establish correctness. These fictional examples illustrate a reusable audit, not a vocabulary blacklist.
 
-## Describe the operation instead of inventing a label
+## Recover the concept
 
-A draft calls its method “a confidence-affinity orchestration substrate.” The supplied method simply assigns higher weights to records with higher confidence scores. A useful replacement is “The method assigns higher weights to records with higher confidence scores.”
+Use the supplied definition, method, measurement, or argument to identify the referent. Determine whether the phrase names a collection, procedure, mechanism, quantity, theoretical property, interpretation, or evidential conclusion. Preserve its scope, including relevant population, subset, time, and conditions.
 
-The concrete sentence is more informative than the unexplained label. Do not invent a scoring formula, claim that the weights are calibrated, or reject a separately defined new concept merely because its name is unfamiliar.
+Ask what a specialist reader would infer from the name. Some terms imply a storage mechanism, a causal relation, a statistical quantity, a mathematical property, or an established validation result. The text must support the implication it makes. Do not infer a missing mechanism merely because a technical-sounding label appears in the draft.
 
-## Dataset is not a stylistic synonym for buffer
+When the intended meaning or disciplinary usage is uncertain, identify exactly what is unresolved. Use a relevant authoritative source if verification is needed and permitted. Do not declare a term nonstandard solely because it is unfamiliar, or invent the definition that would make the sentence work.
 
-A draft calls a fixed collection of compiled observations a post-training buffer. The supplied definition says it is a dataset partitioned into training and validation subsets, with some excluded records retained for audit. The intended object is the dataset. Call it the post-training dataset consistently in the in-scope prose, definitions, and captions. Do not narrow the whole collection to training data, because validation and audit-only records also belong to it.
+## Choose the action by the defect
 
-Buffer can misleadingly suggest an extra storage, queueing, or replay mechanism that the dataset definition does not express. The problem is the mismatch between word and object, even though buffer is a valid term in other contexts. If the source instead describes a bounded queue holding incoming measurements until processing, buffer may be the precise word. If it describes a replay buffer with explicit storage and resampling behavior, keep that established term. Do not create a global ban or replace code identifiers and exact quotations automatically.
+| Diagnosis | Appropriate action |
+| --- | --- |
+| The expression denotes the wrong object, quantity, or property | Correct it using the source and explain the resulting scientific distinction. |
+| The concept is accurate but the wording is awkward | Keep the technical term and repair the word combination, grammar, modifier, or agency. |
+| The concept and expression are accurate for the audience | Keep the passage, even if it contains an unusual word or a legitimate disciplinary metaphor. |
+| Meaning or usage is unresolved | Ask a focused question or state what needs verification. Do not guess a replacement. |
+| Several phrasings are accurate | Treat the choice as optional style and preserve the author's sound preference. |
 
-## Preserve distinct technical quantities
+A defined new concept may need consistent naming and a concise first-use explanation. Its definition does not independently validate the measure or establish a claimed mechanism. Evaluate those scientific claims separately.
 
-A draft says “The estimator has high precision” while the supplied result concerns its mean absolute error relative to reference values. Those words do not automatically refer to the same property. State the measured quantity and comparison directly. Do not substitute accuracy, precision, recall, or uncertainty for one another as stylistic variants.
+## Verify a replacement before applying it
 
-Similarly, a descriptive increase does not establish statistical significance. If no relevant analysis was supplied, report the supported difference without declaring either significance or the absence of such an analysis. Use a technical word when its technical meaning is supported, not as a stronger-sounding synonym.
+Compare the proposed wording with the source. It must preserve the intended referent, scope, units, assumptions, exceptions, negation, and evidential force. Read the whole sentence and its neighbors to ensure that the same subject performs the same operation. An apparent synonym can silently change a measured quantity or an inference.
 
-## Repair word combinations and unclear agency
+Track the corrected concept across the in-scope body, definitions, captions, and notation. Keep a stable name for the same concept in the same role. Distinguish related concepts and legitimate different uses of the same word. Do not use global search-and-replace for a semantic correction. Preserve exact quotations, code identifiers, and bibliographic titles unless their alteration is explicitly part of the task.
 
-A draft says “The algorithm conducts an improvement on classification outcomes.” If the evidence supports the comparison, write “The algorithm achieved higher classification accuracy than the baseline,” retaining the supplied setting and values. If the metric was something else, name that metric instead.
+## An object name can imply the wrong mechanism
 
-A draft says “After filtering the records, the loss was minimized.” The wording can leave the actor and order unclear. If the source says the training procedure filters records before fitting, write “The training procedure filtered the records before minimizing the loss.” If the actor or order is unknown, ask for that fact rather than guessing. Changing active or passive voice is useful only when it resolves a real problem.
+A fictional study defines D as a fixed post-training dataset. Its eligible records are split into training and validation subsets, while rejected records remain for audit. Calling D a buffer introduces an unnecessary storage or replay interpretation. Name it the post-training dataset consistently, without narrowing the full collection to training data.
 
-## Preserve legitimate terms and define unfamiliar concepts
+A different source describes a bounded queue that holds incoming measurements until processing. Input buffer accurately names that object. A chemical, physiological, or social-science use of buffer requires its own contextual interpretation. The earlier correction is not a ban on the word or a license to alter a code identifier such as `buffer_path`.
 
-If a source defines abstention as returning no prediction when a confidence criterion is not met, retain abstention consistently. Replacing it with failure would alter the defined behavior. A short first-use explanation may help the audience, but repeating the definition in every sentence creates clutter.
+## Related quantities are not stylistic alternatives
 
-If the author introduces a new measure, keep its chosen name when the definition is clear and consistent. If a label such as readiness is used without saying what is measured, identify the missing operational meaning. Do not silently decide whether it means confidence, task completion, or an observer judgment.
+A result about mean absolute error should not be renamed precision, accuracy, uncertainty, or reliability merely for smoother prose. Each label needs its actual definition in the relevant discipline. Preserve the supplied quantity, denominator, and comparison. Likewise, a relative percentage change does not become a percentage-point difference through editing.
 
-## Chinese academic register
+A descriptive increase does not by itself establish statistical significance. If an analysis was not supplied, do not assert either its result or its absence. Conversely, keep significant when the statistical meaning is supported or when an ordinary nonstatistical meaning is clear and appropriate.
 
-A draft says “该框架以卓越的协同赋能实现了误差表现的优化性跃迁。” The supplied result is a reduction in mean absolute error from 0.48 to 0.35 under the evaluated protocol. A direct revision is “在所评估的条件下，该框架的平均绝对误差从 0.48 降至 0.35。”
+## Specialist language can be the clearest choice
 
-The revision keeps the measured result and removes inflated wording. It does not establish a mechanism or a significance test. Professional expression comes from an accurate quantity and a clear comparison, not a more elaborate adjective.
+A source may define abstention as deliberately returning no prediction. Replacing abstention with failure changes that behavior. A mathematical adjective such as positive semidefinite is also not an ornate version of positive definite. Retain the property actually established, including a legitimate optimality claim when the supplied argument supports it.
 
-## Reporting a language finding
+An instrument in an econometric argument need not be a physical device. A specialist qualitative paper may use emic or thick description with an explicit methodological meaning. Assess their usage in that context. Do not remove them for sounding metaphorical or replace them with an everyday word that loses the distinction.
 
-State the location and problematic phrase, the intended scientific meaning supported by the source, the linguistic or technical defect, and a proportionate correction. Use a compact table when several terms would otherwise be confused and the requested format permits it. Do not force every optional word preference into an error report or return a list of synonyms without deciding which meaning fits.
+## Repair the sentence while keeping the concept
+
+A draft says “The algorithm conducts an improvement on classification accuracy.” If the source supports the comparison, write “The algorithm achieved higher classification accuracy than the baseline,” preserving the evaluated setting and values. If the actual endpoint is different, use its correct name rather than inventing accuracy.
+
+A draft says “After filtering the records, the loss was minimized.” Check the actor and order. If the source confirms that the training procedure filters records before fitting, that relationship can be stated directly. If the actor or order is unknown, preserve uncertainty rather than inventing an execution history. Active and passive voice are both acceptable when they express the facts clearly.
+
+## Inflated wording and undefined constructs
+
+“该框架以卓越的协同赋能实现了误差表现的优化性跃迁” obscures the measured outcome. If the supplied result is a reduction in mean absolute error from 0.48 to 0.35 under the evaluated protocol, report that result directly. Do not add a mechanism or significance claim.
+
+If readiness has no operational definition, identify the missing meaning. Do not silently convert it into confidence, task completion, or an observer rating. If the author instead defines a new index clearly, preserve its chosen name while checking any claim made about that index separately.
+
+## Report the scientific and editorial consequences
+
+For each material issue, identify its location, supported intended meaning, precise defect, and smallest justified action. Include keep decisions for terms that might otherwise be over-edited. Explain a conceptual correction separately from optional polish. Stop when the requested scope is accurate and readable, rather than continuing until all wording resembles the editor's own voice.

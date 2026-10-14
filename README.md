@@ -88,7 +88,7 @@ The accusation and reassurance disappear. The operative rule, denominator, and s
 
 Use [academic-prose-editing](skills/academic-prose-editing/SKILL.md) to check precise terminology, professional word choice, natural word combinations, sentence complexity, local inference, and repeated meaning. Preserve stable terminology, necessary conditions, and useful motivation. Shorter sentences are helpful when they reduce the reader's burden, not when they erase the argument.
 
-Professional wording should name the actual concept or operation. The language pass checks incorrect metric names, inflated labels, awkward translations, grammar, unclear agency, and modifier attachment. It preserves valid terms of art and defined new concepts, and flags unresolved meaning instead of guessing a synonym. Rare vocabulary and extra abstraction do not make a sentence more scholarly. If an object is a dataset, call it a dataset rather than renaming it a buffer for style; genuine buffering or replay structures retain their technical names.
+The concept and language pass first resolves what an expression denotes, its scope, and any property or mechanism its name implies. It distinguishes a conceptual error, awkward expression of a valid concept, unresolved meaning, and an already correct passage. Repairs preserve units, conditions, disciplinary distinctions, and evidential force. Valid specialist terms, disciplinary metaphors, and defined new concepts remain intact. An unfamiliar word is not automatically an error, and a fluent synonym is not automatically equivalent.
 
 Generated prose defaults to connected paragraphs without explanatory colons or sentence-interrupting dashes. Compound-word hyphens, scientific notation, ratios, ranges, URLs, exact quotations, and required templates remain intact. This is a configurable editorial preference. It is not an authorship test, and author or venue instructions take precedence. Each focused skill carries the core convention so it can work independently.
 
@@ -192,6 +192,8 @@ The response-writing skill has [ten guided executions across seven fictional dom
 The prose update has [three independent-context guided trials](evals/academic-prose-editing/README.md) covering English revision, Chinese audit-only work, and paired response/manuscript edits. A separate assessor found all 16 applicable checks satisfied, including technical punctuation preservation and the response/manuscript boundary. These cases are limited behavioral checks without an unguided control.
 
 The professional-language update has [three additional guided trials](evals/academic-language/README.md), including a targeted dataset/buffer naming check. The saved outputs retain legitimate specialist terms, correct misleading names and sentence roles, and preserve unresolved meanings as author questions. These small fictional cases do not establish general effectiveness.
+
+The generalized concept checks have [four further independent-context trials](evals/concept-language-transfer/README.md) in mathematics, chemistry, economics, and qualitative research. A separate assessor passed all 24 judgments and found no unjustified alteration of valid terms, defined concepts, or correct passages. These fictional same-host cases test two skill entrypoints and do not establish universal reliability.
 
 The skills support reasoning and editing; the quality of a conclusion still depends on the sources and evidence available to the agent. Read [CONTRIBUTING.md](CONTRIBUTING.md) to propose an observed failure, a small repair, and a regression case.
 

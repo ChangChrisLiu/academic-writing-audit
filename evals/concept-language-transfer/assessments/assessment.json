@@ -1,0 +1,621 @@
+{
+  "rubric": "rubric.md",
+  "assessment_scope": "Four completed fictional academic-writing cases",
+  "summary": {
+    "cases": 4,
+    "dimensions_per_case": 6,
+    "judgments": 24,
+    "pass": 24,
+    "qualified": 0,
+    "fail": 0,
+    "finding": "No rubric-level defect found in the supplied outputs. Valid specialist terms, author-defined concepts, and correct opening passages were not wrongly altered."
+  },
+  "assessments": [
+    {
+      "case": "mathematics",
+      "dimension": "Concept alignment",
+      "status": "pass",
+      "evidence": [
+        {
+          "file": "mathematics/answer.md",
+          "lines": "5",
+          "quote": "The exceptional singleton is nonempty, and f is 1 at x=0. Its ordinary supremum is therefore 1."
+        },
+        {
+          "file": "mathematics/answer.md",
+          "lines": "9",
+          "quote": "The claim that a null set is empty confuses measure zero with emptiness."
+        }
+      ],
+      "judgment": "The revision corrects the category mistake, the false pointwise conclusion, and the ordinary supremum, instead of hedging the same errors. These are justified changes in scientific meaning because the draft contradicts the supplied facts. It keeps the valid almost-everywhere conclusion and essential supremum distinct from pointwise behavior and ordinary supremum.",
+      "source_basis": "mathematics/request.md:7,11-13"
+    },
+    {
+      "case": "mathematics",
+      "dimension": "Specialist-term preservation",
+      "status": "pass",
+      "evidence": [
+        {
+          "file": "mathematics/answer.md",
+          "lines": "3",
+          "quote": "The exceptional singleton is a null set. Thus f is zero almost everywhere, and its essential supremum is 0. We define the exception mass as the measure of the set on which f is nonzero."
+        },
+        {
+          "file": "mathematics/answer.md",
+          "lines": "11",
+          "quote": "The first paragraph is correct and has been retained unchanged."
+        }
+      ],
+      "judgment": "The entire correct opening is an exact textual match to the draft. Null set, almost everywhere, essential supremum, and the author-defined exception mass remain intact. No unusual but valid term is simplified away, and no unexplained restyling of the opening was found.",
+      "source_basis": "mathematics/request.md:7,11"
+    },
+    {
+      "case": "mathematics",
+      "dimension": "Semantic invariants",
+      "status": "pass",
+      "evidence": [
+        {
+          "file": "mathematics/answer.md",
+          "lines": "3",
+          "quote": "its essential supremum is 0"
+        },
+        {
+          "file": "mathematics/answer.md",
+          "lines": "5",
+          "quote": "f is 1 at x=0. Its ordinary supremum is therefore 1. The exception mass is 0."
+        }
+      ],
+      "judgment": "The supported values and their distinct quantities are preserved, including zero exception mass despite a nonempty exceptional set. The notation f and x=0 is retained. The ordinary supremum changes from the erroneous 0 to the source-supported 1. The output does not change the domain, measure, or operational definition. The source domain and measure were context rather than text in the original opening; not newly restating them is not an invariant violation.",
+      "source_basis": "mathematics/request.md:7,11-13"
+    },
+    {
+      "case": "mathematics",
+      "dimension": "Unknowns and evidence",
+      "status": "pass",
+      "evidence": [
+        {
+          "file": "mathematics/answer.md",
+          "lines": "11",
+          "quote": "The trace-capacity improvement claim was omitted because neither the meaning of the quantity nor support for an improvement was supplied."
+        },
+        {
+          "file": "mathematics/answer.md",
+          "lines": "15",
+          "quote": "What does “trace capacity” mean here, and what comparison or mathematical argument supports the claimed improvement?"
+        }
+      ],
+      "judgment": "Trace capacity remains unresolved and outside the revised manuscript passage. The question separately requests meaning and support for improvement, so a future definition is not treated as validation. No definition, comparison, or missing proof is invented.",
+      "source_basis": "mathematics/request.md:7"
+    },
+    {
+      "case": "mathematics",
+      "dimension": "Language repair",
+      "status": "pass",
+      "evidence": [
+        {
+          "file": "mathematics/answer.md",
+          "lines": "5",
+          "quote": "The exceptional singleton is nonempty, and f is 1 at x=0."
+        },
+        {
+          "file": "mathematics/answer.md",
+          "lines": "9",
+          "quote": "The phrase “uniform-zero assurance architecture” was removed because the supplied properties establish no such architecture or pointwise guarantee."
+        }
+      ],
+      "judgment": "The inflated architecture label gives way to a concrete mathematical statement. The output fixes the proposition rather than merely substituting a more natural verb. Mathematical precision is retained rather than replaced by everyday approximations.",
+      "source_basis": "mathematics/request.md:3,7,13"
+    },
+    {
+      "case": "mathematics",
+      "dimension": "Task and deliverable boundary",
+      "status": "pass",
+      "evidence": [
+        {
+          "file": "mathematics/answer.md",
+          "lines": "1-5",
+          "quote": "Revised passage"
+        },
+        {
+          "file": "mathematics/answer.md",
+          "lines": "7-15",
+          "quote": "Reasons for material edits"
+        },
+        {
+          "file": "mathematics/execution.txt",
+          "lines": "6-11",
+          "quote": "Revised only the supplied fictional passage and provided separate reasons and an unresolved author question."
+        }
+      ],
+      "judgment": "The answer supplies connected revised paragraphs and separate reasons and author question, without putting editorial commentary into the passage. The prose uses neither explanatory colons nor sentence-interrupting dashes. It makes no claim to have changed a separate manuscript file. Execution claims concerning preserved inputs and absent external activity are self-reports, not independently reconstructable from this package.",
+      "source_basis": "mathematics/request.md:3"
+    },
+    {
+      "case": "chemistry",
+      "dimension": "Concept alignment",
+      "status": "pass",
+      "evidence": [
+        {
+          "file": "chemistry/answer.md",
+          "lines": "13",
+          "quote": "The phrase “performs a 25 nm enhancement on quantum yield” conflates the measured change in the absorption maximum with a different quantity."
+        },
+        {
+          "file": "chemistry/answer.md",
+          "lines": "15",
+          "quote": "The phrase “thereby validating the charge-transfer mechanism” was removed because the supplied absorption observations do not identify that mechanism."
+        }
+      ],
+      "judgment": "The output removes the quantity/unit conflation and unsupported mechanistic inference. The valid absorption observation already survives in the opening, so removal does not erase the measured result. The revised passage does not simply weaken an unsupported quantum-yield or charge-transfer claim.",
+      "source_basis": "chemistry/request.md:7,11-13"
+    },
+    {
+      "case": "chemistry",
+      "dimension": "Specialist-term preservation",
+      "status": "pass",
+      "evidence": [
+        {
+          "file": "chemistry/answer.md",
+          "lines": "3",
+          "quote": "The absorption maximum shifted from 410 nm to 435 nm, corresponding to a bathochromic shift of 25 nm."
+        },
+        {
+          "file": "chemistry/answer.md",
+          "lines": "9",
+          "quote": "Absorption spectra in phosphate buffer at pH 7.4, with maxima at 410 nm and 435 nm under the evaluated protocol."
+        },
+        {
+          "file": "chemistry/answer.md",
+          "lines": "17",
+          "quote": "“Spectral persistence” was retained with the author's operational definition and reported value of 0.82."
+        }
+      ],
+      "judgment": "The correct opening, correct spectral-persistence sentence, and entire caption are unchanged. Bathochromic shift and phosphate buffer keep their supplied chemical meanings. Spectral persistence retains its author-defined name and definition. Removing a false use of quantum yield does not imply rejecting that legitimate quantity; the reasons explicitly distinguish it.",
+      "source_basis": "chemistry/request.md:7,11,13,17"
+    },
+    {
+      "case": "chemistry",
+      "dimension": "Semantic invariants",
+      "status": "pass",
+      "evidence": [
+        {
+          "file": "chemistry/answer.md",
+          "lines": "3",
+          "quote": "Absorption spectra were measured in phosphate buffer at pH 7.4."
+        },
+        {
+          "file": "chemistry/answer.md",
+          "lines": "3",
+          "quote": "We define spectral persistence as the fraction of the initial absorbance remaining after 30 minutes under this protocol."
+        },
+        {
+          "file": "chemistry/answer.md",
+          "lines": "5",
+          "quote": "The spectral persistence was 0.82."
+        }
+      ],
+      "judgment": "The revision preserves pH 7.4, both maxima and their wavelength units, the 25 nm shift, the 30-minute interval, the protocol qualification, and the initial-absorbance denominator. It preserves 0.82 as spectral persistence rather than repurposing it as quantum yield or adaptive resilience. No measurement or experimental condition is added or changed.",
+      "source_basis": "chemistry/request.md:7,11,13,17"
+    },
+    {
+      "case": "chemistry",
+      "dimension": "Unknowns and evidence",
+      "status": "pass",
+      "evidence": [
+        {
+          "file": "chemistry/answer.md",
+          "lines": "13",
+          "quote": "no quantum-yield result or fluorescence measurement was supplied"
+        },
+        {
+          "file": "chemistry/answer.md",
+          "lines": "15",
+          "quote": "It does not establish whether other supporting analyses exist elsewhere."
+        },
+        {
+          "file": "chemistry/answer.md",
+          "lines": "21",
+          "quote": "Its definition, measured result, and comparator for “superior” remain unresolved."
+        }
+      ],
+      "judgment": "The absence of supplied analyses is not converted into a claim that analyses never occurred. Adaptive resilience remains undefined, with definition, result, comparator, and implied causal relationship identified as separate evidential needs. A definition alone would not establish the claimed superiority, and spectral persistence is explicitly not substituted for the unresolved construct.",
+      "source_basis": "chemistry/request.md:7"
+    },
+    {
+      "case": "chemistry",
+      "dimension": "Language repair",
+      "status": "pass",
+      "evidence": [
+        {
+          "file": "chemistry/answer.md",
+          "lines": "13",
+          "quote": "The wording “performs an enhancement on” is also unnatural, but changing the verb alone would leave the quantity error intact."
+        },
+        {
+          "file": "chemistry/answer.md",
+          "lines": "21",
+          "quote": "The supplied observations also do not establish the causal relationship implied by “engender.”"
+        }
+      ],
+      "judgment": "The output repairs unnatural agency and inflated wording through justified deletion of unsupported claims while retaining the concrete absorption and persistence reports. This is a valid repair because the unsupported clauses contain no additional supported finding to rescue. It does not exchange adaptive resilience for another vague improvement label.",
+      "source_basis": "chemistry/request.md:3,7,13"
+    },
+    {
+      "case": "chemistry",
+      "dimension": "Task and deliverable boundary",
+      "status": "pass",
+      "evidence": [
+        {
+          "file": "chemistry/answer.md",
+          "lines": "1-9",
+          "quote": "Revised passage"
+        },
+        {
+          "file": "chemistry/answer.md",
+          "lines": "19-21",
+          "quote": "Unresolved meaning"
+        },
+        {
+          "file": "chemistry/execution.txt",
+          "lines": "11-14",
+          "quote": "Prepared a revised passage and caption, reasons for material edits, and a separate unresolved-meaning note."
+        }
+      ],
+      "judgment": "The returned artifact includes the requested revision and caption, with reasons and unresolved meaning separated from manuscript prose. The manuscript text is connected prose, and the headings do not introduce explanatory colons or interrupting dashes. No invented measurement or unsupported saved-manuscript claim appears. Broader execution-history claims remain self-reports.",
+      "source_basis": "chemistry/request.md:3"
+    },
+    {
+      "case": "economics",
+      "dimension": "Concept alignment",
+      "status": "pass",
+      "evidence": [
+        {
+          "file": "economics/answer.md",
+          "lines": "3",
+          "quote": "局部修改应恢复“半弹性”及家庭支出这一对象，并明确收费每增加 1 美元对应支出约高 3% 的条件关联，仅将“证明”改为较弱的动词不足以修复这些错误。"
+        },
+        {
+          "file": "economics/answer.md",
+          "lines": "5",
+          "quote": "地区固定效应控制地区不随时间变化的差异，不能据此认定解释变量与未观察误差项相关的可能性已经排除。"
+        }
+      ],
+      "judgment": "The audit identifies all linked errors in the second paragraph: elasticity versus semi-elasticity, household expenditure versus market share, percent versus percentage points, and association versus causation. It also rejects the unsupported implication that regional fixed effects resolve endogeneity. Its local directions correct the claims rather than just reduce rhetorical certainty.",
+      "source_basis": "economics/request.md:7,15"
+    },
+    {
+      "case": "economics",
+      "dimension": "Specialist-term preservation",
+      "status": "pass",
+      "evidence": [
+        {
+          "file": "economics/answer.md",
+          "lines": "9",
+          "quote": "第一段的四句均有明确且互不替代的作用，可以保留。"
+        },
+        {
+          "file": "economics/answer.md",
+          "lines": "9",
+          "quote": "“半弹性”和“内生性”都是此处需要的技术术语，无须换成宽泛的日常表达。"
+        },
+        {
+          "file": "economics/answer.md",
+          "lines": "11",
+          "quote": "审查时应保留这一名称和口径"
+        }
+      ],
+      "judgment": "The sound first paragraph is explicitly a keep decision. Regional fixed effects, semi-elasticity, endogeneity, and the defined exposure-persistence index are preserved. The optional suggestion to spell out the outcome and dollar unit is clearly identified as explanatory completeness, not an error in the original paragraph. The index is not renamed merely because persistence might evoke continuity.",
+      "source_basis": "economics/request.md:3,7,12,15"
+    },
+    {
+      "case": "economics",
+      "dimension": "Semantic invariants",
+      "status": "pass",
+      "evidence": [
+        {
+          "file": "economics/answer.md",
+          "lines": "3",
+          "quote": "0.03 是半弹性"
+        },
+        {
+          "file": "economics/answer.md",
+          "lines": "3",
+          "quote": "收费每增加 1 美元对应支出约高 3% 的条件关联"
+        },
+        {
+          "file": "economics/answer.md",
+          "lines": "11",
+          "quote": "它表示随访月份中有 75% 的月份服务设施开放。"
+        },
+        {
+          "file": "economics/answer.md",
+          "lines": "11",
+          "quote": "不能据数值推断开放月份是否连续"
+        }
+      ],
+      "judgment": "The audit keeps the coefficient 0.03, dollar increment, approximate percentage association, outcome, and conditional interpretation. It retains 0.75 and its follow-up-month denominator. The equivalent 75% explanation does not change the quantity or imply consecutive months. It preserves the distinction between model controls, unresolved endogeneity, and the independently defined index.",
+      "source_basis": "economics/request.md:7,12,15"
+    },
+    {
+      "case": "economics",
+      "dimension": "Unknowns and evidence",
+      "status": "pass",
+      "evidence": [
+        {
+          "file": "economics/answer.md",
+          "lines": "5",
+          "quote": "材料未提供工具变量分析，只能说明无法用所给材料评估此类识别依据，不能写成作者没有进行工具变量分析。"
+        },
+        {
+          "file": "economics/answer.md",
+          "lines": "7",
+          "quote": "或在作者提供该概念的定义、测量及相应结果后再作有边界的表述。"
+        }
+      ],
+      "judgment": "The audit explicitly prevents inferring that instrumental-variable analysis was never performed. Welfare resilience remains an unresolved construct rather than being collapsed into welfare improvement or exposure persistence. It requires definition, measurement, and corresponding results, so it does not treat a newly supplied definition as evidence of an effect.",
+      "source_basis": "economics/request.md:7"
+    },
+    {
+      "case": "economics",
+      "dimension": "Language repair",
+      "status": "pass",
+      "evidence": [
+        {
+          "file": "economics/answer.md",
+          "lines": "3",
+          "quote": "可以按实际指代改用“该模型”或“该估计”，无需另造方法名称。"
+        },
+        {
+          "file": "economics/answer.md",
+          "lines": "7",
+          "quote": "“结果实现了”将估计结果写成了产生福利变化的行动主体"
+        },
+        {
+          "file": "economics/answer.md",
+          "lines": "7",
+          "quote": "这些问题不能仅靠换成“福利改善”或“有所提升”解决。"
+        }
+      ],
+      "judgment": "The audit gives local, referent-dependent replacements for the inflated identification-engine label and diagnoses the false agency and unsupported magnitude of the welfare statement. The proposed model/estimate wording is conditional on actual reference rather than an invented method. Legitimate economics terms remain technical.",
+      "source_basis": "economics/request.md:3,15"
+    },
+    {
+      "case": "economics",
+      "dimension": "Task and deliverable boundary",
+      "status": "pass",
+      "evidence": [
+        {
+          "file": "economics/answer.md",
+          "lines": "1",
+          "quote": "以下判断仅针对所给正文和研究记录。"
+        },
+        {
+          "file": "economics/answer.md",
+          "lines": "3-11",
+          "quote": "局部修改应恢复“半弹性”及家庭支出这一对象"
+        },
+        {
+          "file": "economics/execution.txt",
+          "lines": "2-5",
+          "quote": "answer.md 包含仅针对给定材料的中文审查，指出问题位置、依据、局部修改方向和保留项，没有提供整段替换稿。"
+        }
+      ],
+      "judgment": "The answer is a Chinese audit in connected paragraphs, with locations, reasons, local directions, and explicit keep decisions. It supplies no full replacement paragraph and uses no colon, sentence-interrupting dash, or bullet organization. It does not claim to edit a manuscript. Claims about unobserved external behavior or historical preservation cannot independently be proved by the execution note alone.",
+      "source_basis": "economics/request.md:3"
+    },
+    {
+      "case": "qualitative-research",
+      "dimension": "Concept alignment",
+      "status": "pass",
+      "evidence": [
+        {
+          "file": "qualitative-research/manuscript.md",
+          "lines": "7",
+          "quote": "These accounts illustrate both perceived room for discretionary scheduling adjustments and perceived constraints within formal rules at one workplace."
+        },
+        {
+          "file": "qualitative-research/manuscript.md",
+          "lines": "7",
+          "quote": "The purposive interview sample does not establish a causal effect or national prevalence."
+        },
+        {
+          "file": "qualitative-research/answer.md",
+          "lines": "3",
+          "quote": "They do not identify a causal effect of quiet agency or estimate the proportion of the national workforce with flexible scheduling."
+        }
+      ],
+      "judgment": "The saved edit replaces the saturation apparatus, causal claim, and national extrapolation with a supported description and an explicit inference boundary. Quiet agency remains the defined category of accounts rather than being reified as an independently established causal mechanism. Nine of 18 accounts are not promoted into half of a national population.",
+      "source_basis": "qualitative-research/request.md:7,13-17"
+    },
+    {
+      "case": "qualitative-research",
+      "dimension": "Specialist-term preservation",
+      "status": "pass",
+      "evidence": [
+        {
+          "file": "qualitative-research/manuscript.md",
+          "lines": "3",
+          "quote": "We use thick description to situate participants' accounts in their social context. Emic meanings refer to participants' own categories. We define quiet agency as participants' accounts of making small discretionary scheduling adjustments within formal rules."
+        },
+        {
+          "file": "qualitative-research/manuscript.md",
+          "lines": "5",
+          "quote": "One participant said “We learned to bend time.”"
+        }
+      ],
+      "judgment": "The correct first two paragraphs match the embedded initial manuscript exactly. Thick description, emic meanings, and the author-defined quiet agency retain their meanings and wording. The participant quotation, including its curly quotation marks and full stop, is exact. Removing the defective emic-method sentence does not remove or simplify away the legitimate emic concept.",
+      "source_basis": "qualitative-research/request.md:7,13-15"
+    },
+    {
+      "case": "qualitative-research",
+      "dimension": "Semantic invariants",
+      "status": "pass",
+      "evidence": [
+        {
+          "file": "qualitative-research/manuscript.md",
+          "lines": "5",
+          "quote": "Nine of the 18 participants described these adjustments, five said formal rules left no room for them, and four did not discuss the issue."
+        },
+        {
+          "file": "qualitative-research/manuscript.md",
+          "lines": "7",
+          "quote": "at one workplace"
+        },
+        {
+          "file": "qualitative-research/answer.md",
+          "lines": "3",
+          "quote": "without treating silence from four participants as either agreement or disagreement"
+        }
+      ],
+      "judgment": "The three participant groups retain their counts and distinct meanings. The operational category still concerns accounts of discretionary adjustments within formal rules. The edit preserves the interview design and one-workplace scope, without interpreting silence as a positive or negative response. Perceived room and perceived constraints are warranted summaries of reported accounts, not new measurements or causal findings.",
+      "source_basis": "qualitative-research/request.md:7,13-15"
+    },
+    {
+      "case": "qualitative-research",
+      "dimension": "Unknowns and evidence",
+      "status": "pass",
+      "evidence": [
+        {
+          "file": "qualitative-research/answer.md",
+          "lines": "5",
+          "quote": "This omission does not establish that saturation was absent or that no assessment occurred."
+        },
+        {
+          "file": "qualitative-research/answer.md",
+          "lines": "13",
+          "quote": "The supplied material does not establish whether such an assessment exists."
+        },
+        {
+          "file": "qualitative-research/answer.md",
+          "lines": "15",
+          "quote": "What does institutional elasticity mean in this study, and which analytical observations would support that interpretation?"
+        }
+      ],
+      "judgment": "The answer leaves the existence and result of a saturation assessment unknown. Institutional elasticity is not guessed, operationalized, or equated with quiet agency. Its question requests both meaning and supporting observations, while the manuscript contains neither an invented definition nor an asserted effect.",
+      "source_basis": "qualitative-research/request.md:7"
+    },
+    {
+      "case": "qualitative-research",
+      "dimension": "Language repair",
+      "status": "pass",
+      "evidence": [
+        {
+          "file": "qualitative-research/manuscript.md",
+          "lines": "7",
+          "quote": "These accounts illustrate both perceived room for discretionary scheduling adjustments and perceived constraints within formal rules at one workplace."
+        },
+        {
+          "file": "qualitative-research/answer.md",
+          "lines": "7",
+          "quote": "I removed the sentence about an emic method executing a generalization enhancement because it names no intelligible analytical operation and supplies no basis for broader inference."
+        }
+      ],
+      "judgment": "The inflated apparatus and enhancement language is replaced by a concrete account-level interpretation that accommodates both discretion and constraint. The output repairs agency and inference without erasing specialist vocabulary or introducing a new vague label. Asking what analytical operation was intended is separate from inventing such an operation.",
+      "source_basis": "qualitative-research/request.md:3,7,17"
+    },
+    {
+      "case": "qualitative-research",
+      "dimension": "Task and deliverable boundary",
+      "status": "pass",
+      "evidence": [
+        {
+          "file": "qualitative-research/manuscript.md",
+          "lines": "1-7",
+          "quote": "The purposive interview sample does not establish a causal effect or national prevalence."
+        },
+        {
+          "file": "qualitative-research/answer.md",
+          "lines": "11-17",
+          "quote": "Author questions"
+        },
+        {
+          "file": "qualitative-research/execution.txt",
+          "lines": "15-18",
+          "quote": "Replaced only the final paragraph of manuscript.md."
+        }
+      ],
+      "judgment": "The saved manuscript is actually edited, and comparison with the initial manuscript embedded in request.md confirms that only its final paragraph changed. Reasons and author questions are in answer.md; no reviewer reply, author question, or edit-history language enters the manuscript. The source is connected prose without explanatory colons or interrupting dashes, and the study design is unchanged. The log's claimed edit scope matches the saved artifact; its broader activity-history claims remain self-reports.",
+      "source_basis": "qualitative-research/request.md:3,9-17"
+    }
+  ],
+  "case_notes": {
+    "mathematics": {
+      "summary": "All six dimensions pass. The revision keeps the valid mathematics and corrects only false pointwise and supremum claims, with trace capacity left unresolved.",
+      "meaning_change": "The pointwise-zero and ordinary-supremum claims are intentionally changed to match the supplied function. This is a justified conceptual correction, not semantic drift.",
+      "optional_preferences": [
+        "A sentence explicitly repeating that measure zero does not mean empty could be added to the revised passage, but the existing nonempty-singleton sentence and separate reason already convey the distinction. This is not a defect."
+      ],
+      "uncertainties": [
+        "Trace capacity and the basis for its asserted improvement remain unknown."
+      ]
+    },
+    "chemistry": {
+      "summary": "All six dimensions pass. The revision preserves the precise absorption report and caption and removes unsupported quantum-yield, mechanistic, and resilience claims.",
+      "meaning_change": "Deleting unsupported scientific claims necessarily reduces what the paragraph asserts. The supported bathochromic shift and spectral-persistence result are preserved exactly, so the deletion is warranted by the source.",
+      "optional_preferences": [
+        "The retained second paragraph is only one sentence. Combining it with the first could be a stylistic preference, but is not required and would create unnecessary restyling.",
+        "Repeating the bathochromic shift in place of the deleted quantum-yield clause would be redundant; deletion is an acceptable repair."
+      ],
+      "uncertainties": [
+        "The existence of fluorescence, quantum-yield, or mechanistic evidence elsewhere is unknown.",
+        "Adaptive resilience, its measurement, and its comparator remain unknown."
+      ]
+    },
+    "economics": {
+      "summary": "All six dimensions pass. The audit identifies the outcome, units, coefficient type, and inference errors while explicitly keeping the correct first paragraph and defined index.",
+      "meaning_change": "The audit recommends scientifically substantive corrections but does not perform a manuscript rewrite. Its advice preserves the source association rather than recasting it as a causal effect.",
+      "optional_preferences": [
+        "The suggested addition of the outcome and dollar unit to the first paragraph is explicitly optional explanatory detail, not an allegation that the existing semi-elasticity statement is wrong.",
+        "The continuous Chinese prose is relatively thorough. Concision is a preference here, not a demonstrated task failure."
+      ],
+      "uncertainties": [
+        "The existence of instrumental-variable analysis elsewhere is unknown.",
+        "Welfare resilience remains undefined and unmeasured in the supplied materials."
+      ]
+    },
+    "qualitative-research": {
+      "summary": "All six dimensions pass. The actual saved edit changes only the defective final paragraph, preserves methodology, counts and quotation, and keeps author questions outside the manuscript.",
+      "meaning_change": "The unsupported causal and population claims become an account-level interpretation and scope statement. This is an intended correction to the supplied evidence boundary; it does not change the interview design or operational category.",
+      "optional_preferences": [
+        "The inferential-scope sentence could be placed elsewhere in a longer manuscript, but the supplied local task provides no reason to require relocation.",
+        "The separate reasons contain some reiteration of the evidence boundary. This is a possible concision preference, not a semantic or deliverable defect."
+      ],
+      "uncertainties": [
+        "Whether a saturation assessment exists remains unknown.",
+        "Institutional elasticity and any intended form of qualitative generalization remain unresolved."
+      ]
+    }
+  },
+  "verification_checks": {
+    "mathematics_correct_opening_exact": true,
+    "chemistry_correct_opening_exact": true,
+    "chemistry_correct_persistence_sentence_exact": true,
+    "chemistry_caption_exact": true,
+    "qualitative_correct_first_two_paragraphs_exact": true,
+    "qualitative_exact_quotation_preserved": true,
+    "qualitative_only_final_paragraph_differs_from_embedded_initial_manuscript": true
+  },
+  "input_sha256": {
+    "rubric.md": "d5a4ec648c3d00f6bf2ecd7337f7070906e6d6b0201288eb51e3885731be442d",
+    "mathematics/request.md": "2cefe122ce5b1ca992754214d0c5d48c651f7d6d0b9971f6ec47502231e7fe3c",
+    "mathematics/answer.md": "0a123183575c888928ec457b533aede2e80e77f527a8f6d5fe384d3a6a6649a4",
+    "mathematics/execution.txt": "54e3092100e2d4e9aef2a369f3060705ef8de980cdde5d98b3b14cb8442c30d9",
+    "chemistry/request.md": "4215317458514c1ab474e8705c4d7bbece28c078a68826239832984b93176d26",
+    "chemistry/answer.md": "822cbde694b78770ab0e77d7a17c53177c3ed878292846515d92de243b745788",
+    "chemistry/execution.txt": "76698a0685bea26a720c0510228930196f26b2cfda97965d055113dd2e05d98b",
+    "economics/request.md": "1311e4a08381499ac29d8b6f060ff78b650c1ef099b9808408cd549d7c4461ae",
+    "economics/answer.md": "6b1d50d5176af19e3d0ad48b9019f58871a2e4676dd51a33060c082f16538e48",
+    "economics/execution.txt": "27fe64d9ca71215abec98c2fc2d69e551e55a69654fa8f5d1d8c3c652aa4d415",
+    "qualitative-research/request.md": "2351e3a7a5fa47951046a56ee149aaff7cf6bea550dddcfc0997c92a0ac6f9d3",
+    "qualitative-research/answer.md": "da97847a2fa95a7ca737bb26375a40360aac85c35712bd9600478f5582489a00",
+    "qualitative-research/execution.txt": "fb4b45c71dbca3d47c1a21cf49d02249dcadf958e4bc77e91b04be8c52dbff42",
+    "qualitative-research/manuscript.md": "aaa9ccb5c5951c74f16d3b7905064e434c161d6883c6f96acc645094ce3bd261"
+  },
+  "limits": [
+    "The assessment uses only rubric.md, the four requests, answers and execution notes, and the saved qualitative manuscript in this assessment directory. It does not consult skills, memory, prior trials, parent conclusions, external directories or network sources.",
+    "Fictional supplied facts are the authority for semantic judgments. This is an output assessment, not independent verification of actual scientific findings.",
+    "Execution notes describe prior actions but are not full execution traces. The saved qualitative edit scope and exact preservation claims can be checked against the embedded initial text; no-network and no-other-file claims cannot be independently established from these notes.",
+    "These four guided development cases cannot establish universal effectiveness, causal improvement over no skill, or performance on unobserved domains or harder cases. No control condition or causal comparison is supplied.",
+    "A pass means no defect on the stated dimension was demonstrated in this supplied output, not proof that every possible academic-writing task will be handled correctly."
+  ]
+}

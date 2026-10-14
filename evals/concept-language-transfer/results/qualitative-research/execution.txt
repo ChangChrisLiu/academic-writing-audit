@@ -1,0 +1,26 @@
+Inputs read
+request.md
+manuscript.md
+skill/SKILL.md
+skill/references/argument-and-evidence.md
+skill/references/prose-checks.md
+skill/references/review-and-patching.md
+
+Outputs written
+manuscript.md
+answer.md
+execution.txt
+
+Actions
+Replaced only the final paragraph of manuscript.md.
+Saved the reasons for the changes and separate unresolved author questions in answer.md.
+Compared the edited manuscript with the original text and reread the resulting files.
+The initial manuscript remains recoverable from request.md, which was not changed.
+
+Limits
+The edit uses only the request, supplied manuscript, and listed skill files in this isolated directory.
+No memory, other skills, rubrics, repository files, prior conclusions, or network sources were consulted.
+No other inputs were modified and no external actions were performed.
+The study design was not changed. No missing saturation assessment or definition of institutional elasticity was invented.
+No rendering, compilation, or independent verification of the fictional study was performed.
+No test verdict was written.

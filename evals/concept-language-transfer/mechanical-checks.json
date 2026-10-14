@@ -1,0 +1,8 @@
+{
+  "mathematics_correct_opening_verbatim": true,
+  "chemistry_correct_opening_verbatim": true,
+  "chemistry_caption_verbatim": true,
+  "qualitative_correct_first_two_paragraphs_verbatim": true,
+  "qualitative_quote_verbatim": true,
+  "note": "Exact preservation of correct prose was checked against supplied case sources. Economics is audit-only and requires semantic inspection, not a replacement comparison. No manuscript rendering, external study verification, or submission was performed."
+}

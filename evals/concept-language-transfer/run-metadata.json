@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-14",
+  "design": "Four guided executions in fresh contexts with no parent turns, followed by one separate fresh-context assessor. No unguided control.",
+  "cases": [
+    {
+      "case": "mathematics",
+      "writer_task": "concept_math",
+      "skill": "academic-prose-editing",
+      "mode": "Proposed revision"
+    },
+    {
+      "case": "chemistry",
+      "writer_task": "concept_chemistry",
+      "skill": "academic-prose-editing",
+      "mode": "Proposed passage and caption revision"
+    },
+    {
+      "case": "economics",
+      "writer_task": "concept_economics",
+      "skill": "academic-writing-audit",
+      "mode": "Chinese audit only"
+    },
+    {
+      "case": "qualitative-research",
+      "writer_task": "concept_qualitative",
+      "skill": "academic-writing-audit",
+      "mode": "Actual isolated manuscript edit with separate notes"
+    }
+  ],
+  "writer_inputs": "Each received only its fictional request, a frozen standalone skill with its references, and any initial manuscript. Memory, other skills, rubric, repository files, other outputs, prior conclusions, and network sources were forbidden.",
+  "assessor_task": "concept_transfer_assessment",
+  "assessor_inputs": "Only prespecified rubric, all requests, complete saved outputs and relative-path execution records. No skills, parent conclusions, prior trial records, memory, or network.",
+  "provenance_limit": "Execution records are self-reports. Exact saved content and source comparisons can be verified, but these records do not reconstruct every tool call.",
+  "runtime": "Same configured Codex host. No model override was requested or set. Exact model and tool versions were not recorded.",
+  "scope": "Two skill entrypoints tested behaviorally across four fictional domains. All 13 packages receive structural and installation checks.",
+  "design_limit": "Cases and rubric were authored in this development session and supplied definitions establish their factual boundary. They are not a random or externally validated domain benchmark. No repeated sampling, control, causal estimate, whole-paper study, or cross-model validation."
+}

@@ -23,5 +23,7 @@
     "evals/academic-language/results/english-terms/execution.txt": "26e879a2a19fe843c5d17b0ae3a14859fd13a1fde4a71478feda2978fccf6e6e",
     "evals/academic-language/rubric.md": "6907f584c64a895457b02d5f16d55e8989ada7cb6e3bcc2c889c083e65e122bf",
     "evals/academic-language/run-metadata.json": "04da70bf6c271756a4b90639ebfbf96a7feb58cca8a612af1922c3f2be278bcd"
-  }
+  },
+  "source_git_commit": "9cb9758008c62bb5e151342bc75d225581796acc",
+  "path_resolution": "Resolve recorded files in source_git_commit; original hashes are unchanged."
 }

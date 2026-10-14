@@ -8,11 +8,15 @@ Identify what the first sentence establishes and what the next sentence adds. Tr
 
 Check the bridge to a new section or paragraph. If removing a seemingly general sentence leaves a method without motivation or a result without its question, retain or clarify the bridge. A full audit also checks agreement between the abstract, main text, captions, and conclusion.
 
-## Word choice and sentence usage
+## Concept and language accuracy
 
-Check whether each consequential term names the intended concept and whether the word combination is natural in the field. Use supplied definitions and evidence before replacing an unfamiliar expression. Keep valid specialist terminology and clearly defined new concepts. Replace an inflated synonym or vague invented label with the concrete operation it is meant to describe. Flag unresolved meaning instead of inventing a polished definition. Check that the name fits the actual object. When a passage means a dataset, buffer is not a more professional synonym. Correct in-scope mentions consistently while preserving the distinction between the whole collection and its training subset. Genuine buffering or replay structures can retain their proper terms.
+Recover what each consequential expression denotes from the definition, method, result, or argument. Check its category, scope, units, assumptions, and any mechanism or evidence status the wording implies. A conventional word can be conceptually wrong, while an unfamiliar specialist term or defined new concept can be precise.
 
-Check grammar, prepositions, modifiers, pronouns, and who performs the action. A sentence can be short but still assign a procedure to the wrong subject or use an ambiguous label. Do not make it sound more professional by stacking nouns or adding rare vocabulary. Maintain one term per concept without conflating distinct quantities, and keep evidential force intact when replacing words such as significant or validated. Distinguish an incorrect term, unclear expression, and optional preference in the findings.
+Decide separately whether the concept is wrong, the sentence expresses a correct concept awkwardly, the intended meaning is unresolved, or the passage is already sound. Correct the first using evidence. Repair grammar, word combinations, agency, and modifiers in the second while retaining the valid technical term. Mark the third for clarification. Keep the fourth. Do not turn a personal preference or unfamiliar vocabulary into a scientific error.
+
+Respect the audience and disciplinary usage. Retain legitimate technical metaphors and specialist distinctions. Check an authoritative field source when an uncertain term matters and verification is permitted; otherwise state the uncertainty. An author's definition supports consistent naming but does not prove the named construct's validity or a claimed effect.
+
+Before accepting a replacement, compare the referent, scope, quantity, conditions, and evidential force with the source. Keep names consistent within the same role without forcing unrelated uses of the same word into one meaning. Preserve quotations and code identifiers. Avoid blanket substitutions, banned-word lists, or replacing every technical word with a familiar near-synonym.
 
 ## Sentence load
 

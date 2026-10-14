@@ -1,0 +1,5 @@
+读取的输入文件为 request.md、skill/SKILL.md、skill/references/argument-and-evidence.md 和 skill/references/prose-checks.md。
+输出文件为 answer.md 和 execution.txt。
+answer.md 包含仅针对给定材料的中文审查，指出问题位置、依据、局部修改方向和保留项，没有提供整段替换稿。
+审查限于所给模型设定、定义、研究记录和正文，没有查阅网络、记忆、其他技能、仓库文件、其他输出、既往结论或评判材料，没有采取外部操作。输入文件保持不变。
+未获得工具变量分析材料，也未获得福利韧性的定义或测量，未将这些缺失推断为作者在其他地方未开展相关工作。

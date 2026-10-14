@@ -1,0 +1,21 @@
+Inputs read
+request.md
+skill/SKILL.md
+skill/references/word-choice.md
+
+Outputs written
+answer.md
+execution.txt
+
+Execution
+Read the supplied request, editing skill, and concept and language reference.
+Prepared a revised passage and caption, reasons for material edits, and a separate unresolved-meaning note.
+Preserved the input files.
+Read back answer.md and execution.txt after writing them.
+
+Limits
+The work is confined to the supplied fictional excerpt and stated measurements and meanings.
+No memory, other skills, rubrics, repository files, other outputs, prior conclusions, or network sources were read.
+No external actions were taken.
+The presence of fluorescence measurements, quantum-yield results, or supporting mechanistic analyses elsewhere is unknown.
+Adaptive resilience remains undefined, and no measurement or comparison for it was inferred.

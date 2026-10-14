@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-14",
+  "hash_algorithm": "SHA-256",
+  "scope": "Four fictional guided development cases with a separate fresh-context assessment. Cases, rubric, and skill inputs were frozen before writer execution. Writer and assessor outputs are unedited. Paths are repository-relative. Input skill versions are identified by design-freeze.json.",
+  "files": {
+    "evals/concept-language-transfer/README.md": "f54327aa652f2ae3741a77a36c23ba9f826038e2564e6a614b75571a510d5b3e",
+    "evals/concept-language-transfer/assessments/assessment.json": "64c30c441441e4f393ab08c17c12d208939b8dc27e12370119e9038ca5ee5af9",
+    "evals/concept-language-transfer/assessments/assessment.md": "5ed37b8212a7ba83ee5304300a6239e881e5f8be1df2a87baa2b5a97a918f205",
+    "evals/concept-language-transfer/cases/chemistry.md": "4215317458514c1ab474e8705c4d7bbece28c078a68826239832984b93176d26",
+    "evals/concept-language-transfer/cases/economics.md": "1311e4a08381499ac29d8b6f060ff78b650c1ef099b9808408cd549d7c4461ae",
+    "evals/concept-language-transfer/cases/mathematics.md": "2cefe122ce5b1ca992754214d0c5d48c651f7d6d0b9971f6ec47502231e7fe3c",
+    "evals/concept-language-transfer/cases/qualitative-research.md": "2351e3a7a5fa47951046a56ee149aaff7cf6bea550dddcfc0997c92a0ac6f9d3",
+    "evals/concept-language-transfer/design-freeze.json": "5bb2235ae1f21a9d8a26a736711c46d1ad85ce48b98108d4d2e91590d8903f64",
+    "evals/concept-language-transfer/mechanical-checks.json": "8016fbfdc2635a5c9f112b27c696f48cf9ed7a178df0430c62b61d797dbb2446",
+    "evals/concept-language-transfer/results/chemistry/answer.md": "822cbde694b78770ab0e77d7a17c53177c3ed878292846515d92de243b745788",
+    "evals/concept-language-transfer/results/chemistry/execution.txt": "76698a0685bea26a720c0510228930196f26b2cfda97965d055113dd2e05d98b",
+    "evals/concept-language-transfer/results/economics/answer.md": "6b1d50d5176af19e3d0ad48b9019f58871a2e4676dd51a33060c082f16538e48",
+    "evals/concept-language-transfer/results/economics/execution.txt": "27fe64d9ca71215abec98c2fc2d69e551e55a69654fa8f5d1d8c3c652aa4d415",
+    "evals/concept-language-transfer/results/mathematics/answer.md": "0a123183575c888928ec457b533aede2e80e77f527a8f6d5fe384d3a6a6649a4",
+    "evals/concept-language-transfer/results/mathematics/execution.txt": "54e3092100e2d4e9aef2a369f3060705ef8de980cdde5d98b3b14cb8442c30d9",
+    "evals/concept-language-transfer/results/qualitative-research/answer.md": "da97847a2fa95a7ca737bb26375a40360aac85c35712bd9600478f5582489a00",
+    "evals/concept-language-transfer/results/qualitative-research/execution.txt": "fb4b45c71dbca3d47c1a21cf49d02249dcadf958e4bc77e91b04be8c52dbff42",
+    "evals/concept-language-transfer/results/qualitative-research/manuscript.md": "aaa9ccb5c5951c74f16d3b7905064e434c161d6883c6f96acc645094ce3bd261",
+    "evals/concept-language-transfer/rubric.md": "d5a4ec648c3d00f6bf2ecd7337f7070906e6d6b0201288eb51e3885731be442d",
+    "evals/concept-language-transfer/run-metadata.json": "51809f8ac7a4bff225628c1e50e5bbde4d30266dec08bd0eb1e37741d4b77483"
+  }
+}

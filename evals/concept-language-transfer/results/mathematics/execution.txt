@@ -1,0 +1,11 @@
+Inputs read
+request.md
+skill/SKILL.md
+skill/references/word-choice.md
+
+Outputs written
+answer.md
+execution.txt
+
+Scope and limits
+Revised only the supplied fictional passage and provided separate reasons and an unresolved author question. Used only the request, the supplied skill, and its concept-and-language reference. Preserved all input files. Did not consult memory, other skills, rubrics, repository files, other outputs, prior conclusions, or network sources. Took no external actions. The supplied facts establish the correction to the ordinary supremum, while the meaning and claimed improvement of trace capacity remain unresolved. No external verification was performed.
