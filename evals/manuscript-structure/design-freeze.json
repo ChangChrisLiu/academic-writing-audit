@@ -20,5 +20,5 @@
     "skills/scientific-story-audit/agents/openai.yaml": "9f506d62cf550225ca13f470868fa9068388d827ed53f1f8b287f12d3d2aef84"
   },
   "purpose": "Frozen before guided executions; requests contain fictional inputs; no hidden expected prose.",
-  "path_resolution": "Paths refer to the isolated input packet. Public cases and rubric use the same relative paths; initial skills are preserved under evals/manuscript-structure/tested-skills/initial."
+  "path_resolution": "Paths refer to the isolated input packet. Public cases and rubric use the same relative paths; initial skills are preserved under evals/manuscript-structure/tested-skills/initial. Snapshot entrypoints are stored as SKILL.snapshot.md to avoid duplicate client discovery; file bytes are unchanged."
 }
