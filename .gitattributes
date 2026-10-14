@@ -1,3 +1,6 @@
 # Preserve raw assessment outputs byte for byte, including their final blank line.
 evals/roles-revision-integrity/assessment.json whitespace=-blank-at-eof
 evals/roles-revision-integrity/assessment.md whitespace=-blank-at-eof
+
+# Preserve the frozen regression rubric, including its final blank line.
+evals/reasoning-rhythm/regression/rubric.md whitespace=-blank-at-eof

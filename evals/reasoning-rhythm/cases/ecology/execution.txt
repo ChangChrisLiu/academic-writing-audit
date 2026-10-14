@@ -1,0 +1,15 @@
+Paths actually read
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-rhythm-g238ccqz/cases/ecology/request.md
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-rhythm-g238ccqz/skills/research-manuscript-writing/SKILL.md
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-rhythm-g238ccqz/skills/academic-prose-editing/SKILL.md
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-rhythm-g238ccqz/skills/research-manuscript-writing/references/findings-and-endings.md
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-rhythm-g238ccqz/skills/academic-prose-editing/references/reasoning-and-rhythm.md
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-rhythm-g238ccqz/skills/academic-prose-editing/references/word-choice.md
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-rhythm-g238ccqz/cases/ecology/answer.md
+
+Execution and verification
+Applied the two supplied skills and the three relevant references listed above.
+Used the fictional study packet as the entire factual source. Did not access memory, network, repository contents, other cases, evaluation files, prior outputs, or other agents.
+Created only answer.md and execution.txt; did not modify any input file.
+Checked the revised prose against the supplied richness values, taxon-change directions, seasonal scope, conceptual distinction, and unchanged adjacent explanation.
+Verification is limited to textual consistency with the supplied packet. No raw data, turnover estimates, statistical tests, environmental measurements, functional traits, or independent scientific validation were available or inferred.

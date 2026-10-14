@@ -35,6 +35,8 @@ For an abstract, follow task need, existing route's limitation, the particular u
 
 Use concise connected paragraphs. Contributions should follow the reasoning in prose unless a list is requested or required. If a sentence could fit many unrelated papers unchanged, check whether it carries a necessary premise or merely generic importance language. Preserve useful context and an already coherent author narrative. A required structured abstract or a theoretical or interpretive article may realize these functions differently.
 
+Check how the reasoning develops within and between paragraphs. What does the reader learn beyond a list of facts, why does this next step follow, and which distinction deserves emphasis? Restore a supported rationale or qualification where needed, without inventing an author's deliberation or research history. Let the amount and shape of explanation follow the argument; neither uniform paragraph templates nor forced variation make a scientific story coherent.
+
 ## Compare the expected and current argument
 
 Match the reviewer lens to the subfield, study design, intended audience, and retained claim. State what each consequential passage needs to establish, the basis for that expectation, what it currently establishes, and what remains missing. Separate actual reviewer requests from your inferred reader needs. A coherent sequence can still fail to answer the research question; a demanded mechanism or experiment can also exceed that question. Check the specific inferential gap before proposing an edit.

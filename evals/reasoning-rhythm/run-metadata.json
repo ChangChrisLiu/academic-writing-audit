@@ -1,0 +1,50 @@
+{
+  "recorded_at": "2026-10-14T23:21:02.373677+00:00",
+  "materials": "Fictional source packets and excerpts. No private manuscript or actual reviewer text.",
+  "runs": [
+    {
+      "case": "engineering",
+      "agent": "rhythm_engineering",
+      "skills": [
+        "academic-prose-editing"
+      ]
+    },
+    {
+      "case": "ecology",
+      "agent": "rhythm_ecology",
+      "skills": [
+        "research-manuscript-writing",
+        "academic-prose-editing"
+      ]
+    },
+    {
+      "case": "mathematics",
+      "agent": "rhythm_mathematics",
+      "skills": [
+        "academic-prose-editing",
+        "revision-integrity-audit"
+      ]
+    }
+  ],
+  "context": "Fresh-context agents with fork_turns none and no model override. Task instructions exclude parent conclusions, memory, network, other cases, and rubric. This does not assert an enforced filesystem sandbox.",
+  "assessor": "A separate fresh-context rhythm_assessor reads the raw cases, outputs, execution notes, and frozen rubric without skills or parent conclusions.",
+  "model_version": "Exact model identifier not independently recorded; same configured host.",
+  "control": "No unguided control, repeated sampling, or cross-model comparison.",
+  "path_resolution": "Initial design-freeze skills/ paths resolve under tested-skills/initial in this evaluation, mapping SKILL.md to SKILL.snapshot.md without changing bytes. cases/ and rubric.md resolve in this evaluation directory. Regression freeze skills/ paths resolve at the revised version in manifest.json; its other paths resolve within regression/. Raw execution notes retain runtime paths.",
+  "limits": [
+    "Three short, constructed passages rather than a new long-manuscript trial",
+    "No human-likeness score, authorship inference, or detector claim",
+    "Supplied fictional facts, not independent study or proof validation",
+    "No PDF or native Word rendering test"
+  ],
+  "refinement": "After an optional literal Chinese wording observation, added the distinction between source meaning and working-note wording to academic-prose-editing. Original outputs and scores preserved. One fresh-context regression uses the identical ecology request and revised skills, with no initial output or judgment. A new independent assessor sees only that case and rubric.",
+  "regression": {
+    "agent": "rhythm_ecology_regression",
+    "assessor": "rhythm_regression_assessor",
+    "skills": [
+      "research-manuscript-writing",
+      "academic-prose-editing"
+    ],
+    "request_bytes_unchanged": true
+  }
+}

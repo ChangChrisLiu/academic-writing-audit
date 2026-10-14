@@ -1,0 +1,15 @@
+Paths read as task inputs
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-rhythm-g238ccqz/cases/mathematics/request.md
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-rhythm-g238ccqz/skills/academic-prose-editing/SKILL.md
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-rhythm-g238ccqz/skills/revision-integrity-audit/SKILL.md
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-rhythm-g238ccqz/skills/academic-prose-editing/references/reasoning-and-rhythm.md
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-rhythm-g238ccqz/skills/revision-integrity-audit/references/comparison-decisions.md
+
+Generated outputs read for verification
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-rhythm-g238ccqz/cases/mathematics/answer.md
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-rhythm-g238ccqz/cases/mathematics/execution.txt
+
+Execution and verification
+Used only the supplied request and the two designated skills with their relevant references. Did not access memory, network, repository material, other cases, evaluation files, prior outputs, or other agents. Input files were not modified.
+Kept A and B unchanged by recommending no edits. Proposed a replacement only for C. Compared C's propositions with the supplied protocol, preserving rank four and all reported fits and adding the confirmed pre-fitting timing. Removed unsupported suitability and tradeoff implications without inventing a selection rationale or a sensitivity study.
+Verification is limited to these excerpts and supplied facts. No independent proof, numerical analysis, manuscript-wide review, rendering, or submission verification was performed. The reason for rank four and whether a sensitivity study occurred remain unresolved from this packet.

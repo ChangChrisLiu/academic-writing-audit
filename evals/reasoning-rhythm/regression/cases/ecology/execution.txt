@@ -1,0 +1,12 @@
+Paths read
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-rhythm-g238ccqz/regression/cases/ecology/request.md
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-rhythm-g238ccqz/regression/skills/research-manuscript-writing/SKILL.md
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-rhythm-g238ccqz/regression/skills/academic-prose-editing/SKILL.md
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-rhythm-g238ccqz/regression/skills/research-manuscript-writing/references/findings-and-endings.md
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-rhythm-g238ccqz/regression/skills/academic-prose-editing/references/reasoning-and-rhythm.md
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-rhythm-g238ccqz/regression/skills/academic-prose-editing/references/word-choice.md
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-rhythm-g238ccqz/regression/cases/ecology/answer.md (new deliverable, read back for verification)
+/var/folders/h5/wwqrck6s6_38s73j7zgqq_l80000gn/T/awa-rhythm-g238ccqz/regression/cases/ecology/execution.txt (new execution record, read back for verification)
+
+Verification and limits
+The supplied fictional facts were treated as the entire scientific source packet. The revised passage was compared with the supplied draft for mean richness, taxon changes, seasonal scope, and the distinction between richness and composition. The adjacent sampling explanation was retained verbatim. No statistical significance, turnover estimate, annual trend, functional redundancy, or environmental causal mechanism was inferred. The packet's lack of supplied tests was not converted into a claim that the study performed no tests. Verification was limited to local prose and source consistency, without external scientific verification or document rendering. No input files were modified. No memory, network, repository contents, other cases, parent-folder contents, evaluation files, prior outputs, or other agents were consulted. Only answer.md and execution.txt were created as requested.

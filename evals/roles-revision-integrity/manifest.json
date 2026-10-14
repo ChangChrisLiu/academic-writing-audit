@@ -3,7 +3,7 @@
   "files": {
     "evals/roles-revision-integrity/run-metadata.json": "b76d7a2ed13f178efd7f577f857f74ed89370e164172ff6c20909c9d87b4452d",
     "evals/roles-revision-integrity/assessment.json": "0a9cdd36588343be9cd86afe18ceb8c3fa678e74359b3a87376eb1f3d07e0c8c",
-    "evals/roles-revision-integrity/README.md": "34002e27eea36675e5fa874d7afbe467c18e3b6c3ba69b0940452f81ef867870",
+    "evals/roles-revision-integrity/README.md": "68835daad324746083d9b1c427b402178b19d5d2d5a14e06c2a3acc1682c5ace",
     "evals/roles-revision-integrity/assessment.md": "f49bffe7b3bcf4cb322ec13bf6d4253648f2e4006fd6ede4c9b67c9ab5fd7d35",
     "evals/roles-revision-integrity/rubric.md": "fbfc04edcc4ad5439879a52a3bb923b07cea93e0661c1fbe96cc283626c51951",
     "evals/roles-revision-integrity/design-freeze.json": "b5633e221b05b038655bfa1514f5c93ab9c01673b1288dbf9c13ebe3066ac856",
@@ -39,7 +39,8 @@
         "reviewer-response-writing/references/response-patterns.md": "373ea35fd7119630c4367d94f7ea923cedba517a57258aadfbfe3a17f867294f",
         "reviewer-response-writing/references/manuscript-boundary.md": "31dbc5b83390634b258c4482f07c23c272b08335b2906d6e8c5ba11bce00bc89",
         "reviewer-response-writing/agents/openai.yaml": "bcf6b0e6180f0f2d6d60a8b19bc297762b3e8e05b31b280bf7b7683c369ec5d8"
-      }
+      },
+      "git_commit": "9bb49052837867bf69ef3406b95293094883c68a"
     }
   }
 }

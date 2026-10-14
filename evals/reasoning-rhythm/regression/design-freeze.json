@@ -1,0 +1,20 @@
+{
+  "frozen_at": "2026-10-14T23:22:50.202155+00:00",
+  "design": "Fresh-context repetition of the unchanged ecology request after a small source-wording distinction was added. Initial output and judgments withheld. Separate fresh-context assessment. No unguided control.",
+  "files": {
+    "rubric.md": "f4d65b5731fbfb11bd433c67e72552778b75ffa28e85837757a33eb19842f662",
+    "cases/ecology/request.md": "f28dcc6eafdb906a1653368c594614e380da9d0a3239beaa4dccf1ed235f8135",
+    "skills/research-manuscript-writing/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "skills/research-manuscript-writing/SKILL.md": "2eacb4c027822145e2c7b66c33e70f1fd1071d780fcba8dce2b11844348e1f26",
+    "skills/research-manuscript-writing/references/findings-and-endings.md": "114bc958341fe429641df4e206c91ffaa56378f0a9c55955d15b63c0def7fcb9",
+    "skills/research-manuscript-writing/references/latex-and-word.md": "41bf1e30478072a57c3cd013561d58e5356dd13531726cc0ab4412f293127eb5",
+    "skills/research-manuscript-writing/references/section-reasoning.md": "855997cbf72ae98d03835716a31d8fc6888f522f3ad0b682adf0686a29785e45",
+    "skills/research-manuscript-writing/agents/openai.yaml": "62a7ff375091baa65f15d69d4bf5a519bb5b0add273e1d00a067412617fb8112",
+    "skills/academic-prose-editing/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "skills/academic-prose-editing/SKILL.md": "c3cfacd6f7047a0a491498af54aa0a7698357e058f10cc0742fd834c2fbafd1b",
+    "skills/academic-prose-editing/references/examples.md": "05a3b2be749488a12519cb733d800ea8ba1081ea31e74f69e0a7c41c33c25d31",
+    "skills/academic-prose-editing/references/word-choice.md": "d86855094e8fc9fb38f9e236865a5e9645b307fbdbba3af3d9737646f6cdaf7c",
+    "skills/academic-prose-editing/references/reasoning-and-rhythm.md": "b4b131798d85999f005ee47bc0c12c8266ba8a330198d903212e23fa528fb3c3",
+    "skills/academic-prose-editing/agents/openai.yaml": "ff5844689e1334e798ce23f9c3eb7f1b0b7d0c35d095e7c69a83ae81fdcfce91"
+  }
+}

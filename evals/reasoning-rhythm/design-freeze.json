@@ -1,0 +1,27 @@
+{
+  "frozen_at": "2026-10-14T23:19:03.393675+00:00",
+  "base_git_commit": "9bb49052837867bf69ef3406b95293094883c68a",
+  "design": "Three independent-context guided trials with a separate independent assessor. Fictional packets. No unguided control.",
+  "files": {
+    "rubric.md": "9db0841a8dde8180f00650b9b3944724202f44a5cefec2e6a88ab4984c0ab56c",
+    "cases/mathematics/request.md": "85fdd052a026edd167abb7a473a337ff3582da62b12eec89eeaf4dc53d133968",
+    "cases/ecology/request.md": "f28dcc6eafdb906a1653368c594614e380da9d0a3239beaa4dccf1ed235f8135",
+    "cases/engineering/request.md": "c24ad8450aad6d7b309f98e616e07e83deb000fb7e94a890df5ad1526c084da7",
+    "skills/research-manuscript-writing/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "skills/research-manuscript-writing/SKILL.md": "2eacb4c027822145e2c7b66c33e70f1fd1071d780fcba8dce2b11844348e1f26",
+    "skills/research-manuscript-writing/references/findings-and-endings.md": "114bc958341fe429641df4e206c91ffaa56378f0a9c55955d15b63c0def7fcb9",
+    "skills/research-manuscript-writing/references/latex-and-word.md": "41bf1e30478072a57c3cd013561d58e5356dd13531726cc0ab4412f293127eb5",
+    "skills/research-manuscript-writing/references/section-reasoning.md": "855997cbf72ae98d03835716a31d8fc6888f522f3ad0b682adf0686a29785e45",
+    "skills/research-manuscript-writing/agents/openai.yaml": "62a7ff375091baa65f15d69d4bf5a519bb5b0add273e1d00a067412617fb8112",
+    "skills/revision-integrity-audit/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "skills/revision-integrity-audit/SKILL.md": "cb208f84b35d02cca4a11ffe953ad3d2605f7cf01f716d4d3adfc74fc75a050a",
+    "skills/revision-integrity-audit/references/comparison-decisions.md": "3ca6d784d219845f40ef5eaef5530d394fe860b15fe948e244669b59b7642c4f",
+    "skills/revision-integrity-audit/agents/openai.yaml": "518828cc44fe3c025cf1db0ff323ecada6c7e3c119ef2b5ebdbc5a5e7195a5f7",
+    "skills/academic-prose-editing/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "skills/academic-prose-editing/SKILL.md": "37408514bc7137d756ddb905e991b74a5697f0409a9981403d7085b3207aa1d2",
+    "skills/academic-prose-editing/references/examples.md": "05a3b2be749488a12519cb733d800ea8ba1081ea31e74f69e0a7c41c33c25d31",
+    "skills/academic-prose-editing/references/word-choice.md": "d86855094e8fc9fb38f9e236865a5e9645b307fbdbba3af3d9737646f6cdaf7c",
+    "skills/academic-prose-editing/references/reasoning-and-rhythm.md": "b4b131798d85999f005ee47bc0c12c8266ba8a330198d903212e23fa528fb3c3",
+    "skills/academic-prose-editing/agents/openai.yaml": "ff5844689e1334e798ce23f9c3eb7f1b0b7d0c35d095e7c69a83ae81fdcfce91"
+  }
+}

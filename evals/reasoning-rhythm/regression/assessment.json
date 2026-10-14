@@ -1,0 +1,62 @@
+{
+  "cases": {
+    "ecology": [
+      {
+        "criterion": "1. Answers the stability question through unchanged mean richness versus changed composition and integrates the taxon changes",
+        "status": "pass",
+        "evidence": "The opening says ‘平均物种丰富度均为 18，但相同的均值并不对应相同的群落组成’. The next sentence combines the decreased spring-dominant taxon, two increased taxa, and differing species identities. It then concludes ‘只看丰富度均值会忽略这些变化，因此不能据此认定群落组成稳定。’",
+        "reason": "The observed taxon changes support the judgment that equal mean richness does not establish compositional stability. They are integrated into the argument rather than left as a list."
+      },
+      {
+        "criterion": "2. Preserves the two-season, same-reach scope and scientific distinctions without unsupported conclusions",
+        "status": "pass",
+        "evidence": "‘上述变化反映了春秋两季的差异，尚不足以说明年度趋势或确定变化机制。’ The retained adjacent sentence specifies the same reach and fixed sites. No significance, turnover index, functional redundancy, or environmental mechanism is asserted.",
+        "reason": "The interpretation remains a spring-versus-autumn comparison and distinguishes richness from composition. Unsupported categories are mentioned in the editing note only to explain their exclusion."
+      },
+      {
+        "criterion": "3. Produces concise connected Chinese prose with meaningful progression, emphasis, and interpretation",
+        "status": "pass",
+        "evidence": "The first paragraph progresses from equal richness means to taxon changes, to ‘因此不能据此认定群落组成稳定’, and then to temporal and mechanistic limits.",
+        "reason": "The prose develops a clear scientific judgment, retains explanatory content, and avoids numerical-list compression and generic importance claims."
+      },
+      {
+        "criterion": "4. Accepts the sound adjacent explanation without unnecessary restyling and preserves 12 sites and mean 18",
+        "status": "pass",
+        "evidence": "The answer repeats verbatim ‘两个季节均在同一河段的 12 个固定样点采样，因此这里的比较针对这些样点的季节差异，不代表其他河段的变化。’ It retains ‘平均物种丰富度均为 18’ and explicitly explains ‘相邻说明已清楚界定采样与比较范围，保留原文。’",
+        "reason": "The adjacent sentence is accepted unchanged, with an explicit judgment that no revision is needed. Both required numerical facts are preserved in useful locations."
+      },
+      {
+        "criterion": "5. Supplies only usable manuscript prose and a brief explanation without prohibited exposition",
+        "status": "pass",
+        "evidence": "Two manuscript paragraphs are followed by a short explanation beginning ‘这版修改保留了丰富度均值和类群变化’. The answer contains no reviewer-facing language, fictional author thought process, decorative colon, or dash.",
+        "reason": "The output matches the requested deliverable and limits its metacommentary to editing choices."
+      }
+    ]
+  },
+  "summary": {
+    "cases_assessed": 1,
+    "criteria_assessed": 5,
+    "counts": {
+      "pass": 5,
+      "partial": 0,
+      "fail": 0,
+      "not_applicable": 0
+    },
+    "conclusion": "The deliverable satisfies the request and remains faithful to the supplied fictional evidence."
+  },
+  "optional_issues": [
+    {
+      "case": "ecology",
+      "anchor": "上述变化反映了春秋两季的差异，尚不足以说明年度趋势或确定变化机制。",
+      "issue": "If those limits are already established in the surrounding manuscript, this sentence could be shortened or omitted for concision.",
+      "classification": "Optional preference, not a failure",
+      "reason": "The sentence is accurate and relevant to the supplied scope constraints; no surrounding manuscript was provided to establish actual redundancy."
+    }
+  ],
+  "harmful_changes": [],
+  "limitations": [
+    "Scientific fidelity was judged against the supplied fictional materials only, without external verification.",
+    "No surrounding manuscript was available to assess contextual redundancy of the scope-limitation sentence.",
+    "The execution record was read for context, but its self-reported checks were not treated as proof of compliance; the prose was assessed directly."
+  ]
+}

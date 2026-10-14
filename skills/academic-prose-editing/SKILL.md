@@ -20,6 +20,12 @@ Recover each paragraph's claim, support, and role in the surrounding argument. F
 
 When a conclusion exceeds its support, correct the proposition using the supplied facts or identify the missing link. Do not conceal the issue by substituting “may” for “demonstrates.” Preserve motivation that explains why the next step is needed. Distinguish a study limitation from an analysis or document that was merely not supplied to the editor.
 
+## Make the reasoning develop naturally
+
+When accurate prose still feels mechanical, read [reasoning and rhythm](references/reasoning-and-rhythm.md). Identify what the reader understands at the end that was not established at the beginning. Connect the actual premise, difficulty, choice, evidence, or qualification needed here rather than presenting equally weighted facts. Make a supported rationale or consequential distinction visible; do not invent author deliberation, a discovery story, or a missing scientific reason.
+
+Let emphasis and logical relationships shape sentence and paragraph variation. Avoid repeated stock openings and identical paragraph arcs when they flatten the argument. Preserve useful parallelism, stable terminology, disciplinary conventions, and a clear author voice. Do not impose alternating sentence lengths, obligatory contrasts, extra complexity, or synonym rotation. A plain definition can stay plain. Check why each sentence and paragraph follows the previous one, not merely whether a transition word is present.
+
 ## Replace generic framing with the actual scientific point
 
 Before adding content, identify the passage's role in the research question and section. A topic label is not enough to supply a motivation or contribution. Where the study's purpose or evidence is missing, flag the exact dependency rather than drafting a generic claim about importance, rapid progress, or urgent need. Keep the scope local for a local edit.
@@ -31,6 +37,8 @@ Use the introduction's narrowing argument to judge whether a sentence advances c
 Resolve the intended concept before choosing its name. Use the supplied definition, operation, measurement, or argument to determine what the expression denotes, its scope, and any property or mechanism the name implies. A fluent, familiar word can still identify the wrong object, quantity, relation, or inferential status. A rare expression can be exactly right.
 
 Assess conceptual correctness separately from linguistic form. For a concept mismatch, explain the evidence and correct the name or proposition. For awkward phrasing with a sound concept, repair the word combination, grammar, modifier attachment, pronoun, or verb while retaining the technical term. For a correct passage, keep it. For unresolved meaning, ask a targeted question or mark the uncertainty instead of inventing a definition or silently choosing a synonym.
+
+Source fidelity preserves scientific meaning without requiring awkward wording from working notes to become manuscript prose. Express a clear concept idiomatically when the source wording is informal or literal. Preserve established technical terms, exact quotations, and author-approved wording unless a specific justified correction is in scope.
 
 Use specialist terminology at the level appropriate for the audience. Retain established terms, precise distinctions, legitimate disciplinary metaphors, and clearly defined author-introduced concepts. If specialist usage is uncertain, check a relevant authoritative source when needed and permitted; unfamiliarity alone is not evidence of misuse. A term used correctly in one field or sentence may mean something different elsewhere. Do not apply a global replacement or blacklist.
 

@@ -8,6 +8,12 @@ Identify what the first sentence establishes and what the next sentence adds. Tr
 
 Check the bridge to a new section or paragraph. If removing a seemingly general sentence leaves a method without motivation or a result without its question, retain or clarify the bridge. A full audit also checks agreement between the abstract, main text, captions, and conclusion.
 
+## Development and emphasis
+
+An accurate paragraph can still read like an inventory. Identify what changes in the reader's understanding, which distinction matters most, and why the next sentence or paragraph follows. Recover the supported rationale for a choice, the relation between evidence and interpretation, or the qualification needed here. Do not invent author thought processes, surprise, rejected alternatives, or unreported evidence to make a story feel more natural.
+
+Let sentence structure and paragraph length follow their jobs and explanatory burden. Avoid identical opening, three-part explanation, and summary patterns when they flatten the reasoning. Preserve purposeful parallel comparisons, precise terminology, plain definitions, and sound author phrasing. Do not prescribe a rhythm quota, add complexity for variety, or force a dramatic turn into every paragraph.
+
 ## Concept and language accuracy
 
 Recover what each consequential expression denotes from the definition, method, result, or argument. Check its category, scope, units, assumptions, and any mechanism or evidence status the wording implies. A conventional word can be conceptually wrong, while an unfamiliar specialist term or defined new concept can be precise.

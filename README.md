@@ -11,7 +11,7 @@ Reconstruct the argument, check the evidence, and change only what needs changin
 
 提供 **15 个可独立使用的 AI agent skills**，覆盖 **学术论文写作、逻辑与证据审查、专业术语和句子检查、去防御性写作，以及审稿意见回复、response letter 和 rebuttal**。先理解研究问题，再组织摘要、倒三角引言、关联文献综述、方法与学科适配的结果和结尾，支持 **LaTeX 与 Word**。
 
-根据研究设计限定 **reviewer 与 editor 的专业角色**，检查预期论证和当前内容的差距。通过 **修改前后对照** 防止过度压缩丢失逻辑和信息，保留有效纠错与正常专业术语。“去 AI 味”落实为具体表达、句式简化和冗余检查，生成段落默认不用解释性冒号或句中破折号，保留术语连字符及技术符号。回复信回应审稿人，正文直接解释研究。通用 Markdown 指令可供不同 agent 使用。
+根据研究设计限定 **reviewer 与 editor 的专业角色**，检查预期论证和当前内容的差距。通过 **修改前后对照** 防止过度压缩丢失逻辑和信息，保留有效纠错与正常专业术语。“去 AI 味”落实为论证展开、自然承接、表达节奏、句式简化和冗余检查，生成段落默认不用解释性冒号或句中破折号，保留术语连字符及技术符号。回复信回应审稿人，正文直接解释研究。通用 Markdown 指令可供不同 agent 使用。
 
 [中文使用说明](README.zh-CN.md) · [专业角色与前后对照](docs/revision-guide.md) · [论文结构与写作](docs/manuscript-guide.md) · [自然表达与逻辑审查](docs/prose-guide.md) · [审稿回复与正文写作指南](docs/rebuttal-guide.md) · [安装方法](#install)
 
@@ -114,6 +114,8 @@ Audit only. Give consequential differences and the smallest justified action.
 ## Natural prose and clear reasoning
 
 Use [academic-prose-editing](skills/academic-prose-editing/SKILL.md) to check precise terminology, professional word choice, natural word combinations, sentence complexity, local inference, and repeated meaning. Preserve stable terminology, necessary conditions, and useful motivation. Shorter sentences are helpful when they reduce the reader's burden, not when they erase the argument.
+
+When individually correct sentences still feel mechanical, check how the argument develops. The prose skill traces what the reader learns, why a scientific choice follows, and how evidence qualifies an interpretation. Sentence and paragraph variation follow emphasis and explanatory need, while useful parallelism and author voice remain intact. It does not fabricate an author's deliberations or prescribe alternating sentence lengths. See [reasoning and rhythm](skills/academic-prose-editing/references/reasoning-and-rhythm.md).
 
 The concept and language pass first resolves what an expression denotes, its scope, and any property or mechanism its name implies. It distinguishes a conceptual error, awkward expression of a valid concept, unresolved meaning, and an already correct passage. Repairs preserve units, conditions, disciplinary distinctions, and evidential force. Valid specialist terms, disciplinary metaphors, and defined new concepts remain intact. An unfamiliar word is not automatically an error, and a fluent synonym is not automatically equivalent.
 
@@ -229,6 +231,8 @@ A [private real-manuscript audit](evals/real-manuscript-audit/README.md) also ex
 The [manuscript-structure trials](evals/manuscript-structure/README.md) cover engineering, qualitative research, mathematical literature, and a title-only request with missing research facts. Independent assessments passed 16 applicable initial judgments and 10 regression judgments, with two optional editorial preferences preserved. The format checks concern LaTeX source and paste-ready Word text, not compiled pages or native Word layout.
 
 The [role and revision-integrity trials](evals/roles-revision-integrity/README.md) cover robotics inspection, numerical analysis, and organizational ethnography. A separate assessor passed all 21 criteria, with two optional wording issues retained. The outputs distinguish actual concern resolution from preservation, accept valid corrections and shortening, and retain legitimate specialist terminology. These fictional guided checks have no unguided control and do not establish universal transfer.
+
+The [reasoning and expression trials](evals/reasoning-rhythm/README.md) cover engineering methods, Chinese ecological interpretation, and mathematical keep/repair decisions. Independent assessments passed 15 initial and five regression criteria. Optional expression and concision preferences remain public; one initially noted phrase persists after a narrow clarification, so the record does not claim that the refinement eliminated it. These guided checks have no unguided control or authorship score.
 
 The skills support reasoning and editing; the quality of a conclusion still depends on the sources and evidence available to the agent. Read [CONTRIBUTING.md](CONTRIBUTING.md) to propose an observed failure, a small repair, and a regression case.
 

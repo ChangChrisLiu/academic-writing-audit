@@ -28,6 +28,8 @@ Check the research question, motivation-to-method bridge, distinct component rol
 
 Check additions as carefully as deletions. New causal language, implied mechanisms, broader populations, or stronger guarantees may appear even when all numbers remain unchanged. A replacement such as “overall success” can silently erase a composite endpoint. Splitting a sentence can detach a condition from the claim it restricts. Fluent connectors cannot replace missing premises.
 
+Check whether a smoother or shorter version retains the relationships that made the facts meaningful. It may preserve all nouns and values yet lose why a method follows from the problem, why a comparison matters, or how a finding qualifies an interpretation. Accept changes to rhythm and structure that improve these relationships; do not restore a mechanical template or require novelty in every sentence.
+
 Distinguish preserved meaning, useful compression, supported correction, justified relocation, harmful loss, unsupported addition, and unresolved change. The earlier version is a baseline, not ground truth. Do not restore an error, unsupported claim, or redundant defense merely to maximize similarity. Judge the replacement against the evidence and intended scientific meaning.
 
 For moved material, inspect the destination, reference, and point of use. An accessible appendix may carry detailed settings, but readers still need the operation and consequential scope where the claim is made. If the destination was not supplied, mark the relocation unverified rather than declaring it lost or safe. Retain restatements that serve different readers or section functions, such as a standalone abstract and the full method.

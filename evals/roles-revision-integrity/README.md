@@ -35,3 +35,5 @@ There is no unguided control, repeated-sampling estimate, or evidence that the n
 [Input freeze](design-freeze.json) · [Run metadata and path resolution](run-metadata.json) · [File and tested-skill hashes](manifest.json)
 
 The input freeze uses skills/ paths from the repository root and cases/ plus rubric.md paths from this directory. The manifest records the exact tested skill bytes. Future changes must pin those skill versions to the tested commit before changing them. Raw execution notes retain transient run paths as historical execution context, not portable installation instructions.
+
+For repository revisions after this trial, resolve the input freeze's skills/ paths at the tested git_commit recorded in manifest.json, rather than against current live skills. The original freeze and generated outputs remain unchanged.

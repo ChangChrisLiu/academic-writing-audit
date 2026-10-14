@@ -1,0 +1,4 @@
+interface:
+  display_name: "Academic Prose Editing"
+  short_description: "Precise terminology and clear, professional academic prose"
+  default_prompt: "Use $academic-prose-editing to revise this passage for precise terminology, professional phrasing, clear logic, simpler sentences, and less repetition while preserving its scientific meaning."

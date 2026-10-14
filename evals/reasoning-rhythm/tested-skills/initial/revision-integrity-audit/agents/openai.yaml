@@ -1,0 +1,4 @@
+interface:
+  display_name: "Revision Integrity Audit"
+  short_description: "Compare revisions for lost logic and scientific meaning"
+  default_prompt: "Use $revision-integrity-audit to compare these manuscript versions, check whether the intended concern is resolved, and identify any lost reasoning or information without editing the files."
