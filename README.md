@@ -168,7 +168,7 @@ An audit returns findings. An authorized revision proceeds with bounded edits. A
 
 The repository includes fictional cases, semantic rubrics, and complete control/guided responses. The [original full-audit trials](evals/README.md) observed better preservation of a coherent paragraph in this small development sample. The [focused-skill trials](evals/library/README.md) also record cases where the controls already handled the core issues correctly. Neither establishes broad or cross-model effectiveness.
 
-The new response-writing skill has [development fixtures and semantic criteria](evals/reviewer-response-writing/README.md), with no independent behavioral trial results yet. Its packaging checks should not be read as evidence of effectiveness.
+The response-writing skill has [ten guided executions across seven fictional domains](evals/reviewer-response-writing/transfer/README.md), including separate assessment agents. No reviewer-facing manuscript voice was found in these outputs. Two initial evidence-scope ambiguities prompted a targeted clarification and fresh regression runs. Full outputs, the original assessment, and its prompted reassessment are preserved. These same-host trials have no unguided controls and do not establish universal or cross-model effectiveness.
 
 The skills support reasoning and editing; the quality of a conclusion still depends on the sources and evidence available to the agent. Read [CONTRIBUTING.md](CONTRIBUTING.md) to propose an observed failure, a small repair, and a regression case.
 

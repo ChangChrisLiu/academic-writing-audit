@@ -1,0 +1,311 @@
+{
+  "review_type": "Independent semantic assessment of revised transfer artifacts",
+  "basis": [
+    "rubric.md",
+    "regression-criteria.md",
+    "cases/ecology.md",
+    "cases/materials.md",
+    "cases/peer-review-research.md",
+    "cases/economics.md"
+  ],
+  "read_scope": "Read only the requested rubric, regression criteria, four case packets, and all ten artifacts under the four specified results/revised directories. No skills, earlier outputs, other assessments, metadata, memories, or network sources were read.",
+  "verification_limit": "Current source artifacts were checked directly. Execution logs were read as reported provenance; historical tool execution and rendering were not independently replayed.",
+  "summary": {
+    "pass": 15,
+    "qualified": 1,
+    "fail": 0,
+    "conclusion": "Ecology, materials, and peer-review research pass all four criteria. Economics passes voice, evidence, and scope; coverage is qualified because R2.1 deliberately remains pending unavailable execution evidence. No demonstrated fabrication, prohibited edit, or preservation failure was found."
+  },
+  "cases": [
+    {
+      "case": "ecology",
+      "overall": "pass",
+      "criteria": [
+        {
+          "criterion": "manuscript_independence",
+          "label": "Manuscript independence",
+          "verdict": "pass",
+          "evidence": [
+            {
+              "artifact": "results/revised/ecology/answer.md",
+              "excerpt": "Without pre-restoration richness measurements, this comparison cannot establish whether richness increased after restoration or whether the groups had comparable baseline richness."
+            }
+          ],
+          "assessment": "The proposed Discussion explains a scientifically relevant baseline limitation. It contains no review dialogue, reassurance, or revision history. The proposed Methods expansion is also ordinary exposition.",
+          "consequence": "None identified."
+        },
+        {
+          "criterion": "evidence_and_inference",
+          "label": "Evidence and inference",
+          "verdict": "pass",
+          "evidence": [
+            {
+              "artifact": "results/revised/ecology/answer.md",
+              "excerpt": "None was supplied in this packet; the draft does not treat that omission as evidence that such analyses do not exist, or make a significance claim."
+            }
+          ],
+          "assessment": "The author note distinguishes unavailable uncertainty, matching, and adjustment evidence from confirmed nonperformance. The paper preserves 18.2 versus 14.7 species, 14 sites per group, nonrandom assignment, absent pre-restoration measurements, and one region/season; it removes causal recovery and generalization claims.",
+          "consequence": "None identified."
+        },
+        {
+          "criterion": "coverage_and_status",
+          "label": "Coverage and status",
+          "verdict": "pass",
+          "evidence": [
+            {
+              "artifact": "results/revised/ecology/answer.md",
+              "excerpt": "The current **Methods / Site selection** paragraph contains the following sentence, which predates the reviews:"
+            }
+          ],
+          "assessment": "All three comments receive responses and section locations. The existing Methods statement is not presented as newly added. All replacements remain proposed, and page/line references remain pending a revised PDF.",
+          "consequence": "None identified."
+        },
+        {
+          "criterion": "scope_and_deliverable",
+          "label": "Scope and deliverable",
+          "verdict": "pass",
+          "evidence": [
+            {
+              "artifact": "results/revised/ecology/answer.md",
+              "excerpt": "The changes below are proposed; they have not yet been inserted into the manuscript."
+            }
+          ],
+          "assessment": "English response and proposed paper text are separately labeled. The modest Methods expansion responds directly to R1.2 using supplied facts and is not an unauthorized completed edit. No fieldwork commitment or new analysis is introduced; no word limit applies.",
+          "consequence": "None identified."
+        }
+      ],
+      "checks": {
+        "all_comments_covered": [
+          "R1.1",
+          "R1.2",
+          "R2.1"
+        ],
+        "proposed_only": true,
+        "unknown_versus_absent_distinction": "pass"
+      }
+    },
+    {
+      "case": "materials",
+      "overall": "pass",
+      "criteria": [
+        {
+          "criterion": "manuscript_independence",
+          "label": "Manuscript independence",
+          "verdict": "pass",
+          "evidence": [
+            {
+              "artifact": "results/revised/materials/manuscript.md",
+              "excerpt": "Because the formulations also differed in coating thickness, this contrast does not isolate the contribution of additive X."
+            }
+          ],
+          "assessment": "The revised Results states the design limitation directly. Reviewer-facing uncertainty reassurance and certainty language are removed; the limitation is scientifically informative rather than indirect debate.",
+          "consequence": "None identified."
+        },
+        {
+          "criterion": "evidence_and_inference",
+          "label": "Evidence and inference",
+          "verdict": "pass",
+          "evidence": [
+            {
+              "artifact": "results/revised/materials/manuscript.md",
+              "excerpt": "The independently prepared unit was the panel (n = 3 per formulation); the five indents within each panel were subsamples."
+            }
+          ],
+          "assessment": "Three independent panels and nested indents are correctly distinguished. All six supplied panel means remain; 7.3, 6.0, and the 1.3 MPa difference are correct descriptive arithmetic. No inferential result or confirmed absence of an inferential analysis is invented. The response may state that no matched-thickness study was performed because the packet explicitly confirms it.",
+          "consequence": "None identified."
+        },
+        {
+          "criterion": "coverage_and_status",
+          "label": "Coverage and status",
+          "verdict": "pass",
+          "evidence": [
+            {
+              "artifact": "results/revised/materials/response.md",
+              "excerpt": "We have taken the suggested wording revision: Results no longer uses “prove” or “undeniable” and no longer frames the finding as a response to uncertainty concerns."
+            }
+          ],
+          "assessment": "All three comments are answered. Completed-edit claims and every quotation of revised text match the saved manuscript. The final answer correctly limits verification to source text without PDF, compilation, or submission claims.",
+          "consequence": "None identified."
+        },
+        {
+          "criterion": "scope_and_deliverable",
+          "label": "Scope and deliverable",
+          "verdict": "pass",
+          "evidence": [
+            {
+              "artifact": "results/revised/materials/answer.md",
+              "excerpt": "Only the two problematic Results sentences were replaced."
+            }
+          ],
+          "assessment": "Direct comparison with the manuscript embedded in the case confirms exactly that bounded replacement. Methods, the full original six-value sentence, and the approved Conclusion are unchanged. Manuscript, response, and final answer are separate artifacts; no experiment or inferential test was introduced.",
+          "consequence": "None identified."
+        }
+      ],
+      "checks": {
+        "all_comments_covered": [
+          "R1.1",
+          "R1.2",
+          "R2.1"
+        ],
+        "exact_bounded_replacement_only": true,
+        "methods_exactly_preserved": true,
+        "panel_mean_sentence_exactly_preserved": true,
+        "conclusion_exactly_preserved": true,
+        "all_three_revised_text_quotations_match_saved_manuscript": true,
+        "descriptive_means_MPa": [
+          7.3,
+          6.0
+        ],
+        "descriptive_difference_MPa": 1.3,
+        "unknown_versus_absent_distinction": "pass"
+      }
+    },
+    {
+      "case": "peer-review-research",
+      "overall": "pass",
+      "criteria": [
+        {
+          "criterion": "manuscript_independence",
+          "label": "Manuscript independence",
+          "verdict": "pass",
+          "evidence": [
+            {
+              "artifact": "results/revised/peer-review-research/answer.md",
+              "excerpt": "The task assessed detection of one planted reporting omission; it did not assess full manuscript review, editorial decisions, or publication quality."
+            }
+          ],
+          "assessment": "The proposed Results retains reviewers as the correct study-participant term. Its endpoint limitation is confirmed by the packet and necessary for interpretation; it is not review dialogue.",
+          "consequence": "None identified."
+        },
+        {
+          "criterion": "evidence_and_inference",
+          "label": "Evidence and inference",
+          "verdict": "pass",
+          "evidence": [
+            {
+              "artifact": "results/revised/peer-review-research/answer.md",
+              "excerpt": "Among 170 peer reviewers randomly assigned to a checklist or standard instructions (85 per condition), 51 checklist reviewers (60.0%) and 44 standard-instruction reviewers (51.8%) identified the planted reporting omission in the same deliberately flawed abstract."
+            }
+          ],
+          "assessment": "Random assignment, group sizes, counts, one-abstract task, and calculated percentages are correct. A higher observed detection rate is supported descriptively. No significance, uncertainty interval, absence of uncertainty analysis, or publication-quality effect is invented.",
+          "consequence": "None identified."
+        },
+        {
+          "criterion": "coverage_and_status",
+          "label": "Coverage and status",
+          "verdict": "pass",
+          "evidence": [
+            {
+              "artifact": "results/revised/peer-review-research/answer.md",
+              "excerpt": "We propose replacing the Results paragraph with the text below to report both counts and narrow the conclusion. No manuscript edits have been made."
+            }
+          ],
+          "assessment": "R1.1 is answered explicitly; the combined R2.1–R2.2 response covers both endpoint limits and counts. The Methods sentence is accurately described as existing and unchanged; the Results replacement remains proposed.",
+          "consequence": "None identified."
+        },
+        {
+          "criterion": "scope_and_deliverable",
+          "label": "Scope and deliverable",
+          "verdict": "pass",
+          "evidence": [
+            {
+              "artifact": "results/revised/peer-review-research/answer.md",
+              "excerpt": "Proposed replacement Results paragraph (outside the rebuttal word limit)"
+            }
+          ],
+          "assessment": "The English rebuttal contains 131 whitespace-delimited words including its heading, below 160. The Results replacement is separate and outside that limit. No new data collection or source edit is proposed as completed.",
+          "consequence": "None identified."
+        }
+      ],
+      "checks": {
+        "all_comments_covered": [
+          "R1.1",
+          "R2.1",
+          "R2.2"
+        ],
+        "rebuttal_words_including_heading": 131,
+        "word_limit": 160,
+        "proposed_only": true,
+        "percentages_verified": [
+          60.0,
+          51.8
+        ],
+        "unknown_versus_absent_distinction": "pass"
+      }
+    },
+    {
+      "case": "economics",
+      "overall": "qualified",
+      "criteria": [
+        {
+          "criterion": "manuscript_independence",
+          "label": "Manuscript independence",
+          "verdict": "pass",
+          "evidence": [
+            {
+              "artifact": "results/revised/economics/answer.md",
+              "excerpt": "Adoption was voluntary, and this descriptive comparison does not establish that the platform caused the difference in growth."
+            }
+          ],
+          "assessment": "The proposed Results explains the observed contrast and its causal boundary without reviewer dialogue, revision history, or input-packet commentary. The limitation follows from the supplied design.",
+          "consequence": "None identified."
+        },
+        {
+          "criterion": "evidence_and_inference",
+          "label": "Evidence and inference",
+          "verdict": "pass",
+          "evidence": [
+            {
+              "artifact": "results/revised/economics/answer.md",
+              "excerpt": "If the planned analysis was not completed, please confirm that explicitly; the plan alone does not establish execution or nonexecution."
+            }
+          ],
+          "assessment": "The output preserves 8.4% versus 5.1% growth in 12 voluntarily adopting and 12 comparison markets; 3.3 percentage points is correct descriptive arithmetic. It treats the Methods statement as a plan/appendix pointer, not proof of execution. No actual clustered calculation, interval, adjustment, completion, or confirmed absence is invented.",
+          "consequence": "None identified."
+        },
+        {
+          "criterion": "coverage_and_status",
+          "label": "Coverage and status",
+          "verdict": "qualified",
+          "evidence": [
+            {
+              "artifact": "results/revised/economics/answer.md",
+              "excerpt": "[Pending verification: identify the uncertainty calculation actually executed, its target estimate, interval level, and numerical bounds.]"
+            }
+          ],
+          "assessment": "R1.1 and R2.2 are answered, and R2.1 is explicitly tracked, but its requested executed method and interval remain unresolved. The missing evidence makes an honest factual answer impossible from this packet. Proposed-edit status and the Results location are accurate; no page/line or rendering claim is fabricated.",
+          "consequence": "The rebuttal is a usable draft, not a submission-ready complete answer to R2.1. Obtain the existing Appendix C/output or author confirmation and reconcile Methods before finalization. This qualification is evidence-dependent incompleteness, not a factual or scope violation."
+        },
+        {
+          "criterion": "scope_and_deliverable",
+          "label": "Scope and deliverable",
+          "verdict": "pass",
+          "evidence": [
+            {
+              "artifact": "results/revised/economics/answer.md",
+              "excerpt": "## Separate author questions and dependencies"
+            }
+          ],
+          "assessment": "The rebuttal, proposed Results, and author questions are separately labeled. The explicit pending placeholder in the draft is a status dependency; the actual evidence requests appear in the separate author section. Conservative raw-Markdown whitespace counting gives 123 words including heading markers, below 180. No source edit or new analysis is performed or claimed.",
+          "consequence": "None identified."
+        }
+      ],
+      "checks": {
+        "comments_answered": [
+          "R1.1",
+          "R2.2"
+        ],
+        "comment_explicitly_deferred_pending_evidence": [
+          "R2.1"
+        ],
+        "rebuttal_words_raw_markdown_including_headings": 123,
+        "word_limit": 180,
+        "proposed_only": true,
+        "descriptive_difference_percentage_points": 3.3,
+        "unknown_versus_absent_distinction": "pass"
+      }
+    }
+  ],
+  "tested_outputs_preserved": true,
+  "interpretation_limit": "The three repeated cases are regressions and economics is a post-clarification transfer case. These four outputs alone do not establish universal or cross-model generality, or improvement over an unguided baseline."
+}

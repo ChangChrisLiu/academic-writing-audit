@@ -1,0 +1,13 @@
+Exact input files read:
+/tmp/awa-response-transfer-VkDLOD/peer-review-research/case.md
+/tmp/awa-response-transfer-VkDLOD/skill-v0.3.0/SKILL.md
+/tmp/awa-response-transfer-VkDLOD/skill-v0.3.0/references/response-patterns.md
+/tmp/awa-response-transfer-VkDLOD/skill-v0.3.0/references/manuscript-boundary.md
+
+Tools used:
+functions.exec
+functions.exec tools.exec_command (shell commands: cat; python3)
+
+Validation:
+Rebuttal whitespace-delimited word count, including heading: 132 (maximum 160).
+No network or external actions used.

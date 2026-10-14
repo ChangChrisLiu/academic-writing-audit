@@ -4,9 +4,11 @@ Added with v0.3.0 on 2026-10-14 for [reviewer-response-writing](../../skills/rev
 
 - [Three fictional requests and source packets](cases.md): a constrained rebuttal, a revision letter with mixed change status, and a narrow audit.
 - [Semantic criteria](rubric.md): coverage, evidence scope, completion status, manuscript independence, and preservation of valid text.
-- [Manifest](manifest.json): hashes of the new installable skill, fixtures, and criteria; paths are relative to the repository root.
+- [Manifest](manifest.json): hashes of the v0.3.0 installable skill, fixtures, and criteria. Paths resolve in its recorded source Git commit, not necessarily in the current checkout.
 
-These are development fixtures and expected behaviors, not recorded model responses. The author reviewed the examples and instruction coverage and checked package structure, local links, metadata, and standalone installation. No independent agent trial or control/guided comparison has been run for this skill. Do not count these cases as passing behavioral tests or infer effectiveness from packaging checks.
+These three cases were published with v0.3.0 as development fixtures and expected behaviors, not recorded model responses. At that release, the author had reviewed the examples and checked package structure, local links, metadata, and standalone installation, but had not run independent behavioral trials.
+
+Later [cross-domain trials and a targeted clarification](transfer/README.md) use a separate case set, including complete outputs and independent assessment. Do not count the three fixtures on this page as executed trials. Their original hashes are preserved against source commit `a01ae7938c20a3c8a6c53b982d0a9e0977f44f6c`; the manifest now records that revision explicitly so later skill changes do not rewrite history.
 
 To run a future trial, provide one case and its source packet in a fresh context. For a guided run, also provide the skill and access to its local references. Keep the rubric, other responses, and originating private materials out of that context. Save the full output, record which files were read and the model/runtime if available, and inspect it against the semantic criteria. A no-guidance control is useful when assessing added value. Report model or editorial failures alongside successes.
 

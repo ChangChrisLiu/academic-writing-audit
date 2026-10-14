@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-14",
+  "hash_algorithm": "SHA-256",
+  "files": {
+    "evals/reviewer-response-writing/transfer/README.md": "47aed6bd965a33f3aaf8ffd1031287058bf2200c967c818cdb742436711031d3",
+    "evals/reviewer-response-writing/transfer/assessments/independent-review.json": "9c9b21769be625d78fd969c375e0ad69b0e99b311a477e50494afe4948d0fbb9",
+    "evals/reviewer-response-writing/transfer/assessments/independent-review.md": "7d0af331cee12d90cde3a85ddb0664678c30417246e05db5e67c720cedc1a215",
+    "evals/reviewer-response-writing/transfer/assessments/regression-review.json": "28917147badc333e5f7293b55083409d8b15b3f49acbc6c390d4c4b16cfe0a2a",
+    "evals/reviewer-response-writing/transfer/assessments/regression-review.md": "1c64ca8269e91c5556cb55e3bc1e3aa6892c953796bed14a9a8a1af1331ecac3",
+    "evals/reviewer-response-writing/transfer/assessments/supplemental-adjudication.md": "4764ceaca1a21a350744bba3a4ee68fb3b0d99ac364e7c1bbc4459111d7df22d",
+    "evals/reviewer-response-writing/transfer/cases/ecology.md": "703c398eabc81870768ae0255a16a9d6e4236ce0780fa6b9ce6677645e5f2eb3",
+    "evals/reviewer-response-writing/transfer/cases/economics.md": "f2c17b76bc87f7379af6622ed62b957abbc7c4f2ad798a774ec9c263375646b3",
+    "evals/reviewer-response-writing/transfer/cases/education.md": "57f8e2a4aa4af4c7cf57a7b4dd3efdd473ffe8df76636667b1f105b2e132127f",
+    "evals/reviewer-response-writing/transfer/cases/history.md": "e71c4c96b1cfdcdc23dfc791dfd4d3bda6a8381c39641addb77b04d3aae3d1c5",
+    "evals/reviewer-response-writing/transfer/cases/materials.md": "e61d8c239864dcdccc26feb2709315bdd0885de198334cfffc3081716a40a2ec",
+    "evals/reviewer-response-writing/transfer/cases/mathematics.md": "4fd765f518202c1d566bc2d65925ec1910d0e2b0fe209bab584066d5a92aa3fa",
+    "evals/reviewer-response-writing/transfer/cases/peer-review-research.md": "3c575b7a35b0d141171de7552267a184cfe28464fbe64eeddb4899f0c8eff665",
+    "evals/reviewer-response-writing/transfer/design-freeze.json": "1080ab7ad517ccb7b9c7ef671bf9a68afb160fe00b43a24de516d77a73eb3196",
+    "evals/reviewer-response-writing/transfer/mechanical-checks.json": "8efd429f3dd515c1c46dceaab211d997366743e63a2abbdf85d6aaba7a45aa02",
+    "evals/reviewer-response-writing/transfer/regression-criteria.md": "1421be5cec5134fac1ba0a0748bf7b22d7b470ac55cc165aa7dbd5255586322b",
+    "evals/reviewer-response-writing/transfer/results/revised/ecology/answer.md": "5a83419b2435a35c20aac471d703ee148a90fbaa40fa5c73822d1ed8844a73b9",
+    "evals/reviewer-response-writing/transfer/results/revised/ecology/execution.txt": "a3a35c8af7bbebee574de8a7e3407fea0f6ecf1c6d78b759f740fe0c5fd51357",
+    "evals/reviewer-response-writing/transfer/results/revised/economics/answer.md": "53f46ea2674ead37bb3f0b24efae8eaf1bcb0a74d5134ca2dfdfa52ffb653a10",
+    "evals/reviewer-response-writing/transfer/results/revised/economics/execution.txt": "5367990f622bd32b8342ce2d849659f683cfbf3d5538970164e2d9ca0f47343e",
+    "evals/reviewer-response-writing/transfer/results/revised/materials/answer.md": "880c7a467f08ea6d3010fb331fd061e52115baa85056316e58ff293efe026c6d",
+    "evals/reviewer-response-writing/transfer/results/revised/materials/execution.txt": "4643d8657a175f0d7d43f2b50cfe920b97017366e2cbab4249453ca45842b2fe",
+    "evals/reviewer-response-writing/transfer/results/revised/materials/manuscript.md": "1cab5e9d8f1b014261e21f50c4577d523d17b4482e36af0dd1ec360c1f0b8fa6",
+    "evals/reviewer-response-writing/transfer/results/revised/materials/response.md": "134f4ed85d802ce0fd4bb8e35597b8837a36a1edbdfeedf9d9c9665308df4b8d",
+    "evals/reviewer-response-writing/transfer/results/revised/peer-review-research/answer.md": "aa629142c8a9779bd239d91202ef45e256ca78e4ad41e8e327f7ddda79835502",
+    "evals/reviewer-response-writing/transfer/results/revised/peer-review-research/execution.txt": "94e27c87164950e6b640207dff2d51a5385e7c048cd971f0110de360376fc1fc",
+    "evals/reviewer-response-writing/transfer/results/v0.3.0/ecology/answer.md": "8f1c80c7c2e855219404194309516bb25cbc25c81ca85739e5c42dba4dca0230",
+    "evals/reviewer-response-writing/transfer/results/v0.3.0/ecology/execution.txt": "4bede607401456d47b7d3b3ec611e63e631feab45edc69ba5f1f6a329ff7e0c4",
+    "evals/reviewer-response-writing/transfer/results/v0.3.0/education/answer.md": "9e2404f7e2e88aaabf5a8c98eebbe1230e9e9587a9858d5474438d36617626aa",
+    "evals/reviewer-response-writing/transfer/results/v0.3.0/education/execution.txt": "3732a395fc9a9fb88a8ed542250e19060ebc848b0fb00957356fb8824c5b0d8b",
+    "evals/reviewer-response-writing/transfer/results/v0.3.0/history/answer.md": "8dd71c3e3b8236dce5a23ec6abd51e9c59e5d7d1f0065e2a8a19bf78e2bed917",
+    "evals/reviewer-response-writing/transfer/results/v0.3.0/history/execution.txt": "b7fb69306a05d552ba6b0b2625f2b4a81a4c20e757b848a1671458e3ae28127a",
+    "evals/reviewer-response-writing/transfer/results/v0.3.0/materials/answer.md": "0f9163aa2617eb93f715fe2cc4464199564ae28255b4667b2253bad07f0408ad",
+    "evals/reviewer-response-writing/transfer/results/v0.3.0/materials/execution.txt": "e707a29e0dcf368f631fd76803823857e4116d00791957892daf3f918c6603c5",
+    "evals/reviewer-response-writing/transfer/results/v0.3.0/materials/manuscript.md": "e7c882071d2813c45a871f68a04fdbc17899d8a730fe5bbe61746be6bd3c0cf2",
+    "evals/reviewer-response-writing/transfer/results/v0.3.0/materials/response.md": "6a8682d5fd71efae8ee8742190bf5ed2e708ebc934b9755038733e37a26acf6f",
+    "evals/reviewer-response-writing/transfer/results/v0.3.0/mathematics/answer.md": "caa6a0e8aa8e44a015521f78c5570b53956e1ddfba82c4f759ce24e44d52f502",
+    "evals/reviewer-response-writing/transfer/results/v0.3.0/mathematics/execution.txt": "beb49f424b8e197a58e901523914ce684fca7a66328df201cd0e6400faea1bb9",
+    "evals/reviewer-response-writing/transfer/results/v0.3.0/peer-review-research/answer.md": "8c23dbd642137a8e50cec6a9f45cfd415d98e1c9161a99409f8a1479c8825d16",
+    "evals/reviewer-response-writing/transfer/results/v0.3.0/peer-review-research/execution.txt": "2d83bfa955a21cb4f08515586972e216d9428cbefa6bddbf84ce670261173651",
+    "evals/reviewer-response-writing/transfer/rubric.md": "9334339dcfd3fceba51a5da90f5ef6c3473eeeee0506efa8b5ec62cb6af96458",
+    "evals/reviewer-response-writing/transfer/run-metadata.json": "0da67b889e6642d388e41378e85b145e6ecdc398bf6a33ce821770875fd43648"
+  },
+  "skill_versions": {
+    "initial": {
+      "git_commit": "a01ae7938c20a3c8a6c53b982d0a9e0977f44f6c",
+      "directory": "skills/reviewer-response-writing",
+      "files": {
+        "LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+        "SKILL.md": "d4edfc35ef2e5890ef0765d9ae124dce2357b784efe66c42b9165502a18e6c34",
+        "agents/openai.yaml": "bcf6b0e6180f0f2d6d60a8b19bc297762b3e8e05b31b280bf7b7683c369ec5d8",
+        "references/manuscript-boundary.md": "185fe7c48eef295d2610024d58f707321c18cad1ea5161f114a0531a517cdba5",
+        "references/response-patterns.md": "819653e3f77ae4a1ba2d749ebc746e39c247f964159bc4633fa6135bc2506a1d"
+      }
+    },
+    "revised": {
+      "directory": "skills/reviewer-response-writing",
+      "files": {
+        "LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+        "SKILL.md": "dc4630cadae9b44946a677da672844514952a9efa51bba91df6040af226aa766",
+        "agents/openai.yaml": "bcf6b0e6180f0f2d6d60a8b19bc297762b3e8e05b31b280bf7b7683c369ec5d8",
+        "references/manuscript-boundary.md": "31dbc5b83390634b258c4482f07c23c272b08335b2906d6e8c5ba11bce00bc89",
+        "references/response-patterns.md": "819653e3f77ae4a1ba2d749ebc746e39c247f964159bc4633fa6135bc2506a1d"
+      }
+    }
+  }
+}

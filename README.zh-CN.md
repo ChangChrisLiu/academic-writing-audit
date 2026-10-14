@@ -148,7 +148,7 @@ npx skills add ChangChrisLiu/academic-writing-audit --skill '*' -a codex
 
 [10 个专项 skill 的试用记录](evals/library/README.md)公开场景、语义标准和完整回答。这组对照本身已解决核心问题，因此不能据此声称专项 skill 提高了准确率。测试用于检查具体行为、保留失败和支持后续回归检查，不代表跨模型或跨学科有效性认证。
 
-新增回复写作 skill 提供[开发场景与语义检查标准](evals/reviewer-response-writing/README.md)，尚无独立 agent 行为试用结果。格式、链接和打包检查不能替代有效性验证。
+回复写作 skill 已完成[七个领域、十次独立上下文的带 skill 试用](evals/reviewer-response-writing/transfer/README.md)，另由评估 agent 核对。保存的正文均未出现回应审稿人的口吻，并保留了作为研究对象的“reviewers”。两份初始回答中“未提供分析”被写成“分析不可用”的范围歧义，促成了针对性澄清和新上下文回归试用。完整回答、初始评估和明确标注的追问复核均公开。这些同一运行环境下的虚构案例没有无 skill 对照，不能证明所有模型或学科都适用。
 
 ## 素材与贡献
 

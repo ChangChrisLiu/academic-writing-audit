@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-14",
+  "initial_skill_git_commit": "a01ae7938c20a3c8a6c53b982d0a9e0977f44f6c",
+  "initial_run_mode": "six separate fresh subagent contexts; parent history not inherited",
+  "model_selection": "inherited host configuration; no model override",
+  "exact_model_and_runtime_version": "not recorded",
+  "baseline_control_runs": 0,
+  "case_authorship": "primary skill-maintenance agent",
+  "rubric_timing": "frozen before primary agent inspected any trial output",
+  "case_access": "one case and the frozen skill including its two routed references; own output directory only",
+  "forbidden_test_inputs": "memories, other skills, repository documentation, rubrics, other responses, and network sources",
+  "independent_assessor_access": "six cases, initial outputs, execution logs, and predeclared rubric; no skill instructions or prior judgments",
+  "tasks": [
+    {
+      "case": "ecology",
+      "agent_task": "transfer_ecology",
+      "skill_version": "v0.3.0"
+    },
+    {
+      "case": "education",
+      "agent_task": "transfer_education",
+      "skill_version": "v0.3.0"
+    },
+    {
+      "case": "materials",
+      "agent_task": "transfer_materials",
+      "skill_version": "v0.3.0"
+    },
+    {
+      "case": "mathematics",
+      "agent_task": "transfer_mathematics",
+      "skill_version": "v0.3.0"
+    },
+    {
+      "case": "history",
+      "agent_task": "transfer_history",
+      "skill_version": "v0.3.0"
+    },
+    {
+      "case": "peer-review-research",
+      "agent_task": "transfer_peer_review",
+      "skill_version": "v0.3.0"
+    },
+    {
+      "case": "ecology",
+      "agent_task": "regression_ecology",
+      "skill_version": "revised",
+      "execution_kind": "repeated case"
+    },
+    {
+      "case": "materials",
+      "agent_task": "regression_materials",
+      "skill_version": "revised",
+      "execution_kind": "repeated case"
+    },
+    {
+      "case": "peer-review-research",
+      "agent_task": "regression_peer_review",
+      "skill_version": "revised",
+      "execution_kind": "repeated case"
+    },
+    {
+      "case": "economics",
+      "agent_task": "transfer_economics",
+      "skill_version": "revised",
+      "execution_kind": "new post-clarification case"
+    }
+  ],
+  "limits": [
+    "synthetic author-designed cases",
+    "one initial guided run per domain",
+    "same configured host",
+    "no unguided controls",
+    "not evidence of universal or cross-model effectiveness"
+  ],
+  "assessment_tasks": [
+    {
+      "agent_task": "transfer_independent_review",
+      "phase": "initial independent assessment, then separately labeled prompted follow-up in the same assessor context"
+    },
+    {
+      "agent_task": "regression_independent_review",
+      "phase": "fresh assessment of four new executions; no prior outputs or judgments supplied"
+    }
+  ]
+}

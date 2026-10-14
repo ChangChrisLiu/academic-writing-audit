@@ -24,6 +24,8 @@ Track each substantive concern, including small concrete requests, against its c
 
 Separate the response action—clarify, correct, add evidence, narrow a claim, disagree, or defer—from its status: proposed, underway, completed as reported, or independently checked. “We have added” requires an actual completed change. Author-reported completion is not independent file verification. Use visible draft placeholders for missing material; never invent results, citations, thresholds, page/line numbers, or quotations.
 
+Distinguish study facts from gaps in the materials you received. “No analysis was supplied” does not establish that none was performed or is available to the authors. Keep requests for missing evidence in a separate author note; do not turn input or tool limitations into claims about the study in either the letter or manuscript. State absence only when confirmed.
+
 Group overlapping concerns under informative themes when the format allows, while retaining comment-level coverage. Reviewer-specific requests still need a disposition. A strong answer to the main concern does not excuse skipping a requested definition, numerical threshold, or wording correction.
 
 ## Build the answer around evidence

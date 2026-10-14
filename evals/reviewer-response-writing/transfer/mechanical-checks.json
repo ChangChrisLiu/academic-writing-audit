@@ -1,0 +1,47 @@
+{
+  "word_counts": {
+    "education": {
+      "word_count": 124,
+      "limit": 150,
+      "method": "whitespace-delimited; includes response headings, excludes separate manuscript block"
+    },
+    "peer-review-research": {
+      "word_count": 132,
+      "limit": 160,
+      "method": "whitespace-delimited; includes response headings, excludes separate manuscript block"
+    },
+    "revised-peer-review-research": {
+      "word_count": 131,
+      "limit": 160,
+      "method": "whitespace-delimited; headings included"
+    },
+    "revised-economics": {
+      "word_count": 123,
+      "limit": 180,
+      "method": "whitespace-delimited; headings included"
+    }
+  },
+  "materials_source_checks": {
+    "Methods_unchanged": true,
+    "Conclusion_unchanged": true,
+    "all_six_panel_mean_values_preserved": true,
+    "long_response_quotations_match_edited_source": true
+  },
+  "frozen_output_files": {
+    "results/v0.3.0/ecology/answer.md": "8f1c80c7c2e855219404194309516bb25cbc25c81ca85739e5c42dba4dca0230",
+    "results/v0.3.0/ecology/execution.txt": "4bede607401456d47b7d3b3ec611e63e631feab45edc69ba5f1f6a329ff7e0c4",
+    "results/v0.3.0/education/answer.md": "9e2404f7e2e88aaabf5a8c98eebbe1230e9e9587a9858d5474438d36617626aa",
+    "results/v0.3.0/education/execution.txt": "3732a395fc9a9fb88a8ed542250e19060ebc848b0fb00957356fb8824c5b0d8b",
+    "results/v0.3.0/history/answer.md": "8dd71c3e3b8236dce5a23ec6abd51e9c59e5d7d1f0065e2a8a19bf78e2bed917",
+    "results/v0.3.0/history/execution.txt": "b7fb69306a05d552ba6b0b2625f2b4a81a4c20e757b848a1671458e3ae28127a",
+    "results/v0.3.0/materials/answer.md": "0f9163aa2617eb93f715fe2cc4464199564ae28255b4667b2253bad07f0408ad",
+    "results/v0.3.0/materials/execution.txt": "e707a29e0dcf368f631fd76803823857e4116d00791957892daf3f918c6603c5",
+    "results/v0.3.0/materials/manuscript.md": "e7c882071d2813c45a871f68a04fdbc17899d8a730fe5bbe61746be6bd3c0cf2",
+    "results/v0.3.0/materials/response.md": "6a8682d5fd71efae8ee8742190bf5ed2e708ebc934b9755038733e37a26acf6f",
+    "results/v0.3.0/mathematics/answer.md": "caa6a0e8aa8e44a015521f78c5570b53956e1ddfba82c4f759ce24e44d52f502",
+    "results/v0.3.0/mathematics/execution.txt": "beb49f424b8e197a58e901523914ce684fca7a66328df201cd0e6400faea1bb9",
+    "results/v0.3.0/peer-review-research/answer.md": "8c23dbd642137a8e50cec6a9f45cfd415d98e1c9161a99409f8a1479c8825d16",
+    "results/v0.3.0/peer-review-research/execution.txt": "2d83bfa955a21cb4f08515586972e216d9428cbefa6bddbf84ce670261173651"
+  },
+  "revised_materials_source_preservation_and_quotation_checks": "pass"
+}

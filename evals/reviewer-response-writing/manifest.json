@@ -10,5 +10,7 @@
     "skills/reviewer-response-writing/agents/openai.yaml": "bcf6b0e6180f0f2d6d60a8b19bc297762b3e8e05b31b280bf7b7683c369ec5d8",
     "skills/reviewer-response-writing/references/manuscript-boundary.md": "185fe7c48eef295d2610024d58f707321c18cad1ea5161f114a0531a517cdba5",
     "skills/reviewer-response-writing/references/response-patterns.md": "819653e3f77ae4a1ba2d749ebc746e39c247f964159bc4633fa6135bc2506a1d"
-  }
+  },
+  "source_git_commit": "a01ae7938c20a3c8a6c53b982d0a9e0977f44f6c",
+  "path_resolution": "Resolve files in source_git_commit; original file hashes are unchanged."
 }

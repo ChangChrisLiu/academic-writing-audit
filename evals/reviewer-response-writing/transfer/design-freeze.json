@@ -1,0 +1,12 @@
+{
+  "skill_version_commit": "a01ae7938c20a3c8a6c53b982d0a9e0977f44f6c",
+  "case_and_rubric_hashes_before_output_review": {
+    "evals/reviewer-response-writing/transfer/cases/ecology.md": "703c398eabc81870768ae0255a16a9d6e4236ce0780fa6b9ce6677645e5f2eb3",
+    "evals/reviewer-response-writing/transfer/cases/education.md": "57f8e2a4aa4af4c7cf57a7b4dd3efdd473ffe8df76636667b1f105b2e132127f",
+    "evals/reviewer-response-writing/transfer/cases/history.md": "e71c4c96b1cfdcdc23dfc791dfd4d3bda6a8381c39641addb77b04d3aae3d1c5",
+    "evals/reviewer-response-writing/transfer/cases/materials.md": "e61d8c239864dcdccc26feb2709315bdd0885de198334cfffc3081716a40a2ec",
+    "evals/reviewer-response-writing/transfer/cases/mathematics.md": "4fd765f518202c1d566bc2d65925ec1910d0e2b0fe209bab584066d5a92aa3fa",
+    "evals/reviewer-response-writing/transfer/cases/peer-review-research.md": "3c575b7a35b0d141171de7552267a184cfe28464fbe64eeddb4899f0c8eff665",
+    "evals/reviewer-response-writing/transfer/rubric.md": "9334339dcfd3fceba51a5da90f5ef6c3473eeeee0506efa8b5ec62cb6af96458"
+  }
+}

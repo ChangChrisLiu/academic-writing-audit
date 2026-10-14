@@ -44,6 +44,16 @@ Do not add a promised experiment. Do not scatter the same limitation across ever
 
 A clear reply does not prove that the revised manuscript is clear. Check the paper itself.
 
+### 5. Missing input is not a study result
+
+**Supplied evidence:** Group counts are available, but the author has not provided the uncertainty analysis. Its existence and outcome are unknown.
+
+**Author note:** “Please provide or confirm the status of the uncertainty analysis before making an inferential claim.”
+
+**Response and manuscript:** Report the supported counts descriptively, without declaring significance or asserting that no analysis exists. A paper sentence such as “No uncertainty analysis is available” would exceed this packet. If the author later confirms that no analysis was performed, that verified limitation can be stated where it matters.
+
+Keep this distinction even when drafting from incomplete excerpts: access to a file, absence from an input packet, and the study's actual methods are different facts.
+
 ## Transfer test for an edited paragraph
 
 Read the paragraph without the review thread. Can a new reader tell what was done, why it matters, and what the evidence establishes? If it requires knowing the objection or the revision history, recast that framing.

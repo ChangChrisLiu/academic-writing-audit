@@ -1,0 +1,75 @@
+{
+  "assessment": "independent",
+  "artifact_version": "v0.3.0",
+  "source_root": "open-source/academic-writing-audit/evals/reviewer-response-writing/transfer",
+  "criteria": [
+    "manuscript_independence",
+    "evidence_and_inference",
+    "coverage_and_status",
+    "scope_and_deliverable"
+  ],
+  "matrix": {
+    "ecology": {
+      "manuscript_independence": "pass",
+      "evidence_and_inference": "pass",
+      "coverage_and_status": "pass",
+      "scope_and_deliverable": "pass"
+    },
+    "education": {
+      "manuscript_independence": "pass",
+      "evidence_and_inference": "pass",
+      "coverage_and_status": "pass",
+      "scope_and_deliverable": "pass"
+    },
+    "materials": {
+      "manuscript_independence": "pass",
+      "evidence_and_inference": "pass",
+      "coverage_and_status": "pass",
+      "scope_and_deliverable": "pass"
+    },
+    "mathematics": {
+      "manuscript_independence": "pass",
+      "evidence_and_inference": "pass",
+      "coverage_and_status": "pass",
+      "scope_and_deliverable": "pass"
+    },
+    "history": {
+      "manuscript_independence": "pass",
+      "evidence_and_inference": "pass",
+      "coverage_and_status": "pass",
+      "scope_and_deliverable": "pass"
+    },
+    "peer-review-research": {
+      "manuscript_independence": "pass",
+      "evidence_and_inference": "pass",
+      "coverage_and_status": "pass",
+      "scope_and_deliverable": "pass"
+    }
+  },
+  "totals": {
+    "pass": 24,
+    "qualified": 0,
+    "fail": 0
+  },
+  "checks": {
+    "education_rebuttal_whitespace_words_including_heading": 124,
+    "education_word_limit": 150,
+    "peer_review_research_rebuttal_whitespace_tokens_including_markdown_heading": 132,
+    "peer_review_research_rebuttal_words_excluding_markdown_marker": 131,
+    "peer_review_research_word_limit": 160,
+    "materials_methods_exactly_preserved": true,
+    "materials_panel_mean_sentence_exactly_preserved": true,
+    "materials_conclusion_exactly_preserved": true,
+    "materials_replacement_quotations_match_edited_manuscript": true,
+    "materials_change_scope": "Only the two original problematic Results sentences are replaced.",
+    "history_identifiers_and_quotations": "Unavailable and explicitly unresolved; truthful response coverage passes."
+  },
+  "demonstrated_failures": [],
+  "justified_general_instruction_correction": null,
+  "limits": [
+    "Six saved fictional guided trials only.",
+    "No unguided baseline comparison.",
+    "No universal or cross-model generality claim."
+  ],
+  "assessment_file": "independent-review.md"
+}
