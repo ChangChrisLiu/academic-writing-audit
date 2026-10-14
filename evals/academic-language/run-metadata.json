@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-14",
+  "design": "Two independent-context guided tasks followed by a separate fresh-context assessor. No unguided controls.",
+  "trials": [
+    {
+      "case": "english-terms",
+      "agent_task": "language_english_trial",
+      "skill": "academic-prose-editing",
+      "mode": "English proposed revision with separate author questions"
+    },
+    {
+      "case": "chinese-professional-audit",
+      "agent_task": "language_chinese_trial",
+      "skill": "academic-writing-audit",
+      "mode": "Chinese audit only"
+    }
+  ],
+  "writer_inputs": "One fictional request and frozen standalone skill with its references. No parent history, memory, other outputs, rubric, other repository files, or network access permitted.",
+  "assessor_inputs": "Only rubric, requests, saved answers, and relative-path execution records. No skills, parent conclusions, memory, or network.",
+  "assessor_task": "language_independent_assessment",
+  "runtime": "Same configured Codex host. No model override was requested or set. Exact model and tool versions were not captured.",
+  "preservation": "Writer and assessor outputs are saved unedited. Execution records are self-reports rather than independent proof of all tool use.",
+  "limits": [
+    "Two fictional cases and two skill entrypoints, not the complete library or a whole-paper study.",
+    "No controlled estimate of improvement, repeated sampling, cross-model validation, or AI-authorship detection.",
+    "No empirical validation of fictional research, rendered document, or real submission."
+  ]
+}

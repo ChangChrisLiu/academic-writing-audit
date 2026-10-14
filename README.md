@@ -9,7 +9,7 @@ Reconstruct the argument, check the evidence, and change only what needs changin
 
 **中文简介｜学术论文写作与审稿回复 Skills**
 
-把科研写作中反复遇到的问题整理成 **13 个可独立使用的 AI agent skills**，涵盖学术逻辑检查、论证与证据核查、去防御性写作、实验比较、结果解释、图表审查，以及 **审稿意见回复、response letter 和 rebuttal 写作**。新增 **去 AI 味、句式简化与冗余重复检查**，用具体的语义审查改善表达，保留科学含义和作者声音。生成的学术段落默认不用解释性冒号或句中破折号，保留术语连字符及技术符号。回复信逐点回应审稿人，论文正文直接解释研究。通用 Markdown 指令可供支持 skills 的客户端及其他能阅读 Markdown 的 agent 使用。
+把科研写作中反复遇到的问题整理成 **13 个可独立使用的 AI agent skills**，涵盖学术逻辑检查、论证与证据核查、去防御性写作、实验比较、结果解释、图表审查，以及 **审稿意见回复、response letter 和 rebuttal 写作**。提供 **去 AI 味、专业用词与句子审查、句式简化和冗余重复检查**，用具体的语义审查改善表达，保留科学含义和作者声音。生成的学术段落默认不用解释性冒号或句中破折号，保留术语连字符及技术符号。回复信逐点回应审稿人，论文正文直接解释研究。通用 Markdown 指令可供支持 skills 的客户端及其他能阅读 Markdown 的 agent 使用。
 
 [中文使用说明](README.zh-CN.md) · [自然表达与逻辑审查](docs/prose-guide.md) · [审稿回复与正文写作指南](docs/rebuttal-guide.md) · [安装方法](#install)
 
@@ -55,7 +55,7 @@ Each folder is independently installable. You do not need to load the whole coll
 | When you encounter… | Skill | What it helps you produce |
 | --- | --- | --- |
 | A paper needing a complete editorial diagnosis | [academic-writing-audit](skills/academic-writing-audit/SKILL.md) | A structured scientific and editorial audit. |
-| Formulaic wording, tangled sentences, or repeated explanations | [academic-prose-editing](skills/academic-prose-editing/SKILL.md) | Natural paragraphs with clear reasoning and preserved scientific meaning. |
+| Unclear terminology, awkward phrasing, tangled sentences, or repetition | [academic-prose-editing](skills/academic-prose-editing/SKILL.md) | Natural paragraphs with clear reasoning and preserved scientific meaning. |
 | A missing bridge between problem, contribution, and evidence | [scientific-story-audit](skills/scientific-story-audit/SKILL.md) | A connected argument that preserves the contribution's scope. |
 | Rebuttal-like prose, repeated assurances, or piles of caveats | [nondefensive-writing](skills/nondefensive-writing/SKILL.md) | Direct explanations with necessary boundaries intact. |
 | A paper list, false categories, or an unsupported “first” | [related-work-synthesis](skills/related-work-synthesis/SKILL.md) | Source-supported comparison axes and bounded novelty claims. |
@@ -86,13 +86,15 @@ The accusation and reassurance disappear. The operative rule, denominator, and s
 
 ## Natural prose and clear reasoning
 
-Use [academic-prose-editing](skills/academic-prose-editing/SKILL.md) to check formulaic phrasing, sentence complexity, local inference, and repeated meaning. Preserve stable terminology, necessary conditions, and useful motivation. Shorter sentences are helpful when they reduce the reader's burden, not when they erase the argument.
+Use [academic-prose-editing](skills/academic-prose-editing/SKILL.md) to check precise terminology, professional word choice, natural word combinations, sentence complexity, local inference, and repeated meaning. Preserve stable terminology, necessary conditions, and useful motivation. Shorter sentences are helpful when they reduce the reader's burden, not when they erase the argument.
+
+Professional wording should name the actual concept or operation. The language pass checks incorrect metric names, inflated labels, awkward translations, grammar, unclear agency, and modifier attachment. It preserves valid terms of art and defined new concepts, and flags unresolved meaning instead of guessing a synonym. Rare vocabulary and extra abstraction do not make a sentence more scholarly.
 
 Generated prose defaults to connected paragraphs without explanatory colons or sentence-interrupting dashes. Compound-word hyphens, scientific notation, ratios, ranges, URLs, exact quotations, and required templates remain intact. This is a configurable editorial preference. It is not an authorship test, and author or venue instructions take precedence. Each focused skill carries the core convention so it can work independently.
 
 ```text
 Use $academic-prose-editing on this passage.
-Check logic, clause complexity, formulaic phrasing, and repeated propositions.
+Check precise terms, natural word combinations, logic, sentence structure, and repetition.
 Use connected paragraphs without explanatory colons or sentence-interrupting dashes.
 Keep compound hyphens, notation, exact quotations, and scientific conditions.
 Preserve sound passages and explain material changes briefly.

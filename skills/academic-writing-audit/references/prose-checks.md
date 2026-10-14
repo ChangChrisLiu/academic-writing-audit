@@ -8,6 +8,12 @@ Identify what the first sentence establishes and what the next sentence adds. Tr
 
 Check the bridge to a new section or paragraph. If removing a seemingly general sentence leaves a method without motivation or a result without its question, retain or clarify the bridge. A full audit also checks agreement between the abstract, main text, captions, and conclusion.
 
+## Word choice and sentence usage
+
+Check whether each consequential term names the intended concept and whether the word combination is natural in the field. Use supplied definitions and evidence before replacing an unfamiliar expression. Keep valid specialist terminology and clearly defined new concepts. Replace an inflated synonym or vague invented label with the concrete operation it is meant to describe. Flag unresolved meaning instead of inventing a polished definition.
+
+Check grammar, prepositions, modifiers, pronouns, and who performs the action. A sentence can be short but still assign a procedure to the wrong subject or use an ambiguous label. Do not make it sound more professional by stacking nouns or adding rare vocabulary. Maintain one term per concept without conflating distinct quantities, and keep evidential force intact when replacing words such as significant or validated. Distinguish an incorrect term, unclear expression, and optional preference in the findings.
+
 ## Sentence load
 
 Find the subject and main verb. Inspect intervening clauses, nested qualifications, stacked abstract nouns, and several claims compressed into one sentence. Separate independent assertions when that reduces the reader's memory burden. Keep assumptions, exclusions, and uncertainty with the statements they limit.

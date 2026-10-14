@@ -21,5 +21,7 @@
     "evals/academic-prose-editing/results/paired-response/response.md": "a83f5493f0ed7637bfac67891479a76b97f394875d17652200917d20c2bbbd1f",
     "evals/academic-prose-editing/rubric.md": "47a6c131993be7ad5aebf611092b4f2039e42dd3e98f8766d00fbcf1e5aa56e0",
     "evals/academic-prose-editing/run-metadata.json": "f61ce5a713e2ea87beb6acd76f1141c45d5bd2be6f264c606f59d0b76b15fd29"
-  }
+  },
+  "source_git_commit": "cdb30745d74acd2b336cb009b7d1dfc261be818d",
+  "path_resolution": "Resolve files in source_git_commit; original record hashes are unchanged."
 }

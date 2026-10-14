@@ -1,0 +1,3 @@
+Read request.md, skill/SKILL.md, and skill/references/prose-checks.md.
+Wrote answer.md and execution.txt.
+Scope was limited to the supplied fictional excerpt and supplied definitions and evidence. Inputs were preserved. No other sources were consulted.

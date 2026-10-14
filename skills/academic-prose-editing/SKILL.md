@@ -1,6 +1,6 @@
 ---
 name: academic-prose-editing
-description: Edit or audit academic prose for natural phrasing, connected reasoning, sentence complexity, and redundancy. Use for robotic or formulaic writing, 去 AI 味, long sentences, and repeated explanations while preserving scientific meaning. Not an AI-authorship detector.
+description: Edit or audit academic prose for precise terminology, professional phrasing, connected reasoning, sentence complexity, and redundancy. Use for robotic or formulaic writing, 去 AI 味, long sentences, and repeated explanations while preserving scientific meaning. Not an AI-authorship detector.
 license: MIT
 ---
 
@@ -20,6 +20,16 @@ Recover each paragraph's claim, support, and role in the surrounding argument. F
 
 When a conclusion exceeds its support, correct the proposition using the supplied facts or identify the missing link. Do not conceal the issue by substituting “may” for “demonstrates.” Preserve motivation that explains why the next step is needed. Distinguish a study limitation from an analysis or document that was merely not supplied to the editor.
 
+## Check words and sentences for professional usage
+
+Choose established field terminology for the intended concept and ordinary precise language for its explanation. Check meaning in the supplied definition, method, glossary, or relevant source before choosing a replacement. Distinguish a real term of art or a clearly defined new concept from a vague invented label. An unfamiliar word is not automatically wrong. If its intended meaning cannot be recovered, flag that ambiguity rather than silently guessing.
+
+Check word combinations, prepositions, verb choice, modifier attachment, and pronoun reference in the whole sentence. Replace awkward literal translations, inflated synonyms, vague labels, and colloquial praise with a concrete description of the actual operation or result. State who does what to which object. Professional prose need not use rare words, impersonal constructions, or extra nominalizations. Retain first person or passive voice when it is accurate and appropriate to the author's style.
+
+Keep one term for one concept and distinct terms for distinct concepts. Check consistency across the in-scope text, captions, and notation. Do not interchange technical quantities or strengthen evidential meaning through a supposedly smoother synonym. Terms such as significant, robust, optimal, validated, and causal need the meaning and support claimed in that context; none is a universal banned word. Define an essential unfamiliar term on first use when needed for the target readership, without re-explaining it at every occurrence.
+
+For a consequential wording finding, identify the phrase, its intended meaning, why the current usage misleads or distracts, and the smallest supported repair. Separate incorrect terminology, ambiguous meaning, and optional editorial preference. Read [word choice and sentence usage](references/word-choice.md) when a plain-language replacement might change a technical concept.
+
 ## Simplify the sentence without simplifying the science
 
 Find the main subject and action. Put them close enough that the reader need not retain several intervening clauses. Prefer a concrete verb over a chain of abstract nouns. Name an ambiguous referent when the evidence identifies it.
@@ -34,7 +44,7 @@ Keep technical terms stable rather than cycling through synonyms to create varie
 
 ## Verify the result and stop
 
-Reread the connected passage for logical progression, clear referents, manageable clause structure, and a distinct purpose for each sentence. Check punctuation in context rather than using global replacement. Verify the diff against the supplied quantities, citations, assumptions, uncertainty, scope, and negation. Necessary limitations are part of the argument.
+Reread the connected passage for logical progression, accurate terms and word combinations, clear referents, manageable clause structure, and a distinct purpose for each sentence. Check punctuation in context rather than using global replacement. Verify the diff against the supplied quantities, citations, assumptions, uncertainty, scope, and negation. Necessary limitations are part of the argument.
 
 For paired reviewer replies and manuscript edits, keep the response's explanation of changes separate from the paper's explanation of the research. Use honest proposed or completed status. Preserve a quotation of revised text exactly when it is presented as such.
 
