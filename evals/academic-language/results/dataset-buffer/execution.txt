@@ -1,0 +1,1 @@
+Read request.md, skill/SKILL.md, and skill/references/word-choice.md. Applied the supplied academic prose editing guidance and saved the revised passages, caption, and naming reasons in answer.md. Preserved the input files. Used no memory, other skills, repository files, external sources, or external actions.

@@ -56,5 +56,7 @@
     "skills/scientific-story-audit/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
     "skills/scientific-story-audit/SKILL.md": "c9b62dfcaff6a556d93daf41ec0125e1647fbc07d32b21fa42d00e55a1c09e52",
     "skills/scientific-story-audit/agents/openai.yaml": "9f506d62cf550225ca13f470868fa9068388d827ed53f1f8b287f12d3d2aef84"
-  }
+  },
+  "source_git_commit": "a0d0e221872f6daace00836f415fcbade134099e",
+  "path_resolution": "Resolve initial frozen files in source_git_commit. The object-naming follow-up was added after these two trials; original hashes are unchanged."
 }

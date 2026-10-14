@@ -8,6 +8,12 @@ A draft calls its method “a confidence-affinity orchestration substrate.” Th
 
 The concrete sentence is more informative than the unexplained label. Do not invent a scoring formula, claim that the weights are calibrated, or reject a separately defined new concept merely because its name is unfamiliar.
 
+## Dataset is not a stylistic synonym for buffer
+
+A draft calls a fixed collection of compiled observations a post-training buffer. The supplied definition says it is a dataset partitioned into training and validation subsets, with some excluded records retained for audit. The intended object is the dataset. Call it the post-training dataset consistently in the in-scope prose, definitions, and captions. Do not narrow the whole collection to training data, because validation and audit-only records also belong to it.
+
+Buffer can misleadingly suggest an extra storage, queueing, or replay mechanism that the dataset definition does not express. The problem is the mismatch between word and object, even though buffer is a valid term in other contexts. If the source instead describes a bounded queue holding incoming measurements until processing, buffer may be the precise word. If it describes a replay buffer with explicit storage and resampling behavior, keep that established term. Do not create a global ban or replace code identifiers and exact quotations automatically.
+
 ## Preserve distinct technical quantities
 
 A draft says “The estimator has high precision” while the supplied result concerns its mean absolute error relative to reference values. Those words do not automatically refer to the same property. State the measured quantity and comparison directly. Do not substitute accuracy, precision, recall, or uncertainty for one another as stylistic variants.

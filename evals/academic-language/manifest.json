@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-14",
+  "hash_algorithm": "SHA-256",
+  "scope": "Initial professional-language trials and a later author-prompted dataset/buffer case. Each input freeze identifies its own tested version. Writer and assessor outputs are unedited. Paths are repository-relative.",
+  "files": {
+    "evals/academic-language/README.md": "81297047898f026c2d6f88db05590cca822f8857ae641318dc502df98b399f15",
+    "evals/academic-language/assessments/assessment.json": "e77fcf427a5198d72391f4de1f5a9abb2f4418b9001f4885f76963e285adeb4a",
+    "evals/academic-language/assessments/assessment.md": "4f8327c3c65a43a7f101ea54ae03cd697b3bb77327561678aa6dc4e7fa645a55",
+    "evals/academic-language/assessments/object-naming-assessment.json": "9bfdcc705dac34d14b06304192d8eac414bdd44978c583cb6ff5cfcd91d8a0e9",
+    "evals/academic-language/assessments/object-naming-assessment.md": "99dc4b57e1c38e3500215ab41f1317df6edf1721f902f4b8cd26cdaff012d5c0",
+    "evals/academic-language/cases/chinese-professional-audit.md": "e0c8b1080440f418d9094a7dbe11dfc600d3baf5dd13b37b1ad06cfd34f0d1aa",
+    "evals/academic-language/cases/dataset-buffer.md": "960ed27d7ccf1d0784ac4792197823bcba2bee3f6a2450982ed3d4f87cd1270c",
+    "evals/academic-language/cases/english-terms.md": "970d4aaedfb75aacaf0ff7dab7dd969dff2d1e16a772084e998ff2c7e519aa57",
+    "evals/academic-language/design-freeze.json": "9fc7d3a2da6149fbc5712b497ae35dc164938285ed9a1e9ad5ba428084a5f73a",
+    "evals/academic-language/mechanical-checks.json": "41e265f4be08c22451aa75d44bbec30afb737ccd5ac60ed8d3e4e7da4dfea2a2",
+    "evals/academic-language/object-naming-freeze.json": "c304f5dcf8371780eaa22e84f0248a12073be8d95504698010b084e7b4896f93",
+    "evals/academic-language/object-naming-rubric.md": "0b7dc77eda7a75587aa02a092ddf43df008ca5ce97206b3c2408d26714b3ea44",
+    "evals/academic-language/results/chinese-professional-audit/answer.md": "4aa1b00cd990664fec842f09440e4fedc0fb0f59402f342ea958dddff35c4ccd",
+    "evals/academic-language/results/chinese-professional-audit/execution.txt": "9a1049a5850004b121d183db02c1ae25a7f74b05fe48587447d64a5281fbfad2",
+    "evals/academic-language/results/dataset-buffer/answer.md": "23bae43096a29423c2caebab875334e960f2f5d40a15fc52e0342be34f414b3a",
+    "evals/academic-language/results/dataset-buffer/execution.txt": "565afa2c07522ccb082365e050f2e1258cbd5d0523a62e318fcb7ba58dfd39c3",
+    "evals/academic-language/results/english-terms/answer.md": "2e58d38fa2f6c3ef2d522b90b522618466274f0293c5129a2130817c29ee87ab",
+    "evals/academic-language/results/english-terms/execution.txt": "26e879a2a19fe843c5d17b0ae3a14859fd13a1fde4a71478feda2978fccf6e6e",
+    "evals/academic-language/rubric.md": "6907f584c64a895457b02d5f16d55e8989ada7cb6e3bcc2c889c083e65e122bf",
+    "evals/academic-language/run-metadata.json": "04da70bf6c271756a4b90639ebfbf96a7feb58cca8a612af1922c3f2be278bcd"
+  }
+}

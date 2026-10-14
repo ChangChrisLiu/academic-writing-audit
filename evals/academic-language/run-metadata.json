@@ -24,5 +24,17 @@
     "Two fictional cases and two skill entrypoints, not the complete library or a whole-paper study.",
     "No controlled estimate of improvement, repeated sampling, cross-model validation, or AI-authorship detection.",
     "No empirical validation of fictional research, rendered document, or real submission."
-  ]
+  ],
+  "follow_up": {
+    "case": "dataset-buffer",
+    "agent_task": "dataset_naming_trial",
+    "assessor_task": "dataset_naming_assessment",
+    "skill": "academic-prose-editing",
+    "timing": "Added after the initial two trials and their independent assessment, in response to the author clarifying that a previous buffer label meant dataset.",
+    "scope": "Three deliverables for two object definitions. Correct D consistently in body and caption while preserving an actual input buffer and a code identifier.",
+    "frozen_inputs": "object-naming-freeze.json",
+    "rubric": "object-naming-rubric.md",
+    "writer_context": "Fresh context with only its request and revised frozen standalone skill; same resource restrictions as initial writers.",
+    "assessor_context": "Separate fresh context with only request, answer, execution record, and follow-up rubric."
+  }
 }
