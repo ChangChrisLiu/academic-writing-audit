@@ -42,6 +42,12 @@ Keep useful Results interpretation. “Consistent with the proposed explanation�
 
 The repair removes accusation and reassurance while retaining two necessary negative facts. If the preceding sentence already explains the measurement challenge clearly, leave it unchanged.
 
+## Prose when drafting or revising
+
+Use connected paragraphs with concrete subjects and verbs. Remove empty staging and repeated assurances. Check the inference and referents between adjacent sentences. Simplify nested clauses while keeping conditions attached to their claims. Merge repeated propositions serving the same reader purpose, but retain necessary definitions, limitations, and standalone summaries. Keep technical terms stable. An “AI feel” is an editing concern, not an authorship finding.
+
+This library defaults to no explanatory colons or sentence-interrupting dashes in generated prose, including spaced hyphens and LaTeX dash syntax. Preserve compound-word hyphens, notation, minus signs, ranges, ratios, URLs, citations, exact quotations, and required templates. Author or venue instructions take precedence. Do not replace paragraphs with bullet fragments, mechanically erase punctuation, or impose a sentence-length quota. Apply these checks only within the requested task; a source or submission check does not itself authorize prose edits.
+
 ## Deliver and stop
 
 Return the requested audit or affected replacement text with brief reasons that identify what changed and what was preserved. Mark an unchanged passage explicitly when omission could be mistaken for deletion. Follow the user's requested format rather than imposing a long checklist.

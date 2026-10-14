@@ -23,6 +23,8 @@ Check each connection:
 - When components are complementary, does the text explain their distinct roles? Preserve acquisition, coverage, correction, inference, and selection as separate operations when those distinctions matter.
 - Does the conclusion answer the original question within the evidence's scope? Describing a component's intended role is different from establishing its independent effect.
 
+At paragraph level, identify the claim each sentence advances and the fact supporting the next step. Check whether a connector expresses contrast, consequence, or chronology accurately. Resolve vague “this” and shifts in subject, population, or unit before polishing the transition. A grammatical connection does not supply a missing premise.
+
 Do not manufacture a literature gap to complete this chain. Mark an unsupported gap as unresolved. Likewise, do not promote every implementation choice into a contribution or weaken a supported contribution merely because it has several parts.
 
 ## Repair the smallest broken link
@@ -40,6 +42,12 @@ Before shortening, read the sentences on both sides of the proposed deletion. A 
 **Repair:** “We introduce a workflow that combines routine observations, targeted follow-ups, and expert corrections for crop monitoring. A scoring rule controls how these complementary records contribute during fitting.”
 
 This restores the contribution's level without claiming that each component independently causes improvement. Keep any preceding motivation that already explains why heterogeneous observations are difficult to combine.
+
+## Prose when drafting or revising
+
+Use connected paragraphs with concrete subjects and verbs. Remove empty staging and repeated assurances. Check the inference and referents between adjacent sentences. Simplify nested clauses while keeping conditions attached to their claims. Merge repeated propositions serving the same reader purpose, but retain necessary definitions, limitations, and standalone summaries. Keep technical terms stable. An “AI feel” is an editing concern, not an authorship finding.
+
+This library defaults to no explanatory colons or sentence-interrupting dashes in generated prose, including spaced hyphens and LaTeX dash syntax. Preserve compound-word hyphens, notation, minus signs, ranges, ratios, URLs, citations, exact quotations, and required templates. Author or venue instructions take precedence. Do not replace paragraphs with bullet fragments, mechanically erase punctuation, or impose a sentence-length quota. Apply these checks only within the requested task; a source or submission check does not itself authorize prose edits.
 
 ## Deliver and stop
 

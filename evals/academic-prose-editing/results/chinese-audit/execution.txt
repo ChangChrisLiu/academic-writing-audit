@@ -1,0 +1,14 @@
+Inputs read
+request.md
+skill/SKILL.md
+skill/references/argument-and-evidence.md
+skill/references/nondefensive-writing.md
+skill/references/prose-checks.md
+skill/references/examples.md
+
+Outputs written
+answer.md
+execution.txt
+
+Limits
+Reviewed only the supplied fictional passage and evidence. Produced an audit in connected Chinese paragraphs without rewriting the source or supplying a complete replacement. Inputs were not edited. No memory, other skills, other trial directories, rubrics, repository files, other agents' outputs, network, or external services were used. Specific coding details not independently established by the supplied evidence remain unverified.

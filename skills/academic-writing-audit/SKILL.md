@@ -1,6 +1,6 @@
 ---
 name: academic-writing-audit
-description: Use when reviewing or revising a research manuscript for argumentative logic, defensive writing, claim-evidence alignment, comparator definitions, or excessive revision. Especially useful for reviewer-informed revisions and final manuscript checks; not a default workflow for a narrowly requested grammar fix.
+description: Use when reviewing or revising a research manuscript for argumentative logic, defensive writing, claim-evidence alignment, comparator definitions, sentence complexity, redundancy, or excessive revision. Especially useful for reviewer-informed revisions and final manuscript checks; not a default workflow for a narrowly requested grammar fix.
 license: MIT
 ---
 
@@ -20,7 +20,8 @@ Read the relevant passage in context. Form an independent account of its questio
 2. **Evidence:** For consequential claims, identify the supporting source, study or argument, comparison, outcome, and permitted inference. Separate observation, interpretation, and causal attribution. Define baselines by their actual operations. Keep distinct studies, versions, and evaluation endpoints distinct.
 3. **Reader function:** Ask what each questionable sentence contributes: motivation, definition, mechanism, comparison, result, interpretation, boundary, or navigation. Assess the fact's importance, its formulation, and its location separately. Use [nondefensive writing](references/nondefensive-writing.md) when reducing defensive tone.
 4. **Revision:** Use the smallest change that repairs a named problem. Preserve a coherent motivation-to-contribution passage verbatim when no concrete defect is identified. Deleting its gap sentence merely because it is broad can destroy the reason the work exists. Concision is not a sentence quota.
-5. **Verification:** Re-read the connected passage and check the diff against the evidence. Use [review and patching](references/review-and-patching.md) for file edits, reviewer-informed revision, and final checks. Use [worked examples](references/examples.md) for ambiguous keep/delete decisions.
+5. **Prose:** Check concrete subjects, sentence-to-sentence reasoning, clause complexity, repeated propositions, and the prose preference below. Do not strengthen a claim to make it sound more direct. Read [prose checks](references/prose-checks.md) for a whole-passage clarity pass.
+6. **Verification:** Re-read the connected passage and check the diff against the evidence. Use [review and patching](references/review-and-patching.md) for file edits, reviewer-informed revision, and final checks. Use [worked examples](references/examples.md) for ambiguous keep/delete decisions.
 
 ## Make the decision explicit
 
@@ -33,6 +34,12 @@ Read the relevant passage in context. Form an independent account of its questio
 | Delete | The passage adds reassurance, rebuttal staging, or repetition without a necessary reader function. |
 
 Necessary negation, eligibility rules, uncertainty, unequal budgets, and genuine limitations are not defects in tone. Conversely, an important fact does not justify every wording or every repetition. Explain an operation before referring to its parameter appendix.
+
+## Prose when drafting or revising
+
+Use connected paragraphs with concrete subjects and verbs. Remove empty staging and repeated assurances. Check the inference and referents between adjacent sentences. Simplify nested clauses while keeping conditions attached to their claims. Merge repeated propositions serving the same reader purpose, but retain necessary definitions, limitations, and standalone summaries. Keep technical terms stable. An “AI feel” is an editing concern, not an authorship finding.
+
+This library defaults to no explanatory colons or sentence-interrupting dashes in generated prose, including spaced hyphens and LaTeX dash syntax. Preserve compound-word hyphens, notation, minus signs, ranges, ratios, URLs, citations, exact quotations, and required templates. Author or venue instructions take precedence. Do not replace paragraphs with bullet fragments, mechanically erase punctuation, or impose a sentence-length quota. Apply these checks only within the requested task; a source or submission check does not itself authorize prose edits.
 
 ## Deliver a bounded result
 

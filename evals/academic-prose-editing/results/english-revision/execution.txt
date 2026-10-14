@@ -1,0 +1,11 @@
+Inputs read
+request.md
+skill/SKILL.md
+skill/references/examples.md
+
+Outputs written
+answer.md
+execution.txt
+
+Limits
+Used only the supplied fictional passage, facts, and editing guidance. No research, external actions, or edits to inputs. Uncertainty analysis was not supplied, so its existence was not inferred.

@@ -65,7 +65,8 @@
         "agents/openai.yaml": "bcf6b0e6180f0f2d6d60a8b19bc297762b3e8e05b31b280bf7b7683c369ec5d8",
         "references/manuscript-boundary.md": "31dbc5b83390634b258c4482f07c23c272b08335b2906d6e8c5ba11bce00bc89",
         "references/response-patterns.md": "819653e3f77ae4a1ba2d749ebc746e39c247f964159bc4633fa6135bc2506a1d"
-      }
+      },
+      "git_commit": "a3c5a235bd54e7ac8922340239fd1cdae3ff53a5"
     }
   }
 }

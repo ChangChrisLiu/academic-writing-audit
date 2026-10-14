@@ -1,0 +1,383 @@
+{
+  "scope": "Independent inspection of the supplied three fictional writing cases against rubric.md. Statuses apply only to the inspected artifacts.",
+  "status_definitions": {
+    "pass": "The inspected output meets this dimension using the supplied facts.",
+    "qualified": "A substantive aspect is only partly met or cannot be established from the inspected output.",
+    "fail": "The inspected output contradicts a required constraint or omits a required substantive behavior."
+  },
+  "summary": {
+    "applicable_dimensions": 16,
+    "pass": 16,
+    "qualified": 0,
+    "fail": 0,
+    "semantic_defects_identified": 0,
+    "note": "All 16 applicable case-by-dimension checks pass. This is not a claim that unresolved author information has been supplied or that every possible stylistic choice is optimal."
+  },
+  "assessments": [
+    {
+      "case": "english-revision",
+      "dimension": "1. Task scope and preservation",
+      "status": "pass",
+      "evidence": [
+        {
+          "location": "english-revision/request.md:3,7,12,18",
+          "detail": "Requires a revision and brief connected reasons, verbatim clear Paragraph 1 and protected technical strings, and preservation of conditions, numerical outcomes, and the site as independent unit."
+        },
+        {
+          "location": "english-revision/answer.md:1,3,5,7",
+          "detail": "Paragraphs 1 and 3 match the source verbatim. Paragraph 2 retains paired calibrated readings, temperature stabilization, both-channel eligibility, the independent site, and 33/50 versus 28/50. Line 7 supplies connected editing reasons."
+        }
+      ],
+      "reasoning": "The output stays within the authorized revision. It preserves sound motivation and all protected content while making supported local corrections. Exact text comparison confirms both protected paragraphs, rather than relying on the output’s preservation claim."
+    },
+    {
+      "case": "english-revision",
+      "dimension": "2. Logic",
+      "status": "pass",
+      "evidence": [
+        {
+          "location": "english-revision/request.md:7,15",
+          "detail": "Weighting and data eligibility both differ; no component ablation was performed. The draft incorrectly attributes the improvement to weighting."
+        },
+        {
+          "location": "english-revision/answer.md:3",
+          "quote": "This comparison does not isolate the contribution of weighting because the procedures differ in both weighting and data eligibility, and no component ablation was performed."
+        }
+      ],
+      "reasoning": "The revision reports the full-procedure comparison under the same evaluated protocol and removes the unsupported component attribution and robustness claim. It does not introduce significance, certainty, a new endpoint, or a claim that uncertainty analysis does not exist."
+    },
+    {
+      "case": "english-revision",
+      "dimension": "3. Readability and natural expression",
+      "status": "pass",
+      "evidence": [
+        {
+          "location": "english-revision/request.md:15",
+          "detail": "The opening sentence embeds two relative clauses and the eligibility condition within a long description of site-level analysis."
+        },
+        {
+          "location": "english-revision/answer.md:3",
+          "quote": "It accepts a sample only when both channels are available, and the site is the independent unit of analysis."
+        },
+        {
+          "location": "english-revision/answer.md:7",
+          "detail": "The explanation ties the simplification to retained conditions and explains why the weighting attribution was corrected."
+        }
+      ],
+      "reasoning": "The long nested description becomes a sequence of connected method and comparison statements. The output preserves the cross-site name and uses the causal connective because only to explain the attribution limit. It remains academic prose rather than fragments or canned praise."
+    },
+    {
+      "case": "english-revision",
+      "dimension": "4. Redundancy",
+      "status": "pass",
+      "evidence": [
+        {
+          "location": "english-revision/request.md:15",
+          "detail": "The same 33/50 and 28/50 result is repeated as 33 out of 50 and 28 out of 50, followed by unsupported generic praise."
+        },
+        {
+          "location": "english-revision/answer.md:1,3",
+          "detail": "The numerical comparison occurs once in the revised passage. The coverage-gap motivation remains intact."
+        }
+      ],
+      "reasoning": "The revision removes the repeated proposition and empty summary without treating useful motivation as redundant. The separate editing reasons legitimately explain the changes and are not another manuscript results summary."
+    },
+    {
+      "case": "english-revision",
+      "dimension": "5. Prose format and exceptions",
+      "status": "pass",
+      "evidence": [
+        {
+          "location": "english-revision/answer.md:5",
+          "quote": "The protocol defines the map as `f: X → Y`, the contrast as `a - b`, the mixture as `1:2`, and the operating interval as `10–15 °C`."
+        },
+        {
+          "location": "english-revision/answer.md:5",
+          "quote": "Its historical annotation reads “Check: retain both channels — otherwise abstain.”"
+        },
+        {
+          "location": "english-revision/answer.md:1-7",
+          "detail": "The response consists of complete paragraphs. All colon and em-dash occurrences are in the protected notation, ratio, URL, or quotation."
+        }
+      ],
+      "reasoning": "The output removes the draft’s rhetorical colon and interrupting dash while retaining the required exceptions exactly. Technical compound hyphens in cross-site and follow-up are preserved, as is the URL https://example.org/protocol. There is no bullet-fragment substitution."
+    },
+    {
+      "case": "chinese-audit",
+      "dimension": "1. Task scope and preservation",
+      "status": "pass",
+      "evidence": [
+        {
+          "location": "chinese-audit/request.md:3,7",
+          "detail": "Requires an audit only in connected Chinese paragraphs, with no complete replacement and no added research facts; the abstract and standalone caption each need their participant count."
+        },
+        {
+          "location": "chinese-audit/answer.md:3",
+          "quote": "段落甲的三句话均应原样保留。"
+        },
+        {
+          "location": "chinese-audit/answer.md:5,11,13",
+          "detail": "Preserves one complete report of the 15/11/4 counts and school scope, the independently coded/disagreement-resolution procedure, and the independent abstract and caption."
+        }
+      ],
+      "reasoning": "The answer audits the source rather than rewriting it. It explicitly identifies sentences to preserve, distinguishes the retained procedural core from the objectionable objectivity guarantee, and does not replace minority responses with a favorable aggregate. More specific coding details are presented as a verification question, not fabricated or declared absent."
+    },
+    {
+      "case": "chinese-audit",
+      "dimension": "2. Logic",
+      "status": "pass",
+      "evidence": [
+        {
+          "location": "chinese-audit/answer.md:5",
+          "quote": "仅把“显著提高”改成“可能提高”仍然保留了没有证据支持的推断。"
+        },
+        {
+          "location": "chinese-audit/answer.md:7",
+          "detail": "Identifies the vague mechanism reference, unsupported breadth and robustness, and omission of the increased-workload responses."
+        },
+        {
+          "location": "chinese-audit/answer.md:11",
+          "quote": "分别编码并讨论分歧只说明采用了什么程序，不能证明客观性已得到保证"
+        },
+        {
+          "location": "chinese-audit/request.md:7",
+          "detail": "Explicitly supplies no student-outcome measurement and no no-discussion control, and warns that the coding procedure cannot guarantee objectivity."
+        }
+      ],
+      "reasoning": "The audit correctly distinguishes teachers’ reported views from measured student achievement and causal effects. Its statements that achievement was not measured and no control was used are supplied facts, not absence inferred from a missing packet. It avoids repairing unsupported conclusions merely by weakening verbs. The mechanism criticism is grounded in the supplied passage and does not assert an externally established fact about the wider study."
+    },
+    {
+      "case": "chinese-audit",
+      "dimension": "3. Readability and natural expression",
+      "status": "pass",
+      "evidence": [
+        {
+          "location": "chinese-audit/answer.md:9",
+          "quote": "第一句又同时容纳了铺垫、样本范围、两类意见和效果推断，负担来自多种功能挤在一起，不能只归因于字数多。"
+        },
+        {
+          "location": "chinese-audit/answer.md:11",
+          "quote": "长修饰语置于“编码员”之前，又把条件判断嵌在操作顺序之中，使读者很晚才能确认行动主体"
+        },
+        {
+          "location": "chinese-audit/answer.md:11",
+          "detail": "Recommends putting the coders and their actions in the sentence’s main structure and explaining the confirmed steps in order, without supplying a full replacement."
+        }
+      ],
+      "reasoning": "The audit explicitly diagnoses sentence complexity in both affected paragraphs and explains its reading cost. It supplies actionable structural guidance while respecting audit-only scope. The Chinese explanation is connected and stable in its terminology, although it is more expansive than a minimal audit."
+    },
+    {
+      "case": "chinese-audit",
+      "dimension": "4. Redundancy",
+      "status": "pass",
+      "evidence": [
+        {
+          "location": "chinese-audit/answer.md:9",
+          "detail": "Identifies the stacked introductory staging and the final 换言之 sentence as repeated 15/11/4 facts without a new interpretation."
+        },
+        {
+          "location": "chinese-audit/answer.md:11",
+          "detail": "Identifies 在最终形成……编码结果之后予以完成 as circular completion phrasing."
+        },
+        {
+          "location": "chinese-audit/answer.md:13",
+          "quote": "二者面向各自独立阅读的情境，重复人数有明确作用，与段落乙在相邻句中重复同一组结果不同。"
+        }
+      ],
+      "reasoning": "The audit identifies substantive repetition and empty staging while preserving the motivation, standalone abstract, and standalone figure caption. It judges the function of repetition rather than counting repeated numbers."
+    },
+    {
+      "case": "chinese-audit",
+      "dimension": "5. Prose format and exceptions",
+      "status": "pass",
+      "evidence": [
+        {
+          "location": "chinese-audit/answer.md:1-13",
+          "detail": "Seven connected Chinese paragraphs; no colons, sentence-interrupting em dashes, or bullet-list fragments. Source phrases are quoted inline without replacing the audit with fragments."
+        }
+      ],
+      "reasoning": "The format follows the request. The semicolon in line 11 joins related diagnostic clauses and is not one of the prohibited devices. Quotation marks and ordinary punctuation appropriately support the analysis."
+    },
+    {
+      "case": "paired-response",
+      "dimension": "1. Task scope and preservation",
+      "status": "pass",
+      "evidence": [
+        {
+          "location": "paired-response/request.md:3,19,23,25,29",
+          "detail": "Authorizes Results-only revision and a response; protects Methods, the exact quotation, the final Figure 3 sentence, and temperature stabilization."
+        },
+        {
+          "location": "paired-response/manuscript.md:3,7,9",
+          "detail": "Methods and the final Figure 3 sentence match the source exactly. Results retains both-record eligibility, the panel as independent unit, temperature stabilization, and all eight supplied panel means."
+        },
+        {
+          "location": "paired-response/response.md:3,7",
+          "detail": "The completed-edit assertions concern removal of causal/robustness claims and simplification while preserving conditions; each is supported by manuscript.md:7."
+        }
+      ],
+      "reasoning": "The actual saved manuscript respects the authorized edit region. Exact text comparison verifies protected content. The response’s factual description of the revised Results matches the edited file rather than only its own summary. Descriptive averages are derived transparently from supplied values and address the request for the actual comparison."
+    },
+    {
+      "case": "paired-response",
+      "dimension": "2. Logic",
+      "status": "pass",
+      "evidence": [
+        {
+          "location": "paired-response/manuscript.md:7",
+          "quote": "The averages across the four independent panels per procedure were 7.1 and 6.1 GPa, respectively, an observed difference of 1.0 GPa."
+        },
+        {
+          "location": "paired-response/manuscript.md:7",
+          "quote": "The procedures differed in both weighting and coating thickness, so this comparison does not isolate the contribution of weighting."
+        },
+        {
+          "location": "paired-response/response.md:11",
+          "quote": "[Response on whether uncertainty analysis was performed pending author confirmation.]"
+        },
+        {
+          "location": "paired-response/answer.md:9",
+          "detail": "Separately asks whether uncertainty analysis was performed and requests the method, results, or planned/underway status."
+        }
+      ],
+      "reasoning": "The descriptive arithmetic is correct: (6.8 + 7.0 + 7.2 + 7.4)/4 = 7.1 and (5.8 + 6.0 + 6.2 + 6.4)/4 = 6.1, with a 1.0 GPa difference. The output does not treat 20 readings as 20 independent panels, infer weighting causality, calculate an inferential interval, or claim uncertainty analysis was absent. Pending status is explicit rather than falsely completed."
+    },
+    {
+      "case": "paired-response",
+      "dimension": "3. Readability and natural expression",
+      "status": "pass",
+      "evidence": [
+        {
+          "location": "paired-response/manuscript.md:7",
+          "quote": "Panels from both procedures were tested after temperature stabilization. Only panels with both thickness and temperature records were included, and each panel was the independent unit."
+        },
+        {
+          "location": "paired-response/response.md:3,7,11",
+          "detail": "Concise paragraphs directly state the comparison, revisions, and pending uncertainty response under stable comment IDs."
+        }
+      ],
+      "reasoning": "The opening nested sentence is replaced by two clear sentences that preserve the testing and eligibility conditions. Panel means, between-procedure averages, and the attribution limit form a coherent sequence. The cross-batch and fixed-baseline terminology stays consistent. No vague robustness slogan remains."
+    },
+    {
+      "case": "paired-response",
+      "dimension": "4. Redundancy",
+      "status": "pass",
+      "evidence": [
+        {
+          "location": "paired-response/request.md:23",
+          "detail": "The source repeats broad effectiveness and robustness claims in consecutive sentences."
+        },
+        {
+          "location": "paired-response/manuscript.md:7",
+          "detail": "Both formulaic claims and the empty introductory staging are removed. Individual panel means and descriptive procedure averages remain."
+        },
+        {
+          "location": "paired-response/manuscript.md:9",
+          "quote": "Surface images are provided in Figure 3."
+        }
+      ],
+      "reasoning": "The edits remove repeated assertions without deleting protected material. Retaining both individual panel values and their averages is not empty repetition: the former supplies the observations and the latter states the requested procedure comparison. The response legitimately restates key changes for a separate reader."
+    },
+    {
+      "case": "paired-response",
+      "dimension": "5. Prose format and exceptions",
+      "status": "pass",
+      "evidence": [
+        {
+          "location": "paired-response/response.md:1-11",
+          "detail": "R1.1, R1.2, and R1.3 are stable Markdown headings with plain paragraphs; no bullet lists, rhetorical colons, or interrupting em dashes."
+        },
+        {
+          "location": "paired-response/manuscript.md:3",
+          "quote": "The archived annotation states “Eligibility: both records — never infer a missing record.”"
+        },
+        {
+          "location": "paired-response/manuscript.md:7; paired-response/answer.md:1-9",
+          "detail": "Generated Results and explanatory text contain no prohibited colons or em dashes. cross-batch, fixed-baseline, and completed-edit retain technical or ordinary compound hyphens."
+        }
+      ],
+      "reasoning": "The protected quotation is the only colon/em-dash occurrence in these generated artifacts and is a required exception. The bracketed pending response marks unresolved status rather than using a bullet fragment as explanatory prose. Markdown headings satisfy the explicitly required response syntax."
+    },
+    {
+      "case": "paired-response",
+      "dimension": "6. Response/manuscript boundary",
+      "status": "pass",
+      "evidence": [
+        {
+          "location": "paired-response/manuscript.md:1-9",
+          "detail": "The manuscript directly explains the methods and observed comparison; it contains no reviewer IDs, revision narrative, author query, or pending response placeholder."
+        },
+        {
+          "location": "paired-response/response.md:1,5,9,11",
+          "detail": "Reviewer IDs remain in the response; R1.3 is explicitly pending author confirmation."
+        },
+        {
+          "location": "paired-response/answer.md:7-9",
+          "detail": "The Author note and direct uncertainty-analysis question are outside both manuscript.md and response.md."
+        }
+      ],
+      "reasoning": "The separation is correct. A pending response-status marker is permitted by the rubric and is not the separate author note. The output does not call R1.3 scientifically answered or the letter fully ready for submission. Completing R1.3 still requires author information, which is an acknowledged input limitation rather than an editing failure."
+    }
+  ],
+  "not_applicable": [
+    {
+      "case": "english-revision",
+      "dimension": "6. Response/manuscript boundary",
+      "reason": "No reviewer response or paired manuscript was requested."
+    },
+    {
+      "case": "chinese-audit",
+      "dimension": "6. Response/manuscript boundary",
+      "reason": "The task is an audit only, without a reviewer letter or edited manuscript."
+    }
+  ],
+  "optional_preferences_and_readiness_notes": [
+    {
+      "case": "english-revision",
+      "preference": "An editor could repeat readings before collected after temperature stabilization to make the temporal modifier’s attachment maximally explicit. In this context the supplied meaning is already recoverable, so this is an optional style adjustment, not a semantic defect or a failed readability criterion."
+    },
+    {
+      "case": "chinese-audit",
+      "preference": "The seven-paragraph explanation could be shorter. Its opening overview, detailed diagnosis, and preservation rationale serve distinguishable functions, so the length is not an empty-repetition failure under this request. Its request to verify draft-specific coding details is conservative, not proof that those details were unperformed."
+    },
+    {
+      "case": "paired-response",
+      "preference": "A final submitted response would replace the bracketed R1.3 placeholder after author confirmation. Doing so now would require unavailable facts. This is a known readiness limitation, not an authorized reason to invent a completed analysis."
+    }
+  ],
+  "limitations": [
+    "This assessment used only rubric.md and the three cases’ request.md, answer.md, execution.txt, plus the paired manuscript.md and response.md. No memory, skills, other case material, earlier conclusions, or network sources were consulted.",
+    "The supplied studies are fictional and were treated as the complete factual boundary. This assessment does not validate real research methods, measurement quality, external applicability, or facts absent from the packets.",
+    "The execution.txt records are self-reports. Their claims about which skills were used, whether files were reread during generation, and the absence of external activity were not independently reconstructed. The evaluator directly verified the saved output content and the source-to-output comparisons.",
+    "The unknown uncertainty-analysis status remains unresolved. English output appropriately avoids making it a study-absence fact; paired R1.3 still needs author confirmation before it can be a completed substantive reviewer answer.",
+    "No supplied case tests the behavior when uncertainty results actually exist, when a proposed edit is not executed, when source facts conflict, or when tool execution fails. No real-paper or larger-corpus tests, long-document consistency tests, rendered-document checks, or downstream reviewer outcomes were performed.",
+    "There is no blinded comparative baseline, alternative wording set, repeated-run sample, or controlled skill ablation. The observed passes do not establish a skill’s causal contribution or universal effectiveness.",
+    "No automatic author-identity scoring was performed or inferred. Naturalness judgments concern these specific texts and the stated rubric, not whether a human or model wrote them.",
+    "Exact preservation verification uses the initial text embedded in each request as the available source. It cannot establish provenance of any earlier file version not supplied."
+  ],
+  "verification": {
+    "english_paragraph_1_verbatim": true,
+    "english_paragraph_3_verbatim": true,
+    "paired_methods_verbatim": true,
+    "paired_final_sentence_verbatim": true,
+    "panel_average_cross_batch_GPa": 7.1,
+    "panel_average_fixed_baseline_GPa": 6.1,
+    "observed_difference_GPa": 1.0,
+    "inferential_interval_calculated": false,
+    "input_sha256_before_assessment_outputs": {
+      "chinese-audit/answer.md": "1efdef9485e1744d35297e1cc8b56435d19e745eac2057cc8c38ff8581c178c0",
+      "chinese-audit/execution.txt": "10c957da5db01c7799b1238ae245a0baabdcc4d0428ff39af500d7507e92cdf0",
+      "chinese-audit/request.md": "0a4d21f4fa02dc84b4ecd1dc8228faf176fdac9695d6170ce394039c10c66e30",
+      "english-revision/answer.md": "1f3fed3b4635513efa74d71b67f58a1595181cfd520618db7a9ee315a08bc313",
+      "english-revision/execution.txt": "141423b9679d86d6be73b4d9b6a7cfe79507bcfde8ceeb960885f4346963f80f",
+      "english-revision/request.md": "fec37376ebae80e4984d119d7ca731c2c2f5d85ea20db3a85648ac0a01709d35",
+      "paired-response/answer.md": "a25d1014c7f14fc9c44d1370c85415744dcfc4630db26222db1a0082febca321",
+      "paired-response/execution.txt": "82e7627b842da98d1b0cfafc789b4cee92392efb1ae3bf3c05e5992fca3423e4",
+      "paired-response/manuscript.md": "1d6b6f15d79caba52cfa29c371d9b5d5fac311f2a1af759691b724cd9f3d7c48",
+      "paired-response/request.md": "50456103ecefccae5eb4ea5e1cdd62c0f7d0c13e01ff6e5e5685e6c5104e2d6a",
+      "paired-response/response.md": "a83f5493f0ed7637bfac67891479a76b97f394875d17652200917d20c2bbbd1f",
+      "rubric.md": "47a6c131993be7ad5aebf611092b4f2039e42dd3e98f8766d00fbcf1e5aa56e0"
+    },
+    "all_12_supplied_artifacts_unchanged": true
+  }
+}

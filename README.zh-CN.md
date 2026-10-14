@@ -4,9 +4,9 @@
 
 # Academic Writing Audit：学术论证与写作审查
 
-**12 个可独立使用的 agent skills，把论文写作、逻辑审查和审稿回复中反复遇到的问题整理成可执行的判断方法。**
+**13 个可独立使用的 agent skills，把论文写作、逻辑审查和审稿回复中反复遇到的问题整理成可执行的判断方法。**
 
-[English](README.md) · [问题与修复示例](docs/field-guide.md) · [审稿回复指南](docs/rebuttal-guide.md) · [完整审查入口](skills/academic-writing-audit/SKILL.md) · [专项试用记录](evals/library/README.md) · [宣传素材](assets/README.md)
+[English](README.md) · [自然表达与逻辑审查](docs/prose-guide.md) · [问题与修复示例](docs/field-guide.md) · [审稿回复指南](docs/rebuttal-guide.md) · [完整审查入口](skills/academic-writing-audit/SKILL.md) · [专项试用记录](evals/library/README.md) · [宣传素材](assets/README.md)
 
 先理解研究主线，再检查证据与推理，最后决定哪里需要改。审查后判断“这段原样保留”，同样是有价值的结果。
 
@@ -33,6 +33,7 @@
 | 遇到的问题 | Skill | 核心判断 |
 | --- | --- | --- |
 | 需要完整的科学与写作审查 | [academic-writing-audit](skills/academic-writing-audit/SKILL.md) | 论证、证据、读者功能、修改范围是否一致？ |
+| 想去 AI 味，句式绕、衔接弱、同义重复多 | [academic-prose-editing](skills/academic-prose-editing/SKILL.md) | 具体表达、逻辑连接、句式负担和信息重复是否改善？ |
 | 动机与方法之间缺一座桥；贡献缩成实现细节 | [scientific-story-audit](skills/scientific-story-audit/SKILL.md) | 问题、困难、贡献和证据是否真正连接？ |
 | 正文像回复审稿人，反复保证“我们没有……” | [nondefensive-writing](skills/nondefensive-writing/SKILL.md) | 事实、措辞和位置分别是否有用？ |
 | Related Work 变成论文清单或人为划分阵营 | [related-work-synthesis](skills/related-work-synthesis/SKILL.md) | 比较轴是否成立？来源能否支持新颖性判断？ |
@@ -45,7 +46,23 @@
 | 回复信绕开问题、证据不足，或把拟修改写成已完成 | [reviewer-response-writing](skills/reviewer-response-writing/SKILL.md) | 是否直接回答问题，证据是否对应，修改是否真实完成？ |
 | 源码已改，PDF、线上预览和提交状态却不确定 | [manuscript-release-check](skills/manuscript-release-check/SKILL.md) | 每一个“完成”到底由什么观察证明？ |
 
-不需要每次加载全部 12 个。先选择与当前问题最接近的入口；只有发现跨章节的问题时，再扩大审查范围。
+不需要每次加载全部 13 个。先选择与当前问题最接近的入口；只有发现跨章节的问题时，再扩大审查范围。
+
+## 自然表达、简洁句式与逻辑审查
+
+[academic-prose-editing](skills/academic-prose-editing/SKILL.md) 把“去 AI 味”落实到具体问题。删去没有信息的铺垫和夸赞，理清主语、动作与指代，检查相邻句子的推理是否成立，并合并承担同一解释任务的重复内容。不会靠生僻词替换、固定句长或作者身份判断来评价文字。
+
+正文和回复文本默认使用连贯段落，不用冒号引出解释，也不用破折号或两侧留空格的连字符在句中插入补充。术语内部的连字符，以及公式、负号、范围、比例、网址、原文引文和必要模板语法会保留。作者和期刊的明确要求优先。这套简版约定也已放入各专项 skill，单独安装时无需依赖另一个 skill。
+
+复杂句要在保留条件、例外和证据边界的前提下简化。摘要、独立图注和正文中承担不同任务的重述可以保留，已经连贯的动机段也不必改写。完整说明见[自然表达与逻辑审查指南](docs/prose-guide.md)。
+
+```text
+使用 $academic-prose-editing 检查并修改这段学术文字。
+先检查推理和句间衔接，再处理复杂句、模板化表达和重复信息。
+使用连贯段落，不使用解释性冒号或句中破折号。
+保留术语连字符、技术符号、原文引文、必要限制和已清楚的句子。
+不要通过改写提高结论强度，简要解释实质修改。
+```
 
 ## 审稿回复与正文分开写
 
@@ -92,7 +109,7 @@ npx skills add ChangChrisLiu/academic-writing-audit --list
 # 安装一个，按提示选择目标客户端。
 npx skills add ChangChrisLiu/academic-writing-audit --skill nondefensive-writing
 
-# 在当前项目中为 Codex 安装全部 12 个。
+# 在当前项目中为 Codex 安装全部 13 个。
 npx skills add ChangChrisLiu/academic-writing-audit --skill '*' -a codex
 ```
 
@@ -149,6 +166,8 @@ npx skills add ChangChrisLiu/academic-writing-audit --skill '*' -a codex
 [10 个专项 skill 的试用记录](evals/library/README.md)公开场景、语义标准和完整回答。这组对照本身已解决核心问题，因此不能据此声称专项 skill 提高了准确率。测试用于检查具体行为、保留失败和支持后续回归检查，不代表跨模型或跨学科有效性认证。
 
 回复写作 skill 已完成[七个领域、十次独立上下文的带 skill 试用](evals/reviewer-response-writing/transfer/README.md)，另由评估 agent 核对。保存的正文均未出现回应审稿人的口吻，并保留了作为研究对象的“reviewers”。两份初始回答中“未提供分析”被写成“分析不可用”的范围歧义，促成了针对性澄清和新上下文回归试用。完整回答、初始评估和明确标注的追问复核均公开。这些同一运行环境下的虚构案例没有无 skill 对照，不能证明所有模型或学科都适用。
+
+自然表达与逻辑审查更新完成了[三次独立上下文的带 skill 试用](evals/academic-prose-editing/README.md)，覆盖英文修订、中文只审查以及回复信与正文同步修改。另一位评估 agent 判定 16 项适用标准均满足，技术符号和引文得到保留，回复口吻没有进入正文。这组测试没有无 skill 对照，只说明已观察案例中的表现。
 
 ## 素材与贡献
 

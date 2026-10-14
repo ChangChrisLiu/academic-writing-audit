@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-14",
+  "design": "Three isolated guided tasks, followed by a separate fresh-context assessor. No unguided control or repeated run.",
+  "writer_context": "Each writer began with no parent turn history and received one fictional request, its frozen skill directory, and any initial manuscript in a separate temporary directory.",
+  "writer_restrictions": [
+    "Use only the case request and supplied skill with its references.",
+    "Do not read memory, other skills, rubric, other outputs, repository content, or network sources.",
+    "Write the requested deliverable and a relative-path execution record. No external actions."
+  ],
+  "trials": [
+    {
+      "case": "english-revision",
+      "agent_task": "prose_english_trial",
+      "skill": "academic-prose-editing",
+      "mode": "English proposed revision"
+    },
+    {
+      "case": "chinese-audit",
+      "agent_task": "prose_chinese_trial",
+      "skill": "academic-writing-audit",
+      "mode": "Chinese audit only"
+    },
+    {
+      "case": "paired-response",
+      "agent_task": "prose_response_trial",
+      "skill": "reviewer-response-writing",
+      "mode": "English actual isolated manuscript edit plus response letter"
+    }
+  ],
+  "assessor": {
+    "agent_task": "prose_independent_assessment",
+    "context": "Fresh context with rubric, requests, complete saved outputs and execution records only. No skills, writer reasoning history, parent conclusions, memory, or network.",
+    "judgment": "16 applicable checks pass; two response-boundary dimensions are inapplicable.",
+    "pending": "R1.3 in the paired fictional letter needs author confirmation before final use."
+  },
+  "runtime": "Same configured Codex host. No model override was requested or set; exact model and tool versions were not captured.",
+  "limits": [
+    "Only these three cases and entrypoints were behaviorally exercised for this change.",
+    "Writer execution logs are self-reports; checks establish saved content and file preservation, not complete tool-use provenance.",
+    "No controlled estimate of improvement, cross-model validation, whole-paper consistency trial, or AI-authorship detection.",
+    "No PDF build, rendering, venue submission, or real research experiment."
+  ]
+}

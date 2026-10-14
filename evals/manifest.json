@@ -23,5 +23,7 @@
     "skills/academic-writing-audit/references/examples.md": "32c7de0bb5f46024362ad1c8ede14704c3c792692fed81a40d1dd88e250705a4",
     "skills/academic-writing-audit/references/nondefensive-writing.md": "adf41a272ad855e7438417e5fc686130f4aea9289de89398efe35cc224cedfe3",
     "skills/academic-writing-audit/references/review-and-patching.md": "1fb83c635a693ba6f14a2256791417dae1975c1d56d41e72b67a178b8b369910"
-  }
+  },
+  "source_git_commit": "a3c5a235bd54e7ac8922340239fd1cdae3ff53a5",
+  "path_resolution": "Resolve files in source_git_commit; original file hashes are unchanged."
 }

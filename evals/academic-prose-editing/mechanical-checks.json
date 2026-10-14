@@ -1,0 +1,21 @@
+{
+  "english_motivation_verbatim": true,
+  "english_technical_paragraph_verbatim": true,
+  "protected_strings_preserved": [
+    "f: X → Y",
+    "a - b",
+    "1:2",
+    "10–15 °C",
+    "https://example.org/protocol",
+    "“Check: retain both channels — otherwise abstain.”"
+  ],
+  "paired_methods_verbatim": true,
+  "paired_panel_values_verbatim": true,
+  "paired_final_sentence_verbatim": true,
+  "paired_derived_arithmetic_checked": {
+    "mean_cross_batch": 7.1,
+    "mean_baseline": 6.1,
+    "difference_GPa": 1.0
+  },
+  "scope": "Text and source checks. No PDF build, rendered manuscript, or submission was tested. Punctuation and logical quality require contextual assessment."
+}

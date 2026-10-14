@@ -4,14 +4,14 @@
 
 <h1 align="center">Academic Writing Audit</h1>
 
-<p align="center"><strong>12 portable agent skills for scientific manuscripts and reviewer responses.</strong><br>
+<p align="center"><strong>13 portable agent skills for scientific manuscripts and reviewer responses.</strong><br>
 Reconstruct the argument, check the evidence, and change only what needs changing.</p>
 
 **中文简介｜学术论文写作与审稿回复 Skills**
 
-把科研写作中反复遇到的问题整理成 **12 个可独立使用的 AI agent skills**：学术逻辑检查、论证与证据核查、去防御性写作、实验比较、结果解释、图表审查，以及 **审稿意见回复、response letter 和 rebuttal 写作**。回复信逐点回应审稿人；论文正文直接解释研究，保留必要的限制与不确定性，避免写成答辩。提供通用 Markdown 指令，便于 Codex、Claude Code 等支持 skills 的客户端或其他能阅读 Markdown 的 agent 使用。
+把科研写作中反复遇到的问题整理成 **13 个可独立使用的 AI agent skills**，涵盖学术逻辑检查、论证与证据核查、去防御性写作、实验比较、结果解释、图表审查，以及 **审稿意见回复、response letter 和 rebuttal 写作**。新增 **去 AI 味、句式简化与冗余重复检查**，用具体的语义审查改善表达，保留科学含义和作者声音。生成的学术段落默认不用解释性冒号或句中破折号，保留术语连字符及技术符号。回复信逐点回应审稿人，论文正文直接解释研究。通用 Markdown 指令可供支持 skills 的客户端及其他能阅读 Markdown 的 agent 使用。
 
-[中文使用说明](README.zh-CN.md) · [审稿回复与正文写作指南](docs/rebuttal-guide.md) · [安装方法](#install)
+[中文使用说明](README.zh-CN.md) · [自然表达与逻辑审查](docs/prose-guide.md) · [审稿回复与正文写作指南](docs/rebuttal-guide.md) · [安装方法](#install)
 
 <p align="center">
   <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-943D32"></a>
@@ -55,6 +55,7 @@ Each folder is independently installable. You do not need to load the whole coll
 | When you encounter… | Skill | What it helps you produce |
 | --- | --- | --- |
 | A paper needing a complete editorial diagnosis | [academic-writing-audit](skills/academic-writing-audit/SKILL.md) | A structured scientific and editorial audit. |
+| Formulaic wording, tangled sentences, or repeated explanations | [academic-prose-editing](skills/academic-prose-editing/SKILL.md) | Natural paragraphs with clear reasoning and preserved scientific meaning. |
 | A missing bridge between problem, contribution, and evidence | [scientific-story-audit](skills/scientific-story-audit/SKILL.md) | A connected argument that preserves the contribution's scope. |
 | Rebuttal-like prose, repeated assurances, or piles of caveats | [nondefensive-writing](skills/nondefensive-writing/SKILL.md) | Direct explanations with necessary boundaries intact. |
 | A paper list, false categories, or an unsupported “first” | [related-work-synthesis](skills/related-work-synthesis/SKILL.md) | Source-supported comparison axes and bounded novelty claims. |
@@ -82,6 +83,22 @@ For concrete failure patterns and sample requests, see the [field guide](docs/fi
 > Incomplete measurements received an abstention rather than a concentration estimate and remained in the evaluation denominator. The study did not evaluate field operation.
 
 The accusation and reassurance disappear. The operative rule, denominator, and study boundary remain. A clear preceding motivation paragraph stays as written.
+
+## Natural prose and clear reasoning
+
+Use [academic-prose-editing](skills/academic-prose-editing/SKILL.md) to check formulaic phrasing, sentence complexity, local inference, and repeated meaning. Preserve stable terminology, necessary conditions, and useful motivation. Shorter sentences are helpful when they reduce the reader's burden, not when they erase the argument.
+
+Generated prose defaults to connected paragraphs without explanatory colons or sentence-interrupting dashes. Compound-word hyphens, scientific notation, ratios, ranges, URLs, exact quotations, and required templates remain intact. This is a configurable editorial preference. It is not an authorship test, and author or venue instructions take precedence. Each focused skill carries the core convention so it can work independently.
+
+```text
+Use $academic-prose-editing on this passage.
+Check logic, clause complexity, formulaic phrasing, and repeated propositions.
+Use connected paragraphs without explanatory colons or sentence-interrupting dashes.
+Keep compound hyphens, notation, exact quotations, and scientific conditions.
+Preserve sound passages and explain material changes briefly.
+```
+
+See the [Chinese prose guide](docs/prose-guide.md) for examples and the distinction between redundant repetition and useful restatement.
 
 ## Reviewer responses and manuscript prose
 
@@ -170,10 +187,12 @@ The repository includes fictional cases, semantic rubrics, and complete control/
 
 The response-writing skill has [ten guided executions across seven fictional domains](evals/reviewer-response-writing/transfer/README.md), including separate assessment agents. No reviewer-facing manuscript voice was found in these outputs. Two initial evidence-scope ambiguities prompted a targeted clarification and fresh regression runs. Full outputs, the original assessment, and its prompted reassessment are preserved. These same-host trials have no unguided controls and do not establish universal or cross-model effectiveness.
 
+The prose update has [three independent-context guided trials](evals/academic-prose-editing/README.md) covering English revision, Chinese audit-only work, and paired response/manuscript edits. A separate assessor found all 16 applicable checks satisfied, including technical punctuation preservation and the response/manuscript boundary. These cases are limited behavioral checks without an unguided control.
+
 The skills support reasoning and editing; the quality of a conclusion still depends on the sources and evidence available to the agent. Read [CONTRIBUTING.md](CONTRIBUTING.md) to propose an observed failure, a small repair, and a regression case.
 
 ```text
-skills/       12 standalone skills, optional examples, and client metadata
+skills/       13 standalone skills, optional examples, and client metadata
 docs/         Problem patterns and practical task prompts
 evals/        Synthetic cases, rubrics, observed responses, and manifests
 assets/       Generated promotional artwork, web copies, and exact prompts

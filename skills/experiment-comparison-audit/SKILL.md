@@ -40,6 +40,12 @@ Specify the intervention and what remains. Removing a source of examples differs
 
 State whether an ablation reuses full-system settings or retunes the reduced system. A removal comparison at one chosen setting answers a conditional question; it need not be discarded, but it does not automatically estimate the best reduced system or isolate selection's contribution. Combined changes do not identify each change's causal share.
 
+## Prose when drafting or revising
+
+Use connected paragraphs with concrete subjects and verbs. Remove empty staging and repeated assurances. Check the inference and referents between adjacent sentences. Simplify nested clauses while keeping conditions attached to their claims. Merge repeated propositions serving the same reader purpose, but retain necessary definitions, limitations, and standalone summaries. Keep technical terms stable. An “AI feel” is an editing concern, not an authorship finding.
+
+This library defaults to no explanatory colons or sentence-interrupting dashes in generated prose, including spaced hyphens and LaTeX dash syntax. Preserve compound-word hyphens, notation, minus signs, ranges, ratios, URLs, citations, exact quotations, and required templates. Author or venue instructions take precedence. Do not replace paragraphs with bullet fragments, mechanically erase punctuation, or impose a sentence-length quota. Apply these checks only within the requested task; a source or submission check does not itself authorize prose edits.
+
 ## Deliver the interpretation
 
 Return the actual comparison, consequential mismatches with the draft, and the conclusion the design supports. If wording is requested, give the smallest clear replacement and preserve supported controls and results. Keep source-removal, label-removal, and selection comparisons separately named.

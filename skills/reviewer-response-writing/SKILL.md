@@ -44,6 +44,12 @@ The response may say what a reviewer asked and what changed. The paper should ex
 
 Transfer the scientific substance into the passage where readers need it. Replace or integrate the relevant explanation instead of appending a second rebuttal paragraph. Preserve useful interpretation and consequential limitations. An appendix can hold supporting detail, but cannot substitute for a necessary main-text definition or hide a limitation that changes the conclusion.
 
+## Prose when drafting or revising
+
+Use connected paragraphs with concrete subjects and verbs. Remove empty staging and repeated assurances. Check the inference and referents between adjacent sentences. Simplify nested clauses while keeping conditions attached to their claims. Merge repeated propositions serving the same reader purpose, but retain necessary definitions, limitations, and standalone summaries. Keep technical terms stable. An “AI feel” is an editing concern, not an authorship finding.
+
+This library defaults to no explanatory colons or sentence-interrupting dashes in generated prose, including spaced hyphens and LaTeX dash syntax. Preserve compound-word hyphens, notation, minus signs, ranges, ratios, URLs, citations, exact quotations, and required templates. Author or venue instructions take precedence. Do not replace paragraphs with bullet fragments, mechanically erase punctuation, or impose a sentence-length quota. Apply these checks only within the requested task; a source or submission check does not itself authorize prose edits.
+
 ## Check the two deliverables
 
 Audit coverage, evidence scope, work-status language, and word/page constraints. For paired edits, check that the letter's stated changes exist in the intended manuscript version and that quoted text and locations match it. Source checks, compilation, render inspection, and submission are different completion states.

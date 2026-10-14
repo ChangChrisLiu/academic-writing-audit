@@ -24,6 +24,12 @@ Inventory the available representation: textual specification, editable source, 
 
 For example, a dataset may contain accepted images and excluded images kept for an audit. A single “all images → training” arrow misstates support even if the caption calls the archive comprehensive. Route the audit separately while preserving the useful overall organization.
 
+## Prose when drafting or revising
+
+Use connected paragraphs with concrete subjects and verbs. Remove empty staging and repeated assurances. Check the inference and referents between adjacent sentences. Simplify nested clauses while keeping conditions attached to their claims. Merge repeated propositions serving the same reader purpose, but retain necessary definitions, limitations, and standalone summaries. Keep technical terms stable. An “AI feel” is an editing concern, not an authorship finding.
+
+This library defaults to no explanatory colons or sentence-interrupting dashes in generated prose, including spaced hyphens and LaTeX dash syntax. Preserve compound-word hyphens, notation, minus signs, ranges, ratios, URLs, citations, exact quotations, and required templates. Author or venue instructions take precedence. Do not replace paragraphs with bullet fragments, mechanically erase punctuation, or impose a sentence-length quota. Apply these checks only within the requested task; a source or submission check does not itself authorize prose edits.
+
 ## Verify and report
 
 Return a short verdict, then each consequential mismatch as **element/location → implied claim → source evidence → smallest repair**. Provide a replacement caption or edit instructions when requested. State which valid elements should remain. Separate scientific repairs from optional visual preferences.

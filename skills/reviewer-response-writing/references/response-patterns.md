@@ -20,11 +20,17 @@ Preserve stable comment IDs and quote or faithfully summarize each request. Spli
 
 > **Comment [ID / faithful summary]**
 >
-> **Response:** [Direct answer, evidence, and any remaining boundary.]
+> **Response**
 >
-> **Change and location:** [Actual completed action and verified section/table/page/lines, or an explicit pending status.]
+> [Direct answer, evidence, and any remaining boundary.]
 >
-> **Revised text, when useful:** [Exact checked quotation from the intended version.]
+> **Change and location**
+>
+> [Actual completed action and verified section/table/page/lines, or an explicit pending status.]
+>
+> **Revised text, when useful**
+>
+> [Exact checked quotation from the intended version.]
 
 The template is optional. Follow the requested format and avoid repeating a lengthy passage when a precise location suffices. If pagination is not final, use a verified section or mark the page/line field pending. Once the final render exists, reconcile its locations with the letter.
 

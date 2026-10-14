@@ -33,6 +33,12 @@ Adapt the standard to the evidence. Check assumptions and derivation for a theor
 
 When an actual cited source is available, check whether it entails the attached proposition at the relevant level: background, association, mechanism, or result. Distinguish bibliographic validity from claim support. If the source is unavailable, mark entailment unverified; do not invent its contents or expand a bounded audit into an unsolicited literature search.
 
+## Prose when drafting or revising
+
+Use connected paragraphs with concrete subjects and verbs. Remove empty staging and repeated assurances. Check the inference and referents between adjacent sentences. Simplify nested clauses while keeping conditions attached to their claims. Merge repeated propositions serving the same reader purpose, but retain necessary definitions, limitations, and standalone summaries. Keep technical terms stable. An “AI feel” is an editing concern, not an authorship finding.
+
+This library defaults to no explanatory colons or sentence-interrupting dashes in generated prose, including spaced hyphens and LaTeX dash syntax. Preserve compound-word hyphens, notation, minus signs, ranges, ratios, URLs, citations, exact quotations, and required templates. Author or venue instructions take precedence. Do not replace paragraphs with bullet fragments, mechanically erase punctuation, or impose a sentence-length quota. Apply these checks only within the requested task; a source or submission check does not itself authorize prose edits.
+
 ## Return a usable decision
 
 Give prioritized findings with the claim location, evidence, consequence, and smallest justified repair. Use a compact claim-to-source table only when several claims would otherwise be confused. Identify supported passages worth keeping. If editing is requested, retain the endpoint, numbers, conditions, and author terminology while correcting the unsupported inference.

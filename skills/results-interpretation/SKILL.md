@@ -35,6 +35,12 @@ Retain counts and denominators where available. Distinguish percentage points fr
 
 Do not invent intervals, equivalence, significance, or pooled estimates. A supplied measurement may be exact as a count while its generalization remains uncertain. A successful endpoint cannot establish unmeasured safety, reliability, or universal deployment performance.
 
+## Prose when drafting or revising
+
+Use connected paragraphs with concrete subjects and verbs. Remove empty staging and repeated assurances. Check the inference and referents between adjacent sentences. Simplify nested clauses while keeping conditions attached to their claims. Merge repeated propositions serving the same reader purpose, but retain necessary definitions, limitations, and standalone summaries. Keep technical terms stable. An “AI feel” is an editing concern, not an authorship finding.
+
+This library defaults to no explanatory colons or sentence-interrupting dashes in generated prose, including spaced hyphens and LaTeX dash syntax. Preserve compound-word hyphens, notation, minus signs, ranges, ratios, URLs, citations, exact quotations, and required templates. Author or venue instructions take precedence. Do not replace paragraphs with bullet fragments, mechanically erase punctuation, or impose a sentence-length quota. Apply these checks only within the requested task; a source or submission check does not itself authorize prose edits.
+
 ## Return useful prose
 
 Respect whether the request is an audit or a rewrite. For an audit, identify consequential inference problems before proposing changes. For a rewrite, provide a coherent Results paragraph and briefly explain material changes. Preserve sound passages; do not restyle the author's voice without a reason.

@@ -30,6 +30,12 @@ Check comparators and ablations by their actual operations, not their names. Rem
 
 Convert defensive prose into informative content. “We emphasize that our comparison is fair” usually needs a concrete comparison definition, not a stronger assurance. Keep qualifications that change the claim's truth or scope. Remove reviewer-directed staging from the manuscript when its reader-facing substance can stand directly. Draft a response letter only when requested, and do not describe a proposed repair there as completed.
 
+## Prose when drafting or revising
+
+Use connected paragraphs with concrete subjects and verbs. Remove empty staging and repeated assurances. Check the inference and referents between adjacent sentences. Simplify nested clauses while keeping conditions attached to their claims. Merge repeated propositions serving the same reader purpose, but retain necessary definitions, limitations, and standalone summaries. Keep technical terms stable. An “AI feel” is an editing concern, not an authorship finding.
+
+This library defaults to no explanatory colons or sentence-interrupting dashes in generated prose, including spaced hyphens and LaTeX dash syntax. Preserve compound-word hyphens, notation, minus signs, ranges, ratios, URLs, citations, exact quotations, and required templates. Author or venue instructions take precedence. Do not replace paragraphs with bullet fragments, mechanically erase punctuation, or impose a sentence-length quota. Apply these checks only within the requested task; a source or submission check does not itself authorize prose edits.
+
 ## Deliver a useful triage
 
 Provide a concise overall judgment and, where several comments are involved, a compact mapping of **concern → current evidence/location → decision → smallest repair → unresolved dependency**. Prioritize scientific correctness and reader comprehension over stylistic preferences. Include explicit preserve/no-change decisions. Give replacement wording only for the authorized passages, with reasons tied to evidence.

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Academic Prose Editing"
+  short_description: "Clear, natural prose with logic and meaning intact"
+  default_prompt: "Use $academic-prose-editing to revise this passage for natural phrasing, clear logic, simpler sentences, and less repetition while preserving its scientific meaning."

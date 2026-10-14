@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-14",
+  "hash_algorithm": "SHA-256",
+  "scope": "Fictional prose cases, frozen input hashes, unedited writer and assessor outputs, and source preservation records. Paths are repository-relative.",
+  "files": {
+    "evals/academic-prose-editing/README.md": "bd5281ec90a5e3f3437a0bb80f1ce892b39ae4ae7211ed07079b5f5c6047d33e",
+    "evals/academic-prose-editing/assessments/assessment.json": "261bf5a50aaa0c7ca26541a23a763f79f341b097fadc6754b6a7f6d2b0a4d2f6",
+    "evals/academic-prose-editing/assessments/assessment.md": "f3097858fd61a670704082f8e179d056e0f0a6ae3ae3db442d24c47a73662fea",
+    "evals/academic-prose-editing/cases/chinese-audit.md": "0a4d21f4fa02dc84b4ecd1dc8228faf176fdac9695d6170ce394039c10c66e30",
+    "evals/academic-prose-editing/cases/english-revision.md": "fec37376ebae80e4984d119d7ca731c2c2f5d85ea20db3a85648ac0a01709d35",
+    "evals/academic-prose-editing/cases/paired-response.md": "50456103ecefccae5eb4ea5e1cdd62c0f7d0c13e01ff6e5e5685e6c5104e2d6a",
+    "evals/academic-prose-editing/design-freeze.json": "9ff8d8486ae821bff228a70dcab57fc7edada059004ab2f707b2dd330baf1cd1",
+    "evals/academic-prose-editing/mechanical-checks.json": "be2cda16d4120b98ecab59d82139cb417561dd567855a532d547d0d7fac49abd",
+    "evals/academic-prose-editing/results/chinese-audit/answer.md": "1efdef9485e1744d35297e1cc8b56435d19e745eac2057cc8c38ff8581c178c0",
+    "evals/academic-prose-editing/results/chinese-audit/execution.txt": "10c957da5db01c7799b1238ae245a0baabdcc4d0428ff39af500d7507e92cdf0",
+    "evals/academic-prose-editing/results/english-revision/answer.md": "1f3fed3b4635513efa74d71b67f58a1595181cfd520618db7a9ee315a08bc313",
+    "evals/academic-prose-editing/results/english-revision/execution.txt": "141423b9679d86d6be73b4d9b6a7cfe79507bcfde8ceeb960885f4346963f80f",
+    "evals/academic-prose-editing/results/paired-response/answer.md": "a25d1014c7f14fc9c44d1370c85415744dcfc4630db26222db1a0082febca321",
+    "evals/academic-prose-editing/results/paired-response/execution.txt": "82e7627b842da98d1b0cfafc789b4cee92392efb1ae3bf3c05e5992fca3423e4",
+    "evals/academic-prose-editing/results/paired-response/manuscript.md": "1d6b6f15d79caba52cfa29c371d9b5d5fac311f2a1af759691b724cd9f3d7c48",
+    "evals/academic-prose-editing/results/paired-response/response.md": "a83f5493f0ed7637bfac67891479a76b97f394875d17652200917d20c2bbbd1f",
+    "evals/academic-prose-editing/rubric.md": "47a6c131993be7ad5aebf611092b4f2039e42dd3e98f8766d00fbcf1e5aa56e0",
+    "evals/academic-prose-editing/run-metadata.json": "f61ce5a713e2ea87beb6acd76f1141c45d5bd2be6f264c606f59d0b76b15fd29"
+  }
+}
