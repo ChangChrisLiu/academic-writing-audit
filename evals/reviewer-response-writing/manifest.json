@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-14",
+  "hash_algorithm": "SHA-256",
+  "scope": "New response-writing skill and development fixtures only; no independent behavioral trial results. Paths are relative to the repository root.",
+  "files": {
+    "evals/reviewer-response-writing/cases.md": "e1c96f039ca7c08fc9149a194ae1e1a0499bf655a058e744e825666f42670586",
+    "evals/reviewer-response-writing/rubric.md": "59622e4152ddf2a62cb4c3e99b007c809f9ef4d0c7ac08813ec69bf88bc25f55",
+    "skills/reviewer-response-writing/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "skills/reviewer-response-writing/SKILL.md": "d4edfc35ef2e5890ef0765d9ae124dce2357b784efe66c42b9165502a18e6c34",
+    "skills/reviewer-response-writing/agents/openai.yaml": "bcf6b0e6180f0f2d6d60a8b19bc297762b3e8e05b31b280bf7b7683c369ec5d8",
+    "skills/reviewer-response-writing/references/manuscript-boundary.md": "185fe7c48eef295d2610024d58f707321c18cad1ea5161f114a0531a517cdba5",
+    "skills/reviewer-response-writing/references/response-patterns.md": "819653e3f77ae4a1ba2d749ebc746e39c247f964159bc4633fa6135bc2506a1d"
+  }
+}

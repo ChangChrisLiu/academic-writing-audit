@@ -2,7 +2,7 @@
 
 [Back to the library](../README.md) · [中文导航](../README.zh-CN.md#按问题选择-skill)
 
-These patterns are generalized editorial lessons. The examples below are fictional. Choose the skill for the problem you actually have; a narrow task does not require an eleven-stage review.
+These patterns are generalized editorial lessons. The examples below are fictional. Choose the skill for the problem you actually have; a narrow task does not require loading the entire collection.
 
 ## 1. The introduction loses the reason for the method
 
@@ -144,6 +144,23 @@ Distinguish what was inspected from what was merely clicked or reported.
 Preserve the latest source and return a recoverable handoff. Perform
 external publication only if it is within my authorized task.
 ```
+
+## 11. A strong rebuttal leaves the paper unclear
+
+**Pattern:** A reply groups major concerns and supplies new results, but overlooks a small threshold request. It describes a planned second study as finished, attributes a combined system's gain to one component, and copies “to address the reviewer's concern” into Methods. The paper's actual definition is still missing.
+
+**Repair:** Maintain comment-level coverage even when writing by theme. Lead with a direct answer and the evidence that actually addresses it. Keep original and additional studies separate, bound causal attribution, and distinguish completed work from proposals. Write the manuscript explanation separately and verify the letter against the intended source version.
+
+**Use [reviewer-response-writing](../skills/reviewer-response-writing/SKILL.md):**
+
+```text
+Draft a response to these comments using the supplied evidence and venue
+rules. Track every concrete request, including minor ones. Separate
+completed changes from proposals. Give any manuscript replacement in a
+separate block that explains the science without reviewer-facing framing.
+```
+
+Read the [中文回复写作指南](rebuttal-guide.md) for the two formats and paired examples.
 
 ## Combining skills
 

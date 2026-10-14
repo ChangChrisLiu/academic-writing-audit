@@ -4,9 +4,9 @@
 
 # Academic Writing Audit：学术论证与写作审查
 
-**11 个可独立使用的 agent skills，把论文修改中反复遇到的问题整理成可执行的判断方法。**
+**12 个可独立使用的 agent skills，把论文写作、逻辑审查和审稿回复中反复遇到的问题整理成可执行的判断方法。**
 
-[English](README.md) · [问题与修复示例](docs/field-guide.md) · [完整审查入口](skills/academic-writing-audit/SKILL.md) · [专项试用记录](evals/library/README.md) · [宣传素材](assets/README.md)
+[English](README.md) · [问题与修复示例](docs/field-guide.md) · [审稿回复指南](docs/rebuttal-guide.md) · [完整审查入口](skills/academic-writing-audit/SKILL.md) · [专项试用记录](evals/library/README.md) · [宣传素材](assets/README.md)
 
 先理解研究主线，再检查证据与推理，最后决定哪里需要改。审查后判断“这段原样保留”，同样是有价值的结果。
 
@@ -18,6 +18,7 @@
 | --- | --- | --- |
 | 第一次完整阅读一篇稿件 | [academic-writing-audit](skills/academic-writing-audit/SKILL.md) | 按重要性排列的问题、依据和保留项。 |
 | 已知具体写作问题 | 从下表选一个专项 skill | 有范围、有依据的替换或补丁。 |
+| 撰写 rebuttal 或逐点 response letter | [reviewer-response-writing](skills/reviewer-response-writing/SKILL.md) | 有依据的回应、准确的修改状态，以及单独撰写的正文修改。 |
 | 提交前检查版本和成品 | [manuscript-release-check](skills/manuscript-release-check/SKILL.md) | 已核实的源码、编译、渲染和发布状态。 |
 
 ```text
@@ -41,9 +42,22 @@
 | 公式和附录都有，但读者不知道方法做了什么 | [method-definition-audit](skills/method-definition-audit/SKILL.md) | 能否先用一句操作定义讲清，再核对顺序与参数？ |
 | 图、箭头、图注和成功定义含义不一致 | [figure-caption-audit](skills/figure-caption-audit/SKILL.md) | 图的每个连接是否有真实语义支持？ |
 | 审稿意见导致全文不断加解释、重复修补 | [reviewer-comment-triage](skills/reviewer-comment-triage/SKILL.md) | 当前稿还缺什么，最小修复应该放在哪里？ |
+| 回复信绕开问题、证据不足，或把拟修改写成已完成 | [reviewer-response-writing](skills/reviewer-response-writing/SKILL.md) | 是否直接回答问题，证据是否对应，修改是否真实完成？ |
 | 源码已改，PDF、线上预览和提交状态却不确定 | [manuscript-release-check](skills/manuscript-release-check/SKILL.md) | 每一个“完成”到底由什么观察证明？ |
 
-不需要每次加载全部 11 个。先选择与当前问题最接近的入口；只有发现跨章节的问题时，再扩大审查范围。
+不需要每次加载全部 12 个。先选择与当前问题最接近的入口；只有发现跨章节的问题时，再扩大审查范围。
+
+## 审稿回复与正文分开写
+
+新加入的 [reviewer-response-writing](skills/reviewer-response-writing/SKILL.md) 支持会议 **rebuttal / author response** 和期刊逐点 **response letter / 返修信**。方法来自实际回复写作及后续正文审查中反复遇到的问题；公开案例均为虚构，不包含原始审稿通信。
+
+- **回复信**：直接回答问题，给出对应证据，说明实际修改、位置或尚未解决的限制。相同问题可合并回答，但每条具体请求都要有去向。
+- **论文正文**：保留科学解释与证据边界，不写“为回应 Reviewer 2”“我们现已澄清”等回复口吻。把必要说明融入读者需要的位置，避免不断追加辩解。
+- **修改状态**：拟议文字、作者报告已完成、实际核对完成分别标明；不编造实验、数值、引用或页码行号。
+
+例如，核对 Methods 确已修改后，回复信可以写“我们已在 Methods 的 Comparators 小节补充基线的操作定义”。正文则直接写“该基线采用预设线性评分与固定组别系数，并拟合一个模型”。回复信说清修改，正文说清研究。
+
+完整方法、反例和中文提示词见 [审稿回复与正文写作指南](docs/rebuttal-guide.md)。
 
 ## 怎样理解“去防御性写作”
 
@@ -78,7 +92,7 @@ npx skills add ChangChrisLiu/academic-writing-audit --list
 # 安装一个，按提示选择目标客户端。
 npx skills add ChangChrisLiu/academic-writing-audit --skill nondefensive-writing
 
-# 在当前项目中为 Codex 安装全部 11 个。
+# 在当前项目中为 Codex 安装全部 12 个。
 npx skills add ChangChrisLiu/academic-writing-audit --skill '*' -a codex
 ```
 
@@ -89,6 +103,16 @@ npx skills add ChangChrisLiu/academic-writing-audit --skill '*' -a codex
 对于不能安装 skill 的 agent，提供 `SKILL.md` 及需要的参考文件，然后直接要求按文件中的方法完成任务。
 
 ## 可以直接复制的请求
+
+**Rebuttal / response letter 与正文修改**
+
+```text
+使用 $reviewer-response-writing，根据这些真实审稿意见、当前稿件和
+实验记录起草回复。遵守我提供的篇幅与投稿规则，先回答实质问题，
+再给证据、解释边界和修改位置；不要把计划写成已完成。
+单独列出建议的正文替换，正文不得出现回应 reviewer 的口吻。
+保留尚未解决的问题，不编造实验、阈值、引用或页码行号。
+```
 
 **有明确范围的修改**
 
@@ -123,6 +147,8 @@ npx skills add ChangChrisLiu/academic-writing-audit --skill '*' -a codex
 [最初的完整审查试用](evals/README.md)包含 5 次无 skill 对照、5 次带 skill 试用及 4 个迁移场景；在这个小样本中，带 skill 的回答更稳定地保留了一段已经连贯的研究动机。
 
 [10 个专项 skill 的试用记录](evals/library/README.md)公开场景、语义标准和完整回答。这组对照本身已解决核心问题，因此不能据此声称专项 skill 提高了准确率。测试用于检查具体行为、保留失败和支持后续回归检查，不代表跨模型或跨学科有效性认证。
+
+新增回复写作 skill 提供[开发场景与语义检查标准](evals/reviewer-response-writing/README.md)，尚无独立 agent 行为试用结果。格式、链接和打包检查不能替代有效性验证。
 
 ## 素材与贡献
 

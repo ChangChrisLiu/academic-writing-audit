@@ -4,8 +4,14 @@
 
 <h1 align="center">Academic Writing Audit</h1>
 
-<p align="center"><strong>11 portable agent skills for clearer scientific manuscripts.</strong><br>
+<p align="center"><strong>12 portable agent skills for scientific manuscripts and reviewer responses.</strong><br>
 Reconstruct the argument, check the evidence, and change only what needs changing.</p>
+
+**中文简介｜学术论文写作与审稿回复 Skills**
+
+把科研写作中反复遇到的问题整理成 **12 个可独立使用的 AI agent skills**：学术逻辑检查、论证与证据核查、去防御性写作、实验比较、结果解释、图表审查，以及 **审稿意见回复、response letter 和 rebuttal 写作**。回复信逐点回应审稿人；论文正文直接解释研究，保留必要的限制与不确定性，避免写成答辩。提供通用 Markdown 指令，便于 Codex、Claude Code 等支持 skills 的客户端或其他能阅读 Markdown 的 agent 使用。
+
+[中文使用说明](README.zh-CN.md) · [审稿回复与正文写作指南](docs/rebuttal-guide.md) · [安装方法](#install)
 
 <p align="center">
   <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-943D32"></a>
@@ -33,6 +39,7 @@ This library turns those recurring editorial decisions into small, reusable work
 | --- | --- | --- |
 | Understand what needs attention in a whole paper | [Academic writing audit](skills/academic-writing-audit/SKILL.md) | Prioritized findings, evidence, and passages to preserve. |
 | Repair a specific writing problem | [Choose a focused skill below](#choose-a-skill) | A bounded replacement or patch with a reason for each change. |
+| Write a rebuttal or revision response letter | [Reviewer response writing](skills/reviewer-response-writing/SKILL.md) | Evidence-grounded replies, accurate change status, and separately written manuscript edits. |
 | Check the final manuscript and handoff | [Manuscript release check](skills/manuscript-release-check/SKILL.md) | The verified source, build, render, and publication state. |
 
 ```text
@@ -57,6 +64,7 @@ Each folder is independently installable. You do not need to load the whole coll
 | A formula or appendix pointer that never explains the operation | [method-definition-audit](skills/method-definition-audit/SKILL.md) | Plain definitions consistent with the formal procedure. |
 | Arrows, captions, and endpoints that imply different things | [figure-caption-audit](skills/figure-caption-audit/SKILL.md) | Aligned visual semantics, labels, and captions. |
 | Reviewer comments becoming scattered or repetitive edits | [reviewer-comment-triage](skills/reviewer-comment-triage/SKILL.md) | Current-text diagnosis and a focused reader-facing repair. |
+| A rebuttal or response letter needing direct, supported answers | [reviewer-response-writing](skills/reviewer-response-writing/SKILL.md) | Concise or point-by-point replies, with evidence and verified revision locations. |
 | An old PDF, uncertain compilation, or unclear submission state | [manuscript-release-check](skills/manuscript-release-check/SKILL.md) | A precise verification record and usable handoff. |
 
 For concrete failure patterns and sample requests, see the [field guide](docs/field-guide.md).
@@ -74,6 +82,26 @@ For concrete failure patterns and sample requests, see the [field guide](docs/fi
 > Incomplete measurements received an abstention rather than a concentration estimate and remained in the evaluation denominator. The study did not evaluate field operation.
 
 The accusation and reassurance disappear. The operative rule, denominator, and study boundary remain. A clear preceding motivation paragraph stays as written.
+
+## Reviewer responses and manuscript prose
+
+Use the same evidence for two different purposes:
+
+| Deliverable | Its job | Fictional example, after the edit has been checked |
+| --- | --- | --- |
+| Rebuttal / response letter | Answer the concern and identify the action or remaining gap. | “We have added the comparator's operational definition to Methods, under ‘Comparators.’” |
+| Manuscript | Explain the research to a reader who has never seen the review. | “The comparator uses a predetermined linear score with fixed group multipliers and fits one model.” |
+
+The new skill draws on practical author-response work and subsequent manuscript audits: group shared questions without losing individual requests, define the actual comparison, separate studies, bound attribution, and verify promised revisions. Public examples are fictional. A clear reply does not substitute for a clear revised paper.
+
+```text
+Use $reviewer-response-writing to draft this rebuttal within the supplied
+venue rules. Map every comment to an answer and supporting evidence.
+Distinguish completed changes from proposals. Put any proposed manuscript
+text in a separate block, written for readers without reviewer references.
+```
+
+See the [中文回复写作指南](docs/rebuttal-guide.md) and [paired examples](skills/reviewer-response-writing/references/manuscript-boundary.md).
 
 ## Install
 
@@ -140,10 +168,12 @@ An audit returns findings. An authorized revision proceeds with bounded edits. A
 
 The repository includes fictional cases, semantic rubrics, and complete control/guided responses. The [original full-audit trials](evals/README.md) observed better preservation of a coherent paragraph in this small development sample. The [focused-skill trials](evals/library/README.md) also record cases where the controls already handled the core issues correctly. Neither establishes broad or cross-model effectiveness.
 
+The new response-writing skill has [development fixtures and semantic criteria](evals/reviewer-response-writing/README.md), with no independent behavioral trial results yet. Its packaging checks should not be read as evidence of effectiveness.
+
 The skills support reasoning and editing; the quality of a conclusion still depends on the sources and evidence available to the agent. Read [CONTRIBUTING.md](CONTRIBUTING.md) to propose an observed failure, a small repair, and a regression case.
 
 ```text
-skills/       11 standalone skills, optional examples, and client metadata
+skills/       12 standalone skills, optional examples, and client metadata
 docs/         Problem patterns and practical task prompts
 evals/        Synthetic cases, rubrics, observed responses, and manifests
 assets/       Generated promotional artwork, web copies, and exact prompts

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reviewer Response Writing"
+  short_description: "Write evidence-grounded rebuttals and response letters"
+  default_prompt: "Use $reviewer-response-writing to draft these reviewer responses from the supplied evidence and write any manuscript changes separately for readers."
