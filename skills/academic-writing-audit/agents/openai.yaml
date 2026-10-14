@@ -1,0 +1,4 @@
+interface:
+  display_name: "Academic Writing Audit"
+  short_description: "Review logic, evidence, and defensive manuscript prose"
+  default_prompt: "Use $academic-writing-audit to review this manuscript's logic, evidence boundaries, and defensive writing, preserving sound passages and proposing only justified changes."

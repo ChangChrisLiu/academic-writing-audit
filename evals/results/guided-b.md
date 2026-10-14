@@ -1,0 +1,9 @@
+P1: Inspection logs record both routine decisions and operator repairs. Their different roles make it difficult to use the logs as a coherent training resource. We combine routine records, failed attempts, and operator repairs to improve inspection decisions with limited labeled data.
+
+P2: The selected model achieved 68/80 successful trials, compared with 60/80 for the fixed-rule baseline, on the benchmark. The methods share the model family and nominal per-fit budget of 4,000 updates, but the selected model was chosen from five separately fitted settings, whereas the baseline used one fit; eligible training records also differ. The fixed-rule baseline uses a preset linear rule with source multipliers, whereas the learned family uses a normalized nonlinear evidence-to-weight mapping. Success required both a correct decision and escalation of uncertain cases before release; this endpoint was recorded in trial labels, and no real release occurred during evaluation. Labels were frozen before aggregate performance was calculated. In an independent shifted-lighting study, the full model achieved 46/80 successful trials, compared with 35/80 after removing repair records at the selected setting, indicating higher observed success with repair records in this study. The no-attempt variant removes all failed-attempt records while retaining routine and repair records and their operator-quality labels. Appendix B provides clipping bounds, fallback logic, and fixed-rule coefficients.
+
+- P1 原样保留：问题、整合难点与贡献之间的衔接已完整，删掉中间句会削弱动机。
+- 将“matched training budgets”限定为每次拟合的预算，并交代五次与一次拟合、训练记录资格不同；补上两种规则的实际操作，附录只承接参数细节。
+- 删除选择机制和特征识别的因果结论：现有比较未单独检验这些作用，也没有不确定性分析，保留观察到的数值差异。
+- 保留成功条件和标签冻结时点，删除重复自证与安全保证；说明评估没有实际放行，避免把记录的终点扩大为真实安全结果。
+- 明确光照变化研究独立于基准测试，且删除 repair records 的比较限于选定设置；no-attempt 删除的是失败记录，剩余记录仍保留 operator-quality labels，不能解释为标签消融。

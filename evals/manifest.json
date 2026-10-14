@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-14",
+  "hash_algorithm": "SHA-256",
+  "files": {
+    "evals/editorial-scenario.md": "e685dfea6701e1b710baf668f2840df6c37e52b2057312d8c65768886582a058",
+    "evals/results/baseline-a.md": "7cd397c9c867a2d0760857e8d01086ad47a390429d4ce119ab5feb418dd91fde",
+    "evals/results/baseline-b.md": "d5ddbba2f90ef0740ab5ff78125ff93671883b2dceb996fa0870eaa549bf43ae",
+    "evals/results/baseline-c.md": "75cd0c4400b29b134dc9f5ef658c8903d3db48fbe533acea6022007d57a2d059",
+    "evals/results/baseline-d.md": "a05228284d73a2fe028ac238c4feda7f55f716f6e829cedb8206db3e8d30f47b",
+    "evals/results/baseline-e.md": "b36b3606283f29ba29a559fadd1787661ae5ebdc8bbd8f70483897c16609589c",
+    "evals/results/guided-a.md": "92bc13a46712f1b0b6f92a383f00e2cc2cba41ab26b8c5e305f9522c73cfbd32",
+    "evals/results/guided-b.md": "33a3e9965a98294df536c028666af332bff12ec2c4840ad93da97726d62680ae",
+    "evals/results/guided-c.md": "d69c8c5b4a3e4fac5eb8688644f44a150569eda161da0f74184cbf1e53935fe6",
+    "evals/results/guided-d.md": "c5a4a2bf6c06c75d65643c014d9727f2cf396ced220a87fbd403e9de29b3cff5",
+    "evals/results/guided-e.md": "18857aee86db21aa8f5db4e4f19625eace6d221b683436456befe1f688cf25ad",
+    "evals/results/transfer.md": "42d1942f801cbc0c87d57fb41d571ab38f9b1b469bcaf041dbfbedaa1edd50b1",
+    "evals/rubric.md": "8f5192a62742f0a1ce917df6f3e3eee9feb3ae40d40811fedbe1c6a3300c8d36",
+    "evals/transfer-scenarios.md": "8b5a8d932125b10742fc658e67f192ab06e20f3eaecee187e1f8a5edeb007917",
+    "skills/academic-writing-audit/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "skills/academic-writing-audit/SKILL.md": "fa464f806056a3d7a1f9fccfa95816c20822aa1f134e78b397538b2875f1feb3",
+    "skills/academic-writing-audit/agents/openai.yaml": "e0f9d0070fcaad2d342eb1b0e0748049a291ecd5471ffe9e07cbc83784e160b8",
+    "skills/academic-writing-audit/references/argument-and-evidence.md": "897fd5332075511b6123216cb2a2b0187f83d9c0b63f3d97ec735d7eb9a6091d",
+    "skills/academic-writing-audit/references/examples.md": "32c7de0bb5f46024362ad1c8ede14704c3c792692fed81a40d1dd88e250705a4",
+    "skills/academic-writing-audit/references/nondefensive-writing.md": "adf41a272ad855e7438417e5fc686130f4aea9289de89398efe35cc224cedfe3",
+    "skills/academic-writing-audit/references/review-and-patching.md": "1fb83c635a693ba6f14a2256791417dae1975c1d56d41e72b67a178b8b369910"
+  }
+}

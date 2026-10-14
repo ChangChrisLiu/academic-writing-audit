@@ -1,0 +1,9 @@
+P1: Inspection logs record both routine decisions and operator repairs. Their different roles make it difficult to use the logs as a coherent training resource. We combine routine records, failed attempts, and operator repairs to improve inspection decisions with limited labeled data.
+
+P2: Success required both a correct decision and escalation of uncertain cases before release. Trial labels recorded this endpoint, with no real release during evaluation, and were frozen before aggregate performance was calculated. The selected model achieved 68/80 successful decisions, compared with 60/80 for the fixed-rule baseline. The baseline uses a preset linear rule with source multipliers; the learned family uses a normalized nonlinear evidence-to-weight mapping. The model family and nominal per-fit update budget were shared, but the selected model was chosen from five separately fitted settings of 4,000 updates each, versus one 4,000-update fit for the baseline, and eligible training records differed. In an independent shifted-lighting study, the full model achieved 46/80, compared with 35/80 after removing repair records at the selected setting. This comparison shows higher observed success with repair records at that setting; neither study isolates the effect of validation selection or individual evidence features. The no-attempt variant removes all failed-attempt records while retaining routine and repair records and their operator-quality labels. Appendix B provides clipping bounds, fallback logic, and fixed-rule coefficients.
+
+1. P1 原样保留：问题、整合难点与贡献衔接完整，删去第二句会削弱动机。
+2. 补明两种权重规则；把“预算匹配”改为每次拟合预算相同，并交代五次与一次拟合、训练记录资格不同（E1、E5）。
+3. 两项研究分开陈述，仅保留观察到的差异；删除选择机制、特征识别及泛化鲁棒性的无据归因，不添加显著性判断（E1、E2）。
+4. 保留成功判据与标签冻结事实，说明评估没有真实放行；删除强调语气、无据的“从未重标”及安全保证（E3）。
+5. 更正 no-attempt 的操作：删除失败尝试记录，保留其余记录上的质量标签；不补写未提供的结果，附录指向具体参数（E4、E5）。
