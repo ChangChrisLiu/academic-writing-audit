@@ -1,0 +1,37 @@
+-- Run only after the named test copy is opened through Word's normal file UI.
+-- This uses Word's native field API; saving is a separate, observed UI action.
+on run
+ set fixtureFile to POSIX file "/TEST_WORKDIR/native-working.docx" as alias
+ set fixtureHFS to fixtureFile as text
+ set auditLines to {"Native Word field refresh on already-open fixture"}
+ with timeout of 20 seconds
+  tell application "Microsoft Word"
+   set d to document "native-working.docx"
+   if full name of d is not fixtureHFS then error "Refusing to update a different document."
+   if (count of fields of d) is not 3 then error "Unexpected fixture field count."
+   set beforeCodes to {}
+   repeat with i from 1 to 3
+    set codeText to content of field code of field i of d
+    if codeText does not contain "CITATION Orchid2024" and codeText does not contain "CITATION Vale2025" and codeText does not contain "BIBLIOGRAPHY" then error "Unexpected field instruction."
+    if locked of field i of d then error "A fixture field is locked."
+    set end of beforeCodes to codeText
+    set end of auditLines to "BEFORE " & i & " " & codeText & " => " & (content of result range of field i of d)
+   end repeat
+   repeat with i from 1 to 3
+    set ok to update field (field i of d)
+    log "UPDATE " & i & " " & ok
+    set end of auditLines to "UPDATE " & i & " " & ok
+    if not ok then error "Word reported a failed field update."
+   end repeat
+   if (count of fields of d) is not 3 then error "Field count changed during update."
+   repeat with i from 1 to 3
+    set afterCode to content of field code of field i of d
+    if afterCode is not item i of beforeCodes then error "A field instruction changed."
+    set end of auditLines to "AFTER " & i & " " & afterCode & " => " & (content of result range of field i of d)
+   end repeat
+   set end of auditLines to "SAVE_PENDING explicit Word UI save and reopened-file inspection required"
+  end tell
+ end timeout
+ set AppleScript's text item delimiters to linefeed
+ return auditLines as text
+end run

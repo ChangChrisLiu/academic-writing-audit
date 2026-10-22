@@ -15,4 +15,6 @@
 
 For native DOCX inspection, use a field-aware document tool where possible. If inspecting the package, include the relevant document parts and relationships, tables, text boxes, footnotes/endnotes, and revision markup; a `document.xml` paragraph-only text extractor is not proof of full-document coverage. Never modify package XML merely to replace displayed citation text while leaving incompatible field data.
 
+When native Word is available, confirm the selected style in Word. A stored style label or numeric XML version alone may not identify the active style or edition. If accessibility text disagrees with a refreshed citation, reacquire the relevant region and compare the native page, native field result, and saved document before reporting a mapping failure or proposing a repair. Keep unresolved disagreement visible; do not rewrite a field just to make an older UI extract agree.
+
 A useful report separates style evidence, occurrence-to-entry findings, entry-to-occurrence findings, identity duplicates, field integrity, and unchecked regions. Avoid reporting a universal “all citations verified” when only formatting or visible text was inspected.

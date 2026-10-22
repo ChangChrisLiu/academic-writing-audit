@@ -216,7 +216,7 @@ npx skills add ChangChrisLiu/academic-writing-audit --skill '*' -a codex
 
 [文献真实性与引用核对试用](evals/reference-integrity/README.md)包含两位 agent 对同一组公开文献的独立实时检索，以及一次虚构 LaTeX 和 Word 格式案例审查。两位 agent 都保留了 Scholar 访问未完成的状态。格式试用检查重复论文、不同版本、引用键冲突和文档覆盖范围，不代表 Scholar 导出、LaTeX 编译或原生 Word 文档已经验证。
 
-[文献工作流执行测试](evals/reference-workflow/README.md)新增两位 agent 各自完成的 Scholar 检索与原始出版信息核对、实际 Cite → BibTeX 导出，以及编译并查看页面后的 LaTeX 去重修复。Scholar 未导出的已核实 DOI 得到保留。原生 Word 测试文档保留了来源身份和引用域，但界面在选择文件前超时，因此打开、刷新和保存均未确认。这些有限案例不代表普遍可靠性。
+[文献工作流执行测试](evals/reference-workflow/README.md)新增两位 agent 各自完成的 Scholar 检索与原始出版信息核对、实际 Cite → BibTeX 导出，以及编译并查看页面后的 LaTeX 去重修复。Scholar 未导出的已核实 DOI 得到保留。该记录保留了首次 Word 操作受阻的状态，后续的[原生 Word 刷新测试](evals/word-native-refresh/README.md)已在选择 APA 第六版后完成刷新、保存和重新打开核对。正文与表格的两处引用分别对应文末两条文献，三个原生域及两个来源身份均保留。这个构造案例不代表其他引用管理器集成或普遍可靠性已经验证。
 
 ## 素材与贡献
 

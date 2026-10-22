@@ -1,0 +1,6 @@
+REOPEN_CONFIRMED native-working.docx
+SAVED true
+FIELD_COUNT 3
+FIELD 1  CITATION Orchid2024 \l 1033  =>  (Orchid, 2024)
+FIELD 2  CITATION Vale2025 \l 1033  =>  (Vale, 2025)
+FIELD 3  BIBLIOGRAPHY \l 1033  => Orchid, A. (2024). The Imaginary Copper Orchard. Testville: Fictional Methods Press.Vale, B. (2025). The Invented Paper Observatory. Exampleton: Fictional Methods Press.

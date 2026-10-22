@@ -1,0 +1,35 @@
+-- Proposed bounded native Word test. Not executed before user authorization.
+-- Only the isolated fixture is opened, updated, and saved to a new output.
+on run
+    set fixtureFile to POSIX file "/TEST_WORKDIR/native-working.docx" as alias
+    set fixtureHFS to fixtureFile as text
+    set outputHFS to (POSIX file "/TEST_WORKDIR/native-refreshed.docx") as text
+    set auditLines to {"Native Word field refresh probe"}
+    with timeout of 30 seconds
+        tell application "Microsoft Word"
+            open file name fixtureHFS add to recent files false
+            set testDoc to document "native-working.docx"
+            if full name of testDoc is not fixtureHFS then error "Refusing to update a different document."
+            if (count of fields of testDoc) is not 3 then error "Unexpected fixture field count."
+            repeat with i from 1 to 3
+                set codeText to content of field code of field i of testDoc
+                if codeText does not contain "CITATION Orchid2024" and codeText does not contain "CITATION Vale2025" and codeText does not contain "BIBLIOGRAPHY" then error "Unexpected field instruction."
+                if locked of field i of testDoc then error "A fixture field is locked."
+                set end of auditLines to "BEFORE " & i & " " & codeText & " => " & (content of result range of field i of testDoc)
+            end repeat
+            repeat with i from 1 to 3
+                set ok to update field (field i of testDoc)
+                set end of auditLines to "UPDATE " & i & " " & ok
+                if not ok then error "Word reported a failed field update."
+            end repeat
+            if (count of fields of testDoc) is not 3 then error "Field count changed during update."
+            repeat with i from 1 to 3
+                set end of auditLines to "AFTER " & i & " " & (content of field code of field i of testDoc) & " => " & (content of result range of field i of testDoc)
+            end repeat
+            save as testDoc file name outputHFS file format format document add to recent files false
+            set end of auditLines to "SAVE " & (saved of testDoc)
+        end tell
+    end timeout
+    set AppleScript's text item delimiters to linefeed
+    return auditLines as text
+end run

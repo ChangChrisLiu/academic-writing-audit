@@ -1,0 +1,1 @@
+/TEST_WORKDIR/native-refresh.applescript:537:588: execution error: Microsoft Word got an error: AppleEvent timed out. (-1712)

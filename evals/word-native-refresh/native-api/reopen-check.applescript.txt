@@ -1,0 +1,22 @@
+-- Check persistence by closing only the saved test document and reopening it in Word.
+on run
+ set fixtureFile to POSIX file "/TEST_WORKDIR/native-working.docx" as alias
+ set fixtureHFS to fixtureFile as text
+ with timeout of 20 seconds
+  tell application "Microsoft Word"
+   set d to document "native-working.docx"
+   if full name of d is not fixtureHFS then error "Wrong document."
+   if not (saved of d) then error "Test document must be saved before closing."
+   close d saving no
+   open file name fixtureHFS add to recent files false
+   set d to document "native-working.docx"
+   if full name of d is not fixtureHFS then error "Wrong reopened document."
+   set rows to {"REOPEN_CONFIRMED native-working.docx", "SAVED " & (saved of d), "FIELD_COUNT " & (count fields of d)}
+   repeat with i from 1 to count fields of d
+    set end of rows to "FIELD " & i & " " & (content of field code of field i of d) & " => " & (content of result range of field i of d)
+   end repeat
+  end tell
+ end timeout
+ set AppleScript's text item delimiters to linefeed
+ return rows as text
+end run

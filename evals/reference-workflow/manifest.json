@@ -20,5 +20,7 @@
     "skills/word-citation-audit/agents/openai.yaml": "7076f33e8a22ad5b2a94dc2a92c6368c0cc698c3c2ff70a68641ede9ca0e3946",
     "skills/word-citation-audit/references/matching-and-coverage.md": "d379b483344685354833ea6fea1b1485f50bdafb70bc462f9704d19cf5450b79",
     "skills/word-citation-audit/references/reference-ledger.md": "c6c5b5f81bb3926dbe942a954c04dd2564cdc7a9542cf85b8a011826efc1140a"
-  }
+  },
+  "source_git_commit": "aa1f52125f6de669ac07cec5745362567a808cc1",
+  "resolution": "Resolve recorded file hashes against this historical Git commit. Hashes remain unchanged as the current skill and follow-up records evolve."
 }

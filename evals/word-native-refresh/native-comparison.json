@@ -1,0 +1,49 @@
+{
+  "scope": "Constructed two-source fixture; these structural/display checks require a separate actual native execution record and visual review.",
+  "before_sha256": "bc6d242cf9051a8af340212cc0898984fe05efd92d52b36931e7eaccf49896bb",
+  "after_sha256": "f92e1a6f2bd0ee1b1deac507bb21cb449cbea0277519f76574fe1db21f59fdb9",
+  "checks": {
+    "source_identities_preserved": true,
+    "field_instructions_preserved": true,
+    "no_unexpected_fields": true,
+    "citation_and_bibliography_targets_preserved": true,
+    "two_citation_fields_and_one_bibliography": true,
+    "fields_structurally_complete": true,
+    "no_pending_caches": true,
+    "body_and_table_citation_regions_preserved": true,
+    "displayed_citations_match_sources": true,
+    "each_citation_has_one_bibliography_entry": true,
+    "each_embedded_source_is_cited": true
+  },
+  "mappings": [
+    {
+      "source_tag": "Orchid2024",
+      "region": "body",
+      "field_code": "CITATION Orchid2024 \\l 1033",
+      "displayed_citation": " (Orchid, 2024)",
+      "citation_matches_source": true,
+      "reference_entry_present": true,
+      "title_occurrences_in_bibliography": 1
+    },
+    {
+      "source_tag": "Vale2025",
+      "region": "table",
+      "field_code": "CITATION Vale2025 \\l 1033",
+      "displayed_citation": " (Vale, 2025)",
+      "citation_matches_source": true,
+      "reference_entry_present": true,
+      "title_occurrences_in_bibliography": 1
+    }
+  ],
+  "bibliography_display": "Orchid, A. (2024). The Imaginary Copper Orchard. Testville: Fictional Methods Press.Vale, B. (2025). The Invented Paper Observatory. Exampleton: Fictional Methods Press.",
+  "configured_source_style": [
+    {
+      "SelectedStyle": "/APASixthEditionOfficeOnline.xsl",
+      "StyleName": "APA",
+      "Version": "6"
+    }
+  ],
+  "style_edition": "Not inferred from XML version number or parenthetical appearance.",
+  "unexpected_fields": [],
+  "all_static_checks_pass": true
+}

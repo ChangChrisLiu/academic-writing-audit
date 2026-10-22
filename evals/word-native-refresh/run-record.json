@@ -1,0 +1,48 @@
+{
+  "run_date": "2026-10-22",
+  "baseline_commit": "aa1f52125f6de669ac07cec5745362567a808cc1",
+  "evaluation_kind": "Single same-agent operational continuation, not an independent behavioral comparison",
+  "word": {
+    "version": "16.114.1",
+    "build": "16.114.26102031",
+    "platform": "macOS",
+    "document_mode": "Compatibility Mode",
+    "selected_style": "APA Sixth Edition",
+    "style_evidence": "Selected via native Word menu; saved SelectedStyle is /APASixthEditionOfficeOnline.xsl"
+  },
+  "native_operations": {
+    "opened_exact_fixture": true,
+    "field_updates_reported_success": 3,
+    "saved_via_word_save_command": true,
+    "reopened_saved_working_document": true,
+    "post_reopen_saved_property": true,
+    "post_reopen_field_count": 3,
+    "native_reopen_script_exit_success": false,
+    "native_reopen_script_failure": "Reporting variable rows collided with Word terminology after close/open completed; separate read-only script verified reopened file successfully.",
+    "read_only_post_reopen_verification_exit_code": 0,
+    "native_save_as_success": false,
+    "native_saved_working_copy_sha256": "f92e1a6f2bd0ee1b1deac507bb21cb449cbea0277519f76574fe1db21f59fdb9",
+    "after_artifact_is_byte_identical_filesystem_copy": true
+  },
+  "evidence": {
+    "native_before": "native-before.png",
+    "native_after_reopen": "native-reopened.png",
+    "repeat_refresh_log": "native-api/refresh.stdout.txt",
+    "reopened_native_fields": "native-api/reopened.stdout.txt",
+    "static_mapping": "native-comparison.json",
+    "static_assertions_passed": 11,
+    "secondary_layout_engine": "Bundled document renderer using LibreOffice; not native refresh evidence",
+    "secondary_render_pages": 1,
+    "native_and_secondary_pages_visually_inspected": true
+  },
+  "scope": {
+    "fictional_sources": 2,
+    "body_citations": 1,
+    "table_citations": 1,
+    "bibliography_fields": 1,
+    "authenticity_checked": false,
+    "real_manuscript_modified": false,
+    "independent_assessor": false,
+    "other_citation_managers_tested": false
+  }
+}

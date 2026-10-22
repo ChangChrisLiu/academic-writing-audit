@@ -1,0 +1,11 @@
+Native Word field refresh on already-open fixture
+BEFORE 1  CITATION Orchid2024 \l 1033  =>  (Orchid, 2024)
+BEFORE 2  CITATION Vale2025 \l 1033  =>  (Vale, 2025)
+BEFORE 3  BIBLIOGRAPHY \l 1033  => Orchid, A. (2024). The Imaginary Copper Orchard. Testville: Fictional Methods Press.Vale, B. (2025). The Invented Paper Observatory. Exampleton: Fictional Methods Press.
+UPDATE 1 true
+UPDATE 2 true
+UPDATE 3 true
+AFTER 1  CITATION Orchid2024 \l 1033  =>  (Orchid, 2024)
+AFTER 2  CITATION Vale2025 \l 1033  =>  (Vale, 2025)
+AFTER 3  BIBLIOGRAPHY \l 1033  => Orchid, A. (2024). The Imaginary Copper Orchard. Testville: Fictional Methods Press.Vale, B. (2025). The Invented Paper Observatory. Exampleton: Fictional Methods Press.
+SAVE_PENDING explicit Word UI save and reopened-file inspection required

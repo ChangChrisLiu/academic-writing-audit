@@ -1,0 +1,48 @@
+{
+  "transforms": [
+    {
+      "file": "native-api/native-refresh.applescript.txt",
+      "original_sha256": "084bc6ddb79819abafefa8c668eb62e3b1be1c93a609ffdcd5c1ccc3443e1c49",
+      "public_sha256": "38721530f4f6659e1274f74f22f7f5180980efcad91a3c9f7e22e4d38c33041c",
+      "transformation": "Local scratch directory replaced with /TEST_WORKDIR; no other change."
+    },
+    {
+      "file": "native-api/refresh-open.applescript.txt",
+      "original_sha256": "bc8ddaa65517fbf7d57706e36901deac2b94c1122431cf6f5d15938bf83e2148",
+      "public_sha256": "8ffd0ebcdb74af736c5fe7e0d73c6286f0ca066a789a08953758e066b1796867",
+      "transformation": "Local scratch directory replaced with /TEST_WORKDIR; no other change."
+    },
+    {
+      "file": "native-api/reopen-check.applescript.txt",
+      "original_sha256": "109c6c61ef25eb8607e6c238ace7515ab82db22b0af482b0250cdb51338a0c61",
+      "public_sha256": "da8f27f0455565c6a24e5ed12350b853b529d60c229c0aa02f8093e9112f7362",
+      "transformation": "Local scratch directory replaced with /TEST_WORKDIR; no other change."
+    },
+    {
+      "file": "native-api/verify-reopened.applescript.txt",
+      "original_sha256": "76ac236773f8450179791b9b9b3f6e8d6e268cc156824815e06f97268b571008",
+      "public_sha256": "ac61cbee945a07228130c4661ec354259ca7e8d5cf5fb3cc7abecccd3cc07e02",
+      "transformation": "Local scratch directory replaced with /TEST_WORKDIR; no other change."
+    },
+    {
+      "file": "native-api/native-execution-2.stderr.txt",
+      "original_sha256": "641cc91bf91ff85bdce646ae175553cddd8e46c3eed750f356127005a0d8e67b",
+      "public_sha256": "3622a88fac83d741aa2d70c7912a0e5bb0238717d2b6f9fc18ff48b4e4376886",
+      "transformation": "Local scratch directory replaced with /TEST_WORKDIR; no other change."
+    },
+    {
+      "file": "native-api/native-execution-3.stderr.txt",
+      "original_sha256": "c4559df95d22d5123166aea9c0c04b75684c37f13439bcc9f8852bf5f5dc0c31",
+      "public_sha256": "ea1a07bab0cb7a293a87608d21fe71fa86c23118e8808bef8f0d720707ddd29f",
+      "transformation": "Local scratch directory replaced with /TEST_WORKDIR; no other change."
+    },
+    {
+      "file": "native-api/native-reopen.stderr.txt",
+      "original_sha256": "530050ad5b3ead443f5db029560b0d9881a42fcea5d80aa40e1ab3c39fce2923",
+      "public_sha256": "fbf301b50738b5355f4f81dd4797c48cc07088d0652add5a3f9173693dbd83d0",
+      "transformation": "Local scratch directory replaced with /TEST_WORKDIR; no other change."
+    }
+  ],
+  "docx": "Both DOCX files and native screenshots are copied byte for byte. No citation cache, field, source, or package metadata was modified for publication. The Word-saved copy retains the public repository author name in lastModifiedBy.",
+  "after_copy": "native-refreshed.docx is a byte-for-byte filesystem copy of the file saved by Word, not a successful native Save As result."
+}

@@ -1,0 +1,187 @@
+{
+  "file": "native-refreshed.docx",
+  "sha256": "f92e1a6f2bd0ee1b1deac507bb21cb449cbea0277519f76574fe1db21f59fdb9",
+  "source_parts": [
+    {
+      "part": "customXml/item1.xml",
+      "attributes": {
+        "SelectedStyle": "/APASixthEditionOfficeOnline.xsl",
+        "StyleName": "APA",
+        "Version": "6"
+      },
+      "sources": [
+        {
+          "tag": "Orchid2024",
+          "guid": "{11111111-1111-4111-8111-111111111111}",
+          "type": "Book",
+          "authors": [
+            {
+              "first": "Ada",
+              "last": "Orchid"
+            }
+          ],
+          "title": "The Imaginary Copper Orchard",
+          "year": "2024",
+          "city": "Testville",
+          "publisher": "Fictional Methods Press"
+        },
+        {
+          "tag": "Vale2025",
+          "guid": "{22222222-2222-4222-8222-222222222222}",
+          "type": "Book",
+          "authors": [
+            {
+              "first": "Bram",
+              "last": "Vale"
+            }
+          ],
+          "title": "The Invented Paper Observatory",
+          "year": "2025",
+          "city": "Exampleton",
+          "publisher": "Fictional Methods Press"
+        }
+      ]
+    }
+  ],
+  "fields": [
+    {
+      "part": "word/document.xml",
+      "path": "/w:document/w:body/w:p[3]/w:r[2]/w:fldChar",
+      "region": "body",
+      "instruction": "CITATION Orchid2024 \\l 1033",
+      "cache": " (Orchid, 2024)",
+      "has_separator": true,
+      "closed": true,
+      "locked": null,
+      "dirty": null
+    },
+    {
+      "part": "word/document.xml",
+      "path": "/w:document/w:body/w:tbl/w:tr[2]/w:tc[2]/w:p/w:r[1]/w:fldChar",
+      "region": "table",
+      "instruction": "CITATION Vale2025 \\l 1033",
+      "cache": " (Vale, 2025)",
+      "has_separator": true,
+      "closed": true,
+      "locked": null,
+      "dirty": null
+    },
+    {
+      "part": "word/document.xml",
+      "path": "/w:document/w:body/w:p[6]/w:r[1]/w:fldChar",
+      "region": "body",
+      "instruction": "BIBLIOGRAPHY \\l 1033",
+      "cache": "Orchid, A. (2024). The Imaginary Copper Orchard. Testville: Fictional Methods Press.Vale, B. (2025). The Invented Paper Observatory. Exampleton: Fictional Methods Press.",
+      "has_separator": true,
+      "closed": true,
+      "locked": null,
+      "dirty": null
+    }
+  ],
+  "visible_paragraphs": [
+    {
+      "part": "word/document.xml",
+      "path": "/w:document/w:body/w:p[1]",
+      "text": "Native Word citation refresh fixture"
+    },
+    {
+      "part": "word/document.xml",
+      "path": "/w:document/w:body/w:p[2]",
+      "text": "This fictional document tests native Word source identities and field refresh. Its source records are invented and are not evidence for a research claim."
+    },
+    {
+      "part": "word/document.xml",
+      "path": "/w:document/w:body/w:p[3]",
+      "text": "Body citation to the orchard source  (Orchid, 2024)."
+    },
+    {
+      "part": "word/document.xml",
+      "path": "/w:document/w:body/w:p[4]",
+      "text": "Table 1  Citation outside the body paragraph"
+    },
+    {
+      "part": "word/document.xml",
+      "path": "/w:document/w:body/w:tbl/w:tr[1]/w:tc[1]/w:p",
+      "text": "Region"
+    },
+    {
+      "part": "word/document.xml",
+      "path": "/w:document/w:body/w:tbl/w:tr[1]/w:tc[2]/w:p",
+      "text": "Citation"
+    },
+    {
+      "part": "word/document.xml",
+      "path": "/w:document/w:body/w:tbl/w:tr[2]/w:tc[1]/w:p",
+      "text": "Table cell"
+    },
+    {
+      "part": "word/document.xml",
+      "path": "/w:document/w:body/w:tbl/w:tr[2]/w:tc[2]/w:p",
+      "text": " (Vale, 2025)"
+    },
+    {
+      "part": "word/document.xml",
+      "path": "/w:document/w:body/w:p[5]",
+      "text": "Bibliography"
+    },
+    {
+      "part": "word/document.xml",
+      "path": "/w:document/w:body/w:p[6]",
+      "text": "Orchid, A. (2024). The Imaginary Copper Orchard. Testville: Fictional Methods Press."
+    },
+    {
+      "part": "word/document.xml",
+      "path": "/w:document/w:body/w:p[7]",
+      "text": "Vale, B. (2025). The Invented Paper Observatory. Exampleton: Fictional Methods Press."
+    },
+    {
+      "part": "word/document.xml",
+      "path": "/w:document/w:body/w:p[8]",
+      "text": ""
+    },
+    {
+      "part": "word/document.xml",
+      "path": "/w:document/w:body/w:p[9]",
+      "text": "Fixture boundaries: two source records, two citation occurrences, one bibliography field, no tracked revisions, notes, text boxes, or appendices."
+    }
+  ],
+  "revision_counts": {
+    "word/document.xml": {
+      "insertions": 0,
+      "deletions": 0
+    },
+    "word/theme/theme1.xml": {
+      "insertions": 0,
+      "deletions": 0
+    },
+    "word/settings.xml": {
+      "insertions": 0,
+      "deletions": 0
+    },
+    "word/numbering.xml": {
+      "insertions": 0,
+      "deletions": 0
+    },
+    "word/styles.xml": {
+      "insertions": 0,
+      "deletions": 0
+    },
+    "word/webSettings.xml": {
+      "insertions": 0,
+      "deletions": 0
+    },
+    "word/fontTable.xml": {
+      "insertions": 0,
+      "deletions": 0
+    }
+  },
+  "inspected_word_xml_parts": [
+    "word/document.xml",
+    "word/theme/theme1.xml",
+    "word/settings.xml",
+    "word/numbering.xml",
+    "word/styles.xml",
+    "word/webSettings.xml",
+    "word/fontTable.xml"
+  ]
+}

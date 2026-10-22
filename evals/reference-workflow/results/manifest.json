@@ -91,5 +91,7 @@
     "evals/reference-workflow/reconciliation.md": "290e0ef6d32110391f25206bef5964156935711f5f3d3dcf0866c3f007e3d016",
     "evals/reference-workflow/rubric.md": "172e7ddeacbea0aecb5f2ce00e09f8a45536998717c91a563f3b0490c09849a6",
     "evals/reference-workflow/run-metadata.json": "77768a6d1a8d6b6ce1073343787ff1b13bb9ded38bf011c022f6540da1ee7046"
-  }
+  },
+  "source_git_commit": "aa1f52125f6de669ac07cec5745362567a808cc1",
+  "resolution": "Resolve recorded file hashes against this historical Git commit. Hashes remain unchanged as the current skill and follow-up records evolve."
 }
