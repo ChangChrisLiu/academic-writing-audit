@@ -252,6 +252,8 @@ The [reference-integrity trials](evals/reference-integrity/README.md) include tw
 
 The [reference-workflow execution checks](evals/reference-workflow/README.md) add two completed independent Scholar-first and primary-source checks, an actual Cite → BibTeX export, and a compiled/rendered LaTeX duplicate repair that retains a verified DOI omitted from the export. That record retains the initial blocked Word attempt. The [native Word follow-up](evals/word-native-refresh/README.md) completed refresh, save, and reopen verification with APA Sixth Edition selected. Both body/table citations match their two bibliography entries, and all three native fields and both source identities remain intact. This constructed fixture does not validate other citation-manager integrations or establish general reliability.
 
+The [Word citation transfer checks](evals/word-citation-transfer/README.md) add two independent guided audits and a no-citation-skill control covering same-author/year labels, real footnotes, captions, uncited entries, and partial exports. A separate agent assessed their reports and actual files. All three preserved the seven fields during a narrow prose edit and reached the expected mapping decisions. The control also passed, so these small trials establish no measured skill advantage. The skill instructions were retained unchanged.
+
 The skills support reasoning and editing; the quality of a conclusion still depends on the sources and evidence available to the agent. Read [CONTRIBUTING.md](CONTRIBUTING.md) to propose an observed failure, a small repair, and a regression case.
 
 ```text

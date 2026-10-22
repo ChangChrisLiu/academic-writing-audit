@@ -1,0 +1,6 @@
+{
+  "case-a_original_sha256_unchanged": true,
+  "case-b_original_sha256_unchanged": true,
+  "revised_b_unchanged_by_render": true,
+  "case_c_sha256": "e01810dfc03da2bd5013ffba7ceb6ee48c7852433eb2897bd8edafceefa8b06b"
+}

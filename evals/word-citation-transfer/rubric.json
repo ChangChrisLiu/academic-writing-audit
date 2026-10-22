@@ -1,0 +1,39 @@
+{
+  "A": {
+    "findings": [
+      "ValeA field identity conflicts with displayed 2024b while reference entry is 2024a",
+      "ValeB has identified source but displayed 2024 lacks required b suffix",
+      "NgNote cited in real footnote; do not call uncited",
+      "ImaniCaption cited in caption; do not call uncited",
+      "MarinUnused is in main reference list with no citation in full fixture",
+      "SatoReading legitimately uncited in Further reading",
+      "LumenLibrary is embedded but absent from displayed bibliography; not an unused list entry",
+      "two Vale works are distinct publications, not duplicates",
+      "SEQ/REF fields and footnote marker are not bibliographic citations"
+    ],
+    "required_preservation": "original case-a.docx byte identical; no refresh/edit"
+  },
+  "B": {
+    "findings": [
+      "two Ellis same-year works correctly disambiguated",
+      "Paz footnote and Kline caption are citations",
+      "no uncited main reference entries",
+      "Huang allowed Further reading; Dane embedded-only not a displayed list item"
+    ],
+    "edit": "Only containss -> contains in ordinary prose; preserve all 7 fields including 4 citations, bibliography, sequence, and cross-reference; preserve source IDs, footnote relationship and bookmark"
+  },
+  "C": {
+    "findings": [
+      "Chen 2023 ambiguous between two references; no arbitrary target or merge",
+      "no whole-document uncited verdict; Reed and unassigned Chen entries only unobserved in inspected portion",
+      "no native-field, style-selection, or refresh claim from text export"
+    ]
+  },
+  "all": {
+    "requirements": [
+      "no fabricated authenticity/claim-support verdict",
+      "clear distinction between source library, displayed list, and occurrence inventories",
+      "counts specify units and inspected regions"
+    ]
+  }
+}

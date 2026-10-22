@@ -1,0 +1,199 @@
+<w:document xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:mo="http://schemas.microsoft.com/office/mac/office/2008/main" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mv="urn:schemas-microsoft-com:mac:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" mc:Ignorable="w14 wp14">
+  <w:body>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Title"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Collection record methods</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:r>
+        <w:t>This constructed document contains fictional references for a citation audit. It is not a research submission.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:r>
+        <w:t xml:space="preserve">The catalogue containss two registers </w:t>
+      </w:r>
+      <w:r>
+        <w:fldChar w:fldCharType="begin"/>
+      </w:r>
+      <w:r>
+        <w:instrText xml:space="preserve"> CITATION EllisA \l 1033 </w:instrText>
+      </w:r>
+      <w:r>
+        <w:fldChar w:fldCharType="separate"/>
+      </w:r>
+      <w:r>
+        <w:t>(Ellis, 2020a)</w:t>
+      </w:r>
+      <w:r>
+        <w:fldChar w:fldCharType="end"/>
+      </w:r>
+      <w:r>
+        <w:t>.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:r>
+        <w:t xml:space="preserve">The second register is documented separately </w:t>
+      </w:r>
+      <w:r>
+        <w:fldChar w:fldCharType="begin"/>
+      </w:r>
+      <w:r>
+        <w:instrText xml:space="preserve"> CITATION EllisB \l 1033 </w:instrText>
+      </w:r>
+      <w:r>
+        <w:fldChar w:fldCharType="separate"/>
+      </w:r>
+      <w:r>
+        <w:t>(Ellis, 2020b)</w:t>
+      </w:r>
+      <w:r>
+        <w:fldChar w:fldCharType="end"/>
+      </w:r>
+      <w:r>
+        <w:t>.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:r>
+        <w:t>An explanatory source appears only in the attached note</w:t>
+      </w:r>
+      <w:r>
+        <w:footnoteReference w:id="1"/>
+      </w:r>
+      <w:r>
+        <w:t>.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr/>
+      <w:r>
+        <w:t>Recorded items → Organized catalogue → Comparison</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Caption"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">Figure </w:t>
+      </w:r>
+      <w:bookmarkStart w:id="19" w:name="figProcess"/>
+      <w:r>
+        <w:fldChar w:fldCharType="begin"/>
+      </w:r>
+      <w:r>
+        <w:instrText xml:space="preserve"> SEQ Figure \* ARABIC </w:instrText>
+      </w:r>
+      <w:r>
+        <w:fldChar w:fldCharType="separate"/>
+      </w:r>
+      <w:r>
+        <w:t>1</w:t>
+      </w:r>
+      <w:r>
+        <w:fldChar w:fldCharType="end"/>
+      </w:r>
+      <w:bookmarkEnd w:id="19"/>
+      <w:r>
+        <w:t xml:space="preserve">  Overview of the record process, based on </w:t>
+      </w:r>
+      <w:r>
+        <w:fldChar w:fldCharType="begin"/>
+      </w:r>
+      <w:r>
+        <w:instrText xml:space="preserve"> CITATION KlineCaption \l 1033 </w:instrText>
+      </w:r>
+      <w:r>
+        <w:fldChar w:fldCharType="separate"/>
+      </w:r>
+      <w:r>
+        <w:t>(Kline, 2022)</w:t>
+      </w:r>
+      <w:r>
+        <w:fldChar w:fldCharType="end"/>
+      </w:r>
+      <w:r>
+        <w:t>.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:r>
+        <w:t xml:space="preserve">The process is summarized in Figure </w:t>
+      </w:r>
+      <w:r>
+        <w:fldChar w:fldCharType="begin"/>
+      </w:r>
+      <w:r>
+        <w:instrText xml:space="preserve"> REF figProcess \h </w:instrText>
+      </w:r>
+      <w:r>
+        <w:fldChar w:fldCharType="separate"/>
+      </w:r>
+      <w:r>
+        <w:t>1</w:t>
+      </w:r>
+      <w:r>
+        <w:fldChar w:fldCharType="end"/>
+      </w:r>
+      <w:r>
+        <w:t>.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading1"/>
+      </w:pPr>
+      <w:r>
+        <w:t>References</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:r>
+        <w:fldChar w:fldCharType="begin"/>
+      </w:r>
+      <w:r>
+        <w:instrText xml:space="preserve"> BIBLIOGRAPHY \l 1033 </w:instrText>
+      </w:r>
+      <w:r>
+        <w:fldChar w:fldCharType="separate"/>
+      </w:r>
+      <w:r>
+        <w:t>Ellis, M. (2020a). Archive Register Methods. Example Press.</w:t>
+        <w:br/>
+        <w:t>Ellis, M. (2020b). Museum Register Methods. Example Press.</w:t>
+        <w:br/>
+        <w:t>Paz, L. (2018). Oral Catalogue Notes. Example Press.</w:t>
+        <w:br/>
+        <w:t>Kline, E. (2022). Collection Diagrams. Example Press.</w:t>
+      </w:r>
+      <w:r>
+        <w:fldChar w:fldCharType="end"/>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading1"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Further reading</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:r>
+        <w:t>Huang, R. (2017). Further Curatorial Reading. Example Press.</w:t>
+      </w:r>
+    </w:p>
+    <w:sectPr w:rsidR="00FC693F" w:rsidRPr="0006063C" w:rsidSect="00034616">
+      <w:pgSz w:w="12240" w:h="15840"/>
+      <w:pgMar w:top="936" w:right="1152" w:bottom="936" w:left="1152" w:header="720" w:footer="720" w:gutter="0"/>
+      <w:cols w:space="720"/>
+      <w:docGrid w:linePitch="360"/>
+    </w:sectPr>
+  </w:body>
+</w:document>

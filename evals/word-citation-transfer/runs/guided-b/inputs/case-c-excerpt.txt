@@ -1,0 +1,10 @@
+PARTIAL WORD TEXT EXPORT
+Only one body paragraph and the displayed reference list were exported. Notes, captions, tables, and appendices are unavailable. Native citation fields and the selected style are unavailable.
+
+Body
+The earlier catalogue approach was described by Chen (2023).
+
+References
+Chen, I. (2023a). Archive access routines. Example Press.
+Chen, I. (2023b). Collection access routines. Example Press.
+Reed, A. (2021). Note preservation. Example Press.

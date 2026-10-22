@@ -1,0 +1,24 @@
+{
+  "hash_algorithm": "sha256",
+  "scope": "Cases, author request, rubric, and word-citation-audit frozen before fresh-context execution. Original local freeze record SHA-256 is recorded separately; path keys are mapped to public repository locations.",
+  "files": {
+    "evals/word-citation-transfer/fixtures/case-a.docx": "d45de9aeffce9fdb92ea670a3fd965b846e500d095030d6817f0773392f1ba62",
+    "evals/word-citation-transfer/fixtures/case-b.docx": "f3be77c7d27af6797dfbf605ea7225491a847e89db96ee4e8e2887adf1fb8463",
+    "evals/word-citation-transfer/fixtures/case-c-excerpt.txt": "e01810dfc03da2bd5013ffba7ceb6ee48c7852433eb2897bd8edafceefa8b06b",
+    "evals/word-citation-transfer/fixtures/request.md": "b5d09698dd72456258b0640c63c1957a31317bebbd691026e417036fefd3d8be",
+    "evals/word-citation-transfer/rubric.json": "ac2ea8942062e5e6ef91e79b95c08ea2f7861d1ca6b05d9c85cdcdbc356c3b83"
+  },
+  "skill_versions": {
+    "baseline": {
+      "directory": "skills/word-citation-audit",
+      "git_commit": "788d2d0ba092c3ec8ed7094105611c4a0d2c5ba5",
+      "files": {
+        "LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+        "SKILL.md": "db24dcc33b4d7dd4c336cd0517815145f3e3bc52d90debc5970904c4b6eef2bd",
+        "agents/openai.yaml": "7076f33e8a22ad5b2a94dc2a92c6368c0cc698c3c2ff70a68641ede9ca0e3946",
+        "references/matching-and-coverage.md": "ef76226753e8869fc6b490514602746a3dbbba8468e4d4c4f3e6e003eb888a85",
+        "references/reference-ledger.md": "c6c5b5f81bb3926dbe942a954c04dd2564cdc7a9542cf85b8a011826efc1140a"
+      }
+    }
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "before_sha256": "f3be77c7d27af6797dfbf605ea7225491a847e89db96ee4e8e2887adf1fb8463",
+  "after_sha256": "247b25e0b4b4ec934ca99d4073e88b421e80ef621a1453c8126dd9f426380194",
+  "checks": {
+    "expected_single_typo_in_input": true,
+    "same_package_part_names": true,
+    "all_non_document_parts_byte_identical": true,
+    "document_xml_only_expected_prose_change": true,
+    "all_field_signatures_preserved": true,
+    "seven_fields_remain_complete": true,
+    "four_citations_including_footnote_and_caption": true
+  },
+  "all_pass": true,
+  "before_fields": [
+    {
+      "part": "word/document.xml",
+      "region": "body",
+      "code": " CITATION EllisA \\l 1033 ",
+      "cache": "(Ellis, 2020a)",
+      "separated": true,
+      "closed": true,
+      "begin_attributes": {
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+      }
+    },
+    {
+      "part": "word/document.xml",
+      "region": "body",
+      "code": " CITATION EllisB \\l 1033 ",
+      "cache": "(Ellis, 2020b)",
+      "separated": true,
+      "closed": true,
+      "begin_attributes": {
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+      }
+    },
+    {
+      "part": "word/document.xml",
+      "region": "caption",
+      "code": " SEQ Figure \\* ARABIC ",
+      "cache": "1",
+      "separated": true,
+      "closed": true,
+      "begin_attributes": {
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+      }
+    },
+    {
+      "part": "word/document.xml",
+      "region": "caption",
+      "code": " CITATION KlineCaption \\l 1033 ",
+      "cache": "(Kline, 2022)",
+      "separated": true,
+      "closed": true,
+      "begin_attributes": {
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+      }
+    },
+    {
+      "part": "word/document.xml",
+      "region": "body",
+      "code": " REF figProcess \\h ",
+      "cache": "1",
+      "separated": true,
+      "closed": true,
+      "begin_attributes": {
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+      }
+    },
+    {
+      "part": "word/document.xml",
+      "region": "body",
+      "code": " BIBLIOGRAPHY \\l 1033 ",
+      "cache": "Ellis, M. (2020a). Archive Register Methods. Example Press.\nEllis, M. (2020b). Museum Register Methods. Example Press.\nPaz, L. (2018). Oral Catalogue Notes. Example Press.\nKline, E. (2022). Collection Diagrams. Example Press.",
+      "separated": true,
+      "closed": true,
+      "begin_attributes": {
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+      }
+    },
+    {
+      "part": "word/footnotes.xml",
+      "region": "footnote",
+      "code": " CITATION PazNote \\l 1033 ",
+      "cache": "(Paz, 2018)",
+      "separated": true,
+      "closed": true,
+      "begin_attributes": {
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+      }
+    }
+  ],
+  "after_fields": [
+    {
+      "part": "word/document.xml",
+      "region": "body",
+      "code": " CITATION EllisA \\l 1033 ",
+      "cache": "(Ellis, 2020a)",
+      "separated": true,
+      "closed": true,
+      "begin_attributes": {
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+      }
+    },
+    {
+      "part": "word/document.xml",
+      "region": "body",
+      "code": " CITATION EllisB \\l 1033 ",
+      "cache": "(Ellis, 2020b)",
+      "separated": true,
+      "closed": true,
+      "begin_attributes": {
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+      }
+    },
+    {
+      "part": "word/document.xml",
+      "region": "caption",
+      "code": " SEQ Figure \\* ARABIC ",
+      "cache": "1",
+      "separated": true,
+      "closed": true,
+      "begin_attributes": {
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+      }
+    },
+    {
+      "part": "word/document.xml",
+      "region": "caption",
+      "code": " CITATION KlineCaption \\l 1033 ",
+      "cache": "(Kline, 2022)",
+      "separated": true,
+      "closed": true,
+      "begin_attributes": {
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+      }
+    },
+    {
+      "part": "word/document.xml",
+      "region": "body",
+      "code": " REF figProcess \\h ",
+      "cache": "1",
+      "separated": true,
+      "closed": true,
+      "begin_attributes": {
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+      }
+    },
+    {
+      "part": "word/document.xml",
+      "region": "body",
+      "code": " BIBLIOGRAPHY \\l 1033 ",
+      "cache": "Ellis, M. (2020a). Archive Register Methods. Example Press.\nEllis, M. (2020b). Museum Register Methods. Example Press.\nPaz, L. (2018). Oral Catalogue Notes. Example Press.\nKline, E. (2022). Collection Diagrams. Example Press.",
+      "separated": true,
+      "closed": true,
+      "begin_attributes": {
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+      }
+    },
+    {
+      "part": "word/footnotes.xml",
+      "region": "footnote",
+      "code": " CITATION PazNote \\l 1033 ",
+      "cache": "(Paz, 2018)",
+      "separated": true,
+      "closed": true,
+      "begin_attributes": {
+        "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+      }
+    }
+  ],
+  "native_word_refresh_tested": false
+}

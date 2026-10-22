@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-22",
+  "baseline_commit": "788d2d0ba092c3ec8ed7094105611c4a0d2c5ba5",
+  "original_local_freeze_sha256": "150cc60d3eeeba6cd862b320f35f7844d05cf51e5dc6811953b9cf6aa4a26d3a",
+  "runs": [
+    {
+      "id": "guided-a",
+      "task_name": "/root/word_transfer_a",
+      "condition": "word-citation-audit plus general document tooling",
+      "context": "fresh, no parent conversation",
+      "inputs": "Same three cases and author request; no rubric or sibling outputs",
+      "completed": true,
+      "original_inputs_unchanged": true
+    },
+    {
+      "id": "guided-b",
+      "task_name": "/root/word_transfer_b",
+      "condition": "word-citation-audit plus general document tooling",
+      "context": "fresh, no parent conversation",
+      "inputs": "Same three cases and author request; no rubric or sibling outputs",
+      "completed": true,
+      "original_inputs_unchanged": true
+    },
+    {
+      "id": "control",
+      "task_name": "/root/word_transfer_control",
+      "condition": "general document tooling without citation skill",
+      "context": "fresh, no parent conversation",
+      "inputs": "Same three cases and author request; no rubric or sibling outputs",
+      "completed": true,
+      "original_inputs_unchanged": true
+    }
+  ],
+  "runtime": "Same configured host; model/version identifiers and reasoning settings not recorded. No cross-model inference.",
+  "constraints": "Offline local file work. Native apps and external services prohibited to isolate concurrent trials.",
+  "fixture_origin": "DOCX packages authored with native field structures and deliberately constructed input caches. They are not native Word-generated refresh results.",
+  "artifacts": {
+    "revised_docx_sha256": "247b25e0b4b4ec934ca99d4073e88b421e80ef621a1453c8126dd9f426380194",
+    "all_three_revised_docx_byte_identical": true,
+    "all_three_rendered_pages_byte_identical": true,
+    "per_revision_static_assertions": 7,
+    "original_and_revised_pages_inspected": true,
+    "all_frozen_inputs_unchanged": true
+  },
+  "native_refresh_tested": false,
+  "literature_authenticity_tested": false,
+  "real_manuscript_modified": false,
+  "skill_behavior_changed": false,
+  "independent_assessment": {
+    "task_name": "/root/word_transfer_assessor",
+    "context": "fresh, without parent conversation",
+    "blinded": false,
+    "rubric_items_per_run": 21,
+    "passed_per_run": {
+      "guided-a": 21,
+      "guided-b": 21,
+      "control": 21
+    },
+    "artifact_inspection": "Assessor used a separate read-only package parser and inspected the representative rendered page after checking identical PNG hashes.",
+    "skill_revision_justified": false,
+    "incremental_benefit_demonstrated": false
+  }
+}

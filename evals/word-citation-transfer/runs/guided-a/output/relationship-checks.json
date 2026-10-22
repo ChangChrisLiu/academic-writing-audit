@@ -1,0 +1,302 @@
+{
+  "case-a.docx": [
+    {
+      "relationship_part": "_rels/.rels",
+      "id": "rId3",
+      "type": "core-properties",
+      "target": "docProps/core.xml",
+      "present": true
+    },
+    {
+      "relationship_part": "_rels/.rels",
+      "id": "rId4",
+      "type": "extended-properties",
+      "target": "docProps/app.xml",
+      "present": true
+    },
+    {
+      "relationship_part": "_rels/.rels",
+      "id": "rId1",
+      "type": "officeDocument",
+      "target": "word/document.xml",
+      "present": true
+    },
+    {
+      "relationship_part": "_rels/.rels",
+      "id": "rId2",
+      "type": "thumbnail",
+      "target": "docProps/thumbnail.jpeg",
+      "present": true
+    },
+    {
+      "relationship_part": "word/_rels/document.xml.rels",
+      "id": "rId3",
+      "type": "styles",
+      "target": "word/styles.xml",
+      "present": true
+    },
+    {
+      "relationship_part": "word/_rels/document.xml.rels",
+      "id": "rId4",
+      "type": "stylesWithEffects",
+      "target": "word/stylesWithEffects.xml",
+      "present": true
+    },
+    {
+      "relationship_part": "word/_rels/document.xml.rels",
+      "id": "rId5",
+      "type": "settings",
+      "target": "word/settings.xml",
+      "present": true
+    },
+    {
+      "relationship_part": "word/_rels/document.xml.rels",
+      "id": "rId6",
+      "type": "webSettings",
+      "target": "word/webSettings.xml",
+      "present": true
+    },
+    {
+      "relationship_part": "word/_rels/document.xml.rels",
+      "id": "rId7",
+      "type": "fontTable",
+      "target": "word/fontTable.xml",
+      "present": true
+    },
+    {
+      "relationship_part": "word/_rels/document.xml.rels",
+      "id": "rId8",
+      "type": "theme",
+      "target": "word/theme/theme1.xml",
+      "present": true
+    },
+    {
+      "relationship_part": "word/_rels/document.xml.rels",
+      "id": "rId1",
+      "type": "customXml",
+      "target": "customXml/item1.xml",
+      "present": true
+    },
+    {
+      "relationship_part": "word/_rels/document.xml.rels",
+      "id": "rId2",
+      "type": "numbering",
+      "target": "word/numbering.xml",
+      "present": true
+    },
+    {
+      "relationship_part": "word/_rels/document.xml.rels",
+      "id": "rIdFootnotes",
+      "type": "footnotes",
+      "target": "word/footnotes.xml",
+      "present": true
+    },
+    {
+      "relationship_part": "customXml/_rels/item1.xml.rels",
+      "id": "rId1",
+      "type": "customXmlProps",
+      "target": "customXml/itemProps1.xml",
+      "present": true
+    }
+  ],
+  "case-b.docx": [
+    {
+      "relationship_part": "_rels/.rels",
+      "id": "rId3",
+      "type": "core-properties",
+      "target": "docProps/core.xml",
+      "present": true
+    },
+    {
+      "relationship_part": "_rels/.rels",
+      "id": "rId4",
+      "type": "extended-properties",
+      "target": "docProps/app.xml",
+      "present": true
+    },
+    {
+      "relationship_part": "_rels/.rels",
+      "id": "rId1",
+      "type": "officeDocument",
+      "target": "word/document.xml",
+      "present": true
+    },
+    {
+      "relationship_part": "_rels/.rels",
+      "id": "rId2",
+      "type": "thumbnail",
+      "target": "docProps/thumbnail.jpeg",
+      "present": true
+    },
+    {
+      "relationship_part": "word/_rels/document.xml.rels",
+      "id": "rId3",
+      "type": "styles",
+      "target": "word/styles.xml",
+      "present": true
+    },
+    {
+      "relationship_part": "word/_rels/document.xml.rels",
+      "id": "rId4",
+      "type": "stylesWithEffects",
+      "target": "word/stylesWithEffects.xml",
+      "present": true
+    },
+    {
+      "relationship_part": "word/_rels/document.xml.rels",
+      "id": "rId5",
+      "type": "settings",
+      "target": "word/settings.xml",
+      "present": true
+    },
+    {
+      "relationship_part": "word/_rels/document.xml.rels",
+      "id": "rId6",
+      "type": "webSettings",
+      "target": "word/webSettings.xml",
+      "present": true
+    },
+    {
+      "relationship_part": "word/_rels/document.xml.rels",
+      "id": "rId7",
+      "type": "fontTable",
+      "target": "word/fontTable.xml",
+      "present": true
+    },
+    {
+      "relationship_part": "word/_rels/document.xml.rels",
+      "id": "rId8",
+      "type": "theme",
+      "target": "word/theme/theme1.xml",
+      "present": true
+    },
+    {
+      "relationship_part": "word/_rels/document.xml.rels",
+      "id": "rId1",
+      "type": "customXml",
+      "target": "customXml/item1.xml",
+      "present": true
+    },
+    {
+      "relationship_part": "word/_rels/document.xml.rels",
+      "id": "rId2",
+      "type": "numbering",
+      "target": "word/numbering.xml",
+      "present": true
+    },
+    {
+      "relationship_part": "word/_rels/document.xml.rels",
+      "id": "rIdFootnotes",
+      "type": "footnotes",
+      "target": "word/footnotes.xml",
+      "present": true
+    },
+    {
+      "relationship_part": "customXml/_rels/item1.xml.rels",
+      "id": "rId1",
+      "type": "customXmlProps",
+      "target": "customXml/itemProps1.xml",
+      "present": true
+    }
+  ],
+  "revised-b.docx": [
+    {
+      "relationship_part": "_rels/.rels",
+      "id": "rId3",
+      "type": "core-properties",
+      "target": "docProps/core.xml",
+      "present": true
+    },
+    {
+      "relationship_part": "_rels/.rels",
+      "id": "rId4",
+      "type": "extended-properties",
+      "target": "docProps/app.xml",
+      "present": true
+    },
+    {
+      "relationship_part": "_rels/.rels",
+      "id": "rId1",
+      "type": "officeDocument",
+      "target": "word/document.xml",
+      "present": true
+    },
+    {
+      "relationship_part": "_rels/.rels",
+      "id": "rId2",
+      "type": "thumbnail",
+      "target": "docProps/thumbnail.jpeg",
+      "present": true
+    },
+    {
+      "relationship_part": "word/_rels/document.xml.rels",
+      "id": "rId3",
+      "type": "styles",
+      "target": "word/styles.xml",
+      "present": true
+    },
+    {
+      "relationship_part": "word/_rels/document.xml.rels",
+      "id": "rId4",
+      "type": "stylesWithEffects",
+      "target": "word/stylesWithEffects.xml",
+      "present": true
+    },
+    {
+      "relationship_part": "word/_rels/document.xml.rels",
+      "id": "rId5",
+      "type": "settings",
+      "target": "word/settings.xml",
+      "present": true
+    },
+    {
+      "relationship_part": "word/_rels/document.xml.rels",
+      "id": "rId6",
+      "type": "webSettings",
+      "target": "word/webSettings.xml",
+      "present": true
+    },
+    {
+      "relationship_part": "word/_rels/document.xml.rels",
+      "id": "rId7",
+      "type": "fontTable",
+      "target": "word/fontTable.xml",
+      "present": true
+    },
+    {
+      "relationship_part": "word/_rels/document.xml.rels",
+      "id": "rId8",
+      "type": "theme",
+      "target": "word/theme/theme1.xml",
+      "present": true
+    },
+    {
+      "relationship_part": "word/_rels/document.xml.rels",
+      "id": "rId1",
+      "type": "customXml",
+      "target": "customXml/item1.xml",
+      "present": true
+    },
+    {
+      "relationship_part": "word/_rels/document.xml.rels",
+      "id": "rId2",
+      "type": "numbering",
+      "target": "word/numbering.xml",
+      "present": true
+    },
+    {
+      "relationship_part": "word/_rels/document.xml.rels",
+      "id": "rIdFootnotes",
+      "type": "footnotes",
+      "target": "word/footnotes.xml",
+      "present": true
+    },
+    {
+      "relationship_part": "customXml/_rels/item1.xml.rels",
+      "id": "rId1",
+      "type": "customXmlProps",
+      "target": "customXml/itemProps1.xml",
+      "present": true
+    }
+  ]
+}

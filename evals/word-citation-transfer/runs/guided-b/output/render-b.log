@@ -1,0 +1,8 @@
+[render_docx] $ /WORKSPACE_DEPENDENCIES/bin/override/soffice -env:UserInstallation=file:///RENDER_WORKDIR/profile --invisible --headless --norestore --convert-to pdf --outdir /RENDER_WORKDIR/convert /TEST_WORKDIR/runs/guided-b/output/revised-b.docx
+convert /TEST_WORKDIR/runs/guided-b/output/revised-b.docx as a Writer document -> /RENDER_WORKDIR/convert/revised-b.pdf using filter : writer_pdf_Export
+
+Fontconfig warning: no <cachedir> elements found. Check configuration.
+Fontconfig warning: adding <cachedir>/@.__________________________________________________OOO/var/cache/fontconfig</cachedir>
+Fontconfig warning: adding <cachedir prefix="xdg">fontconfig</cachedir>
+
+Pages rendered to /TEST_WORKDIR/runs/guided-b/output/render-b

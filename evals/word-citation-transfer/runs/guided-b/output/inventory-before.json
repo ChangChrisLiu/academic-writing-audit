@@ -1,0 +1,1717 @@
+{
+  "a": {
+    "file": "/TEST_WORKDIR/runs/guided-b/inputs/case-a.docx",
+    "sha256": "d45de9aeffce9fdb92ea670a3fd965b846e500d095030d6817f0773392f1ba62",
+    "members": {
+      "[Content_Types].xml": "e442113e4eda480757c9607e9bd08173f5265cd07216fe20562ff4cb3c87e157",
+      "_rels/.rels": "a9ae57efe9186f07d48303bcac5d54c7e359bf3f503939c03ad2954e5c59a5c4",
+      "docProps/core.xml": "c23df7d9ee3b33f2226d5e4b380c6c3cb924a80530857214ad016539bb715611",
+      "docProps/app.xml": "be664981c3141cddfc59362beb287ebf20d0773660e2dd6faac5968a5930a081",
+      "word/document.xml": "889804d6afbf14cc2117ea6908d35e5f7bc240a2f82b32b9527843c020b2f3ab",
+      "word/_rels/document.xml.rels": "80974cbee8e80001b4eadb8f83d31f620346642457b1f3d2f634fe467d369ec1",
+      "word/styles.xml": "4e8362165188dae607b716b549d94102d6a8dcf42457860c5c5faf7251818435",
+      "word/stylesWithEffects.xml": "463ae0928cf0d84775dbf8cf18d6c3029f6707c81bf590f6d6dd8757a5e93f15",
+      "word/settings.xml": "51a0d348fe85965c66e4748a03c3c0d055d78455514f03cb121c334af7d73689",
+      "word/webSettings.xml": "349d36de7434d09f86987ff671d8814964a0588c1e630c06e562cda7e75e9f95",
+      "word/fontTable.xml": "79385fb7f60247507ecaffc292e9ebd52ea0657b8634f629ba6fccc54011d6bb",
+      "word/theme/theme1.xml": "e3a8ab7db9ca7afca56f5f2820a56e8b660016c647773555b060b0a02ac76941",
+      "customXml/item1.xml": "b09a5f8c45da076cc13c5bb5bdf2d6298cb57a073ec94e450904bcf1fd723fce",
+      "customXml/_rels/item1.xml.rels": "1ca6c9a64edcebe24ee703a54403611b322d96da33371779e742d2d3f7ed7a6c",
+      "customXml/itemProps1.xml": "6f3feb8896c4444a1dfd4d996ed172235661e2c0c15f20aadf139db9276f42f7",
+      "word/numbering.xml": "70976f19cbcd896e51890859fe6ecb3467a5a7ad0c040160fedc5a1993cb09ce",
+      "docProps/thumbnail.jpeg": "96367138dc44ce09bf2c8f0f8e49348a1478d2c5c0af69bbc2bbc38b63cdcead",
+      "word/footnotes.xml": "f08091c42be85c612a60d31c099ba9b2beb66f5ea134a72da9643b3d438d331e"
+    },
+    "xml_checks": {
+      "[Content_Types].xml": {
+        "ins": 0,
+        "del": 0,
+        "moveFrom": 0,
+        "moveTo": 0,
+        "delText": 0,
+        "tbl": 0,
+        "txbxContent": 0,
+        "altChunk": 0,
+        "drawing": 0,
+        "pict": 0,
+        "object": 0,
+        "fldSimple": 0,
+        "fldChar": 0,
+        "instrText": 0,
+        "footnoteReference": 0,
+        "endnoteReference": 0,
+        "commentReference": 0,
+        "headerReference": 0,
+        "footerReference": 0,
+        "vanish": 0,
+        "webHidden": 0,
+        "trackRevisions": 0
+      },
+      "_rels/.rels": {
+        "ins": 0,
+        "del": 0,
+        "moveFrom": 0,
+        "moveTo": 0,
+        "delText": 0,
+        "tbl": 0,
+        "txbxContent": 0,
+        "altChunk": 0,
+        "drawing": 0,
+        "pict": 0,
+        "object": 0,
+        "fldSimple": 0,
+        "fldChar": 0,
+        "instrText": 0,
+        "footnoteReference": 0,
+        "endnoteReference": 0,
+        "commentReference": 0,
+        "headerReference": 0,
+        "footerReference": 0,
+        "vanish": 0,
+        "webHidden": 0,
+        "trackRevisions": 0
+      },
+      "docProps/core.xml": {
+        "ins": 0,
+        "del": 0,
+        "moveFrom": 0,
+        "moveTo": 0,
+        "delText": 0,
+        "tbl": 0,
+        "txbxContent": 0,
+        "altChunk": 0,
+        "drawing": 0,
+        "pict": 0,
+        "object": 0,
+        "fldSimple": 0,
+        "fldChar": 0,
+        "instrText": 0,
+        "footnoteReference": 0,
+        "endnoteReference": 0,
+        "commentReference": 0,
+        "headerReference": 0,
+        "footerReference": 0,
+        "vanish": 0,
+        "webHidden": 0,
+        "trackRevisions": 0
+      },
+      "docProps/app.xml": {
+        "ins": 0,
+        "del": 0,
+        "moveFrom": 0,
+        "moveTo": 0,
+        "delText": 0,
+        "tbl": 0,
+        "txbxContent": 0,
+        "altChunk": 0,
+        "drawing": 0,
+        "pict": 0,
+        "object": 0,
+        "fldSimple": 0,
+        "fldChar": 0,
+        "instrText": 0,
+        "footnoteReference": 0,
+        "endnoteReference": 0,
+        "commentReference": 0,
+        "headerReference": 0,
+        "footerReference": 0,
+        "vanish": 0,
+        "webHidden": 0,
+        "trackRevisions": 0
+      },
+      "word/document.xml": {
+        "ins": 0,
+        "del": 0,
+        "moveFrom": 0,
+        "moveTo": 0,
+        "delText": 0,
+        "tbl": 0,
+        "txbxContent": 0,
+        "altChunk": 0,
+        "drawing": 0,
+        "pict": 0,
+        "object": 0,
+        "fldSimple": 0,
+        "fldChar": 18,
+        "instrText": 6,
+        "footnoteReference": 1,
+        "endnoteReference": 0,
+        "commentReference": 0,
+        "headerReference": 0,
+        "footerReference": 0,
+        "vanish": 0,
+        "webHidden": 0,
+        "trackRevisions": 0
+      },
+      "word/_rels/document.xml.rels": {
+        "ins": 0,
+        "del": 0,
+        "moveFrom": 0,
+        "moveTo": 0,
+        "delText": 0,
+        "tbl": 0,
+        "txbxContent": 0,
+        "altChunk": 0,
+        "drawing": 0,
+        "pict": 0,
+        "object": 0,
+        "fldSimple": 0,
+        "fldChar": 0,
+        "instrText": 0,
+        "footnoteReference": 0,
+        "endnoteReference": 0,
+        "commentReference": 0,
+        "headerReference": 0,
+        "footerReference": 0,
+        "vanish": 0,
+        "webHidden": 0,
+        "trackRevisions": 0
+      },
+      "word/styles.xml": {
+        "ins": 0,
+        "del": 0,
+        "moveFrom": 0,
+        "moveTo": 0,
+        "delText": 0,
+        "tbl": 0,
+        "txbxContent": 0,
+        "altChunk": 0,
+        "drawing": 0,
+        "pict": 0,
+        "object": 0,
+        "fldSimple": 0,
+        "fldChar": 0,
+        "instrText": 0,
+        "footnoteReference": 0,
+        "endnoteReference": 0,
+        "commentReference": 0,
+        "headerReference": 0,
+        "footerReference": 0,
+        "vanish": 0,
+        "webHidden": 0,
+        "trackRevisions": 0
+      },
+      "word/stylesWithEffects.xml": {
+        "ins": 0,
+        "del": 0,
+        "moveFrom": 0,
+        "moveTo": 0,
+        "delText": 0,
+        "tbl": 0,
+        "txbxContent": 0,
+        "altChunk": 0,
+        "drawing": 0,
+        "pict": 0,
+        "object": 0,
+        "fldSimple": 0,
+        "fldChar": 0,
+        "instrText": 0,
+        "footnoteReference": 0,
+        "endnoteReference": 0,
+        "commentReference": 0,
+        "headerReference": 0,
+        "footerReference": 0,
+        "vanish": 0,
+        "webHidden": 0,
+        "trackRevisions": 0
+      },
+      "word/settings.xml": {
+        "ins": 0,
+        "del": 0,
+        "moveFrom": 0,
+        "moveTo": 0,
+        "delText": 0,
+        "tbl": 0,
+        "txbxContent": 0,
+        "altChunk": 0,
+        "drawing": 0,
+        "pict": 0,
+        "object": 0,
+        "fldSimple": 0,
+        "fldChar": 0,
+        "instrText": 0,
+        "footnoteReference": 0,
+        "endnoteReference": 0,
+        "commentReference": 0,
+        "headerReference": 0,
+        "footerReference": 0,
+        "vanish": 0,
+        "webHidden": 0,
+        "trackRevisions": 0
+      },
+      "word/webSettings.xml": {
+        "ins": 0,
+        "del": 0,
+        "moveFrom": 0,
+        "moveTo": 0,
+        "delText": 0,
+        "tbl": 0,
+        "txbxContent": 0,
+        "altChunk": 0,
+        "drawing": 0,
+        "pict": 0,
+        "object": 0,
+        "fldSimple": 0,
+        "fldChar": 0,
+        "instrText": 0,
+        "footnoteReference": 0,
+        "endnoteReference": 0,
+        "commentReference": 0,
+        "headerReference": 0,
+        "footerReference": 0,
+        "vanish": 0,
+        "webHidden": 0,
+        "trackRevisions": 0
+      },
+      "word/fontTable.xml": {
+        "ins": 0,
+        "del": 0,
+        "moveFrom": 0,
+        "moveTo": 0,
+        "delText": 0,
+        "tbl": 0,
+        "txbxContent": 0,
+        "altChunk": 0,
+        "drawing": 0,
+        "pict": 0,
+        "object": 0,
+        "fldSimple": 0,
+        "fldChar": 0,
+        "instrText": 0,
+        "footnoteReference": 0,
+        "endnoteReference": 0,
+        "commentReference": 0,
+        "headerReference": 0,
+        "footerReference": 0,
+        "vanish": 0,
+        "webHidden": 0,
+        "trackRevisions": 0
+      },
+      "word/theme/theme1.xml": {
+        "ins": 0,
+        "del": 0,
+        "moveFrom": 0,
+        "moveTo": 0,
+        "delText": 0,
+        "tbl": 0,
+        "txbxContent": 0,
+        "altChunk": 0,
+        "drawing": 0,
+        "pict": 0,
+        "object": 0,
+        "fldSimple": 0,
+        "fldChar": 0,
+        "instrText": 0,
+        "footnoteReference": 0,
+        "endnoteReference": 0,
+        "commentReference": 0,
+        "headerReference": 0,
+        "footerReference": 0,
+        "vanish": 0,
+        "webHidden": 0,
+        "trackRevisions": 0
+      },
+      "customXml/item1.xml": {
+        "ins": 0,
+        "del": 0,
+        "moveFrom": 0,
+        "moveTo": 0,
+        "delText": 0,
+        "tbl": 0,
+        "txbxContent": 0,
+        "altChunk": 0,
+        "drawing": 0,
+        "pict": 0,
+        "object": 0,
+        "fldSimple": 0,
+        "fldChar": 0,
+        "instrText": 0,
+        "footnoteReference": 0,
+        "endnoteReference": 0,
+        "commentReference": 0,
+        "headerReference": 0,
+        "footerReference": 0,
+        "vanish": 0,
+        "webHidden": 0,
+        "trackRevisions": 0
+      },
+      "customXml/_rels/item1.xml.rels": {
+        "ins": 0,
+        "del": 0,
+        "moveFrom": 0,
+        "moveTo": 0,
+        "delText": 0,
+        "tbl": 0,
+        "txbxContent": 0,
+        "altChunk": 0,
+        "drawing": 0,
+        "pict": 0,
+        "object": 0,
+        "fldSimple": 0,
+        "fldChar": 0,
+        "instrText": 0,
+        "footnoteReference": 0,
+        "endnoteReference": 0,
+        "commentReference": 0,
+        "headerReference": 0,
+        "footerReference": 0,
+        "vanish": 0,
+        "webHidden": 0,
+        "trackRevisions": 0
+      },
+      "customXml/itemProps1.xml": {
+        "ins": 0,
+        "del": 0,
+        "moveFrom": 0,
+        "moveTo": 0,
+        "delText": 0,
+        "tbl": 0,
+        "txbxContent": 0,
+        "altChunk": 0,
+        "drawing": 0,
+        "pict": 0,
+        "object": 0,
+        "fldSimple": 0,
+        "fldChar": 0,
+        "instrText": 0,
+        "footnoteReference": 0,
+        "endnoteReference": 0,
+        "commentReference": 0,
+        "headerReference": 0,
+        "footerReference": 0,
+        "vanish": 0,
+        "webHidden": 0,
+        "trackRevisions": 0
+      },
+      "word/numbering.xml": {
+        "ins": 0,
+        "del": 0,
+        "moveFrom": 0,
+        "moveTo": 0,
+        "delText": 0,
+        "tbl": 0,
+        "txbxContent": 0,
+        "altChunk": 0,
+        "drawing": 0,
+        "pict": 0,
+        "object": 0,
+        "fldSimple": 0,
+        "fldChar": 0,
+        "instrText": 0,
+        "footnoteReference": 0,
+        "endnoteReference": 0,
+        "commentReference": 0,
+        "headerReference": 0,
+        "footerReference": 0,
+        "vanish": 0,
+        "webHidden": 0,
+        "trackRevisions": 0
+      },
+      "word/footnotes.xml": {
+        "ins": 0,
+        "del": 0,
+        "moveFrom": 0,
+        "moveTo": 0,
+        "delText": 0,
+        "tbl": 0,
+        "txbxContent": 0,
+        "altChunk": 0,
+        "drawing": 0,
+        "pict": 0,
+        "object": 0,
+        "fldSimple": 0,
+        "fldChar": 3,
+        "instrText": 1,
+        "footnoteReference": 0,
+        "endnoteReference": 0,
+        "commentReference": 0,
+        "headerReference": 0,
+        "footerReference": 0,
+        "vanish": 0,
+        "webHidden": 0,
+        "trackRevisions": 0
+      }
+    },
+    "paragraphs": [
+      {
+        "part": "word/document.xml",
+        "paragraph": 1,
+        "style": "Title",
+        "text": "Instrument record methods"
+      },
+      {
+        "part": "word/document.xml",
+        "paragraph": 2,
+        "style": null,
+        "text": "This constructed document contains fictional references for a citation audit. It is not a research submission."
+      },
+      {
+        "part": "word/document.xml",
+        "paragraph": 3,
+        "style": null,
+        "text": "The alpha calibration protocol is recorded in (Vale, 2024b)."
+      },
+      {
+        "part": "word/document.xml",
+        "paragraph": 4,
+        "style": null,
+        "text": "The beta calibration protocol has a separate record (Vale, 2024)."
+      },
+      {
+        "part": "word/document.xml",
+        "paragraph": 5,
+        "style": null,
+        "text": "An explanatory source appears only in the attached note."
+      },
+      {
+        "part": "word/document.xml",
+        "paragraph": 6,
+        "style": null,
+        "text": "Recorded items \u2192 Organized catalogue \u2192 Comparison"
+      },
+      {
+        "part": "word/document.xml",
+        "paragraph": 7,
+        "style": "Caption",
+        "text": "Figure 1  Overview of the record process, based on (Imani, 2021)."
+      },
+      {
+        "part": "word/document.xml",
+        "paragraph": 8,
+        "style": null,
+        "text": "The process is summarized in Figure 1."
+      },
+      {
+        "part": "word/document.xml",
+        "paragraph": 9,
+        "style": "Heading1",
+        "text": "References"
+      },
+      {
+        "part": "word/document.xml",
+        "paragraph": 10,
+        "style": null,
+        "text": "Vale, T. (2024a). Alpha Sensor Calibration. Example Press.\nVale, T. (2024b). Beta Sensor Calibration. Example Press.\nNg, R. (2022). Quiet Instrument Records. Example Press.\nImani, A. (2021). Diagram Conventions. Example Press.\nMarin, L. (2020). Spare Workshop Notes. Example Press."
+      },
+      {
+        "part": "word/document.xml",
+        "paragraph": 11,
+        "style": "Heading1",
+        "text": "Further reading"
+      },
+      {
+        "part": "word/document.xml",
+        "paragraph": 12,
+        "style": null,
+        "text": "Sato, M. (2019). Further Instrument Reading. Example Press."
+      },
+      {
+        "part": "word/footnotes.xml",
+        "paragraph": 1,
+        "style": null,
+        "text": ""
+      },
+      {
+        "part": "word/footnotes.xml",
+        "paragraph": 2,
+        "style": null,
+        "text": ""
+      },
+      {
+        "part": "word/footnotes.xml",
+        "paragraph": 3,
+        "style": null,
+        "text": " Note-specific context follows (Ng, 2022)."
+      }
+    ],
+    "fields": [
+      {
+        "part": "word/document.xml",
+        "paragraph": 3,
+        "instruction": " CITATION ValeA \\l 1033 ",
+        "result": "(Vale, 2024b)",
+        "markers": [
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+          },
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+          },
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+          }
+        ]
+      },
+      {
+        "part": "word/document.xml",
+        "paragraph": 4,
+        "instruction": " CITATION ValeB \\l 1033 ",
+        "result": "(Vale, 2024)",
+        "markers": [
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+          },
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+          },
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+          }
+        ]
+      },
+      {
+        "part": "word/document.xml",
+        "paragraph": 7,
+        "instruction": " SEQ Figure \\* ARABIC ",
+        "result": "1",
+        "markers": [
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+          },
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+          },
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+          }
+        ]
+      },
+      {
+        "part": "word/document.xml",
+        "paragraph": 7,
+        "instruction": " CITATION ImaniCaption \\l 1033 ",
+        "result": "(Imani, 2021)",
+        "markers": [
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+          },
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+          },
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+          }
+        ]
+      },
+      {
+        "part": "word/document.xml",
+        "paragraph": 8,
+        "instruction": " REF figProcess \\h ",
+        "result": "1",
+        "markers": [
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+          },
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+          },
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+          }
+        ]
+      },
+      {
+        "part": "word/document.xml",
+        "paragraph": 10,
+        "instruction": " BIBLIOGRAPHY \\l 1033 ",
+        "result": "Vale, T. (2024a). Alpha Sensor Calibration. Example Press.\nVale, T. (2024b). Beta Sensor Calibration. Example Press.\nNg, R. (2022). Quiet Instrument Records. Example Press.\nImani, A. (2021). Diagram Conventions. Example Press.\nMarin, L. (2020). Spare Workshop Notes. Example Press.",
+        "markers": [
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+          },
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+          },
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+          }
+        ]
+      },
+      {
+        "part": "word/footnotes.xml",
+        "paragraph": 3,
+        "instruction": " CITATION NgNote \\l 1033 ",
+        "result": "(Ng, 2022)",
+        "markers": [
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+          },
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+          },
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+          }
+        ]
+      }
+    ],
+    "relationships": {
+      "_rels/.rels": [
+        {
+          "Id": "rId3",
+          "Type": "http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties",
+          "Target": "docProps/core.xml",
+          "resolved_target": "docProps/core.xml",
+          "present": true
+        },
+        {
+          "Id": "rId4",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties",
+          "Target": "docProps/app.xml",
+          "resolved_target": "docProps/app.xml",
+          "present": true
+        },
+        {
+          "Id": "rId1",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument",
+          "Target": "word/document.xml",
+          "resolved_target": "word/document.xml",
+          "present": true
+        },
+        {
+          "Id": "rId2",
+          "Type": "http://schemas.openxmlformats.org/package/2006/relationships/metadata/thumbnail",
+          "Target": "docProps/thumbnail.jpeg",
+          "resolved_target": "docProps/thumbnail.jpeg",
+          "present": true
+        }
+      ],
+      "word/_rels/document.xml.rels": [
+        {
+          "Id": "rId3",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles",
+          "Target": "styles.xml",
+          "resolved_target": "word/styles.xml",
+          "present": true
+        },
+        {
+          "Id": "rId4",
+          "Type": "http://schemas.microsoft.com/office/2007/relationships/stylesWithEffects",
+          "Target": "stylesWithEffects.xml",
+          "resolved_target": "word/stylesWithEffects.xml",
+          "present": true
+        },
+        {
+          "Id": "rId5",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/settings",
+          "Target": "settings.xml",
+          "resolved_target": "word/settings.xml",
+          "present": true
+        },
+        {
+          "Id": "rId6",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/webSettings",
+          "Target": "webSettings.xml",
+          "resolved_target": "word/webSettings.xml",
+          "present": true
+        },
+        {
+          "Id": "rId7",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/fontTable",
+          "Target": "fontTable.xml",
+          "resolved_target": "word/fontTable.xml",
+          "present": true
+        },
+        {
+          "Id": "rId8",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme",
+          "Target": "theme/theme1.xml",
+          "resolved_target": "word/theme/theme1.xml",
+          "present": true
+        },
+        {
+          "Id": "rId1",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/customXml",
+          "Target": "../customXml/item1.xml",
+          "resolved_target": "customXml/item1.xml",
+          "present": true
+        },
+        {
+          "Id": "rId2",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/numbering",
+          "Target": "numbering.xml",
+          "resolved_target": "word/numbering.xml",
+          "present": true
+        },
+        {
+          "Id": "rIdFootnotes",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/footnotes",
+          "Target": "footnotes.xml",
+          "resolved_target": "word/footnotes.xml",
+          "present": true
+        }
+      ],
+      "customXml/_rels/item1.xml.rels": [
+        {
+          "Id": "rId1",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/customXmlProps",
+          "Target": "itemProps1.xml",
+          "resolved_target": "customXml/itemProps1.xml",
+          "present": true
+        }
+      ]
+    },
+    "stored_style": {
+      "SelectedStyle": "/APASixthEditionOfficeOnline.xsl",
+      "StyleName": "APA",
+      "Version": "6"
+    },
+    "sources": [
+      {
+        "Tag": "ValeA",
+        "SourceType": "Book",
+        "Guid": "{10000001-1111-4111-8111-000000000001}",
+        "Title": "Alpha Sensor Calibration",
+        "Year": "2024",
+        "Publisher": "Example Press",
+        "RefOrder": "1",
+        "people": [
+          {
+            "Last": "Vale",
+            "First": "Tamsin"
+          }
+        ]
+      },
+      {
+        "Tag": "ValeB",
+        "SourceType": "Book",
+        "Guid": "{10000002-1111-4111-8111-000000000002}",
+        "Title": "Beta Sensor Calibration",
+        "Year": "2024",
+        "Publisher": "Example Press",
+        "RefOrder": "2",
+        "people": [
+          {
+            "Last": "Vale",
+            "First": "Tamsin"
+          }
+        ]
+      },
+      {
+        "Tag": "NgNote",
+        "SourceType": "Book",
+        "Guid": "{10000003-1111-4111-8111-000000000003}",
+        "Title": "Quiet Instrument Records",
+        "Year": "2022",
+        "Publisher": "Example Press",
+        "RefOrder": "3",
+        "people": [
+          {
+            "Last": "Ng",
+            "First": "Rui"
+          }
+        ]
+      },
+      {
+        "Tag": "ImaniCaption",
+        "SourceType": "Book",
+        "Guid": "{10000004-1111-4111-8111-000000000004}",
+        "Title": "Diagram Conventions",
+        "Year": "2021",
+        "Publisher": "Example Press",
+        "RefOrder": "4",
+        "people": [
+          {
+            "Last": "Imani",
+            "First": "Ada"
+          }
+        ]
+      },
+      {
+        "Tag": "MarinUnused",
+        "SourceType": "Book",
+        "Guid": "{10000005-1111-4111-8111-000000000005}",
+        "Title": "Spare Workshop Notes",
+        "Year": "2020",
+        "Publisher": "Example Press",
+        "RefOrder": "5",
+        "people": [
+          {
+            "Last": "Marin",
+            "First": "Lou"
+          }
+        ]
+      },
+      {
+        "Tag": "SatoReading",
+        "SourceType": "Book",
+        "Guid": "{10000006-1111-4111-8111-000000000006}",
+        "Title": "Further Instrument Reading",
+        "Year": "2019",
+        "Publisher": "Example Press",
+        "RefOrder": "6",
+        "people": [
+          {
+            "Last": "Sato",
+            "First": "Mei"
+          }
+        ]
+      },
+      {
+        "Tag": "LumenLibrary",
+        "SourceType": "Book",
+        "Guid": "{10000007-1111-4111-8111-000000000007}",
+        "Title": "Stored but Unlisted Records",
+        "Year": "2018",
+        "Publisher": "Example Press",
+        "RefOrder": "7",
+        "people": [
+          {
+            "Last": "Lumen",
+            "First": "Kai"
+          }
+        ]
+      }
+    ]
+  },
+  "b": {
+    "file": "/TEST_WORKDIR/runs/guided-b/inputs/case-b.docx",
+    "sha256": "f3be77c7d27af6797dfbf605ea7225491a847e89db96ee4e8e2887adf1fb8463",
+    "members": {
+      "[Content_Types].xml": "e442113e4eda480757c9607e9bd08173f5265cd07216fe20562ff4cb3c87e157",
+      "_rels/.rels": "a9ae57efe9186f07d48303bcac5d54c7e359bf3f503939c03ad2954e5c59a5c4",
+      "docProps/core.xml": "c23df7d9ee3b33f2226d5e4b380c6c3cb924a80530857214ad016539bb715611",
+      "docProps/app.xml": "be664981c3141cddfc59362beb287ebf20d0773660e2dd6faac5968a5930a081",
+      "word/document.xml": "f701b4d2ebcc6652c313d10f514f815d969422a2db88292917b793e81d53030d",
+      "word/_rels/document.xml.rels": "80974cbee8e80001b4eadb8f83d31f620346642457b1f3d2f634fe467d369ec1",
+      "word/styles.xml": "4e8362165188dae607b716b549d94102d6a8dcf42457860c5c5faf7251818435",
+      "word/stylesWithEffects.xml": "463ae0928cf0d84775dbf8cf18d6c3029f6707c81bf590f6d6dd8757a5e93f15",
+      "word/settings.xml": "51a0d348fe85965c66e4748a03c3c0d055d78455514f03cb121c334af7d73689",
+      "word/webSettings.xml": "349d36de7434d09f86987ff671d8814964a0588c1e630c06e562cda7e75e9f95",
+      "word/fontTable.xml": "79385fb7f60247507ecaffc292e9ebd52ea0657b8634f629ba6fccc54011d6bb",
+      "word/theme/theme1.xml": "e3a8ab7db9ca7afca56f5f2820a56e8b660016c647773555b060b0a02ac76941",
+      "customXml/item1.xml": "2f017c38625665ca12cd29bb50bb86e8c41fde2e14e8afdd3df918ad7c500b7d",
+      "customXml/_rels/item1.xml.rels": "1ca6c9a64edcebe24ee703a54403611b322d96da33371779e742d2d3f7ed7a6c",
+      "customXml/itemProps1.xml": "6f3feb8896c4444a1dfd4d996ed172235661e2c0c15f20aadf139db9276f42f7",
+      "word/numbering.xml": "70976f19cbcd896e51890859fe6ecb3467a5a7ad0c040160fedc5a1993cb09ce",
+      "docProps/thumbnail.jpeg": "96367138dc44ce09bf2c8f0f8e49348a1478d2c5c0af69bbc2bbc38b63cdcead",
+      "word/footnotes.xml": "02fbe6d119b1e975e5cc68166b4bfbef99659f4c9ade0fb27461de5e074006a1"
+    },
+    "xml_checks": {
+      "[Content_Types].xml": {
+        "ins": 0,
+        "del": 0,
+        "moveFrom": 0,
+        "moveTo": 0,
+        "delText": 0,
+        "tbl": 0,
+        "txbxContent": 0,
+        "altChunk": 0,
+        "drawing": 0,
+        "pict": 0,
+        "object": 0,
+        "fldSimple": 0,
+        "fldChar": 0,
+        "instrText": 0,
+        "footnoteReference": 0,
+        "endnoteReference": 0,
+        "commentReference": 0,
+        "headerReference": 0,
+        "footerReference": 0,
+        "vanish": 0,
+        "webHidden": 0,
+        "trackRevisions": 0
+      },
+      "_rels/.rels": {
+        "ins": 0,
+        "del": 0,
+        "moveFrom": 0,
+        "moveTo": 0,
+        "delText": 0,
+        "tbl": 0,
+        "txbxContent": 0,
+        "altChunk": 0,
+        "drawing": 0,
+        "pict": 0,
+        "object": 0,
+        "fldSimple": 0,
+        "fldChar": 0,
+        "instrText": 0,
+        "footnoteReference": 0,
+        "endnoteReference": 0,
+        "commentReference": 0,
+        "headerReference": 0,
+        "footerReference": 0,
+        "vanish": 0,
+        "webHidden": 0,
+        "trackRevisions": 0
+      },
+      "docProps/core.xml": {
+        "ins": 0,
+        "del": 0,
+        "moveFrom": 0,
+        "moveTo": 0,
+        "delText": 0,
+        "tbl": 0,
+        "txbxContent": 0,
+        "altChunk": 0,
+        "drawing": 0,
+        "pict": 0,
+        "object": 0,
+        "fldSimple": 0,
+        "fldChar": 0,
+        "instrText": 0,
+        "footnoteReference": 0,
+        "endnoteReference": 0,
+        "commentReference": 0,
+        "headerReference": 0,
+        "footerReference": 0,
+        "vanish": 0,
+        "webHidden": 0,
+        "trackRevisions": 0
+      },
+      "docProps/app.xml": {
+        "ins": 0,
+        "del": 0,
+        "moveFrom": 0,
+        "moveTo": 0,
+        "delText": 0,
+        "tbl": 0,
+        "txbxContent": 0,
+        "altChunk": 0,
+        "drawing": 0,
+        "pict": 0,
+        "object": 0,
+        "fldSimple": 0,
+        "fldChar": 0,
+        "instrText": 0,
+        "footnoteReference": 0,
+        "endnoteReference": 0,
+        "commentReference": 0,
+        "headerReference": 0,
+        "footerReference": 0,
+        "vanish": 0,
+        "webHidden": 0,
+        "trackRevisions": 0
+      },
+      "word/document.xml": {
+        "ins": 0,
+        "del": 0,
+        "moveFrom": 0,
+        "moveTo": 0,
+        "delText": 0,
+        "tbl": 0,
+        "txbxContent": 0,
+        "altChunk": 0,
+        "drawing": 0,
+        "pict": 0,
+        "object": 0,
+        "fldSimple": 0,
+        "fldChar": 18,
+        "instrText": 6,
+        "footnoteReference": 1,
+        "endnoteReference": 0,
+        "commentReference": 0,
+        "headerReference": 0,
+        "footerReference": 0,
+        "vanish": 0,
+        "webHidden": 0,
+        "trackRevisions": 0
+      },
+      "word/_rels/document.xml.rels": {
+        "ins": 0,
+        "del": 0,
+        "moveFrom": 0,
+        "moveTo": 0,
+        "delText": 0,
+        "tbl": 0,
+        "txbxContent": 0,
+        "altChunk": 0,
+        "drawing": 0,
+        "pict": 0,
+        "object": 0,
+        "fldSimple": 0,
+        "fldChar": 0,
+        "instrText": 0,
+        "footnoteReference": 0,
+        "endnoteReference": 0,
+        "commentReference": 0,
+        "headerReference": 0,
+        "footerReference": 0,
+        "vanish": 0,
+        "webHidden": 0,
+        "trackRevisions": 0
+      },
+      "word/styles.xml": {
+        "ins": 0,
+        "del": 0,
+        "moveFrom": 0,
+        "moveTo": 0,
+        "delText": 0,
+        "tbl": 0,
+        "txbxContent": 0,
+        "altChunk": 0,
+        "drawing": 0,
+        "pict": 0,
+        "object": 0,
+        "fldSimple": 0,
+        "fldChar": 0,
+        "instrText": 0,
+        "footnoteReference": 0,
+        "endnoteReference": 0,
+        "commentReference": 0,
+        "headerReference": 0,
+        "footerReference": 0,
+        "vanish": 0,
+        "webHidden": 0,
+        "trackRevisions": 0
+      },
+      "word/stylesWithEffects.xml": {
+        "ins": 0,
+        "del": 0,
+        "moveFrom": 0,
+        "moveTo": 0,
+        "delText": 0,
+        "tbl": 0,
+        "txbxContent": 0,
+        "altChunk": 0,
+        "drawing": 0,
+        "pict": 0,
+        "object": 0,
+        "fldSimple": 0,
+        "fldChar": 0,
+        "instrText": 0,
+        "footnoteReference": 0,
+        "endnoteReference": 0,
+        "commentReference": 0,
+        "headerReference": 0,
+        "footerReference": 0,
+        "vanish": 0,
+        "webHidden": 0,
+        "trackRevisions": 0
+      },
+      "word/settings.xml": {
+        "ins": 0,
+        "del": 0,
+        "moveFrom": 0,
+        "moveTo": 0,
+        "delText": 0,
+        "tbl": 0,
+        "txbxContent": 0,
+        "altChunk": 0,
+        "drawing": 0,
+        "pict": 0,
+        "object": 0,
+        "fldSimple": 0,
+        "fldChar": 0,
+        "instrText": 0,
+        "footnoteReference": 0,
+        "endnoteReference": 0,
+        "commentReference": 0,
+        "headerReference": 0,
+        "footerReference": 0,
+        "vanish": 0,
+        "webHidden": 0,
+        "trackRevisions": 0
+      },
+      "word/webSettings.xml": {
+        "ins": 0,
+        "del": 0,
+        "moveFrom": 0,
+        "moveTo": 0,
+        "delText": 0,
+        "tbl": 0,
+        "txbxContent": 0,
+        "altChunk": 0,
+        "drawing": 0,
+        "pict": 0,
+        "object": 0,
+        "fldSimple": 0,
+        "fldChar": 0,
+        "instrText": 0,
+        "footnoteReference": 0,
+        "endnoteReference": 0,
+        "commentReference": 0,
+        "headerReference": 0,
+        "footerReference": 0,
+        "vanish": 0,
+        "webHidden": 0,
+        "trackRevisions": 0
+      },
+      "word/fontTable.xml": {
+        "ins": 0,
+        "del": 0,
+        "moveFrom": 0,
+        "moveTo": 0,
+        "delText": 0,
+        "tbl": 0,
+        "txbxContent": 0,
+        "altChunk": 0,
+        "drawing": 0,
+        "pict": 0,
+        "object": 0,
+        "fldSimple": 0,
+        "fldChar": 0,
+        "instrText": 0,
+        "footnoteReference": 0,
+        "endnoteReference": 0,
+        "commentReference": 0,
+        "headerReference": 0,
+        "footerReference": 0,
+        "vanish": 0,
+        "webHidden": 0,
+        "trackRevisions": 0
+      },
+      "word/theme/theme1.xml": {
+        "ins": 0,
+        "del": 0,
+        "moveFrom": 0,
+        "moveTo": 0,
+        "delText": 0,
+        "tbl": 0,
+        "txbxContent": 0,
+        "altChunk": 0,
+        "drawing": 0,
+        "pict": 0,
+        "object": 0,
+        "fldSimple": 0,
+        "fldChar": 0,
+        "instrText": 0,
+        "footnoteReference": 0,
+        "endnoteReference": 0,
+        "commentReference": 0,
+        "headerReference": 0,
+        "footerReference": 0,
+        "vanish": 0,
+        "webHidden": 0,
+        "trackRevisions": 0
+      },
+      "customXml/item1.xml": {
+        "ins": 0,
+        "del": 0,
+        "moveFrom": 0,
+        "moveTo": 0,
+        "delText": 0,
+        "tbl": 0,
+        "txbxContent": 0,
+        "altChunk": 0,
+        "drawing": 0,
+        "pict": 0,
+        "object": 0,
+        "fldSimple": 0,
+        "fldChar": 0,
+        "instrText": 0,
+        "footnoteReference": 0,
+        "endnoteReference": 0,
+        "commentReference": 0,
+        "headerReference": 0,
+        "footerReference": 0,
+        "vanish": 0,
+        "webHidden": 0,
+        "trackRevisions": 0
+      },
+      "customXml/_rels/item1.xml.rels": {
+        "ins": 0,
+        "del": 0,
+        "moveFrom": 0,
+        "moveTo": 0,
+        "delText": 0,
+        "tbl": 0,
+        "txbxContent": 0,
+        "altChunk": 0,
+        "drawing": 0,
+        "pict": 0,
+        "object": 0,
+        "fldSimple": 0,
+        "fldChar": 0,
+        "instrText": 0,
+        "footnoteReference": 0,
+        "endnoteReference": 0,
+        "commentReference": 0,
+        "headerReference": 0,
+        "footerReference": 0,
+        "vanish": 0,
+        "webHidden": 0,
+        "trackRevisions": 0
+      },
+      "customXml/itemProps1.xml": {
+        "ins": 0,
+        "del": 0,
+        "moveFrom": 0,
+        "moveTo": 0,
+        "delText": 0,
+        "tbl": 0,
+        "txbxContent": 0,
+        "altChunk": 0,
+        "drawing": 0,
+        "pict": 0,
+        "object": 0,
+        "fldSimple": 0,
+        "fldChar": 0,
+        "instrText": 0,
+        "footnoteReference": 0,
+        "endnoteReference": 0,
+        "commentReference": 0,
+        "headerReference": 0,
+        "footerReference": 0,
+        "vanish": 0,
+        "webHidden": 0,
+        "trackRevisions": 0
+      },
+      "word/numbering.xml": {
+        "ins": 0,
+        "del": 0,
+        "moveFrom": 0,
+        "moveTo": 0,
+        "delText": 0,
+        "tbl": 0,
+        "txbxContent": 0,
+        "altChunk": 0,
+        "drawing": 0,
+        "pict": 0,
+        "object": 0,
+        "fldSimple": 0,
+        "fldChar": 0,
+        "instrText": 0,
+        "footnoteReference": 0,
+        "endnoteReference": 0,
+        "commentReference": 0,
+        "headerReference": 0,
+        "footerReference": 0,
+        "vanish": 0,
+        "webHidden": 0,
+        "trackRevisions": 0
+      },
+      "word/footnotes.xml": {
+        "ins": 0,
+        "del": 0,
+        "moveFrom": 0,
+        "moveTo": 0,
+        "delText": 0,
+        "tbl": 0,
+        "txbxContent": 0,
+        "altChunk": 0,
+        "drawing": 0,
+        "pict": 0,
+        "object": 0,
+        "fldSimple": 0,
+        "fldChar": 3,
+        "instrText": 1,
+        "footnoteReference": 0,
+        "endnoteReference": 0,
+        "commentReference": 0,
+        "headerReference": 0,
+        "footerReference": 0,
+        "vanish": 0,
+        "webHidden": 0,
+        "trackRevisions": 0
+      }
+    },
+    "paragraphs": [
+      {
+        "part": "word/document.xml",
+        "paragraph": 1,
+        "style": "Title",
+        "text": "Collection record methods"
+      },
+      {
+        "part": "word/document.xml",
+        "paragraph": 2,
+        "style": null,
+        "text": "This constructed document contains fictional references for a citation audit. It is not a research submission."
+      },
+      {
+        "part": "word/document.xml",
+        "paragraph": 3,
+        "style": null,
+        "text": "The catalogue containss two registers (Ellis, 2020a)."
+      },
+      {
+        "part": "word/document.xml",
+        "paragraph": 4,
+        "style": null,
+        "text": "The second register is documented separately (Ellis, 2020b)."
+      },
+      {
+        "part": "word/document.xml",
+        "paragraph": 5,
+        "style": null,
+        "text": "An explanatory source appears only in the attached note."
+      },
+      {
+        "part": "word/document.xml",
+        "paragraph": 6,
+        "style": null,
+        "text": "Recorded items \u2192 Organized catalogue \u2192 Comparison"
+      },
+      {
+        "part": "word/document.xml",
+        "paragraph": 7,
+        "style": "Caption",
+        "text": "Figure 1  Overview of the record process, based on (Kline, 2022)."
+      },
+      {
+        "part": "word/document.xml",
+        "paragraph": 8,
+        "style": null,
+        "text": "The process is summarized in Figure 1."
+      },
+      {
+        "part": "word/document.xml",
+        "paragraph": 9,
+        "style": "Heading1",
+        "text": "References"
+      },
+      {
+        "part": "word/document.xml",
+        "paragraph": 10,
+        "style": null,
+        "text": "Ellis, M. (2020a). Archive Register Methods. Example Press.\nEllis, M. (2020b). Museum Register Methods. Example Press.\nPaz, L. (2018). Oral Catalogue Notes. Example Press.\nKline, E. (2022). Collection Diagrams. Example Press."
+      },
+      {
+        "part": "word/document.xml",
+        "paragraph": 11,
+        "style": "Heading1",
+        "text": "Further reading"
+      },
+      {
+        "part": "word/document.xml",
+        "paragraph": 12,
+        "style": null,
+        "text": "Huang, R. (2017). Further Curatorial Reading. Example Press."
+      },
+      {
+        "part": "word/footnotes.xml",
+        "paragraph": 1,
+        "style": null,
+        "text": ""
+      },
+      {
+        "part": "word/footnotes.xml",
+        "paragraph": 2,
+        "style": null,
+        "text": ""
+      },
+      {
+        "part": "word/footnotes.xml",
+        "paragraph": 3,
+        "style": null,
+        "text": " Note-specific context follows (Paz, 2018)."
+      }
+    ],
+    "fields": [
+      {
+        "part": "word/document.xml",
+        "paragraph": 3,
+        "instruction": " CITATION EllisA \\l 1033 ",
+        "result": "(Ellis, 2020a)",
+        "markers": [
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+          },
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+          },
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+          }
+        ]
+      },
+      {
+        "part": "word/document.xml",
+        "paragraph": 4,
+        "instruction": " CITATION EllisB \\l 1033 ",
+        "result": "(Ellis, 2020b)",
+        "markers": [
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+          },
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+          },
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+          }
+        ]
+      },
+      {
+        "part": "word/document.xml",
+        "paragraph": 7,
+        "instruction": " SEQ Figure \\* ARABIC ",
+        "result": "1",
+        "markers": [
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+          },
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+          },
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+          }
+        ]
+      },
+      {
+        "part": "word/document.xml",
+        "paragraph": 7,
+        "instruction": " CITATION KlineCaption \\l 1033 ",
+        "result": "(Kline, 2022)",
+        "markers": [
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+          },
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+          },
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+          }
+        ]
+      },
+      {
+        "part": "word/document.xml",
+        "paragraph": 8,
+        "instruction": " REF figProcess \\h ",
+        "result": "1",
+        "markers": [
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+          },
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+          },
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+          }
+        ]
+      },
+      {
+        "part": "word/document.xml",
+        "paragraph": 10,
+        "instruction": " BIBLIOGRAPHY \\l 1033 ",
+        "result": "Ellis, M. (2020a). Archive Register Methods. Example Press.\nEllis, M. (2020b). Museum Register Methods. Example Press.\nPaz, L. (2018). Oral Catalogue Notes. Example Press.\nKline, E. (2022). Collection Diagrams. Example Press.",
+        "markers": [
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+          },
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+          },
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+          }
+        ]
+      },
+      {
+        "part": "word/footnotes.xml",
+        "paragraph": 3,
+        "instruction": " CITATION PazNote \\l 1033 ",
+        "result": "(Paz, 2018)",
+        "markers": [
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+          },
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+          },
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+          }
+        ]
+      }
+    ],
+    "relationships": {
+      "_rels/.rels": [
+        {
+          "Id": "rId3",
+          "Type": "http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties",
+          "Target": "docProps/core.xml",
+          "resolved_target": "docProps/core.xml",
+          "present": true
+        },
+        {
+          "Id": "rId4",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties",
+          "Target": "docProps/app.xml",
+          "resolved_target": "docProps/app.xml",
+          "present": true
+        },
+        {
+          "Id": "rId1",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument",
+          "Target": "word/document.xml",
+          "resolved_target": "word/document.xml",
+          "present": true
+        },
+        {
+          "Id": "rId2",
+          "Type": "http://schemas.openxmlformats.org/package/2006/relationships/metadata/thumbnail",
+          "Target": "docProps/thumbnail.jpeg",
+          "resolved_target": "docProps/thumbnail.jpeg",
+          "present": true
+        }
+      ],
+      "word/_rels/document.xml.rels": [
+        {
+          "Id": "rId3",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles",
+          "Target": "styles.xml",
+          "resolved_target": "word/styles.xml",
+          "present": true
+        },
+        {
+          "Id": "rId4",
+          "Type": "http://schemas.microsoft.com/office/2007/relationships/stylesWithEffects",
+          "Target": "stylesWithEffects.xml",
+          "resolved_target": "word/stylesWithEffects.xml",
+          "present": true
+        },
+        {
+          "Id": "rId5",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/settings",
+          "Target": "settings.xml",
+          "resolved_target": "word/settings.xml",
+          "present": true
+        },
+        {
+          "Id": "rId6",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/webSettings",
+          "Target": "webSettings.xml",
+          "resolved_target": "word/webSettings.xml",
+          "present": true
+        },
+        {
+          "Id": "rId7",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/fontTable",
+          "Target": "fontTable.xml",
+          "resolved_target": "word/fontTable.xml",
+          "present": true
+        },
+        {
+          "Id": "rId8",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme",
+          "Target": "theme/theme1.xml",
+          "resolved_target": "word/theme/theme1.xml",
+          "present": true
+        },
+        {
+          "Id": "rId1",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/customXml",
+          "Target": "../customXml/item1.xml",
+          "resolved_target": "customXml/item1.xml",
+          "present": true
+        },
+        {
+          "Id": "rId2",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/numbering",
+          "Target": "numbering.xml",
+          "resolved_target": "word/numbering.xml",
+          "present": true
+        },
+        {
+          "Id": "rIdFootnotes",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/footnotes",
+          "Target": "footnotes.xml",
+          "resolved_target": "word/footnotes.xml",
+          "present": true
+        }
+      ],
+      "customXml/_rels/item1.xml.rels": [
+        {
+          "Id": "rId1",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/customXmlProps",
+          "Target": "itemProps1.xml",
+          "resolved_target": "customXml/itemProps1.xml",
+          "present": true
+        }
+      ]
+    },
+    "stored_style": {
+      "SelectedStyle": "/APASixthEditionOfficeOnline.xsl",
+      "StyleName": "APA",
+      "Version": "6"
+    },
+    "sources": [
+      {
+        "Tag": "EllisA",
+        "SourceType": "Book",
+        "Guid": "{20000001-1111-4111-8111-000000000001}",
+        "Title": "Archive Register Methods",
+        "Year": "2020",
+        "Publisher": "Example Press",
+        "RefOrder": "1",
+        "people": [
+          {
+            "Last": "Ellis",
+            "First": "Morgan"
+          }
+        ]
+      },
+      {
+        "Tag": "EllisB",
+        "SourceType": "Book",
+        "Guid": "{20000002-1111-4111-8111-000000000002}",
+        "Title": "Museum Register Methods",
+        "Year": "2020",
+        "Publisher": "Example Press",
+        "RefOrder": "2",
+        "people": [
+          {
+            "Last": "Ellis",
+            "First": "Morgan"
+          }
+        ]
+      },
+      {
+        "Tag": "PazNote",
+        "SourceType": "Book",
+        "Guid": "{20000003-1111-4111-8111-000000000003}",
+        "Title": "Oral Catalogue Notes",
+        "Year": "2018",
+        "Publisher": "Example Press",
+        "RefOrder": "3",
+        "people": [
+          {
+            "Last": "Paz",
+            "First": "Lina"
+          }
+        ]
+      },
+      {
+        "Tag": "KlineCaption",
+        "SourceType": "Book",
+        "Guid": "{20000004-1111-4111-8111-000000000004}",
+        "Title": "Collection Diagrams",
+        "Year": "2022",
+        "Publisher": "Example Press",
+        "RefOrder": "4",
+        "people": [
+          {
+            "Last": "Kline",
+            "First": "Evan"
+          }
+        ]
+      },
+      {
+        "Tag": "HuangReading",
+        "SourceType": "Book",
+        "Guid": "{20000005-1111-4111-8111-000000000005}",
+        "Title": "Further Curatorial Reading",
+        "Year": "2017",
+        "Publisher": "Example Press",
+        "RefOrder": "5",
+        "people": [
+          {
+            "Last": "Huang",
+            "First": "Ren"
+          }
+        ]
+      },
+      {
+        "Tag": "DaneLibrary",
+        "SourceType": "Book",
+        "Guid": "{20000006-1111-4111-8111-000000000006}",
+        "Title": "Stored Collection Index",
+        "Year": "2016",
+        "Publisher": "Example Press",
+        "RefOrder": "6",
+        "people": [
+          {
+            "Last": "Dane",
+            "First": "Jo"
+          }
+        ]
+      }
+    ]
+  }
+}

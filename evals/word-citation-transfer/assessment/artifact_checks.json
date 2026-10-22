@@ -1,0 +1,2684 @@
+{
+  "method": "Independently parsed current original fixtures and each actual revised DOCX. Did not rely on run verification files for the checks.",
+  "native_word_refresh_tested": false,
+  "fixtures": {
+    "a": {
+      "path": "/TEST_WORKDIR/fixtures/case-a.docx",
+      "sha256": "d45de9aeffce9fdb92ea670a3fd965b846e500d095030d6817f0773392f1ba62",
+      "zip_crc_failure": null,
+      "member_count": 18,
+      "members": [
+        "[Content_Types].xml",
+        "_rels/.rels",
+        "docProps/core.xml",
+        "docProps/app.xml",
+        "word/document.xml",
+        "word/_rels/document.xml.rels",
+        "word/styles.xml",
+        "word/stylesWithEffects.xml",
+        "word/settings.xml",
+        "word/webSettings.xml",
+        "word/fontTable.xml",
+        "word/theme/theme1.xml",
+        "customXml/item1.xml",
+        "customXml/_rels/item1.xml.rels",
+        "customXml/itemProps1.xml",
+        "word/numbering.xml",
+        "docProps/thumbnail.jpeg",
+        "word/footnotes.xml"
+      ],
+      "xml_parts_parsed": 17,
+      "fields": [
+        {
+          "part": "word/document.xml",
+          "paragraph": 3,
+          "region": "body",
+          "instruction": " CITATION ValeA \\l 1033 ",
+          "cache": "(Vale, 2024b)",
+          "markers": [
+            {
+              "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+            },
+            {
+              "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+            },
+            {
+              "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+            }
+          ],
+          "separate": true,
+          "closed": true
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 4,
+          "region": "body",
+          "instruction": " CITATION ValeB \\l 1033 ",
+          "cache": "(Vale, 2024)",
+          "markers": [
+            {
+              "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+            },
+            {
+              "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+            },
+            {
+              "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+            }
+          ],
+          "separate": true,
+          "closed": true
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 7,
+          "region": "caption",
+          "instruction": " SEQ Figure \\* ARABIC ",
+          "cache": "1",
+          "markers": [
+            {
+              "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+            },
+            {
+              "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+            },
+            {
+              "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+            }
+          ],
+          "separate": true,
+          "closed": true
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 7,
+          "region": "caption",
+          "instruction": " CITATION ImaniCaption \\l 1033 ",
+          "cache": "(Imani, 2021)",
+          "markers": [
+            {
+              "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+            },
+            {
+              "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+            },
+            {
+              "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+            }
+          ],
+          "separate": true,
+          "closed": true
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 8,
+          "region": "body",
+          "instruction": " REF figProcess \\h ",
+          "cache": "1",
+          "markers": [
+            {
+              "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+            },
+            {
+              "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+            },
+            {
+              "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+            }
+          ],
+          "separate": true,
+          "closed": true
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 10,
+          "region": "body",
+          "instruction": " BIBLIOGRAPHY \\l 1033 ",
+          "cache": "Vale, T. (2024a). Alpha Sensor Calibration. Example Press.\nVale, T. (2024b). Beta Sensor Calibration. Example Press.\nNg, R. (2022). Quiet Instrument Records. Example Press.\nImani, A. (2021). Diagram Conventions. Example Press.\nMarin, L. (2020). Spare Workshop Notes. Example Press.",
+          "markers": [
+            {
+              "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+            },
+            {
+              "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+            },
+            {
+              "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+            }
+          ],
+          "separate": true,
+          "closed": true
+        },
+        {
+          "part": "word/footnotes.xml",
+          "paragraph": 3,
+          "region": "footnote",
+          "instruction": " CITATION NgNote \\l 1033 ",
+          "cache": "(Ng, 2022)",
+          "markers": [
+            {
+              "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+            },
+            {
+              "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+            },
+            {
+              "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+            }
+          ],
+          "separate": true,
+          "closed": true
+        }
+      ],
+      "field_errors": [],
+      "field_count": 7,
+      "citation_count": 4,
+      "citation_regions": {
+        "body": 2,
+        "caption": 1,
+        "footnote": 1
+      },
+      "source_count": 7,
+      "sources": [
+        {
+          "part": "customXml/item1.xml",
+          "Tag": "ValeA",
+          "Guid": "{10000001-1111-4111-8111-000000000001}",
+          "Title": "Alpha Sensor Calibration",
+          "Year": "2024",
+          "Publisher": "Example Press",
+          "RefOrder": "1",
+          "authors": [
+            {
+              "first": "Tamsin",
+              "last": "Vale"
+            }
+          ]
+        },
+        {
+          "part": "customXml/item1.xml",
+          "Tag": "ValeB",
+          "Guid": "{10000002-1111-4111-8111-000000000002}",
+          "Title": "Beta Sensor Calibration",
+          "Year": "2024",
+          "Publisher": "Example Press",
+          "RefOrder": "2",
+          "authors": [
+            {
+              "first": "Tamsin",
+              "last": "Vale"
+            }
+          ]
+        },
+        {
+          "part": "customXml/item1.xml",
+          "Tag": "NgNote",
+          "Guid": "{10000003-1111-4111-8111-000000000003}",
+          "Title": "Quiet Instrument Records",
+          "Year": "2022",
+          "Publisher": "Example Press",
+          "RefOrder": "3",
+          "authors": [
+            {
+              "first": "Rui",
+              "last": "Ng"
+            }
+          ]
+        },
+        {
+          "part": "customXml/item1.xml",
+          "Tag": "ImaniCaption",
+          "Guid": "{10000004-1111-4111-8111-000000000004}",
+          "Title": "Diagram Conventions",
+          "Year": "2021",
+          "Publisher": "Example Press",
+          "RefOrder": "4",
+          "authors": [
+            {
+              "first": "Ada",
+              "last": "Imani"
+            }
+          ]
+        },
+        {
+          "part": "customXml/item1.xml",
+          "Tag": "MarinUnused",
+          "Guid": "{10000005-1111-4111-8111-000000000005}",
+          "Title": "Spare Workshop Notes",
+          "Year": "2020",
+          "Publisher": "Example Press",
+          "RefOrder": "5",
+          "authors": [
+            {
+              "first": "Lou",
+              "last": "Marin"
+            }
+          ]
+        },
+        {
+          "part": "customXml/item1.xml",
+          "Tag": "SatoReading",
+          "Guid": "{10000006-1111-4111-8111-000000000006}",
+          "Title": "Further Instrument Reading",
+          "Year": "2019",
+          "Publisher": "Example Press",
+          "RefOrder": "6",
+          "authors": [
+            {
+              "first": "Mei",
+              "last": "Sato"
+            }
+          ]
+        },
+        {
+          "part": "customXml/item1.xml",
+          "Tag": "LumenLibrary",
+          "Guid": "{10000007-1111-4111-8111-000000000007}",
+          "Title": "Stored but Unlisted Records",
+          "Year": "2018",
+          "Publisher": "Example Press",
+          "RefOrder": "7",
+          "authors": [
+            {
+              "first": "Kai",
+              "last": "Lumen"
+            }
+          ]
+        }
+      ],
+      "citation_tags": [
+        "ValeA",
+        "ValeB",
+        "ImaniCaption",
+        "NgNote"
+      ],
+      "all_citation_tags_resolve": true,
+      "source_tags_unique": true,
+      "stored_style": [
+        {
+          "SelectedStyle": "/APASixthEditionOfficeOnline.xsl",
+          "StyleName": "APA",
+          "Version": "6"
+        }
+      ],
+      "paragraphs": [
+        {
+          "part": "word/document.xml",
+          "paragraph": 1,
+          "text": "Instrument record methods"
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 2,
+          "text": "This constructed document contains fictional references for a citation audit. It is not a research submission."
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 3,
+          "text": "The alpha calibration protocol is recorded in (Vale, 2024b)."
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 4,
+          "text": "The beta calibration protocol has a separate record (Vale, 2024)."
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 5,
+          "text": "An explanatory source appears only in the attached note[footnote:1]."
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 6,
+          "text": "Recorded items \u2192 Organized catalogue \u2192 Comparison"
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 7,
+          "text": "Figure 1  Overview of the record process, based on (Imani, 2021)."
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 8,
+          "text": "The process is summarized in Figure 1."
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 9,
+          "text": "References"
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 10,
+          "text": "Vale, T. (2024a). Alpha Sensor Calibration. Example Press.\nVale, T. (2024b). Beta Sensor Calibration. Example Press.\nNg, R. (2022). Quiet Instrument Records. Example Press.\nImani, A. (2021). Diagram Conventions. Example Press.\nMarin, L. (2020). Spare Workshop Notes. Example Press."
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 11,
+          "text": "Further reading"
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 12,
+          "text": "Sato, M. (2019). Further Instrument Reading. Example Press."
+        },
+        {
+          "part": "word/footnotes.xml",
+          "paragraph": 3,
+          "text": " Note-specific context follows (Ng, 2022)."
+        }
+      ],
+      "main_paragraph_count": 12,
+      "footnotes": [
+        {
+          "id": "-1",
+          "type": "separator"
+        },
+        {
+          "id": "0",
+          "type": "continuationSeparator"
+        },
+        {
+          "id": "1",
+          "type": null
+        }
+      ],
+      "note_anchors": [
+        {
+          "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}id": "1"
+        }
+      ],
+      "bookmarks_start": [
+        {
+          "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}id": "19",
+          "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}name": "figProcess"
+        }
+      ],
+      "bookmarks_end": [
+        {
+          "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}id": "19"
+        }
+      ],
+      "relationships": [
+        {
+          "Id": "rId3",
+          "Type": "http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties",
+          "Target": "docProps/core.xml",
+          "part": "_rels/.rels",
+          "resolved_part": "docProps/core.xml",
+          "target_present": true
+        },
+        {
+          "Id": "rId4",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties",
+          "Target": "docProps/app.xml",
+          "part": "_rels/.rels",
+          "resolved_part": "docProps/app.xml",
+          "target_present": true
+        },
+        {
+          "Id": "rId1",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument",
+          "Target": "word/document.xml",
+          "part": "_rels/.rels",
+          "resolved_part": "word/document.xml",
+          "target_present": true
+        },
+        {
+          "Id": "rId2",
+          "Type": "http://schemas.openxmlformats.org/package/2006/relationships/metadata/thumbnail",
+          "Target": "docProps/thumbnail.jpeg",
+          "part": "_rels/.rels",
+          "resolved_part": "docProps/thumbnail.jpeg",
+          "target_present": true
+        },
+        {
+          "Id": "rId3",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles",
+          "Target": "styles.xml",
+          "part": "word/_rels/document.xml.rels",
+          "resolved_part": "word/styles.xml",
+          "target_present": true
+        },
+        {
+          "Id": "rId4",
+          "Type": "http://schemas.microsoft.com/office/2007/relationships/stylesWithEffects",
+          "Target": "stylesWithEffects.xml",
+          "part": "word/_rels/document.xml.rels",
+          "resolved_part": "word/stylesWithEffects.xml",
+          "target_present": true
+        },
+        {
+          "Id": "rId5",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/settings",
+          "Target": "settings.xml",
+          "part": "word/_rels/document.xml.rels",
+          "resolved_part": "word/settings.xml",
+          "target_present": true
+        },
+        {
+          "Id": "rId6",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/webSettings",
+          "Target": "webSettings.xml",
+          "part": "word/_rels/document.xml.rels",
+          "resolved_part": "word/webSettings.xml",
+          "target_present": true
+        },
+        {
+          "Id": "rId7",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/fontTable",
+          "Target": "fontTable.xml",
+          "part": "word/_rels/document.xml.rels",
+          "resolved_part": "word/fontTable.xml",
+          "target_present": true
+        },
+        {
+          "Id": "rId8",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme",
+          "Target": "theme/theme1.xml",
+          "part": "word/_rels/document.xml.rels",
+          "resolved_part": "word/theme/theme1.xml",
+          "target_present": true
+        },
+        {
+          "Id": "rId1",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/customXml",
+          "Target": "../customXml/item1.xml",
+          "part": "word/_rels/document.xml.rels",
+          "resolved_part": "customXml/item1.xml",
+          "target_present": true
+        },
+        {
+          "Id": "rId2",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/numbering",
+          "Target": "numbering.xml",
+          "part": "word/_rels/document.xml.rels",
+          "resolved_part": "word/numbering.xml",
+          "target_present": true
+        },
+        {
+          "Id": "rIdFootnotes",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/footnotes",
+          "Target": "footnotes.xml",
+          "part": "word/_rels/document.xml.rels",
+          "resolved_part": "word/footnotes.xml",
+          "target_present": true
+        },
+        {
+          "Id": "rId1",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/customXmlProps",
+          "Target": "itemProps1.xml",
+          "part": "customXml/_rels/item1.xml.rels",
+          "resolved_part": "customXml/itemProps1.xml",
+          "target_present": true
+        }
+      ],
+      "all_internal_targets_present": true,
+      "structure_indicator_counts": {
+        "tbl": 0,
+        "txbxContent": 0,
+        "drawing": 0,
+        "object": 0,
+        "altChunk": 0,
+        "ins": 0,
+        "del": 0,
+        "moveFrom": 0,
+        "moveTo": 0,
+        "pPrChange": 0,
+        "rPrChange": 0,
+        "sectPrChange": 0,
+        "trackRevisions": 0
+      }
+    },
+    "b": {
+      "path": "/TEST_WORKDIR/fixtures/case-b.docx",
+      "sha256": "f3be77c7d27af6797dfbf605ea7225491a847e89db96ee4e8e2887adf1fb8463",
+      "zip_crc_failure": null,
+      "member_count": 18,
+      "members": [
+        "[Content_Types].xml",
+        "_rels/.rels",
+        "docProps/core.xml",
+        "docProps/app.xml",
+        "word/document.xml",
+        "word/_rels/document.xml.rels",
+        "word/styles.xml",
+        "word/stylesWithEffects.xml",
+        "word/settings.xml",
+        "word/webSettings.xml",
+        "word/fontTable.xml",
+        "word/theme/theme1.xml",
+        "customXml/item1.xml",
+        "customXml/_rels/item1.xml.rels",
+        "customXml/itemProps1.xml",
+        "word/numbering.xml",
+        "docProps/thumbnail.jpeg",
+        "word/footnotes.xml"
+      ],
+      "xml_parts_parsed": 17,
+      "fields": [
+        {
+          "part": "word/document.xml",
+          "paragraph": 3,
+          "region": "body",
+          "instruction": " CITATION EllisA \\l 1033 ",
+          "cache": "(Ellis, 2020a)",
+          "markers": [
+            {
+              "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+            },
+            {
+              "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+            },
+            {
+              "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+            }
+          ],
+          "separate": true,
+          "closed": true
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 4,
+          "region": "body",
+          "instruction": " CITATION EllisB \\l 1033 ",
+          "cache": "(Ellis, 2020b)",
+          "markers": [
+            {
+              "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+            },
+            {
+              "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+            },
+            {
+              "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+            }
+          ],
+          "separate": true,
+          "closed": true
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 7,
+          "region": "caption",
+          "instruction": " SEQ Figure \\* ARABIC ",
+          "cache": "1",
+          "markers": [
+            {
+              "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+            },
+            {
+              "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+            },
+            {
+              "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+            }
+          ],
+          "separate": true,
+          "closed": true
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 7,
+          "region": "caption",
+          "instruction": " CITATION KlineCaption \\l 1033 ",
+          "cache": "(Kline, 2022)",
+          "markers": [
+            {
+              "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+            },
+            {
+              "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+            },
+            {
+              "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+            }
+          ],
+          "separate": true,
+          "closed": true
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 8,
+          "region": "body",
+          "instruction": " REF figProcess \\h ",
+          "cache": "1",
+          "markers": [
+            {
+              "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+            },
+            {
+              "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+            },
+            {
+              "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+            }
+          ],
+          "separate": true,
+          "closed": true
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 10,
+          "region": "body",
+          "instruction": " BIBLIOGRAPHY \\l 1033 ",
+          "cache": "Ellis, M. (2020a). Archive Register Methods. Example Press.\nEllis, M. (2020b). Museum Register Methods. Example Press.\nPaz, L. (2018). Oral Catalogue Notes. Example Press.\nKline, E. (2022). Collection Diagrams. Example Press.",
+          "markers": [
+            {
+              "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+            },
+            {
+              "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+            },
+            {
+              "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+            }
+          ],
+          "separate": true,
+          "closed": true
+        },
+        {
+          "part": "word/footnotes.xml",
+          "paragraph": 3,
+          "region": "footnote",
+          "instruction": " CITATION PazNote \\l 1033 ",
+          "cache": "(Paz, 2018)",
+          "markers": [
+            {
+              "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+            },
+            {
+              "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+            },
+            {
+              "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+            }
+          ],
+          "separate": true,
+          "closed": true
+        }
+      ],
+      "field_errors": [],
+      "field_count": 7,
+      "citation_count": 4,
+      "citation_regions": {
+        "body": 2,
+        "caption": 1,
+        "footnote": 1
+      },
+      "source_count": 6,
+      "sources": [
+        {
+          "part": "customXml/item1.xml",
+          "Tag": "EllisA",
+          "Guid": "{20000001-1111-4111-8111-000000000001}",
+          "Title": "Archive Register Methods",
+          "Year": "2020",
+          "Publisher": "Example Press",
+          "RefOrder": "1",
+          "authors": [
+            {
+              "first": "Morgan",
+              "last": "Ellis"
+            }
+          ]
+        },
+        {
+          "part": "customXml/item1.xml",
+          "Tag": "EllisB",
+          "Guid": "{20000002-1111-4111-8111-000000000002}",
+          "Title": "Museum Register Methods",
+          "Year": "2020",
+          "Publisher": "Example Press",
+          "RefOrder": "2",
+          "authors": [
+            {
+              "first": "Morgan",
+              "last": "Ellis"
+            }
+          ]
+        },
+        {
+          "part": "customXml/item1.xml",
+          "Tag": "PazNote",
+          "Guid": "{20000003-1111-4111-8111-000000000003}",
+          "Title": "Oral Catalogue Notes",
+          "Year": "2018",
+          "Publisher": "Example Press",
+          "RefOrder": "3",
+          "authors": [
+            {
+              "first": "Lina",
+              "last": "Paz"
+            }
+          ]
+        },
+        {
+          "part": "customXml/item1.xml",
+          "Tag": "KlineCaption",
+          "Guid": "{20000004-1111-4111-8111-000000000004}",
+          "Title": "Collection Diagrams",
+          "Year": "2022",
+          "Publisher": "Example Press",
+          "RefOrder": "4",
+          "authors": [
+            {
+              "first": "Evan",
+              "last": "Kline"
+            }
+          ]
+        },
+        {
+          "part": "customXml/item1.xml",
+          "Tag": "HuangReading",
+          "Guid": "{20000005-1111-4111-8111-000000000005}",
+          "Title": "Further Curatorial Reading",
+          "Year": "2017",
+          "Publisher": "Example Press",
+          "RefOrder": "5",
+          "authors": [
+            {
+              "first": "Ren",
+              "last": "Huang"
+            }
+          ]
+        },
+        {
+          "part": "customXml/item1.xml",
+          "Tag": "DaneLibrary",
+          "Guid": "{20000006-1111-4111-8111-000000000006}",
+          "Title": "Stored Collection Index",
+          "Year": "2016",
+          "Publisher": "Example Press",
+          "RefOrder": "6",
+          "authors": [
+            {
+              "first": "Jo",
+              "last": "Dane"
+            }
+          ]
+        }
+      ],
+      "citation_tags": [
+        "EllisA",
+        "EllisB",
+        "KlineCaption",
+        "PazNote"
+      ],
+      "all_citation_tags_resolve": true,
+      "source_tags_unique": true,
+      "stored_style": [
+        {
+          "SelectedStyle": "/APASixthEditionOfficeOnline.xsl",
+          "StyleName": "APA",
+          "Version": "6"
+        }
+      ],
+      "paragraphs": [
+        {
+          "part": "word/document.xml",
+          "paragraph": 1,
+          "text": "Collection record methods"
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 2,
+          "text": "This constructed document contains fictional references for a citation audit. It is not a research submission."
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 3,
+          "text": "The catalogue containss two registers (Ellis, 2020a)."
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 4,
+          "text": "The second register is documented separately (Ellis, 2020b)."
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 5,
+          "text": "An explanatory source appears only in the attached note[footnote:1]."
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 6,
+          "text": "Recorded items \u2192 Organized catalogue \u2192 Comparison"
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 7,
+          "text": "Figure 1  Overview of the record process, based on (Kline, 2022)."
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 8,
+          "text": "The process is summarized in Figure 1."
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 9,
+          "text": "References"
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 10,
+          "text": "Ellis, M. (2020a). Archive Register Methods. Example Press.\nEllis, M. (2020b). Museum Register Methods. Example Press.\nPaz, L. (2018). Oral Catalogue Notes. Example Press.\nKline, E. (2022). Collection Diagrams. Example Press."
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 11,
+          "text": "Further reading"
+        },
+        {
+          "part": "word/document.xml",
+          "paragraph": 12,
+          "text": "Huang, R. (2017). Further Curatorial Reading. Example Press."
+        },
+        {
+          "part": "word/footnotes.xml",
+          "paragraph": 3,
+          "text": " Note-specific context follows (Paz, 2018)."
+        }
+      ],
+      "main_paragraph_count": 12,
+      "footnotes": [
+        {
+          "id": "-1",
+          "type": "separator"
+        },
+        {
+          "id": "0",
+          "type": "continuationSeparator"
+        },
+        {
+          "id": "1",
+          "type": null
+        }
+      ],
+      "note_anchors": [
+        {
+          "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}id": "1"
+        }
+      ],
+      "bookmarks_start": [
+        {
+          "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}id": "19",
+          "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}name": "figProcess"
+        }
+      ],
+      "bookmarks_end": [
+        {
+          "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}id": "19"
+        }
+      ],
+      "relationships": [
+        {
+          "Id": "rId3",
+          "Type": "http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties",
+          "Target": "docProps/core.xml",
+          "part": "_rels/.rels",
+          "resolved_part": "docProps/core.xml",
+          "target_present": true
+        },
+        {
+          "Id": "rId4",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties",
+          "Target": "docProps/app.xml",
+          "part": "_rels/.rels",
+          "resolved_part": "docProps/app.xml",
+          "target_present": true
+        },
+        {
+          "Id": "rId1",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument",
+          "Target": "word/document.xml",
+          "part": "_rels/.rels",
+          "resolved_part": "word/document.xml",
+          "target_present": true
+        },
+        {
+          "Id": "rId2",
+          "Type": "http://schemas.openxmlformats.org/package/2006/relationships/metadata/thumbnail",
+          "Target": "docProps/thumbnail.jpeg",
+          "part": "_rels/.rels",
+          "resolved_part": "docProps/thumbnail.jpeg",
+          "target_present": true
+        },
+        {
+          "Id": "rId3",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles",
+          "Target": "styles.xml",
+          "part": "word/_rels/document.xml.rels",
+          "resolved_part": "word/styles.xml",
+          "target_present": true
+        },
+        {
+          "Id": "rId4",
+          "Type": "http://schemas.microsoft.com/office/2007/relationships/stylesWithEffects",
+          "Target": "stylesWithEffects.xml",
+          "part": "word/_rels/document.xml.rels",
+          "resolved_part": "word/stylesWithEffects.xml",
+          "target_present": true
+        },
+        {
+          "Id": "rId5",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/settings",
+          "Target": "settings.xml",
+          "part": "word/_rels/document.xml.rels",
+          "resolved_part": "word/settings.xml",
+          "target_present": true
+        },
+        {
+          "Id": "rId6",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/webSettings",
+          "Target": "webSettings.xml",
+          "part": "word/_rels/document.xml.rels",
+          "resolved_part": "word/webSettings.xml",
+          "target_present": true
+        },
+        {
+          "Id": "rId7",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/fontTable",
+          "Target": "fontTable.xml",
+          "part": "word/_rels/document.xml.rels",
+          "resolved_part": "word/fontTable.xml",
+          "target_present": true
+        },
+        {
+          "Id": "rId8",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme",
+          "Target": "theme/theme1.xml",
+          "part": "word/_rels/document.xml.rels",
+          "resolved_part": "word/theme/theme1.xml",
+          "target_present": true
+        },
+        {
+          "Id": "rId1",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/customXml",
+          "Target": "../customXml/item1.xml",
+          "part": "word/_rels/document.xml.rels",
+          "resolved_part": "customXml/item1.xml",
+          "target_present": true
+        },
+        {
+          "Id": "rId2",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/numbering",
+          "Target": "numbering.xml",
+          "part": "word/_rels/document.xml.rels",
+          "resolved_part": "word/numbering.xml",
+          "target_present": true
+        },
+        {
+          "Id": "rIdFootnotes",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/footnotes",
+          "Target": "footnotes.xml",
+          "part": "word/_rels/document.xml.rels",
+          "resolved_part": "word/footnotes.xml",
+          "target_present": true
+        },
+        {
+          "Id": "rId1",
+          "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/customXmlProps",
+          "Target": "itemProps1.xml",
+          "part": "customXml/_rels/item1.xml.rels",
+          "resolved_part": "customXml/itemProps1.xml",
+          "target_present": true
+        }
+      ],
+      "all_internal_targets_present": true,
+      "structure_indicator_counts": {
+        "tbl": 0,
+        "txbxContent": 0,
+        "drawing": 0,
+        "object": 0,
+        "altChunk": 0,
+        "ins": 0,
+        "del": 0,
+        "moveFrom": 0,
+        "moveTo": 0,
+        "pPrChange": 0,
+        "rPrChange": 0,
+        "sectPrChange": 0,
+        "trackRevisions": 0
+      }
+    }
+  },
+  "runs": {
+    "guided-a": {
+      "input_matches": {
+        "case-a.docx": true,
+        "request.md": true,
+        "case-c-excerpt.txt": true,
+        "case-b.docx": true
+      },
+      "checks": {
+        "all_four_inputs_match_fixtures": true,
+        "case_a_input_byte_identical": true,
+        "same_member_names_and_order": true,
+        "zip_entry_metadata_identical": true,
+        "only_document_xml_changed": true,
+        "document_xml_exact_one_prose_replacement": true,
+        "all_other_17_member_payloads_identical": true,
+        "seven_complete_fields_identical": true,
+        "four_citations_body_caption_note_preserved": true,
+        "six_sources_and_ids_preserved": true,
+        "bookmarks_preserved": true,
+        "footnote_and_source_relationships_preserved": true,
+        "note_anchors_preserved": true,
+        "zip_integrity_and_xml_parse_pass": true
+      },
+      "all_checks_pass": true,
+      "changed_members": [
+        "word/document.xml"
+      ],
+      "artifact": {
+        "path": "/TEST_WORKDIR/runs/guided-a/output/revised-b.docx",
+        "sha256": "247b25e0b4b4ec934ca99d4073e88b421e80ef621a1453c8126dd9f426380194",
+        "zip_crc_failure": null,
+        "member_count": 18,
+        "members": [
+          "[Content_Types].xml",
+          "_rels/.rels",
+          "docProps/core.xml",
+          "docProps/app.xml",
+          "word/document.xml",
+          "word/_rels/document.xml.rels",
+          "word/styles.xml",
+          "word/stylesWithEffects.xml",
+          "word/settings.xml",
+          "word/webSettings.xml",
+          "word/fontTable.xml",
+          "word/theme/theme1.xml",
+          "customXml/item1.xml",
+          "customXml/_rels/item1.xml.rels",
+          "customXml/itemProps1.xml",
+          "word/numbering.xml",
+          "docProps/thumbnail.jpeg",
+          "word/footnotes.xml"
+        ],
+        "xml_parts_parsed": 17,
+        "fields": [
+          {
+            "part": "word/document.xml",
+            "paragraph": 3,
+            "region": "body",
+            "instruction": " CITATION EllisA \\l 1033 ",
+            "cache": "(Ellis, 2020a)",
+            "markers": [
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+              },
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+              },
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+              }
+            ],
+            "separate": true,
+            "closed": true
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 4,
+            "region": "body",
+            "instruction": " CITATION EllisB \\l 1033 ",
+            "cache": "(Ellis, 2020b)",
+            "markers": [
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+              },
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+              },
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+              }
+            ],
+            "separate": true,
+            "closed": true
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 7,
+            "region": "caption",
+            "instruction": " SEQ Figure \\* ARABIC ",
+            "cache": "1",
+            "markers": [
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+              },
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+              },
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+              }
+            ],
+            "separate": true,
+            "closed": true
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 7,
+            "region": "caption",
+            "instruction": " CITATION KlineCaption \\l 1033 ",
+            "cache": "(Kline, 2022)",
+            "markers": [
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+              },
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+              },
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+              }
+            ],
+            "separate": true,
+            "closed": true
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 8,
+            "region": "body",
+            "instruction": " REF figProcess \\h ",
+            "cache": "1",
+            "markers": [
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+              },
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+              },
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+              }
+            ],
+            "separate": true,
+            "closed": true
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 10,
+            "region": "body",
+            "instruction": " BIBLIOGRAPHY \\l 1033 ",
+            "cache": "Ellis, M. (2020a). Archive Register Methods. Example Press.\nEllis, M. (2020b). Museum Register Methods. Example Press.\nPaz, L. (2018). Oral Catalogue Notes. Example Press.\nKline, E. (2022). Collection Diagrams. Example Press.",
+            "markers": [
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+              },
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+              },
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+              }
+            ],
+            "separate": true,
+            "closed": true
+          },
+          {
+            "part": "word/footnotes.xml",
+            "paragraph": 3,
+            "region": "footnote",
+            "instruction": " CITATION PazNote \\l 1033 ",
+            "cache": "(Paz, 2018)",
+            "markers": [
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+              },
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+              },
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+              }
+            ],
+            "separate": true,
+            "closed": true
+          }
+        ],
+        "field_errors": [],
+        "field_count": 7,
+        "citation_count": 4,
+        "citation_regions": {
+          "body": 2,
+          "caption": 1,
+          "footnote": 1
+        },
+        "source_count": 6,
+        "sources": [
+          {
+            "part": "customXml/item1.xml",
+            "Tag": "EllisA",
+            "Guid": "{20000001-1111-4111-8111-000000000001}",
+            "Title": "Archive Register Methods",
+            "Year": "2020",
+            "Publisher": "Example Press",
+            "RefOrder": "1",
+            "authors": [
+              {
+                "first": "Morgan",
+                "last": "Ellis"
+              }
+            ]
+          },
+          {
+            "part": "customXml/item1.xml",
+            "Tag": "EllisB",
+            "Guid": "{20000002-1111-4111-8111-000000000002}",
+            "Title": "Museum Register Methods",
+            "Year": "2020",
+            "Publisher": "Example Press",
+            "RefOrder": "2",
+            "authors": [
+              {
+                "first": "Morgan",
+                "last": "Ellis"
+              }
+            ]
+          },
+          {
+            "part": "customXml/item1.xml",
+            "Tag": "PazNote",
+            "Guid": "{20000003-1111-4111-8111-000000000003}",
+            "Title": "Oral Catalogue Notes",
+            "Year": "2018",
+            "Publisher": "Example Press",
+            "RefOrder": "3",
+            "authors": [
+              {
+                "first": "Lina",
+                "last": "Paz"
+              }
+            ]
+          },
+          {
+            "part": "customXml/item1.xml",
+            "Tag": "KlineCaption",
+            "Guid": "{20000004-1111-4111-8111-000000000004}",
+            "Title": "Collection Diagrams",
+            "Year": "2022",
+            "Publisher": "Example Press",
+            "RefOrder": "4",
+            "authors": [
+              {
+                "first": "Evan",
+                "last": "Kline"
+              }
+            ]
+          },
+          {
+            "part": "customXml/item1.xml",
+            "Tag": "HuangReading",
+            "Guid": "{20000005-1111-4111-8111-000000000005}",
+            "Title": "Further Curatorial Reading",
+            "Year": "2017",
+            "Publisher": "Example Press",
+            "RefOrder": "5",
+            "authors": [
+              {
+                "first": "Ren",
+                "last": "Huang"
+              }
+            ]
+          },
+          {
+            "part": "customXml/item1.xml",
+            "Tag": "DaneLibrary",
+            "Guid": "{20000006-1111-4111-8111-000000000006}",
+            "Title": "Stored Collection Index",
+            "Year": "2016",
+            "Publisher": "Example Press",
+            "RefOrder": "6",
+            "authors": [
+              {
+                "first": "Jo",
+                "last": "Dane"
+              }
+            ]
+          }
+        ],
+        "citation_tags": [
+          "EllisA",
+          "EllisB",
+          "KlineCaption",
+          "PazNote"
+        ],
+        "all_citation_tags_resolve": true,
+        "source_tags_unique": true,
+        "stored_style": [
+          {
+            "SelectedStyle": "/APASixthEditionOfficeOnline.xsl",
+            "StyleName": "APA",
+            "Version": "6"
+          }
+        ],
+        "paragraphs": [
+          {
+            "part": "word/document.xml",
+            "paragraph": 1,
+            "text": "Collection record methods"
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 2,
+            "text": "This constructed document contains fictional references for a citation audit. It is not a research submission."
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 3,
+            "text": "The catalogue contains two registers (Ellis, 2020a)."
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 4,
+            "text": "The second register is documented separately (Ellis, 2020b)."
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 5,
+            "text": "An explanatory source appears only in the attached note[footnote:1]."
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 6,
+            "text": "Recorded items \u2192 Organized catalogue \u2192 Comparison"
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 7,
+            "text": "Figure 1  Overview of the record process, based on (Kline, 2022)."
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 8,
+            "text": "The process is summarized in Figure 1."
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 9,
+            "text": "References"
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 10,
+            "text": "Ellis, M. (2020a). Archive Register Methods. Example Press.\nEllis, M. (2020b). Museum Register Methods. Example Press.\nPaz, L. (2018). Oral Catalogue Notes. Example Press.\nKline, E. (2022). Collection Diagrams. Example Press."
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 11,
+            "text": "Further reading"
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 12,
+            "text": "Huang, R. (2017). Further Curatorial Reading. Example Press."
+          },
+          {
+            "part": "word/footnotes.xml",
+            "paragraph": 3,
+            "text": " Note-specific context follows (Paz, 2018)."
+          }
+        ],
+        "main_paragraph_count": 12,
+        "footnotes": [
+          {
+            "id": "-1",
+            "type": "separator"
+          },
+          {
+            "id": "0",
+            "type": "continuationSeparator"
+          },
+          {
+            "id": "1",
+            "type": null
+          }
+        ],
+        "note_anchors": [
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}id": "1"
+          }
+        ],
+        "bookmarks_start": [
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}id": "19",
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}name": "figProcess"
+          }
+        ],
+        "bookmarks_end": [
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}id": "19"
+          }
+        ],
+        "relationships": [
+          {
+            "Id": "rId3",
+            "Type": "http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties",
+            "Target": "docProps/core.xml",
+            "part": "_rels/.rels",
+            "resolved_part": "docProps/core.xml",
+            "target_present": true
+          },
+          {
+            "Id": "rId4",
+            "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties",
+            "Target": "docProps/app.xml",
+            "part": "_rels/.rels",
+            "resolved_part": "docProps/app.xml",
+            "target_present": true
+          },
+          {
+            "Id": "rId1",
+            "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument",
+            "Target": "word/document.xml",
+            "part": "_rels/.rels",
+            "resolved_part": "word/document.xml",
+            "target_present": true
+          },
+          {
+            "Id": "rId2",
+            "Type": "http://schemas.openxmlformats.org/package/2006/relationships/metadata/thumbnail",
+            "Target": "docProps/thumbnail.jpeg",
+            "part": "_rels/.rels",
+            "resolved_part": "docProps/thumbnail.jpeg",
+            "target_present": true
+          },
+          {
+            "Id": "rId3",
+            "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles",
+            "Target": "styles.xml",
+            "part": "word/_rels/document.xml.rels",
+            "resolved_part": "word/styles.xml",
+            "target_present": true
+          },
+          {
+            "Id": "rId4",
+            "Type": "http://schemas.microsoft.com/office/2007/relationships/stylesWithEffects",
+            "Target": "stylesWithEffects.xml",
+            "part": "word/_rels/document.xml.rels",
+            "resolved_part": "word/stylesWithEffects.xml",
+            "target_present": true
+          },
+          {
+            "Id": "rId5",
+            "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/settings",
+            "Target": "settings.xml",
+            "part": "word/_rels/document.xml.rels",
+            "resolved_part": "word/settings.xml",
+            "target_present": true
+          },
+          {
+            "Id": "rId6",
+            "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/webSettings",
+            "Target": "webSettings.xml",
+            "part": "word/_rels/document.xml.rels",
+            "resolved_part": "word/webSettings.xml",
+            "target_present": true
+          },
+          {
+            "Id": "rId7",
+            "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/fontTable",
+            "Target": "fontTable.xml",
+            "part": "word/_rels/document.xml.rels",
+            "resolved_part": "word/fontTable.xml",
+            "target_present": true
+          },
+          {
+            "Id": "rId8",
+            "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme",
+            "Target": "theme/theme1.xml",
+            "part": "word/_rels/document.xml.rels",
+            "resolved_part": "word/theme/theme1.xml",
+            "target_present": true
+          },
+          {
+            "Id": "rId1",
+            "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/customXml",
+            "Target": "../customXml/item1.xml",
+            "part": "word/_rels/document.xml.rels",
+            "resolved_part": "customXml/item1.xml",
+            "target_present": true
+          },
+          {
+            "Id": "rId2",
+            "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/numbering",
+            "Target": "numbering.xml",
+            "part": "word/_rels/document.xml.rels",
+            "resolved_part": "word/numbering.xml",
+            "target_present": true
+          },
+          {
+            "Id": "rIdFootnotes",
+            "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/footnotes",
+            "Target": "footnotes.xml",
+            "part": "word/_rels/document.xml.rels",
+            "resolved_part": "word/footnotes.xml",
+            "target_present": true
+          },
+          {
+            "Id": "rId1",
+            "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/customXmlProps",
+            "Target": "itemProps1.xml",
+            "part": "customXml/_rels/item1.xml.rels",
+            "resolved_part": "customXml/itemProps1.xml",
+            "target_present": true
+          }
+        ],
+        "all_internal_targets_present": true,
+        "structure_indicator_counts": {
+          "tbl": 0,
+          "txbxContent": 0,
+          "drawing": 0,
+          "object": 0,
+          "altChunk": 0,
+          "ins": 0,
+          "del": 0,
+          "moveFrom": 0,
+          "moveTo": 0,
+          "pPrChange": 0,
+          "rPrChange": 0,
+          "sectPrChange": 0,
+          "trackRevisions": 0
+        }
+      },
+      "render_png": "/TEST_WORKDIR/runs/guided-a/output/rendered-b/page-1.png",
+      "render_png_sha256": "0346b839061d9ae6b35fa761e7671f84c798d686a45370e0efcb4ac59c94403a",
+      "render_pdf": "/TEST_WORKDIR/runs/guided-a/output/rendered-b/revised-b.pdf",
+      "render_pdf_sha256": "cafc9dc1bef21551131a1ac398907367581bf8caabce71d19eda5a8a1a352262"
+    },
+    "guided-b": {
+      "input_matches": {
+        "case-a.docx": true,
+        "request.md": true,
+        "case-c-excerpt.txt": true,
+        "case-b.docx": true
+      },
+      "checks": {
+        "all_four_inputs_match_fixtures": true,
+        "case_a_input_byte_identical": true,
+        "same_member_names_and_order": true,
+        "zip_entry_metadata_identical": true,
+        "only_document_xml_changed": true,
+        "document_xml_exact_one_prose_replacement": true,
+        "all_other_17_member_payloads_identical": true,
+        "seven_complete_fields_identical": true,
+        "four_citations_body_caption_note_preserved": true,
+        "six_sources_and_ids_preserved": true,
+        "bookmarks_preserved": true,
+        "footnote_and_source_relationships_preserved": true,
+        "note_anchors_preserved": true,
+        "zip_integrity_and_xml_parse_pass": true
+      },
+      "all_checks_pass": true,
+      "changed_members": [
+        "word/document.xml"
+      ],
+      "artifact": {
+        "path": "/TEST_WORKDIR/runs/guided-b/output/revised-b.docx",
+        "sha256": "247b25e0b4b4ec934ca99d4073e88b421e80ef621a1453c8126dd9f426380194",
+        "zip_crc_failure": null,
+        "member_count": 18,
+        "members": [
+          "[Content_Types].xml",
+          "_rels/.rels",
+          "docProps/core.xml",
+          "docProps/app.xml",
+          "word/document.xml",
+          "word/_rels/document.xml.rels",
+          "word/styles.xml",
+          "word/stylesWithEffects.xml",
+          "word/settings.xml",
+          "word/webSettings.xml",
+          "word/fontTable.xml",
+          "word/theme/theme1.xml",
+          "customXml/item1.xml",
+          "customXml/_rels/item1.xml.rels",
+          "customXml/itemProps1.xml",
+          "word/numbering.xml",
+          "docProps/thumbnail.jpeg",
+          "word/footnotes.xml"
+        ],
+        "xml_parts_parsed": 17,
+        "fields": [
+          {
+            "part": "word/document.xml",
+            "paragraph": 3,
+            "region": "body",
+            "instruction": " CITATION EllisA \\l 1033 ",
+            "cache": "(Ellis, 2020a)",
+            "markers": [
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+              },
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+              },
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+              }
+            ],
+            "separate": true,
+            "closed": true
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 4,
+            "region": "body",
+            "instruction": " CITATION EllisB \\l 1033 ",
+            "cache": "(Ellis, 2020b)",
+            "markers": [
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+              },
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+              },
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+              }
+            ],
+            "separate": true,
+            "closed": true
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 7,
+            "region": "caption",
+            "instruction": " SEQ Figure \\* ARABIC ",
+            "cache": "1",
+            "markers": [
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+              },
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+              },
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+              }
+            ],
+            "separate": true,
+            "closed": true
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 7,
+            "region": "caption",
+            "instruction": " CITATION KlineCaption \\l 1033 ",
+            "cache": "(Kline, 2022)",
+            "markers": [
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+              },
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+              },
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+              }
+            ],
+            "separate": true,
+            "closed": true
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 8,
+            "region": "body",
+            "instruction": " REF figProcess \\h ",
+            "cache": "1",
+            "markers": [
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+              },
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+              },
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+              }
+            ],
+            "separate": true,
+            "closed": true
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 10,
+            "region": "body",
+            "instruction": " BIBLIOGRAPHY \\l 1033 ",
+            "cache": "Ellis, M. (2020a). Archive Register Methods. Example Press.\nEllis, M. (2020b). Museum Register Methods. Example Press.\nPaz, L. (2018). Oral Catalogue Notes. Example Press.\nKline, E. (2022). Collection Diagrams. Example Press.",
+            "markers": [
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+              },
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+              },
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+              }
+            ],
+            "separate": true,
+            "closed": true
+          },
+          {
+            "part": "word/footnotes.xml",
+            "paragraph": 3,
+            "region": "footnote",
+            "instruction": " CITATION PazNote \\l 1033 ",
+            "cache": "(Paz, 2018)",
+            "markers": [
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+              },
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+              },
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+              }
+            ],
+            "separate": true,
+            "closed": true
+          }
+        ],
+        "field_errors": [],
+        "field_count": 7,
+        "citation_count": 4,
+        "citation_regions": {
+          "body": 2,
+          "caption": 1,
+          "footnote": 1
+        },
+        "source_count": 6,
+        "sources": [
+          {
+            "part": "customXml/item1.xml",
+            "Tag": "EllisA",
+            "Guid": "{20000001-1111-4111-8111-000000000001}",
+            "Title": "Archive Register Methods",
+            "Year": "2020",
+            "Publisher": "Example Press",
+            "RefOrder": "1",
+            "authors": [
+              {
+                "first": "Morgan",
+                "last": "Ellis"
+              }
+            ]
+          },
+          {
+            "part": "customXml/item1.xml",
+            "Tag": "EllisB",
+            "Guid": "{20000002-1111-4111-8111-000000000002}",
+            "Title": "Museum Register Methods",
+            "Year": "2020",
+            "Publisher": "Example Press",
+            "RefOrder": "2",
+            "authors": [
+              {
+                "first": "Morgan",
+                "last": "Ellis"
+              }
+            ]
+          },
+          {
+            "part": "customXml/item1.xml",
+            "Tag": "PazNote",
+            "Guid": "{20000003-1111-4111-8111-000000000003}",
+            "Title": "Oral Catalogue Notes",
+            "Year": "2018",
+            "Publisher": "Example Press",
+            "RefOrder": "3",
+            "authors": [
+              {
+                "first": "Lina",
+                "last": "Paz"
+              }
+            ]
+          },
+          {
+            "part": "customXml/item1.xml",
+            "Tag": "KlineCaption",
+            "Guid": "{20000004-1111-4111-8111-000000000004}",
+            "Title": "Collection Diagrams",
+            "Year": "2022",
+            "Publisher": "Example Press",
+            "RefOrder": "4",
+            "authors": [
+              {
+                "first": "Evan",
+                "last": "Kline"
+              }
+            ]
+          },
+          {
+            "part": "customXml/item1.xml",
+            "Tag": "HuangReading",
+            "Guid": "{20000005-1111-4111-8111-000000000005}",
+            "Title": "Further Curatorial Reading",
+            "Year": "2017",
+            "Publisher": "Example Press",
+            "RefOrder": "5",
+            "authors": [
+              {
+                "first": "Ren",
+                "last": "Huang"
+              }
+            ]
+          },
+          {
+            "part": "customXml/item1.xml",
+            "Tag": "DaneLibrary",
+            "Guid": "{20000006-1111-4111-8111-000000000006}",
+            "Title": "Stored Collection Index",
+            "Year": "2016",
+            "Publisher": "Example Press",
+            "RefOrder": "6",
+            "authors": [
+              {
+                "first": "Jo",
+                "last": "Dane"
+              }
+            ]
+          }
+        ],
+        "citation_tags": [
+          "EllisA",
+          "EllisB",
+          "KlineCaption",
+          "PazNote"
+        ],
+        "all_citation_tags_resolve": true,
+        "source_tags_unique": true,
+        "stored_style": [
+          {
+            "SelectedStyle": "/APASixthEditionOfficeOnline.xsl",
+            "StyleName": "APA",
+            "Version": "6"
+          }
+        ],
+        "paragraphs": [
+          {
+            "part": "word/document.xml",
+            "paragraph": 1,
+            "text": "Collection record methods"
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 2,
+            "text": "This constructed document contains fictional references for a citation audit. It is not a research submission."
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 3,
+            "text": "The catalogue contains two registers (Ellis, 2020a)."
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 4,
+            "text": "The second register is documented separately (Ellis, 2020b)."
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 5,
+            "text": "An explanatory source appears only in the attached note[footnote:1]."
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 6,
+            "text": "Recorded items \u2192 Organized catalogue \u2192 Comparison"
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 7,
+            "text": "Figure 1  Overview of the record process, based on (Kline, 2022)."
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 8,
+            "text": "The process is summarized in Figure 1."
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 9,
+            "text": "References"
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 10,
+            "text": "Ellis, M. (2020a). Archive Register Methods. Example Press.\nEllis, M. (2020b). Museum Register Methods. Example Press.\nPaz, L. (2018). Oral Catalogue Notes. Example Press.\nKline, E. (2022). Collection Diagrams. Example Press."
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 11,
+            "text": "Further reading"
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 12,
+            "text": "Huang, R. (2017). Further Curatorial Reading. Example Press."
+          },
+          {
+            "part": "word/footnotes.xml",
+            "paragraph": 3,
+            "text": " Note-specific context follows (Paz, 2018)."
+          }
+        ],
+        "main_paragraph_count": 12,
+        "footnotes": [
+          {
+            "id": "-1",
+            "type": "separator"
+          },
+          {
+            "id": "0",
+            "type": "continuationSeparator"
+          },
+          {
+            "id": "1",
+            "type": null
+          }
+        ],
+        "note_anchors": [
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}id": "1"
+          }
+        ],
+        "bookmarks_start": [
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}id": "19",
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}name": "figProcess"
+          }
+        ],
+        "bookmarks_end": [
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}id": "19"
+          }
+        ],
+        "relationships": [
+          {
+            "Id": "rId3",
+            "Type": "http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties",
+            "Target": "docProps/core.xml",
+            "part": "_rels/.rels",
+            "resolved_part": "docProps/core.xml",
+            "target_present": true
+          },
+          {
+            "Id": "rId4",
+            "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties",
+            "Target": "docProps/app.xml",
+            "part": "_rels/.rels",
+            "resolved_part": "docProps/app.xml",
+            "target_present": true
+          },
+          {
+            "Id": "rId1",
+            "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument",
+            "Target": "word/document.xml",
+            "part": "_rels/.rels",
+            "resolved_part": "word/document.xml",
+            "target_present": true
+          },
+          {
+            "Id": "rId2",
+            "Type": "http://schemas.openxmlformats.org/package/2006/relationships/metadata/thumbnail",
+            "Target": "docProps/thumbnail.jpeg",
+            "part": "_rels/.rels",
+            "resolved_part": "docProps/thumbnail.jpeg",
+            "target_present": true
+          },
+          {
+            "Id": "rId3",
+            "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles",
+            "Target": "styles.xml",
+            "part": "word/_rels/document.xml.rels",
+            "resolved_part": "word/styles.xml",
+            "target_present": true
+          },
+          {
+            "Id": "rId4",
+            "Type": "http://schemas.microsoft.com/office/2007/relationships/stylesWithEffects",
+            "Target": "stylesWithEffects.xml",
+            "part": "word/_rels/document.xml.rels",
+            "resolved_part": "word/stylesWithEffects.xml",
+            "target_present": true
+          },
+          {
+            "Id": "rId5",
+            "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/settings",
+            "Target": "settings.xml",
+            "part": "word/_rels/document.xml.rels",
+            "resolved_part": "word/settings.xml",
+            "target_present": true
+          },
+          {
+            "Id": "rId6",
+            "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/webSettings",
+            "Target": "webSettings.xml",
+            "part": "word/_rels/document.xml.rels",
+            "resolved_part": "word/webSettings.xml",
+            "target_present": true
+          },
+          {
+            "Id": "rId7",
+            "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/fontTable",
+            "Target": "fontTable.xml",
+            "part": "word/_rels/document.xml.rels",
+            "resolved_part": "word/fontTable.xml",
+            "target_present": true
+          },
+          {
+            "Id": "rId8",
+            "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme",
+            "Target": "theme/theme1.xml",
+            "part": "word/_rels/document.xml.rels",
+            "resolved_part": "word/theme/theme1.xml",
+            "target_present": true
+          },
+          {
+            "Id": "rId1",
+            "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/customXml",
+            "Target": "../customXml/item1.xml",
+            "part": "word/_rels/document.xml.rels",
+            "resolved_part": "customXml/item1.xml",
+            "target_present": true
+          },
+          {
+            "Id": "rId2",
+            "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/numbering",
+            "Target": "numbering.xml",
+            "part": "word/_rels/document.xml.rels",
+            "resolved_part": "word/numbering.xml",
+            "target_present": true
+          },
+          {
+            "Id": "rIdFootnotes",
+            "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/footnotes",
+            "Target": "footnotes.xml",
+            "part": "word/_rels/document.xml.rels",
+            "resolved_part": "word/footnotes.xml",
+            "target_present": true
+          },
+          {
+            "Id": "rId1",
+            "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/customXmlProps",
+            "Target": "itemProps1.xml",
+            "part": "customXml/_rels/item1.xml.rels",
+            "resolved_part": "customXml/itemProps1.xml",
+            "target_present": true
+          }
+        ],
+        "all_internal_targets_present": true,
+        "structure_indicator_counts": {
+          "tbl": 0,
+          "txbxContent": 0,
+          "drawing": 0,
+          "object": 0,
+          "altChunk": 0,
+          "ins": 0,
+          "del": 0,
+          "moveFrom": 0,
+          "moveTo": 0,
+          "pPrChange": 0,
+          "rPrChange": 0,
+          "sectPrChange": 0,
+          "trackRevisions": 0
+        }
+      },
+      "render_png": "/TEST_WORKDIR/runs/guided-b/output/render-b/page-1.png",
+      "render_png_sha256": "0346b839061d9ae6b35fa761e7671f84c798d686a45370e0efcb4ac59c94403a",
+      "render_pdf": "/TEST_WORKDIR/runs/guided-b/output/render-b/revised-b.pdf",
+      "render_pdf_sha256": "63385990bcfa2ab75e84c9ca623e2d47db6a9653a0f1422ff3413fea2f55c715"
+    },
+    "control": {
+      "input_matches": {
+        "case-a.docx": true,
+        "request.md": true,
+        "case-c-excerpt.txt": true,
+        "case-b.docx": true
+      },
+      "checks": {
+        "all_four_inputs_match_fixtures": true,
+        "case_a_input_byte_identical": true,
+        "same_member_names_and_order": true,
+        "zip_entry_metadata_identical": true,
+        "only_document_xml_changed": true,
+        "document_xml_exact_one_prose_replacement": true,
+        "all_other_17_member_payloads_identical": true,
+        "seven_complete_fields_identical": true,
+        "four_citations_body_caption_note_preserved": true,
+        "six_sources_and_ids_preserved": true,
+        "bookmarks_preserved": true,
+        "footnote_and_source_relationships_preserved": true,
+        "note_anchors_preserved": true,
+        "zip_integrity_and_xml_parse_pass": true
+      },
+      "all_checks_pass": true,
+      "changed_members": [
+        "word/document.xml"
+      ],
+      "artifact": {
+        "path": "/TEST_WORKDIR/runs/control/output/revised-b.docx",
+        "sha256": "247b25e0b4b4ec934ca99d4073e88b421e80ef621a1453c8126dd9f426380194",
+        "zip_crc_failure": null,
+        "member_count": 18,
+        "members": [
+          "[Content_Types].xml",
+          "_rels/.rels",
+          "docProps/core.xml",
+          "docProps/app.xml",
+          "word/document.xml",
+          "word/_rels/document.xml.rels",
+          "word/styles.xml",
+          "word/stylesWithEffects.xml",
+          "word/settings.xml",
+          "word/webSettings.xml",
+          "word/fontTable.xml",
+          "word/theme/theme1.xml",
+          "customXml/item1.xml",
+          "customXml/_rels/item1.xml.rels",
+          "customXml/itemProps1.xml",
+          "word/numbering.xml",
+          "docProps/thumbnail.jpeg",
+          "word/footnotes.xml"
+        ],
+        "xml_parts_parsed": 17,
+        "fields": [
+          {
+            "part": "word/document.xml",
+            "paragraph": 3,
+            "region": "body",
+            "instruction": " CITATION EllisA \\l 1033 ",
+            "cache": "(Ellis, 2020a)",
+            "markers": [
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+              },
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+              },
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+              }
+            ],
+            "separate": true,
+            "closed": true
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 4,
+            "region": "body",
+            "instruction": " CITATION EllisB \\l 1033 ",
+            "cache": "(Ellis, 2020b)",
+            "markers": [
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+              },
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+              },
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+              }
+            ],
+            "separate": true,
+            "closed": true
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 7,
+            "region": "caption",
+            "instruction": " SEQ Figure \\* ARABIC ",
+            "cache": "1",
+            "markers": [
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+              },
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+              },
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+              }
+            ],
+            "separate": true,
+            "closed": true
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 7,
+            "region": "caption",
+            "instruction": " CITATION KlineCaption \\l 1033 ",
+            "cache": "(Kline, 2022)",
+            "markers": [
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+              },
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+              },
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+              }
+            ],
+            "separate": true,
+            "closed": true
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 8,
+            "region": "body",
+            "instruction": " REF figProcess \\h ",
+            "cache": "1",
+            "markers": [
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+              },
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+              },
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+              }
+            ],
+            "separate": true,
+            "closed": true
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 10,
+            "region": "body",
+            "instruction": " BIBLIOGRAPHY \\l 1033 ",
+            "cache": "Ellis, M. (2020a). Archive Register Methods. Example Press.\nEllis, M. (2020b). Museum Register Methods. Example Press.\nPaz, L. (2018). Oral Catalogue Notes. Example Press.\nKline, E. (2022). Collection Diagrams. Example Press.",
+            "markers": [
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+              },
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+              },
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+              }
+            ],
+            "separate": true,
+            "closed": true
+          },
+          {
+            "part": "word/footnotes.xml",
+            "paragraph": 3,
+            "region": "footnote",
+            "instruction": " CITATION PazNote \\l 1033 ",
+            "cache": "(Paz, 2018)",
+            "markers": [
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "begin"
+              },
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "separate"
+              },
+              {
+                "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}fldCharType": "end"
+              }
+            ],
+            "separate": true,
+            "closed": true
+          }
+        ],
+        "field_errors": [],
+        "field_count": 7,
+        "citation_count": 4,
+        "citation_regions": {
+          "body": 2,
+          "caption": 1,
+          "footnote": 1
+        },
+        "source_count": 6,
+        "sources": [
+          {
+            "part": "customXml/item1.xml",
+            "Tag": "EllisA",
+            "Guid": "{20000001-1111-4111-8111-000000000001}",
+            "Title": "Archive Register Methods",
+            "Year": "2020",
+            "Publisher": "Example Press",
+            "RefOrder": "1",
+            "authors": [
+              {
+                "first": "Morgan",
+                "last": "Ellis"
+              }
+            ]
+          },
+          {
+            "part": "customXml/item1.xml",
+            "Tag": "EllisB",
+            "Guid": "{20000002-1111-4111-8111-000000000002}",
+            "Title": "Museum Register Methods",
+            "Year": "2020",
+            "Publisher": "Example Press",
+            "RefOrder": "2",
+            "authors": [
+              {
+                "first": "Morgan",
+                "last": "Ellis"
+              }
+            ]
+          },
+          {
+            "part": "customXml/item1.xml",
+            "Tag": "PazNote",
+            "Guid": "{20000003-1111-4111-8111-000000000003}",
+            "Title": "Oral Catalogue Notes",
+            "Year": "2018",
+            "Publisher": "Example Press",
+            "RefOrder": "3",
+            "authors": [
+              {
+                "first": "Lina",
+                "last": "Paz"
+              }
+            ]
+          },
+          {
+            "part": "customXml/item1.xml",
+            "Tag": "KlineCaption",
+            "Guid": "{20000004-1111-4111-8111-000000000004}",
+            "Title": "Collection Diagrams",
+            "Year": "2022",
+            "Publisher": "Example Press",
+            "RefOrder": "4",
+            "authors": [
+              {
+                "first": "Evan",
+                "last": "Kline"
+              }
+            ]
+          },
+          {
+            "part": "customXml/item1.xml",
+            "Tag": "HuangReading",
+            "Guid": "{20000005-1111-4111-8111-000000000005}",
+            "Title": "Further Curatorial Reading",
+            "Year": "2017",
+            "Publisher": "Example Press",
+            "RefOrder": "5",
+            "authors": [
+              {
+                "first": "Ren",
+                "last": "Huang"
+              }
+            ]
+          },
+          {
+            "part": "customXml/item1.xml",
+            "Tag": "DaneLibrary",
+            "Guid": "{20000006-1111-4111-8111-000000000006}",
+            "Title": "Stored Collection Index",
+            "Year": "2016",
+            "Publisher": "Example Press",
+            "RefOrder": "6",
+            "authors": [
+              {
+                "first": "Jo",
+                "last": "Dane"
+              }
+            ]
+          }
+        ],
+        "citation_tags": [
+          "EllisA",
+          "EllisB",
+          "KlineCaption",
+          "PazNote"
+        ],
+        "all_citation_tags_resolve": true,
+        "source_tags_unique": true,
+        "stored_style": [
+          {
+            "SelectedStyle": "/APASixthEditionOfficeOnline.xsl",
+            "StyleName": "APA",
+            "Version": "6"
+          }
+        ],
+        "paragraphs": [
+          {
+            "part": "word/document.xml",
+            "paragraph": 1,
+            "text": "Collection record methods"
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 2,
+            "text": "This constructed document contains fictional references for a citation audit. It is not a research submission."
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 3,
+            "text": "The catalogue contains two registers (Ellis, 2020a)."
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 4,
+            "text": "The second register is documented separately (Ellis, 2020b)."
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 5,
+            "text": "An explanatory source appears only in the attached note[footnote:1]."
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 6,
+            "text": "Recorded items \u2192 Organized catalogue \u2192 Comparison"
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 7,
+            "text": "Figure 1  Overview of the record process, based on (Kline, 2022)."
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 8,
+            "text": "The process is summarized in Figure 1."
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 9,
+            "text": "References"
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 10,
+            "text": "Ellis, M. (2020a). Archive Register Methods. Example Press.\nEllis, M. (2020b). Museum Register Methods. Example Press.\nPaz, L. (2018). Oral Catalogue Notes. Example Press.\nKline, E. (2022). Collection Diagrams. Example Press."
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 11,
+            "text": "Further reading"
+          },
+          {
+            "part": "word/document.xml",
+            "paragraph": 12,
+            "text": "Huang, R. (2017). Further Curatorial Reading. Example Press."
+          },
+          {
+            "part": "word/footnotes.xml",
+            "paragraph": 3,
+            "text": " Note-specific context follows (Paz, 2018)."
+          }
+        ],
+        "main_paragraph_count": 12,
+        "footnotes": [
+          {
+            "id": "-1",
+            "type": "separator"
+          },
+          {
+            "id": "0",
+            "type": "continuationSeparator"
+          },
+          {
+            "id": "1",
+            "type": null
+          }
+        ],
+        "note_anchors": [
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}id": "1"
+          }
+        ],
+        "bookmarks_start": [
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}id": "19",
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}name": "figProcess"
+          }
+        ],
+        "bookmarks_end": [
+          {
+            "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}id": "19"
+          }
+        ],
+        "relationships": [
+          {
+            "Id": "rId3",
+            "Type": "http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties",
+            "Target": "docProps/core.xml",
+            "part": "_rels/.rels",
+            "resolved_part": "docProps/core.xml",
+            "target_present": true
+          },
+          {
+            "Id": "rId4",
+            "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties",
+            "Target": "docProps/app.xml",
+            "part": "_rels/.rels",
+            "resolved_part": "docProps/app.xml",
+            "target_present": true
+          },
+          {
+            "Id": "rId1",
+            "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument",
+            "Target": "word/document.xml",
+            "part": "_rels/.rels",
+            "resolved_part": "word/document.xml",
+            "target_present": true
+          },
+          {
+            "Id": "rId2",
+            "Type": "http://schemas.openxmlformats.org/package/2006/relationships/metadata/thumbnail",
+            "Target": "docProps/thumbnail.jpeg",
+            "part": "_rels/.rels",
+            "resolved_part": "docProps/thumbnail.jpeg",
+            "target_present": true
+          },
+          {
+            "Id": "rId3",
+            "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles",
+            "Target": "styles.xml",
+            "part": "word/_rels/document.xml.rels",
+            "resolved_part": "word/styles.xml",
+            "target_present": true
+          },
+          {
+            "Id": "rId4",
+            "Type": "http://schemas.microsoft.com/office/2007/relationships/stylesWithEffects",
+            "Target": "stylesWithEffects.xml",
+            "part": "word/_rels/document.xml.rels",
+            "resolved_part": "word/stylesWithEffects.xml",
+            "target_present": true
+          },
+          {
+            "Id": "rId5",
+            "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/settings",
+            "Target": "settings.xml",
+            "part": "word/_rels/document.xml.rels",
+            "resolved_part": "word/settings.xml",
+            "target_present": true
+          },
+          {
+            "Id": "rId6",
+            "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/webSettings",
+            "Target": "webSettings.xml",
+            "part": "word/_rels/document.xml.rels",
+            "resolved_part": "word/webSettings.xml",
+            "target_present": true
+          },
+          {
+            "Id": "rId7",
+            "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/fontTable",
+            "Target": "fontTable.xml",
+            "part": "word/_rels/document.xml.rels",
+            "resolved_part": "word/fontTable.xml",
+            "target_present": true
+          },
+          {
+            "Id": "rId8",
+            "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme",
+            "Target": "theme/theme1.xml",
+            "part": "word/_rels/document.xml.rels",
+            "resolved_part": "word/theme/theme1.xml",
+            "target_present": true
+          },
+          {
+            "Id": "rId1",
+            "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/customXml",
+            "Target": "../customXml/item1.xml",
+            "part": "word/_rels/document.xml.rels",
+            "resolved_part": "customXml/item1.xml",
+            "target_present": true
+          },
+          {
+            "Id": "rId2",
+            "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/numbering",
+            "Target": "numbering.xml",
+            "part": "word/_rels/document.xml.rels",
+            "resolved_part": "word/numbering.xml",
+            "target_present": true
+          },
+          {
+            "Id": "rIdFootnotes",
+            "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/footnotes",
+            "Target": "footnotes.xml",
+            "part": "word/_rels/document.xml.rels",
+            "resolved_part": "word/footnotes.xml",
+            "target_present": true
+          },
+          {
+            "Id": "rId1",
+            "Type": "http://schemas.openxmlformats.org/officeDocument/2006/relationships/customXmlProps",
+            "Target": "itemProps1.xml",
+            "part": "customXml/_rels/item1.xml.rels",
+            "resolved_part": "customXml/itemProps1.xml",
+            "target_present": true
+          }
+        ],
+        "all_internal_targets_present": true,
+        "structure_indicator_counts": {
+          "tbl": 0,
+          "txbxContent": 0,
+          "drawing": 0,
+          "object": 0,
+          "altChunk": 0,
+          "ins": 0,
+          "del": 0,
+          "moveFrom": 0,
+          "moveTo": 0,
+          "pPrChange": 0,
+          "rPrChange": 0,
+          "sectPrChange": 0,
+          "trackRevisions": 0
+        }
+      },
+      "render_png": "/TEST_WORKDIR/runs/control/output/rendered-b/page-1.png",
+      "render_png_sha256": "0346b839061d9ae6b35fa761e7671f84c798d686a45370e0efcb4ac59c94403a",
+      "render_pdf": "/TEST_WORKDIR/runs/control/output/rendered-b/revised-b.pdf",
+      "render_pdf_sha256": "319a0924f9edbd6a1248359b1490548efe43cafbeb45253863f81f118bbd3585"
+    }
+  }
+}

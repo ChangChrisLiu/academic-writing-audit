@@ -1,0 +1,27 @@
+{
+  "changed_members": [
+    "word/document.xml"
+  ],
+  "exact_only_document_xml_change": {
+    "from": "The catalogue containss two registers ",
+    "to": "The catalogue contains two registers "
+  },
+  "all_other_uncompressed_members_byte_identical": true,
+  "fields_before_after_identical": true,
+  "field_count": 7,
+  "source_records_before_after_identical": true,
+  "structure_before_after_identical": true,
+  "stored_style_before_after_identical": true,
+  "saved_docx_closed_and_reopened_with_zipfile": true,
+  "native_application_open_refresh_save_reopen": false,
+  "inputs_unchanged": true,
+  "output_sha256": "247b25e0b4b4ec934ca99d4073e88b421e80ef621a1453c8126dd9f426380194",
+  "output_unchanged_by_render": true,
+  "render_engine": "/WORKSPACE_DEPENDENCIES/bin/override/soffice",
+  "rendered_pages": 1,
+  "visually_inspected_pages": [
+    1
+  ],
+  "visual_observation": "Full page readable, including corrected prose, all displayed citations, bibliography, further reading, caption, figure reference, and footnote; no observed clipping, overlap, or missing glyphs.",
+  "native_refresh_persistence_verified": false
+}

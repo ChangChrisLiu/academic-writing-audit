@@ -1,0 +1,790 @@
+{
+  "assessment_type": "independent_unblinded_report_and_artifact_review",
+  "assessment_date": "2026-10-22",
+  "rubric_path": "/TEST_WORKDIR/private/rubric.json",
+  "rubric_sha256": "ac2ea8942062e5e6ef91e79b95c08ea2f7861d1ca6b05d9c85cdcdbc356c3b83",
+  "tested_skill_path": "/TEST_WORKDIR/tested-skill",
+  "scope": "Read all reports and frozen skill; independently parsed actual fixtures and revised DOCX packages; inspected existing rendering. No trial output or skill changes.",
+  "per_run": {
+    "guided-a": {
+      "rubric_pass": 21,
+      "rubric_fail": 0,
+      "rubric_items": 21,
+      "substantive_false_positives_found": 0,
+      "missing_required_artifact_checks": [],
+      "independent_artifact_checks_pass": true,
+      "revised_b_sha256": "247b25e0b4b4ec934ca99d4073e88b421e80ef621a1453c8126dd9f426380194"
+    },
+    "guided-b": {
+      "rubric_pass": 21,
+      "rubric_fail": 0,
+      "rubric_items": 21,
+      "substantive_false_positives_found": 0,
+      "missing_required_artifact_checks": [],
+      "independent_artifact_checks_pass": true,
+      "revised_b_sha256": "247b25e0b4b4ec934ca99d4073e88b421e80ef621a1453c8126dd9f426380194"
+    },
+    "control": {
+      "rubric_pass": 21,
+      "rubric_fail": 0,
+      "rubric_items": 21,
+      "substantive_false_positives_found": 0,
+      "missing_required_artifact_checks": [],
+      "independent_artifact_checks_pass": true,
+      "revised_b_sha256": "247b25e0b4b4ec934ca99d4073e88b421e80ef621a1453c8126dd9f426380194"
+    }
+  },
+  "criteria": [
+    {
+      "id": "A1",
+      "frozen_criterion": "ValeA field identity conflicts with displayed 2024b while reference entry is 2024a",
+      "independent_assessment": "P3 contains CITATION ValeA but cached (Vale, 2024b). ValeA identifies Alpha Sensor Calibration; P10 labels Alpha 2024a. All runs retain the field identity and propose 2024a.",
+      "artifact_evidence": {
+        "file": "/TEST_WORKDIR/assessment/artifact_checks.json",
+        "locator": "fixtures.a.fields; fixtures.a.sources; fixtures.a.paragraphs[P3,P10]"
+      },
+      "runs": {
+        "guided-a": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/guided-a/output/report.md",
+            "line": 38
+          }
+        },
+        "guided-b": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/guided-b/output/report.md",
+            "line": 38
+          }
+        },
+        "control": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/control/output/report.md",
+            "line": 21
+          }
+        }
+      }
+    },
+    {
+      "id": "A2",
+      "frozen_criterion": "ValeB has identified source but displayed 2024 lacks required b suffix",
+      "independent_assessment": "P4 contains CITATION ValeB and cached (Vale, 2024). ValeB uniquely identifies Beta Sensor Calibration, labeled 2024b in P10. All runs propose the missing b while retaining ValeB. The visible citation is ambiguous in isolation; the intended source is resolved by the native field.",
+      "artifact_evidence": {
+        "file": "/TEST_WORKDIR/assessment/artifact_checks.json",
+        "locator": "fixtures.a.fields; fixtures.a.sources; fixtures.a.paragraphs[P4,P10]"
+      },
+      "runs": {
+        "guided-a": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/guided-a/output/report.md",
+            "line": 39
+          }
+        },
+        "guided-b": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/guided-b/output/report.md",
+            "line": 39
+          }
+        },
+        "control": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/control/output/report.md",
+            "line": 22
+          }
+        }
+      }
+    },
+    {
+      "id": "A3",
+      "frozen_criterion": "NgNote cited in real footnote; do not call uncited",
+      "independent_assessment": "Footnote ID 1 contains CITATION NgNote with (Ng, 2022), and the main story has the ID 1 footnote anchor. All runs count it and retain the main-list entry.",
+      "artifact_evidence": {
+        "file": "/TEST_WORKDIR/assessment/artifact_checks.json",
+        "locator": "fixtures.a.fields; fixtures.a.footnotes; fixtures.a.note_anchors"
+      },
+      "runs": {
+        "guided-a": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/guided-a/output/report.md",
+            "line": 41
+          }
+        },
+        "guided-b": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/guided-b/output/report.md",
+            "line": 41
+          }
+        },
+        "control": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/control/output/report.md",
+            "line": 23
+          }
+        }
+      }
+    },
+    {
+      "id": "A4",
+      "frozen_criterion": "ImaniCaption cited in caption; do not call uncited",
+      "independent_assessment": "The P7 Caption paragraph contains CITATION ImaniCaption with (Imani, 2021). All runs count it and retain the main-list entry.",
+      "artifact_evidence": {
+        "file": "/TEST_WORKDIR/assessment/artifact_checks.json",
+        "locator": "fixtures.a.fields; fixtures.a.paragraphs[P7]"
+      },
+      "runs": {
+        "guided-a": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/guided-a/output/report.md",
+            "line": 40
+          }
+        },
+        "guided-b": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/guided-b/output/report.md",
+            "line": 40
+          }
+        },
+        "control": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/control/output/report.md",
+            "line": 24
+          }
+        }
+      }
+    },
+    {
+      "id": "A5",
+      "frozen_criterion": "MarinUnused is in main reference list with no citation in full fixture",
+      "independent_assessment": "P10 lists Marin, but the full main story and the sole substantive footnote contain no Marin citation; no additional content stories are present. All runs propose excluding Marin from the main list without inventing usage or requiring source-library deletion.",
+      "artifact_evidence": {
+        "file": "/TEST_WORKDIR/assessment/artifact_checks.json",
+        "locator": "fixtures.a.paragraphs; fixtures.a.fields; fixtures.a.members"
+      },
+      "runs": {
+        "guided-a": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/guided-a/output/report.md",
+            "line": 55
+          }
+        },
+        "guided-b": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/guided-b/output/report.md",
+            "line": 57
+          }
+        },
+        "control": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/control/output/report.md",
+            "line": 36
+          }
+        }
+      }
+    },
+    {
+      "id": "A6",
+      "frozen_criterion": "SatoReading legitimately uncited in Further reading",
+      "independent_assessment": "P11 explicitly introduces Further reading and P12 contains Sato. The request permits uncited recommendations there. All runs retain it.",
+      "artifact_evidence": {
+        "file": "/TEST_WORKDIR/assessment/artifact_checks.json",
+        "locator": "fixtures.a.paragraphs[P11,P12]; fixtures/request.md"
+      },
+      "runs": {
+        "guided-a": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/guided-a/output/report.md",
+            "line": 56
+          }
+        },
+        "guided-b": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/guided-b/output/report.md",
+            "line": 58
+          }
+        },
+        "control": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/control/output/report.md",
+            "line": 37
+          }
+        }
+      }
+    },
+    {
+      "id": "A7",
+      "frozen_criterion": "LumenLibrary is embedded but absent from displayed bibliography; not an unused list entry",
+      "independent_assessment": "LumenLibrary exists in customXml/item1.xml but is absent from all displayed paragraph/reference text and citation fields. All runs distinguish the stored record from an uncited displayed list entry.",
+      "artifact_evidence": {
+        "file": "/TEST_WORKDIR/assessment/artifact_checks.json",
+        "locator": "fixtures.a.sources; fixtures.a.paragraphs; fixtures.a.fields"
+      },
+      "runs": {
+        "guided-a": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/guided-a/output/report.md",
+            "line": 58
+          }
+        },
+        "guided-b": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/guided-b/output/report.md",
+            "line": 60
+          }
+        },
+        "control": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/control/output/report.md",
+            "line": 38
+          }
+        }
+      }
+    },
+    {
+      "id": "A8",
+      "frozen_criterion": "two Vale works are distinct publications, not duplicates",
+      "independent_assessment": "ValeA and ValeB have distinct source GUIDs and distinct Alpha/Beta titles, with the same complete author and year. All runs treat them as separate works and retain their identities.",
+      "artifact_evidence": {
+        "file": "/TEST_WORKDIR/assessment/artifact_checks.json",
+        "locator": "fixtures.a.sources"
+      },
+      "runs": {
+        "guided-a": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/guided-a/output/report.md",
+            "line": 60
+          }
+        },
+        "guided-b": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/guided-b/output/report.md",
+            "line": 62
+          }
+        },
+        "control": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/control/output/report.md",
+            "line": 40
+          }
+        }
+      }
+    },
+    {
+      "id": "A9",
+      "frozen_criterion": "SEQ/REF fields and footnote marker are not bibliographic citations",
+      "independent_assessment": "Exactly four CITATION fields occur, plus BIBLIOGRAPHY, SEQ Figure, and REF figProcess. The note marker is an anchor, not a fifth citation. Both guided reports state this explicitly; the control counts exactly four citation fields, separates the two numbering fields, and counts the citation inside the note rather than its marker.",
+      "artifact_evidence": {
+        "file": "/TEST_WORKDIR/assessment/artifact_checks.json",
+        "locator": "fixtures.a.fields; fixtures.a.citation_count; fixtures.a.note_anchors"
+      },
+      "runs": {
+        "guided-a": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/guided-a/output/report.md",
+            "line": 30
+          }
+        },
+        "guided-b": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/guided-b/output/report.md",
+            "line": 30
+          }
+        },
+        "control": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/control/output/report.md",
+            "line": 44
+          }
+        }
+      }
+    },
+    {
+      "id": "A10",
+      "frozen_criterion": "original case-a.docx byte identical; no refresh/edit",
+      "independent_assessment": "Every run input case-a.docx is byte-identical to the frozen fixture. All three reports explicitly say A was not edited or refreshed. Current artifacts prove unchanged contents; they do not independently prove the absence of a transient application operation that left no saved change.",
+      "artifact_evidence": {
+        "file": "/TEST_WORKDIR/assessment/artifact_checks.json",
+        "locator": "runs.*.checks.case_a_input_byte_identical; reports for no-refresh statement"
+      },
+      "runs": {
+        "guided-a": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/guided-a/output/report.md",
+            "line": 15
+          }
+        },
+        "guided-b": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/guided-b/output/report.md",
+            "line": 68
+          }
+        },
+        "control": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/control/output/report.md",
+            "line": 9
+          }
+        }
+      }
+    },
+    {
+      "id": "B1",
+      "frozen_criterion": "two Ellis same-year works correctly disambiguated",
+      "independent_assessment": "EllisA identifies Archive Register Methods and EllisB identifies Museum Register Methods, both by Morgan Ellis in 2020. Cached citations and main entries consistently use a/b in title order. All runs accept them.",
+      "artifact_evidence": {
+        "file": "/TEST_WORKDIR/assessment/artifact_checks.json",
+        "locator": "fixtures.b.sources; fixtures.b.fields; fixtures.b.paragraphs[P3,P4,P10]"
+      },
+      "runs": {
+        "guided-a": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/guided-a/output/report.md",
+            "line": 70
+          }
+        },
+        "guided-b": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/guided-b/output/report.md",
+            "line": 74
+          }
+        },
+        "control": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/control/output/report.md",
+            "line": 54
+          }
+        }
+      }
+    },
+    {
+      "id": "B2",
+      "frozen_criterion": "Paz footnote and Kline caption are citations",
+      "independent_assessment": "PazNote occurs in real footnote ID 1; KlineCaption occurs in P7 Caption. All runs count both.",
+      "artifact_evidence": {
+        "file": "/TEST_WORKDIR/assessment/artifact_checks.json",
+        "locator": "fixtures.b.fields; fixtures.b.footnotes; fixtures.b.paragraphs[P7]"
+      },
+      "runs": {
+        "guided-a": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/guided-a/output/report.md",
+            "line": 72
+          }
+        },
+        "guided-b": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/guided-b/output/report.md",
+            "line": 80
+          }
+        },
+        "control": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/control/output/report.md",
+            "line": 56
+          }
+        }
+      }
+    },
+    {
+      "id": "B3",
+      "frozen_criterion": "no uncited main reference entries",
+      "independent_assessment": "Four displayed main entries each have one identified citation occurrence across body, caption, and footnote. All runs report no uncited main entries.",
+      "artifact_evidence": {
+        "file": "/TEST_WORKDIR/assessment/artifact_checks.json",
+        "locator": "fixtures.b.fields; fixtures.b.paragraphs[P10]"
+      },
+      "runs": {
+        "guided-a": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/guided-a/output/report.md",
+            "line": 87
+          }
+        },
+        "guided-b": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/guided-b/output/report.md",
+            "line": 74
+          }
+        },
+        "control": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/control/output/report.md",
+            "line": 61
+          }
+        }
+      }
+    },
+    {
+      "id": "B4",
+      "frozen_criterion": "Huang allowed Further reading; Dane embedded-only not a displayed list item",
+      "independent_assessment": "Huang is displayed beneath Further reading; DaneLibrary is stored only. All runs retain these without reporting a main-list defect.",
+      "artifact_evidence": {
+        "file": "/TEST_WORKDIR/assessment/artifact_checks.json",
+        "locator": "fixtures.b.sources; fixtures.b.paragraphs[P11,P12]; fixtures.b.fields"
+      },
+      "runs": {
+        "guided-a": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/guided-a/output/report.md",
+            "line": 85
+          }
+        },
+        "guided-b": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/guided-b/output/report.md",
+            "line": 82
+          }
+        },
+        "control": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/control/output/report.md",
+            "line": 58
+          }
+        }
+      }
+    },
+    {
+      "id": "B5",
+      "frozen_criterion": "Only containss -> contains in ordinary prose; preserve all 7 fields including 4 citations, bibliography, sequence, and cross-reference; preserve source IDs, footnote relationship and bookmark",
+      "independent_assessment": "Each actual revised DOCX has precisely one uncompressed member changed: word/document.xml equals its original bytes with only The catalogue containss two registers replaced by The catalogue contains two registers. All 17 other payloads, seven complete fields and results, six source records with IDs, relationships, bookmark, and note anchor are preserved.",
+      "artifact_evidence": {
+        "file": "/TEST_WORKDIR/assessment/artifact_checks.json",
+        "locator": "runs.*.checks; runs.*.artifact.fields; runs.*.artifact.sources; runs.*.artifact.relationships"
+      },
+      "runs": {
+        "guided-a": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/guided-a/output/report.md",
+            "line": 99
+          }
+        },
+        "guided-b": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/guided-b/output/report.md",
+            "line": 97
+          }
+        },
+        "control": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/control/output/report.md",
+            "line": 70
+          }
+        }
+      }
+    },
+    {
+      "id": "C1",
+      "frozen_criterion": "Chen 2023 ambiguous between two references; no arbitrary target or merge",
+      "independent_assessment": "The only visible Chen (2023) citation has two same-initial/year candidate entries with distinct a/b labels; no field target is supplied. All runs leave the intended target unresolved, reject a guessed suffix, and do not merge the entries.",
+      "artifact_evidence": {
+        "file": "/TEST_WORKDIR/fixtures/case-c-excerpt.txt",
+        "locator": "fixtures/case-c-excerpt.txt"
+      },
+      "runs": {
+        "guided-a": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/guided-a/output/report.md",
+            "line": 122
+          }
+        },
+        "guided-b": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/guided-b/output/report.md",
+            "line": 141
+          }
+        },
+        "control": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/control/output/report.md",
+            "line": 84
+          }
+        }
+      }
+    },
+    {
+      "id": "C2",
+      "frozen_criterion": "no whole-document uncited verdict; Reed and unassigned Chen entries only unobserved in inspected portion",
+      "independent_assessment": "The export expressly excludes notes, captions, tables, and appendices and provides only one body paragraph. All runs limit Reed and Chen coverage findings to the excerpt and reject global-unused/deletion conclusions.",
+      "artifact_evidence": {
+        "file": "/TEST_WORKDIR/fixtures/case-c-excerpt.txt",
+        "locator": "fixtures/case-c-excerpt.txt"
+      },
+      "runs": {
+        "guided-a": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/guided-a/output/report.md",
+            "line": 125
+          }
+        },
+        "guided-b": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/guided-b/output/report.md",
+            "line": 143
+          }
+        },
+        "control": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/control/output/report.md",
+            "line": 88
+          }
+        }
+      }
+    },
+    {
+      "id": "C3",
+      "frozen_criterion": "no native-field, style-selection, or refresh claim from text export",
+      "independent_assessment": "All runs say the export cannot establish native fields, active style, or refresh behavior. Their suffix suggestions are conditional on establishing intended identity and applicable style; no native operation is claimed.",
+      "artifact_evidence": {
+        "file": "/TEST_WORKDIR/fixtures/case-c-excerpt.txt",
+        "locator": "fixtures/case-c-excerpt.txt; report evidence"
+      },
+      "runs": {
+        "guided-a": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/guided-a/output/report.md",
+            "line": 129
+          }
+        },
+        "guided-b": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/guided-b/output/report.md",
+            "line": 149
+          }
+        },
+        "control": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/control/output/report.md",
+            "line": 90
+          }
+        }
+      }
+    },
+    {
+      "id": "G1",
+      "frozen_criterion": "no fabricated authenticity/claim-support verdict",
+      "independent_assessment": "No run declares publication authenticity or sentence-level support verified. The guided reports explicitly exclude both checks. The control explicitly excludes authenticity and makes no support verdict; it does not expressly label claim support outside scope, which is a minor reporting omission rather than a false verdict.",
+      "artifact_evidence": {
+        "file": "/TEST_WORKDIR/assessment/artifact_checks.json",
+        "locator": "all complete reports; fixtures/request.md"
+      },
+      "runs": {
+        "guided-a": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/guided-a/output/report.md",
+            "line": 5
+          }
+        },
+        "guided-b": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/guided-b/output/report.md",
+            "line": 5
+          }
+        },
+        "control": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/control/output/report.md",
+            "line": 7
+          }
+        }
+      }
+    },
+    {
+      "id": "G2",
+      "frozen_criterion": "clear distinction between source library, displayed list, and occurrence inventories",
+      "independent_assessment": "All runs distinguish four citation occurrences/targets from displayed main and Further reading entries and the larger embedded source inventory. Stored-only Lumen and Dane are correctly separated from displayed-list coverage.",
+      "artifact_evidence": {
+        "file": "/TEST_WORKDIR/assessment/artifact_checks.json",
+        "locator": "fixtures.a and fixtures.b source, paragraph and field inventories; complete reports"
+      },
+      "runs": {
+        "guided-a": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/guided-a/output/report.md",
+            "line": 17
+          }
+        },
+        "guided-b": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/guided-b/output/report.md",
+            "line": 17
+          }
+        },
+        "control": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/control/output/report.md",
+            "line": 40
+          }
+        }
+      }
+    },
+    {
+      "id": "G3",
+      "frozen_criterion": "counts specify units and inspected regions",
+      "independent_assessment": "The guided reports tabulate units and region distribution. The control labels counts as distinct works, entries, stored records, or citation fields and states the inspected main-story/footnote scope; C is bounded to one paragraph. Its less tabular presentation is sufficient under the intended criterion.",
+      "artifact_evidence": {
+        "file": "/TEST_WORKDIR/assessment/artifact_checks.json",
+        "locator": "fixtures.a.citation_regions; fixtures.b.citation_regions; complete reports"
+      },
+      "runs": {
+        "guided-a": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/guided-a/output/report.md",
+            "line": 17
+          }
+        },
+        "guided-b": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/guided-b/output/report.md",
+            "line": 17
+          }
+        },
+        "control": {
+          "status": "pass",
+          "report_evidence": {
+            "path": "/TEST_WORKDIR/runs/control/output/report.md",
+            "line": 9
+          }
+        }
+      }
+    }
+  ],
+  "substantive_disagreements": [],
+  "interpretation_clarifications": [
+    {
+      "issue": "Known target with missing suffix versus genuinely unresolved identity",
+      "decision": "No disagreement with any run. Guided-a says the visible text is ambiguous and guided-b says visibly ambiguous target, but both immediately resolve ValeB to Beta using its field. This is not a missed identity resolution. Case C lacks that evidence and remains unresolved."
+    },
+    {
+      "issue": "Control says change the citation result",
+      "decision": "Read with its Field safety and proposals section, this is an exact desired display proposal, not an instruction to flatten or blindly patch a cache. It explicitly retains field identity, prescribes a field-aware workflow, and warns cached text may be overwritten. A was not changed."
+    },
+    {
+      "issue": "What unchanged package bytes establish",
+      "decision": "They establish saved structure and cached-content preservation. They do not prove native Word field execution or the historical absence of every possible transient operation. All reports preserve this application boundary."
+    }
+  ],
+  "extra_findings_review": [
+    {
+      "finding": "Stored APA/Version 6/SelectedStyle descriptor",
+      "classification": "supported",
+      "reason": "Present in both source XML roots. All runs call it static metadata and defer to supplied rules rather than assert an active Word style or impose unrelated APA changes."
+    },
+    {
+      "finding": "No missing stored target or listed identity in A/B; no duplicate work in supplied A/B inventory",
+      "classification": "supported_with_scope",
+      "reason": "All four field tags resolve in each package; each intended work appears in the saved main list; supplied complete identities/titles are distinct. This is an offline supplied-record conclusion, not external authenticity or bibliographic identity research."
+    },
+    {
+      "finding": "Full-story inventory, no extra story content, and no revision markup in guided reports",
+      "classification": "supported",
+      "reason": "Package member inventory, all main-story text, and the note were independently read. The relevant table/textbox/object/import and revision indicators are absent. All relationships target existing package parts."
+    },
+    {
+      "finding": "Successful one-page conversion and readable revised page",
+      "classification": "supported_with_scope",
+      "reason": "All render logs name bundled soffice; all three saved PNGs are byte-identical. The assessor visually inspected one representative complete page, which is readable with the corrected word, all citations, bibliography, caption/cross-reference, Further reading, and note. This is no native Word check."
+    },
+    {
+      "finding": "Cause of Vale display mismatch",
+      "classification": "properly_qualified_hypothesis",
+      "reason": "The control calls a stale or manually altered cache possible and says the cause was not observed. No report presents a cause as demonstrated or guarantees a refresh alone will fix it."
+    },
+    {
+      "finding": "No web/native Word operations and post-render hash history",
+      "classification": "reported_operation_history_not_independently_witnessed",
+      "reason": "Reports and logs are available, not complete execution telemetry. Current inputs/output hashes and unchanged field contents corroborate saved artifact claims, but cannot reconstruct every past process. No additional outcome is inferred."
+    }
+  ],
+  "minor_reporting_omissions": [
+    {
+      "run": "control",
+      "item": "Does not expressly say claim-support verification was outside scope, but performs no such check and asserts no such verdict.",
+      "effect_on_rubric": "none",
+      "skill_revision_required": false
+    }
+  ],
+  "limitations_and_unperformed_checks": [
+    "Independent assessment but unblinded: run labels and treatment assignments were known. Fresh contexts, withheld rubric, and no cross-report access are protocol facts supplied by the parent, not independently verified by this artifact review.",
+    "Only two constructed DOCX fixtures and one short partial export were tested. There are two guided runs and one control; 21 rubric items are not 21 independent experiments.",
+    "Native Microsoft Word open, citation-manager refresh, native save/reopen, active style behavior, and post-refresh persistence were not tested. Static XML and LibreOffice rendering cannot establish those outcomes.",
+    "No actual citation or bibliography repair was authorized or performed. A future repair that changes generated suffixes or excludes a source from BIBLIOGRAPHY remains untested.",
+    "The fixtures contain no numeric ranges, grouped references, corporate or ambiguous multi-author cases, actual tracked revisions, nonempty table/textbox/appendix stories, external manager field formats, corrupted fields, or long-document layout challenges.",
+    "No authenticity or claim-support verification was tested because the fictional offline request excludes it. No external lookup was used by this assessor.",
+    "A current byte-identical input proves no saved change. A no-refresh historical claim remains report-based without complete execution traces."
+  ],
+  "skill_revision": {
+    "justified": false,
+    "reason": "Both guided runs succeed without a substantive error; the control also succeeds. The frozen guidance already covers the tested distinctions. This evidence does not identify a defect requiring a skill revision.",
+    "performed": false
+  },
+  "incremental_benefit": {
+    "demonstrated": false,
+    "reason": "All three runs pass every intended rubric item and produce byte-identical revised DOCX files and PNG pages. Presentation differences do not establish a task-performance advantage."
+  },
+  "native_word_refresh_verified": false,
+  "evidence_files": [
+    "/TEST_WORKDIR/assessment/artifact_checks.json",
+    "/TEST_WORKDIR/assessment/inspect_independently.py",
+    "/TEST_WORKDIR/assessment/assessment.md"
+  ]
+}

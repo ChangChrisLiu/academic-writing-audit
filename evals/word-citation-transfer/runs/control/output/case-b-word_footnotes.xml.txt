@@ -1,0 +1,44 @@
+<w:footnotes xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">
+  <w:footnote w:type="separator" w:id="-1">
+    <w:p>
+      <w:r>
+        <w:separator/>
+      </w:r>
+    </w:p>
+  </w:footnote>
+  <w:footnote w:type="continuationSeparator" w:id="0">
+    <w:p>
+      <w:r>
+        <w:continuationSeparator/>
+      </w:r>
+    </w:p>
+  </w:footnote>
+  <w:footnote w:id="1">
+    <w:p>
+      <w:r>
+        <w:footnoteRef/>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> Note-specific context follows </w:t>
+      </w:r>
+      <w:r>
+        <w:fldChar w:fldCharType="begin"/>
+      </w:r>
+      <w:r>
+        <w:instrText xml:space="preserve"> CITATION PazNote \l 1033 </w:instrText>
+      </w:r>
+      <w:r>
+        <w:fldChar w:fldCharType="separate"/>
+      </w:r>
+      <w:r>
+        <w:t>(Paz, 2018)</w:t>
+      </w:r>
+      <w:r>
+        <w:fldChar w:fldCharType="end"/>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve">.</w:t>
+      </w:r>
+    </w:p>
+  </w:footnote>
+</w:footnotes>

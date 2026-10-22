@@ -1,0 +1,95 @@
+{
+  "rule": "Only local test, bundled-runtime, and temporary renderer paths were replaced by /TEST_WORKDIR, /WORKSPACE_DEPENDENCIES, and /RENDER_WORKDIR. Reports, verdicts, disagreements, and file hashes were otherwise preserved. DOCX, PDF, and PNG files are byte-identical. Historical per-agent helper scripts need local path adaptation before reuse.",
+  "files": [
+    {
+      "file": "runs/control/output/report.md",
+      "original_sha256": "0c3c6ee713e3f35465528a1fec7e3e7852ccf8cd144389706716a746b7feb9d1",
+      "public_sha256": "2a3ba893a9c240fab6e035e6ec80e98389b15bcacd14722348207cbfd78a1761"
+    },
+    {
+      "file": "runs/control/output/edit_and_verify.py",
+      "original_sha256": "222b77b245e75bfdab51935244d1b22ed74eece1cf4f33dc1fc5fafe7670a4f7",
+      "public_sha256": "32ff47af0d86c8724c822e2b47cdff2e26664e2413407a413eeec8e9898a5650"
+    },
+    {
+      "file": "runs/control/output/render-b.log",
+      "original_sha256": "04f5df71e8c71430b3cd6521d39d0ed6942914cc43676f079dcc3fdcce312b5f",
+      "public_sha256": "82efb3d84838e70b9044e81c94ba38ea11e6440da14d7380b463411524a6b4ff"
+    },
+    {
+      "file": "runs/guided-a/output/render.log",
+      "original_sha256": "97c6b56f64432613a2bda0f30f78cd1014e85611c6adfc3460c0e98e82f5bfe2",
+      "public_sha256": "91963c96fbeb1faa0b4d8cc0378c17d5a5740606d1fb9f3225795f6742466ab0"
+    },
+    {
+      "file": "runs/guided-a/output/report.md",
+      "original_sha256": "7cce63b2e51234ee7b16581c3b50c6a88fd1a8037d201e64733b0e83fcd1beae",
+      "public_sha256": "1b9e1a9b298b2f9da4c85eca5137ec9d5ea51d8112226a18e54dff818cce94dc"
+    },
+    {
+      "file": "runs/guided-a/output/audit_and_edit.py",
+      "original_sha256": "01c4280a539669d1b1c3f11e5014cae8987fecb156b85c0bc655324b48084c24",
+      "public_sha256": "f01790e4a06ccbce2d7556a02c7db4f01020ddfbd69d7dd365385cc74d754497"
+    },
+    {
+      "file": "runs/guided-a/output/after-ledger.json",
+      "original_sha256": "7eb4fc0a1087812aa914d51dec92c81b9423b5dd6ac1f1e5e4742f4f6756b8b8",
+      "public_sha256": "99826a2ab075a3644a413015049ed8715755e2e1dae893f967a6d5b1bdc8ab64"
+    },
+    {
+      "file": "runs/guided-a/output/verification.json",
+      "original_sha256": "cfc37470a6a1b0a8256345a1dc3d3579b0ba079f60d209af2236e49aae475f8c",
+      "public_sha256": "c15e0a913cdf05c67e800e00b4c1a554aa116bdcab11e41f59bfc5e16b15d346"
+    },
+    {
+      "file": "runs/guided-a/output/before-ledger.json",
+      "original_sha256": "dbe3fc76ed488c4576ab94db96f121d8aad8fd1756810984c1e490c7cfcdc0c3",
+      "public_sha256": "ff1264babe60da036ea234f06263b6ee5e4cf2c3b505078a5c944f4a4cbb9fd0"
+    },
+    {
+      "file": "runs/guided-b/output/report.md",
+      "original_sha256": "4afb2e3b031ee2ff88a926e956e65b6eff4958da0aa1492fa35567095e1b50e0",
+      "public_sha256": "bc117f2f22279014c3b69ab2cc6919ffce7bcbc1091449a50f97e51b47574c8d"
+    },
+    {
+      "file": "runs/guided-b/output/inventory-after.json",
+      "original_sha256": "52134d08122c171bd0d7852d6eaf57349ff18b1d3a01d9027034220a23c1b9bb",
+      "public_sha256": "d3eda0f8a7e0e987df240c1b52f7045f7aab8829874678ad2c8e5eb3a41b4533"
+    },
+    {
+      "file": "runs/guided-b/output/inspect_packages.py",
+      "original_sha256": "dc65ffbf78d713bd421bf4430c8121dc299b48244270e26152bee82ad125a324",
+      "public_sha256": "dc4eeec3b954c4c13e7eb23c35fc3a566887c1cf38022c3689cf1c8581714858"
+    },
+    {
+      "file": "runs/guided-b/output/render-b.log",
+      "original_sha256": "844a1068e98834117592397caa0ac52dc6b959cc3b9619a9c2aa789ae0769423",
+      "public_sha256": "2490a66dce9196c973dc50cffa6ae3bfc92ced827a02d93c216d74668dfb009b"
+    },
+    {
+      "file": "runs/guided-b/output/inventory-before.json",
+      "original_sha256": "b27dd9a0946ee77d8312af0dfe99d265bf874b5c880ff76ffa0ea75b33da4f2a",
+      "public_sha256": "89a13288f89de10df96a618c62628326d3bae2d155b7869e6fb6e57b8ed8ef8c"
+    },
+    {
+      "file": "assessment/artifact_checks.json",
+      "original_sha256": "4a4fde72de10b175a5483e91a9caf23acdcf784aed8a74781ebe7aa5f5a6bf47",
+      "public_sha256": "a225e62a5b14cb699c8a7bf4816625640711d8de99add72678793346e9ca0058"
+    },
+    {
+      "file": "assessment/decisions.json",
+      "original_sha256": "f50ccf50b015c2c6d8888d55cd7c0c71a4d6aef1b59480c0790af1224944585f",
+      "public_sha256": "0d4a66bff0bf5cc46ac480823d8e97257e826117ff4374ca0630e5e70f6efca3"
+    },
+    {
+      "file": "assessment/inspect_independently.py",
+      "original_sha256": "2cb2c7c6d79f60eb1a6278f7f788be92a11bd6ae0e23c2905c4b83959ac1dd28",
+      "public_sha256": "293bc64df4ded1c5bbc5f95af6b4d49ec1c4ab0ca08cdb8c718f13176a991fc1"
+    },
+    {
+      "file": "assessment/write_assessment.py",
+      "original_sha256": "a6b3929c57b817416fb98ef298cb51eee55e545044ed9c91bcf53ad6ade85d2c",
+      "public_sha256": "d203a8fea2789c833f3336290a2e8e4ad71d3a1a8fd9920c6de887ac80c6fe26"
+    }
+  ]
+}

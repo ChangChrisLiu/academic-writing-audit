@@ -15,3 +15,6 @@ evals/reference-workflow/outputs/authenticity-a/evidence-scholar-r2-cite.txt whi
 # Preserve Word's native paragraph-return characters in captured field results.
 evals/word-native-refresh/native-api/refresh.stdout.txt whitespace=cr-at-eol
 evals/word-native-refresh/native-api/reopened.stdout.txt whitespace=cr-at-eol
+
+# Keep the control run's captured empty note-separator text byte for byte.
+evals/word-citation-transfer/runs/control/output/static-extraction.txt whitespace=-blank-at-eol

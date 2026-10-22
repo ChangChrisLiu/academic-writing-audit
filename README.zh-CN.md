@@ -218,6 +218,8 @@ npx skills add ChangChrisLiu/academic-writing-audit --skill '*' -a codex
 
 [文献工作流执行测试](evals/reference-workflow/README.md)新增两位 agent 各自完成的 Scholar 检索与原始出版信息核对、实际 Cite → BibTeX 导出，以及编译并查看页面后的 LaTeX 去重修复。Scholar 未导出的已核实 DOI 得到保留。该记录保留了首次 Word 操作受阻的状态，后续的[原生 Word 刷新测试](evals/word-native-refresh/README.md)已在选择 APA 第六版后完成刷新、保存和重新打开核对。正文与表格的两处引用分别对应文末两条文献，三个原生域及两个来源身份均保留。这个构造案例不代表其他引用管理器集成或普遍可靠性已经验证。
 
+[Word 引用扩展测试](evals/word-citation-transfer/README.md)由两位 agent 独立使用 skill 审查同一组同作者同年、真实脚注、图注、未引用文献和不完整导出案例，并设置不加载引用 skill 的对照。另一位 agent 复核了完整报告与实际文件。三组判断均符合案例要求，修正正文笔误后七个域全部保留。对照组也通过，因此本次不证明 skill 带来了性能提升；没有发现需要新增规则的问题，skill 内容保持不变。
+
 ## 素材与贡献
 
 宣传图采用纸张、墨色和批注的学术编辑风格，由 OpenAI 内置 GPT 图像生成工具制作。三张原图、网页版本及实际生成提示词都在 [media kit](assets/README.md) 中。它们用于展示工作方式，不作为实验结果图。

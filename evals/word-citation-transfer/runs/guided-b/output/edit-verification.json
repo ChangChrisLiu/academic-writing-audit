@@ -1,0 +1,24 @@
+{
+  "operation": "one ordinary text replacement outside fields",
+  "before_text": "The catalogue containss two registers ",
+  "after_text": "The catalogue contains two registers ",
+  "before_sha256": "f3be77c7d27af6797dfbf605ea7225491a847e89db96ee4e8e2887adf1fb8463",
+  "after_sha256": "247b25e0b4b4ec934ca99d4073e88b421e80ef621a1453c8126dd9f426380194",
+  "changed_parts": [
+    "word/document.xml"
+  ],
+  "same_member_order": true,
+  "all_other_member_payloads_identical": true,
+  "document_xml_equals_exact_one_replacement": true,
+  "field_records_equal": true,
+  "source_records_equal": true,
+  "relationships_equal": true,
+  "style_equal": true,
+  "field_count_before": 7,
+  "field_count_after": 7,
+  "native_application_open": false,
+  "native_application_refresh": false,
+  "native_application_save": false,
+  "native_application_reopen": false,
+  "saved_package_reopened_and_inspected": true
+}

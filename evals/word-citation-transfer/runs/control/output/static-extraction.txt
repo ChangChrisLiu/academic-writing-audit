@@ -1,0 +1,182 @@
+
+FILE case-a.docx SHA256 d45de9aeffce9fdb92ea670a3fd965b846e500d095030d6817f0773392f1ba62
+MEMBERS ["[Content_Types].xml", "_rels/.rels", "docProps/core.xml", "docProps/app.xml", "word/document.xml", "word/_rels/document.xml.rels", "word/styles.xml", "word/stylesWithEffects.xml", "word/settings.xml", "word/webSettings.xml", "word/fontTable.xml", "word/theme/theme1.xml", "customXml/item1.xml", "customXml/_rels/item1.xml.rels", "customXml/itemProps1.xml", "word/numbering.xml", "docProps/thumbnail.jpeg", "word/footnotes.xml"]
+
+PART word/document.xml
+P1 style=['Title'] noteRefs=[] TEXT: Instrument record methods
+P2 style=[] noteRefs=[] TEXT: This constructed document contains fictional references for a citation audit. It is not a research submission.
+P3 style=[] noteRefs=[] TEXT: The alpha calibration protocol is recorded in (Vale, 2024b).
+  FIELD: [" CITATION ValeA \\l 1033 "]
+P4 style=[] noteRefs=[] TEXT: The beta calibration protocol has a separate record (Vale, 2024).
+  FIELD: [" CITATION ValeB \\l 1033 "]
+P5 style=[] noteRefs=['1'] TEXT: An explanatory source appears only in the attached note.
+P6 style=[] noteRefs=[] TEXT: Recorded items → Organized catalogue → Comparison
+P7 style=['Caption'] noteRefs=[] TEXT: Figure 1  Overview of the record process, based on (Imani, 2021).
+  FIELD: [" SEQ Figure \\* ARABIC ", " CITATION ImaniCaption \\l 1033 "]
+P8 style=[] noteRefs=[] TEXT: The process is summarized in Figure 1.
+  FIELD: [" REF figProcess \\h "]
+P9 style=['Heading1'] noteRefs=[] TEXT: References
+P10 style=[] noteRefs=[] TEXT: Vale, T. (2024a). Alpha Sensor Calibration. Example Press.Vale, T. (2024b). Beta Sensor Calibration. Example Press.Ng, R. (2022). Quiet Instrument Records. Example Press.Imani, A. (2021). Diagram Conventions. Example Press.Marin, L. (2020). Spare Workshop Notes. Example Press.
+  FIELD: [" BIBLIOGRAPHY \\l 1033 "]
+P11 style=['Heading1'] noteRefs=[] TEXT: Further reading
+P12 style=[] noteRefs=[] TEXT: Sato, M. (2019). Further Instrument Reading. Example Press.
+
+PART word/settings.xml
+<w:settings xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:sl="http://schemas.openxmlformats.org/schemaLibrary/2006/main" mc:Ignorable="w14">
+  <w:zoom w:val="bestFit"/>
+  <w:proofState w:spelling="clean" w:grammar="clean"/>
+  <w:defaultTabStop w:val="720"/>
+  <w:characterSpacingControl w:val="doNotCompress"/>
+  <w:savePreviewPicture/>
+  <w:compat>
+    <w:useFELayout/>
+    <w:compatSetting w:name="compatibilityMode" w:uri="http://schemas.microsoft.com/office/word" w:val="14"/>
+    <w:compatSetting w:name="overrideTableStyleFontSizeAndJustification" w:uri="http://schemas.microsoft.com/office/word" w:val="1"/>
+    <w:compatSetting w:name="enableOpenTypeFeatures" w:uri="http://schemas.microsoft.com/office/word" w:val="1"/>
+    <w:compatSetting w:name="doNotFlipMirrorIndents" w:uri="http://schemas.microsoft.com/office/word" w:val="1"/>
+  </w:compat>
+  <w:rsids>
+    <w:rsidRoot w:val="00B47730"/>
+    <w:rsid w:val="00034616"/>
+    <w:rsid w:val="0006063C"/>
+    <w:rsid w:val="0015074B"/>
+    <w:rsid w:val="0029639D"/>
+    <w:rsid w:val="00326F90"/>
+    <w:rsid w:val="00AA1D8D"/>
+    <w:rsid w:val="00B47730"/>
+    <w:rsid w:val="00CB0664"/>
+    <w:rsid w:val="00FC693F"/>
+  </w:rsids>
+  <m:mathPr>
+    <m:mathFont m:val="Cambria Math"/>
+    <m:brkBin m:val="before"/>
+    <m:brkBinSub m:val="--"/>
+    <m:smallFrac m:val="0"/>
+    <m:dispDef/>
+    <m:lMargin m:val="0"/>
+    <m:rMargin m:val="0"/>
+    <m:defJc m:val="centerGroup"/>
+    <m:wrapIndent m:val="1440"/>
+    <m:intLim m:val="subSup"/>
+    <m:naryLim m:val="undOvr"/>
+  </m:mathPr>
+  <w:themeFontLang w:val="en-US" w:eastAsia="ja-JP"/>
+  <w:clrSchemeMapping w:bg1="light1" w:t1="dark1" w:bg2="light2" w:t2="dark2" w:accent1="accent1" w:accent2="accent2" w:accent3="accent3" w:accent4="accent4" w:accent5="accent5" w:accent6="accent6" w:hyperlink="hyperlink" w:followedHyperlink="followedHyperlink"/>
+  <w:doNotAutoCompressPictures/>
+  <w:shapeDefaults>
+    <o:shapedefaults v:ext="edit" spidmax="1027"/>
+    <o:shapelayout v:ext="edit">
+      <o:idmap v:ext="edit" data="1"/>
+    </o:shapelayout>
+  </w:shapeDefaults>
+  <w:decimalSymbol w:val="."/>
+  <w:listSeparator w:val=","/>
+  <w14:docId w14:val="24062061"/>
+  <w14:defaultImageDpi w14:val="300"/>
+</w:settings>
+
+
+CUSTOM customXml/item1.xml
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<b:Sources xmlns:b="http://schemas.openxmlformats.org/officeDocument/2006/bibliography" SelectedStyle="/APASixthEditionOfficeOnline.xsl" StyleName="APA" Version="6"><b:Source><b:Tag>ValeA</b:Tag><b:SourceType>Book</b:SourceType><b:Guid>{10000001-1111-4111-8111-000000000001}</b:Guid><b:Author><b:Author><b:NameList><b:Person><b:Last>Vale</b:Last><b:First>Tamsin</b:First></b:Person></b:NameList></b:Author></b:Author><b:Title>Alpha Sensor Calibration</b:Title><b:Year>2024</b:Year><b:Publisher>Example Press</b:Publisher><b:RefOrder>1</b:RefOrder></b:Source><b:Source><b:Tag>ValeB</b:Tag><b:SourceType>Book</b:SourceType><b:Guid>{10000002-1111-4111-8111-000000000002}</b:Guid><b:Author><b:Author><b:NameList><b:Person><b:Last>Vale</b:Last><b:First>Tamsin</b:First></b:Person></b:NameList></b:Author></b:Author><b:Title>Beta Sensor Calibration</b:Title><b:Year>2024</b:Year><b:Publisher>Example Press</b:Publisher><b:RefOrder>2</b:RefOrder></b:Source><b:Source><b:Tag>NgNote</b:Tag><b:SourceType>Book</b:SourceType><b:Guid>{10000003-1111-4111-8111-000000000003}</b:Guid><b:Author><b:Author><b:NameList><b:Person><b:Last>Ng</b:Last><b:First>Rui</b:First></b:Person></b:NameList></b:Author></b:Author><b:Title>Quiet Instrument Records</b:Title><b:Year>2022</b:Year><b:Publisher>Example Press</b:Publisher><b:RefOrder>3</b:RefOrder></b:Source><b:Source><b:Tag>ImaniCaption</b:Tag><b:SourceType>Book</b:SourceType><b:Guid>{10000004-1111-4111-8111-000000000004}</b:Guid><b:Author><b:Author><b:NameList><b:Person><b:Last>Imani</b:Last><b:First>Ada</b:First></b:Person></b:NameList></b:Author></b:Author><b:Title>Diagram Conventions</b:Title><b:Year>2021</b:Year><b:Publisher>Example Press</b:Publisher><b:RefOrder>4</b:RefOrder></b:Source><b:Source><b:Tag>MarinUnused</b:Tag><b:SourceType>Book</b:SourceType><b:Guid>{10000005-1111-4111-8111-000000000005}</b:Guid><b:Author><b:Author><b:NameList><b:Person><b:Last>Marin</b:Last><b:First>Lou</b:First></b:Person></b:NameList></b:Author></b:Author><b:Title>Spare Workshop Notes</b:Title><b:Year>2020</b:Year><b:Publisher>Example Press</b:Publisher><b:RefOrder>5</b:RefOrder></b:Source><b:Source><b:Tag>SatoReading</b:Tag><b:SourceType>Book</b:SourceType><b:Guid>{10000006-1111-4111-8111-000000000006}</b:Guid><b:Author><b:Author><b:NameList><b:Person><b:Last>Sato</b:Last><b:First>Mei</b:First></b:Person></b:NameList></b:Author></b:Author><b:Title>Further Instrument Reading</b:Title><b:Year>2019</b:Year><b:Publisher>Example Press</b:Publisher><b:RefOrder>6</b:RefOrder></b:Source><b:Source><b:Tag>LumenLibrary</b:Tag><b:SourceType>Book</b:SourceType><b:Guid>{10000007-1111-4111-8111-000000000007}</b:Guid><b:Author><b:Author><b:NameList><b:Person><b:Last>Lumen</b:Last><b:First>Kai</b:First></b:Person></b:NameList></b:Author></b:Author><b:Title>Stored but Unlisted Records</b:Title><b:Year>2018</b:Year><b:Publisher>Example Press</b:Publisher><b:RefOrder>7</b:RefOrder></b:Source></b:Sources>
+
+CUSTOM customXml/itemProps1.xml
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<ds:datastoreItem xmlns:ds="http://schemas.openxmlformats.org/officeDocument/2006/customXml" ds:itemID="{33333333-3333-4333-8333-333333333333}"><ds:schemaRefs><ds:schemaRef ds:uri="http://schemas.openxmlformats.org/officeDocument/2006/bibliography"/></ds:schemaRefs></ds:datastoreItem>
+
+PART word/footnotes.xml
+P1 style=[] noteRefs=[] TEXT: 
+P2 style=[] noteRefs=[] TEXT: 
+P3 style=[] noteRefs=[] TEXT:  Note-specific context follows (Ng, 2022).
+  FIELD: [" CITATION NgNote \\l 1033 "]
+
+FILE case-b.docx SHA256 f3be77c7d27af6797dfbf605ea7225491a847e89db96ee4e8e2887adf1fb8463
+MEMBERS ["[Content_Types].xml", "_rels/.rels", "docProps/core.xml", "docProps/app.xml", "word/document.xml", "word/_rels/document.xml.rels", "word/styles.xml", "word/stylesWithEffects.xml", "word/settings.xml", "word/webSettings.xml", "word/fontTable.xml", "word/theme/theme1.xml", "customXml/item1.xml", "customXml/_rels/item1.xml.rels", "customXml/itemProps1.xml", "word/numbering.xml", "docProps/thumbnail.jpeg", "word/footnotes.xml"]
+
+PART word/document.xml
+P1 style=['Title'] noteRefs=[] TEXT: Collection record methods
+P2 style=[] noteRefs=[] TEXT: This constructed document contains fictional references for a citation audit. It is not a research submission.
+P3 style=[] noteRefs=[] TEXT: The catalogue containss two registers (Ellis, 2020a).
+  FIELD: [" CITATION EllisA \\l 1033 "]
+P4 style=[] noteRefs=[] TEXT: The second register is documented separately (Ellis, 2020b).
+  FIELD: [" CITATION EllisB \\l 1033 "]
+P5 style=[] noteRefs=['1'] TEXT: An explanatory source appears only in the attached note.
+P6 style=[] noteRefs=[] TEXT: Recorded items → Organized catalogue → Comparison
+P7 style=['Caption'] noteRefs=[] TEXT: Figure 1  Overview of the record process, based on (Kline, 2022).
+  FIELD: [" SEQ Figure \\* ARABIC ", " CITATION KlineCaption \\l 1033 "]
+P8 style=[] noteRefs=[] TEXT: The process is summarized in Figure 1.
+  FIELD: [" REF figProcess \\h "]
+P9 style=['Heading1'] noteRefs=[] TEXT: References
+P10 style=[] noteRefs=[] TEXT: Ellis, M. (2020a). Archive Register Methods. Example Press.Ellis, M. (2020b). Museum Register Methods. Example Press.Paz, L. (2018). Oral Catalogue Notes. Example Press.Kline, E. (2022). Collection Diagrams. Example Press.
+  FIELD: [" BIBLIOGRAPHY \\l 1033 "]
+P11 style=['Heading1'] noteRefs=[] TEXT: Further reading
+P12 style=[] noteRefs=[] TEXT: Huang, R. (2017). Further Curatorial Reading. Example Press.
+
+PART word/settings.xml
+<w:settings xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:sl="http://schemas.openxmlformats.org/schemaLibrary/2006/main" mc:Ignorable="w14">
+  <w:zoom w:val="bestFit"/>
+  <w:proofState w:spelling="clean" w:grammar="clean"/>
+  <w:defaultTabStop w:val="720"/>
+  <w:characterSpacingControl w:val="doNotCompress"/>
+  <w:savePreviewPicture/>
+  <w:compat>
+    <w:useFELayout/>
+    <w:compatSetting w:name="compatibilityMode" w:uri="http://schemas.microsoft.com/office/word" w:val="14"/>
+    <w:compatSetting w:name="overrideTableStyleFontSizeAndJustification" w:uri="http://schemas.microsoft.com/office/word" w:val="1"/>
+    <w:compatSetting w:name="enableOpenTypeFeatures" w:uri="http://schemas.microsoft.com/office/word" w:val="1"/>
+    <w:compatSetting w:name="doNotFlipMirrorIndents" w:uri="http://schemas.microsoft.com/office/word" w:val="1"/>
+  </w:compat>
+  <w:rsids>
+    <w:rsidRoot w:val="00B47730"/>
+    <w:rsid w:val="00034616"/>
+    <w:rsid w:val="0006063C"/>
+    <w:rsid w:val="0015074B"/>
+    <w:rsid w:val="0029639D"/>
+    <w:rsid w:val="00326F90"/>
+    <w:rsid w:val="00AA1D8D"/>
+    <w:rsid w:val="00B47730"/>
+    <w:rsid w:val="00CB0664"/>
+    <w:rsid w:val="00FC693F"/>
+  </w:rsids>
+  <m:mathPr>
+    <m:mathFont m:val="Cambria Math"/>
+    <m:brkBin m:val="before"/>
+    <m:brkBinSub m:val="--"/>
+    <m:smallFrac m:val="0"/>
+    <m:dispDef/>
+    <m:lMargin m:val="0"/>
+    <m:rMargin m:val="0"/>
+    <m:defJc m:val="centerGroup"/>
+    <m:wrapIndent m:val="1440"/>
+    <m:intLim m:val="subSup"/>
+    <m:naryLim m:val="undOvr"/>
+  </m:mathPr>
+  <w:themeFontLang w:val="en-US" w:eastAsia="ja-JP"/>
+  <w:clrSchemeMapping w:bg1="light1" w:t1="dark1" w:bg2="light2" w:t2="dark2" w:accent1="accent1" w:accent2="accent2" w:accent3="accent3" w:accent4="accent4" w:accent5="accent5" w:accent6="accent6" w:hyperlink="hyperlink" w:followedHyperlink="followedHyperlink"/>
+  <w:doNotAutoCompressPictures/>
+  <w:shapeDefaults>
+    <o:shapedefaults v:ext="edit" spidmax="1027"/>
+    <o:shapelayout v:ext="edit">
+      <o:idmap v:ext="edit" data="1"/>
+    </o:shapelayout>
+  </w:shapeDefaults>
+  <w:decimalSymbol w:val="."/>
+  <w:listSeparator w:val=","/>
+  <w14:docId w14:val="24062061"/>
+  <w14:defaultImageDpi w14:val="300"/>
+</w:settings>
+
+
+CUSTOM customXml/item1.xml
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<b:Sources xmlns:b="http://schemas.openxmlformats.org/officeDocument/2006/bibliography" SelectedStyle="/APASixthEditionOfficeOnline.xsl" StyleName="APA" Version="6"><b:Source><b:Tag>EllisA</b:Tag><b:SourceType>Book</b:SourceType><b:Guid>{20000001-1111-4111-8111-000000000001}</b:Guid><b:Author><b:Author><b:NameList><b:Person><b:Last>Ellis</b:Last><b:First>Morgan</b:First></b:Person></b:NameList></b:Author></b:Author><b:Title>Archive Register Methods</b:Title><b:Year>2020</b:Year><b:Publisher>Example Press</b:Publisher><b:RefOrder>1</b:RefOrder></b:Source><b:Source><b:Tag>EllisB</b:Tag><b:SourceType>Book</b:SourceType><b:Guid>{20000002-1111-4111-8111-000000000002}</b:Guid><b:Author><b:Author><b:NameList><b:Person><b:Last>Ellis</b:Last><b:First>Morgan</b:First></b:Person></b:NameList></b:Author></b:Author><b:Title>Museum Register Methods</b:Title><b:Year>2020</b:Year><b:Publisher>Example Press</b:Publisher><b:RefOrder>2</b:RefOrder></b:Source><b:Source><b:Tag>PazNote</b:Tag><b:SourceType>Book</b:SourceType><b:Guid>{20000003-1111-4111-8111-000000000003}</b:Guid><b:Author><b:Author><b:NameList><b:Person><b:Last>Paz</b:Last><b:First>Lina</b:First></b:Person></b:NameList></b:Author></b:Author><b:Title>Oral Catalogue Notes</b:Title><b:Year>2018</b:Year><b:Publisher>Example Press</b:Publisher><b:RefOrder>3</b:RefOrder></b:Source><b:Source><b:Tag>KlineCaption</b:Tag><b:SourceType>Book</b:SourceType><b:Guid>{20000004-1111-4111-8111-000000000004}</b:Guid><b:Author><b:Author><b:NameList><b:Person><b:Last>Kline</b:Last><b:First>Evan</b:First></b:Person></b:NameList></b:Author></b:Author><b:Title>Collection Diagrams</b:Title><b:Year>2022</b:Year><b:Publisher>Example Press</b:Publisher><b:RefOrder>4</b:RefOrder></b:Source><b:Source><b:Tag>HuangReading</b:Tag><b:SourceType>Book</b:SourceType><b:Guid>{20000005-1111-4111-8111-000000000005}</b:Guid><b:Author><b:Author><b:NameList><b:Person><b:Last>Huang</b:Last><b:First>Ren</b:First></b:Person></b:NameList></b:Author></b:Author><b:Title>Further Curatorial Reading</b:Title><b:Year>2017</b:Year><b:Publisher>Example Press</b:Publisher><b:RefOrder>5</b:RefOrder></b:Source><b:Source><b:Tag>DaneLibrary</b:Tag><b:SourceType>Book</b:SourceType><b:Guid>{20000006-1111-4111-8111-000000000006}</b:Guid><b:Author><b:Author><b:NameList><b:Person><b:Last>Dane</b:Last><b:First>Jo</b:First></b:Person></b:NameList></b:Author></b:Author><b:Title>Stored Collection Index</b:Title><b:Year>2016</b:Year><b:Publisher>Example Press</b:Publisher><b:RefOrder>6</b:RefOrder></b:Source></b:Sources>
+
+CUSTOM customXml/itemProps1.xml
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<ds:datastoreItem xmlns:ds="http://schemas.openxmlformats.org/officeDocument/2006/customXml" ds:itemID="{33333333-3333-4333-8333-333333333333}"><ds:schemaRefs><ds:schemaRef ds:uri="http://schemas.openxmlformats.org/officeDocument/2006/bibliography"/></ds:schemaRefs></ds:datastoreItem>
+
+PART word/footnotes.xml
+P1 style=[] noteRefs=[] TEXT: 
+P2 style=[] noteRefs=[] TEXT: 
+P3 style=[] noteRefs=[] TEXT:  Note-specific context follows (Paz, 2018).
+  FIELD: [" CITATION PazNote \\l 1033 "]
