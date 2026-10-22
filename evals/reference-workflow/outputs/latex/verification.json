@@ -1,0 +1,63 @@
+{
+  "preserved_original_input_hashes_match": {
+    "references.bib": true,
+    "evidence.md": true,
+    "main.tex": true,
+    "source-record.json": true,
+    "scholar-export.bib": true,
+    "appendix.tex": true
+  },
+  "unchanged_evidence_hashes_match": {
+    "scholar-export.bib": true,
+    "source-record.json": true,
+    "evidence.md": true
+  },
+  "build_hashes_match_current_inputs": {
+    "main.tex": true,
+    "appendix.tex": true,
+    "references.bib": true
+  },
+  "working_keys": [
+    "breiman2001"
+  ],
+  "duplicate_keys": [],
+  "doi_retained": true,
+  "supplied_export_unchanged": true,
+  "export_fields_retained": true,
+  "active_citations": [
+    {
+      "file": "main.tex",
+      "line": 5,
+      "command": "cite",
+      "keys": [
+        "breiman2001"
+      ]
+    },
+    {
+      "file": "appendix.tex",
+      "line": 2,
+      "command": "sourcecite",
+      "keys": [
+        "breiman2001"
+      ]
+    }
+  ],
+  "unresolved_citation_keys": [],
+  "retired_key_in_active_citations": false,
+  "comment_unchanged": true,
+  "bbl_bibitems": [
+    "breiman2001"
+  ],
+  "aux_citations": [
+    "breiman2001",
+    "breiman2001"
+  ],
+  "build_exit_code": 0,
+  "build_warning_or_error_lines": [],
+  "rendered_page_count": 1,
+  "visual_inspection": {
+    "image": "rendered/page-001.png",
+    "inspected": true,
+    "observed": "Both affected citations display [1]. Exactly one numbered bibliography entry appears for Leo Breiman, Random forests, Machine learning, 45(1):5–32, 2001. No visible citation placeholders or clipped bibliography text. DOI is absent from the printed entry under the existing plain style, but retained in references.bib."
+  }
+}

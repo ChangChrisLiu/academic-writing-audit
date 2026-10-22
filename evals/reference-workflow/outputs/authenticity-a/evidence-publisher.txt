@@ -1,0 +1,17 @@
+Source: https://link.springer.com/article/10.1023/a:1010933404324
+Capture time (UTC): 2026-10-22T17:23:19.806Z
+Route: direct browser inspection of publisher record linked from Scholar
+Evidence type: minimal verbatim accessibility-text excerpt of public metadata
+Sanitization: omitted account/institution/IP/footer UI, advertisements and session-bearing links. Retained only publication metadata.
+
+							28 link Description: Machine Learning, Value: link.springer.com/journal/10994
+					30 heading Random Forests, Value: 1
+							34 text Published:  October 2001
+							37 text Volume 45 , pages 5–32 ( 2001 )
+					41 link Description: Machine Learning, Value: link.springer.com/journal/10994
+							48 link Description: Leo Breiman, Value: link.springer.com/article/10.1023/a:1010933404324#auth-Leo-Breiman-Aff1
+							103 link Description: Machine Learning, Value: link.springer.com/subjects/machine-learning
+										163 text Leo Breiman
+									176 text Breiman, L. Random Forests.  Machine Learning 45 , 5–32 (2001). https://doi.org/10.1023/A:1010933404324
+										180 text Issue date October 2001
+										184 text https://doi.org/10.1023/A:1010933404324

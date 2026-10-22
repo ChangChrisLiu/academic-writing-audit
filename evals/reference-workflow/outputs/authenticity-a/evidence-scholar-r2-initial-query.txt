@@ -1,0 +1,16 @@
+Source: https://scholar.google.com/scholar?q=%22Random+Forests%22+%22Leo+Breiman%22+2002
+Capture time (UTC): 2026-10-22T17:23:33.731Z
+Evidence type: direct browser search result headings; this is not proof of nonexistence
+Sanitization: only query and result headings retained; account details, session parameters, unrelated snippets omitted.
+
+				6 text field (settable) Description: Search, Value: "Random Forests" "Leo Breiman" 2002, ID: gs_hdr_tsi
+						43 heading [PDF] Analysis of a random forests model, Value: 3
+						62 heading Random forests, Value: 3
+						82 heading [PDF] Package 'randomForest', Value: 3
+						106 heading Random forests, Value: 3
+						126 heading Random Forests: some methodological insights, Value: 3
+						148 heading [HTML] Variable selection using random forests, Value: 3
+						170 heading Value: 3, [PDF] Random Forests: An algorithm for image classification and generation of continuous fields data sets
+						187 heading Random forests, Value: 3
+						202 heading Value: 3, Application of Breiman's random forest to modeling structure-activity relationships of pharmaceutical molecules
+						223 heading [PDF] Contributions to random forests methods for several data analysis problems, Value: 3

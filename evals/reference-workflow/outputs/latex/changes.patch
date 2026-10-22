@@ -1,0 +1,39 @@
+--- original-inputs/references.bib
++++ references.bib
+@@ -1,9 +1,11 @@
+ @article{breiman2001,
+- title={Random Forests}, author={Breiman, Leo},
+- journal={Machine Learning}, year={2001}, volume={45}, number={1},
+- pages={5--32}, doi={10.1023/A:1010933404324}
++  title={Random forests},
++  author={Breiman, Leo},
++  journal={Machine learning},
++  volume={45},
++  number={1},
++  pages={5--32},
++  year={2001},
++  publisher={Springer},
++  doi={10.1023/A:1010933404324}
+ }
+-@article{breiman_short,
+- title={Random forests}, author={Breiman, L.},
+- journal={Mach. Learn.}, year={2001}, volume={45}, pages={5--32}
+-}
+--- original-inputs/main.tex
++++ main.tex
+@@ -2,7 +2,7 @@
+ \newcommand{\sourcecite}[1]{\cite{#1}}
+ \begin{document}
+ \section*{Bibliography workflow fixture}
+-The source is recorded under two citation keys \cite{breiman2001,breiman_short}.
++The source is recorded under two citation keys \cite{breiman2001}.
+ \input{appendix}
+ \bibliographystyle{plain}
+ \bibliography{references}
+--- original-inputs/appendix.tex
++++ appendix.tex
+@@ -1,3 +1,3 @@
+ \section*{Additional source occurrence}
+-The same source is cited here \sourcecite{breiman_short}.
++The same source is cited here \sourcecite{breiman2001}.
+ % breiman_short documents the original database key and is not a citation.

@@ -1,0 +1,17 @@
+{
+  "before": {
+    "pages": 1,
+    "bbl_entries": 2,
+    "pdf_title_occurrences": 2,
+    "pdf_text": "Bibliography workflow fixture\nThe source is recorded under two citation keys [2, 1].\nAdditional source occurrence\nThe same source is cited here [1].\nReferences\n[1] L. Breiman. Random forests. Mach. Learn., 45:5\u201332, 2001.\n[2] Leo Breiman. Random forests. Machine Learning, 45(1):5\u201332, 2001.\n1"
+  },
+  "after": {
+    "pages": 1,
+    "bbl_entries": 1,
+    "pdf_title_occurrences": 1,
+    "pdf_text": "Bibliography workflow fixture\nThe source is recorded under two citation keys [1].\nAdditional source occurrence\nThe same source is cited here [1].\nReferences\n[1] Leo Breiman. Random forests. Machine learning , 45(1):5\u201332, 2001.\n1"
+  },
+  "verified_doi_retained": true,
+  "raw_export_unchanged": true,
+  "comment_preserved": true
+}

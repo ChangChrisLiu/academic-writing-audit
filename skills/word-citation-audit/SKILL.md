@@ -14,6 +14,8 @@ Read supplied author/venue instructions and the selected citation-manager or Wor
 
 Establish the intended revision view and scope. Tracked insertions and deletions must not silently become one combined citation inventory. Do not accept changes, refresh fields, or alter the file during an audit-only task. A PDF or text export may support visible checks but cannot establish native field integrity or coverage of omitted document regions.
 
+Use the [reference ledger](references/reference-ledger.md) to reuse identity evidence and connect occurrence locations to original entries. Preserve suspected duplicates as candidates until resolved. Style-only changes do not require repeating unchanged authenticity checks.
+
 ## Build two traceable inventories
 
 Read [matching and coverage](references/matching-and-coverage.md). Inventory every citation occurrence with its location and visible form or field identity. Include the relevant body, captions, tables, text boxes, notes, and appendices, according to the manuscript and style. Mark inaccessible regions as unchecked. Do not treat every number, bracket, footnote marker, or cross-reference as a bibliographic citation.
@@ -30,7 +32,7 @@ Separate identity/mapping errors from style errors. For example, a uniquely iden
 
 ## Keep authenticity and claim support separate
 
-A correctly linked and formatted citation can still identify a nonexistent or misdescribed work. If authenticity is in scope, use two distinct agents to check the same references independently, each beginning on Google Scholar and checking the complete title, ordered authors, publication year, venue, and intended version before seeing the other's verdict. Leaf verifiers do not delegate recursively. Reuse a completed source-linked report only for the exact entries/versions. Inaccessible sources or unavailable independent agents leave this check incomplete. Do not call missing search results proof of fabrication. Reconcile conflicts with source evidence rather than voting.
+A correctly linked and formatted citation can still identify a nonexistent or misdescribed work. If authenticity is in scope, use two distinct agents to check the same references independently, each beginning on Google Scholar and corroborating the complete title, ordered authors, publication year, venue, and intended version against primary publication evidence before seeing the other's verdict. Require that corroboration even when Scholar looks complete; record shared primary-source dependence if both agents use the same record. If a retrieval tool fails, try an already available, authorized ordinary browser route when feasible. Distinguish tool failure, site restriction, and no matching result; do not bypass challenges or retry in loops. Leaf verifiers do not delegate recursively. Reuse a completed source-linked report for unchanged identities/versions; reopen affected checks when metadata, version, or new conflicting evidence changes. Inaccessible sources or unavailable independent agents leave this check incomplete. Do not call missing search results proof of fabrication. Reconcile conflicts with source evidence rather than voting.
 
 For a mapping-only audit, clearly state that live authenticity was not checked. Whether the cited paper supports the sentence is a separate content audit requiring the paper and the specific proposition; neither reference-list matching nor a real DOI proves it.
 
@@ -38,7 +40,7 @@ For a mapping-only audit, clearly state that live authenticity was not checked. 
 
 Edit only within the user's authorized scope. For Zotero, EndNote, Mendeley, or native Word fields, repair through the relevant citation source or manager when available, then refresh and inspect the affected citations and bibliography. Do not replace field results with plain text, strip fields, manually renumber generated labels, or silently accept tracked changes. If safe field-aware editing is unavailable, provide the exact proposed corrections without flattening the document.
 
-After edits or field refresh, recheck numbering, ordering, year-letter suffixes, duplicate entries, and both mapping directions. Inspect affected rendered pages if layout is part of the task. Keep exact publication titles, names, punctuation, and style conventions even where ordinary prose would be simplified.
+After edits or field refresh, recheck numbering, ordering, year-letter suffixes, duplicate entries, and both mapping directions. Retain a before/after record of field identities and source relationships, plus observed refresh outcomes. Inspect affected rendered pages if layout is part of the task. Package/XML inspection establishes structure only; cached display text is not a successful citation-manager refresh. Rendering in another office engine is not proof that Word or a particular reference-manager integration refreshed correctly. Keep exact publication titles, names, punctuation, and style conventions even where ordinary prose would be simplified.
 
 ## Deliver a bounded audit
 

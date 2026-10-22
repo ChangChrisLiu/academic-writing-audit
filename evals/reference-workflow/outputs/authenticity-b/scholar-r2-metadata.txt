@@ -1,0 +1,25 @@
+Source: Google Scholar, live ordinary Chrome retrieval by verifier B
+Inspection: 2026-10-22, after R1 publisher inspection
+Evidence kind: Minimal metadata excerpts from directly inspected accessibility output. Search-index evidence only, not primary publication evidence.
+
+Initial R2 query: "Random Forests" Breiman 2002
+Observed public URL: https://scholar.google.com/scholar?q=%22Random+Forests%22+Breiman+2002
+Outcome: Search succeeded; the first displayed result page did not include the target Breiman journal record. This is a limited inspected-page observation, not proof that no matching record exists anywhere.
+Relevant displayed alternative metadata:
+Analysis of a random forests model — G Biau — The Journal of Machine Learning Research, 2012
+Random forests — T Hastie, R Tibshirani, J Friedman — The elements of statistical learning ..., 2008
+Random forests — A Cutler, DR Cutler, JR Stevens — Ensemble machine learning, 2012
+Classification and regression by randomForest — A Liaw, M Wiener — R news, 2002
+
+Expanded R2 query via the search field: "Random Forests" Breiman
+Observed public URL: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C44&q=%22Random+Forests%22+Breiman&btnG=
+Relevant matching result excerpt:
+46 heading Random forests, Value: 3
+47 link Description: Random forests, Value: link.springer.com/article/10.1023/a:1010933404324
+48 link Description: L Breiman, Value: scholar.google.com/citations
+49 text - Machine learning, 2001 - Springer
+44 link Description: [PDF] springer.com, Value: link.springer.com/content/pdf/10.1023/a:1010933404324.pdf
+
+The matching article link was followed to the journal publisher, which again displayed October 2001. See publisher-metadata.txt.
+
+Sanitization: Account controls, unrelated results, query-result snippets, metrics and internal export/citation URL fragments omitted. Retained search query and ordinary public search options only. These are not session credentials.

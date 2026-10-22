@@ -1,0 +1,46 @@
+{
+  "created_at_utc": "2026-10-22T17:27:17.173724+00:00",
+  "source_inputs": {
+    "references.bib": {
+      "original_sha256": "c4e1e69d14ce25deaa094d8b2f67b5b0a8774d2b0bf8588a01e5b7a6fc81d973",
+      "preserved_copy": "original-inputs/references.bib",
+      "preserved_copy_sha256": "c4e1e69d14ce25deaa094d8b2f67b5b0a8774d2b0bf8588a01e5b7a6fc81d973",
+      "working_sha256": "81ade94ef5e203090ed185832a998bda411b05b3b3b9fadc3d969b8b9dc5e97e"
+    },
+    "evidence.md": {
+      "original_sha256": "5aadbac81a931216ba3af468d201478e9646ea98c2a5728f1aac1265894525aa",
+      "preserved_copy": "original-inputs/evidence.md",
+      "preserved_copy_sha256": "5aadbac81a931216ba3af468d201478e9646ea98c2a5728f1aac1265894525aa",
+      "working_sha256": "5aadbac81a931216ba3af468d201478e9646ea98c2a5728f1aac1265894525aa"
+    },
+    "main.tex": {
+      "original_sha256": "1b5acc680e723c868550040d433ecdc39c89640d8d0ba1330e36302cc8212a60",
+      "preserved_copy": "original-inputs/main.tex",
+      "preserved_copy_sha256": "1b5acc680e723c868550040d433ecdc39c89640d8d0ba1330e36302cc8212a60",
+      "working_sha256": "25f4f15daa813dcc46dcf231ff5009ab59eb818893d2e7c79fbefe3e2cb68ab8"
+    },
+    "source-record.json": {
+      "original_sha256": "4fec2d8c93fd59055378b3bd87322ca594ae4abe3354bd43d6ff3fe28d305800",
+      "preserved_copy": "original-inputs/source-record.json",
+      "preserved_copy_sha256": "4fec2d8c93fd59055378b3bd87322ca594ae4abe3354bd43d6ff3fe28d305800",
+      "working_sha256": "4fec2d8c93fd59055378b3bd87322ca594ae4abe3354bd43d6ff3fe28d305800"
+    },
+    "scholar-export.bib": {
+      "original_sha256": "a60c0bfad77d49d29288b71e489a591d61fc5e8fca7c9e312e30a87faa04db3b",
+      "preserved_copy": "original-inputs/scholar-export.bib",
+      "preserved_copy_sha256": "a60c0bfad77d49d29288b71e489a591d61fc5e8fca7c9e312e30a87faa04db3b",
+      "working_sha256": "a60c0bfad77d49d29288b71e489a591d61fc5e8fca7c9e312e30a87faa04db3b"
+    },
+    "appendix.tex": {
+      "original_sha256": "1b54ddc17934fd08c405df3982899ae7e6017c7a29896e457c244c70fab6d29d",
+      "preserved_copy": "original-inputs/appendix.tex",
+      "preserved_copy_sha256": "1b54ddc17934fd08c405df3982899ae7e6017c7a29896e457c244c70fab6d29d",
+      "working_sha256": "b15de6c21542d2245d565a537227f73666fcf97d8cbe4b4e0df070eff12490d9"
+    }
+  },
+  "unchanged_evidence": {
+    "scholar-export.bib": true,
+    "source-record.json": true,
+    "evidence.md": true
+  }
+}

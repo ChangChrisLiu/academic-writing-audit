@@ -1,0 +1,7 @@
+Bibliography workflow fixture
+The source is recorded under two citation keys [1].
+Additional source occurrence
+The same source is cited here [1].
+References
+[1] Leo Breiman. Random forests. Machine learning, 45(1):5–32, 2001.
+1

@@ -1,0 +1,203 @@
+{
+  "reference_id": "breiman-2001-random-forests-journal",
+  "work_and_version": {
+    "title": "Random Forests",
+    "author_order": [
+      "Leo Breiman"
+    ],
+    "year": "2001",
+    "venue": "Machine Learning",
+    "version": "2001 journal article; not a preprint or separate extension",
+    "basis": "evidence.md explicitly identifies both citation keys with this same article; source-record.json supplies Scholar and exact-version publisher metadata"
+  },
+  "original_records": {
+    "file": "original-inputs/references.bib",
+    "entries": "@article{breiman2001,\n title={Random Forests}, author={Breiman, Leo},\n journal={Machine Learning}, year={2001}, volume={45}, number={1},\n pages={5--32}, doi={10.1023/A:1010933404324}\n}\n@article{breiman_short,\n title={Random forests}, author={Breiman, L.},\n journal={Mach. Learn.}, year={2001}, volume={45}, pages={5--32}\n}\n",
+    "sha256": "c4e1e69d14ce25deaa094d8b2f67b5b0a8774d2b0bf8588a01e5b7a6fc81d973"
+  },
+  "canonical_export": {
+    "file": "scholar-export.bib",
+    "sha256": "a60c0bfad77d49d29288b71e489a591d61fc5e8fca7c9e312e30a87faa04db3b",
+    "captured_at_utc": "2026-10-22 17:22:20 UTC",
+    "observed_query_url": "https://scholar.google.com/scholar?q=%22Random+Forests%22+%22Leo+Breiman%22",
+    "observed_export_endpoint": "https://scholar.googleusercontent.com/scholar.bib",
+    "full_export_url_available": false,
+    "url_limitation": "Omitted from the public record to avoid exposing transient session-related parameters. The actual clicked href was observed, not guessed.",
+    "capture_type": "Unedited displayed text copied from document.body.innerText; not a byte-for-byte HTTP response capture.",
+    "source_status": "Supplied coordinator record reused; no live retrieval performed by this repair run."
+  },
+  "primary_source": {
+    "url": "https://link.springer.com/article/10.1023/A:1010933404324",
+    "record_file": "source-record.json",
+    "source_status": "Supplied coordinator metadata and exact-version DOI check; not independently rechecked in this run."
+  },
+  "candidate_group": {
+    "keys": [
+      "breiman2001",
+      "breiman_short"
+    ],
+    "resolution": "One intended journal publication, per supplied identity statement and metadata; merge justified for this formatting task. Dual authenticity verification remains incomplete."
+  },
+  "key_mapping": {
+    "breiman2001": "breiman2001",
+    "breiman_short": "breiman2001",
+    "export_key_breiman2001random": "breiman2001 (project key retained; export file unchanged)"
+  },
+  "occurrences": [
+    {
+      "file": "main.tex",
+      "line": 5,
+      "command": "cite",
+      "original_arguments": [
+        "breiman2001",
+        "breiman_short"
+      ],
+      "repaired_arguments": [
+        "breiman2001"
+      ],
+      "decision": "Map retired key, then remove repeated identical key within this citation argument."
+    },
+    {
+      "file": "appendix.tex",
+      "line": 2,
+      "command": "sourcecite",
+      "original_arguments": [
+        "breiman_short"
+      ],
+      "repaired_arguments": [
+        "breiman2001"
+      ],
+      "decision": "Custom wrapper inspected at main.tex:2; forwards its argument to cite."
+    },
+    {
+      "file": "appendix.tex",
+      "line": 3,
+      "type": "comment",
+      "text": "% breiman_short documents the original database key and is not a citation.",
+      "decision": "Preserved verbatim; no global string replacement."
+    }
+  ],
+  "project_graph": {
+    "main": "main.tex",
+    "includes": [
+      "appendix.tex"
+    ],
+    "bibliography": [
+      "references.bib"
+    ],
+    "workflow": "BibTeX with plain style, run by Tectonic",
+    "custom_citation_commands": {
+      "sourcecite": "main.tex:2 forwards its sole argument to cite"
+    },
+    "coverage": "All supplied TeX files, active citations, working bibliography records, and local include references inspected. No external inputs, crossref, xdata, string records, multicite options, or nocite occur in this fixture."
+  },
+  "fields": {
+    "title": {
+      "original": {
+        "breiman2001": "Random Forests",
+        "breiman_short": "Random forests"
+      },
+      "accepted": "Random forests",
+      "baseline": "scholar-export.bib:title",
+      "primary_packet": "source-record.json:primary.observed_title",
+      "decision": "Use supplied Scholar export capitalization. Publisher capitalization is a formatting variant, not a different work."
+    },
+    "author": {
+      "original": {
+        "breiman2001": "Breiman, Leo",
+        "breiman_short": "Breiman, L."
+      },
+      "accepted": "Breiman, Leo",
+      "baseline": "scholar-export.bib:author",
+      "primary_packet": "source-record.json:primary.observed_author_list",
+      "decision": "Use complete author name from supplied export, corroborated in the supplied publisher record."
+    },
+    "journal": {
+      "original": {
+        "breiman2001": "Machine Learning",
+        "breiman_short": "Mach. Learn."
+      },
+      "accepted": "Machine learning",
+      "baseline": "scholar-export.bib:journal",
+      "primary_packet": "source-record.json:primary.observed_venue",
+      "decision": "Use export venue spelling and capitalization; abbreviation refers to same intended journal in supplied evidence."
+    },
+    "volume": {
+      "original": {
+        "breiman2001": "45",
+        "breiman_short": "45"
+      },
+      "accepted": "45",
+      "baseline": "scholar-export.bib:volume",
+      "primary_packet": "source-record.json:primary.observed_volume",
+      "decision": "Unchanged value; use supplied export."
+    },
+    "number": {
+      "original": {
+        "breiman2001": "1",
+        "breiman_short": null
+      },
+      "accepted": "1",
+      "baseline": "scholar-export.bib:number",
+      "primary_packet": null,
+      "decision": "Retain issue number from supplied export and original full record; primary packet does not independently document this field."
+    },
+    "pages": {
+      "original": {
+        "breiman2001": "5--32",
+        "breiman_short": "5--32"
+      },
+      "accepted": "5--32",
+      "baseline": "scholar-export.bib:pages",
+      "primary_packet": "source-record.json:primary.observed_pages",
+      "decision": "Unchanged BibTeX page-range syntax; supplied publisher packet records 5–32."
+    },
+    "year": {
+      "original": {
+        "breiman2001": "2001",
+        "breiman_short": "2001"
+      },
+      "accepted": "2001",
+      "baseline": "scholar-export.bib:year",
+      "primary_packet": "source-record.json:primary.observed_publication",
+      "decision": "Unchanged publication year; supplied publisher packet records October 2001."
+    },
+    "publisher": {
+      "original": {
+        "breiman2001": null,
+        "breiman_short": null
+      },
+      "accepted": "Springer",
+      "baseline": "scholar-export.bib:publisher",
+      "primary_packet": null,
+      "decision": "Added from actual supplied export; no separate new verification claimed."
+    },
+    "doi": {
+      "original": {
+        "breiman2001": "10.1023/A:1010933404324",
+        "breiman_short": null
+      },
+      "accepted": "10.1023/A:1010933404324",
+      "baseline": null,
+      "primary_packet": "source-record.json:primary.observed_doi",
+      "decision": "Retain pre-existing exact-version DOI as a locally supplemented field, based on supplied coordinator publisher check. Its omission from the Scholar export does not justify deletion."
+    }
+  },
+  "authenticity": {
+    "dual_independent_verification": "incomplete",
+    "independent_verifier_records": [],
+    "reason": "No completed two-agent record supplied; this task forbids delegation. The supplied single coordinator record is not counted as two agents.",
+    "performed": "Supplied-evidence reconciliation, exact-version DOI retention decision, source syntax and key coverage checks.",
+    "not_performed": "New Scholar/publisher retrieval, independent dual verification, or claim-support assessment."
+  },
+  "unresolved": {
+    "identity_conflicts": [],
+    "key_collisions": [],
+    "metadata_conflicts": [],
+    "verification_gaps": [
+      "Dual authenticity verification incomplete.",
+      "Full transient Scholar export href is not available in the public packet; the recorded endpoint and observed-click account are retained without reconstruction.",
+      "Issue number and publisher are export-supported; no separate primary-field verification is claimed."
+    ]
+  }
+}

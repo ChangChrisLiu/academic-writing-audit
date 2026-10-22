@@ -1,0 +1,24 @@
+{
+  "latex_before_console": {
+    "original_sha256": "80fadf5efa20cef20a554a9bdfcc319985d315607e31700f7a78ca2cd4585809",
+    "change": "Local scratch-directory prefix removed from console paths only."
+  },
+  "word_scripts": [
+    {
+      "file": "build_fixture.py",
+      "original_sha256": "9a7231a9541ffafea70d7cf700d5c85a22ca99dcb078d2e703f00262ab86a885",
+      "change": "Public copy resolves its fixture directory relative to the script instead of the original temporary path. No test logic changed."
+    },
+    {
+      "file": "render_probe.py",
+      "original_sha256": "5eeba6e11ba3ed5316a5d0be8a957d5867dedff21d78b849886350cf69c6ba86",
+      "change": "Public copy resolves its fixture directory relative to the script instead of the original temporary path. No test logic changed."
+    },
+    {
+      "file": "compare_probe.py",
+      "original_sha256": "eeab4af9cca546e86da445141e2bc90afaab38b1d7bdff8a77f3d2ee2c1b83dd",
+      "change": "Public copy resolves its fixture directory relative to the script instead of the original temporary path. No test logic changed."
+    }
+  ],
+  "other_outputs": "Copied unchanged from completed agent output or public evidence bundle. Original local outputs retained. Public transformations are not claimed to have been used in the recorded execution."
+}

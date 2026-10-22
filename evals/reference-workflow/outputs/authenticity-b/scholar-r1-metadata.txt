@@ -1,0 +1,19 @@
+Source: Google Scholar, live ordinary Chrome retrieval by verifier B
+Capture interval: 2026-10-22 17:22 UTC to 17:23 UTC
+Query: "Random Forests"
+Public search URL: https://scholar.google.com/scholar?q=%22Random+Forests%22
+Evidence kind: Minimal transcription of directly inspected accessibility metadata; search-result entry and its Cite dialog. This is Scholar-extracted metadata, not primary publication evidence.
+
+Search result:
+Random forests
+L Breiman - Machine learning, 2001 - Springer
+Article link: https://link.springer.com/article/10.1023/a:1010933404324
+PDF link: https://link.springer.com/content/pdf/10.1023/a:1010933404324.pdf
+
+Cite dialog, MLA:
+Breiman, Leo. "Random forests." Machine learning 45.1 (2001): 5-32.
+
+Cite dialog, Vancouver:
+Breiman L. Random forests. Machine learning. 2001 Oct;45(1):5-32.
+
+Sanitization: Removed the account menu and all unrelated results/page content. Omitted the Cite dialog URL fragment and export-link parameters; retained only the public search query and article/PDF URLs. No account identifiers retained.

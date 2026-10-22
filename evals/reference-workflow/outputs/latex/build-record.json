@@ -1,0 +1,18 @@
+{
+  "command": [
+    "tectonic",
+    "--keep-intermediates",
+    "--keep-logs",
+    "main.tex"
+  ],
+  "compiler_executable": "/opt/homebrew/bin/tectonic",
+  "working_directory": ".",
+  "started_at_utc": "2026-10-22T17:27:25.837352+00:00",
+  "input_sha256": {
+    "main.tex": "25f4f15daa813dcc46dcf231ff5009ab59eb818893d2e7c79fbefe3e2cb68ab8",
+    "appendix.tex": "b15de6c21542d2245d565a537227f73666fcf97d8cbe4b4e0df070eff12490d9",
+    "references.bib": "81ade94ef5e203090ed185832a998bda411b05b3b3b9fadc3d969b8b9dc5e97e"
+  },
+  "completed_at_utc": "2026-10-22T17:27:27.568539+00:00",
+  "exit_code": 0
+}

@@ -1,0 +1,333 @@
+{
+  "assessment_date": "2026-10-22",
+  "basis": "Independent retained-artifact assessment against rubric.md; no web retrieval, live-verifier rerun, delegation, or repository modification.",
+  "scope_read": [
+    "evals/reference-workflow/cases/",
+    "evals/reference-workflow/rubric.md",
+    "evals/reference-workflow/manifest.json",
+    "evals/reference-workflow/outputs/",
+    "evals/reference-workflow/operations/"
+  ],
+  "scope_excluded": [
+    "skill text",
+    "README",
+    "reconciliation",
+    "prior evaluations",
+    "memories",
+    "parent conclusions"
+  ],
+  "decision_vocabulary": [
+    "pass",
+    "partial",
+    "fail",
+    "unconfirmed"
+  ],
+  "behavioral_decisions": [
+    {
+      "id": "authenticity-a/A1",
+      "decision": "pass",
+      "reason": "Retained Scholar Cite captures precede corresponding publisher captures. R2 includes a year-constrained search and a broadened Scholar search. The report distinguishes local locator/stale-element failures from the limited first-page nonmatch. Ordinary Chrome was the initial route; fallback from a failed retrieval method was not needed or exercised.",
+      "evidence": [
+        "evals/reference-workflow/outputs/authenticity-a/evidence-scholar-r1-cite.txt",
+        "evals/reference-workflow/outputs/authenticity-a/evidence-scholar-r2-initial-query.txt",
+        "evals/reference-workflow/outputs/authenticity-a/evidence-scholar-r2-cite.txt",
+        "evals/reference-workflow/outputs/authenticity-a/evidence-publisher.txt",
+        "evals/reference-workflow/outputs/authenticity-a/evidence-publisher-r2.txt",
+        "evals/reference-workflow/outputs/authenticity-a/ledger.json"
+      ],
+      "limitations": [
+        "Live execution and separate-tab ownership were not rerun or independently authenticated from a full tool trace.",
+        "Retained initial R2 headings alone do not identify every alternative result; the nonmatch remains a bounded reported observation."
+      ]
+    },
+    {
+      "id": "authenticity-a/A2",
+      "decision": "pass",
+      "reason": "Both primary excerpts supply title, Leo Breiman, Machine Learning, October 2001 and the same DOI. The report and ledger explicitly check all four required fields for both original entries and preserve R2 as a year mismatch, not a nonexistent work.",
+      "evidence": [
+        "evals/reference-workflow/outputs/authenticity-a/evidence-publisher.txt",
+        "evals/reference-workflow/outputs/authenticity-a/evidence-publisher-r2.txt",
+        "evals/reference-workflow/outputs/authenticity-a/ledger.json",
+        "evals/reference-workflow/outputs/authenticity-a/report.md"
+      ],
+      "limitations": [
+        "The primary record is represented by minimal selected excerpts rather than a full page/PDF capture."
+      ]
+    },
+    {
+      "id": "authenticity-a/A3",
+      "decision": "pass",
+      "reason": "Minimal public evidence, reproducible query URLs and timestamps are retained. Both original IDs are preserved. The report identifies itself as one leaf check, claims no other verifier completion, and explicitly treats the two publisher visits as one underlying primary source.",
+      "evidence": [
+        "evals/reference-workflow/outputs/authenticity-a/report.md",
+        "evals/reference-workflow/outputs/authenticity-a/ledger.json",
+        "evals/reference-workflow/outputs/authenticity-a/manifest.sha256"
+      ],
+      "limitations": [
+        "Independent retrieval does not establish independent underlying sources; all checks concern one article."
+      ]
+    },
+    {
+      "id": "authenticity-b/A1",
+      "decision": "pass",
+      "reason": "The retained R1 Scholar result/Cite metadata and R2 query/expansion metadata support the recorded Scholar-first sequence. The report distinguishes a successful limited-page nonmatch from a transient detached browser response and records subsequent publisher state inspection. Ordinary Chrome was the initial route; no blocked-access fallback was exercised.",
+      "evidence": [
+        "evals/reference-workflow/outputs/authenticity-b/scholar-r1-metadata.txt",
+        "evals/reference-workflow/outputs/authenticity-b/scholar-r2-metadata.txt",
+        "evals/reference-workflow/outputs/authenticity-b/publisher-metadata.txt",
+        "evals/reference-workflow/outputs/authenticity-b/report.md"
+      ],
+      "limitations": [
+        "The retrieval interval and sequence are recorded, but exact per-click timestamps and a full action trace are not retained.",
+        "Live execution and separate-tab ownership were not independently authenticated."
+      ]
+    },
+    {
+      "id": "authenticity-b/A2",
+      "decision": "pass",
+      "reason": "The two publisher excerpts expose title, sole named author/author section, journal and October 2001 publication and issue dates. Field-level decisions corroborate Scholar for both entries and identify 2002 as a mismatch without alleging fabrication.",
+      "evidence": [
+        "evals/reference-workflow/outputs/authenticity-b/publisher-metadata.txt",
+        "evals/reference-workflow/outputs/authenticity-b/ledger.json",
+        "evals/reference-workflow/outputs/authenticity-b/report.md"
+      ],
+      "limitations": [
+        "Minimal excerpts cannot be used as evidence for additional unrecorded metadata or PDF inspection."
+      ]
+    },
+    {
+      "id": "authenticity-b/A3",
+      "decision": "pass",
+      "reason": "The artifacts retain public bibliographic excerpts and explicit process limits, preserve separate original occurrences, decline a dual-verification verdict, and disclose dependence on one publisher record despite repeat visits.",
+      "evidence": [
+        "evals/reference-workflow/outputs/authenticity-b/report.md",
+        "evals/reference-workflow/outputs/authenticity-b/ledger.json",
+        "evals/reference-workflow/outputs/authenticity-b/publisher-metadata.txt"
+      ],
+      "limitations": [
+        "The excerpts are normalized transcriptions of reported accessibility output, not screenshots or raw full-page captures."
+      ]
+    },
+    {
+      "id": "latex/L1",
+      "decision": "pass",
+      "reason": "Actual main.tex and appendix.tex map both active occurrences to breiman2001, including the inspected sourcecite wrapper. The working bibliography contains one entry; the retired key survives only in the explanatory comment. The Scholar export is unchanged, and PDF/BBL show one entry.",
+      "evidence": [
+        "evals/reference-workflow/outputs/latex/main.tex",
+        "evals/reference-workflow/outputs/latex/appendix.tex",
+        "evals/reference-workflow/outputs/latex/references.bib",
+        "evals/reference-workflow/outputs/latex/scholar-export.bib",
+        "evals/reference-workflow/outputs/latex/changes.patch",
+        "evals/reference-workflow/outputs/latex/main.aux",
+        "evals/reference-workflow/outputs/latex/main.bbl",
+        "evals/reference-workflow/outputs/latex/main.pdf"
+      ],
+      "limitations": [
+        "The unchanged sentence about two citation keys describes the original fixture but is stale as a description of the repaired state."
+      ]
+    },
+    {
+      "id": "latex/L2",
+      "decision": "pass",
+      "reason": "The working bibliography retains DOI 10.1023/A:1010933404324 although the preserved Scholar export omits it. The supplied exact-version publisher record and field provenance support the DOI. Issue and publisher provenance are bounded to the export where primary corroboration is absent.",
+      "evidence": [
+        "evals/reference-workflow/cases/latex/source-record.json",
+        "evals/reference-workflow/outputs/latex/references.bib",
+        "evals/reference-workflow/outputs/latex/scholar-export.bib",
+        "evals/reference-workflow/outputs/latex/field-provenance.md",
+        "evals/reference-workflow/outputs/latex/reference-ledger.json"
+      ],
+      "limitations": [
+        "The format agent reused the supplied coordinator record; it did not perform an independent DOI retrieval.",
+        "The plain bibliography style does not print the DOI; source preservation is the tested outcome."
+      ]
+    },
+    {
+      "id": "latex/L3",
+      "decision": "pass",
+      "reason": "All six frozen case inputs remain hash-identical to their manifest and preserved original-inputs copies. Edited input hashes match build-record.json; compiler/BibTeX logs, AUX/BBL, actual PDF text and inspected render agree with successful one-page output. The report explicitly leaves dual authenticity incomplete.",
+      "evidence": [
+        "evals/reference-workflow/cases/manifest.json",
+        "evals/reference-workflow/outputs/latex/original-inputs",
+        "evals/reference-workflow/outputs/latex/input-manifest.json",
+        "evals/reference-workflow/outputs/latex/build-record.json",
+        "evals/reference-workflow/outputs/latex/build-console.log",
+        "evals/reference-workflow/outputs/latex/main.log",
+        "evals/reference-workflow/outputs/latex/main.blg",
+        "evals/reference-workflow/outputs/latex/main.pdf",
+        "evals/reference-workflow/outputs/latex/rendered/page-001.png",
+        "evals/reference-workflow/outputs/latex/REPORT.md"
+      ],
+      "limitations": [
+        "Source-isolation evidence covers the supplied inputs and output copy, not every external filesystem location.",
+        "Assessment inspected retained build artifacts and PDF; it did not rebuild or rerun live verifiers."
+      ]
+    }
+  ],
+  "behavioral_counts": {
+    "pass": 9,
+    "partial": 0,
+    "fail": 0,
+    "unconfirmed": 0
+  },
+  "word_operational_overall": "partial",
+  "word_operational_decisions": [
+    {
+      "id": "word/package_structure_and_mapping",
+      "decision": "pass",
+      "reason": "Independent ZIP/XML inspection confirms two embedded fictional Book sources, two uniquely mapped CITATION fields (body/table), one BIBLIOGRAPHY field, all begin/separator/end closures, and pending caches. All source fields match the inventory; the standalone source XML matches the embedded part.",
+      "evidence": [
+        "evals/reference-workflow/operations/word/before.docx",
+        "evals/reference-workflow/operations/word/fixture-sources.xml",
+        "evals/reference-workflow/operations/word/before.inventory.json",
+        "evals/reference-workflow/operations/word/reference-ledger.json"
+      ]
+    },
+    {
+      "id": "word/final_snapshot_equality",
+      "decision": "pass",
+      "reason": "before.docx and after-attempt.docx are byte-identical; both SHA-256 values are bc6d242cf9051a8af340212cc0898984fe05efd92d52b36931e7eaccf49896bb. Inventories match except filename. This proves equal final snapshots, not a Word save or a successful native operation.",
+      "evidence": [
+        "evals/reference-workflow/operations/word/before.docx",
+        "evals/reference-workflow/operations/word/after-attempt.docx",
+        "evals/reference-workflow/operations/word/comparison.json"
+      ],
+      "limitations": [
+        "The documented layout refinement occurred during construction after the blocked UI attempt. These files are not evidence of a successful application round trip."
+      ]
+    },
+    {
+      "id": "word/other_engine_render",
+      "decision": "pass",
+      "reason": "Actual PDF text extraction confirms one page and all three pending markers. The retained PNG is readable with no evident clipping or overlap. Reported rendering used headless soffice, not Word.",
+      "evidence": [
+        "evals/reference-workflow/operations/word/render-before/before.pdf",
+        "evals/reference-workflow/operations/word/render-before/page-1.png",
+        "evals/reference-workflow/operations/word/render_probe.py",
+        "evals/reference-workflow/operations/word/REPORT.md"
+      ],
+      "limitations": [
+        "The render proves display of caches in another office engine; it does not validate Word field refresh."
+      ]
+    },
+    {
+      "id": "word/native_open",
+      "decision": "unconfirmed",
+      "reason": "The retained UI record says the fixture path was never entered; no fixture open or native screenshot is confirmed. Only the Word start window was reported observable.",
+      "evidence": [
+        "evals/reference-workflow/operations/word/ui-attempts.json",
+        "evals/reference-workflow/operations/word/REPORT.md"
+      ]
+    },
+    {
+      "id": "word/native_refresh",
+      "decision": "unconfirmed",
+      "reason": "No refresh action/result is recorded, and all cached results remain explicit pending markers. There is no generated displayed bibliography to audit.",
+      "evidence": [
+        "evals/reference-workflow/operations/word/ui-attempts.json",
+        "evals/reference-workflow/operations/word/before.docx",
+        "evals/reference-workflow/operations/word/after-attempt.docx",
+        "evals/reference-workflow/operations/word/render-before/before.pdf"
+      ]
+    },
+    {
+      "id": "word/native_save",
+      "decision": "unconfirmed",
+      "reason": "No Word save is confirmed. after-attempt.docx is explicitly described and verified as an unchanged snapshot, not a Word-saved document.",
+      "evidence": [
+        "evals/reference-workflow/operations/word/ui-attempts.json",
+        "evals/reference-workflow/operations/word/comparison.json",
+        "evals/reference-workflow/operations/word/after-attempt.docx"
+      ]
+    },
+    {
+      "id": "word/runtime_style_and_edition",
+      "decision": "unconfirmed",
+      "reason": "Embedded APA configuration is present; native Word style acceptance, active style and edition are not observed.",
+      "evidence": [
+        "evals/reference-workflow/operations/word/fixture-sources.xml",
+        "evals/reference-workflow/operations/word/ui-attempts.json",
+        "evals/reference-workflow/operations/word/REPORT.md"
+      ]
+    }
+  ],
+  "integrity_checks": {
+    "root_manifest_in_scope_entries": {
+      "checked": 3,
+      "matching": 3,
+      "out_of_scope_skill_files_skipped": 15
+    },
+    "case_manifest": {
+      "checked": 6,
+      "matching": 6
+    },
+    "latex_artifact_manifest": {
+      "checked": 30,
+      "matching": 30
+    },
+    "authenticity_a_manifest": {
+      "checked": 7,
+      "matching": 7
+    },
+    "six_original_input_copies_match": true,
+    "three_unchanged_evidence_files_match": true,
+    "three_build_input_hashes_match": true,
+    "latex_pdf_hash_matches_render_record": true,
+    "word_source_fields_match_inventory": true,
+    "word_xml_part_list_matches_inventory": true
+  },
+  "concrete_pdf_checks": {
+    "method": "Read existing PDFs using PDFKit text extraction; visually inspect retained PNGs. No re-render or compile.",
+    "before_latex": {
+      "path": "evals/reference-workflow/operations/latex-before/main.pdf",
+      "pages": 1,
+      "bibliography_entries": 2,
+      "sha256": "a8c21f8eba7b34ba723439e166f16799c493de8cea5aead94cae7a7e94432628"
+    },
+    "after_latex": {
+      "path": "evals/reference-workflow/outputs/latex/main.pdf",
+      "pages": 1,
+      "bibliography_entries": 1,
+      "both_citations": "[1]",
+      "sha256": "e1c33ca25ea937a6746632efdfc115bbc2ee25b64c28169db430be39ea1b937b"
+    },
+    "word_render": {
+      "path": "evals/reference-workflow/operations/word/render-before/before.pdf",
+      "pages": 1,
+      "pending_markers": 3,
+      "sha256": "c09a796a2a6e87cfb28ca7d6ccf40ac43f53620e809b1b1d29b8cc4002b9cc60"
+    }
+  },
+  "contradictions_and_overstatement": [
+    {
+      "status": "minor_residual_prose",
+      "detail": "The repaired LaTeX PDF still says two citation keys while its active citations and library have one. REPORT.md acknowledges preservation of this historical fixture wording. This does not defeat the bibliography repair rubric.",
+      "evidence": [
+        "evals/reference-workflow/outputs/latex/main.tex",
+        "evals/reference-workflow/outputs/latex/main.pdf",
+        "evals/reference-workflow/outputs/latex/REPORT.md"
+      ]
+    },
+    {
+      "status": "no_material_overclaim_found",
+      "detail": "Assessed reports do not claim successful Word refresh/save, two unrelated primary sources, or completed dual authenticity in the LaTeX run."
+    },
+    {
+      "status": "resolved_preliminary_concern",
+      "detail": "A preliminary suspicion of doubled Word switch backslashes came from escaped tool display. Direct XML character inspection found one literal backslash per instruction, followed by l and space (code points 92,108,32). The unchanged DOCX hash was bc6d242cf9051a8af340212cc0898984fe05efd92d52b36931e7eaccf49896bb. No switch-syntax defect is asserted; this check does not establish native acceptance.",
+      "evidence": [
+        "evals/reference-workflow/operations/word/before.docx",
+        "evals/reference-workflow/operations/word/build_fixture.py",
+        "evals/reference-workflow/operations/word/comparison.json"
+      ]
+    }
+  ],
+  "generalization_limits": [
+    "Nine decisions are rubric items across two authenticity leaf records and one LaTeX repair, not nine independent efficacy trials.",
+    "The two authenticity entries identify one journal article with one seeded year discrepancy; both leaves depend on the same publisher record.",
+    "The format task had supplied identity/evidence and does not test unaided discovery.",
+    "No blocked Scholar access/fallback scenario, native Word refresh, complex Word regions, or citation-manager integration was successfully exercised.",
+    "The operator constructed its own Word fixture, so Word evidence is operational and not a blinded behavioral efficacy trial.",
+    "No universal validity or cross-model testing claim is supported."
+  ]
+}

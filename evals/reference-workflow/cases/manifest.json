@@ -1,0 +1,12 @@
+{
+  "hash_algorithm": "sha256",
+  "scope": "LaTeX inputs and captured evidence frozen before format execution.",
+  "files": {
+    "evals/reference-workflow/cases/latex/appendix.tex": "1b54ddc17934fd08c405df3982899ae7e6017c7a29896e457c244c70fab6d29d",
+    "evals/reference-workflow/cases/latex/evidence.md": "5aadbac81a931216ba3af468d201478e9646ea98c2a5728f1aac1265894525aa",
+    "evals/reference-workflow/cases/latex/main.tex": "1b5acc680e723c868550040d433ecdc39c89640d8d0ba1330e36302cc8212a60",
+    "evals/reference-workflow/cases/latex/references.bib": "c4e1e69d14ce25deaa094d8b2f67b5b0a8774d2b0bf8588a01e5b7a6fc81d973",
+    "evals/reference-workflow/cases/latex/scholar-export.bib": "a60c0bfad77d49d29288b71e489a591d61fc5e8fca7c9e312e30a87faa04db3b",
+    "evals/reference-workflow/cases/latex/source-record.json": "4fec2d8c93fd59055378b3bd87322ca594ae4abe3354bd43d6ff3fe28d305800"
+  }
+}

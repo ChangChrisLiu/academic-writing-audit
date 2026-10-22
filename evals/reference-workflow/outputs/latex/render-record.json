@@ -1,0 +1,13 @@
+{
+  "renderer": "pypdfium2 from workspace bundled Python",
+  "scale": 2,
+  "pdf_sha256": "e1c33ca25ea937a6746632efdfc115bbc2ee25b64c28169db430be39ea1b937b",
+  "prior_attempt": "PyMuPDF import failed because fitz was unavailable; no render was produced by that attempt.",
+  "pages": [
+    {
+      "page": 1,
+      "image": "rendered/page-001.png",
+      "text": "Bibliography workflow fixture\r\nThe source is recorded under two citation keys [1].\r\nAdditional source occurrence\r\nThe same source is cited here [1].\r\nReferences\r\n[1] Leo Breiman. Random forests. Machine learning, 45(1):5–32, 2001.\r\n1"
+    }
+  ]
+}

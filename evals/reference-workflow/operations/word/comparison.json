@@ -1,0 +1,18 @@
+{
+  "status": "native Word refresh blocked before fixture selection",
+  "byte_identical": true,
+  "before_sha256": "bc6d242cf9051a8af340212cc0898984fe05efd92d52b36931e7eaccf49896bb",
+  "after_attempt_sha256": "bc6d242cf9051a8af340212cc0898984fe05efd92d52b36931e7eaccf49896bb",
+  "source_identities_equal": true,
+  "field_structure_and_caches_equal": true,
+  "source_count": 2,
+  "citation_occurrence_count": 2,
+  "bibliography_field_count": 1,
+  "all_complex_fields_closed": true,
+  "structurally_missing_targets": [],
+  "source_records_without_observed_occurrences": [],
+  "displayed_reference_entries": "not generated; pending marker only",
+  "native_refresh_observed": false,
+  "after_attempt_meaning": "Unmodified working-file snapshot after blocked native attempt; not a Word-saved output",
+  "layout_refinement": "During construction, inherited title borders were removed and caption text set to black. This authoring-only refinement occurred after the blocked UI attempt. No field code, source record, or initial cache was changed."
+}

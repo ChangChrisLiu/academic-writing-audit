@@ -1,0 +1,62 @@
+[
+  {
+    "source": {
+      "tag": "Orchid2024",
+      "guid": "{11111111-1111-4111-8111-111111111111}",
+      "type": "Book",
+      "authors": [
+        {
+          "first": "Ada",
+          "last": "Orchid"
+        }
+      ],
+      "title": "The Imaginary Copper Orchard",
+      "year": "2024",
+      "city": "Testville",
+      "publisher": "Fictional Methods Press"
+    },
+    "occurrences": [
+      {
+        "region": "body",
+        "part": "word/document.xml",
+        "location": "/w:document/w:body/w:p[3]/w:r[2]/w:fldChar",
+        "instruction": "CITATION Orchid2024 \\l 1033",
+        "display": "[BODY CITATION AWAITING WORD REFRESH]"
+      }
+    ],
+    "identity_evidence": "fixture-sources.xml and the embedded source record",
+    "mapping_status": "unique structural target; displayed citation pending refresh",
+    "authenticity": "not checked; intentionally fictional",
+    "claim_support": "out of scope"
+  },
+  {
+    "source": {
+      "tag": "Vale2025",
+      "guid": "{22222222-2222-4222-8222-222222222222}",
+      "type": "Book",
+      "authors": [
+        {
+          "first": "Bram",
+          "last": "Vale"
+        }
+      ],
+      "title": "The Invented Paper Observatory",
+      "year": "2025",
+      "city": "Exampleton",
+      "publisher": "Fictional Methods Press"
+    },
+    "occurrences": [
+      {
+        "region": "table",
+        "part": "word/document.xml",
+        "location": "/w:document/w:body/w:tbl/w:tr[2]/w:tc[2]/w:p/w:r[1]/w:fldChar",
+        "instruction": "CITATION Vale2025 \\l 1033",
+        "display": "[TABLE CITATION AWAITING WORD REFRESH]"
+      }
+    ],
+    "identity_evidence": "fixture-sources.xml and the embedded source record",
+    "mapping_status": "unique structural target; displayed citation pending refresh",
+    "authenticity": "not checked; intentionally fictional",
+    "claim_support": "out of scope"
+  }
+]

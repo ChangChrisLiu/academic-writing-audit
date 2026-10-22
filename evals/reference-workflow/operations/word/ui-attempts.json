@@ -1,0 +1,13 @@
+{
+  "initial_word_selection": "successful; Word start window observable",
+  "attempts": [
+    {"action": "Cmd+O followed by accessibility state", "result": "js execution timed out; kernel reset, rerun your request", "elapsed_seconds": 30.0233},
+    {"action": "reselect Word to inspect state", "result": "js execution timed out; kernel reset, rerun your request", "elapsed_seconds": 60.1209},
+    {"action": "bounded Word recovery inspection", "result": "Computer Use server error -10005: timeoutReached", "elapsed_seconds": 17.0642}
+  ],
+  "fixture_path_entered": false,
+  "fixture_open_confirmed": false,
+  "refresh_confirmed": false,
+  "word_save_confirmed": false,
+  "native_screenshot_obtained": false
+}

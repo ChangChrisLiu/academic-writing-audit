@@ -1,0 +1,24 @@
+{
+  "hash_algorithm": "sha256",
+  "scope": "Skills and initial requests frozen before behavioral execution; operational evidence is recorded separately.",
+  "files": {
+    "evals/reference-workflow/cases/authenticity.md": "7911c9b51287e8cd2bb368690d66a823222b25e4e4fafd389baa9fe44c6716fd",
+    "evals/reference-workflow/cases/latex-request.md": "6fc22f5a7aea4b6cc085fa61543b4548ff18851f27e3d6a7ebccec62e1b490ca",
+    "evals/reference-workflow/rubric.md": "172e7ddeacbea0aecb5f2ce00e09f8a45536998717c91a563f3b0490c09849a6",
+    "skills/latex-bibliography-audit/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "skills/latex-bibliography-audit/SKILL.md": "aed7e9466ffe548c67fc6c7a66b97d8a0faf82782a4dee9f73893430fc7f7345",
+    "skills/latex-bibliography-audit/agents/openai.yaml": "a56f3d727404bf2407a8cacb7a1909bbf1de688f01a3c98a2267e1513493bc94",
+    "skills/latex-bibliography-audit/references/identity-and-keys.md": "a88268b49930e9d314498bef01c15e7b21af982e5a836bf84445f3dbbb122391",
+    "skills/latex-bibliography-audit/references/reference-ledger.md": "c6c5b5f81bb3926dbe942a954c04dd2564cdc7a9542cf85b8a011826efc1140a",
+    "skills/reference-authenticity-audit/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "skills/reference-authenticity-audit/SKILL.md": "948ac45b2e9e1d45cd5ef0379240a358f727cf1ba7d1f513a2689d1fb63904ec",
+    "skills/reference-authenticity-audit/agents/openai.yaml": "b589f3474a252cd72f7cc9b2fc64c2c7d27c6137dec83a58672e95a538fca509",
+    "skills/reference-authenticity-audit/references/field-decisions.md": "f2959d85d5d1692993f9d87332aebc9c63917df164371b4c48e9c13f380409d4",
+    "skills/reference-authenticity-audit/references/reference-ledger.md": "c6c5b5f81bb3926dbe942a954c04dd2564cdc7a9542cf85b8a011826efc1140a",
+    "skills/word-citation-audit/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "skills/word-citation-audit/SKILL.md": "080f1bcfec8d16f1bcd6af8e37a7387ad1b1799eb2eb1f3e5cd559df937ea511",
+    "skills/word-citation-audit/agents/openai.yaml": "7076f33e8a22ad5b2a94dc2a92c6368c0cc698c3c2ff70a68641ede9ca0e3946",
+    "skills/word-citation-audit/references/matching-and-coverage.md": "d379b483344685354833ea6fea1b1485f50bdafb70bc462f9704d19cf5450b79",
+    "skills/word-citation-audit/references/reference-ledger.md": "c6c5b5f81bb3926dbe942a954c04dd2564cdc7a9542cf85b8a011826efc1140a"
+  }
+}

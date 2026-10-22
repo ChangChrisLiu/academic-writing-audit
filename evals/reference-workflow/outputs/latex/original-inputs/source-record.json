@@ -1,0 +1,33 @@
+{
+  "recorded_at_utc": "2026-10-22 17:22:20 UTC",
+  "scholar": {
+    "query_url": "https://scholar.google.com/scholar?q=%22Random+Forests%22+%22Leo+Breiman%22",
+    "target_result": "Random forests, L Breiman, Machine learning, 2001, Springer",
+    "action": "Opened the matching result Cite popup in Chrome, clicked BibTeX, and read the displayed export text.",
+    "export_endpoint": "https://scholar.googleusercontent.com/scholar.bib",
+    "export_query_parameters": "Omitted from the public record to avoid exposing transient session-related parameters. The actual clicked href was observed, not guessed.",
+    "capture_file": "scholar-export.bib",
+    "capture_type": "Unedited displayed text copied from document.body.innerText; not a byte-for-byte HTTP response capture.",
+    "fields": {
+      "title": "Random forests",
+      "author": "Breiman, Leo",
+      "journal": "Machine learning",
+      "year": "2001"
+    }
+  },
+  "primary": {
+    "source_url": "https://link.springer.com/article/10.1023/A:1010933404324",
+    "route": "Opened publisher page through web retrieval",
+    "observed_title": "Random Forests",
+    "observed_author_list": [
+      "Leo Breiman"
+    ],
+    "observed_venue": "Machine Learning",
+    "observed_publication": "October 2001",
+    "observed_volume": "45",
+    "observed_pages": "5\u201332",
+    "observed_doi": "10.1023/A:1010933404324",
+    "record_type": "Minimal bibliographic facts from the opened publisher record, excluding abstract and account information."
+  },
+  "scope": "Single coordinator retrieval and exact-version DOI check. Not a completed two-agent authenticity record."
+}

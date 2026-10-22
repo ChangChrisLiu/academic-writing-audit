@@ -8,7 +8,9 @@
 | Same key assigned to different articles | Resolve each citation's intent, create distinct keys, and update only justified occurrences. |
 | Same title, different authors or venues | Treat as separate candidates until identity is established. |
 | Two distinct exports for one intended version disagree | Retain both captures and report the discrepancy; do not silently blend fields or invent a third canonical export. |
-| Canonical export lacks a DOI | Preserve it as missing. Add only if explicitly requested or needed by the style and independently verified; label the addition's source. |
+| Export lacks a DOI or another field already verified in the working record | Keep the raw export unchanged and retain the verified working field with its source. Export omission is not evidence that the field is wrong. |
+| Export lacks a field whose existing value is unverified | Keep the original recoverable, mark the working value pending, and verify it before accepting it. Do not silently discard it or call it false. |
+| A new supplemental field is requested or required by the style | Add it only after exact-version verification and identify its source separately from the raw export. |
 | A database entry is uncited | It may belong to a shared library. Do not remove it automatically. |
 | `\nocite{*}` prints a library | Flag the resulting coverage and author intent; do not silently remove intentional bibliography entries. |
 

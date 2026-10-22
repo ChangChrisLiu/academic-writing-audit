@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-22",
+  "baseline_commit": "ae24ed809c82dc717c41745a600c40bbb41f8e86",
+  "version": "v0.7.1",
+  "design": "Two fresh-context live leaf verifiers for the same original references, plus one fresh-context LaTeX repair trial. No rubric or prior conclusions provided to behavioral agents. No model overrides.",
+  "authenticity_agents": [
+    "scholar_primary_a",
+    "scholar_primary_b"
+  ],
+  "latex_agent": "latex_field_regression",
+  "word_operator": "word_field_probe",
+  "word_design": "Operator constructs and executes its own native fixture, so this is an operational probe, not blinded behavioral validation.",
+  "coordinator_operations": [
+    "Chrome matching-result Cite to BibTeX displayed-text retrieval",
+    "Publisher metadata and DOI inspection",
+    "Pre-repair LaTeX compilation",
+    "Post-repair source invariant and PDF text comparison",
+    "Visual inspection of before and after LaTeX page renders"
+  ],
+  "scope": "No user manuscripts, bibliographies or Word documents are modified. All operational edits are isolated test fixtures.",
+  "assessor": "workflow_assessor",
+  "assessment_design": "Fresh context; reads frozen cases/rubric and retained outputs/operational artifacts, not skill text, coordinator reconciliation, prior evaluations, or source agents' conclusions from outside the saved artifacts.",
+  "assessment_outcome": {
+    "behavioral_passes": 9,
+    "behavioral_failures": 0,
+    "word_native_operations": "unconfirmed",
+    "word_package_and_other_engine_render": "bounded passes"
+  },
+  "followups": [
+    "Assessor raised a preliminary switch-escaping concern and then withdrew it after actual XML character and unchanged-hash inspection. Operator independently confirmed one backslash. No fixture repair or extra native UI attempt occurred."
+  ]
+}

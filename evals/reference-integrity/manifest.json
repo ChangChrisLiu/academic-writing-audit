@@ -24,5 +24,7 @@
     "skills/word-citation-audit/SKILL.md": "3d4d67b2b7412e9e5db57f9179d63861d1e422cca55c0a6e0875c627d5d937ba",
     "skills/word-citation-audit/agents/openai.yaml": "7076f33e8a22ad5b2a94dc2a92c6368c0cc698c3c2ff70a68641ede9ca0e3946",
     "skills/word-citation-audit/references/matching-and-coverage.md": "d379b483344685354833ea6fea1b1485f50bdafb70bc462f9704d19cf5450b79"
-  }
+  },
+  "source_git_commit": "ae24ed809c82dc717c41745a600c40bbb41f8e86",
+  "path_resolution": "Resolve original frozen files in source_git_commit; all recorded hashes are unchanged."
 }

@@ -1,0 +1,192 @@
+{
+  "verifier": "authenticity-a",
+  "scope": "Independent leaf verification; journal article version; audit only",
+  "original_entries": [
+    {
+      "id": "R1",
+      "original": "Leo Breiman. Random Forests. Machine Learning. 2001.",
+      "intended_type": "journal article",
+      "occurrence": "separate draft database entry"
+    },
+    {
+      "id": "R2",
+      "original": "Leo Breiman. Random Forests. Machine Learning. 2002.",
+      "intended_type": "journal article",
+      "occurrence": "separate draft database entry"
+    }
+  ],
+  "candidate_groups": [
+    {
+      "id": "C1",
+      "members": [
+        "R1",
+        "R2"
+      ],
+      "basis": "Same supplied author, title and venue; years differ",
+      "identity_status": "Both entries resolve to the identified journal article in this leaf check; records preserved separately, no merge performed."
+    }
+  ],
+  "retrievals": [
+    {
+      "id": "S1",
+      "reference_ids": [
+        "R1"
+      ],
+      "query": "\"Random Forests\" \"Leo Breiman\"",
+      "url": "https://scholar.google.com/scholar?q=%22Random+Forests%22+%22Leo+Breiman%22",
+      "route": "own Chrome tab; Google Scholar search and first result Cite dialog",
+      "captured_utc": "2026-10-22T17:22:50.643Z",
+      "artifact": "evidence-scholar-r1-cite.txt",
+      "observed": {
+        "title": "Random forests",
+        "ordered_authors": [
+          "Leo Breiman"
+        ],
+        "year": 2001,
+        "venue": "Machine learning",
+        "volume": "45",
+        "issue": "1",
+        "pages": "5-32"
+      },
+      "limitation": "Google Scholar citation metadata is automatically extracted; primary corroboration required."
+    },
+    {
+      "id": "P1",
+      "reference_ids": [
+        "R1"
+      ],
+      "url": "https://link.springer.com/article/10.1023/a:1010933404324",
+      "route": "publisher record linked by the matching Scholar result; browser direct inspection",
+      "captured_utc": "2026-10-22T17:23:19.806Z",
+      "artifact": "evidence-publisher.txt",
+      "observed": {
+        "title": "Random Forests",
+        "ordered_authors": [
+          "Leo Breiman"
+        ],
+        "year": 2001,
+        "venue": "Machine Learning",
+        "type": "journal article",
+        "volume": "45",
+        "pages": "5–32",
+        "publication_date": "October 2001",
+        "issue_date": "October 2001",
+        "doi": "10.1023/A:1010933404324"
+      }
+    },
+    {
+      "id": "S2a",
+      "reference_ids": [
+        "R2"
+      ],
+      "query": "\"Random Forests\" \"Leo Breiman\" 2002",
+      "url": "https://scholar.google.com/scholar?q=%22Random+Forests%22+%22Leo+Breiman%22+2002",
+      "route": "own Chrome tab; Google Scholar search",
+      "captured_utc": "2026-10-22T17:23:33.731Z",
+      "artifact": "evidence-scholar-r2-initial-query.txt",
+      "outcome": "First result page inspected; no matching Leo Breiman journal record identified there. Other works sharing title words were present. Broadened by removing 2002. This was not an exhaustive negative search or evidence of nonexistence."
+    },
+    {
+      "id": "S2b",
+      "reference_ids": [
+        "R2"
+      ],
+      "query": "\"Random Forests\" \"Leo Breiman\"",
+      "url": "https://scholar.google.com/scholar?q=%22Random+Forests%22+%22Leo+Breiman%22",
+      "route": "submitted broadened Scholar query, opened first result Cite dialog",
+      "captured_utc": "2026-10-22T17:24:07.673Z",
+      "artifact": "evidence-scholar-r2-cite.txt",
+      "observed": {
+        "title": "Random forests",
+        "ordered_authors": [
+          "Leo Breiman"
+        ],
+        "year": 2001,
+        "venue": "Machine learning",
+        "volume": "45",
+        "issue": "1",
+        "pages": "5-32"
+      },
+      "limitation": "URL sanitized by removing non-query parameters and citation dialog fragment."
+    },
+    {
+      "id": "P2",
+      "reference_ids": [
+        "R2"
+      ],
+      "url": "https://link.springer.com/article/10.1023/a:1010933404324",
+      "route": "publisher record re-opened and directly inspected after R2 Scholar search",
+      "captured_utc": "2026-10-22T17:24:21.523Z",
+      "artifact": "evidence-publisher-r2.txt",
+      "observed": {
+        "title": "Random Forests",
+        "ordered_authors": [
+          "Leo Breiman"
+        ],
+        "year": 2001,
+        "venue": "Machine Learning",
+        "type": "journal article",
+        "volume": "45",
+        "pages": "5–32",
+        "publication_date": "October 2001",
+        "issue_date": "October 2001",
+        "doi": "10.1023/A:1010933404324"
+      }
+    }
+  ],
+  "status": "Leaf check complete for 2 original entries. Dual-verification workflow not claimed; second independent record and reconciliation are coordinator responsibilities.",
+  "records": [
+    {
+      "id": "R1",
+      "existence": "supported by identified sources",
+      "citation_fields": {
+        "title": "match",
+        "ordered_authors": "match; sole author confirmed in publisher author information",
+        "year": "match",
+        "venue": "match"
+      },
+      "version": "intended journal version matched",
+      "primary_corroboration": "completed by this verifier",
+      "scholar_first_check": "completed by this verifier",
+      "evidence": [
+        "S1",
+        "P1"
+      ],
+      "action": "Keep original entry. No correction required within supplied fields."
+    },
+    {
+      "id": "R2",
+      "existence": "identified underlying work supported",
+      "citation_fields": {
+        "title": "match",
+        "ordered_authors": "match; sole author confirmed in publisher author information",
+        "year": "mismatch: supplied 2002; Scholar and publisher show 2001",
+        "venue": "match"
+      },
+      "version": "identified journal version matched in type; supplied 2002 does not match its publication year",
+      "primary_corroboration": "completed by this verifier",
+      "scholar_first_check": "completed by this verifier",
+      "evidence": [
+        "S2a",
+        "S2b",
+        "P2"
+      ],
+      "action": "Propose changing only 2002 to 2001 after coordinator reconciliation. No edit applied."
+    }
+  ],
+  "source_dependence": "P1 and P2 are repeat inspections of the same publisher record, not two underlying primary sources. Both entries use the same identified DOI. No other verifier record was viewed; any cross-verifier shared-source dependence remains for coordinator.",
+  "limitations": [
+    "Claim support was outside scope.",
+    "No source PDF was downloaded or inspected; the complete publisher record supplied all required fields.",
+    "No bibliography/database source was changed.",
+    "No two-agent verdict is asserted by this leaf report."
+  ],
+  "access_log": [
+    "Google Scholar ordinary Chrome route succeeded; no CAPTCHA or access restriction encountered.",
+    "Initial citation-table locator matched two tables; scoped to the visible Cite dialog and succeeded. This was a locator failure, not a source-access failure.",
+    "During R2 broadening, setValue changed the search field; a following key action timed out on the stale accessibility element. Fresh state confirmed the field value, then the visible Search button submitted it successfully.",
+    "Publisher cookie choice was dismissed by rejecting optional cookies. Public metadata then readable."
+  ],
+  "sanitization": "Evidence contains only public citation tables, public metadata excerpts, and search-result headings. Account names, institution/IP footer, unrelated snippets, advertisement URLs, popup timestamps/fragments, and non-query URL parameters omitted. No personal filesystem paths included in artifacts.",
+  "completed_utc": "2026-10-22T17:25:42.703816+00:00"
+}

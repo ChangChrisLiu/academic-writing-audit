@@ -1,0 +1,19 @@
+Source (sanitized): https://scholar.google.com/scholar?q=%22Random+Forests%22+%22Leo+Breiman%22
+Capture time (UTC): 2026-10-22T17:24:07.673Z
+Route: initial query with 2002; broadened query without year; first result Cite dialog
+Sanitization: retained only citation table; account UI, locale/filter parameters, button marker, citation popup timestamp/URL fragment, and unrelated results omitted.
+
+MLA	
+Breiman, Leo. "Random forests." Machine learning 45.1 (2001): 5-32.
+
+APA	
+Breiman, L. (2001). Random forests. Machine learning, 45(1), 5-32.
+
+Chicago	
+Breiman, Leo. "Random forests." Machine learning 45, no. 1 (2001): 5-32.
+
+Harvard	
+Breiman, L., 2001. Random forests. Machine learning, 45(1), pp.5-32.
+
+Vancouver	
+Breiman L. Random forests. Machine learning. 2001 Oct;45(1):5-32.

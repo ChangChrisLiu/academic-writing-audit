@@ -4,3 +4,10 @@ evals/roles-revision-integrity/assessment.md whitespace=-blank-at-eof
 
 # Preserve the frozen regression rubric, including its final blank line.
 evals/reasoning-rhythm/regression/rubric.md whitespace=-blank-at-eof
+
+# Preserve exact captured text and compiler/PDF output in this execution record.
+evals/reference-workflow/operations/latex-before/main.aux whitespace=-blank-at-eol
+evals/reference-workflow/outputs/latex/main.aux whitespace=-blank-at-eol
+evals/reference-workflow/outputs/latex/pdf-text.txt whitespace=cr-at-eol
+evals/reference-workflow/outputs/authenticity-a/evidence-scholar-r1-cite.txt whitespace=-blank-at-eol
+evals/reference-workflow/outputs/authenticity-a/evidence-scholar-r2-cite.txt whitespace=-blank-at-eol

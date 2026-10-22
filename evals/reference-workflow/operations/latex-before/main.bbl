@@ -1,0 +1,13 @@
+\begin{thebibliography}{1}
+
+\bibitem{breiman_short}
+L.~Breiman.
+\newblock Random forests.
+\newblock {\em Mach. Learn.}, 45:5--32, 2001.
+
+\bibitem{breiman2001}
+Leo Breiman.
+\newblock Random forests.
+\newblock {\em Machine Learning}, 45(1):5--32, 2001.
+
+\end{thebibliography}

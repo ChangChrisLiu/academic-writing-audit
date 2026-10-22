@@ -1,0 +1,122 @@
+{
+  "REPORT.md": {
+    "size_bytes": 4035,
+    "sha256": "6731c2917abade74f12aff72bdd70dac57894b9330dd568a4281c3cfa3fb8777"
+  },
+  "appendix.tex": {
+    "size_bytes": 171,
+    "sha256": "b15de6c21542d2245d565a537227f73666fcf97d8cbe4b4e0df070eff12490d9"
+  },
+  "build-console.log": {
+    "size_bytes": 367,
+    "sha256": "19eb9f87ed16b7408ce2c9a043ed053d7b1a39f8aeb0eb1a2378d4a7f951b293"
+  },
+  "build-record.json": {
+    "size_bytes": 602,
+    "sha256": "4089fc6391bc65258039ababa82c15b05e0f994ef6ad676174e076b36dc52ceb"
+  },
+  "changes.patch": {
+    "size_bytes": 1289,
+    "sha256": "88fdd79a1f2ce9ccdc56bb2ca28ca69c2975c25d10aa36cadb2c2a5945c09297"
+  },
+  "evidence.md": {
+    "size_bytes": 688,
+    "sha256": "5aadbac81a931216ba3af468d201478e9646ea98c2a5728f1aac1265894525aa"
+  },
+  "field-provenance.md": {
+    "size_bytes": 2560,
+    "sha256": "29043184b3bdfbae3465cb3df000054ccea3a5ffb5f18cf25e6f299635f7f17f"
+  },
+  "input-manifest.json": {
+    "size_bytes": 2429,
+    "sha256": "7e3271da69b579f1e265555525909f942a5d4b8fa928a81513dea63c68d7470d"
+  },
+  "main.aux": {
+    "size_bytes": 141,
+    "sha256": "8b7503646a6dcb88f2db7b88b1c79ccca32d478c9f006fdbde5b9bb4fdc89843"
+  },
+  "main.bbl": {
+    "size_bytes": 165,
+    "sha256": "6ca2c132a66d10a4cfeab5f009a04d3e58574215c8762bd52d668b941712f3d0"
+  },
+  "main.blg": {
+    "size_bytes": 191,
+    "sha256": "36a26a35030c17e6a29ed5fa683a298f907726cf9a3af844f8f4d3b56dd6020e"
+  },
+  "main.log": {
+    "size_bytes": 2106,
+    "sha256": "3795fd278c81d90bb56c45798ca22e6a1874cec47dd9edbca07bf7206ba18a0b"
+  },
+  "main.pdf": {
+    "size_bytes": 12256,
+    "sha256": "e1c33ca25ea937a6746632efdfc115bbc2ee25b64c28169db430be39ea1b937b"
+  },
+  "main.tex": {
+    "size_bytes": 272,
+    "sha256": "25f4f15daa813dcc46dcf231ff5009ab59eb818893d2e7c79fbefe3e2cb68ab8"
+  },
+  "original-inputs/appendix.tex": {
+    "size_bytes": 173,
+    "sha256": "1b54ddc17934fd08c405df3982899ae7e6017c7a29896e457c244c70fab6d29d"
+  },
+  "original-inputs/evidence.md": {
+    "size_bytes": 688,
+    "sha256": "5aadbac81a931216ba3af468d201478e9646ea98c2a5728f1aac1265894525aa"
+  },
+  "original-inputs/main.tex": {
+    "size_bytes": 286,
+    "sha256": "1b5acc680e723c868550040d433ecdc39c89640d8d0ba1330e36302cc8212a60"
+  },
+  "original-inputs/references.bib": {
+    "size_bytes": 323,
+    "sha256": "c4e1e69d14ce25deaa094d8b2f67b5b0a8774d2b0bf8588a01e5b7a6fc81d973"
+  },
+  "original-inputs/scholar-export.bib": {
+    "size_bytes": 194,
+    "sha256": "a60c0bfad77d49d29288b71e489a591d61fc5e8fca7c9e312e30a87faa04db3b"
+  },
+  "original-inputs/source-record.json": {
+    "size_bytes": 1630,
+    "sha256": "4fec2d8c93fd59055378b3bd87322ca594ae4abe3354bd43d6ff3fe28d305800"
+  },
+  "page-1.png": {
+    "size_bytes": 37113,
+    "sha256": "35514b890ab9d90b223e46dc460dc0e4f00d6c076f81db321ae1c07c47ef6a61"
+  },
+  "pdf-text.txt": {
+    "size_bytes": 235,
+    "sha256": "dad02d72bddfba8ecfe1681f4a000438501032d2afe935186dd1c40476e261cf"
+  },
+  "reference-ledger.json": {
+    "size_bytes": 8404,
+    "sha256": "ccbdf0d7a354a9ac5ac2efa02c128a3f48e91f2288dcc4829b971e11633adf0b"
+  },
+  "references.bib": {
+    "size_bytes": 222,
+    "sha256": "81ade94ef5e203090ed185832a998bda411b05b3b3b9fadc3d969b8b9dc5e97e"
+  },
+  "render-record.json": {
+    "size_bytes": 623,
+    "sha256": "10abc7d27810f20f98bc916ecd654a414b88f9d90faf1c0215bde5c053cd2ff5"
+  },
+  "rendered/page-001.png": {
+    "size_bytes": 51978,
+    "sha256": "708afe9cc09c5d9bf401109494c9110cbc99d09e3088c46a4b4bb3bb6fea56df"
+  },
+  "request.md": {
+    "size_bytes": 406,
+    "sha256": "6fc22f5a7aea4b6cc085fa61543b4548ff18851f27e3d6a7ebccec62e1b490ca"
+  },
+  "scholar-export.bib": {
+    "size_bytes": 194,
+    "sha256": "a60c0bfad77d49d29288b71e489a591d61fc5e8fca7c9e312e30a87faa04db3b"
+  },
+  "source-record.json": {
+    "size_bytes": 1630,
+    "sha256": "4fec2d8c93fd59055378b3bd87322ca594ae4abe3354bd43d6ff3fe28d305800"
+  },
+  "verification.json": {
+    "size_bytes": 1656,
+    "sha256": "85a5753091f8dc0cdae4cf1ad09fb6cc2e32759c2bf2e92820a08d8040b5be0f"
+  }
+}

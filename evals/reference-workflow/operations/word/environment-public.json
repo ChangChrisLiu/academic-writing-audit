@@ -1,0 +1,9 @@
+{
+  "document_runtime_bundle": "26.1013.11914",
+  "word_version": "16.114.1",
+  "word_build": "16.114.26102031",
+  "platform": "macOS",
+  "renderer": "packaged render_docx.py using bundled soffice",
+  "native_ui": "CUA normal Word UI",
+  "software_installed": false
+}
