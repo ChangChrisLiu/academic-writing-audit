@@ -4,16 +4,16 @@
 
 <h1 align="center">Academic Writing Audit</h1>
 
-<p align="center"><strong>15 portable agent skills for scientific manuscripts and reviewer responses.</strong><br>
+<p align="center"><strong>18 portable agent skills for scientific manuscripts and reviewer responses.</strong><br>
 Reconstruct the argument, check the evidence, and change only what needs changing.</p>
 
 **中文简介｜学术论文写作与审稿回复 Skills**
 
-提供 **15 个可独立使用的 AI agent skills**，覆盖 **学术论文写作、逻辑与证据审查、专业术语和句子检查、去防御性写作，以及审稿意见回复、response letter 和 rebuttal**。先理解研究问题，再组织摘要、倒三角引言、关联文献综述、方法与学科适配的结果和结尾，支持 **LaTeX 与 Word**。
+提供 **18 个可独立使用的 AI agent skills**，覆盖 **学术论文写作、逻辑与证据审查、专业术语和句子检查、去防御性写作，以及审稿意见回复、response letter 和 rebuttal**。先理解研究问题，再组织摘要、倒三角引言、关联文献综述、方法与学科适配的结果和结尾，支持 **LaTeX 与 Word**。新增 **Google Scholar 文献真实性双 agent 交叉验证、Cite → BibTeX 校对与去重、Word 引用格式和正文与文末参考文献双向核对**。
 
 根据研究设计限定 **reviewer 与 editor 的专业角色**，检查预期论证和当前内容的差距。通过 **修改前后对照** 防止过度压缩丢失逻辑和信息，保留有效纠错与正常专业术语。“去 AI 味”落实为论证展开、自然承接、表达节奏、句式简化和冗余检查，生成段落默认不用解释性冒号或句中破折号，保留术语连字符及技术符号。回复信回应审稿人，正文直接解释研究。通用 Markdown 指令可供不同 agent 使用。
 
-[中文使用说明](README.zh-CN.md) · [专业角色与前后对照](docs/revision-guide.md) · [论文结构与写作](docs/manuscript-guide.md) · [自然表达与逻辑审查](docs/prose-guide.md) · [审稿回复与正文写作指南](docs/rebuttal-guide.md) · [安装方法](#install)
+[中文使用说明](README.zh-CN.md) · [文献真实性与引用核对](docs/reference-guide.md) · [专业角色与前后对照](docs/revision-guide.md) · [论文结构与写作](docs/manuscript-guide.md) · [自然表达与逻辑审查](docs/prose-guide.md) · [审稿回复与正文写作指南](docs/rebuttal-guide.md) · [安装方法](#install)
 
 <p align="center">
   <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-943D32"></a>
@@ -44,6 +44,7 @@ This library turns those recurring editorial decisions into small, reusable work
 | Repair a specific writing problem | [Choose a focused skill below](#choose-a-skill) | A bounded replacement or patch with a reason for each change. |
 | Write a rebuttal or revision response letter | [Reviewer response writing](skills/reviewer-response-writing/SKILL.md) | Evidence-grounded replies, accurate change status, and separately written manuscript edits. |
 | Compare a shortened or revised draft with its source | [Revision integrity audit](skills/revision-integrity-audit/SKILL.md) | Concern resolution and preserved reasoning, with justified keep and repair decisions. |
+| Verify references or reconcile a bibliography | [Reference authenticity](skills/reference-authenticity-audit/SKILL.md), [LaTeX bibliography](skills/latex-bibliography-audit/SKILL.md), or [Word citations](skills/word-citation-audit/SKILL.md) | Two independent Scholar-first checks, intended-version BibTeX, or bidirectional citation matching. |
 | Check the final manuscript and handoff | [Manuscript release check](skills/manuscript-release-check/SKILL.md) | The verified source, build, render, and publication state. |
 
 ```text
@@ -72,6 +73,9 @@ Each folder is independently installable. You do not need to load the whole coll
 | Reviewer comments becoming scattered or repetitive edits | [reviewer-comment-triage](skills/reviewer-comment-triage/SKILL.md) | Current-text diagnosis and a focused reader-facing repair. |
 | A rebuttal or response letter needing direct, supported answers | [reviewer-response-writing](skills/reviewer-response-writing/SKILL.md) | Concise or point-by-point replies, with evidence and verified revision locations. |
 | A shorter revision that may have lost scientific meaning | [revision-integrity-audit](skills/revision-integrity-audit/SKILL.md) | Before-and-after judgments on the intended repair, logical dependencies, and information preservation. |
+| Suspected invented references or mismatched title, authors, year, or venue | [reference-authenticity-audit](skills/reference-authenticity-audit/SKILL.md) | Two independent Google Scholar-first source records and reconciled field-level findings. |
+| Duplicate papers, inconsistent BibTeX, or citation-key collisions | [latex-bibliography-audit](skills/latex-bibliography-audit/SKILL.md) | Scholar Cite → BibTeX provenance, work/version identity, and safe key repairs. |
+| Word citations and reference lists that do not match | [word-citation-audit](skills/word-citation-audit/SKILL.md) | Style identification and citation-to-list plus list-to-citation checks, with field preservation. |
 | An old PDF, uncertain compilation, or unclear submission state | [manuscript-release-check](skills/manuscript-release-check/SKILL.md) | A precise verification record and usable handoff. |
 
 For concrete failure patterns and sample requests, see the [field guide](docs/field-guide.md).
@@ -100,7 +104,7 @@ The default is concise connected prose, not contribution lists, module catalogue
 
 ## Match the review to the research, then compare revisions
 
-The full audit assigns reviewer and editor responsibilities by subfield, study design, audience, evidence access, and the decision required. It compares what the argument needs to establish with what the current text actually establishes, distinguishing actual reviewer requests from inferred reader needs. A proof, an experimental comparison, and an interpretive account require different judgments. Separate agents are optional; disagreements are resolved through source evidence rather than voting.
+The full audit assigns reviewer and editor responsibilities by subfield, study design, audience, evidence access, and the decision required. It compares what the argument needs to establish with what the current text actually establishes, distinguishing actual reviewer requests from inferred reader needs. A proof, an experimental comparison, and an interpretive account require different judgments. For general editorial review, separate agents are optional; disagreements are resolved through source evidence rather than voting. The dedicated reference-authenticity workflow requires two independent agents checking the same entries.
 
 Use [revision-integrity-audit](skills/revision-integrity-audit/SKILL.md) after shortening or restructuring. It checks both whether the intended concern was resolved and whether valid reasoning and information survived. Keep supported corrections, useful compression, and verified relocation. Restore missing meaning without restoring an entire old paragraph. See the [Chinese role and revision guide](docs/revision-guide.md).
 
@@ -153,11 +157,19 @@ text in a separate block, written for readers without reviewer references.
 
 See the [中文回复写作指南](docs/rebuttal-guide.md) and [paired examples](skills/reviewer-response-writing/references/manuscript-boundary.md).
 
+## Verify references and citation identity
+
+Use [reference-authenticity-audit](skills/reference-authenticity-audit/SKILL.md) to have two agents independently check the same references, each beginning with Google Scholar and verifying the complete title, author list, publication year, venue, and intended version. Reconcile their evidence after both finish. A missing search result is unresolved evidence, and a real paper with the wrong year is a metadata error. Neither implies a fabricated work.
+
+Use [latex-bibliography-audit](skills/latex-bibliography-audit/SKILL.md) to retrieve the intended record's Cite → BibTeX export and reconcile duplicate publications and citation keys across the project. Retain raw export provenance and separately intended versions. Use [word-citation-audit](skills/word-citation-audit/SKILL.md) to establish the required style, then match every citation to its reference and every reference to its citations, including the inspected captions, tables, notes, and appendices. Preserve live citation-manager fields.
+
+Authenticity, formatting, reference identity, and support for the cited claim are separate judgments. Inaccessible Scholar records, uncertain styles, and incomplete document coverage remain explicit. See the [中文文献核验与引用指南](docs/reference-guide.md).
+
 ## Install
 
 [Download a portable release bundle](https://github.com/ChangChrisLiu/academic-writing-audit/releases/latest), or install selected skills below.
 
-The library uses the [Agent Skills format](https://agentskills.io/specification): a Markdown entrypoint, optional local references, and a license in each skill folder. Core instructions require no specific model, API, tool, or delegation workflow. Client discovery and model behavior can differ.
+The library uses the [Agent Skills format](https://agentskills.io/specification): a Markdown entrypoint, optional local references, and a license in each skill folder. The skills require no particular model or agent provider. The reference-authenticity workflow specifically requires Google Scholar access and two independent agents; LaTeX canonical exports require Scholar Cite → BibTeX access. Clients without these capabilities can report partial findings but cannot claim those steps complete. Client discovery and model behavior can differ.
 
 ### With the Skills CLI
 
@@ -234,10 +246,12 @@ The [role and revision-integrity trials](evals/roles-revision-integrity/README.m
 
 The [reasoning and expression trials](evals/reasoning-rhythm/README.md) cover engineering methods, Chinese ecological interpretation, and mathematical keep/repair decisions. Independent assessments passed 15 initial and five regression criteria. Optional expression and concision preferences remain public; one initially noted phrase persists after a narrow clarification, so the record does not claim that the refinement eliminated it. These guided checks have no unguided control or authorship score.
 
+The [reference-integrity trials](evals/reference-integrity/README.md) include two independent live checks of the same public references and one fictional LaTeX/Word format audit. Both live checks retained the incomplete Scholar-access status; format checks distinguish duplicates, version differences, key collisions, and partial document coverage. These records do not establish successful Scholar exports, compiled LaTeX, or native Word validation.
+
 The skills support reasoning and editing; the quality of a conclusion still depends on the sources and evidence available to the agent. Read [CONTRIBUTING.md](CONTRIBUTING.md) to propose an observed failure, a small repair, and a regression case.
 
 ```text
-skills/       15 standalone skills, optional examples, and client metadata
+skills/       18 standalone skills, optional examples, and client metadata
 docs/         Problem patterns and practical task prompts
 evals/        Synthetic cases, rubrics, observed responses, and manifests
 assets/       Generated promotional artwork, web copies, and exact prompts

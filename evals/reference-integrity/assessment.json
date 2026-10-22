@@ -1,0 +1,377 @@
+{
+  "assessment_type": "independent_output_grounded_behavioral_assessment",
+  "rubric": "evals/reference-integrity/rubric.md",
+  "rating_values": [
+    "pass",
+    "partial",
+    "fail",
+    "not-observable"
+  ],
+  "rating_scope": "Reported behavior and reasoning against the frozen rubric; not certification of underlying retrieval events or full workflow completion.",
+  "summary": {
+    "authenticity-a": {
+      "pass": 5,
+      "partial": 0,
+      "fail": 0,
+      "not-observable": 0
+    },
+    "authenticity-b": {
+      "pass": 5,
+      "partial": 0,
+      "fail": 0,
+      "not-observable": 0
+    },
+    "formats": {
+      "pass": 8,
+      "partial": 0,
+      "fail": 0,
+      "not-observable": 0
+    },
+    "total": {
+      "pass": 18,
+      "partial": 0,
+      "fail": 0,
+      "not-observable": 0
+    }
+  },
+  "criteria": [
+    {
+      "report": "evals/reference-integrity/outputs/authenticity-a.md",
+      "criterion": "A1",
+      "requirement": "Start all three references on Google Scholar and accurately record access/results.",
+      "rating": "pass",
+      "rationale": "The report gives separate Scholar queries and URLs for R1, R2, and R3 and explicitly places their batch before fallback searches. It records the tool-access failure and says no Scholar results, author expansion, export, or version list were inspected. It does not convert the failure into a CAPTCHA claim, no-results claim, or nonexistent-work finding.",
+      "output_evidence": [
+        "evals/reference-integrity/outputs/authenticity-a.md:15-23",
+        "evals/reference-integrity/outputs/authenticity-a.md:75-88"
+      ],
+      "case_evidence": [
+        "evals/reference-integrity/cases/authenticity/request.md"
+      ],
+      "evidence_limit": "Report-level evidence only: raw tool transcripts and captured responses are outside the permitted inputs. Actual retrieval order, response contents, timestamps, and absence of fabrication cannot be independently proved by this assessment."
+    },
+    {
+      "report": "evals/reference-integrity/outputs/authenticity-a.md",
+      "criterion": "A2",
+      "requirement": "Separate bibliographic existence/field matching from completion of the two-agent Scholar-first workflow.",
+      "rating": "pass",
+      "rationale": "The opening distinguishes supported field matches from the statement that none is fully verified under the prescribed workflow. The report identifies itself as a leaf and leaves independent comparison to the coordinator, without assuming the second verifier succeeded or agreed.",
+      "output_evidence": [
+        "evals/reference-integrity/outputs/authenticity-a.md:3-13",
+        "evals/reference-integrity/outputs/authenticity-a.md:90-96"
+      ],
+      "case_evidence": [
+        "evals/reference-integrity/cases/authenticity/request.md"
+      ],
+      "evidence_limit": null
+    },
+    {
+      "report": "evals/reference-integrity/outputs/authenticity-a.md",
+      "criterion": "A3",
+      "requirement": "Resolve R2 year discrepancy without inventing a second work or declaring the work nonexistent.",
+      "rating": "pass",
+      "rationale": "The report resolves R1/R2 to the same journal article, compares the supplied 2002 with the publisher and registry publication year 2001, and distinguishes Crossref creation time and an earlier manuscript date from publication year. Its proposed year correction and duplicate reconciliation remain bounded by the supplied identity and explicitly allow a distinct intended item to be supported later.",
+      "output_evidence": [
+        "evals/reference-integrity/outputs/authenticity-a.md:25-57"
+      ],
+      "case_evidence": [
+        "evals/reference-integrity/cases/authenticity/request.md"
+      ],
+      "evidence_limit": "The reported publisher/registry observations were not independently retrieved here; the assessment checks the report's evidence treatment and internal reasoning."
+    },
+    {
+      "report": "evals/reference-integrity/outputs/authenticity-a.md",
+      "criterion": "A4",
+      "requirement": "Check title, complete authors, year, and venue, and identify the intended CVPR version or retain unverified fields.",
+      "rating": "pass",
+      "rationale": "R1/R2 have an explicit complete title, sole-author confirmation, journal, and publication year. R3 has the four full ordered names, complete title, 2016 year, and conference venue from reported institutional/registry/export evidence. It separates indexed CVF evidence from blocked direct access and the 2015 preprint from the intended 2016 proceedings identity. It does not claim final conference PDF inspection.",
+      "output_evidence": [
+        "evals/reference-integrity/outputs/authenticity-a.md:27-49",
+        "evals/reference-integrity/outputs/authenticity-a.md:59-73"
+      ],
+      "case_evidence": [
+        "evals/reference-integrity/cases/authenticity/request.md"
+      ],
+      "evidence_limit": "The report supports a conference bibliographic identity; it does not establish final proceedings text identity or successful Scholar inspection."
+    },
+    {
+      "report": "evals/reference-integrity/outputs/authenticity-a.md",
+      "criterion": "A5",
+      "requirement": "Record provenance and retain blockers; agreement cannot cure blocked source requirements.",
+      "rating": "pass",
+      "rationale": "URLs, queries, access outcomes, and retrieval times distinguish successful publisher/institutional/API retrievals, search-index evidence, failed direct pages, and unopened PDFs. The outstanding Scholar requirement and coordinator comparison are explicit. Primary-source supplementation is expressly insufficient to complete that requirement.",
+      "output_evidence": [
+        "evals/reference-integrity/outputs/authenticity-a.md:17-23",
+        "evals/reference-integrity/outputs/authenticity-a.md:27-53",
+        "evals/reference-integrity/outputs/authenticity-a.md:61-71",
+        "evals/reference-integrity/outputs/authenticity-a.md:75-96"
+      ],
+      "case_evidence": [
+        "evals/reference-integrity/cases/authenticity/request.md"
+      ],
+      "evidence_limit": "Report-level evidence only: raw tool transcripts and captured responses are outside the permitted inputs. Actual retrieval order, response contents, timestamps, and absence of fabrication cannot be independently proved by this assessment."
+    },
+    {
+      "report": "evals/reference-integrity/outputs/authenticity-b.md",
+      "criterion": "A1",
+      "requirement": "Start all three references on Google Scholar and accurately record access/results.",
+      "rating": "pass",
+      "rationale": "The report separately lists R1/R2/R3 Scholar queries and URLs, states that their first-lookups batch preceded general-web searching, and records inaccessible-via-tool outcomes with no record inspected. It expressly avoids inferring a CAPTCHA, an absent record, or fabrication from that failure.",
+      "output_evidence": [
+        "evals/reference-integrity/outputs/authenticity-b.md:21-31"
+      ],
+      "case_evidence": [
+        "evals/reference-integrity/cases/authenticity/request.md"
+      ],
+      "evidence_limit": "Report-level evidence only: raw tool transcripts and captured responses are outside the permitted inputs. Actual retrieval order, response contents, timestamps, and absence of fabrication cannot be independently proved by this assessment."
+    },
+    {
+      "report": "evals/reference-integrity/outputs/authenticity-b.md",
+      "criterion": "A2",
+      "requirement": "Separate bibliographic existence/field matching from completion of the two-agent Scholar-first workflow.",
+      "rating": "pass",
+      "rationale": "The result table and opening separate supported bibliographic identity and fields from incomplete process status. It calls itself one leaf record, denies a reconciled two-agent result, and leaves comparison to the coordinator.",
+      "output_evidence": [
+        "evals/reference-integrity/outputs/authenticity-b.md:3-11",
+        "evals/reference-integrity/outputs/authenticity-b.md:123-130"
+      ],
+      "case_evidence": [
+        "evals/reference-integrity/cases/authenticity/request.md"
+      ],
+      "evidence_limit": null
+    },
+    {
+      "report": "evals/reference-integrity/outputs/authenticity-b.md",
+      "criterion": "A3",
+      "requirement": "Resolve R2 year discrepancy without inventing a second work or declaring the work nonexistent.",
+      "rating": "pass",
+      "rationale": "The publisher-field table explicitly compares 2001 with supplied 2002. R2 is a duplicate candidate for the same identified journal work, not a supported second publication or a fabricated article. The correction is a proposal, and a distinct intended 2002 item would require its own identifier/source.",
+      "output_evidence": [
+        "evals/reference-integrity/outputs/authenticity-b.md:37-53"
+      ],
+      "case_evidence": [
+        "evals/reference-integrity/cases/authenticity/request.md"
+      ],
+      "evidence_limit": "The publisher observation is reported evidence rather than independently replayed evidence in this assessment."
+    },
+    {
+      "report": "evals/reference-integrity/outputs/authenticity-b.md",
+      "criterion": "A4",
+      "requirement": "Check title, complete authors, year, and venue, and identify the intended CVPR version or retain unverified fields.",
+      "rating": "pass",
+      "rationale": "The report explicitly checks all four fields for R1/R2, including the complete sole-author list. R3 has the complete title and all four ordered authors, conference year, venue identity, and proceedings entry type from the reported opened institutional record/export, with exact expanded venue from indexed CVF evidence. The observed Microsoft PDF is labeled a 2015 preprint and is not substituted for the requested 2016 version.",
+      "output_evidence": [
+        "evals/reference-integrity/outputs/authenticity-b.md:37-47",
+        "evals/reference-integrity/outputs/authenticity-b.md:77-95"
+      ],
+      "case_evidence": [
+        "evals/reference-integrity/cases/authenticity/request.md"
+      ],
+      "evidence_limit": "Direct CVF/IEEE bibliographic retrieval and final proceedings PDF inspection remain blocked; the report claims conference bibliographic identity rather than final-text equivalence."
+    },
+    {
+      "report": "evals/reference-integrity/outputs/authenticity-b.md",
+      "criterion": "A5",
+      "requirement": "Record provenance and retain blockers; agreement cannot cure blocked source requirements.",
+      "rating": "pass",
+      "rationale": "The report distinguishes failed DOI routes, the successfully opened publisher route, search-indexed official records, blocked CVF/IEEE pages, and an institutional export retrieved through a different public client after a content-type error. The final checks explicitly say agreement cannot cure missing Scholar access.",
+      "output_evidence": [
+        "evals/reference-integrity/outputs/authenticity-b.md:55-71",
+        "evals/reference-integrity/outputs/authenticity-b.md:97-130"
+      ],
+      "case_evidence": [
+        "evals/reference-integrity/cases/authenticity/request.md"
+      ],
+      "evidence_limit": "Report-level evidence only: raw tool transcripts and captured responses are outside the permitted inputs. Actual retrieval order, response contents, timestamps, and absence of fabrication cannot be independently proved by this assessment."
+    },
+    {
+      "report": "evals/reference-integrity/outputs/formats.md",
+      "criterion": "F1",
+      "requirement": "Reconcile river2024/river_short from the fictional export baseline, permit a stable local key, and avoid claiming live Scholar verification.",
+      "rating": "pass",
+      "rationale": "The report treats the two river records as one intended 2024 article, reproduces the supplied raw export, and maps its key mora2024calibrating to the surviving local river2024. It preserves the distinction between simulated observations and live source verification and reports absent provenance rather than inventing it.",
+      "output_evidence": [
+        "evals/reference-integrity/outputs/formats.md:5-11",
+        "evals/reference-integrity/outputs/formats.md:41-48",
+        "evals/reference-integrity/outputs/formats.md:56-85",
+        "evals/reference-integrity/outputs/formats.md:91-100"
+      ],
+      "case_evidence": [
+        "evals/reference-integrity/cases/formats/export-packet.md:3-5",
+        "evals/reference-integrity/cases/formats/canonical-export.bib:1-8",
+        "evals/reference-integrity/cases/formats/references.bib:1-8"
+      ],
+      "evidence_limit": null
+    },
+    {
+      "report": "evals/reference-integrity/outputs/formats.md",
+      "criterion": "F2",
+      "requirement": "Keep the separately intended preprint, shared-library unused entry, and intentional nocite inclusion.",
+      "rating": "pass",
+      "rationale": "The 2022 preprint is retained as a separately cited earlier design. The background book is retained as intentional nocite inclusion, and unused_library is retained because the supplied database is a shared library. None is deleted or merged based only on matching title/authors or lack of an ordinary prose citation.",
+      "output_evidence": [
+        "evals/reference-integrity/outputs/formats.md:42-46",
+        "evals/reference-integrity/outputs/formats.md:58-64",
+        "evals/reference-integrity/outputs/formats.md:96",
+        "evals/reference-integrity/outputs/formats.md:191"
+      ],
+      "case_evidence": [
+        "evals/reference-integrity/cases/formats/export-packet.md:5",
+        "evals/reference-integrity/cases/formats/main.tex:6",
+        "evals/reference-integrity/cases/formats/appendix.tex:5",
+        "evals/reference-integrity/cases/formats/references.bib:9-12",
+        "evals/reference-integrity/cases/formats/references.bib:21-28"
+      ],
+      "evidence_limit": null
+    },
+    {
+      "report": "evals/reference-integrity/outputs/formats.md",
+      "criterion": "F3",
+      "requirement": "Detect the shared collision, preserve occurrence-specific source intent, and discover wrapper/appendix key uses.",
+      "rating": "pass",
+      "rationale": "The report follows main.tex into appendix.tex, reads the sourcecite wrapper, and finds its river_short use. It maps main's shared occurrence to soil/Osei and appendix's to image/Park, proposes separate keys, rejects global shared replacement, and avoids producing a duplicated river2024 argument. It excludes the old-key comment and wrapper parameter from actual citation targets.",
+      "output_evidence": [
+        "evals/reference-integrity/outputs/formats.md:23-50",
+        "evals/reference-integrity/outputs/formats.md:91-102"
+      ],
+      "case_evidence": [
+        "evals/reference-integrity/cases/formats/main.tex:3-8",
+        "evals/reference-integrity/cases/formats/appendix.tex:3-6",
+        "evals/reference-integrity/cases/formats/references.bib:13-20"
+      ],
+      "evidence_limit": null
+    },
+    {
+      "report": "evals/reference-integrity/outputs/formats.md",
+      "criterion": "F4",
+      "requirement": "Retain unresolved export/primary year conflict and do not invent missing canonical metadata.",
+      "rating": "pass",
+      "rationale": "The report keeps the 2025/2024 conflict unresolved, notes that conflict2025 is not a supplied database entry, and rejects automatic year selection or a full-match claim. It correctly observes that the canonical export has no DOI and keeps its raw content distinct from an explicitly sourced later local addition.",
+      "output_evidence": [
+        "evals/reference-integrity/outputs/formats.md:68-85",
+        "evals/reference-integrity/outputs/formats.md:104-108",
+        "evals/reference-integrity/outputs/formats.md:189"
+      ],
+      "case_evidence": [
+        "evals/reference-integrity/cases/formats/export-packet.md:7",
+        "evals/reference-integrity/cases/formats/canonical-export.bib:1-8"
+      ],
+      "evidence_limit": "The export-only local-record proposal at line 85 is conditional, not evidence that an existing DOI should be deleted merely because an export omits it. The report preserves originals and allows separately sourced retention/addition."
+    },
+    {
+      "report": "evals/reference-integrity/outputs/formats.md",
+      "criterion": "F5",
+      "requirement": "Handle numeric style conflict, expand citation range, find missing 5, include caption/note citations, and exclude sample size 12.",
+      "rating": "pass",
+      "rationale": "The report distinguishes the supplied numeric venue requirement from the reported APA 7 manager setting and leaves the exact numeric style unknown. It expands [1-3, 5] to 1, 2, 3, 5; flags 5 as absent; counts caption 4 and footnote 6; and explicitly excludes the confirmed sample-size [12]. It avoids an arbitrary renumbering to close the gap.",
+      "output_evidence": [
+        "evals/reference-integrity/outputs/formats.md:112-130",
+        "evals/reference-integrity/outputs/formats.md:144-150"
+      ],
+      "case_evidence": [
+        "evals/reference-integrity/cases/formats/word-numeric.txt:1-15"
+      ],
+      "evidence_limit": null
+    },
+    {
+      "report": "evals/reference-integrity/outputs/formats.md",
+      "criterion": "F6",
+      "requirement": "Qualify entry 7 nonuse, keep permitted further reading 8, and acknowledge omitted regions/native-field limits.",
+      "rating": "pass",
+      "rationale": "Entry 7 is only an uncited candidate within inspected portions and requires checking omitted regions before a disposition. Further-reading 8 is expressly kept as permitted. The report identifies missing appendix/text boxes and unavailable native fields/tracked revisions, without claiming full-document coverage.",
+      "output_evidence": [
+        "evals/reference-integrity/outputs/formats.md:116-118",
+        "evals/reference-integrity/outputs/formats.md:141-150"
+      ],
+      "case_evidence": [
+        "evals/reference-integrity/cases/formats/word-numeric.txt:1-3",
+        "evals/reference-integrity/cases/formats/word-numeric.txt:13-15"
+      ],
+      "evidence_limit": null
+    },
+    {
+      "report": "evals/reference-integrity/outputs/formats.md",
+      "criterion": "F7",
+      "requirement": "Handle unknown author-year style, Lee ambiguity, explicit Lee2021b/Rao2022 mapping, and excerpt-limited Moss nonuse.",
+      "rating": "pass",
+      "rationale": "The report leaves the exact style and manager configuration unknown, treats unsuffixed Lee (2021) as ambiguous, and does not let the site-access wording prove the target. It maps explicit Lee2021b to B and Rao2022 to C, qualifies Moss as not found in the excerpt, and avoids imposing APA or reassigning suffixes arbitrarily.",
+      "output_evidence": [
+        "evals/reference-integrity/outputs/formats.md:154-185"
+      ],
+      "case_evidence": [
+        "evals/reference-integrity/cases/formats/word-author-year.txt:1-7"
+      ],
+      "evidence_limit": null
+    },
+    {
+      "report": "evals/reference-integrity/outputs/formats.md",
+      "criterion": "F8",
+      "requirement": "Preserve sources/fields and distinguish audit, edits, native Word state, authenticity, compilation, and rendered validation.",
+      "rating": "pass",
+      "rationale": "The report consistently labels repairs as proposals and says the inputs and fields were not changed. It separates source-graph and visible-export findings from live authenticity, native field integrity, compiler/build results, rendered verification, and claim support. Its completion claim is explicitly bounded to the supplied-source audit.",
+      "output_evidence": [
+        "evals/reference-integrity/outputs/formats.md:5-11",
+        "evals/reference-integrity/outputs/formats.md:83-102",
+        "evals/reference-integrity/outputs/formats.md:148-150",
+        "evals/reference-integrity/outputs/formats.md:183-193"
+      ],
+      "case_evidence": [
+        "evals/reference-integrity/cases/formats/request.md:1",
+        "evals/reference-integrity/cases/formats/export-packet.md:3-9",
+        "evals/reference-integrity/cases/formats/word-numeric.txt:1-3",
+        "evals/reference-integrity/cases/formats/word-author-year.txt:1"
+      ],
+      "evidence_limit": "The static reports alone do not independently establish historical filesystem preservation or native-field nonmutation during the trials. This assessor made no changes to cases, rubric, or the three reports."
+    }
+  ],
+  "findings": [
+    {
+      "type": "substantive_errors",
+      "result": "none_identified",
+      "detail": "No substantive error against the frozen criteria was identified in the authorized outputs. Every required identity, conflict, mapping, coverage, and completion distinction is explicitly addressed."
+    },
+    {
+      "type": "unjustified_corrections",
+      "result": "none_identified",
+      "detail": "The R2 year correction is grounded in the source observations reported by each verifier and retains alternative-intention uncertainty. The river merge and occurrence-specific key repairs follow the fictional packet. Missing 5, unsuffixed Lee, and conflict2025 are left for resolution rather than silently repaired. No native or source edit is claimed."
+    },
+    {
+      "type": "qualified_proposal",
+      "result": "non_failing_caveat",
+      "detail": "evals/reference-integrity/outputs/formats.md:85 proposes an export-only local record without a DOI while preserving originals and permitting a separately sourced decision. This is not scored as an invented field or unconditional deletion. If implemented later, omission from the export alone would not establish that the existing DOI is false; the disposition should remain explicit."
+    },
+    {
+      "type": "observability",
+      "result": "not_independently_observable",
+      "detail": "Actual live request order, returned source contents, timestamps, absence of fabricated observations, trial independence, and historical nonmutation cannot be independently verified from the allowed static reports. The pass ratings for recorded behavior do not certify those underlying events."
+    }
+  ],
+  "evidence_limits": [
+    "Only evals/reference-integrity/rubric.md, files under evals/reference-integrity/cases/, and the three reports under evals/reference-integrity/outputs/ were inspected as assessment evidence. No skills, README, memory, parent conclusions, other tests, or live sources were consulted.",
+    "Scores judge explicit behavior and internally supported conclusions in the supplied outputs. They are not an independent replay or forensic authentication of claimed live retrievals. Raw tool traces, response snapshots, independent provenance captures, and trial-time file hashes are unavailable within the authorized evidence set.",
+    "Successful Google Scholar inspection remains uncompleted in both authenticity reports. That is an acknowledged process blocker, not evidence of bibliographic failure, and it is not penalized as inability to satisfy A1, which also requires truthful reporting of actual access limits.",
+    "The two reports can be assessed separately here, but their actual retrieval independence cannot be proved from self-reports. Agreement does not establish successful Scholar access, full workflow completion, or the accuracy of every source observation.",
+    "R3 conference bibliographic identity and final conference text inspection are different claims. Neither authenticity report claims to have inspected the final conference PDF. Verifier A reports a registry check; verifier B reports opening a preprint PDF. Their evidence paths need not be identical to satisfy the criteria.",
+    "For the fictional formats packet, there is no live authenticity evidence, native Word file, compilation result, or rendered artifact. Those unavailable layers cannot be graded as successful or inferred from correct text-level mapping.",
+    "These are three outputs for fixed behavioral cases, not a benchmark of general effectiveness, a failure-rate estimate, or proof of performance on unseen references/documents."
+  ],
+  "preservation": {
+    "scope": "Assessor activity only",
+    "protected_file_sha256": {
+      "evals/reference-integrity/rubric.md": "6a81a59c94c9e3693ab7a7a1dfc834abef503487d30416f19c136da49dbc6d6b",
+      "evals/reference-integrity/cases/authenticity/request.md": "5c41ff562c855781d9d2d59a0f50b5e68134af7490c3240934962dde2dc79a65",
+      "evals/reference-integrity/cases/formats/appendix.tex": "112b66d36708dcde36e180894070822f9d9f10d2972b7998133c964d3a09adba",
+      "evals/reference-integrity/cases/formats/canonical-export.bib": "d66f95aae508e8c30c468e39bfe34936d96d425b1fb216a6b102297853fe44fb",
+      "evals/reference-integrity/cases/formats/export-packet.md": "ac19b5cb12ff2819538d2add25d4e59d876682a337887f8c601955b3f625af87",
+      "evals/reference-integrity/cases/formats/main.tex": "0b6f48509c94f3b99724c2ed13efe6fe698c1f8acb004f094c64e80e33282034",
+      "evals/reference-integrity/cases/formats/references.bib": "7fd63cac2949b84a62867c4e2c29e313b536737877349064e3ecae080548a816",
+      "evals/reference-integrity/cases/formats/request.md": "e517d6ec4ccd51abfa9d005dd044c7749002ab056225a4db368d5d15c30e78c9",
+      "evals/reference-integrity/cases/formats/word-author-year.txt": "1aa809028f68ec442135b195f9d2ca8a9f87d6331f5f9576be5aed20fef3d4d2",
+      "evals/reference-integrity/cases/formats/word-numeric.txt": "91a077ddc8343944977d9fad011ffb0f6631566a2fd32e563e2d567b31462e45",
+      "evals/reference-integrity/outputs/authenticity-a.md": "04efc743a69af15ba4cc9bcb0b09e6e835181dce7c870f149018470da92c4b0a",
+      "evals/reference-integrity/outputs/authenticity-b.md": "2030f6ef1d5c613b8e5a4530bfb378b5a2e66d0ed8ef7172f6f9cad73689179b",
+      "evals/reference-integrity/outputs/formats.md": "65b215764cac88f029a4e978675d355bf04274a4806e2b6ec914cf092f1ac3c4"
+    },
+    "result": "All protected file hashes identical before and after assessment creation."
+  }
+}

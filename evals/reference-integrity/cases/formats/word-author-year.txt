@@ -1,0 +1,7 @@
+Fictional Word text-export packet. The author says “check the formatting and matching,” but supplies no venue or named style. Native manager fields are unavailable. This is an excerpt, not the full paper.
+Body: Lee (2021) describes site access. The transport estimates follow Rao et al. (2022). A second method uses (Lee, 2021b).
+References:
+A. Lee, S. (2021a). Access at urban sites. Fictional Urban Studies.
+B. Lee, S. (2021b). Remote sampling. Fictional Field Methods.
+C. Rao, A., Green, P., and Ali, H. (2022). Transport estimates. Fictional Transport.
+D. Moss, J. (2019). Long-term monitoring. Fictional Ecology.

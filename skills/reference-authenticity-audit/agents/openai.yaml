@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reference Authenticity Audit"
+  short_description: "Verify scholarly references with two independent agents"
+  default_prompt: "Use $reference-authenticity-audit to verify these references through two independent Google Scholar checks of the complete title, authors, publication year, venue, and intended version."

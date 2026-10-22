@@ -1,0 +1,4 @@
+interface:
+  display_name: "LaTeX Bibliography Audit"
+  short_description: "Match Scholar BibTeX and resolve duplicate paper entries"
+  default_prompt: "Use $latex-bibliography-audit to compare the project bibliography with Google Scholar Cite to BibTeX exports, preserve intended versions, and resolve duplicate records and citation keys without breaking the project."

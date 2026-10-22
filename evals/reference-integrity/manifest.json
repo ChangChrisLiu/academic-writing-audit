@@ -1,0 +1,28 @@
+{
+  "purpose": "Frozen inputs before independent behavioral trials",
+  "baseline_commit": "c4d67076af993afe7e2349db8e52c44fc3662361",
+  "files": {
+    "evals/reference-integrity/cases/authenticity/request.md": "5c41ff562c855781d9d2d59a0f50b5e68134af7490c3240934962dde2dc79a65",
+    "evals/reference-integrity/cases/formats/appendix.tex": "112b66d36708dcde36e180894070822f9d9f10d2972b7998133c964d3a09adba",
+    "evals/reference-integrity/cases/formats/canonical-export.bib": "d66f95aae508e8c30c468e39bfe34936d96d425b1fb216a6b102297853fe44fb",
+    "evals/reference-integrity/cases/formats/export-packet.md": "ac19b5cb12ff2819538d2add25d4e59d876682a337887f8c601955b3f625af87",
+    "evals/reference-integrity/cases/formats/main.tex": "0b6f48509c94f3b99724c2ed13efe6fe698c1f8acb004f094c64e80e33282034",
+    "evals/reference-integrity/cases/formats/references.bib": "7fd63cac2949b84a62867c4e2c29e313b536737877349064e3ecae080548a816",
+    "evals/reference-integrity/cases/formats/request.md": "e517d6ec4ccd51abfa9d005dd044c7749002ab056225a4db368d5d15c30e78c9",
+    "evals/reference-integrity/cases/formats/word-author-year.txt": "1aa809028f68ec442135b195f9d2ca8a9f87d6331f5f9576be5aed20fef3d4d2",
+    "evals/reference-integrity/cases/formats/word-numeric.txt": "91a077ddc8343944977d9fad011ffb0f6631566a2fd32e563e2d567b31462e45",
+    "evals/reference-integrity/rubric.md": "6a81a59c94c9e3693ab7a7a1dfc834abef503487d30416f19c136da49dbc6d6b",
+    "skills/latex-bibliography-audit/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "skills/latex-bibliography-audit/SKILL.md": "b9926b6c1113da0f38d968c70f9d89f935dfcb3085a4a1ccad27da25b13ec04f",
+    "skills/latex-bibliography-audit/agents/openai.yaml": "a56f3d727404bf2407a8cacb7a1909bbf1de688f01a3c98a2267e1513493bc94",
+    "skills/latex-bibliography-audit/references/identity-and-keys.md": "01164a98cd8d856d8919776a174d2d3f7bfc8e6690c7a1e52f68a7386ecdbcd1",
+    "skills/reference-authenticity-audit/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "skills/reference-authenticity-audit/SKILL.md": "33f05dc7e06cffea3d76c397cb9224bb596a71daafbc65ce64f6e0b7eacbea7f",
+    "skills/reference-authenticity-audit/agents/openai.yaml": "b589f3474a252cd72f7cc9b2fc64c2c7d27c6137dec83a58672e95a538fca509",
+    "skills/reference-authenticity-audit/references/field-decisions.md": "f2959d85d5d1692993f9d87332aebc9c63917df164371b4c48e9c13f380409d4",
+    "skills/word-citation-audit/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "skills/word-citation-audit/SKILL.md": "3d4d67b2b7412e9e5db57f9179d63861d1e422cca55c0a6e0875c627d5d937ba",
+    "skills/word-citation-audit/agents/openai.yaml": "7076f33e8a22ad5b2a94dc2a92c6368c0cc698c3c2ff70a68641ede9ca0e3946",
+    "skills/word-citation-audit/references/matching-and-coverage.md": "d379b483344685354833ea6fea1b1485f50bdafb70bc462f9704d19cf5450b79"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "hash_algorithm": "sha256",
+  "scope": "Completed public records, independent reports and assessment; frozen inputs remain in the parent manifest.",
+  "files": {
+    "evals/reference-integrity/README.md": "34799e1e8be172fd893498ed1e752a965a6af5b97e2c9fd68704f0b715f81e14",
+    "evals/reference-integrity/assessment.json": "26acd8766b73e5e7a253926045d1101ddeaa762b55c21fb282a834e7b0d55138",
+    "evals/reference-integrity/assessment.md": "fd4bf8e9a5c859ce404ce0aaa09ec66b8e6bf442393e484462c4d5be45dda95b",
+    "evals/reference-integrity/outputs/authenticity-a.md": "04efc743a69af15ba4cc9bcb0b09e6e835181dce7c870f149018470da92c4b0a",
+    "evals/reference-integrity/outputs/authenticity-b.md": "2030f6ef1d5c613b8e5a4530bfb378b5a2e66d0ed8ef7172f6f9cad73689179b",
+    "evals/reference-integrity/outputs/formats.md": "65b215764cac88f029a4e978675d355bf04274a4806e2b6ec914cf092f1ac3c4",
+    "evals/reference-integrity/reconciliation.md": "0fba82ee7782d6ba8b009bf3133b537a0c50a06743996386dd941245c5dd3c39",
+    "evals/reference-integrity/run-metadata.json": "197942935edef5b0fe7c4e889c209afd74eef3eb0e3c9e23ce77cdf5c21e02ad"
+  }
+}

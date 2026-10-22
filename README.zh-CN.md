@@ -4,13 +4,13 @@
 
 # Academic Writing Audit：学术论证与写作审查
 
-**15 个可独立使用的 agent skills，把论文写作、逻辑审查和审稿回复中反复遇到的问题整理成可执行的判断方法。**
+**18 个可独立使用的 agent skills，把论文写作、逻辑审查和审稿回复中反复遇到的问题整理成可执行的判断方法。**
 
-[English](README.md) · [专业角色与前后对照](docs/revision-guide.md) · [论文结构与写作](docs/manuscript-guide.md) · [自然表达与逻辑审查](docs/prose-guide.md) · [问题与修复示例](docs/field-guide.md) · [审稿回复指南](docs/rebuttal-guide.md) · [完整审查入口](skills/academic-writing-audit/SKILL.md) · [专项试用记录](evals/library/README.md) · [宣传素材](assets/README.md)
+[English](README.md) · [文献核验与引用](docs/reference-guide.md) · [专业角色与前后对照](docs/revision-guide.md) · [论文结构与写作](docs/manuscript-guide.md) · [自然表达与逻辑审查](docs/prose-guide.md) · [问题与修复示例](docs/field-guide.md) · [审稿回复指南](docs/rebuttal-guide.md) · [完整审查入口](skills/academic-writing-audit/SKILL.md) · [专项试用记录](evals/library/README.md) · [宣传素材](assets/README.md)
 
 先理解研究主线，再检查证据与推理，最后决定哪里需要改。审查后判断“这段原样保留”，同样是有价值的结果。
 
-英文核心指令便于不同 agent 使用；中文说明解释选择和调用方法。每个 skill 都是独立目录，不依赖某篇论文、特定模型或多 agent 工作流。
+英文核心指令便于不同 agent 使用；中文说明解释选择和调用方法。每个 skill 都是独立目录，不依赖某篇论文或特定模型。文献真实性核验明确要求两个独立 agent 从 Google Scholar 开始交叉检查；缺少相应能力时只能报告部分核验结果。
 
 ## 从哪里开始
 
@@ -20,6 +20,7 @@
 | 已知具体写作问题 | 从下表选一个专项 skill | 有范围、有依据的替换或补丁。 |
 | 撰写 rebuttal 或逐点 response letter | [reviewer-response-writing](skills/reviewer-response-writing/SKILL.md) | 有依据的回应、准确的修改状态，以及单独撰写的正文修改。 |
 | 比较压缩或修订前后的两个版本 | [revision-integrity-audit](skills/revision-integrity-audit/SKILL.md) | 原问题是否解决，有效逻辑和信息是否保留？ |
+| 文献真实性、BibTeX 或 Word 引用核对 | [文献核验与引用指南](docs/reference-guide.md) | 区分真实存在、字段准确、版本一致和引用对应。 |
 | 提交前检查版本和成品 | [manuscript-release-check](skills/manuscript-release-check/SKILL.md) | 已核实的源码、编译、渲染和发布状态。 |
 
 ```text
@@ -34,6 +35,9 @@
 | 遇到的问题 | Skill | 核心判断 |
 | --- | --- | --- |
 | 先理解研究，再起草或重组整篇论文 | [research-manuscript-writing](skills/research-manuscript-writing/SKILL.md) | 摘要、倒三角引言、关联文献与学科适配的结果是否围绕同一个问题？ |
+| 文献是否真实，标题、作者、年份和刊物是否准确 | [reference-authenticity-audit](skills/reference-authenticity-audit/SKILL.md) | 两个 agent 是否独立从 Scholar 核查同一组文献，并逐字段交叉核验？ |
+| 同一论文的 BibTeX 变成多条记录，或引用键冲突 | [latex-bibliography-audit](skills/latex-bibliography-audit/SKILL.md) | 是否以目标版本的 Cite → BibTeX 为准，并保持论文身份与引用键一致？ |
+| Word 正文引用与文末参考文献对不上 | [word-citation-audit](skills/word-citation-audit/SKILL.md) | 是否先确定格式，再双向检查漏列、未引用、歧义和重复？ |
 | 需要完整的科学与写作审查 | [academic-writing-audit](skills/academic-writing-audit/SKILL.md) | 论证、证据、读者功能、修改范围是否一致？ |
 | 想去 AI 味，句式绕、衔接弱、同义重复多 | [academic-prose-editing](skills/academic-prose-editing/SKILL.md) | 具体表达、逻辑连接、句式负担和信息重复是否改善？ |
 | 动机与方法之间缺一座桥；贡献缩成实现细节 | [scientific-story-audit](skills/scientific-story-audit/SKILL.md) | 问题、困难、贡献和证据是否真正连接？ |
@@ -49,7 +53,7 @@
 | 修改后更短，但可能丢失逻辑、条件或解释 | [revision-integrity-audit](skills/revision-integrity-audit/SKILL.md) | 区分合理压缩、有据纠错、信息丢失与未核实的迁移。 |
 | 源码已改，PDF、线上预览和提交状态却不确定 | [manuscript-release-check](skills/manuscript-release-check/SKILL.md) | 每一个“完成”到底由什么观察证明？ |
 
-不需要每次加载全部 15 个。先选择与当前问题最接近的入口；只有发现跨章节的问题时，再扩大审查范围。
+不需要每次加载全部 18 个。先选择与当前问题最接近的入口；只有发现跨章节的问题时，再扩大审查范围。
 
 ## 理解研究之后再写章节
 
@@ -115,6 +119,14 @@
 
 语气更直接，但算法规则、分母和证据边界完整保留。前文若已清楚解释研究动机，就不再改写。
 
+## 文献真实性与引用核对
+
+新增三个独立入口。真实性核验要求两个 agent 各自从 Google Scholar 检查同一组文献，核对完整标题、完整作者及顺序、发表年份和刊物，再比较证据。查不到、访问受阻和字段不一致分别记录，不把“未核实”写成“假文献”。
+
+LaTeX 以目标论文及版本的 Scholar Cite → BibTeX 原始导出为基准，检查同一论文的重复记录和引用键冲突，保留需要分别引用的预印本与正式版本。Word 先明确所需引用规范，再检查正文中的每处引用是否对应文末条目，以及文末是否有未在已检查范围内引用的条目，同时保护 Zotero、EndNote 等引用域。
+
+具体流程、访问受阻时的处理，以及可直接复制的请求见[文献核验与引用指南](docs/reference-guide.md)。这些检查分别回答真实性、格式和对应关系，不能替代“这篇文献是否支持正文论断”的内容审查。
+
 ## 安装
 
 可以先[下载便携发布包](https://github.com/ChangChrisLiu/academic-writing-audit/releases/latest)，也可以按下面的方法单独安装。
@@ -130,7 +142,7 @@ npx skills add ChangChrisLiu/academic-writing-audit --list
 # 安装一个，按提示选择目标客户端。
 npx skills add ChangChrisLiu/academic-writing-audit --skill nondefensive-writing
 
-# 在当前项目中为 Codex 安装全部 15 个。
+# 在当前项目中为 Codex 安装全部 18 个。
 npx skills add ChangChrisLiu/academic-writing-audit --skill '*' -a codex
 ```
 
@@ -201,6 +213,8 @@ npx skills add ChangChrisLiu/academic-writing-audit --skill '*' -a codex
 [专业角色与修改前后对照试用](evals/roles-revision-integrity/README.md)覆盖机器人检测、数值分析和组织民族志。独立评估的 21 项检查均通过，另保留两处可选措辞意见。输出分别检查原问题是否解决和信息是否保留，接受合理压缩及有据纠错，未发现正常专业术语误改。这组虚构带 skill 试用没有无 skill 对照，不代表普遍有效性证明。
 
 [论证展开与自然表达试用](evals/reasoning-rhythm/README.md)覆盖工程方法、中文生态结果解释和数学段落的保留判断。独立评估的初测 15 项、复测 5 项通过。记录保留可选的措辞与精简意见，初测的一处表达在复测中仍出现，不能据此宣称规则已消除所有直译感。这些带 skill 试用没有无 skill 对照，也不评价作者身份。
+
+[文献真实性与引用核对试用](evals/reference-integrity/README.md)包含两位 agent 对同一组公开文献的独立实时检索，以及一次虚构 LaTeX 和 Word 格式案例审查。两位 agent 都保留了 Scholar 访问未完成的状态。格式试用检查重复论文、不同版本、引用键冲突和文档覆盖范围，不代表 Scholar 导出、LaTeX 编译或原生 Word 文档已经验证。
 
 ## 素材与贡献
 

@@ -1,0 +1,15 @@
+Fictional Word text-export packet. Audit only. Native fields and tracked revisions cannot be inspected from this export.
+Venue instructions supplied with the draft require a numbered list with bracketed citations. The document's reported manager setting says APA 7. Treat these as two observed, conflicting settings; no exact named numerical style is supplied.
+Inspected regions available here: body, one table caption, one footnote, and reference list. Appendix and text boxes were not included in the export.
+Body: The protocols build on earlier studies [1–3, 5]. Figure 2 shows the arrangement. The reported sample size is [12]. The author confirms [12] is a sample-size notation, not a citation.
+Table caption: Temperature offsets follow [4].
+Footnote 1: The sensitivity analysis uses [6].
+Reference list:
+1. Ana Mora. River calibration. Fictional Hydrology. 2024.
+2. Kofi Osei. Soil measurement. Fictional Soil Science. 2020.
+3. Mina Park. Image measurement. Fictional Imaging. 2023.
+4. Tara Singh. Temperature offsets. Fictional Measurement. 2018.
+6. Julia Garcia. Sensitivity analysis. Fictional Statistics. 2021.
+7. Wei Li. Coastal measurements. Fictional Oceans. 2019.
+Further reading (explicitly permitted by the supplied venue instructions):
+8. Ruth Brown. A measurement history. Fictional Press. 2010.

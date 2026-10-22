@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-22",
+  "design": "Guided behavioral trials in independent fresh contexts, with no unguided control and no model override. No cross-model effectiveness claim.",
+  "frozen_inputs": "manifest.json",
+  "authenticity": {
+    "request": "cases/authenticity/request.md",
+    "agents": [
+      "reference_verifier_a",
+      "reference_verifier_b"
+    ],
+    "skill": "skills/reference-authenticity-audit",
+    "assignment": "Same original reference list supplied independently; each assigned a leaf role with no delegation, no access to the other output or scoring rubric. Live retrieval, not replay.",
+    "outputs": [
+      "outputs/authenticity-a.md",
+      "outputs/authenticity-b.md"
+    ]
+  },
+  "formats": {
+    "request": "cases/formats/request.md",
+    "agent": "citation_format_tester",
+    "skills": [
+      "skills/latex-bibliography-audit",
+      "skills/word-citation-audit"
+    ],
+    "inputs": "cases/formats/",
+    "output": "outputs/formats.md",
+    "evidence": "Fictional LaTeX source and simulated export/primary metadata. Word text-export packets only. No native DOCX or compiled/rendered validation.",
+    "followups": "A completion/status reminder restated existing scope. A packaging reminder requested repository-relative source locations in the public report."
+  },
+  "assessment": {
+    "plan": "Fresh independent assessor receives cases, full outputs, and frozen rubric only, without skill instructions or parent judgments.",
+    "agent": "reference_trial_assessor",
+    "outcome": "18 report-level passes, no substantive error identified, with DOI-disposition and observability caveats retained.",
+    "followup": "A completion reminder limited work to the existing output-based assessment, with no live re-verification or extra cases."
+  }
+}

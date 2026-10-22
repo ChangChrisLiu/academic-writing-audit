@@ -1,0 +1,4 @@
+interface:
+  display_name: "Word Citation Audit"
+  short_description: "Check citation style and two-way reference matching"
+  default_prompt: "Use $word-citation-audit to identify the required citation style and check every in-text citation against the reference list and every listed reference against the document, preserving live citation fields."
