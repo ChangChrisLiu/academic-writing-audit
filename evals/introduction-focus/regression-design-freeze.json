@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-27",
+  "scope": "Inputs and skill bytes frozen before the corresponding agent was dispatched. Only path keys were mapped for publication.",
+  "original_local_freeze_sha256": "e37cb745f7ccd8c0ada072888bca38db21b43e39c52c29e15db967e22cce3904",
+  "files": {
+    "skills/research-manuscript-writing/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "skills/research-manuscript-writing/SKILL.md": "dfb4a615d50350798f88335adc02f8f051c3c199a80e2bc6e81b728b32497b89",
+    "skills/research-manuscript-writing/agents/openai.yaml": "62a7ff375091baa65f15d69d4bf5a519bb5b0add273e1d00a067412617fb8112",
+    "skills/research-manuscript-writing/references/findings-and-endings.md": "114bc958341fe429641df4e206c91ffaa56378f0a9c55955d15b63c0def7fcb9",
+    "skills/research-manuscript-writing/references/latex-and-word.md": "41bf1e30478072a57c3cd013561d58e5356dd13531726cc0ab4412f293127eb5",
+    "skills/research-manuscript-writing/references/section-reasoning.md": "9670a255810fbd89e1b4a5bbb03233aaad2a455c0f81f8877fc96b9e63fb9f89",
+    "evals/introduction-focus/cases/draft.md": "d0d76c530c4c43d08c44df0befd9b99870b9ecf80c8a24dcc3b44de291cf8e77",
+    "evals/introduction-focus/rubric.md": "d8741293dd77014f6d0c322c9e4d5c1d5f96f4b3454d472c1d1cf404cc2a0f81"
+  }
+}

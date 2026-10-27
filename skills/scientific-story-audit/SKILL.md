@@ -31,7 +31,13 @@ Do not manufacture a literature gap to complete this chain. Mark an unsupported 
 
 Before drafting a repair, identify the concrete study question, research direction, audience, source-supported gap, contribution, and principal finding. A method name or generic topic is not sufficient. If a missing fact determines the story, ask only for that fact or leave the unsupported connection unresolved; do not manufacture an introduction to sound complete.
 
+For an introduction, first establish the target conference or journal, track or article type, readers, and supported submission priorities. Separate official or author-supplied criteria from your inference. If the destination is unknown, continue venue-independent logic checks but ask before tailoring the argument; do not invent what an unspecified venue wants.
+
 For an abstract, follow task need, existing route's limitation, the particular unresolved difficulty, the proposed contribution, and principal evidence. Keep the motivation-to-result progression rather than a module checklist or fixed sentence count. For an introduction, narrow from a relevant larger direction through what that direction has achieved to the gap, motivation, and contribution. The motivation must explain why the proposed scientific move addresses the gap.
+
+Trace one introduction line through the paragraphs. Check what each step establishes and why the next follows, not just whether all topics appear. Flag switches to unrelated applications, reopened background surveys, and method catalogues that interrupt the narrowing argument. A conference introduction may integrate gap and motivation compactly without naming them; a journal introduction should explicitly establish the unresolved issue, its consequence, and the rationale for the approach. Judge against actual venue requirements, not an automatic length or heading rule.
+
+Ask whether each disputed sentence advances that line. An explanation that only restates background, justifies the writing to an imagined critic, or repeats a reason can go. Retain the brief definition, premise, or scope condition that makes the next inference intelligible and accurate. Name the lost connection before cutting or restoring text; explanations are not automatically defensive.
 
 Use concise connected paragraphs. Contributions should follow the reasoning in prose unless a list is requested or required. If a sentence could fit many unrelated papers unchanged, check whether it carries a necessary premise or merely generic importance language. Preserve useful context and an already coherent author narrative. A required structured abstract or a theoretical or interpretive article may realize these functions differently.
 

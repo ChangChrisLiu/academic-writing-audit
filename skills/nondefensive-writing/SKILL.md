@@ -20,6 +20,8 @@ For each questionable sentence, assess three things separately:
 
 An important fact can have poor wording or excessive repetition. Conversely, negative wording can carry an essential rule. Do not classify a sentence by words such as “not,” “only,” “fixed,” “excluded,” or “limited.”
 
+In an introduction, test each doubtful sentence against the narrowing line from existing progress through gap and motivation to contribution. Remove explanation that merely repeats background or anticipates an objection without advancing that line. Keep the short premise, definition, or consequential boundary needed to understand the next step. A conference introduction may integrate gap and motivation compactly; a journal introduction should make their distinct reasoning explicit according to the target's requirements. Do not turn “avoid explanation for its own sake” into deletion of the rationale that makes the work necessary.
+
 ## Choose a concrete edit
 
 - **Keep** a clear definition, algorithmic exclusion, study endpoint, assumption, consequential limitation, or supported interpretation.

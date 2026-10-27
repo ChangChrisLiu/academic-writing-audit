@@ -1,0 +1,55 @@
+{
+  "hash_algorithm": "sha256",
+  "scope": "Unchanged generated answers, cases, rubric, mapped freeze records, initial writing-skill snapshot, author assessment, and released skill bytes. Excludes this manifest.",
+  "files": {
+    "evals/introduction-focus/README.md": "84a2e7409fd6d0910199e00ce28633b290555eff573626426bb2b62d772cce9d",
+    "evals/introduction-focus/assessment.md": "9220bf36fa445b91c5158597fa4288bb9dce471a5021f54fa1463e92203c1183",
+    "evals/introduction-focus/cases/audit.md": "ad6b2f120f9fb470866ed86954607a82f35cc3e08ea20ed23ff5b79a719b7644",
+    "evals/introduction-focus/cases/draft.md": "d0d76c530c4c43d08c44df0befd9b99870b9ecf80c8a24dcc3b44de291cf8e77",
+    "evals/introduction-focus/initial-design-freeze.json": "1ff12e942dafb9738944c71aa461fa28213f5a1dee63a8ba7566dbd187480320",
+    "evals/introduction-focus/outputs/audit.md": "b74f4e422b98eebbf4a3330f6158a4e82b87daeef3bcf92b609dcbd54b54ab50",
+    "evals/introduction-focus/outputs/initial-draft.md": "00b91f9904d3af31dfead04daab81bd6a840b8ccee75d5489700648c66701349",
+    "evals/introduction-focus/outputs/regression-draft.md": "a9eee6079ec7993a1bb64c40692690e507b6b75fc9641ce9f4fa2204a7501e42",
+    "evals/introduction-focus/regression-design-freeze.json": "b40b2b490e58743bb3020a62071b740d032670870f5e02bb7e20a6c2e6b99487",
+    "evals/introduction-focus/rubric.md": "d8741293dd77014f6d0c322c9e4d5c1d5f96f4b3454d472c1d1cf404cc2a0f81",
+    "evals/introduction-focus/run-metadata.json": "eb88bd63e6aca94b4333af3ed5c014c64e12e6dd7f4fd674052bcbdd722c5b32",
+    "evals/introduction-focus/tested-skills/initial/research-manuscript-writing/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "evals/introduction-focus/tested-skills/initial/research-manuscript-writing/SKILL.snapshot.md": "dfb4a615d50350798f88335adc02f8f051c3c199a80e2bc6e81b728b32497b89",
+    "evals/introduction-focus/tested-skills/initial/research-manuscript-writing/agents/openai.yaml": "62a7ff375091baa65f15d69d4bf5a519bb5b0add273e1d00a067412617fb8112",
+    "evals/introduction-focus/tested-skills/initial/research-manuscript-writing/references/findings-and-endings.md": "114bc958341fe429641df4e206c91ffaa56378f0a9c55955d15b63c0def7fcb9",
+    "evals/introduction-focus/tested-skills/initial/research-manuscript-writing/references/latex-and-word.md": "41bf1e30478072a57c3cd013561d58e5356dd13531726cc0ab4412f293127eb5",
+    "evals/introduction-focus/tested-skills/initial/research-manuscript-writing/references/section-reasoning.md": "b9fb77502681eba629ba60f04d6bf0a19b7238860a12aae54445b22f1a3ce7a8"
+  },
+  "skill_versions": {
+    "released": {
+      "directory": "skills",
+      "files": {
+        "research-manuscript-writing/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+        "research-manuscript-writing/SKILL.md": "dfb4a615d50350798f88335adc02f8f051c3c199a80e2bc6e81b728b32497b89",
+        "research-manuscript-writing/agents/openai.yaml": "62a7ff375091baa65f15d69d4bf5a519bb5b0add273e1d00a067412617fb8112",
+        "research-manuscript-writing/references/findings-and-endings.md": "114bc958341fe429641df4e206c91ffaa56378f0a9c55955d15b63c0def7fcb9",
+        "research-manuscript-writing/references/latex-and-word.md": "41bf1e30478072a57c3cd013561d58e5356dd13531726cc0ab4412f293127eb5",
+        "research-manuscript-writing/references/section-reasoning.md": "9670a255810fbd89e1b4a5bbb03233aaad2a455c0f81f8877fc96b9e63fb9f89",
+        "scientific-story-audit/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+        "scientific-story-audit/SKILL.md": "060bf05061a2369b9ea2734b6e960ce7ffaeec6fdc4789bbccbcd43913e9c51e",
+        "scientific-story-audit/agents/openai.yaml": "9f506d62cf550225ca13f470868fa9068388d827ed53f1f8b287f12d3d2aef84",
+        "academic-writing-audit/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+        "academic-writing-audit/SKILL.md": "0f4ace349d8148b2ef229f4ea62f3de5b8d65d91e47b6dfb7dde4b13f135a470",
+        "academic-writing-audit/agents/openai.yaml": "e0f9d0070fcaad2d342eb1b0e0748049a291ecd5471ffe9e07cbc83784e160b8",
+        "academic-writing-audit/references/argument-and-evidence.md": "897fd5332075511b6123216cb2a2b0187f83d9c0b63f3d97ec735d7eb9a6091d",
+        "academic-writing-audit/references/examples.md": "32c7de0bb5f46024362ad1c8ede14704c3c792692fed81a40d1dd88e250705a4",
+        "academic-writing-audit/references/nondefensive-writing.md": "22440feadacdcf98aefc52bd71c9ffcf0a362b1f67b06dd74b06797d89c02753",
+        "academic-writing-audit/references/prose-checks.md": "569c9d24e76d4a06eb20cf33cdbeb7d0591502813171a356e5b74db3188da091",
+        "academic-writing-audit/references/review-and-patching.md": "aae5f38c4cd535c0c85710450032c8c517cc87979b36cf000ce21e1f7e163290",
+        "academic-writing-audit/references/roles-and-expectations.md": "dc5002ad639557bbe17c0f705cf86f111e46d49b6e3242b4a2f790bbe4fa36b4",
+        "nondefensive-writing/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+        "nondefensive-writing/SKILL.md": "00b58651ca38ec4c1081051143adb63810e6f44830e6e812d4dae8686e15c475",
+        "nondefensive-writing/agents/openai.yaml": "f763884805eda5a725dd7357accd532b2233dafc7eec43a342d7c899f5224f5f",
+        "revision-integrity-audit/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+        "revision-integrity-audit/SKILL.md": "d80b5fe21816452dfddce31548298674f953a76cc5f950fcc928dcb36d42b8db",
+        "revision-integrity-audit/agents/openai.yaml": "518828cc44fe3c025cf1db0ff323ecada6c7e3c119ef2b5ebdbc5a5e7195a5f7",
+        "revision-integrity-audit/references/comparison-decisions.md": "3ca6d784d219845f40ef5eaef5530d394fe860b15fe948e244669b59b7642c4f"
+      }
+    }
+  }
+}

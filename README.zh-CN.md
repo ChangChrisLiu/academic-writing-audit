@@ -57,7 +57,7 @@
 
 ## 理解研究之后再写章节
 
-[research-manuscript-writing](skills/research-manuscript-writing/SKILL.md) 先识别具体问题、动机、贡献和证据，再开始起草。摘要沿问题到结果推进，引言从方向及已有进展收窄到 gap、motivation 和 contribution。文献综述从引言提取两到三个关联方向，把已有研究讲清楚，默认不分类罗列，也不反复对比本文。
+[research-manuscript-writing](skills/research-manuscript-writing/SKILL.md) 先识别具体问题、动机、贡献和证据，再开始起草。引言动笔前先明确目标会议或期刊、读者及投稿重点，再沿一条倒金字塔逻辑，从相关进展收束到 gap、motivation 和 contribution。会议稿可以紧凑整合 gap 与 motivation，期刊稿则把问题、后果和思路依据讲清楚，具体要求以投稿方为准。后续审查删去不推进主线的解释和跳转，同时保留必要的推理桥梁。摘要沿问题到结果推进，文献综述从引言提取两到三个关联方向，把已有研究讲清楚，默认不分类罗列，也不反复对比本文。
 
 方法按依赖顺序解释，避免重复定义和防御性强调。结果、局限性与结论根据研究设计和学科要求组织，整体使用简洁连贯的段落。支持 LaTeX 的引用和章节语法，以及 Word 的原生样式与字段保留。完整说明见[论文结构与写作指南](docs/manuscript-guide.md)。
 
@@ -219,6 +219,8 @@ npx skills add ChangChrisLiu/academic-writing-audit --skill '*' -a codex
 [文献工作流执行测试](evals/reference-workflow/README.md)新增两位 agent 各自完成的 Scholar 检索与原始出版信息核对、实际 Cite → BibTeX 导出，以及编译并查看页面后的 LaTeX 去重修复。Scholar 未导出的已核实 DOI 得到保留。该记录保留了首次 Word 操作受阻的状态，后续的[原生 Word 刷新测试](evals/word-native-refresh/README.md)已在选择 APA 第六版后完成刷新、保存和重新打开核对。正文与表格的两处引用分别对应文末两条文献，三个原生域及两个来源身份均保留。这个构造案例不代表其他引用管理器集成或普遍可靠性已经验证。
 
 [Word 引用扩展测试](evals/word-citation-transfer/README.md)由两位 agent 独立使用 skill 审查同一组同作者同年、真实脚注、图注、未引用文献和不完整导出案例，并设置不加载引用 skill 的对照。另一位 agent 复核了完整报告与实际文件。三组判断均符合案例要求，修正正文笔误后七个域全部保留。对照组也通过，因此本次不证明 skill 带来了性能提升；没有发现需要新增规则的问题，skill 内容保持不变。
+
+[引言收束与投稿适配检查](evals/introduction-focus/README.md)覆盖会议和期刊试写、缺少投稿对象、档案研究的逻辑跳转，以及压缩后丢失的推理桥梁。三次独立上下文执行包含一次针对性复测，初次期刊稿重复已有解释的问题促成了规则补充。评估由 skill 作者完成，记录保留首次不足及复测中可进一步精简的表述，没有无 skill 对照或独立评分者。
 
 ## 素材与贡献
 

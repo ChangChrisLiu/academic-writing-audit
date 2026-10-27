@@ -29,6 +29,8 @@ An important fact may need a shorter sentence or a different location. A sentenc
 
 A broad motivation sentence can perform a necessary bridging job. Before cutting it, read the preceding and following sentences together. If the deletion changes “problem → challenge → contribution” into “problem → announcement,” the cut may remove the reason for the method.
 
+For introductions, use the intended venue and one narrowing argument to decide which explanation belongs here. A sentence should help establish the relevant progress, unresolved issue, why it matters, why this scientific move follows, or the supported contribution. Delete or relocate exposition that does none of these jobs rather than explaining every concept in advance. Preserve a brief premise or definition when the next inference depends on it. Compact conference framing and explicit journal gap-to-motivation reasoning both require continuity; neither licenses repeated justification or reviewer-facing defenses.
+
 Do not rewrite a sound passage to demonstrate editorial activity. For each change, identify the defect and its effect on understanding. Synonymous phrasing, a shorter word count, or matching the editor's preferred voice is not enough.
 
 A local addition may be the smallest repair. Restore an experiment's endpoint, introduce a new object, or explain a comparison before removing surrounding prose. The goal is sufficient explanation with little repetition, not the shortest possible text.

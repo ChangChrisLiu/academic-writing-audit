@@ -77,7 +77,9 @@
         "research-manuscript-writing/references/latex-and-word.md": "41bf1e30478072a57c3cd013561d58e5356dd13531726cc0ab4412f293127eb5",
         "research-manuscript-writing/references/section-reasoning.md": "855997cbf72ae98d03835716a31d8fc6888f522f3ad0b682adf0686a29785e45",
         "research-manuscript-writing/agents/openai.yaml": "62a7ff375091baa65f15d69d4bf5a519bb5b0add273e1d00a067412617fb8112"
-      }
+      },
+      "git_commit": "6b9eade3a34be2c2d37c47a9937066307756b523"
     }
-  }
+  },
+  "historical_resolution": "Recorded hashes are preserved. Resolve pinned entries against the stated Git commit when current skills or manifest metadata change."
 }

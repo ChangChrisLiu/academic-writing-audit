@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-27",
+  "baseline_commit": "6b9eade3a34be2c2d37c47a9937066307756b523",
+  "execution": "Three fresh-context subagent executions in the same host session, with no parent-turn history. The third repeats the drafting packet after one rule clarification.",
+  "controls": false,
+  "assessment": "Skill author reviewed complete responses against the frozen semantic rubric; unblinded, not independently adjudicated.",
+  "runtime": "Exact model version, sampling configuration, and runtime identifiers were not captured. No model-comparison claim is made.",
+  "resources": "Only the specified fictional packet and frozen skill folders were permitted. No browsing, memory, repository inspection, private rubric, sibling output, or delegation was allowed. Output was confined to separate temporary directories.",
+  "format_scope": "Plain-text manuscript drafting and audit proposals only. No source-file editing, literature retrieval, rendering, or real-venue verification was tested.",
+  "publication": "Case, rubric and generated answer bytes are unchanged. The initial SKILL.md is stored as SKILL.snapshot.md to avoid duplicate discovery. Freeze paths and read-file lists are mapped to repository-relative paths; original local freeze digests are retained.",
+  "runs": [
+    {
+      "id": "initial-draft",
+      "packet": "cases/draft.md",
+      "output": "outputs/initial-draft.md",
+      "freeze": "initial-design-freeze.json",
+      "reported_reads": [
+        "cases/draft.md",
+        "tested-skills/initial/research-manuscript-writing/SKILL.snapshot.md",
+        "tested-skills/initial/research-manuscript-writing/references/section-reasoning.md",
+        "tested-skills/initial/research-manuscript-writing/references/latex-and-word.md"
+      ]
+    },
+    {
+      "id": "audit",
+      "packet": "cases/audit.md",
+      "output": "outputs/audit.md",
+      "freeze": "initial-design-freeze.json",
+      "reported_reads": [
+        "cases/audit.md",
+        "skills/scientific-story-audit/SKILL.md",
+        "skills/nondefensive-writing/SKILL.md",
+        "skills/revision-integrity-audit/SKILL.md",
+        "skills/revision-integrity-audit/references/comparison-decisions.md"
+      ],
+      "note": "academic-writing-audit was available but not reported as read, so its entrypoint is not independently behavior-tested by this run."
+    },
+    {
+      "id": "regression-draft",
+      "packet": "cases/draft.md",
+      "output": "outputs/regression-draft.md",
+      "freeze": "regression-design-freeze.json",
+      "reported_reads": [
+        "cases/draft.md",
+        "skills/research-manuscript-writing/SKILL.md",
+        "skills/research-manuscript-writing/references/section-reasoning.md"
+      ]
+    }
+  ],
+  "read_path_resolution": "Case, output, freeze, and tested-skills paths are relative to this evaluation directory. Paths beginning skills/ are repository-relative."
+}
