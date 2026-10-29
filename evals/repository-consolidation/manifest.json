@@ -116,7 +116,10 @@
         "word-citation-audit/agents/openai.yaml": "7076f33e8a22ad5b2a94dc2a92c6368c0cc698c3c2ff70a68641ede9ca0e3946",
         "word-citation-audit/references/matching-and-coverage.md": "ef76226753e8869fc6b490514602746a3dbbba8468e4d4c4f3e6e003eb888a85",
         "word-citation-audit/references/reference-ledger.md": "c6c5b5f81bb3926dbe942a954c04dd2564cdc7a9542cf85b8a011826efc1140a"
-      }
+      },
+      "git_commit": "b6dffddac2df3079feabdf0bafcda14862014382"
     }
-  }
+  },
+  "source_git_commit": "b6dffddac2df3079feabdf0bafcda14862014382",
+  "historical_resolution": "Original v0.9.0 consolidation record, maintenance files and released skills resolve at this commit; expected hashes are unchanged."
 }

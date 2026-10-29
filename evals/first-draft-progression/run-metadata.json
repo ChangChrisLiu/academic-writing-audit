@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-29",
+  "context": "All participants started with fresh task context. The inherited runtime and general instructions remain shared; this is not model-independent validation. No model override was requested or recorded.",
+  "initial_runs": [
+    {
+      "role": "engineering",
+      "agent": "draft_engineering_test",
+      "packet": "cases/engineering.md",
+      "answer": "runs/engineering.md",
+      "loaded_skill": "research-manuscript-writing",
+      "read_references": [
+        "literature-to-story.md",
+        "section-reasoning.md",
+        "prose-policy.md",
+        "latex-and-word.md"
+      ]
+    },
+    {
+      "role": "literature",
+      "agent": "draft_literature_test",
+      "packet": "cases/literature.md",
+      "answer": "runs/literature.md",
+      "loaded_skill": "related-work-synthesis",
+      "read_references": [
+        "prose-policy.md"
+      ]
+    },
+    {
+      "role": "abstract edge cases",
+      "agent": "draft_abstract_edges_test",
+      "packet": "cases/abstract-edges.md",
+      "answer": "runs/edges.md",
+      "loaded_skill": "research-manuscript-writing",
+      "read_references": [
+        "section-reasoning.md",
+        "prose-policy.md",
+        "findings-and-endings.md"
+      ]
+    },
+    {
+      "role": "no-repository-skill control",
+      "agent": "draft_engineering_control",
+      "packet": "cases/engineering.md",
+      "answer": "runs/control.md",
+      "loaded_skill": null,
+      "read_references": []
+    }
+  ],
+  "assessment": {
+    "agent": "draft_independent_assessment",
+    "initial": "assessment-initial.md",
+    "control": "assessment-control.md",
+    "inputs": "Frozen cases and rubric, followed by full outputs. The control was provided after the initial assessment was written. Labels were visible; assessment was not blinded. The assessor did not read policy changes or private manuscripts."
+  },
+  "limits": [
+    "Seven initial synthetic task units, with one additional no-repository-skill engineering control. No repeated sampling or effect estimate.",
+    "The freeze records four changed skill bundles, but behavior trials invoked only research-manuscript-writing and related-work-synthesis. The other two entrypoints receive consistency checks only.",
+    "Participants were instructed to read only their packet and assigned standalone skill. They did not receive the rubric, prior answers or assessment. Directory restrictions were prompt instructions, not enforced filesystem isolation.",
+    "The coordinator consulted private editorial history to generalize lessons. Trial participants did not receive it; all case facts and source labels are fictional. No private text or metric was included.",
+    "No live discovery, reference-authenticity verification, compilation, rendered document inspection, native Word operation or full research-team workflow was performed."
+  ],
+  "regression": {
+    "agent": "draft_literature_regression",
+    "packet": "cases/literature.md",
+    "answer": "runs/literature-regression.md",
+    "freeze": "regression-freeze.json",
+    "loaded_skill": "related-work-synthesis",
+    "read_references": [
+      "prose-policy.md"
+    ],
+    "assessor": "draft_independent_assessment",
+    "assessment": "assessment-regression.md",
+    "assessor_condition": "The same independent assessor received only the new output and unchanged packet/rubric, not the revised policy. Prior assessments remain unchanged."
+  }
+}

@@ -26,12 +26,12 @@ Let the evidence revise the initial idea. Keep exploratory debate, search dilige
 
 Read [section reasoning](references/section-reasoning.md) for any abstract, introduction, literature-review, or method work. Use it to develop each requested section's distinct job:
 
-- **Abstract:** Connect the task need, unresolved difficulty, contribution, and principal evidence at the level of the work.
-- **Introduction:** Follow one narrowing argument from relevant progress through gap and motivation to the supported contribution, using the target's requirements.
-- **Literature review:** Derive connected research threads from that argument and explain prior studies in their own settings, without default comparisons to the present paper.
+- **Abstract:** Normally use at most six sentences, connecting task need, unresolved difficulty and contribution, then ending in the principal supported result. Preserve the reasoning while removing secondary detail; author and required venue formats take precedence.
+- **Introduction:** Choose the opening perspective and its path to the research question before drafting. Develop one narrowing argument from relevant progress through gap and motivation to the supported contribution.
+- **Literature review:** Continue that question through a connected account of prior work in its own settings. Do not prescribe a number of directions, list method families, or default to comparisons with the present paper.
 - **Method:** Follow dependencies from objects and assumptions through operations to their outputs and use; do not repeat every representation verbatim.
 
-Read [findings and endings](references/findings-and-endings.md) for Results, Discussion, Limitations, or Conclusion. Adapt the reasoning to the discipline, study design, and supplied format instead of imposing section headings, sentence counts, or a benchmark narrative.
+Read [findings and endings](references/findings-and-endings.md) for Results, Discussion, Limitations, or Conclusion. Adapt the reasoning to the discipline, study design, and supplied format instead of imposing section headings, universal sentence counts, or a benchmark narrative.
 
 ## Keep the prose focused
 

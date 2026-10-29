@@ -33,7 +33,7 @@ Apply the same evidence standard to favorable and unfavorable judgments at the s
 
 ## Check the manuscript's progression
 
-Check whether a concrete question motivates the method. The abstract should connect task need, the existing route's limitation, unresolved difficulty, contribution, and principal finding. The introduction should narrow from relevant progress through gap and motivation to contribution. Generic importance statements and module lists cannot supply these links. Preserve coherent passages and required formats.
+Check whether a concrete question motivates the method. An ordinary abstract normally has at most six sentences and connects task need, difficulty and contribution before closing with the principal supported result and its necessary scope. Preserve author or required venue formats; do not force six slots, overload sentences or invent missing results. The introduction's chosen opening should lead through relevant progress, gap and motivation to contribution. Generic importance statements and module lists cannot supply these links. Preserve coherent passages.
 
 For an investigated first-draft story, check its closest prior solution and meaningful counterevidence in the existing record. Separate established progress, documented limitations, plausible questions, and access-related unknowns. Introductory gap assertions and agent agreement do not verify a field-wide gap. Request only consequential missing checks, not a new survey for every edit.
 
@@ -41,7 +41,7 @@ For an apparently obvious gap, check prior attempts, constraints, and alternativ
 
 Before judging introduction emphasis, establish the venue, track or article type, readers, and evidenced priorities. Separate supplied criteria from inference; leave venue-specific judgments unresolved when the target is missing. Trace one narrowing line across paragraphs. Conference framing may integrate gap and motivation compactly; journal framing should make the unresolved issue, consequence, and rationale explicit. Actual requirements govern. Remove detours while retaining the smallest premise or definition needed for the next inference, and recheck after shortening.
 
-Literature should follow connected threads, usually two or three, derived from the introduction. Explain prior studies and their relationships rather than separate camps, paper lists, or repeated present-paper contrasts. Put present-paper positioning in the introduction or discussion unless explicitly requested otherwise. Methods follow dependency order; findings and endings follow the design and supplied conventions. Do not impose lists or paragraph quotas.
+Literature should develop the introduction's question through connected scientific points, with no preset number of directions. Explain what studies established and why the next point follows, rather than listing method families or adding repeated present-paper contrasts. Check that shared predicates and claims of extension or dependence are supported; a smooth story must not merge unlike mechanisms into a false lineage. Put present-paper positioning in the introduction or discussion unless explicitly requested otherwise. Methods follow dependency order; findings and endings follow the design and supplied conventions.
 
 ## Make the decision explicit
 

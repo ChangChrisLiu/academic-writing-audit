@@ -1,0 +1,58 @@
+{
+  "hash_algorithm": "sha256",
+  "scope": "First-draft progression cases, rubric, freezes, full outputs, independent assessments, metadata and two initial policy snapshots; current released files for the four affected skills. Excludes this manifest.",
+  "files": {
+    "evals/first-draft-progression/README.md": "5bddf0fa762a9a5ffc3eb2d69b40cf70a19e4874b3017d656333ece2b1bb7608",
+    "evals/first-draft-progression/assessment-control.md": "932b1366b3fdb70f73fd4664140d98bcadfbd7fc5b54b922b54f4dc0eec0560f",
+    "evals/first-draft-progression/assessment-initial.md": "f4925005f05e3b8903d0a3209bb7fb6a7f34409f544f2072ef299cca977d7733",
+    "evals/first-draft-progression/assessment-regression.md": "77e676cf9d7c2adf7e39f3a0a47df720efdaba91a470604fb339aef2e2704932",
+    "evals/first-draft-progression/cases/abstract-edges.md": "6c050b92b50246faab498f4dcf844a0cb9809478427fe45c7ec80f79dad3952a",
+    "evals/first-draft-progression/cases/engineering.md": "0f4a6d08e839d67bc274073b99bfe5de5694f8df0515425f8e4383d964f5180d",
+    "evals/first-draft-progression/cases/literature.md": "491d2908c84182a346b328192c896a6a9a7fc3c81ced81d44bf0998002e4067c",
+    "evals/first-draft-progression/design-freeze.json": "175652601d027ed795521ad4197f976ffbddb6dd01516ba3d83d876a69adffa8",
+    "evals/first-draft-progression/regression-freeze.json": "600f134761e21dcfa0d6761732860ed0d3c9227ce22fbe96db943c3028931ecf",
+    "evals/first-draft-progression/rubric.md": "94370582ae445c1111d1f1762b60f2cea80e06bb62afd0cf5f70e48b650f659b",
+    "evals/first-draft-progression/run-metadata.json": "114d2bf9db4e8d1c9edd091747554d98ede5eb500bf9645dcb97bba6da7eff5f",
+    "evals/first-draft-progression/runs/control.md": "d2fbe96e3ca064d739493b75413ae8b07eb0ff63052115addac608ba6cf35d23",
+    "evals/first-draft-progression/runs/edges.md": "7e35f3ce305eed5a1dd335fa07ab2581435dc7593b5e1774b67f3499b8f11e15",
+    "evals/first-draft-progression/runs/engineering.md": "367a6669f2f2d164bfca0a67e872e29503d97ce89886c5da12d0edfecd75bb75",
+    "evals/first-draft-progression/runs/literature-regression.md": "db4936ca4a2f33fd8844330e10d449423e0605daa6897b36c2432ec5d64c301a",
+    "evals/first-draft-progression/runs/literature.md": "a5972bff425bdd4852e4f72c5fdeb31443c21fa57b8ade9917255591431cb1c7",
+    "evals/first-draft-progression/skill-versions/initial/related-work-synthesis/SKILL.md.txt": "e9481b158963e09021f2edc8e48697c16350833ca3b51e16e44789085ec62f61",
+    "evals/first-draft-progression/skill-versions/initial/research-manuscript-writing/references/section-reasoning.md.txt": "de1dae11f649329e42b1fb2b4a3a42e0d554d015529aeba5075451389bb277ff",
+    "evals/first-draft-progression/structural-checks.json": "d65f59b5c217edeee0e981872d14d0228d42fb1c267e1f4b2c8014838ffdba8e"
+  },
+  "skill_versions": {
+    "released": {
+      "directory": "skills",
+      "files": {
+        "research-manuscript-writing/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+        "research-manuscript-writing/SKILL.md": "f0b4bccdd2b0f71585c03ee9b7069d71c6d9ae47f3f3a3ef6b9d9e7ec41038ad",
+        "research-manuscript-writing/agents/openai.yaml": "62a7ff375091baa65f15d69d4bf5a519bb5b0add273e1d00a067412617fb8112",
+        "research-manuscript-writing/references/findings-and-endings.md": "114bc958341fe429641df4e206c91ffaa56378f0a9c55955d15b63c0def7fcb9",
+        "research-manuscript-writing/references/latex-and-word.md": "41bf1e30478072a57c3cd013561d58e5356dd13531726cc0ab4412f293127eb5",
+        "research-manuscript-writing/references/literature-to-story.md": "298cd734ca75573a850418827fec65eb110044bee61aa7ef668ec32968d5a6ca",
+        "research-manuscript-writing/references/prose-policy.md": "5e966bc0d89af9972b9b584e9bf67a461f581d84c63854c3bf29d1913c57e788",
+        "research-manuscript-writing/references/section-reasoning.md": "4090d6bafb0ec5f87b585071d2604971c1cfb743b96066fd56f67f9eeee42bb1",
+        "scientific-story-audit/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+        "scientific-story-audit/SKILL.md": "5417430b272761e4d4fffe2e0ee7cbeca14a3a7d4f0dbcab689def173a988e49",
+        "scientific-story-audit/agents/openai.yaml": "9f506d62cf550225ca13f470868fa9068388d827ed53f1f8b287f12d3d2aef84",
+        "scientific-story-audit/references/prose-policy.md": "5e966bc0d89af9972b9b584e9bf67a461f581d84c63854c3bf29d1913c57e788",
+        "academic-writing-audit/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+        "academic-writing-audit/SKILL.md": "cb71f487783ea920bf928da15a8ad4e11d7d77138d29c04c22e1ebd3705b4c06",
+        "academic-writing-audit/agents/openai.yaml": "e0f9d0070fcaad2d342eb1b0e0748049a291ecd5471ffe9e07cbc83784e160b8",
+        "academic-writing-audit/references/argument-and-evidence.md": "897fd5332075511b6123216cb2a2b0187f83d9c0b63f3d97ec735d7eb9a6091d",
+        "academic-writing-audit/references/examples.md": "32c7de0bb5f46024362ad1c8ede14704c3c792692fed81a40d1dd88e250705a4",
+        "academic-writing-audit/references/nondefensive-writing.md": "22440feadacdcf98aefc52bd71c9ffcf0a362b1f67b06dd74b06797d89c02753",
+        "academic-writing-audit/references/prose-checks.md": "569c9d24e76d4a06eb20cf33cdbeb7d0591502813171a356e5b74db3188da091",
+        "academic-writing-audit/references/prose-policy.md": "5e966bc0d89af9972b9b584e9bf67a461f581d84c63854c3bf29d1913c57e788",
+        "academic-writing-audit/references/review-and-patching.md": "aae5f38c4cd535c0c85710450032c8c517cc87979b36cf000ce21e1f7e163290",
+        "academic-writing-audit/references/roles-and-expectations.md": "dc5002ad639557bbe17c0f705cf86f111e46d49b6e3242b4a2f790bbe4fa36b4",
+        "related-work-synthesis/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+        "related-work-synthesis/SKILL.md": "ea5ab92d062c894b9cb620626dc05f2866acb37a3bfce08352b27cb50eeb5f11",
+        "related-work-synthesis/agents/openai.yaml": "b48ccd7b2a9c525ed066548930682e1114f2ed948ba87dd627605aab4b97becf",
+        "related-work-synthesis/references/prose-policy.md": "5e966bc0d89af9972b9b584e9bf67a461f581d84c63854c3bf29d1913c57e788"
+      }
+    }
+  }
+}

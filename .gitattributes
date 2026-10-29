@@ -18,3 +18,6 @@ evals/word-native-refresh/native-api/reopened.stdout.txt whitespace=cr-at-eol
 
 # Keep the control run's captured empty note-separator text byte for byte.
 evals/word-citation-transfer/runs/control/output/static-extraction.txt whitespace=-blank-at-eol
+
+# Preserve the first-draft control answer exactly as captured.
+evals/first-draft-progression/runs/control.md whitespace=-blank-at-eof

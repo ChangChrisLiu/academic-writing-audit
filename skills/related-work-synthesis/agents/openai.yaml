@@ -1,4 +1,4 @@
 interface:
   display_name: "Related Work Synthesis"
   short_description: "Connect prior work through the introduction's logic"
-  default_prompt: "Use $related-work-synthesis to develop two or three connected literature threads from this introduction and explain the supplied studies without default comparisons to the present paper."
+  default_prompt: "Use $related-work-synthesis to develop this introduction's research question through a connected account of the supplied studies, without preset categories or default comparisons to the present paper."

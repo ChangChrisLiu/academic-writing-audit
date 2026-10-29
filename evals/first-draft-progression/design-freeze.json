@@ -1,0 +1,40 @@
+{
+  "frozen_at_utc": "2026-10-29T18:52:00.792292+00:00",
+  "base_git_commit": "b6dffddac2df3079feabdf0bafcda14862014382",
+  "design": "Seven synthetic task units across three fresh-context skill participants; engineering packet also assigned to one fresh-context no-repository-skill control. Qualitative interpretation and the already-coherent paragraph are preservation checks. This is development regression evidence, not a benchmark.",
+  "case_files": {
+    "evals/first-draft-progression/cases/abstract-edges.md": "6c050b92b50246faab498f4dcf844a0cb9809478427fe45c7ec80f79dad3952a",
+    "evals/first-draft-progression/cases/engineering.md": "0f4a6d08e839d67bc274073b99bfe5de5694f8df0515425f8e4383d964f5180d",
+    "evals/first-draft-progression/cases/literature.md": "491d2908c84182a346b328192c896a6a9a7fc3c81ced81d44bf0998002e4067c"
+  },
+  "rubric_sha256": "94370582ae445c1111d1f1762b60f2cea80e06bb62afd0cf5f70e48b650f659b",
+  "tested_skills": {
+    "skills/research-manuscript-writing/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "skills/research-manuscript-writing/SKILL.md": "f0b4bccdd2b0f71585c03ee9b7069d71c6d9ae47f3f3a3ef6b9d9e7ec41038ad",
+    "skills/research-manuscript-writing/agents/openai.yaml": "62a7ff375091baa65f15d69d4bf5a519bb5b0add273e1d00a067412617fb8112",
+    "skills/research-manuscript-writing/references/findings-and-endings.md": "114bc958341fe429641df4e206c91ffaa56378f0a9c55955d15b63c0def7fcb9",
+    "skills/research-manuscript-writing/references/latex-and-word.md": "41bf1e30478072a57c3cd013561d58e5356dd13531726cc0ab4412f293127eb5",
+    "skills/research-manuscript-writing/references/literature-to-story.md": "298cd734ca75573a850418827fec65eb110044bee61aa7ef668ec32968d5a6ca",
+    "skills/research-manuscript-writing/references/prose-policy.md": "5e966bc0d89af9972b9b584e9bf67a461f581d84c63854c3bf29d1913c57e788",
+    "skills/research-manuscript-writing/references/section-reasoning.md": "de1dae11f649329e42b1fb2b4a3a42e0d554d015529aeba5075451389bb277ff",
+    "skills/related-work-synthesis/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "skills/related-work-synthesis/SKILL.md": "e9481b158963e09021f2edc8e48697c16350833ca3b51e16e44789085ec62f61",
+    "skills/related-work-synthesis/agents/openai.yaml": "b48ccd7b2a9c525ed066548930682e1114f2ed948ba87dd627605aab4b97becf",
+    "skills/related-work-synthesis/references/prose-policy.md": "5e966bc0d89af9972b9b584e9bf67a461f581d84c63854c3bf29d1913c57e788",
+    "skills/scientific-story-audit/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "skills/scientific-story-audit/SKILL.md": "5417430b272761e4d4fffe2e0ee7cbeca14a3a7d4f0dbcab689def173a988e49",
+    "skills/scientific-story-audit/agents/openai.yaml": "9f506d62cf550225ca13f470868fa9068388d827ed53f1f8b287f12d3d2aef84",
+    "skills/scientific-story-audit/references/prose-policy.md": "5e966bc0d89af9972b9b584e9bf67a461f581d84c63854c3bf29d1913c57e788",
+    "skills/academic-writing-audit/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "skills/academic-writing-audit/SKILL.md": "cb71f487783ea920bf928da15a8ad4e11d7d77138d29c04c22e1ebd3705b4c06",
+    "skills/academic-writing-audit/agents/openai.yaml": "e0f9d0070fcaad2d342eb1b0e0748049a291ecd5471ffe9e07cbc83784e160b8",
+    "skills/academic-writing-audit/references/argument-and-evidence.md": "897fd5332075511b6123216cb2a2b0187f83d9c0b63f3d97ec735d7eb9a6091d",
+    "skills/academic-writing-audit/references/examples.md": "32c7de0bb5f46024362ad1c8ede14704c3c792692fed81a40d1dd88e250705a4",
+    "skills/academic-writing-audit/references/nondefensive-writing.md": "22440feadacdcf98aefc52bd71c9ffcf0a362b1f67b06dd74b06797d89c02753",
+    "skills/academic-writing-audit/references/prose-checks.md": "569c9d24e76d4a06eb20cf33cdbeb7d0591502813171a356e5b74db3188da091",
+    "skills/academic-writing-audit/references/prose-policy.md": "5e966bc0d89af9972b9b584e9bf67a461f581d84c63854c3bf29d1913c57e788",
+    "skills/academic-writing-audit/references/review-and-patching.md": "aae5f38c4cd535c0c85710450032c8c517cc87979b36cf000ce21e1f7e163290",
+    "skills/academic-writing-audit/references/roles-and-expectations.md": "dc5002ad639557bbe17c0f705cf86f111e46d49b6e3242b4a2f790bbe4fa36b4"
+  },
+  "restriction": "Participants receive the specified packet and standalone skills only, not rubric or other outputs; control receives packet only. Reads are prompt-restricted, not filesystem-isolated."
+}

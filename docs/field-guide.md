@@ -36,13 +36,13 @@ paragraph explicitly if omitting it could look like deletion.
 
 **Pattern:** A paragraph contrasts “historical-data methods” with “interactive methods,” although one cited method uses historical records and later expert annotations. Another paper already weights examples, so “we first introduce weighting” is unsupported.
 
-**Repair:** Follow connected research threads derived from the introduction. Explain what prior studies did and how they relate, without imposing separate camps or default comparisons with the present paper. An excerpt's silence about a feature means unknown, not absent. Bound explicit novelty claims to the available source coverage.
+**Repair:** Develop the introduction's question through connected scientific points supported by the literature. Explain what prior studies did and why the next point follows, without preset categories or default comparisons with the present paper. Check that a transition does not invent a shared mechanism or historical dependence. An excerpt's silence about a feature means unknown, not absent. Bound explicit novelty claims to the available source coverage.
 
 **Use [related-work-synthesis](../skills/related-work-synthesis/SKILL.md):**
 
 ```text
-Read the introduction, then synthesize these sources through two or three
-connected research threads. Explain prior work and its relationships.
+Read the introduction, then develop its question through a connected account
+of these sources. Do not begin with a fixed number of literature categories.
 Avoid default self-comparison and identify material source uncertainties.
 ```
 

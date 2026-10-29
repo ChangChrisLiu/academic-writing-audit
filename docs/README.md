@@ -33,7 +33,7 @@ The 18 folders below are independently installable. The [installation instructio
 | Unclear terminology, awkward phrasing, tangled sentences, or repetition | [academic-prose-editing](../skills/academic-prose-editing/SKILL.md) | Natural paragraphs with clear reasoning and preserved scientific meaning. |
 | A missing bridge between problem, contribution, and evidence | [scientific-story-audit](../skills/scientific-story-audit/SKILL.md) | A connected argument that preserves the contribution's scope. |
 | Rebuttal-like prose, repeated assurances, or piles of caveats | [nondefensive-writing](../skills/nondefensive-writing/SKILL.md) | Direct explanations with necessary boundaries intact. |
-| A paper list, false categories, or an unsupported “first” | [related-work-synthesis](../skills/related-work-synthesis/SKILL.md) | Connected literature threads that explain prior studies without default self-comparison. |
+| A paper list, false categories, or an unsupported “first” | [related-work-synthesis](../skills/related-work-synthesis/SKILL.md) | A connected literature narrative that develops the research question without preset categories or default self-comparison. |
 | A conclusion stronger than its supporting observation | [claim-evidence-audit](../skills/claim-evidence-audit/SKILL.md) | Claims matched to the study and inference that support them. |
 | Ambiguous baselines, ablations, budgets, or data eligibility | [experiment-comparison-audit](../skills/experiment-comparison-audit/SKILL.md) | Operational definitions of what was actually compared. |
 | Results that merely repeat numbers or over-explain mechanisms | [results-interpretation](../skills/results-interpretation/SKILL.md) | Useful interpretation with attribution and uncertainty in scope. |

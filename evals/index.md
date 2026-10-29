@@ -20,6 +20,7 @@ The linked records preserve their original procedures, complete public outputs, 
 | [Roles and revision integrity](roles-revision-integrity/README.md) | Discipline-specific review, intended repairs, useful shortening and information preservation. | Guided fictional cases with a separate assessor; no unguided control. |
 | [Reasoning and expression](reasoning-rhythm/README.md) | Methods, interpretation and mathematical keep/repair decisions; retained optional refinements. | Guided checks; no authorship score or causal effectiveness estimate. |
 | [Introduction focus](introduction-focus/README.md) | Destination-aware drafting, detours and reasoning lost through shortening. | Author-assessed fictional cases; initial shortcomings remain visible. |
+| [First-draft progression](first-draft-progression/README.md) | Six-sentence default, result-ended abstracts, a scoped introduction argument and connected literature without preset categories. | Seven fictional task units, one no-repository-skill control, separate assessment and a targeted literature regression; no measured general benefit. |
 
 ## Research preparation
 

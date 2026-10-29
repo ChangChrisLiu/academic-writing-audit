@@ -37,7 +37,9 @@ Before repairing a section, identify the concrete question, audience, supported 
 
 For an introduction, establish the venue, track or article type, readers, and submission priorities. Distinguish official or supplied criteria from inference. If the destination is unknown, continue general logic checks and ask before tailoring; do not invent venue expectations.
 
-An abstract should connect task need, the existing route's limitation, unresolved difficulty, contribution, and principal evidence. An introduction should narrow from relevant progress through gap and motivation to contribution. Motivation explains why the scientific move addresses the gap; a module catalogue or checklist of topics cannot replace those connections.
+An ordinary abstract should normally use at most six sentences, connect task need, unresolved difficulty and contribution, and end in the principal supported result with its necessary scope. Check actual sentence boundaries without rewarding overloaded clauses. Follow explicit author or required venue formats, and keep an abstract provisional if results are absent. A module catalogue or a shortened method inventory cannot replace the reasoning.
+
+For an introduction, check whether the chosen opening leads these readers to the actual problem. Trace that path through relevant progress, gap and motivation to contribution. Explain a competing route's relevant requirements and their consequence in this setting, retaining their precise scope; avoid repeated disadvantage lists or objections that interrupt the narrowing line. Motivation explains why the proposed move follows.
 
 Trace one narrowing line across paragraphs and flag unrelated applications, reopened surveys, and method catalogues that interrupt it. A conference introduction may integrate gap and motivation compactly; a journal introduction should make the unresolved issue, consequence, and rationale explicit. Actual venue requirements govern, without a fixed length or heading rule.
 

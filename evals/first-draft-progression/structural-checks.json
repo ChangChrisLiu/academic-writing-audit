@@ -1,0 +1,42 @@
+{
+  "baseline_git_commit": "b6dffddac2df3079feabdf0bafcda14862014382",
+  "unit_tests": {
+    "command": "python3 -m unittest discover -s scripts -p 'test_*.py'",
+    "executed": 23,
+    "result": "passed"
+  },
+  "pre_record_validation": {
+    "skills": 18,
+    "local_links": 631,
+    "anchors": 10,
+    "manifests": 24,
+    "recorded_hashes": 946,
+    "shared_copies": 16,
+    "errors": [],
+    "warnings": []
+  },
+  "historical_preservation": {
+    "historical_eval_files": 580,
+    "changed": [
+      "evals/repository-consolidation/manifest.json"
+    ],
+    "old_expected_hashes_preserved": true
+  },
+  "scope": "Documentation and skill instructions. Maintenance scripts and shared sources are unchanged. Existing evaluation evidence remains unchanged apart from manifest resolution metadata; the current evaluation index is maintained separately.",
+  "installed_sync": {
+    "affected_skills": [
+      "research-manuscript-writing",
+      "scientific-story-audit",
+      "academic-writing-audit",
+      "related-work-synthesis"
+    ],
+    "baseline_unchanged_before_copy": true,
+    "full_folder_hashes_match": true
+  },
+  "freeze_checks": {
+    "initial_skill_hashes_resolved": 26,
+    "case_and_rubric_hashes_match": true,
+    "regression_skill_hashes_resolved": 4,
+    "initial_snapshot_count": 2
+  }
+}

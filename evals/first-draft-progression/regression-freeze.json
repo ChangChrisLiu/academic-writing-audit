@@ -1,0 +1,19 @@
+{
+  "frozen_at_utc": "2026-10-29T18:56:43.101689+00:00",
+  "reason": "Refine source selection after an independently recorded optional cohesion concern; no material initial failure was reported. Do not force all sources into a short review or omit consequential counterevidence.",
+  "cases": {
+    "evals/first-draft-progression/cases/literature.md": "491d2908c84182a346b328192c896a6a9a7fc3c81ced81d44bf0998002e4067c"
+  },
+  "rubric_sha256": "94370582ae445c1111d1f1762b60f2cea80e06bb62afd0cf5f70e48b650f659b",
+  "tested_skill": {
+    "skills/related-work-synthesis/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "skills/related-work-synthesis/SKILL.md": "ea5ab92d062c894b9cb620626dc05f2866acb37a3bfce08352b27cb50eeb5f11",
+    "skills/related-work-synthesis/agents/openai.yaml": "b48ccd7b2a9c525ed066548930682e1114f2ed948ba87dd627605aab4b97becf",
+    "skills/related-work-synthesis/references/prose-policy.md": "5e966bc0d89af9972b9b584e9bf67a461f581d84c63854c3bf29d1913c57e788"
+  },
+  "initial_policy_snapshot_map": {
+    "skills/related-work-synthesis/SKILL.md": "evals/first-draft-progression/skill-versions/initial/related-work-synthesis/SKILL.md.txt",
+    "skills/research-manuscript-writing/references/section-reasoning.md": "evals/first-draft-progression/skill-versions/initial/research-manuscript-writing/references/section-reasoning.md.txt"
+  },
+  "restriction": "Fresh-context participant receives the unchanged literature packet and revised standalone skill; no previous output, rubric or assessment. Prompt restriction only."
+}
