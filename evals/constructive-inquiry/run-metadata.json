@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-29",
+  "base_git_commit": "86dc5e1ad66bf9ee41a291895506fdbba7e17719",
+  "target_release": "v0.8.2",
+  "case_type": "Four fictional cases; bounded preparation and manuscript-prose exercise.",
+  "model_configuration": "All subagents inherited the parent model and reasoning configuration without overrides. This record does not assert an exact resolved model identifier.",
+  "design_review": "A separate read-only agent reviewed the integration principle before the cases and skill hashes were frozen. The skill author wrote the cases and rubric.",
+  "participants": [
+    {
+      "task": "constructive_trial_a",
+      "output": "runs/a.md"
+    },
+    {
+      "task": "constructive_trial_b",
+      "output": "runs/b.md"
+    }
+  ],
+  "initial_context": "Both participants used fork_turns=none and received the same request and assigned skill paths. Neither received the rubric or the other output.",
+  "assigned_skill_inputs": [
+    "skills/research-manuscript-writing/SKILL.md",
+    "skills/scientific-story-audit/SKILL.md",
+    "skills/academic-writing-audit/SKILL.md",
+    "skills/nondefensive-writing/SKILL.md",
+    "skills/research-manuscript-writing/references/literature-to-story.md"
+  ],
+  "participant_prompt_summary": "Read the assigned entrypoints, preparation reference and case packet only; perform the request and save the full answer; do not read rubric, peers, other evals, memory or histories; no browsing, agents or unrelated edits.",
+  "assessor": {
+    "task": "constructive_assessor",
+    "context": "fork_turns=none; separate from the skill/case author and participants",
+    "assigned_inputs": [
+      "cases/request.md",
+      "rubric.md",
+      "runs/a.md",
+      "runs/b.md"
+    ],
+    "output": "independent-assessment.md",
+    "prompt_summary": "Assess A-D and the shared boundary against the prewritten rubric with source evidence; distinguish optional style from material issues; evaluate preserved supported claims and visible real problems without assuming success; no other files, browsing, spawning or output edits."
+  },
+  "coordinator": "Skill author; read both outputs and the separate assessment and checked the published skill bytes.",
+  "isolation": "Fresh context and restricted reads were requested, not filesystem-enforced.",
+  "protocol_limits": "No reciprocal investigator review, live search, real-source authenticity check, unguided baseline or blinded comparison. No causal attribution to the new instructions or general reliability estimate.",
+  "publication": "Raw generated answers and independent assessment are preserved as saved, without transformations. Invocation prompts are summarized, not presented as exact transcripts. No private manuscript material is included.",
+  "skill_repairs_after_runs": false
+}

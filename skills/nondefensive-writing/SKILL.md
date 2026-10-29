@@ -22,6 +22,8 @@ An important fact can have poor wording or excessive repetition. Conversely, neg
 
 In an introduction, test each doubtful sentence against the narrowing line from existing progress through gap and motivation to contribution. Remove explanation that merely repeats background or anticipates an objection without advancing that line. Keep the short premise, definition, or consequential boundary needed to understand the next step. A conference introduction may integrate gap and motivation compactly; a journal introduction should make their distinct reasoning explicit according to the target's requirements. Do not turn “avoid explanation for its own sake” into deletion of the rationale that makes the work necessary.
 
+Research preparation may critically test assumptions and alternatives. Manuscript prose should present the resulting reasoning, with the supported contribution stated directly and uncertainty attached to the claim it qualifies. Separate a live scientific uncertainty from resolved exploratory doubt or an imagined objection. Preserve the former when it affects interpretation; do not transplant the entire internal debate into the paper. Good storytelling keeps evidence and material limitations visible while helping the reader follow one scientific question.
+
 ## Choose a concrete edit
 
 - **Keep** a clear definition, algorithmic exclusion, study endpoint, assumption, consequential limitation, or supported interpretation.

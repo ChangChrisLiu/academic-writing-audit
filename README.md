@@ -17,6 +17,8 @@ Reconstruct the argument, check the evidence, and change only what needs changin
 
 对明显的研究 gap，先查为什么仍未解决，包括既往尝试、失败条件、实际约束和其他名称下已有的解法。说明重新尝试的依据，区分有证据的变化与待验证的假设；不能把检索空白写成无人尝试，也不能把一次失败扩大成普遍不可行。
 
+整体原则是理性调研、批判性思考、连贯写作。根据证据和研究阶段判断机会与问题，避免急于自我防御或否定。把经过检验的判断写成清晰故事，直接说明支持的贡献，并保留影响解释的条件。
+
 [中文使用说明](README.zh-CN.md) · [文献真实性与引用核对](docs/reference-guide.md) · [专业角色与前后对照](docs/revision-guide.md) · [论文结构与写作](docs/manuscript-guide.md) · [自然表达与逻辑审查](docs/prose-guide.md) · [审稿回复与正文写作指南](docs/rebuttal-guide.md) · [安装方法](#install)
 
 <p align="center">
@@ -105,6 +107,8 @@ Use [research-manuscript-writing](skills/research-manuscript-writing/SKILL.md) w
 An idea-led first draft begins with [literature investigation and story development](skills/research-manuscript-writing/references/literature-to-story.md). Two or more agents independently examine overlapping questions, then cross-review evidence before synthesis. Learn problem framing from introductions and related work, inspect pivotal methods and findings, and let closest prior solutions or contrary evidence change the initial story. Recent work matters alongside foundational and less visible scholarship. Source records distinguish what was read, bibliographic identity, methodological support and unresolved questions. Local edits reuse the relevant evidence without restarting field research.
 
 For an apparently obvious gap, investigate earlier attempts and why the question may remain open. Prior failure is a search priority, not an assumed fact. Check successful solutions under other names, preserve the conditions of negative findings, and distinguish a demonstrated enabling change from a proposed one. A useful replication can justify revisiting a question without inventing novelty. Keep unknown causes and research-planning decisions in the preparation record.
+
+Use critical inquiry to develop the research account. Assess promise and concerns by the same evidence standard, matching expectations to the study's stage. Identify which inference a material objection changes and respond proportionately. Writing presents the resulting reasoning as a coherent story, stating the supported contribution directly and retaining conditions that affect its interpretation.
 
 The abstract follows a motivated problem-to-result progression. Before drafting an introduction, establish the target conference or journal, audience, and supported submission priorities. Build one narrowing argument from relevant progress through gap and motivation to contribution. Conference framing may integrate the gap and motivation compactly; journal framing makes the unresolved issue, its consequence, and the rationale explicit, subject to the actual venue requirements. Audits remove detours and explanation without a distinct reasoning function while preserving necessary bridges. The literature review develops two or three connected threads from that argument and explains prior studies, without default taxonomies or repeated comparisons with the present paper. Methods follow operational or analytic dependencies, while findings and endings fit the study design and supplied disciplinary conventions.
 
@@ -267,6 +271,8 @@ The [introduction focus checks](evals/introduction-focus/README.md) cover destin
 The [literature-to-story checks](evals/literature-to-story/README.md) exercise independent overlapping investigation, reciprocal review and writing handoff on fictional robotics and social-history packets. Cross-review corrects a citation-to-intellectual-dependence overclaim. A fresh synthesis regression follows a narrow repair after the first writer placed a project-readiness question in manuscript prose. The complete records retain both shortcomings. These author-assessed, closed-packet checks do not test live retrieval and have no unguided control.
 
 The [gap-persistence checks](evals/gap-persistence/README.md) use five fictional research cases and a grammar-only control. Two independent investigations, reciprocal reviews and a separate assessor examine conditional failures, alternative terminology, changed conditions, unknown history and useful replication, including the boundary between preparation notes and manuscript prose. The records are closed-packet development evidence, with no live retrieval or unguided control.
+
+The [constructive-inquiry checks](evals/constructive-inquiry/README.md) test whether an early question survives uncertainty, a supported effect remains direct despite an unknown mechanism, a confounded causal claim is corrected, and sound prose stays unchanged. Two independent runs and a separate assessment use a prewritten rubric. These fictional cases do not measure live research performance or improvement over an unguided control.
 
 The skills support reasoning and editing; the quality of a conclusion still depends on the sources and evidence available to the agent. Read [CONTRIBUTING.md](CONTRIBUTING.md) to propose an observed failure, a small repair, and a regression case.
 

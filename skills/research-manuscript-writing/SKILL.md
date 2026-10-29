@@ -8,6 +8,8 @@ license: MIT
 
 Understand the study before writing its story. Produce concise, connected prose in which each section advances the research question and each claim has an identifiable basis.
 
+Use critical inquiry to develop and test the research account. Evaluate its promise and its difficulties against the evidence and the study's stage. Uncertainty may motivate investigation; it does not automatically invalidate an idea. Writing then presents the supported reasoning clearly, with consequential qualifications where needed, without replaying exploratory self-doubt or manufacturing confidence.
+
 ## Establish the study before drafting
 
 Read the current manuscript or research packet, relevant source material, and the author's requested scope. Determine the research direction, concrete problem, audience, study design or form of argument, contribution, strongest supported finding, and what that finding cannot establish. Distinguish an audit, a draft, and an authorized file edit. Preserve sound passages and the author's terminology.

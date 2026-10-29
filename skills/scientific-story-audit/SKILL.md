@@ -12,6 +12,8 @@ Find the missing connection in the research argument before changing its prose. 
 
 Use the current manuscript and supplied evidence. Earlier editorial judgments are leads, not verdicts. Identify whether the request is an audit, a revision, or a check after editing. Return findings for an audit; perform the bounded revision when requested. With an excerpt, assess its local argument and state which broader connection cannot be checked.
 
+Judge the strongest account supported by the material and test its consequential assumptions. Match the burden of evidence to the study's stage and retained claim. An untested hypothesis, a demonstrated contradiction and an out-of-scope possibility call for different responses. Locate what an objection actually defeats before weakening a contribution or rejecting a direction. Preserve a sound bounded finding and a useful question; revise or withhold a claim whose required support is absent. Critical rigor is shown by accurate judgments, not the number of objections or caveats in the prose.
+
 ## Recover the argument
 
 Write a short working account of **problem → unresolved difficulty → contribution → evidence → conclusion**. This is a reasoning aid, not a mandatory outline or replacement introduction. For theoretical or interpretive work, evidence may be a derivation, source analysis, or reasoned argument.

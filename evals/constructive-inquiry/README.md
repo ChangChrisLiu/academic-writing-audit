@@ -1,0 +1,9 @@
+# Constructive inquiry and coherent manuscript reasoning
+
+This v0.8.2 development check examines whether critical review improves the scientific judgment without reflexive rejection, unsupported encouragement or defensive manuscript prose.
+
+Two fresh-context participants independently used the same [fictional packet](cases/request.md) and four updated skill entrypoints, plus the literature-to-story reference. Their exact input hashes and the [prewritten rubric](rubric.md) were recorded in the [design freeze](design-freeze.json) before either run. Skill bytes remained unchanged through testing and are preserved in the release Git version, with hashes in the [manifest](manifest.json). The participants did not receive the rubric or each other's output. No reciprocal review or full research-team workflow was claimed for this bounded exercise.
+
+The packet contrasts an early proposal, a supported experimental effect with an unknown mechanism, a materially confounded causal claim, and accurate prose that should remain unchanged. Each research case requests separate internal judgment and two manuscript sentences. Read the complete [run A](runs/a.md), [run B](runs/b.md), [separate assessment](independent-assessment.md), [coordinator assessment](assessment.md), and [run metadata](run-metadata.json).
+
+The separate assessor did not write the cases, skills or outputs, but knew the rubric and treatment context. The coordinator is the skill author. Fresh context and restricted reads were requested in prompts, not enforced through filesystem isolation. This is an unblinded, closed-packet development check with no unguided control, live retrieval, bibliographic verification or real manuscript edits. It does not estimate general reliability, isolate the effect of the new wording or establish superiority over the earlier release.

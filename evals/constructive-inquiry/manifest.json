@@ -1,0 +1,44 @@
+{
+  "hash_algorithm": "sha256",
+  "scope": "Cases, rubric, frozen input hashes, full raw answers and separate assessment, coordinator assessment, run metadata and released skills. Excludes this manifest. Assigned skill bytes match the pre-run freeze and are retained in the release Git version.",
+  "files": {
+    "evals/constructive-inquiry/README.md": "4bbca004829406d132c66d487bef9b5df07e3e6d888796a9d55597b61fc1dc3a",
+    "evals/constructive-inquiry/assessment.md": "1fc33f912005d45d80ede11bb7bc4836662d36cc79c8f16011f21c791a8fa9b4",
+    "evals/constructive-inquiry/cases/request.md": "09154826f1f837aee01f40a00da57d5b8f0495348a7e13ab9d12d2dfdae53d2c",
+    "evals/constructive-inquiry/design-freeze.json": "575136c34c1626edbe875e87d8a3929efa496f73e4163a6b2f0c43a8f9232df4",
+    "evals/constructive-inquiry/independent-assessment.md": "ccccee2b4448b8c67303d47137e6fe53a0cff990b158251b23afda2ed5260f6b",
+    "evals/constructive-inquiry/rubric.md": "6eddc5207cc702d501dcb336f484f7055805f324a8c0169be58d712f70170ac3",
+    "evals/constructive-inquiry/run-metadata.json": "02239bbf445a203b779d03be1176c995c73615be7fa9b594d285b5f4e67debf6",
+    "evals/constructive-inquiry/runs/a.md": "ca1380aef7259a99b3d67c5d018deafe9dd5a7800b00d737a528176594d8d26c",
+    "evals/constructive-inquiry/runs/b.md": "0a38cc4d837089f5d45a1c8a121802211e07b094686b00441e67d352bb5f5b49"
+  },
+  "skill_versions": {
+    "released": {
+      "directory": "skills",
+      "files": {
+        "research-manuscript-writing/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+        "research-manuscript-writing/SKILL.md": "16db85c567219ea55ded3128d6b055139459de787ad7981f65c7bb3a463bb132",
+        "research-manuscript-writing/agents/openai.yaml": "62a7ff375091baa65f15d69d4bf5a519bb5b0add273e1d00a067412617fb8112",
+        "research-manuscript-writing/references/findings-and-endings.md": "114bc958341fe429641df4e206c91ffaa56378f0a9c55955d15b63c0def7fcb9",
+        "research-manuscript-writing/references/latex-and-word.md": "41bf1e30478072a57c3cd013561d58e5356dd13531726cc0ab4412f293127eb5",
+        "research-manuscript-writing/references/literature-to-story.md": "f89f63d86a840a68417563fc20263472693ffbad0c98e8ce620221771b559878",
+        "research-manuscript-writing/references/section-reasoning.md": "4affdc04e0b319843963c6a85193669382f7061ea595f134e3dfc76df066b80f",
+        "scientific-story-audit/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+        "scientific-story-audit/SKILL.md": "4ddd0c7ede30606cae0d1f52430612d02efe2b7eabc62837ec362f10b40ec7ba",
+        "scientific-story-audit/agents/openai.yaml": "9f506d62cf550225ca13f470868fa9068388d827ed53f1f8b287f12d3d2aef84",
+        "academic-writing-audit/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+        "academic-writing-audit/SKILL.md": "301e766a4be1458977687eb11147626ca3723d1f26641cbbe75eca357ede1b87",
+        "academic-writing-audit/agents/openai.yaml": "e0f9d0070fcaad2d342eb1b0e0748049a291ecd5471ffe9e07cbc83784e160b8",
+        "academic-writing-audit/references/argument-and-evidence.md": "897fd5332075511b6123216cb2a2b0187f83d9c0b63f3d97ec735d7eb9a6091d",
+        "academic-writing-audit/references/examples.md": "32c7de0bb5f46024362ad1c8ede14704c3c792692fed81a40d1dd88e250705a4",
+        "academic-writing-audit/references/nondefensive-writing.md": "22440feadacdcf98aefc52bd71c9ffcf0a362b1f67b06dd74b06797d89c02753",
+        "academic-writing-audit/references/prose-checks.md": "569c9d24e76d4a06eb20cf33cdbeb7d0591502813171a356e5b74db3188da091",
+        "academic-writing-audit/references/review-and-patching.md": "aae5f38c4cd535c0c85710450032c8c517cc87979b36cf000ce21e1f7e163290",
+        "academic-writing-audit/references/roles-and-expectations.md": "dc5002ad639557bbe17c0f705cf86f111e46d49b6e3242b4a2f790bbe4fa36b4",
+        "nondefensive-writing/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+        "nondefensive-writing/SKILL.md": "cd32076642542b78d1b4c8a40642a48470147c1c8bee6ac399a168c0ddd01831",
+        "nondefensive-writing/agents/openai.yaml": "f763884805eda5a725dd7357accd532b2233dafc7eec43a342d7c899f5224f5f"
+      }
+    }
+  }
+}

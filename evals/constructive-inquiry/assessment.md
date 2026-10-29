@@ -1,0 +1,7 @@
+# Coordinator assessment
+
+Both initial answers satisfy the four case criteria and the shared preparation/manuscript boundary. In A, uncertainty motivates the planned bounded comparison without becoming claimed success or a reason to abandon the question. In B, the stipulated randomized effect remains direct while its mechanism and population scope remain bounded. In C, the coincident machine replacement and absent untreated comparison stay visible next to the observation, and the scheduling-only causal claim is withheld. In D, both participants explicitly keep the supplied paragraph unchanged, including its necessary limitation.
+
+The coordinator read both complete outputs against the packet and prewritten rubric. These judgments concern the actual scientific inferences, not whether the answers repeat the new rules. The separate assessor's findings are preserved in full. No material rule repair was indicated by the initial outputs, and the tested skill inputs were not changed after the runs.
+
+The limited record supports the intended distinctions in these responses. It does not establish general reasoning or writing quality, effectiveness of real research investigations, or an improvement attributable to this wording. The packet explicitly supplies the decisive facts and limits, the skill author wrote the cases and rubric, and there is no unguided or blinded control. The tasks use short provisional passages rather than full manuscript narratives. All original outputs remain unchanged, and no real manuscript was edited.

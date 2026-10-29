@@ -20,6 +20,8 @@ For a scientific or reviewer-informed audit, read [roles and expectations](refer
 
 For each consequential issue, identify the substantive question, what the argument or evidence needs to establish and why, what the current passage establishes, and the remaining difference. Label actual review requests separately from inferred reader needs. Do not demand a stronger result than the retained claim requires. A mention of the right topic or a confident response letter is not proof that the question is answered.
 
+Assess favorable and unfavorable interpretations by the same evidence standard and at the study's actual stage. Locate the claim affected by each material concern. Distinguish a contradicted premise from an unresolved research question or a limitation of scope, and respond proportionately. Preserve supported contributions without demanding certainty about every possible setting. Keep exploratory debate in the research record and make the manuscript's supported reasoning clear, retaining limitations that change its interpretation.
+
 ## Review in this order
 
 1. **Argument:** Reconstruct problem → gap → contribution → mechanism or reasoning → evidence → conclusion. Preserve complementary contributions. Identify missing transitions between objects or stages. Read [argument and evidence](references/argument-and-evidence.md) for a full scientific audit.

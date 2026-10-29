@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-10-29T18:08:22.293631+00:00",
+  "base_git_commit": "86dc5e1ad66bf9ee41a291895506fdbba7e17719",
+  "files": {
+    "skills/research-manuscript-writing/SKILL.md": "16db85c567219ea55ded3128d6b055139459de787ad7981f65c7bb3a463bb132",
+    "skills/scientific-story-audit/SKILL.md": "4ddd0c7ede30606cae0d1f52430612d02efe2b7eabc62837ec362f10b40ec7ba",
+    "skills/academic-writing-audit/SKILL.md": "301e766a4be1458977687eb11147626ca3723d1f26641cbbe75eca357ede1b87",
+    "skills/nondefensive-writing/SKILL.md": "cd32076642542b78d1b4c8a40642a48470147c1c8bee6ac399a168c0ddd01831",
+    "skills/research-manuscript-writing/references/literature-to-story.md": "f89f63d86a840a68417563fc20263472693ffbad0c98e8ce620221771b559878",
+    "evals/constructive-inquiry/cases/request.md": "09154826f1f837aee01f40a00da57d5b8f0495348a7e13ab9d12d2dfdae53d2c",
+    "evals/constructive-inquiry/rubric.md": "6eddc5207cc702d501dcb336f484f7055805f324a8c0169be58d712f70170ac3"
+  },
+  "protocol": "Two fresh-context participants independently use the same packet and changed skills, without rubric or sibling output. A separate fresh-context assessor uses the prewritten rubric. No live retrieval or unguided control. Skill input hashes are frozen before runs and their bytes will be retained in the release Git version."
+}
