@@ -20,6 +20,8 @@ Form a short internal account of why the problem matters, what existing work ena
 
 Keep exploratory criticism in the research record until it supports a scientific premise the reader needs. The literature can overturn or narrow the initial idea. A clear story must follow that evidence, not protect a preferred novelty claim. Draft one connected argument rather than concatenating agent reports, a search diary, or anticipated objections. State necessary boundaries directly without making the manuscript perform the investigation's defensive debate.
 
+An obvious gap calls for investigating why it remains. Prioritize searching for earlier attempts and constraints, while also checking solutions under other names. Treat prior failure as a hypothesis to examine, not an assumed explanation. Keep failures within their studied conditions, and ground a renewed attempt in a relevant change or a useful replication question. If the cause remains unknown, bound the rationale instead of claiming the gap was overlooked.
+
 If a missing fact changes the scientific story, ask a focused question or identify the exact dependency. Continue the parts supported by the evidence. Do not fill the gap with a generic field overview, invented motivation, claimed novelty, fabricated citation, or plausible result. Do not demand a questionnaire when the needed facts are already supplied. Verify literature claims against the permitted sources; a source's silence means unknown, not absent.
 
 ## Give each section a distinct job

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scientific Story Audit"
+  short_description: "Connect motivation, contribution, and evidence"
+  default_prompt: "Use $scientific-story-audit to check this manuscript's research argument and repair only the broken connections while preserving sound passages."

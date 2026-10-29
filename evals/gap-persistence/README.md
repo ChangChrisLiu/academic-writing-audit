@@ -1,0 +1,13 @@
+# Investigating an apparently obvious research gap
+
+This development check covers the v0.8.1 addition that investigates why a gap may persist before treating it as overlooked. Prior failure is a search priority, not an assumed explanation. The scope includes conditions of failure, evidence for its cause, successful alternatives, meaningful changes and useful replication.
+
+Two fresh-context investigators independently used the same [fictional packet](cases/request.md) and frozen skill inputs. Both initial answers were preserved before they received each other's output for reciprocal source review. A separate fresh-context assessor used the [prewritten rubric](rubric.md), packet and initial answers. The coordinator then checked the assessment and cross-reviews. Neither investigator received the rubric or peer output during its initial run. These access restrictions were instructions, not filesystem-enforced isolation.
+
+The cases cover robotics, statistical identification, education, social history and behavioral replication, plus a grammar-only control that must retain the valid term replay buffer. Each research case requests a preparation judgment and two provisional manuscript sentences. This checks whether uncertainty and research-planning decisions stay out of manuscript claims while the scientific rationale remains readable.
+
+See the complete [run A](runs/a/initial.md), [run B](runs/b/initial.md), their [first](runs/a/cross-review.md) and [second](runs/b/cross-review.md) reciprocal reviews, [independent assessment](independent-assessment.md), and [coordinator assessment](assessment.md). The [design freeze](design-freeze.json) records the case, rubric and skill hashes before testing; the [cross-review freeze](cross-review-freeze.json) records initial answers before exchange. [Run metadata](run-metadata.json) describes the supplied inputs and restrictions, and the [manifest](manifest.json) identifies the published bytes.
+
+The frozen inputs include three standalone skills and the writing preparation reference. Their entrypoint copies are named `SKILL.snapshot.md` to avoid creating extra discoverable skills. Only the named entrypoints and preparation reference were assigned for behavioral use; other bundled references are retained for package completeness.
+
+These are closed-packet development cases, not real publications, live retrieval, a full literature survey or a bibliographic authenticity test. There is no unguided control, no blinded comparison, and no estimate of general reliability or improvement over v0.8.0. The independent assessor did not author the skills or cases but knew the rubric and treatment context. The cases and rubric were written by the skill author. No author manuscript was edited.

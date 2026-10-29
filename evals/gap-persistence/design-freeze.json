@@ -1,0 +1,28 @@
+{
+  "created_utc": "2026-10-29T17:42:48.774625+00:00",
+  "base_git_commit": "f83b2861589f915f29ff4276c6fc291c65234ce2",
+  "files": {
+    "evals/gap-persistence/cases/request.md": "5b969a63415ae1edb54d4c5bea02b2f0bb411e89966f96b0004a179fa29aed06",
+    "evals/gap-persistence/rubric.md": "452f704faa1f8f7e3a8a83a7389b1e02238a5c945e1ada3f99011a34b8a1f20b",
+    "evals/gap-persistence/tested-skills/academic-writing-audit/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "evals/gap-persistence/tested-skills/academic-writing-audit/SKILL.snapshot.md": "36dd63ee345402de356ddaa99c0a5c10c5229ead356a17ca0a15a649ace68029",
+    "evals/gap-persistence/tested-skills/academic-writing-audit/agents/openai.yaml": "e0f9d0070fcaad2d342eb1b0e0748049a291ecd5471ffe9e07cbc83784e160b8",
+    "evals/gap-persistence/tested-skills/academic-writing-audit/references/argument-and-evidence.md": "897fd5332075511b6123216cb2a2b0187f83d9c0b63f3d97ec735d7eb9a6091d",
+    "evals/gap-persistence/tested-skills/academic-writing-audit/references/examples.md": "32c7de0bb5f46024362ad1c8ede14704c3c792692fed81a40d1dd88e250705a4",
+    "evals/gap-persistence/tested-skills/academic-writing-audit/references/nondefensive-writing.md": "22440feadacdcf98aefc52bd71c9ffcf0a362b1f67b06dd74b06797d89c02753",
+    "evals/gap-persistence/tested-skills/academic-writing-audit/references/prose-checks.md": "569c9d24e76d4a06eb20cf33cdbeb7d0591502813171a356e5b74db3188da091",
+    "evals/gap-persistence/tested-skills/academic-writing-audit/references/review-and-patching.md": "aae5f38c4cd535c0c85710450032c8c517cc87979b36cf000ce21e1f7e163290",
+    "evals/gap-persistence/tested-skills/academic-writing-audit/references/roles-and-expectations.md": "dc5002ad639557bbe17c0f705cf86f111e46d49b6e3242b4a2f790bbe4fa36b4",
+    "evals/gap-persistence/tested-skills/research-manuscript-writing/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "evals/gap-persistence/tested-skills/research-manuscript-writing/SKILL.snapshot.md": "853d6c3fc502ee1355189dfaefc4ae2a44e8af9c5ee7d51422663125fa5281bb",
+    "evals/gap-persistence/tested-skills/research-manuscript-writing/agents/openai.yaml": "62a7ff375091baa65f15d69d4bf5a519bb5b0add273e1d00a067412617fb8112",
+    "evals/gap-persistence/tested-skills/research-manuscript-writing/references/findings-and-endings.md": "114bc958341fe429641df4e206c91ffaa56378f0a9c55955d15b63c0def7fcb9",
+    "evals/gap-persistence/tested-skills/research-manuscript-writing/references/latex-and-word.md": "41bf1e30478072a57c3cd013561d58e5356dd13531726cc0ab4412f293127eb5",
+    "evals/gap-persistence/tested-skills/research-manuscript-writing/references/literature-to-story.md": "3464fead86c54c50db54fa519da4d21186555daf98f5f3308cee7ac287d5c9a0",
+    "evals/gap-persistence/tested-skills/research-manuscript-writing/references/section-reasoning.md": "4affdc04e0b319843963c6a85193669382f7061ea595f134e3dfc76df066b80f",
+    "evals/gap-persistence/tested-skills/scientific-story-audit/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "evals/gap-persistence/tested-skills/scientific-story-audit/SKILL.snapshot.md": "8ab00aa9b09aa483f073290c4e0474a5936a651e1939821d7030f03922b031cb",
+    "evals/gap-persistence/tested-skills/scientific-story-audit/agents/openai.yaml": "9f506d62cf550225ca13f470868fa9068388d827ed53f1f8b287f12d3d2aef84"
+  },
+  "protocol": "Two separate fresh-context agents first examine the same closed packet without peer outputs or rubric; after initial files are preserved, each reviews the other. Assessor is the skill author; no unguided control or live retrieval."
+}

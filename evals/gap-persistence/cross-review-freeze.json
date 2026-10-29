@@ -1,0 +1,8 @@
+{
+  "created_utc": "2026-10-29T17:44:28.939847+00:00",
+  "files": {
+    "evals/gap-persistence/runs/a/initial.md": "a6628f300232e165b88a154213be57f5364b39532fcfd7112691b1bec5ec3659",
+    "evals/gap-persistence/runs/b/initial.md": "8ab0044237c375d5bbdcd106e129bce9154d9685a29546e900a2ef763ca84917"
+  },
+  "stage": "Both independent initial answers saved before peer output exchange."
+}

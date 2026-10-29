@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-29",
+  "base_git_commit": "f83b2861589f915f29ff4276c6fc291c65234ce2",
+  "target_release": "v0.8.1",
+  "case_type": "Fictional closed packet; five research cases and one grammar-only control",
+  "model_configuration": "Agents inherited the parent model and reasoning configuration; no model override was requested. Exact resolved model identifier is not asserted by this record.",
+  "investigators": [
+    {
+      "task": "gap_trial_a",
+      "initial": "runs/a/initial.md",
+      "cross_review": "runs/a/cross-review.md"
+    },
+    {
+      "task": "gap_trial_b",
+      "initial": "runs/b/initial.md",
+      "cross_review": "runs/b/cross-review.md"
+    }
+  ],
+  "initial_context": "Each investigator was spawned with fork_turns=none. Both were given the same packet and assigned frozen skills; neither was given the rubric or peer outputs.",
+  "assigned_behavioral_inputs": [
+    "cases/request.md",
+    "tested-skills/research-manuscript-writing/SKILL.snapshot.md",
+    "tested-skills/research-manuscript-writing/references/literature-to-story.md",
+    "tested-skills/scientific-story-audit/SKILL.snapshot.md",
+    "tested-skills/academic-writing-audit/SKILL.snapshot.md"
+  ],
+  "initial_prompt_summary": "Perform the packet request; read only the assigned inputs; do not read rubric, peers, other evals, memories or prior histories; no browsing, spawning or unrelated edits; save the complete answer in the assigned run file. Do not claim to have executed the other investigation.",
+  "cross_review_prompt_summary": "After both initial answers were preserved, each investigator was given the other answer and asked to check consequential claims against the packet and frozen skills, identify support or unresolved issues, make only necessary minimal corrections, and state any changes to its own judgments. No objection quota, rubric access, new retrieval or edits to initial answers.",
+  "assessor": {
+    "task": "gap_trial_assessor",
+    "context": "fork_turns=none; separate from skill/case author and investigators",
+    "assigned_inputs": [
+      "cases/request.md",
+      "rubric.md",
+      "runs/a/initial.md",
+      "runs/b/initial.md"
+    ],
+    "output": "independent-assessment.md",
+    "prompt_summary": "Judge material behavior and source fidelity against the prewritten rubric; distinguish optional wording concerns from failures; save the complete assessment; no browsing, other files, agents or output edits."
+  },
+  "coordinator": "Skill author; read all initial outputs, reciprocal reviews and independent assessment and checked final rule consistency.",
+  "isolation": "Fresh context and read restrictions were requested, not filesystem-enforced.",
+  "control": "No unguided baseline or blinded control; cannot estimate causal effect of the rule change.",
+  "publication": "Generated answer and assessment files are preserved as saved, with no text transforms. Invocation prompts are summarized here rather than represented as exact transcripts. No private manuscript material is included.",
+  "skill_repairs_after_runs": false
+}

@@ -15,6 +15,8 @@ Reconstruct the argument, check the evidence, and change only what needs changin
 
 初稿新增[领域调研与故事线准备](docs/research-preparation.md)。从研究想法出发，按学科检索和评价文献，结合近期进展、基础研究与反例，由多个 agent 独立调查并交叉核对，再形成一条清晰主线。充分思考留在研究准备中，正文保持简洁、连贯、不防御。
 
+对明显的研究 gap，先查为什么仍未解决，包括既往尝试、失败条件、实际约束和其他名称下已有的解法。说明重新尝试的依据，区分有证据的变化与待验证的假设；不能把检索空白写成无人尝试，也不能把一次失败扩大成普遍不可行。
+
 [中文使用说明](README.zh-CN.md) · [文献真实性与引用核对](docs/reference-guide.md) · [专业角色与前后对照](docs/revision-guide.md) · [论文结构与写作](docs/manuscript-guide.md) · [自然表达与逻辑审查](docs/prose-guide.md) · [审稿回复与正文写作指南](docs/rebuttal-guide.md) · [安装方法](#install)
 
 <p align="center">
@@ -101,6 +103,8 @@ The accusation and reassurance disappear. The operative rule, denominator, and s
 Use [research-manuscript-writing](skills/research-manuscript-writing/SKILL.md) when drafting or restructuring sections from research materials. It first establishes the concrete question, motivation, contribution, and evidence. Missing research facts remain dependencies instead of becoming generic background or invented results.
 
 An idea-led first draft begins with [literature investigation and story development](skills/research-manuscript-writing/references/literature-to-story.md). Two or more agents independently examine overlapping questions, then cross-review evidence before synthesis. Learn problem framing from introductions and related work, inspect pivotal methods and findings, and let closest prior solutions or contrary evidence change the initial story. Recent work matters alongside foundational and less visible scholarship. Source records distinguish what was read, bibliographic identity, methodological support and unresolved questions. Local edits reuse the relevant evidence without restarting field research.
+
+For an apparently obvious gap, investigate earlier attempts and why the question may remain open. Prior failure is a search priority, not an assumed fact. Check successful solutions under other names, preserve the conditions of negative findings, and distinguish a demonstrated enabling change from a proposed one. A useful replication can justify revisiting a question without inventing novelty. Keep unknown causes and research-planning decisions in the preparation record.
 
 The abstract follows a motivated problem-to-result progression. Before drafting an introduction, establish the target conference or journal, audience, and supported submission priorities. Build one narrowing argument from relevant progress through gap and motivation to contribution. Conference framing may integrate the gap and motivation compactly; journal framing makes the unresolved issue, its consequence, and the rationale explicit, subject to the actual venue requirements. Audits remove detours and explanation without a distinct reasoning function while preserving necessary bridges. The literature review develops two or three connected threads from that argument and explains prior studies, without default taxonomies or repeated comparisons with the present paper. Methods follow operational or analytic dependencies, while findings and endings fit the study design and supplied disciplinary conventions.
 
@@ -261,6 +265,8 @@ The [Word citation transfer checks](evals/word-citation-transfer/README.md) add 
 The [introduction focus checks](evals/introduction-focus/README.md) cover destination-aware conference/journal drafting, a missing destination, an archival-research detour, and a lost reasoning bridge after shortening. Three fresh-context executions include a targeted drafting regression after the initial journal draft repeated an established explanation. The author assessment retains that initial shortcoming and an optional wording refinement. These fictional checks have no unguided control or independent assessor.
 
 The [literature-to-story checks](evals/literature-to-story/README.md) exercise independent overlapping investigation, reciprocal review and writing handoff on fictional robotics and social-history packets. Cross-review corrects a citation-to-intellectual-dependence overclaim. A fresh synthesis regression follows a narrow repair after the first writer placed a project-readiness question in manuscript prose. The complete records retain both shortcomings. These author-assessed, closed-packet checks do not test live retrieval and have no unguided control.
+
+The [gap-persistence checks](evals/gap-persistence/README.md) use five fictional research cases and a grammar-only control. Two independent investigations, reciprocal reviews and a separate assessor examine conditional failures, alternative terminology, changed conditions, unknown history and useful replication, including the boundary between preparation notes and manuscript prose. The records are closed-packet development evidence, with no live retrieval or unguided control.
 
 The skills support reasoning and editing; the quality of a conclusion still depends on the sources and evidence available to the agent. Read [CONTRIBUTING.md](CONTRIBUTING.md) to propose an observed failure, a small repair, and a regression case.
 

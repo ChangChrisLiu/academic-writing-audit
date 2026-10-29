@@ -59,7 +59,10 @@
         "academic-writing-audit/references/prose-checks.md": "569c9d24e76d4a06eb20cf33cdbeb7d0591502813171a356e5b74db3188da091",
         "academic-writing-audit/references/review-and-patching.md": "aae5f38c4cd535c0c85710450032c8c517cc87979b36cf000ce21e1f7e163290",
         "academic-writing-audit/references/roles-and-expectations.md": "dc5002ad639557bbe17c0f705cf86f111e46d49b6e3242b4a2f790bbe4fa36b4"
-      }
+      },
+      "git_commit": "f83b2861589f915f29ff4276c6fc291c65234ce2"
     }
-  }
+  },
+  "source_git_commit": "f83b2861589f915f29ff4276c6fc291c65234ce2",
+  "historical_resolution": "Recorded v0.8.0 evidence and released skills resolve at this commit; original hashes are unchanged."
 }
