@@ -49,7 +49,10 @@
         "revision-integrity-audit/SKILL.md": "d80b5fe21816452dfddce31548298674f953a76cc5f950fcc928dcb36d42b8db",
         "revision-integrity-audit/agents/openai.yaml": "518828cc44fe3c025cf1db0ff323ecada6c7e3c119ef2b5ebdbc5a5e7195a5f7",
         "revision-integrity-audit/references/comparison-decisions.md": "3ca6d784d219845f40ef5eaef5530d394fe860b15fe948e244669b59b7642c4f"
-      }
+      },
+      "git_commit": "5578f64e7cb857a15a4be06534735e611e569239"
     }
-  }
+  },
+  "source_git_commit": "5578f64e7cb857a15a4be06534735e611e569239",
+  "historical_resolution": "Resolve the recorded evaluation and skill bytes at the stated Git commit. Original hashes and freeze records are unchanged."
 }

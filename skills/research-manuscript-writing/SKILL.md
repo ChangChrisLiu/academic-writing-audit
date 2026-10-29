@@ -1,6 +1,6 @@
 ---
 name: research-manuscript-writing
-description: Draft or restructure research manuscripts from supplied study evidence, connecting the abstract, introduction, literature review, methods, findings, and conclusion. Use for generic or list-like drafts that miss the research question or section logic, with LaTeX or Word delivery. Not a substitute for missing research or a default full rewrite for local edits.
+description: Develop an evidence-supported story from an initial research idea, then draft or restructure manuscript sections. Use for literature-informed first drafts or generic, list-like writing that misses the research question or section logic, with LaTeX or Word delivery. Not a substitute for missing study results or a default full rewrite for local edits.
 license: MIT
 ---
 
@@ -12,9 +12,13 @@ Understand the study before writing its story. Produce concise, connected prose 
 
 Read the current manuscript or research packet, relevant source material, and the author's requested scope. Determine the research direction, concrete problem, audience, study design or form of argument, contribution, strongest supported finding, and what that finding cannot establish. Distinguish an audit, a draft, and an authorized file edit. Preserve sound passages and the author's terminology.
 
+For an idea-led first draft or substantive reframing, read [literature investigation and story development](references/literature-to-story.md). Investigate before fixing the story. Use discipline-appropriate discovery, recent and foundational work, and close reading of consequential methods and evidence. Have at least two agents independently investigate overlapping questions, then cross-review the source-supported findings before synthesis. This preparation mode requires real separate agents for its independent checks; if unavailable or outside the permitted scope, provide a clearly bounded single-agent or supplied-source account without claiming the cross-check. Reuse an adequate research record and update only material gaps. Local wording edits do not trigger this workflow.
+
 Before drafting an introduction, establish the intended conference or journal, relevant track or article type, readership, and the contribution it needs to make clear. Use the author's brief and supplied submission guidance; consult current official guidance when a venue-specific expectation needs verification. Distinguish documented criteria from an inferred audience need. Venue fit changes emphasis, not the study's facts or claims. If the target is missing and affects the framing, ask for it while organizing supported material; do not silently choose a venue or write a supposedly tailored introduction. An explicitly requested venue-neutral draft can proceed with that scope stated outside the manuscript.
 
 Form a short internal account of why the problem matters, what existing work enables, what remains unresolved, why the proposed approach addresses that need, and what the study actually establishes. This is a reasoning aid, not a checklist to paste into the manuscript. A title, method name, or collection of fashionable keywords is not enough to supply this account.
+
+Keep exploratory criticism in the research record until it supports a scientific premise the reader needs. The literature can overturn or narrow the initial idea. A clear story must follow that evidence, not protect a preferred novelty claim. Draft one connected argument rather than concatenating agent reports, a search diary, or anticipated objections. State necessary boundaries directly without making the manuscript perform the investigation's defensive debate.
 
 If a missing fact changes the scientific story, ask a focused question or identify the exact dependency. Continue the parts supported by the evidence. Do not fill the gap with a generic field overview, invented motivation, claimed novelty, fabricated citation, or plausible result. Do not demand a questionnaire when the needed facts are already supplied. Verify literature claims against the permitted sources; a source's silence means unknown, not absent.
 

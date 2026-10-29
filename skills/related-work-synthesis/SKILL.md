@@ -12,6 +12,8 @@ Explain the relevant literature through the problem the introduction has establi
 
 Read the introduction or supplied research question before organizing the review. Identify the direction, established progress, and specific unresolved issue. If the introduction is unavailable, build only a provisional organization from the supported question and state the missing context. Do not invent the paper's gap from a method name.
 
+During explicitly requested early investigation, treat that question and its gap as provisional. Read recent relevant introductions and related work for framing, then inspect consequential methods, findings and original cited sources. Consider foundations, closest prior solutions and counterevidence, and let them revise the introduction's story before fixing its final threads. Do not filter the literature to validate a predetermined gap. A finished review follows the resulting argument; it need not preserve the initial hypothesis. Distinguish discovery, bibliographic identity, methodological appraisal and claim support. Search only when authorized or needed for the requested task, and preserve the actual access limits.
+
 Distinguish full papers, abstracts, excerpts, source cards, and earlier summaries. Check each claim against the source actually available. A source that does not mention a property establishes unknown, not absent. Do not fabricate references, author names, dates, missing capabilities, or exhaustive priority claims.
 
 ## Follow connected research threads

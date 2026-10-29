@@ -27,6 +27,8 @@ At paragraph level, identify the claim each sentence advances and the fact suppo
 
 Do not manufacture a literature gap to complete this chain. Mark an unsupported gap as unresolved. Likewise, do not promote every implementation choice into a contribution or weaken a supported contribution merely because it has several parts.
 
+When auditing an investigated first-draft story, check whether it survives the closest prior solution and meaningful counterevidence in the available record. Separate a documented limitation from a plausible open question or an uninspected capability. Recent introductions can suggest a framing, but their gap assertions and author prestige do not establish it. Check whether methods and findings actually support the proposed contrast. Agent agreement does not repair a source conflict. Keep research debate and search diligence outside the manuscript while retaining necessary premises and scope. A local audit does not require a new field search unless the requested claim depends on missing evidence.
+
 ## Check the section logic
 
 Before drafting a repair, identify the concrete study question, research direction, audience, source-supported gap, contribution, and principal finding. A method name or generic topic is not sufficient. If a missing fact determines the story, ask only for that fact or leave the unsupported connection unresolved; do not manufacture an introduction to sound complete.

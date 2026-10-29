@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-29",
+  "baseline_commit": "5578f64e7cb857a15a4be06534735e611e569239",
+  "execution": "Two fresh-context investigators read the same fictional packet independently. Each then cross-reviewed the other frozen record in a follow-up turn. A third fresh-context agent synthesized the packet and all four records. A fourth fresh-context agent repeats synthesis after one handoff-boundary clarification.",
+  "controls": false,
+  "assessment": "Skill-author assessment; unblinded, no independent scoring agent.",
+  "isolation": "Investigators received no parent history, expected verdict, rubric or sibling report until reciprocal review. File access limits were prompt instructions, not a filesystem sandbox.",
+  "runtime": "Exact model and sampling configuration not recorded. Agents inherited the session configuration.",
+  "versions": "Initial investigation used the saved initial skill snapshot. Following the user-specified external repository comparison, three paragraphs were added covering question-method fit, conditional differences, and writer handoff. Cross-review and synthesis used the integrated version. These additions were not a test-driven bug fix; no before/after effect is claimed. The first synthesis retained a project-readiness question in manuscript prose. One sentence was added to the integrated reference before the fresh synthesis regression; all earlier versions and outputs are preserved.",
+  "scope": "No live literature retrieval, bibliographic authenticity verification, source editing, or rendered manuscript validation. The live GitHub inspection informed skill development only.",
+  "available_vs_read": "Four skill folders were frozen as available materials. Initial investigators reported reading research-manuscript-writing, literature-to-story and section-reasoning. Cross-review read the integrated literature-to-story guidance. Final synthesis reported reads will be appended. Other entrypoints receive consistency/package checks unless listed as read.",
+  "source_comparison": {
+    "repository": "https://github.com/Imbad0202/academic-research-skills",
+    "commit": "b8d050f24f2e1c465c4410eace8634ea3af15930",
+    "license": "CC BY-NC 4.0",
+    "integration": "General workflow ideas compared; original instructions written for this library, no upstream prompt/code/template files distributed."
+  },
+  "synthesis_reported_reads": [
+    "cases/request.md",
+    "runs/a/initial.md",
+    "runs/a/cross-review.md",
+    "runs/b/initial.md",
+    "runs/b/cross-review.md",
+    "tested-skills/integrated/research-manuscript-writing/SKILL.snapshot.md",
+    "tested-skills/integrated/research-manuscript-writing/references/literature-to-story.md",
+    "tested-skills/integrated/research-manuscript-writing/references/section-reasoning.md",
+    "skills/scientific-story-audit/SKILL.md"
+  ],
+  "regression_reported_reads": [
+    "cases/request.md",
+    "runs/a/initial.md",
+    "runs/a/cross-review.md",
+    "runs/b/initial.md",
+    "runs/b/cross-review.md",
+    "skills/research-manuscript-writing/SKILL.md",
+    "skills/research-manuscript-writing/references/literature-to-story.md",
+    "skills/research-manuscript-writing/references/section-reasoning.md",
+    "skills/scientific-story-audit/SKILL.md"
+  ],
+  "path_resolution": "Cases, runs and tested-skills paths are relative to the evaluation directory. Paths beginning skills/ are repository-relative."
+}

@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-29",
+  "files": {
+    "integrated-skills/research-manuscript-writing/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "integrated-skills/research-manuscript-writing/SKILL.md": "5d17adcf1d58086d2e8ead777396258d5cf491f38608bc21f560ca80f122f3fa",
+    "integrated-skills/research-manuscript-writing/agents/openai.yaml": "62a7ff375091baa65f15d69d4bf5a519bb5b0add273e1d00a067412617fb8112",
+    "integrated-skills/research-manuscript-writing/references/findings-and-endings.md": "114bc958341fe429641df4e206c91ffaa56378f0a9c55955d15b63c0def7fcb9",
+    "integrated-skills/research-manuscript-writing/references/latex-and-word.md": "41bf1e30478072a57c3cd013561d58e5356dd13531726cc0ab4412f293127eb5",
+    "integrated-skills/research-manuscript-writing/references/literature-to-story.md": "dc88182efce97707c547fcb15d9b12e500fcfb21f3299a8a692d2946f79d116a",
+    "integrated-skills/research-manuscript-writing/references/section-reasoning.md": "4affdc04e0b319843963c6a85193669382f7061ea595f134e3dfc76df066b80f",
+    "cases/request.md": "aeabde94503588851d9c8ec6cba47fcc9b7772b0c025a35179572f4685912824",
+    "private/rubric.md": "8612b3e6cf9a957d45e98668a3d142a13d28259e492a3915f56ed34088577bd5",
+    "runs/a/initial.md": "6c77675225b06adbfb6047166d02b9958ef36b2888942fbbef2ceb7c149d93fb",
+    "runs/b/initial.md": "803bf6b4ee9e1fb5bc29d97d1ff3b6f41b4560050f687d012502dd0b5b286ca5"
+  }
+}

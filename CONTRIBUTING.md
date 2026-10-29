@@ -8,7 +8,7 @@ Propose improvements around an observed editorial failure, not a preference for 
 4. Propose the smallest change to the skill that addresses it.
 5. Re-run the relevant fixture and inspect the full response for regressions.
 
-Keep the core skill portable. Avoid mandatory model brands, provider-specific tools, universal section orders, fixed word quotas, and unnecessary mandatory multi-agent workflows. The reference-authenticity workflow is an explicit exception requiring two independent agents and Google Scholar-first checks; preserve that contract and report capability limits honestly. Put conditional depth in the relevant reference and keep its link discoverable from `SKILL.md`.
+Keep the core skill portable. Avoid mandatory model brands, provider-specific tools, universal section orders, fixed word quotas, and unnecessary mandatory multi-agent workflows. The reference-authenticity workflow requires two independent agents and Google Scholar-first checks. Idea-led research preparation also requires independent overlapping investigation followed by reciprocal review, within the permitted sources. Preserve these scoped contracts and report capability limits honestly; ordinary local edits do not trigger either workflow. Put conditional depth in the relevant reference and keep its link discoverable from `SKILL.md`.
 
 For behavior changes, include a no-guidance control when practical. Distinguish observed results from an expected outcome. A small number of synthetic trials is useful regression evidence, not proof of general effectiveness. A no-change decision can be a passing result.
 

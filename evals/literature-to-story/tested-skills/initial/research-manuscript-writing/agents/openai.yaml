@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research Manuscript Writing"
+  short_description: "Build concise manuscripts around the research question"
+  default_prompt: "Use $research-manuscript-writing to understand the supplied study and draft the requested sections as a concise, connected argument in the required LaTeX or Word format."

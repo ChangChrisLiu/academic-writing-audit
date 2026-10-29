@@ -10,6 +10,8 @@ This progression is a default for a problem-driven research abstract. A required
 
 ## Introduction
 
+For a first draft, the introduction's story follows the investigation rather than constraining it. Revisit the author's initial gap against relevant recent work, foundations and counterevidence before choosing the final paragraph sequence. Read [literature investigation and story development](literature-to-story.md) when that groundwork is missing. A literature review may change the question or contribution; it is not a search for citations to decorate an already fixed pitch.
+
 Set the destination before choosing the emphasis. Establish conference or journal, track or article type, intended readers, and the question or contribution that the supplied venue guidance prioritizes. Keep an author preference, an official requirement, and an inferred reader need distinct. Do not assume that all conferences prize a new method or that every journal demands a mechanism. When the target would change the framing but is unknown, ask for it and develop only the supported reasoning until it is resolved, unless a venue-neutral draft was explicitly requested.
 
 Use an inverted-pyramid argument, not merely decreasing topic breadth. Begin with the relevant direction and what existing work has made possible. Narrow to a specific unresolved issue, explain its consequence and the rationale for the proposed scientific move, then state the supported contribution and evidence. These are connected reasoning functions, not required headings, one paragraph per function, or a template to fill with invented facts.

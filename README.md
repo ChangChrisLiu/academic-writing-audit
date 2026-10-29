@@ -13,6 +13,8 @@ Reconstruct the argument, check the evidence, and change only what needs changin
 
 根据研究设计限定 **reviewer 与 editor 的专业角色**，检查预期论证和当前内容的差距。通过 **修改前后对照** 防止过度压缩丢失逻辑和信息，保留有效纠错与正常专业术语。“去 AI 味”落实为论证展开、自然承接、表达节奏、句式简化和冗余检查，生成段落默认不用解释性冒号或句中破折号，保留术语连字符及技术符号。回复信回应审稿人，正文直接解释研究。通用 Markdown 指令可供不同 agent 使用。
 
+初稿新增[领域调研与故事线准备](docs/research-preparation.md)。从研究想法出发，按学科检索和评价文献，结合近期进展、基础研究与反例，由多个 agent 独立调查并交叉核对，再形成一条清晰主线。充分思考留在研究准备中，正文保持简洁、连贯、不防御。
+
 [中文使用说明](README.zh-CN.md) · [文献真实性与引用核对](docs/reference-guide.md) · [专业角色与前后对照](docs/revision-guide.md) · [论文结构与写作](docs/manuscript-guide.md) · [自然表达与逻辑审查](docs/prose-guide.md) · [审稿回复与正文写作指南](docs/rebuttal-guide.md) · [安装方法](#install)
 
 <p align="center">
@@ -98,13 +100,15 @@ The accusation and reassurance disappear. The operative rule, denominator, and s
 
 Use [research-manuscript-writing](skills/research-manuscript-writing/SKILL.md) when drafting or restructuring sections from research materials. It first establishes the concrete question, motivation, contribution, and evidence. Missing research facts remain dependencies instead of becoming generic background or invented results.
 
+An idea-led first draft begins with [literature investigation and story development](skills/research-manuscript-writing/references/literature-to-story.md). Two or more agents independently examine overlapping questions, then cross-review evidence before synthesis. Learn problem framing from introductions and related work, inspect pivotal methods and findings, and let closest prior solutions or contrary evidence change the initial story. Recent work matters alongside foundational and less visible scholarship. Source records distinguish what was read, bibliographic identity, methodological support and unresolved questions. Local edits reuse the relevant evidence without restarting field research.
+
 The abstract follows a motivated problem-to-result progression. Before drafting an introduction, establish the target conference or journal, audience, and supported submission priorities. Build one narrowing argument from relevant progress through gap and motivation to contribution. Conference framing may integrate the gap and motivation compactly; journal framing makes the unresolved issue, its consequence, and the rationale explicit, subject to the actual venue requirements. Audits remove detours and explanation without a distinct reasoning function while preserving necessary bridges. The literature review develops two or three connected threads from that argument and explains prior studies, without default taxonomies or repeated comparisons with the present paper. Methods follow operational or analytic dependencies, while findings and endings fit the study design and supplied disciplinary conventions.
 
 The default is concise connected prose, not contribution lists, module catalogues, or table narration. Required structured abstracts, formal algorithms, and author-selected formats remain supported. [The writing guide](docs/manuscript-guide.md) explains the section logic and LaTeX/Word boundaries.
 
 ## Match the review to the research, then compare revisions
 
-The full audit assigns reviewer and editor responsibilities by subfield, study design, audience, evidence access, and the decision required. It compares what the argument needs to establish with what the current text actually establishes, distinguishing actual reviewer requests from inferred reader needs. A proof, an experimental comparison, and an interpretive account require different judgments. For general editorial review, separate agents are optional; disagreements are resolved through source evidence rather than voting. The dedicated reference-authenticity workflow requires two independent agents checking the same entries.
+The full audit assigns reviewer and editor responsibilities by subfield, study design, audience, evidence access, and the decision required. It compares what the argument needs to establish with what the current text actually establishes, distinguishing actual reviewer requests from inferred reader needs. A proof, an experimental comparison, and an interpretive account require different judgments. For general editorial review, separate agents are optional; disagreements are resolved through source evidence rather than voting. The dedicated reference-authenticity and idea-led preparation workflows use independent agents for their specified checks.
 
 Use [revision-integrity-audit](skills/revision-integrity-audit/SKILL.md) after shortening or restructuring. It checks both whether the intended concern was resolved and whether valid reasoning and information survived. Keep supported corrections, useful compression, and verified relocation. Restore missing meaning without restoring an entire old paragraph. See the [Chinese role and revision guide](docs/revision-guide.md).
 
@@ -255,6 +259,8 @@ The [reference-workflow execution checks](evals/reference-workflow/README.md) ad
 The [Word citation transfer checks](evals/word-citation-transfer/README.md) add two independent guided audits and a no-citation-skill control covering same-author/year labels, real footnotes, captions, uncited entries, and partial exports. A separate agent assessed their reports and actual files. All three preserved the seven fields during a narrow prose edit and reached the expected mapping decisions. The control also passed, so these small trials establish no measured skill advantage. The skill instructions were retained unchanged.
 
 The [introduction focus checks](evals/introduction-focus/README.md) cover destination-aware conference/journal drafting, a missing destination, an archival-research detour, and a lost reasoning bridge after shortening. Three fresh-context executions include a targeted drafting regression after the initial journal draft repeated an established explanation. The author assessment retains that initial shortcoming and an optional wording refinement. These fictional checks have no unguided control or independent assessor.
+
+The [literature-to-story checks](evals/literature-to-story/README.md) exercise independent overlapping investigation, reciprocal review and writing handoff on fictional robotics and social-history packets. Cross-review corrects a citation-to-intellectual-dependence overclaim. A fresh synthesis regression follows a narrow repair after the first writer placed a project-readiness question in manuscript prose. The complete records retain both shortcomings. These author-assessed, closed-packet checks do not test live retrieval and have no unguided control.
 
 The skills support reasoning and editing; the quality of a conclusion still depends on the sources and evidence available to the agent. Read [CONTRIBUTING.md](CONTRIBUTING.md) to propose an observed failure, a small repair, and a regression case.
 

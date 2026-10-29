@@ -1,0 +1,50 @@
+{
+  "scope": "Only temporary path text changes in generated outputs; scientific content is unchanged. Raw input freezes are retained byte-for-byte.",
+  "outputs": [
+    {
+      "file": "evals/literature-to-story/runs/a/initial.md",
+      "raw_sha256": "6c77675225b06adbfb6047166d02b9958ef36b2888942fbbef2ceb7c149d93fb",
+      "published_sha256": "6c77675225b06adbfb6047166d02b9958ef36b2888942fbbef2ceb7c149d93fb",
+      "transform": "none"
+    },
+    {
+      "file": "evals/literature-to-story/runs/a/cross-review.md",
+      "raw_sha256": "c9a6f839cc19797dd0924392369ff7359d061616bba3577af497fdfe1367a8d9",
+      "published_sha256": "c9a6f839cc19797dd0924392369ff7359d061616bba3577af497fdfe1367a8d9",
+      "transform": "none"
+    },
+    {
+      "file": "evals/literature-to-story/runs/b/initial.md",
+      "raw_sha256": "803bf6b4ee9e1fb5bc29d97d1ff3b6f41b4560050f687d012502dd0b5b286ca5",
+      "published_sha256": "803bf6b4ee9e1fb5bc29d97d1ff3b6f41b4560050f687d012502dd0b5b286ca5",
+      "transform": "none"
+    },
+    {
+      "file": "evals/literature-to-story/runs/b/cross-review.md",
+      "raw_sha256": "ab661b92d061a11d124e421a8255d50b9792f09d1a4d7720d22201a120c06c32",
+      "published_sha256": "c671f7b3f0564f9043698d33aee0431a4141f590f750ccbd379c0405ad34e189",
+      "transform": "Temporary absolute paths replaced with repository-relative paths"
+    },
+    {
+      "file": "evals/literature-to-story/runs/synthesis/answer.md",
+      "raw_sha256": "786091fc3f53966c8daaa0e02eca8d89e19b257ff95646278e58ebd4dcdb3da1",
+      "published_sha256": "786091fc3f53966c8daaa0e02eca8d89e19b257ff95646278e58ebd4dcdb3da1",
+      "transform": "none"
+    },
+    {
+      "file": "evals/literature-to-story/runs/regression/answer.md",
+      "raw_sha256": "5bd6c4e45ab968320be9e3ac0f211814f6e9da72c0bd45865e463c3439dc773e",
+      "published_sha256": "5bd6c4e45ab968320be9e3ac0f211814f6e9da72c0bd45865e463c3439dc773e",
+      "transform": "none"
+    }
+  ],
+  "freeze_path_resolution": {
+    "cases/": "evals/literature-to-story/cases/",
+    "private/rubric.md": "evals/literature-to-story/rubric.md",
+    "tested-skills/research-manuscript-writing/": "evals/literature-to-story/tested-skills/initial/research-manuscript-writing/ (SKILL.md renamed to SKILL.snapshot.md)",
+    "tested-skills/<other>/": "skills/<other>/",
+    "integrated-skills/": "evals/literature-to-story/tested-skills/integrated/ (SKILL.md renamed to SKILL.snapshot.md)",
+    "runs/": "evals/literature-to-story/runs/; use raw output hashes above where paths were transformed",
+    "revised-skills/": "skills/"
+  }
+}
