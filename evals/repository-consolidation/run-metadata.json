@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-29",
+  "base_git_commit": "16ec176bc9849c54fec8095afe7a32c7f874a0cf",
+  "target_release": "v0.9.0",
+  "model_configuration": "All subagents inherited the parent model and reasoning configuration without overrides; exact resolved model ID is not asserted.",
+  "design": "Three read-only architecture investigations informed scoped edits. Existing fictional cases and a new rubric were frozen before behavioral runs.",
+  "participants": {
+    "research": "consolidation_research_trial",
+    "response": "consolidation_response_trial",
+    "prose": "consolidation_prose_trial"
+  },
+  "participant_context": "Each behavioral participant used fork_turns=none with complete standalone copies of only its assigned skills, the case packets, and a separate output directory. Instructions excluded rubric, prior outputs, other workspaces, memories, external retrieval and new agents.",
+  "assigned_inputs": "See design-freeze.json groups and hashes. Local copies matched the frozen repository files.",
+  "output_handling": "Full raw answers copied byte-for-byte with no text transformations.",
+  "assessor": {
+    "task": "consolidation_assessment",
+    "context": "fork_turns=none; did not author cases, skills or outputs",
+    "inputs": "Current outputs, prewritten rubric and original case packets. The design freeze was supplied only for source paths. Tested skills and old outputs were excluded.",
+    "scope_clarification": "After the initial review, the coordinator clarified that one research participant ran and the reused pair wording is historical fixture logistics. The assessor separately recorded the mismatch without changing outputs."
+  },
+  "coordinator": "Skill author; checked the actual outputs, independent assessment, unchanged input hashes and historical source diff.",
+  "protocol_limits": "Known regression cases; no unguided control, live research or reciprocal investigator review. Isolation was directory/prompt based, not filesystem-enforced. No real manuscript work or model-effectiveness estimate.",
+  "prompt_record": "Invocation instructions are summarized here, not represented as exact transcripts.",
+  "repairs": "No skill repair indicated by behavioral outputs. The packaging implementation was repaired after its executable test caught missing ZIP mode metadata."
+}

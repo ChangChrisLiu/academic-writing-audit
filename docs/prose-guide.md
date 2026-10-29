@@ -1,5 +1,7 @@
 # 自然表达与逻辑审查
 
+[指南索引](README.md) · [中文说明](../README.zh-CN.md) · [Home](../README.md)
+
 “去 AI 味”在这里指改善可观察的写作问题，包括空洞铺垫、套话、句式缠绕、指代不清、推理跳步和重复解释。某个词或标点不能证明文字由谁撰写，也不把检测分数当作写作质量。
 
 [academic-prose-editing](../skills/academic-prose-editing/SKILL.md) 可以独立处理这类问题。[academic-writing-audit](../skills/academic-writing-audit/SKILL.md) 将这些检查纳入完整学术审查。[scientific-story-audit](../skills/scientific-story-audit/SKILL.md) 重点检查跨句、跨段以及整篇研究主线的连接。只检查一个段落时，不推断全文都已经通过审查。

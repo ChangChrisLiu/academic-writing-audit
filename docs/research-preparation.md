@@ -1,5 +1,7 @@
 # 先调研，再形成初稿的故事线
 
+[指南索引](README.md) · [中文说明](../README.zh-CN.md) · [Home](../README.md)
+
 入口是 [research-manuscript-writing](../skills/research-manuscript-writing/SKILL.md)，操作细节见 [literature-to-story](../skills/research-manuscript-writing/references/literature-to-story.md)。这是一项围绕研究问题的写作准备。只有实际采用相应协议时，才称为系统综述。
 
 研究阶段以理性的探索为主。先理解一个想法在现有证据下成立的理由，再用同样的标准检查假设、替代解释与实质问题。批判性思维应帮助我们改进问题和设计，不急于自我辩护，也不因尚有未知就否定整个方向。早期想法需要值得检验的理由，已完成的结果需要与所作主张相称的证据。

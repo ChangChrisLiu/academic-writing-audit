@@ -1,6 +1,6 @@
 # From a writing problem to a useful repair
 
-[Back to the library](../README.md) · [中文导航](../README.zh-CN.md#按问题选择-skill)
+[Guides](README.md) · [Home](../README.md) · [中文说明](../README.zh-CN.md#按问题选择-skill)
 
 These patterns are generalized editorial lessons. The examples below are fictional. Choose the skill for the problem you actually have; a narrow task does not require loading the entire collection.
 

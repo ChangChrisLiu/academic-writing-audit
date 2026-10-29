@@ -1,0 +1,98 @@
+{
+  "created_utc": "2026-10-29T18:26:08.850133+00:00",
+  "base_git_commit": "16ec176bc9849c54fec8095afe7a32c7f874a0cf",
+  "protocol": "Three fresh-context regression participants use complete standalone copies, no rubric or prior outputs. The skill author reviews outputs against a frozen rubric. No unguided control or general efficacy claim. Copies are isolated by directory and prompt restrictions, not filesystem access controls.",
+  "cases": {
+    "evals/introduction-focus/cases/draft.md": "d0d76c530c4c43d08c44df0befd9b99870b9ecf80c8a24dcc3b44de291cf8e77",
+    "evals/constructive-inquiry/cases/request.md": "09154826f1f837aee01f40a00da57d5b8f0495348a7e13ab9d12d2dfdae53d2c",
+    "evals/reviewer-response-writing/transfer/cases/economics.md": "f2c17b76bc87f7379af6622ed62b957abbc7c4f2ad798a774ec9c263375646b3",
+    "evals/reviewer-response-writing/transfer/cases/peer-review-research.md": "3c575b7a35b0d141171de7552267a184cfe28464fbe64eeddb4899f0c8eff665",
+    "evals/concept-language-transfer/cases/chemistry.md": "4215317458514c1ab474e8705c4d7bbece28c078a68826239832984b93176d26"
+  },
+  "rubric_sha256": "b4b470997d7c2434b92dfe0a3238c236b477d99486f3c78d7d87f2ecae039919",
+  "tested_skills": {
+    "skills/academic-writing-audit/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "skills/academic-writing-audit/SKILL.md": "41c9f61a43d1f1b6fb3d2350970f96822871380adfbeca6f987fb5ed7015c1e3",
+    "skills/academic-writing-audit/agents/openai.yaml": "e0f9d0070fcaad2d342eb1b0e0748049a291ecd5471ffe9e07cbc83784e160b8",
+    "skills/academic-writing-audit/references/argument-and-evidence.md": "897fd5332075511b6123216cb2a2b0187f83d9c0b63f3d97ec735d7eb9a6091d",
+    "skills/academic-writing-audit/references/examples.md": "32c7de0bb5f46024362ad1c8ede14704c3c792692fed81a40d1dd88e250705a4",
+    "skills/academic-writing-audit/references/nondefensive-writing.md": "22440feadacdcf98aefc52bd71c9ffcf0a362b1f67b06dd74b06797d89c02753",
+    "skills/academic-writing-audit/references/prose-checks.md": "569c9d24e76d4a06eb20cf33cdbeb7d0591502813171a356e5b74db3188da091",
+    "skills/academic-writing-audit/references/prose-policy.md": "5e966bc0d89af9972b9b584e9bf67a461f581d84c63854c3bf29d1913c57e788",
+    "skills/academic-writing-audit/references/review-and-patching.md": "aae5f38c4cd535c0c85710450032c8c517cc87979b36cf000ce21e1f7e163290",
+    "skills/academic-writing-audit/references/roles-and-expectations.md": "dc5002ad639557bbe17c0f705cf86f111e46d49b6e3242b4a2f790bbe4fa36b4",
+    "skills/claim-evidence-audit/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "skills/claim-evidence-audit/SKILL.md": "5e29a30bda4fecd7722428246f4660756a47dbc7b256025339437ad754519ef6",
+    "skills/claim-evidence-audit/agents/openai.yaml": "88301e1bec7de400575bbfbc1acab0561f3faae03e7c3b2fc782b3ca4c41288c",
+    "skills/claim-evidence-audit/references/examples.md": "f2d5d7c4b13ec9499aed05b728cb3fcf97ad8d7c007e23c483392e8197e0c0d3",
+    "skills/claim-evidence-audit/references/prose-policy.md": "5e966bc0d89af9972b9b584e9bf67a461f581d84c63854c3bf29d1913c57e788",
+    "skills/figure-caption-audit/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "skills/figure-caption-audit/SKILL.md": "ef1fb71992569f193de46b5e072ae861ce9c5d59caf6d942cd21fb6d32f4decd",
+    "skills/figure-caption-audit/agents/openai.yaml": "6ef00f4e6fb3932926e28158e1f1b996ca37f060dfb6aae9fdd9bc44fedd0c53",
+    "skills/figure-caption-audit/references/prose-policy.md": "5e966bc0d89af9972b9b584e9bf67a461f581d84c63854c3bf29d1913c57e788",
+    "skills/method-definition-audit/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "skills/method-definition-audit/SKILL.md": "5d5e088eab7257185c5ae9a1b8bb25e90bd78626ba2c9c58a3af7914f719a241",
+    "skills/method-definition-audit/agents/openai.yaml": "318f3af4ac2f7ba46b6f961c221074cee46cc3c1d110dcd63516df4de5b03902",
+    "skills/method-definition-audit/references/prose-policy.md": "5e966bc0d89af9972b9b584e9bf67a461f581d84c63854c3bf29d1913c57e788",
+    "skills/nondefensive-writing/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "skills/nondefensive-writing/SKILL.md": "c6f1b7449d776f149f55382be3705db08d955450816fe12909cd2899a6328ac5",
+    "skills/nondefensive-writing/agents/openai.yaml": "f763884805eda5a725dd7357accd532b2233dafc7eec43a342d7c899f5224f5f",
+    "skills/nondefensive-writing/references/prose-policy.md": "5e966bc0d89af9972b9b584e9bf67a461f581d84c63854c3bf29d1913c57e788",
+    "skills/research-manuscript-writing/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "skills/research-manuscript-writing/SKILL.md": "a49951f7f82b1cc34f1d05be195e3f8a6c4b4266ad07157b69d88957c0a0c76f",
+    "skills/research-manuscript-writing/agents/openai.yaml": "62a7ff375091baa65f15d69d4bf5a519bb5b0add273e1d00a067412617fb8112",
+    "skills/research-manuscript-writing/references/findings-and-endings.md": "114bc958341fe429641df4e206c91ffaa56378f0a9c55955d15b63c0def7fcb9",
+    "skills/research-manuscript-writing/references/latex-and-word.md": "41bf1e30478072a57c3cd013561d58e5356dd13531726cc0ab4412f293127eb5",
+    "skills/research-manuscript-writing/references/literature-to-story.md": "f89f63d86a840a68417563fc20263472693ffbad0c98e8ce620221771b559878",
+    "skills/research-manuscript-writing/references/prose-policy.md": "5e966bc0d89af9972b9b584e9bf67a461f581d84c63854c3bf29d1913c57e788",
+    "skills/research-manuscript-writing/references/section-reasoning.md": "4affdc04e0b319843963c6a85193669382f7061ea595f134e3dfc76df066b80f",
+    "skills/reviewer-comment-triage/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "skills/reviewer-comment-triage/SKILL.md": "aef3e092dfdf80ca2bee7e65183db0e924ba09b4a5c46473f9b9fb4a4b5f63c3",
+    "skills/reviewer-comment-triage/agents/openai.yaml": "3d8ae98c607f5601770a3230688950ed24eb65c632977b0c5bd25abd63cdc1b6",
+    "skills/reviewer-comment-triage/references/prose-policy.md": "5e966bc0d89af9972b9b584e9bf67a461f581d84c63854c3bf29d1913c57e788",
+    "skills/reviewer-response-writing/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "skills/reviewer-response-writing/SKILL.md": "4c9f05643bfbd423b1dd110b4090706268897c7e30015d6026e489e54fae3d30",
+    "skills/reviewer-response-writing/agents/openai.yaml": "bcf6b0e6180f0f2d6d60a8b19bc297762b3e8e05b31b280bf7b7683c369ec5d8",
+    "skills/reviewer-response-writing/references/manuscript-boundary.md": "31dbc5b83390634b258c4482f07c23c272b08335b2906d6e8c5ba11bce00bc89",
+    "skills/reviewer-response-writing/references/prose-policy.md": "5e966bc0d89af9972b9b584e9bf67a461f581d84c63854c3bf29d1913c57e788",
+    "skills/reviewer-response-writing/references/response-patterns.md": "373ea35fd7119630c4367d94f7ea923cedba517a57258aadfbfe3a17f867294f",
+    "skills/scientific-story-audit/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "skills/scientific-story-audit/SKILL.md": "efb971cf18fc2f977269847b983844b4eca8ec1301f82801f6c471575afc6d44",
+    "skills/scientific-story-audit/agents/openai.yaml": "9f506d62cf550225ca13f470868fa9068388d827ed53f1f8b287f12d3d2aef84",
+    "skills/scientific-story-audit/references/prose-policy.md": "5e966bc0d89af9972b9b584e9bf67a461f581d84c63854c3bf29d1913c57e788"
+  },
+  "groups": {
+    "research": {
+      "skills": [
+        "research-manuscript-writing",
+        "scientific-story-audit",
+        "academic-writing-audit",
+        "nondefensive-writing"
+      ],
+      "cases": [
+        "evals/introduction-focus/cases/draft.md",
+        "evals/constructive-inquiry/cases/request.md"
+      ]
+    },
+    "response": {
+      "skills": [
+        "reviewer-response-writing",
+        "reviewer-comment-triage"
+      ],
+      "cases": [
+        "evals/reviewer-response-writing/transfer/cases/economics.md",
+        "evals/reviewer-response-writing/transfer/cases/peer-review-research.md"
+      ]
+    },
+    "prose": {
+      "skills": [
+        "claim-evidence-audit",
+        "figure-caption-audit",
+        "method-definition-audit"
+      ],
+      "cases": [
+        "evals/concept-language-transfer/cases/chemistry.md"
+      ]
+    }
+  }
+}

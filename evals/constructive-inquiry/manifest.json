@@ -38,7 +38,10 @@
         "nondefensive-writing/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
         "nondefensive-writing/SKILL.md": "cd32076642542b78d1b4c8a40642a48470147c1c8bee6ac399a168c0ddd01831",
         "nondefensive-writing/agents/openai.yaml": "f763884805eda5a725dd7357accd532b2233dafc7eec43a342d7c899f5224f5f"
-      }
+      },
+      "git_commit": "16ec176bc9849c54fec8095afe7a32c7f874a0cf"
     }
-  }
+  },
+  "source_git_commit": "16ec176bc9849c54fec8095afe7a32c7f874a0cf",
+  "historical_resolution": "Original v0.8.2 evaluation and released skill hashes resolve at this commit; recorded hashes are unchanged."
 }

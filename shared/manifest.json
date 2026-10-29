@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "copies": [
+    {
+      "source": "shared/prose-policy.md",
+      "targets": [
+        "skills/academic-writing-audit/references/prose-policy.md",
+        "skills/claim-evidence-audit/references/prose-policy.md",
+        "skills/experiment-comparison-audit/references/prose-policy.md",
+        "skills/figure-caption-audit/references/prose-policy.md",
+        "skills/manuscript-release-check/references/prose-policy.md",
+        "skills/method-definition-audit/references/prose-policy.md",
+        "skills/nondefensive-writing/references/prose-policy.md",
+        "skills/related-work-synthesis/references/prose-policy.md",
+        "skills/research-manuscript-writing/references/prose-policy.md",
+        "skills/results-interpretation/references/prose-policy.md",
+        "skills/reviewer-comment-triage/references/prose-policy.md",
+        "skills/reviewer-response-writing/references/prose-policy.md",
+        "skills/scientific-story-audit/references/prose-policy.md"
+      ]
+    },
+    {
+      "source": "shared/reference-ledger.md",
+      "targets": [
+        "skills/reference-authenticity-audit/references/reference-ledger.md",
+        "skills/latex-bibliography-audit/references/reference-ledger.md",
+        "skills/word-citation-audit/references/reference-ledger.md"
+      ]
+    }
+  ]
+}

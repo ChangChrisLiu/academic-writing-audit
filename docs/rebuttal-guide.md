@@ -1,6 +1,6 @@
 # 审稿回复：把问题回答清楚，把正文改清楚
 
-[返回主页](../README.md) · [中文说明](../README.zh-CN.md) · [安装 reviewer-response-writing](../skills/reviewer-response-writing/SKILL.md)
+[指南索引](README.md) · [中文说明](../README.zh-CN.md) · [Home](../README.md) · [reviewer-response-writing](../skills/reviewer-response-writing/SKILL.md)
 
 这份指南总结实际 rebuttal 写作及后续稿件审查中的经验。既保留有效做法，也吸收回复后仍未解决的问题。下面的例子全部是虚构情境，不是原始论文或审稿通信的摘录。
 

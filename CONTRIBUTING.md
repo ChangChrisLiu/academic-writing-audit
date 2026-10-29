@@ -18,4 +18,29 @@ Distinguish behavioral report assessments from operational tests. Reference-work
 
 Keep descriptions and installation guidance consistent with the current format. Check frontmatter, relative links, and standalone packaging. Do not copy proprietary prompts, manuscripts, correspondence, logs, credentials, or personal filesystem paths into an issue or pull request. Use authorized, minimal source excerpts or fictional examples.
 
+## Keep responsibilities and shared guidance clear
+
+Place a rule with the skill that owns the decision. The full audit routes consequential findings; drafting develops the manuscript; prose editing repairs expression; revision integrity compares versions; response writing addresses reviewers. Keep these responsibilities distinct rather than giving every skill the complete workflow. Use the [documentation index](docs/README.md) for user-facing task guidance.
+
+Repeated prose conventions and the reference ledger have canonical sources under [shared/](shared/manifest.json). Their declared copies remain inside each skill so a selected skill can be installed independently. Edit the canonical source, then run:
+
+```sh
+python3 scripts/sync_shared.py
+python3 scripts/sync_shared.py --check
+python3 scripts/validate.py
+python3 -m unittest discover -s scripts -p 'test_*.py'
+```
+
+Do not hand-edit declared copies or make a skill depend on a sibling skill or the repository-level shared directory. A shared-source change affects every declared consumer, so review its fit for each responsibility. Keep skill-specific exceptions in the relevant entrypoint or reference.
+
+The validator uses Python 3.9+ and the standard library. It checks the repository's simple scalar frontmatter and UI metadata, license copies, local file links, common Markdown heading anchors in active documentation, standalone dependencies, shared-copy equality, historical manifest hashes and Git whitespace checks. It is not a general YAML or Markdown parser. Use a full Git clone containing the recorded historical commits; an exported source ZIP cannot complete the Git checks. An optional `--installed-dir /path/to/skills` compares complete installed folders without writing them. These structural checks do not establish behavioral effectiveness.
+
+After validation and committing the intended files, build a release from the clean Git tree with `python3 scripts/package_release.py --tag v0.9.0 --output-dir ../releases/v0.9.0`, substituting the intended version and a new destination. The command validates again, packages the committed repository and complete standalone skills, verifies archive bytes and modes, and writes media assets and checksums. It refuses an existing destination and does not push, tag or publish. Review the resulting files before the separately authorized publication step.
+
+## Preserve historical evidence
+
+Treat existing trial requests, rubrics, freezes, outputs, assessments, artifact files and record READMEs as historical evidence. Do not shorten, reformat or overwrite them during documentation maintenance, including whitespace that is protected by `.gitattributes`. Add new trials or explanatory records separately and link them through the [evaluation index](evals/index.md).
+
+Before editing a skill referenced by a live historical manifest, pin the existing tested bytes to their already-recorded Git revision and document that resolution change. Preserve the expected hashes. Do not recalculate historical hashes to make revised instructions appear previously tested. A commit-resolved hash check verifies that historical version; it does not detect every change to the current copy, so compare the existing evidence files before and after a maintenance change as well.
+
 Contributions are distributed under this repository's MIT license.

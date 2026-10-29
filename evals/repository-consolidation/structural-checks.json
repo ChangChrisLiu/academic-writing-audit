@@ -1,0 +1,28 @@
+{
+  "base_git_commit": "16ec176bc9849c54fec8095afe7a32c7f874a0cf",
+  "target_release": "v0.9.0",
+  "skill_count": 18,
+  "skill_names_preserved": true,
+  "entrypoint_words": {
+    "before": 21265,
+    "after": 16727,
+    "reduction_percent": 21.3
+  },
+  "landing_pages": {
+    "README.md": {
+      "characters_before": 31727,
+      "characters_after": 8898,
+      "reduction_percent": 72.0
+    },
+    "README.zh-CN.md": {
+      "characters_before": 12622,
+      "characters_after": 3833,
+      "reduction_percent": 69.6
+    }
+  },
+  "shared_policy": "Every original policy sentence preserved verbatim; only headings and paragraph boundaries changed. One canonical source, 13 standalone local copies.",
+  "reference_ledger": "One canonical source, three byte-identical standalone local copies.",
+  "historical_artifacts": "All pre-existing evaluation files unchanged except constructive-inquiry/manifest.json resolution metadata; expected hashes unchanged.",
+  "tools": "Python 3.9+ standard library; 23 temporary-repository unit tests passed. Checks cover structural integrity, drift, escapes, missing history, exact archive bytes/modes, checksum matching, dirty-worktree and overwrite refusal.",
+  "structural_limits": "Simple scalar metadata subset and common Markdown anchors; Git-resolved evidence requires historical commit objects. Runtime behavior is assessed separately."
+}
