@@ -1,0 +1,29 @@
+# Academic humanization
+
+This v0.9.2 revision uses the requested [Humanizer](https://github.com/blader/humanizer) project as an editorial reference. The [source review](source-review.json) records the inspected 3.1.0 skill, exact Git revision and MIT license. The pinned source matched the main-branch content inspected in this task. No upstream executable was run, and its instructions and examples are not bundled. These are independently phrased academic adaptations, not a replacement installation of Humanizer.
+
+## What changed
+
+[Academic prose editing](../../skills/academic-prose-editing/SKILL.md) now gives author samples, reader context, rhetorical claims and a final rereading more explicit roles. Its [reasoning and rhythm reference](../../skills/academic-prose-editing/references/reasoning-and-rhythm.md) distinguishes meaningful scientific contrasts from empty opposition, complete enumerations from decorative lists, and necessary qualifications from accumulated hedging. A fluent explanatory clause is checked as a claim, including any unsupported causal or reliability implication.
+
+The [shared prose policy](../../shared/prose-policy.md) carries the compact rules into its 13 existing standalone consumers. It preserves technical terms, uncertainty, quotations, document syntax, research provenance and the difference between a response letter and a manuscript. Author samples guide register and emphasis; they do not supply study facts, imagined reactions or a punctuation quota. The internal rereading does not force an unsolicited draft-critique-final delivery. The [Chinese guide](../../docs/prose-guide.md) explains the workflow and acknowledges the upstream reference.
+
+The skill set still has 18 names. Fourteen bundles changed because the prose editor has its own detailed resources while 13 other skills receive the declared shared copy. The canonical-copy mechanism and maintenance scripts are unchanged.
+
+## Frozen trials and full outputs
+
+The [prose packet](cases/prose.md) contains four tasks covering separate quantitative findings, a correct observational paragraph, an audit-only mathematical comparison, and a supplied author sample with an exact quotation. The [transfer packet](cases/transfer.md) contains a paired reviewer reply/manuscript edit and an engineering abstract. All studies, source details and numerical results are fictional. See the [rubric](rubric.md), [design freeze](design-freeze.json) and [run metadata](run-metadata.json).
+
+Two fresh-context participants used complete standalone copies. The first invoked academic-prose-editing for four tasks; the second invoked reviewer-response-writing and research-manuscript-writing for two tasks. Another fresh-context participant received the same four prose tasks without repository-skill guidance. The complete [guided prose](runs/prose.md), [guided transfer](runs/transfer.md) and [control](runs/control.md) outputs are retained byte for byte. A separate assessor read the packets, rubric and outputs, with condition labels visible.
+
+The [initial assessment](assessment.md) reports no material failure in the six guided units or four control units. Correct statistical prose remained unchanged, meaningful technical distinctions and all three separate numerical comparisons survived, and valid buffer, estimator and gate terminology was preserved. The exact quotation retained its colon and dash. The paired edit kept revision locations and courtesy in the response and standalone research exposition in the manuscript. These observations are bounded to the supplied tasks.
+
+The assessor initially misread the abstract limit as a preferred six-sentence shape. The coordinator supplied the tested rule's explicit ceiling language after assessment. The separate [addendum](assessment-addendum.md) withdraws count criticism while preserving the optional observation that the abstract's calibration detail could be omitted for focus. The frozen rubric, five-sentence answer and initial assessment are unchanged. No policy repair or rerun was needed for that assessment error.
+
+Two optional observations remain visible: the quantitative Results paragraph could lead with findings before implementation, and the abstract could omit its secondary calibration sentence. Neither loses evidence or violates the task, and neither justifies another universal rule. The control also succeeds on the core criteria; the small, unreplicated comparison does not show that the skill caused an improvement.
+
+## Verification boundaries
+
+The [structural record](structural-checks.json) separates maintenance checks from editorial judgments. The 23 existing validator and package tests passed. Skill Creator's quick validator initially lacked PyYAML in the available Python environments; an isolated temporary dependency resolved that check without changing repository or shared-runtime dependencies. Fourteen installed skill folders match their repository counterparts. The previous first-draft manifest is pinned to its tested commit with expected hashes unchanged, and historical artifacts retain their bytes; the evaluation index is maintained separately. The [manifest](manifest.json) binds this record, shared resources and the affected released bundles.
+
+Participants were instructed to read only their packets and assigned skills; restrictions were prompt-based, not enforced filesystem isolation. The rubric and prior answers were withheld from writers, but all runs shared the host/runtime's general instructions. Only three entrypoints received new behavioral trials; the other shared-policy consumers received structural and scope checks. No private manuscript was accessed, edited or published. These trials do not establish authorship, detector avoidance, general effectiveness, reference authenticity, native citation-field preservation or rendered-document quality.

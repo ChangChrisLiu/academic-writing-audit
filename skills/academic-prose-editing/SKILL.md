@@ -12,6 +12,8 @@ Make the argument easier to read without changing what the evidence says. Treat 
 
 Read the passage and its immediate context. Identify whether the user wants an audit, proposed wording, or file edits. An audit returns findings before rewriting. Honor a bounded revision directly and preserve sound author choices. An excerpt supports a local judgment, not a whole-paper verdict.
 
+Identify the section's readers and use an author-supplied sample to understand register, emphasis and pacing when available. Do not import its claims, invent personal reactions or treat its incidental punctuation as stronger than explicit instructions. Manuscript readers still need the necessary context even when the editor knows the conversation.
+
 Use this library's prose preference unless the author or venue specifies otherwise. Write connected paragraphs without explanatory colons or sentence-interrupting dashes, including spaced hyphens and LaTeX dash syntax. Use a full stop or a grammatical connection instead. Keep hyphens inside established compound terms such as “cross-domain.” This preference concerns generated exposition and response prose, not required document syntax. Preserve mathematical notation, minus signs, ranges, ratios, URLs, identifiers, citations, verbatim quotations, and required templates. Do not silently alter a source quotation to meet the preference. Do not turn a paragraph into bullet fragments unless the requested format calls for a list.
 
 ## Check the reasoning before polishing
@@ -22,7 +24,7 @@ When a conclusion exceeds its support, correct the proposition using the supplie
 
 ## Make the reasoning develop naturally
 
-When accurate prose still feels mechanical, read [reasoning and rhythm](references/reasoning-and-rhythm.md). Identify what the reader understands at the end that was not established at the beginning. Connect the actual premise, difficulty, choice, evidence, or qualification needed here rather than presenting equally weighted facts. Make a supported rationale or consequential distinction visible; do not invent author deliberation, a discovery story, or a missing scientific reason.
+For humanization requests or prose that feels mechanical, read [reasoning and rhythm](references/reasoning-and-rhythm.md), including its checks on rhetorical habits and claim preservation. Identify what the reader understands at the end that was not established at the beginning. Connect the actual premise, difficulty, choice, evidence, or qualification needed here rather than presenting equally weighted facts. Make a supported rationale or consequential distinction visible; do not invent author deliberation, a discovery story, or a missing scientific reason.
 
 Let emphasis and logical relationships shape sentence and paragraph variation. Avoid repeated stock openings and identical paragraph arcs when they flatten the argument. Preserve useful parallelism, stable terminology, disciplinary conventions, and a clear author voice. Do not impose alternating sentence lengths, obligatory contrasts, extra complexity, or synonym rotation. A plain definition can stay plain. Check why each sentence and paragraph follows the previous one, not merely whether a transition word is present.
 
@@ -30,7 +32,7 @@ Let emphasis and logical relationships shape sentence and paragraph variation. A
 
 Before adding content, identify the passage's role in the research question and section. A topic label is not enough to supply a motivation or contribution. Where the study's purpose or evidence is missing, flag the exact dependency rather than drafting a generic claim about importance, rapid progress, or urgent need. Keep the scope local for a local edit.
 
-Use the introduction's narrowing argument to judge whether a sentence advances context, established work, gap, motivation, or contribution. In a literature review, connect source-supported research threads and explain prior work; do not add contrasts with the present paper by default. In Methods, remove repeated explanations while preserving operation order. In Results and the ending, preserve the study design's way of supporting its answer. These are reader functions, not mandatory paragraph labels. Prefer connected prose over contribution lists, metric lists, or one-sentence paper summaries unless that structure is requested or required.
+Use the introduction's narrowing argument to judge whether a sentence advances context, established work, gap, motivation, or contribution. In a literature review, develop the question through source-supported scientific points and explain prior work; do not prescribe categories or add contrasts with the present paper by default. In Methods, remove repeated explanations while preserving operation order. In Results and the ending, preserve the study design's way of supporting its answer. These are reader functions, not mandatory paragraph labels. Prefer connected prose over contribution lists, metric lists, or one-sentence paper summaries unless that structure is requested or required.
 
 ## Check words and sentences for professional usage
 
@@ -65,6 +67,8 @@ Keep technical terms stable rather than cycling through synonyms to create varie
 ## Verify the result and stop
 
 Reread the connected passage for logical progression, accurate terms and word combinations, clear referents, manageable clause structure, and a distinct purpose for each sentence. Check punctuation in context rather than using global replacement. Verify the diff against the supplied quantities, citations, assumptions, uncertainty, scope, and negation. Necessary limitations are part of the argument.
+
+Check the revision for surviving rhetorical scaffolding and semantic changes caused by simplification, including a lost comparison, ranking, sequence or distinction between simultaneous and separate findings. Keep this review internal unless the user requested it. File editing changes only the authorized prose, preserving equations, code, metadata, citation fields and link targets. Remove manuscript chat residue without deleting required disclosures or research-process descriptions.
 
 Compare the earlier and revised passage for two distinct outcomes, the intended problem being resolved and valid reasoning and information being retained. Follow propositions and logical dependencies rather than word count. Check moved content at its destination. Preserve supported factual corrections and useful compression, and restore only actual losses. If the earlier version or destination is unavailable, identify that limit instead of claiming a complete comparison. Use the study's disciplinary meaning, not a generic editor persona, to judge technical equivalence.
 

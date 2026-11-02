@@ -1,0 +1,32 @@
+{
+  "frozen_at_utc": "2026-11-02T22:58:19.451535+00:00",
+  "base_git_commit": "5d1fc81247531a58dc5b0995b2f699ada7761828",
+  "cases": {
+    "evals/academic-humanization/cases/prose.md": "471afda6948a24bdae839421beca56c525369236a26e83107008666457cb6d99",
+    "evals/academic-humanization/cases/transfer.md": "a7ffb63661029d3030041a604046f74b7d943dc4366db50892a25264d6af1946"
+  },
+  "rubric_sha256": "2857259f5e5421eacf5cbbb43e281585b5218deca9db58082ef93e487d52fb03",
+  "tested_skills": {
+    "skills/academic-prose-editing/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "skills/academic-prose-editing/SKILL.md": "fc88d88fefde5994331009241c58957990e77756f343b4fa890ed32331d237c0",
+    "skills/academic-prose-editing/agents/openai.yaml": "ff5844689e1334e798ce23f9c3eb7f1b0b7d0c35d095e7c69a83ae81fdcfce91",
+    "skills/academic-prose-editing/references/examples.md": "05a3b2be749488a12519cb733d800ea8ba1081ea31e74f69e0a7c41c33c25d31",
+    "skills/academic-prose-editing/references/reasoning-and-rhythm.md": "ba3cbf29a0a7f10193960a392357b6a9a04085b50af61ae77df11aba2cb80794",
+    "skills/academic-prose-editing/references/word-choice.md": "d86855094e8fc9fb38f9e236865a5e9645b307fbdbba3af3d9737646f6cdaf7c",
+    "skills/reviewer-response-writing/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "skills/reviewer-response-writing/SKILL.md": "4c9f05643bfbd423b1dd110b4090706268897c7e30015d6026e489e54fae3d30",
+    "skills/reviewer-response-writing/agents/openai.yaml": "bcf6b0e6180f0f2d6d60a8b19bc297762b3e8e05b31b280bf7b7683c369ec5d8",
+    "skills/reviewer-response-writing/references/manuscript-boundary.md": "31dbc5b83390634b258c4482f07c23c272b08335b2906d6e8c5ba11bce00bc89",
+    "skills/reviewer-response-writing/references/prose-policy.md": "40defcebeac7e5a890504dbc44a9154e7aeb860ac1648961a514a322c6841ee6",
+    "skills/reviewer-response-writing/references/response-patterns.md": "373ea35fd7119630c4367d94f7ea923cedba517a57258aadfbfe3a17f867294f",
+    "skills/research-manuscript-writing/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+    "skills/research-manuscript-writing/SKILL.md": "f0b4bccdd2b0f71585c03ee9b7069d71c6d9ae47f3f3a3ef6b9d9e7ec41038ad",
+    "skills/research-manuscript-writing/agents/openai.yaml": "62a7ff375091baa65f15d69d4bf5a519bb5b0add273e1d00a067412617fb8112",
+    "skills/research-manuscript-writing/references/findings-and-endings.md": "114bc958341fe429641df4e206c91ffaa56378f0a9c55955d15b63c0def7fcb9",
+    "skills/research-manuscript-writing/references/latex-and-word.md": "41bf1e30478072a57c3cd013561d58e5356dd13531726cc0ab4412f293127eb5",
+    "skills/research-manuscript-writing/references/literature-to-story.md": "298cd734ca75573a850418827fec65eb110044bee61aa7ef668ec32968d5a6ca",
+    "skills/research-manuscript-writing/references/prose-policy.md": "40defcebeac7e5a890504dbc44a9154e7aeb860ac1648961a514a322c6841ee6",
+    "skills/research-manuscript-writing/references/section-reasoning.md": "4090d6bafb0ec5f87b585071d2604971c1cfb743b96066fd56f67f9eeee42bb1"
+  },
+  "scope": "Six fictional tasks in two guided participants, four of them also assigned to one no-repository-skill control; separate unblinded assessment. No prior output, rubric or proposed answer is provided to writers. Restrictions are prompt-based."
+}

@@ -1,0 +1,19 @@
+{
+  "review_date": "2026-11-02",
+  "repository": "https://github.com/blader/humanizer",
+  "revision": "0ef9fe5bc3572734fd3ae6c448fe00a30cd5dcf0",
+  "skill_version": "3.1.0",
+  "skill_url": "https://github.com/blader/humanizer/blob/0ef9fe5bc3572734fd3ae6c448fe00a30cd5dcf0/SKILL.md",
+  "license_url": "https://github.com/blader/humanizer/blob/0ef9fe5bc3572734fd3ae6c448fe00a30cd5dcf0/LICENSE",
+  "license": "MIT, copyright 2025 Siqi Chen",
+  "retrieval": "Read through GitHub connector; pinned content matched inspected main-branch content. Public README also inspected. No upstream code was run.",
+  "adaptation": "Original academic instructions informed by whole-passage rhetorical diagnosis, author samples and post-revision rereading. No upstream examples or instruction text bundled. Existing academic evidence and scope safeguards remain controlling.",
+  "academic_boundaries": [
+    "Automatic diagnosis from any single phrase or an authorship cutoff date",
+    "Blanket word bans or generic replacement of represent/associate with identity/causation",
+    "Adding personal reactions or matching punctuation frequency without explicit authorization",
+    "Mandatory alternating sentence lengths or draft-critique-final delivery",
+    "Removing study provenance, uncertainty or self-contained premises as conversational repetition"
+  ],
+  "interpretation_note": "These boundaries specify our academic use; they do not claim that the upstream project requires every excluded behavior. Humanizer also instructs writers to preserve meaning and contains contextual exceptions."
+}

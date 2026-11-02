@@ -1,0 +1,38 @@
+{
+  "baseline_commit": "5d1fc81247531a58dc5b0995b2f699ada7761828",
+  "changed_installed_skills": [
+    "academic-prose-editing",
+    "academic-writing-audit",
+    "claim-evidence-audit",
+    "experiment-comparison-audit",
+    "figure-caption-audit",
+    "manuscript-release-check",
+    "method-definition-audit",
+    "nondefensive-writing",
+    "related-work-synthesis",
+    "research-manuscript-writing",
+    "results-interpretation",
+    "reviewer-comment-triage",
+    "reviewer-response-writing",
+    "scientific-story-audit"
+  ],
+  "installed_baseline_matched_before_sync": true,
+  "installed_final_bytes_match": true,
+  "frozen_skill_files_verified": 20,
+  "historical_files_compared": 600,
+  "historical_changes": [
+    "evals/first-draft-progression/manifest.json"
+  ],
+  "historical_expected_hashes_preserved": true,
+  "unit_tests": {
+    "executed": 23,
+    "result": "passed",
+    "scripts_changed": false
+  },
+  "skill_creator_quick_validate": {
+    "initial_result": "Both available Python environments lacked PyYAML.",
+    "resolution": "Installed PyYAML 6.0.3 into a temporary task directory; no project or shared runtime dependencies were changed.",
+    "final_result": "Skill is valid."
+  },
+  "scope": "Shared guidance synchronized through the existing declared-copy mechanism. The maintained evaluation index is updated separately. Structural checks do not establish writing quality."
+}

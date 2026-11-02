@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-02",
+  "base_commit": "5d1fc81247531a58dc5b0995b2f699ada7761828",
+  "writers": [
+    {
+      "agent": "humanization_prose_trial",
+      "context": "fresh",
+      "case": "cases/prose.md",
+      "output": "runs/prose.md",
+      "skill": "academic-prose-editing",
+      "references": [
+        "reasoning-and-rhythm.md",
+        "word-choice.md",
+        "examples.md"
+      ]
+    },
+    {
+      "agent": "humanization_transfer_trial",
+      "context": "fresh",
+      "case": "cases/transfer.md",
+      "output": "runs/transfer.md",
+      "skills": [
+        "reviewer-response-writing",
+        "research-manuscript-writing"
+      ],
+      "references": [
+        "response-patterns.md",
+        "manuscript-boundary.md",
+        "section-reasoning.md",
+        "prose-policy.md in each invoked skill"
+      ]
+    },
+    {
+      "agent": "humanization_control_trial",
+      "context": "fresh",
+      "case": "cases/prose.md",
+      "output": "runs/control.md",
+      "skills": []
+    }
+  ],
+  "assessor": {
+    "agent": "humanization_independent_assessment",
+    "context": "fresh",
+    "inputs": "cases, frozen rubric and full outputs; condition labels visible, no skills or proposed outcome",
+    "output": "assessment.md",
+    "follow_up": "The coordinator supplied the existing six-sentence ceiling rule after noticing an assessment misreading. A separate assessment-addendum.md corrects that issue without modifying earlier artifacts."
+  },
+  "limits": [
+    "No model override requested; shared runtime and general instructions remain in all conditions.",
+    "Prompt-based restricted directories; no filesystem security isolation.",
+    "Six guided task units and four matched controls, one output per condition and task; no causal or general improvement claim.",
+    "No private study material, live reference retrieval, native document operations or rendered-file validation."
+  ]
+}

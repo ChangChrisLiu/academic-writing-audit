@@ -52,7 +52,10 @@
         "related-work-synthesis/SKILL.md": "ea5ab92d062c894b9cb620626dc05f2866acb37a3bfce08352b27cb50eeb5f11",
         "related-work-synthesis/agents/openai.yaml": "b48ccd7b2a9c525ed066548930682e1114f2ed948ba87dd627605aab4b97becf",
         "related-work-synthesis/references/prose-policy.md": "5e966bc0d89af9972b9b584e9bf67a461f581d84c63854c3bf29d1913c57e788"
-      }
+      },
+      "git_commit": "5d1fc81247531a58dc5b0995b2f699ada7761828"
     }
-  }
+  },
+  "source_git_commit": "5d1fc81247531a58dc5b0995b2f699ada7761828",
+  "historical_resolution": "Original v0.9.1 record and tested skill bytes resolve at this commit; expected hashes are unchanged."
 }

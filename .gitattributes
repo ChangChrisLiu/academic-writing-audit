@@ -21,3 +21,6 @@ evals/word-citation-transfer/runs/control/output/static-extraction.txt whitespac
 
 # Preserve the first-draft control answer exactly as captured.
 evals/first-draft-progression/runs/control.md whitespace=-blank-at-eof
+
+# Preserve the captured academic-humanization answer byte for byte.
+evals/academic-humanization/runs/prose.md whitespace=-blank-at-eof
