@@ -39,6 +39,7 @@ The linked records preserve their original procedures, complete public outputs, 
 | [Response-writing transfer](reviewer-response-writing/transfer/README.md) | Cross-domain outputs, scope ambiguities, targeted regressions and assessments. | Guided same-host trials; no unguided control. |
 | [Reference integrity](reference-integrity/README.md) | Independent public-reference checks and fictional LaTeX/Word audits. | Retains incomplete Scholar access; does not prove exports, compilation or native refresh. |
 | [Reference workflow execution](reference-workflow/README.md) | Source captures, Cite → BibTeX export, LaTeX source changes, build/render evidence and the initial blocked Word attempt. | Operational evidence is scoped to the tested records and artifacts. |
+| [Scholar-only BibTeX](scholar-export-only/README.md) | Two live Cite → BibTeX captures, exact-copy repair and an unknown-provenance hold. | One public journal article, one compiled fixture and a closed packet. |
 | [Native Word follow-up](word-native-refresh/README.md) | Actual style selection, field refresh, save, reopen, structure checks and page evidence. | One constructed fixture; same operator and assessor, no general integration claim. |
 | [Word citation transfer](word-citation-transfer/README.md) | Guided and control reports, citation mappings, footnotes, captions and preserved fields. | The control also passed; static/package checks do not establish native refresh for these cases. |
 

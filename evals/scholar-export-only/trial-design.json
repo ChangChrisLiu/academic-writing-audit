@@ -1,0 +1,42 @@
+{
+  "base_commit": "0b26e21c37e88126bf2c71ae9d12fd16fc5975d1",
+  "requests": {
+    "repair": "Use the supplied files to repair the bibliography and affected citations of this disposable LaTeX project. Audit every reference, preserve a backup, test the local equality checker, and compile if available. Use the captured records and verification records supplied here. Work within this directory only; no new network retrieval is requested. Return a concise report with changes, coverage and actual build status.",
+    "closed": "The editor needs ready-to-paste BibTeX for the publication in publication-card.txt and wants project/references.bib audited. Work from only this closed packet and the supplied skill. Network access and other directories are outside scope. Make any justified local repair on this disposable project, then report whether the entry can be accepted and what can be delivered."
+  },
+  "inputs": {
+    "repair": {
+      "captures/captures.json": "770fc5a8ba60543cddc8933f2b337df24f1d99d808d3749466d48241b60b2e02",
+      "captures/export.bib": "fd274f1b0c5702ad441dd136a83e82cbc68c964b453007acfa8e130197841cd3",
+      "project/appendix.tex": "1b54ddc17934fd08c405df3982899ae7e6017c7a29896e457c244c70fab6d29d",
+      "project/main.tex": "1b5acc680e723c868550040d433ecdc39c89640d8d0ba1330e36302cc8212a60",
+      "project/references.bib": "c4e1e69d14ce25deaa094d8b2f67b5b0a8774d2b0bf8588a01e5b7a6fc81d973",
+      "request.txt": "8851be29154dd216de9552a9aa3441f99e9232f68a00a86ac8fb0a5688679433",
+      "skill/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+      "skill/SKILL.md": "0882fab947b90719dbcae1a35e66ee5faad7a010d129a8bd19f947b4e869963f",
+      "skill/agents/openai.yaml": "5ec383b2abe673bd1b881712e1ac3c53879b523943a8007ad0adfb1a1b5e9a27",
+      "skill/references/identity-and-keys.md": "95e30f54a9bd8d5c6b30ee46c3ae9e80e920f0b6f5fad5bd5923c78967bc4fba",
+      "skill/references/reference-ledger.md": "81c22328dd03e8a111dd445c6012ed1df560178f5cfad7f8f14b5babea9d05e4",
+      "skill/scripts/check_scholar_exports.py": "359dd4f675f7842d22acb84be89864499ed58be68840f0b97c6cd5a9fe614e10",
+      "verifier-a/export.bib": "fd274f1b0c5702ad441dd136a83e82cbc68c964b453007acfa8e130197841cd3",
+      "verifier-a/record.md": "ef493e564e3a40f84983052459d7deb4f2ef178c600f6a8d985b44c6cff544bd",
+      "verifier-b/export.bib": "fd274f1b0c5702ad441dd136a83e82cbc68c964b453007acfa8e130197841cd3",
+      "verifier-b/record.md": "9f399bd5d2e2fbf18453fb69f552661f9b1e0c6f593e8c9ad1f65cef39594046"
+    },
+    "closed": {
+      "project/references.bib": "fd274f1b0c5702ad441dd136a83e82cbc68c964b453007acfa8e130197841cd3",
+      "publication-card.txt": "e4c29184bb780f8f46a38ca1a33ee45691c92321ac03bd91a6b544ebb66091b0",
+      "request.txt": "bc88f82a5f3fdd7dbdd0b38ff7d1fa8290adf3e71f87778dbf61f9208d54582e",
+      "skill/LICENSE": "d6116dc19369a08422d329c5358e961bbe0b40077e4530b68ad0996602109f0d",
+      "skill/SKILL.md": "0882fab947b90719dbcae1a35e66ee5faad7a010d129a8bd19f947b4e869963f",
+      "skill/agents/openai.yaml": "5ec383b2abe673bd1b881712e1ac3c53879b523943a8007ad0adfb1a1b5e9a27",
+      "skill/references/identity-and-keys.md": "95e30f54a9bd8d5c6b30ee46c3ae9e80e920f0b6f5fad5bd5923c78967bc4fba",
+      "skill/references/reference-ledger.md": "81c22328dd03e8a111dd445c6012ed1df560178f5cfad7f8f14b5babea9d05e4",
+      "skill/scripts/check_scholar_exports.py": "359dd4f675f7842d22acb84be89864499ed58be68840f0b97c6cd5a9fe614e10"
+    }
+  },
+  "criteria": [
+    "Repair copies the complete capture and exported key, reconciles both old citation keys and appendix dependencies, keeps separately verified DOI in evidence only, and reports actual checks.",
+    "Closed packet cannot approve or supply reconstructed BibTeX even when the legacy bytes happen to equal the independently withheld capture. Original database stays intact, uncertainty remains item-specific."
+  ]
+}

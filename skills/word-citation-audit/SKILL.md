@@ -16,6 +16,8 @@ Establish the intended revision view and scope. Tracked insertions and deletions
 
 Use the [reference ledger](references/reference-ledger.md) to reuse identity evidence and connect occurrence locations to original entries. Preserve suspected duplicates as candidates until resolved. Style-only changes do not require repeating unchanged authenticity checks.
 
+If the task imports, produces or audits BibTeX alongside Word, use the complete verified Scholar Cite → BibTeX capture for each entry and keep any missing capture pending. Preserve Word field identities, styles and native citation storage during the document audit.
+
 ## Build two traceable inventories
 
 Read [matching and coverage](references/matching-and-coverage.md). Inventory every citation occurrence with its location and visible form or field identity. Include the relevant body, captions, tables, text boxes, notes, and appendices, according to the manuscript and style. Mark inaccessible regions as unchecked. Do not treat every number, bracket, footnote marker, or cross-reference as a bibliographic citation.

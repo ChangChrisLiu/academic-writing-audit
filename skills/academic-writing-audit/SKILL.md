@@ -59,6 +59,8 @@ Necessary negation, eligibility rules, uncertainty, unequal budgets, and genuine
 
 Read the [prose policy](references/prose-policy.md) when drafting or revising manuscript prose or audit explanations. Preserve scientific meaning, valid terminology, necessary conditions, and sound author choices. Resolve labels against operational definitions, and do not invent a mechanism or property in either the manuscript or the diagnosis. A writing preference does not authorize out-of-scope edits.
 
+When bibliography provenance is in scope, compare every working BibTeX entry with the actual Google Scholar Cite → BibTeX capture for its independently verified work/version. Report missing exports, textual differences and identity conflicts per entry. Keep unresolved entries pending, including when their publisher metadata appears complete.
+
 ## Deliver a bounded result
 
 For an audit, provide a short overall judgment, prioritized findings with locations and evidence, explicit keep decisions, and material unresolved facts. Distinguish scientific errors, missing explanations, and optional style preferences.

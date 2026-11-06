@@ -45,6 +45,8 @@ Compare supplied earlier and revised passages for both concern resolution and pr
 
 ## Deliver in the requested medium
 
+When adding, returning or validating BibTeX, use each intended publication's actual Google Scholar Cite → BibTeX entry verbatim, with its exported key. Retain its provenance and check identity against primary records through the two independent verifiers. Missing export or unresolved identity leaves the reference pending outside the prose. Preserve existing citation markers during a prose-only edit. Never synthesize BibTeX from source cards, DOI metadata or memory.
+
 Read [LaTeX and Word delivery](references/latex-and-word.md) for a formatted draft or source edit. Maintain the existing template, citation system, and cross-references. Prose quality and successful document rendering are separate checks. Never claim a compiled PDF or validated Word layout from text inspection alone.
 
 Return the requested section or document, material unresolved facts, and brief reasons for substantive changes. Keep reviewer-response status and negotiation language outside manuscript exposition. Finish by tracing the question through motivation, contribution, evidence, and conclusion; each section should advance its own job without replaying the whole story. Stop when the requested draft or repair is supported and checked.

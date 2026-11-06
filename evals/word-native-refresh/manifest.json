@@ -31,5 +31,7 @@
     "skills/word-citation-audit/agents/openai.yaml": "7076f33e8a22ad5b2a94dc2a92c6368c0cc698c3c2ff70a68641ede9ca0e3946",
     "skills/word-citation-audit/references/matching-and-coverage.md": "ef76226753e8869fc6b490514602746a3dbbba8468e4d4c4f3e6e003eb888a85",
     "skills/word-citation-audit/references/reference-ledger.md": "c6c5b5f81bb3926dbe942a954c04dd2564cdc7a9542cf85b8a011826efc1140a"
-  }
+  },
+  "source_git_commit": "0b26e21c37e88126bf2c71ae9d12fd16fc5975d1",
+  "strict_export_resolution": "Previously unpinned evidence and skill hashes resolve at the pre-change revision. All expected digests are preserved."
 }

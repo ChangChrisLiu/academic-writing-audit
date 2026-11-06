@@ -95,7 +95,10 @@
         "scientific-story-audit/SKILL.md": "5417430b272761e4d4fffe2e0ee7cbeca14a3a7d4f0dbcab689def173a988e49",
         "scientific-story-audit/agents/openai.yaml": "9f506d62cf550225ca13f470868fa9068388d827ed53f1f8b287f12d3d2aef84",
         "scientific-story-audit/references/prose-policy.md": "40defcebeac7e5a890504dbc44a9154e7aeb860ac1648961a514a322c6841ee6"
-      }
+      },
+      "git_commit": "0b26e21c37e88126bf2c71ae9d12fd16fc5975d1"
     }
-  }
+  },
+  "source_git_commit": "0b26e21c37e88126bf2c71ae9d12fd16fc5975d1",
+  "strict_export_resolution": "Previously unpinned evidence and skill hashes resolve at the pre-change revision. All expected digests are preserved."
 }

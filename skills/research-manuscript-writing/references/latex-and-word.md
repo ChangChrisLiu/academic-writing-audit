@@ -18,6 +18,10 @@ For an actual `.docx`, use native paragraph and heading styles, editable equatio
 
 Check heading hierarchy, paragraph boundaries, tables, equation text, references, and the absence of conversion debris. Inspect the rendered document when tools and scope permit. A file that opens as a ZIP or contains valid XML is not proof of correct Word layout. Plain-text delivery is not a created or validated `.docx`.
 
+## Adding or accepting BibTeX
+
+For every new or audited bibliography entry, copy the complete Google Scholar Cite → BibTeX output for the verified work/version, including its key. Retain its raw capture and compare the working entry with it. Cross-check the export with primary publication evidence and two independent identity checks. Keep publisher-only fields in the editorial ledger. If a capture is missing or a version or key conflict remains, mark the citation pending outside the prose and leave the bibliography untouched for that item. Never generate a bibliography entry from plausible metadata. Existing citations supplied for a prose-only task can be preserved without asserting their verification.
+
 ## Citation and section consistency
 
 Place a citation close to the proposition it supports, preserve author-approved quotation text, and keep bibliography entries aligned with supplied sources. Check that references survive a conversion and that method names and units remain stable. Use substantive headings for long literature threads when useful, without constructing a taxonomy or inserting mini-headings before every paragraph. Author and publisher requirements override the library's default presentation preferences.

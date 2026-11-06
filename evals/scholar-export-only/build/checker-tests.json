@@ -1,0 +1,22 @@
+[
+  {
+    "test": "Original backup",
+    "exit": 1,
+    "output": "{\n  \"check\": \"local entry equality only\",\n  \"entries\": [\n    {\n      \"database\": \"references.bib\",\n      \"key\": \"breiman2001\",\n      \"status\": \"no capture for working key\"\n    },\n    {\n      \"database\": \"references.bib\",\n      \"key\": \"breiman_short\",\n      \"status\": \"no capture for working key\"\n    },\n    {\n      \"key\": \"breiman2001random\",\n      \"status\": \"capture missing from working bibliography\"\n    }\n  ]\n}"
+  },
+  {
+    "test": "Repaired project",
+    "exit": 0,
+    "output": "{\n  \"check\": \"local entry equality only\",\n  \"entries\": [\n    {\n      \"database\": \"references.bib\",\n      \"key\": \"breiman2001random\",\n      \"status\": \"exact entry match\"\n    }\n  ]\n}"
+  },
+  {
+    "test": "Single title-character drift",
+    "exit": 1,
+    "output": "{\n  \"check\": \"local entry equality only\",\n  \"entries\": [\n    {\n      \"database\": \"altered.bib\",\n      \"key\": \"breiman2001random\",\n      \"status\": \"differs from export\"\n    }\n  ]\n}"
+  },
+  {
+    "test": "Capture digest drift",
+    "exit": 2,
+    "output": "Comparison incomplete: export.bib: capture digest mismatch"
+  }
+]

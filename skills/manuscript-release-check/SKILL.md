@@ -22,6 +22,8 @@ Read current artifacts independently of earlier completion summaries. Separate o
 4. **Transfer:** Distinguish a recorded paste or upload from independently verified persisted contents. Confirm the destination identity and intended source or artifact when accessible. A source transfer, successful remote build, and matching exported PDF require separate evidence; none follows merely from an editor action log.
 5. **Submission:** Inspect the actual state or receipt when this is within scope. An attachment listed in a draft confirms neither final submission nor public availability. Link any observed receipt to the intended artifact and action. Do not infer completion from a button click or present a future step as already performed.
 
+When the release claims verified BibTeX, require a per-entry ledger linking the intended publication, its two independent identity checks, its actual Google Scholar Cite → BibTeX capture and the matching complete entry in the built source. Report coverage and unresolved items separately from build success.
+
 ## Leave a recoverable handoff
 
 Use these fields when another agent must continue; omit only genuinely irrelevant fields:

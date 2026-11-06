@@ -34,6 +34,8 @@ Treat supplied sources as candidates, not a coverage checklist. Include a study 
 
 Give each paragraph a scientific point, the sources supporting it, and a connection to the next point. Put citations beside the propositions they support. Split claims with different source support when needed. Preserve accurate author-approved prose instead of forcing every review into the same shape.
 
+When adding, returning or validating BibTeX, use each intended publication's actual Google Scholar Cite → BibTeX entry verbatim, with its exported key. Retain its provenance and check identity against primary records through the two independent verifiers. Missing export or unresolved identity leaves the reference pending outside the prose. Preserve existing citation markers during a prose-only edit. Never synthesize BibTeX from source cards, DOI metadata or memory.
+
 In LaTeX, preserve the existing section commands, citation commands and keys, labels, and bibliography system. In Word, use the supplied citation style and native heading and paragraph styles when editing a document; preserve reference-manager fields. Paste-ready Word prose should not contain Markdown heading marks, LaTeX commands, or invented bibliographic details. Claim compilation or rendered layout checks only when performed. Author or venue requirements govern headings and formatting.
 
 ## Worked example

@@ -2,15 +2,16 @@
 
 | Case | Action |
 | --- | --- |
-| Two keys, same verified publication/version, different capitalization or abbreviated venue | One publication. Use the intended Scholar export's bibliographic fields and a stable project key; update dependent citations. |
+| Two keys, same verified publication/version, different capitalization or abbreviated venue | One publication. Copy the captured entry exactly and map existing citations to its exported key. |
 | Same DOI but incompatible title/authors | Investigate the erroneous identifier before merging. |
 | Preprint and later journal article | Preserve if separately intended. If the author wants all citations to the published version, verify equivalence for those cited claims before replacing them. |
-| Same key assigned to different articles | Resolve each citation's intent, create distinct keys, and update only justified occurrences. |
+| Same legacy key assigned to different articles | Resolve each occurrence to its intended verified work. Use each work's exported key. Two conflicting Scholar exports with the same key require a hold. |
 | Same title, different authors or venues | Treat as separate candidates until identity is established. |
 | Two distinct exports for one intended version disagree | Retain both captures and report the discrepancy; do not silently blend fields or invent a third canonical export. |
-| Export lacks a DOI or another field already verified in the working record | Keep the raw export unchanged and retain the verified working field with its source. Export omission is not evidence that the field is wrong. |
-| Export lacks a field whose existing value is unverified | Keep the original recoverable, mark the working value pending, and verify it before accepting it. Do not silently discard it or call it false. |
-| A new supplemental field is requested or required by the style | Add it only after exact-version verification and identify its source separately from the raw export. |
+| Captured entry omits an existing verified DOI or other field | Back up the old entry. Store the extra field and its provenance in the ledger only. Copy the complete export when authorized. |
+| Captured entry omits a field whose existing value is unverified | Preserve the old input and record the unknown value outside the canonical entry. Investigate identity discrepancies before accepting. |
+| Export unavailable, even with complete publisher metadata | Leave the old entry untouched or a new citation pending. Supply no reconstructed BibTeX. |
+| Local style or encoding requires different BibTeX | Hold the incompatibility for review and preserve the export as captured. |
 | A database entry is uncited | It may belong to a shared library. Do not remove it automatically. |
 | `\nocite{*}` prints a library | Flag the resulting coverage and author intent; do not silently remove intentional bibliography entries. |
 
@@ -18,7 +19,7 @@ Example of a source-aware mapping for a confirmed duplicate:
 
 ```text
 retired key: river_short
-surviving key: river2024
+exported key: river2024
 identity: same verified work and version
 canonical data: captured Scholar Cite → BibTeX export
 affected citations: main text, included appendix, figure caption

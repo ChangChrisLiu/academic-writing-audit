@@ -26,6 +26,10 @@ Distinguish a tool/parser failure, a site access restriction, and a genuine sear
 
 Scholar's [official help](https://scholar.google.com/intl/en/scholar/help.html) explains citation exports, coverage limits, and automated metadata extraction. Index absence and extraction error are possible. Do not turn its search result or citation count into a quality or authenticity guarantee.
 
+## Cross-check a BibTeX record against the actual export
+
+For every supplied or requested BibTeX entry, obtain the intended result's actual **Cite → BibTeX** output or a retained capture with verifiable provenance. Compare its title, ordered authors, year and venue with each verifier's independent identity evidence and primary record. Record export provenance and exact working-entry equality separately from existence, version and process. Evidence that the paper exists can resolve its identity while the BibTeX step remains pending. A working entry can match a capture while a year or version conflict still blocks acceptance. Include all in-scope entries in coverage totals. When the export is missing or conflicting, report that outcome and preserve the original. Only the captured text can supply the accepted BibTeX, including its key. Keep any independently verified supplemental metadata in the ledger.
+
 ## Capture each agent's evidence
 
 For every reference, record the original ID; exact query and observed source URLs; inspection time; intended work/version; observed full title, complete ordered authors, publication year, and venue; field matches or discrepancies; and source/access limitations. Use actually observed values. Mark unknown fields unknown. Retain a reviewable source artifact for the consequential field decisions when permitted, such as the downloaded export, a minimal metadata excerpt, or a screenshot of the relevant public record, with its source and capture time. Distinguish directly inspected content from search-index snippets. Report when evidence could not be retained; a written assertion of a visit is not execution proof. Keep account details, session parameters, and unrelated page content out of public records. Do not bulk scrape.
@@ -45,8 +49,9 @@ Use separate status dimensions rather than a vague pass:
 | Version | Intended version matched / different version / unresolved |
 | Primary corroboration | Intended-version publication evidence checked by each agent / incomplete |
 | Process | Two independent Scholar-first checks completed / incomplete, with reason |
+| BibTeX, when in scope | Capture and exact working match / missing capture / differs / blocked by identity or key conflict |
 
-A reference is **fully verified under this workflow** only when both independent Scholar-first checks and primary-source corroborations are complete and the required fields and intended version match with no unresolved evidence conflict. Correctable mismatches remain findings until the corrected entry has been checked. Do not label a work nonexistent solely because it was not found.
+A reference is **fully verified under this workflow** only when both independent Scholar-first checks and primary-source corroborations are complete and the required fields and intended version match with no unresolved evidence conflict. For BibTeX acceptance, additionally require a traceable matching Cite → BibTeX capture and exact working-entry text. Correctable mismatches remain findings until the corrected entry has been checked. Do not label a work nonexistent solely because it was not found.
 
 ## Deliver a bounded record
 
