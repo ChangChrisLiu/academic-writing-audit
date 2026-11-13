@@ -1,4 +1,4 @@
 interface:
   display_name: "LaTeX Bibliography Audit"
-  short_description: "Require verbatim Google Scholar BibTeX exports"
-  default_prompt: "Use $latex-bibliography-audit to compare every scoped entry with its actual Google Scholar Cite to BibTeX export, retain the complete exported entry and key, and report missing captures or identity conflicts."
+  short_description: "Audit Scholar exports and title symbol rendering"
+  default_prompt: "Use $latex-bibliography-audit to compare every scoped entry with its actual Google Scholar Cite to BibTeX export, preserve the exported key and fields except for documented title-symbol rendering corrections, and report missing captures or identity conflicts."

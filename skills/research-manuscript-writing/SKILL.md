@@ -10,6 +10,8 @@ Understand the study before writing its story. Produce concise, connected prose 
 
 ## Establish the study before drafting
 
+For online literature work, each retrieving agent must use a confirmed Incognito/Private browser context and retain the observed browser indicator or explicit tool metadata. A new tab or named session alone does not establish this mode. If the tool cannot confirm or control private mode, stop online retrieval and continue with supplied materials, reporting the limitation. Existing evidence with unknown or ordinary mode remains historical and needs fresh private retrieval to meet the current requirement.
+
 Read the current manuscript or research packet and identify the requested mode: audit, draft, or authorized file edit. Establish the research question, audience, study design, contribution, strongest supported finding, and its limits. Preserve sound passages and the author's terminology. A method name or fashionable topic cannot supply the study's rationale.
 
 For an idea-led first draft or substantive reframing, read [literature investigation and story development](references/literature-to-story.md) before fixing the story. This mode requires at least two separate agents to investigate overlapping decisive questions independently, then reciprocally review the source-supported findings before synthesis. Follow its discovery, prior-attempt, critique, and handoff procedure. Reuse an adequate research record and update only material gaps. If agents or sources are unavailable or outside scope, provide a bounded single-agent or supplied-source account and identify the incomplete checks. Local wording edits do not trigger this workflow.
@@ -45,7 +47,7 @@ Compare supplied earlier and revised passages for both concern resolution and pr
 
 ## Deliver in the requested medium
 
-When adding, returning or validating BibTeX, use each intended publication's actual Google Scholar Cite → BibTeX entry verbatim, with its exported key. Retain its provenance and check identity against primary records through the two independent verifiers. Missing export or unresolved identity leaves the reference pending outside the prose. Preserve existing citation markers during a prose-only edit. Never synthesize BibTeX from source cards, DOI metadata or memory.
+When adding, returning or validating BibTeX, use each intended publication's actual Google Scholar Cite → BibTeX entry, with its exported key and fields preserved. Allow only a documented title-symbol rendering correction confirmed by the intended paper's displayed title, with the same words, numbers and meaning. Preserve the raw export and exact before/after change, and distinguish this exception from a byte-identical match. Retain its provenance and check identity against primary records through the two independent verifiers. Missing export or unresolved identity leaves the reference pending outside the prose. Preserve existing citation markers during a prose-only edit. Never synthesize BibTeX from source cards, DOI metadata or memory.
 
 Read [LaTeX and Word delivery](references/latex-and-word.md) for a formatted draft or source edit. Maintain the existing template, citation system, and cross-references. Prose quality and successful document rendering are separate checks. Never claim a compiled PDF or validated Word layout from text inspection alone.
 

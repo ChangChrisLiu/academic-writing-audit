@@ -76,7 +76,10 @@
         "word-citation-audit/agents/openai.yaml": "7076f33e8a22ad5b2a94dc2a92c6368c0cc698c3c2ff70a68641ede9ca0e3946",
         "word-citation-audit/references/matching-and-coverage.md": "ef76226753e8869fc6b490514602746a3dbbba8468e4d4c4f3e6e003eb888a85",
         "word-citation-audit/references/reference-ledger.md": "81c22328dd03e8a111dd445c6012ed1df560178f5cfad7f8f14b5babea9d05e4"
-      }
+      },
+      "git_commit": "5a51aa1915f95eae4f292cfb80d57914e7e45fbe"
     }
-  }
+  },
+  "source_git_commit": "5a51aa1915f95eae4f292cfb80d57914e7e45fbe",
+  "path_resolution": "Resolve original files and skill versions at their recorded commits. Original hashes and historical browser observations are unchanged."
 }

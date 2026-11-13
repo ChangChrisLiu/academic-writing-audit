@@ -70,7 +70,7 @@ npx skills add ChangChrisLiu/academic-writing-audit --skill '*' -a codex
 
 完整 skill 文件夹已附带所需共享资源的本地副本，不依赖其他已安装 skill。
 
-文献真实性核验要求两个独立 agent 从 Google Scholar 开始检查；每条正式 BibTeX 必须原样取自目标版本的 Scholar Cite → BibTeX，连引用键也按导出保留。没有导出的条目列为待处理，agent 不能自行拼写。缺少相应能力时继续报告已取得的证据，并明确哪些步骤尚未完成。具体边界见[文献指南](docs/reference-guide.md)。
+文献真实性核验要求两个独立 agent 各自在已确认的无痕窗口中从 Google Scholar 开始检查，并记录模式依据。每条正式 BibTeX 必须取自目标版本的 Scholar Cite → BibTeX，引用键和各字段按导出保留。仅允许根据论文原题恢复标题中的特殊符号或数学表示，保留原始导出和修改记录，标题含义与其他字段不变。没有导出的条目列为待处理，agent 不能自行拼写。缺少相应能力时继续报告已取得的证据，并明确哪些步骤尚未完成。具体边界见[文献指南](docs/reference-guide.md)。
 
 ## 从理解到验证
 

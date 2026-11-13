@@ -59,7 +59,9 @@ Necessary negation, eligibility rules, uncertainty, unequal budgets, and genuine
 
 Read the [prose policy](references/prose-policy.md) when drafting or revising manuscript prose or audit explanations. Preserve scientific meaning, valid terminology, necessary conditions, and sound author choices. Resolve labels against operational definitions, and do not invent a mechanism or property in either the manuscript or the diagnosis. A writing preference does not authorize out-of-scope edits.
 
-When bibliography provenance is in scope, compare every working BibTeX entry with the actual Google Scholar Cite → BibTeX capture for its independently verified work/version. Report missing exports, textual differences and identity conflicts per entry. Keep unresolved entries pending, including when their publisher metadata appears complete.
+For online literature checks, every retrieving agent must confirm Incognito/Private browser mode from an observed indicator or explicit tool metadata and retain that evidence. If the mode cannot be confirmed or controlled, stop online retrieval and report that step incomplete while continuing local checks. Historical captures without mode evidence do not fulfill this requirement.
+
+When bibliography provenance is in scope, compare every working BibTeX entry with the actual Google Scholar Cite → BibTeX capture for its independently verified work/version. Allow only a documented title-symbol rendering correction confirmed against the intended paper, preserving the same title words, numbers and meaning and every other field. Retain the raw export and exact before/after change. Report exact matches, verified title-symbol normalizations, other textual differences and identity conflicts separately. Keep unresolved entries pending, including when their publisher metadata appears complete.
 
 ## Deliver a bounded result
 

@@ -71,7 +71,7 @@ The accusation and reassurance disappear. The operative rule, denominator, and s
 
 [Download a portable release bundle](https://github.com/ChangChrisLiu/academic-writing-audit/releases/latest), or install selected skills below.
 
-The library uses the [Agent Skills format](https://agentskills.io/specification): a Markdown entrypoint, optional local references, and a license in each skill folder. The skills require no particular model or agent provider. The reference-authenticity workflow specifically requires Google Scholar access and two independent agents. Every accepted BibTeX entry must exactly reproduce its traceable Scholar Cite → BibTeX export, including the key. A missing export leaves the entry pending. Clients without these capabilities can report partial findings but cannot claim those steps complete. Client discovery and model behavior can differ.
+The library uses the [Agent Skills format](https://agentskills.io/specification): a Markdown entrypoint, optional local references, and a license in each skill folder. The skills require no particular model or agent provider. The reference-authenticity workflow specifically requires Google Scholar access and two independent agents. Each retrieving agent must use and record confirmed Incognito/Private browser mode. Every accepted BibTeX entry must use its traceable Scholar Cite → BibTeX export, including the key. Only documented title-symbol rendering corrections are permitted, with the same title identity and all other fields unchanged. A missing export leaves the entry pending. Clients without these capabilities can report partial findings but cannot claim those steps complete. Client discovery and model behavior can differ.
 
 ### With the Skills CLI
 

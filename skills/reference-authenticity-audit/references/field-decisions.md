@@ -5,6 +5,7 @@ Exact matching is bibliographic identity, not a fuzzy title score. Verify all me
 | Observation | Decision |
 | --- | --- |
 | Case, TeX escaping, typographic apostrophe, or Unicode normalization differs | Preserve the recorded forms; accept only meaning-preserving typographic equivalence. |
+| Scholar flattens a mathematical name or special symbol in the title | Verify the same title and notation in the intended paper. Allow only the ledger's documented title-symbol rendering change, with the raw export retained and all other fields unchanged. |
 | Initials or a venue abbreviation appear | Resolve through a full source record; do not guess expansion or call a truncated snippet a complete author check. |
 | Subtitle, author, author order, year, or journal differs | Record a field mismatch until source evidence resolves it. An abbreviated display alone does not establish absence. |
 | Online-first 2023, issue date 2024 | Determine which publication/version and date rule the citation uses. Keep the distinction explicit; do not arbitrarily choose the earlier date. |

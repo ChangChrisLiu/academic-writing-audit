@@ -2,7 +2,7 @@
 
 | Case | Action |
 | --- | --- |
-| Two keys, same verified publication/version, different capitalization or abbreviated venue | One publication. Copy the captured entry exactly and map existing citations to its exported key. |
+| Two keys, same verified publication/version, different capitalization or abbreviated venue | One publication. Copy the captured entry with only a documented title-symbol rendering exception and map existing citations to its exported key. |
 | Same DOI but incompatible title/authors | Investigate the erroneous identifier before merging. |
 | Preprint and later journal article | Preserve if separately intended. If the author wants all citations to the published version, verify equivalence for those cited claims before replacing them. |
 | Same legacy key assigned to different articles | Resolve each occurrence to its intended verified work. Use each work's exported key. Two conflicting Scholar exports with the same key require a hold. |
@@ -11,7 +11,8 @@
 | Captured entry omits an existing verified DOI or other field | Back up the old entry. Store the extra field and its provenance in the ledger only. Copy the complete export when authorized. |
 | Captured entry omits a field whose existing value is unverified | Preserve the old input and record the unknown value outside the canonical entry. Investigate identity discrepancies before accepting. |
 | Export unavailable, even with complete publisher metadata | Leave the old entry untouched or a new citation pending. Supply no reconstructed BibTeX. |
-| Local style or encoding requires different BibTeX | Hold the incompatibility for review and preserve the export as captured. |
+| Flattened title notation such as `pi0.5` | Confirm the actual symbol and typography from the intended paper. Change only the title representation, preserve the raw export and record the exact change under the ledger's title-symbol exception. |
+| Local style or encoding requires other changes to BibTeX | Hold the incompatibility for review and preserve the export as captured. |
 | A database entry is uncited | It may belong to a shared library. Do not remove it automatically. |
 | `\nocite{*}` prints a library | Flag the resulting coverage and author intent; do not silently remove intentional bibliography entries. |
 
