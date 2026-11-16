@@ -16,6 +16,8 @@
 | A database entry is uncited | It may belong to a shared library. Do not remove it automatically. |
 | `\nocite{*}` prints a library | Flag the resulting coverage and author intent; do not silently remove intentional bibliography entries. |
 
+If an author supplies the Scholar export for a dataset preprint and the project cites the conference demonstration, use the supplied preprint as the target. Match the title, identifier and cited use before choosing the record, even if the authors and year agree. When an authorized repair restores a supplied export, identify it as author-supplied and record any missing independent retrieval. Keep the demonstration as a separate reference only where the manuscript actually cites it.
+
 Example of a source-aware mapping for a confirmed duplicate:
 
 ```text
